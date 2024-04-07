@@ -1,0 +1,297 @@
+{
+  "resolvedId": "E:/Projects/JavaRayaInternational/website/components/MobileNavigation.vue?vue&type=style&index=0&lang.scss?inline&used",
+  "transforms": [
+    {
+      "name": "vite:vue",
+      "result": "\r\n    .offcanvas-navigation {\r\n        ul {\r\n            padding-left: 0;\r\n            li {\r\n                border-bottom: 1px solid rgba(255, 255, 255, 0.15);\r\n                &.menu-item-has-children {\r\n                    .sub-menu {\r\n                        height: 0;\r\n                        opacity: 0;\r\n                        transition: 0.3s;\r\n                        visibility: hidden;\r\n                    }\r\n                    &.active > {\r\n                        .sub-menu {\r\n                            height: 100%;\r\n                            opacity: 1;\r\n                            visibility: visible;\r\n                            padding-left: 0;\r\n                        }\r\n                    }\r\n                }\r\n                a {\r\n                    color: $white;\r\n                    font-size: 16px;\r\n                    font-weight: 500;\r\n                    padding: 10px 0;\r\n                    display: block;\r\n                    &:hover {\r\n                        color: $primary;\r\n                    }\r\n                }\r\n            }\r\n        }\r\n\r\n        ul {\r\n            &.sub-menu {\r\n                margin-left: 15px;\r\n                transition: 0.4s;\r\n                li {\r\n                    list-style: none;\r\n                    border: none;\r\n                    a {\r\n                        color: $white;\r\n                        font-weight: 400;\r\n                        &:hover {\r\n                            color: $primary;\r\n                        }\r\n                    }\r\n                    .sub-menu {\r\n                        li {\r\n                            a {\r\n                                font-size: 13px;\r\n                                padding: 5px 0;\r\n                            }\r\n                        }\r\n                    }\r\n                }\r\n            }\r\n            li {\r\n                &.menu-item-has-children {\r\n                    position: relative;\r\n                    display: block;\r\n                    a {\r\n                        display: inline-block;\r\n                    }\r\n\r\n                    &.active > {\r\n                        .menu-expand {\r\n                            background-color: rgba($white, 0.2);\r\n                            i {\r\n                                &:before {\r\n                                    transform: rotate(0);\r\n                                }\r\n                            }\r\n                        }\r\n                    }\r\n\r\n                    .menu-expand {\r\n                        top: 5px;\r\n                        right: 0;\r\n                        width: 35px;\r\n                        height: 35px;\r\n                        cursor: pointer;\r\n                        line-height: 35px;\r\n                        position: absolute;\r\n                        text-align: center;\r\n                        background-color: rgba($white, 0.1);\r\n                        &:hover {\r\n                            background-color: rgba($white, 0.2);\r\n                        }\r\n\r\n                        i {\r\n                            display: block;\r\n                            border-bottom: 1px solid $white;\r\n                            position: relative;\r\n                            width: 10px;\r\n                            text-align: center;\r\n                            top: 50%;\r\n                            left: 50%;\r\n                            transform: translate(-50%, -50%);\r\n                            &:before {\r\n                                width: 100%;\r\n                                content: \"\";\r\n                                border-bottom: 1px solid $white;\r\n                                display: block;\r\n                                position: absolute;\r\n                                top: 0;\r\n                                transform: rotate(90deg);\r\n                                transition: 0.4s;\r\n                            }\r\n                        }\r\n                    }\r\n                }\r\n            }\r\n        }\r\n    }\r\n",
+      "start": 1712455696455,
+      "end": 1712455696455,
+      "sourcemaps": {
+        "version": 3,
+        "sources": [
+          "E:/Projects/JavaRayaInternational/website/components/MobileNavigation.vue"
+        ],
+        "names": [],
+        "mappings": "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",
+        "file": "E:/Projects/JavaRayaInternational/website/components/MobileNavigation.vue",
+        "sourceRoot": "",
+        "sourcesContent": [
+          "<template>\r\n    <div class=\"mobile-navigation\">\r\n        <nav class=\"offcanvas-navigation\" id=\"offcanvas-navigation\">\r\n            <ul>\r\n                <li class=\"menu-item-has-children\">\r\n                    <NuxtLink to=\"/\">Home</NuxtLink>\r\n                    <!-- <ul class=\"sub-menu\">\r\n                        <li>\r\n                            <NuxtLink to=\"/\">Home One</NuxtLink>\r\n                        </li>\r\n                        <li>\r\n                            <NuxtLink to=\"/home-two\">Home Two</NuxtLink>\r\n                        </li>\r\n                        <li>\r\n                            <NuxtLink to=\"/home-three\">Home Three</NuxtLink>\r\n                        </li>\r\n                    </ul> -->\r\n                </li>\r\n\r\n                <li class=\"has-children\">\r\n                    <NuxtLink to=\"/#\">Features</NuxtLink>\r\n                    <ul class=\"sub-menu\"  v-for=\"(feature, index) in featureData.slice(0, 6)\" :key=\"index\">\r\n                        <li>\r\n                            <NuxtLink :to=\"`/features/${feature.slug}`\" class=\"link\">${feature.title}</NuxtLink>\r\n                        </li>\r\n\r\n\r\n                    <!-- <li>\r\n                        <NuxtLink :to=\"`/features/ai`\">Artificial Intelligence</NuxtLink>\r\n                    </li>\r\n                    <li>\r\n                        <NuxtLink :to=\"`/features/blockchain`\">Blockchain</NuxtLink>\r\n                    </li>\r\n                    <li>\r\n                        <NuxtLink :to=\"`/features/decentralized`\">Decentralized ID</NuxtLink>\r\n                    </li>\r\n                    <li>\r\n                        <NuxtLink :to=\"`/features/greenproduct`\">Product</NuxtLink>\r\n                    </li>\r\n                    <li>\r\n                        <NuxtLink :to=\"`/features/multidevice`\">Any Device</NuxtLink>\r\n                    </li>\r\n                    <li>\r\n                        <NuxtLink :to=\"`/features/msmb`\">Business</NuxtLink>\r\n                    </li> -->\r\n                </ul>\r\n                </li>\r\n                <li>\r\n                    <NuxtLink to=\"/about/company\">About</NuxtLink>\r\n                </li>\r\n                <!-- <li class=\"menu-item-has-children\">\r\n                    <NuxtLink to=\"/service\">Service</NuxtLink>\r\n                    <ul class=\"sub-menu\">\r\n                        <li>\r\n                            <NuxtLink to=\"/service\">Service</NuxtLink>\r\n                        </li>\r\n                        <li>\r\n                            <NuxtLink to=\"/service/branding\">Service Details</NuxtLink>\r\n                        </li>\r\n                    </ul>\r\n                </li> -->\r\n\r\n                <!-- <li class=\"menu-item-has-children\">\r\n                    <NuxtLink to=\"/project\">Project</NuxtLink>\r\n                    <ul class=\"sub-menu\">\r\n                        <li>\r\n                            <NuxtLink to=\"/project\">Project</NuxtLink>\r\n                        </li>\r\n                        <li>\r\n                            <NuxtLink to=\"/project/project-details\">Project Details</NuxtLink>\r\n                        </li>\r\n                    </ul>\r\n                </li> -->\r\n\r\n                <!-- <li class=\"menu-item-has-children\">\r\n                    <NuxtLink to=\"/blog\">Blog</NuxtLink>\r\n                    <ul class=\"sub-menu\">\r\n                        <li>\r\n                            <NuxtLink to=\"/blog\">Blog Grid</NuxtLink>\r\n                        </li>\r\n                        <li>\r\n                            <NuxtLink to=\"/blog/blog-classic\">Blog Classic</NuxtLink>\r\n                        </li>\r\n                        <li>\r\n                            <NuxtLink to=\"/blog/blog-details\">Blog Details</NuxtLink>\r\n                        </li>\r\n                    </ul>\r\n                </li> -->\r\n\r\n                <!-- <li>\r\n                    <NuxtLink to=\"/contact-us\">Contact Us</NuxtLink>\r\n                </li> -->\r\n            </ul>\r\n        </nav>\r\n    </div>\r\n</template>\r\n\r\n<script>\r\n\r\n    import featureData from '~/data/features.json'\r\n\r\n    export default{\r\n        mounted() {\r\n            const offCanvasNav = document.querySelector('#offcanvas-navigation');\r\n            const offCanvasNavSubMenu = offCanvasNav.querySelectorAll('.sub-menu');\r\n            const anchorLinks = offCanvasNav.querySelectorAll('a');\r\n        \r\n            for (let i = 0; i < offCanvasNavSubMenu.length; i++){\r\n                offCanvasNavSubMenu[i].insertAdjacentHTML(\"beforebegin\", \"<span class='menu-expand'><i></i></span>\");\r\n            }\r\n        \r\n            const menuExpand = offCanvasNav.querySelectorAll('.menu-expand');\r\n            const numMenuExpand = menuExpand.length;\r\n        \r\n            for (let i = 0; i < numMenuExpand; i++) {\r\n                menuExpand[i].addEventListener(\"click\", (e) => {sideMenuExpand(e)});\r\n            }\r\n        \r\n            for (let i = 0; i < anchorLinks.length; i++) {\r\n                anchorLinks[i].addEventListener(\"click\", () => {closeMobileMenu()});\r\n            }\r\n\r\n            const sideMenuExpand = (e) => {\r\n                e.currentTarget.parentElement.classList.toggle('active');\r\n            }\r\n            const closeMobileMenu = () => {\r\n                const offcanvasMobileMenu = document.querySelector('#offcanvas-mobile-menu');\r\n                offcanvasMobileMenu?.classList.remove('active');\r\n            }\r\n        },\r\n\r\n        props: [\"addClassName\"],\r\n\r\n        components: {\r\n            SectionTitle: () => import(\"@/components/SectionTitle\"),\r\n        },\r\n\r\n        data() {\r\n            return {\r\n                featureData\r\n            }\r\n        },\r\n    };\r\n</script>\r\n\r\n<style lang=\"scss\">\r\n    .offcanvas-navigation {\r\n        ul {\r\n            padding-left: 0;\r\n            li {\r\n                border-bottom: 1px solid rgba(255, 255, 255, 0.15);\r\n                &.menu-item-has-children {\r\n                    .sub-menu {\r\n                        height: 0;\r\n                        opacity: 0;\r\n                        transition: 0.3s;\r\n                        visibility: hidden;\r\n                    }\r\n                    &.active > {\r\n                        .sub-menu {\r\n                            height: 100%;\r\n                            opacity: 1;\r\n                            visibility: visible;\r\n                            padding-left: 0;\r\n                        }\r\n                    }\r\n                }\r\n                a {\r\n                    color: $white;\r\n                    font-size: 16px;\r\n                    font-weight: 500;\r\n                    padding: 10px 0;\r\n                    display: block;\r\n                    &:hover {\r\n                        color: $primary;\r\n                    }\r\n                }\r\n            }\r\n        }\r\n\r\n        ul {\r\n            &.sub-menu {\r\n                margin-left: 15px;\r\n                transition: 0.4s;\r\n                li {\r\n                    list-style: none;\r\n                    border: none;\r\n                    a {\r\n                        color: $white;\r\n                        font-weight: 400;\r\n                        &:hover {\r\n                            color: $primary;\r\n                        }\r\n                    }\r\n                    .sub-menu {\r\n                        li {\r\n                            a {\r\n                                font-size: 13px;\r\n                                padding: 5px 0;\r\n                            }\r\n                        }\r\n                    }\r\n                }\r\n            }\r\n            li {\r\n                &.menu-item-has-children {\r\n                    position: relative;\r\n                    display: block;\r\n                    a {\r\n                        display: inline-block;\r\n                    }\r\n\r\n                    &.active > {\r\n                        .menu-expand {\r\n                            background-color: rgba($white, 0.2);\r\n                            i {\r\n                                &:before {\r\n                                    transform: rotate(0);\r\n                                }\r\n                            }\r\n                        }\r\n                    }\r\n\r\n                    .menu-expand {\r\n                        top: 5px;\r\n                        right: 0;\r\n                        width: 35px;\r\n                        height: 35px;\r\n                        cursor: pointer;\r\n                        line-height: 35px;\r\n                        position: absolute;\r\n                        text-align: center;\r\n                        background-color: rgba($white, 0.1);\r\n                        &:hover {\r\n                            background-color: rgba($white, 0.2);\r\n                        }\r\n\r\n                        i {\r\n                            display: block;\r\n                            border-bottom: 1px solid $white;\r\n                            position: relative;\r\n                            width: 10px;\r\n                            text-align: center;\r\n                            top: 50%;\r\n                            left: 50%;\r\n                            transform: translate(-50%, -50%);\r\n                            &:before {\r\n                                width: 100%;\r\n                                content: \"\";\r\n                                border-bottom: 1px solid $white;\r\n                                display: block;\r\n                                position: absolute;\r\n                                top: 0;\r\n                                transform: rotate(90deg);\r\n                                transition: 0.4s;\r\n                            }\r\n                        }\r\n                    }\r\n                }\r\n            }\r\n        }\r\n    }\r\n</style>"
+        ]
+      }
+    },
+    {
+      "name": "nuxt:layer-aliasing",
+      "start": 1712455696455,
+      "end": 1712455696455,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:layer-aliasing",
+      "start": 1712455696455,
+      "end": 1712455696455,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:server-devonly:transform",
+      "start": 1712455696455,
+      "end": 1712455696455,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:server-devonly:transform",
+      "start": 1712455696455,
+      "end": 1712455696455,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:client-fallback-auto-id",
+      "start": 1712455696455,
+      "end": 1712455696455,
+      "order": "pre"
+    },
+    {
+      "name": "server-only-component-transform",
+      "start": 1712455696455,
+      "end": 1712455696455,
+      "order": "pre"
+    },
+    {
+      "name": "vite:css",
+      "result": ".offcanvas-navigation ul{padding-left:0}.offcanvas-navigation ul li{border-bottom:1px solid hsla(0,0%,100%,.15)}.offcanvas-navigation ul li.menu-item-has-children .sub-menu{height:0;opacity:0;transition:.3s;visibility:hidden}.offcanvas-navigation ul li.menu-item-has-children.active>.sub-menu{height:100%;opacity:1;padding-left:0;visibility:visible}.offcanvas-navigation ul li a{color:#fff;display:block;font-size:16px;font-weight:500;padding:10px 0}.offcanvas-navigation ul li a:hover{color:#1292ee}.offcanvas-navigation ul.sub-menu{margin-left:15px;transition:.4s}.offcanvas-navigation ul.sub-menu li{border:none;list-style:none}.offcanvas-navigation ul.sub-menu li a{color:#fff;font-weight:400}.offcanvas-navigation ul.sub-menu li a:hover{color:#1292ee}.offcanvas-navigation ul.sub-menu li .sub-menu li a{font-size:13px;padding:5px 0}.offcanvas-navigation ul li.menu-item-has-children{display:block;position:relative}.offcanvas-navigation ul li.menu-item-has-children a{display:inline-block}.offcanvas-navigation ul li.menu-item-has-children.active>.menu-expand{background-color:hsla(0,0%,100%,.2)}.offcanvas-navigation ul li.menu-item-has-children.active>.menu-expand i:before{transform:rotate(0)}.offcanvas-navigation ul li.menu-item-has-children .menu-expand{background-color:hsla(0,0%,100%,.1);cursor:pointer;height:35px;line-height:35px;position:absolute;right:0;text-align:center;top:5px;width:35px}.offcanvas-navigation ul li.menu-item-has-children .menu-expand:hover{background-color:hsla(0,0%,100%,.2)}.offcanvas-navigation ul li.menu-item-has-children .menu-expand i{border-bottom:1px solid #fff;display:block;left:50%;position:relative;text-align:center;top:50%;transform:translate(-50%,-50%);width:10px}.offcanvas-navigation ul li.menu-item-has-children .menu-expand i:before{border-bottom:1px solid #fff;content:\"\";display:block;position:absolute;top:0;transform:rotate(90deg);transition:.4s;width:100%}",
+      "start": 1712455696455,
+      "end": 1712455696486,
+      "order": "normal",
+      "sourcemaps": {
+        "version": 3,
+        "file": "E:/Projects/JavaRayaInternational/website/components/MobileNavigation.vue",
+        "mappings": "AAEQ,yBACI,eACA,4BACI,4CAEI,6DACI,SACA,UACA,eACA,kBAGA,oEACI,YACA,UAEA,eADA,mBAKZ,8BACI,UCOZ,CDHY,cAHA,eACA,gBACA,eAEA,oCACI,cAOZ,kCACI,iBACA,eACA,qCAEI,YADA,gBAEA,uCACI,UCbhB,CDcgB,gBACA,6CACI,cAKA,oDACI,eACA,cAOhB,mDAEI,cADA,kBAEA,qDACI,qBAIA,uEACI,oCAEI,gFACI,oBAMhB,gEASI,oCAJA,eADA,YAEA,iBACA,kBALA,QAMA,kBAPA,QAEA,WAOA,sEACI,oCAGJ,kEAEI,6BADA,cAMA,SAJA,kBAEA,kBACA,QAEA,+BAJA,WAKA,yEAGI,6BADA,WAEA,cACA,kBACA,MACA,wBACA,eAPA",
+        "names": [],
+        "ignoreList": [],
+        "sources": [
+          "E:/Projects/JavaRayaInternational/website/components/MobileNavigation.vue",
+          "E:/Projects/JavaRayaInternational/website/assets/scss/_variables.scss"
+        ],
+        "sourcesContent": [
+          null,
+          null
+        ]
+      }
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1712455696487,
+      "end": 1712455696487,
+      "order": "normal"
+    },
+    {
+      "name": "vite:json",
+      "start": 1712455696487,
+      "end": 1712455696487,
+      "order": "normal"
+    },
+    {
+      "name": "vite:worker",
+      "start": 1712455696487,
+      "end": 1712455696487,
+      "order": "normal"
+    },
+    {
+      "name": "vite:vue",
+      "result": ".offcanvas-navigation ul{padding-left:0}.offcanvas-navigation ul li{border-bottom:1px solid hsla(0,0%,100%,.15)}.offcanvas-navigation ul li.menu-item-has-children .sub-menu{height:0;opacity:0;transition:.3s;visibility:hidden}.offcanvas-navigation ul li.menu-item-has-children.active>.sub-menu{height:100%;opacity:1;padding-left:0;visibility:visible}.offcanvas-navigation ul li a{color:#fff;display:block;font-size:16px;font-weight:500;padding:10px 0}.offcanvas-navigation ul li a:hover{color:#1292ee}.offcanvas-navigation ul.sub-menu{margin-left:15px;transition:.4s}.offcanvas-navigation ul.sub-menu li{border:none;list-style:none}.offcanvas-navigation ul.sub-menu li a{color:#fff;font-weight:400}.offcanvas-navigation ul.sub-menu li a:hover{color:#1292ee}.offcanvas-navigation ul.sub-menu li .sub-menu li a{font-size:13px;padding:5px 0}.offcanvas-navigation ul li.menu-item-has-children{display:block;position:relative}.offcanvas-navigation ul li.menu-item-has-children a{display:inline-block}.offcanvas-navigation ul li.menu-item-has-children.active>.menu-expand{background-color:hsla(0,0%,100%,.2)}.offcanvas-navigation ul li.menu-item-has-children.active>.menu-expand i:before{transform:rotate(0)}.offcanvas-navigation ul li.menu-item-has-children .menu-expand{background-color:hsla(0,0%,100%,.1);cursor:pointer;height:35px;line-height:35px;position:absolute;right:0;text-align:center;top:5px;width:35px}.offcanvas-navigation ul li.menu-item-has-children .menu-expand:hover{background-color:hsla(0,0%,100%,.2)}.offcanvas-navigation ul li.menu-item-has-children .menu-expand i{border-bottom:1px solid #fff;display:block;left:50%;position:relative;text-align:center;top:50%;transform:translate(-50%,-50%);width:10px}.offcanvas-navigation ul li.menu-item-has-children .menu-expand i:before{border-bottom:1px solid #fff;content:\"\";display:block;position:absolute;top:0;transform:rotate(90deg);transition:.4s;width:100%}",
+      "start": 1712455696487,
+      "end": 1712455696487,
+      "order": "normal",
+      "sourcemaps": {
+        "file": "E:/Projects/JavaRayaInternational/website/components/MobileNavigation.vue",
+        "mappings": "AAAA,yBAAyB,cAAc,CAAC,4BAA4B,2CAA2C,CAAC,6DAA6D,QAAQ,CAAC,SAAS,CAAC,cAAc,CAAC,iBAAiB,CAAC,oEAAoE,WAAW,CAAC,SAAS,CAAC,cAAc,CAAC,kBAAkB,CAAC,8BAA8B,UAAU,CAAC,aAAa,CAAC,cAAc,CAAC,eAAe,CAAC,cAAc,CAAC,oCAAoC,aAAa,CAAC,kCAAkC,gBAAgB,CAAC,cAAc,CAAC,qCAAqC,WAAW,CAAC,eAAe,CAAC,uCAAuC,UAAU,CAAC,eAAe,CAAC,6CAA6C,aAAa,CAAC,oDAAoD,cAAc,CAAC,aAAa,CAAC,mDAAmD,aAAa,CAAC,iBAAiB,CAAC,qDAAqD,oBAAoB,CAAC,uEAAuE,mCAAmC,CAAC,gFAAgF,mBAAmB,CAAC,gEAAgE,mCAAmC,CAAC,cAAc,CAAC,WAAW,CAAC,gBAAgB,CAAC,iBAAiB,CAAC,OAAO,CAAC,iBAAiB,CAAC,OAAO,CAAC,UAAU,CAAC,sEAAsE,mCAAmC,CAAC,kEAAkE,4BAA4B,CAAC,aAAa,CAAC,QAAQ,CAAC,iBAAiB,CAAC,iBAAiB,CAAC,OAAO,CAAC,8BAA8B,CAAC,UAAU,CAAC,yEAAyE,4BAA4B,CAAC,UAAU,CAAC,aAAa,CAAC,iBAAiB,CAAC,KAAK,CAAC,uBAAuB,CAAC,cAAc,CAAC,UAAU",
+        "names": [],
+        "sources": [
+          "E:/Projects/JavaRayaInternational/website/components/MobileNavigation.vue"
+        ],
+        "sourcesContent": [
+          null
+        ],
+        "version": 3
+      }
+    },
+    {
+      "name": "vite:vue-jsx",
+      "start": 1712455696487,
+      "end": 1712455696487,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1712455696487,
+      "end": 1712455696487,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1712455696487,
+      "end": 1712455696487,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:remove-plugin-metadata",
+      "start": 1712455696487,
+      "end": 1712455696487,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:remove-plugin-metadata",
+      "start": 1712455696487,
+      "end": 1712455696487,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:components:imports",
+      "start": 1712455696487,
+      "end": 1712455696487,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1712455696487,
+      "end": 1712455696487,
+      "order": "normal"
+    },
+    {
+      "name": "ssr-styles",
+      "start": 1712455696487,
+      "end": 1712455696487,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1712455696487,
+      "end": 1712455696487,
+      "order": "normal"
+    },
+    {
+      "name": "vite:css-post",
+      "result": "export default \".offcanvas-navigation ul{padding-left:0}.offcanvas-navigation ul li{border-bottom:1px solid hsla(0,0%,100%,.15)}.offcanvas-navigation ul li.menu-item-has-children .sub-menu{height:0;opacity:0;transition:.3s;visibility:hidden}.offcanvas-navigation ul li.menu-item-has-children.active>.sub-menu{height:100%;opacity:1;padding-left:0;visibility:visible}.offcanvas-navigation ul li a{color:#fff;display:block;font-size:16px;font-weight:500;padding:10px 0}.offcanvas-navigation ul li a:hover{color:#1292ee}.offcanvas-navigation ul.sub-menu{margin-left:15px;transition:.4s}.offcanvas-navigation ul.sub-menu li{border:none;list-style:none}.offcanvas-navigation ul.sub-menu li a{color:#fff;font-weight:400}.offcanvas-navigation ul.sub-menu li a:hover{color:#1292ee}.offcanvas-navigation ul.sub-menu li .sub-menu li a{font-size:13px;padding:5px 0}.offcanvas-navigation ul li.menu-item-has-children{display:block;position:relative}.offcanvas-navigation ul li.menu-item-has-children a{display:inline-block}.offcanvas-navigation ul li.menu-item-has-children.active>.menu-expand{background-color:hsla(0,0%,100%,.2)}.offcanvas-navigation ul li.menu-item-has-children.active>.menu-expand i:before{transform:rotate(0)}.offcanvas-navigation ul li.menu-item-has-children .menu-expand{background-color:hsla(0,0%,100%,.1);cursor:pointer;height:35px;line-height:35px;position:absolute;right:0;text-align:center;top:5px;width:35px}.offcanvas-navigation ul li.menu-item-has-children .menu-expand:hover{background-color:hsla(0,0%,100%,.2)}.offcanvas-navigation ul li.menu-item-has-children .menu-expand i{border-bottom:1px solid #fff;display:block;left:50%;position:relative;text-align:center;top:50%;transform:translate(-50%,-50%);width:10px}.offcanvas-navigation ul li.menu-item-has-children .menu-expand i:before{border-bottom:1px solid #fff;content:\\\"\\\";display:block;position:absolute;top:0;transform:rotate(90deg);transition:.4s;width:100%}\"",
+      "start": 1712455696487,
+      "end": 1712455696487,
+      "order": "normal",
+      "sourcemaps": {
+        "mappings": ""
+      }
+    },
+    {
+      "name": "vite:build-html",
+      "start": 1712455696487,
+      "end": 1712455696487,
+      "order": "normal"
+    },
+    {
+      "name": "vite:worker-import-meta-url",
+      "start": 1712455696487,
+      "end": 1712455696487,
+      "order": "normal"
+    },
+    {
+      "name": "vite:asset-import-meta-url",
+      "start": 1712455696487,
+      "end": 1712455696488,
+      "order": "normal"
+    },
+    {
+      "name": "commonjs",
+      "start": 1712455696488,
+      "end": 1712455696488,
+      "order": "normal"
+    },
+    {
+      "name": "vite:dynamic-import-vars",
+      "start": 1712455696488,
+      "end": 1712455696488,
+      "order": "normal"
+    },
+    {
+      "name": "vite:import-glob",
+      "start": 1712455696488,
+      "end": 1712455696488,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:composable-keys",
+      "start": 1712455696488,
+      "end": 1712455696488,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:composable-keys",
+      "start": 1712455696488,
+      "end": 1712455696488,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:imports-transform",
+      "start": 1712455696488,
+      "end": 1712455696488,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:imports-transform",
+      "start": 1712455696488,
+      "end": 1712455696488,
+      "order": "post"
+    },
+    {
+      "name": "unctx:transform",
+      "start": 1712455696488,
+      "end": 1712455696488,
+      "order": "post"
+    },
+    {
+      "name": "unctx:transform",
+      "start": 1712455696488,
+      "end": 1712455696488,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:pages-macros-transform",
+      "start": 1712455696488,
+      "end": 1712455696488,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:pages-macros-transform",
+      "start": 1712455696488,
+      "end": 1712455696488,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:tree-shake-template",
+      "start": 1712455696488,
+      "end": 1712455696488,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:components-loader",
+      "start": 1712455696488,
+      "end": 1712455696488,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:tree-shake-composables:transform",
+      "start": 1712455696488,
+      "end": 1712455696488,
+      "order": "post"
+    },
+    {
+      "name": "vite:build-import-analysis",
+      "start": 1712455696488,
+      "end": 1712455696488,
+      "order": "normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1712455696488,
+      "end": 1712455696488,
+      "order": "normal"
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "private": true,
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "cross-env NUXT_HOST=0.0.0.0 NUXT_PORT=3334 nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "devDependencies": {
+    "@nuxt/devtools": "^1.1.5",
+    "nuxt": "^3.8.2",
+    "sass": "^1.58.3",
+    "sass-loader": "^13.2.0",
+    "vue": "^3.3.12",
+    "vue-router": "^4.2.5"
+  },
+  "dependencies": {
+    "@types/bootstrap": "^5.2.6",
+    "bootstrap": "^5.2.3",
+    "cross-env": "^7.0.3",
+    "parallax-js": "^3.1.0",
+    "swiper": "^8.4.5"
+  },
+  "packageManager": "yarn@1.22.21+sha1.1959a18351b811cdeedbd484a8f86c3cc3bbaf72"
+}

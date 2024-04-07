@@ -1,0 +1,223 @@
+{
+  "resolvedId": "E:/Projects/JavaRayaInternational/website/pages/project/project-details.vue?macro=true",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "<template>\r\n    <div class=\"main-container\">\r\n        <TheHeader />\r\n        <OffCanvasMobileMenu />\r\n        <SearchPopup />\r\n        <BreadcrumbOne activePageName=\"Project Details\" title=\"We work with bold brands that we believe in\" backgroundUrl= \"/images/bg/breadcrumb-bg-two.jpg\" />\r\n\r\n        <!-- Start Work Details -->\r\n        <div class=\"section-padding\">\r\n            <div class=\"container\">\r\n                <div class=\"row\">\r\n                    <!-- Portfolio Left -->\r\n                    <div class=\"col-lg-4 col-md-6 col-12\">\r\n                        <div class=\"work-left work-details\" data-aos=\"fade-up\">\r\n                            <div class=\"portfolio-main-info\">\r\n                                <h2 class=\"title\">About the <br> project</h2>\r\n                                <!-- Start Details List -->\r\n                                <div class=\"work-details-list mt-40\">\r\n                                    <div class=\"details-list\">\r\n                                        <label>Date</label>\r\n                                        <span>28 Sep 2007</span>\r\n                                    </div>\r\n\r\n                                    <div class=\"details-list\">\r\n                                        <label>Client</label>\r\n                                        <span>HighGrove Partners</span>\r\n                                    </div>\r\n\r\n                                    <div class=\"details-list\">\r\n                                        <label>Categories</label>\r\n                                        <span>\r\n                                            <NuxtLink to=\"\">Digital</NuxtLink>\r\n                                        </span>\r\n                                    </div>\r\n\r\n                                    <div class=\"details-list\">\r\n                                        <label>Awards</label>\r\n                                        <span>2015 Digital World Awards 2016 Finale Awards</span>\r\n                                    </div>\r\n                                </div>\r\n                                <!-- End Details List -->\r\n                                <!-- Start Work Share -->\r\n                                <div class=\"work-share\">\r\n                                    <h6 class=\"heading heading-h6\">SHARE</h6>\r\n                                </div>\r\n                            </div>\r\n                        </div>\r\n                    </div>\r\n\r\n                    <!-- Work Right -->\r\n                    <div class=\"col-lg-7 col-md-6 offset-lg-1 col-12\">\r\n                        <div class=\"work-left work-details mt-30\">\r\n                            <div class=\"work-main-info\">\r\n                                <div class=\"work-content\">\r\n                                    <h6 class=\"title\" data-aos=\"fade-up\">ABOUT THE PROJECT</h6>\r\n\r\n                                    <div class=\"desc mt-40\">\r\n                                        <div class=\"content mb-20\" data-aos=\"fade-up\">\r\n                                            <p>Digital marketing encompasses all marketing efforts that use an electronic device or theinternet. Businesses leverage digital channels such as search engines, social media, email, and their websites to connect with current and prospective customers.</p>\r\n                                        </div>\r\n                                        <div class=\"content mb-20\" data-aos=\"fade-up\">\r\n                                            <p>It is. In fact, “constant” internet usage among adults increased by 5% in just the last three years, according to Pew Research. And although we say it a lot, the way people shop and buy really has changed along with it — meaning offline marketing isn’t as effective as it used to be.</p>\r\n                                        </div>\r\n                                        <div class=\"content mb-40\" data-aos=\"fade-up\">\r\n                                            <p>Marketing has always been about connecting with your audience in the right place and at the right time. Today, that means you need to meet them where they are already spending time: on the internet. (Source: blog.hubspot.com)</p>\r\n                                        </div>\r\n\r\n                                        <div class=\"work-btn\">\r\n                                            <NuxtLink to=\"/contact-us\" class=\"btn btn-primary btn-hover-secondary\">Go to link</NuxtLink>\r\n                                        </div>\r\n                                    </div>\r\n                                </div>\r\n                            </div>\r\n                        </div>\r\n                    </div>\r\n                </div>\r\n\r\n                <!-- Start Thumbnail -->\r\n                <div class=\"row\">\r\n                    <div class=\"col-lg-12\">\r\n                        <div class=\"custom-column-thumbnail mt-60\" data-aos=\"fade-up\">\r\n                            <img class=\"w-100\" src=\"/images/project/work-details-1.jpg\" alt=\"Agency\">\r\n                        </div>\r\n                    </div>\r\n                </div>\r\n\r\n                <!-- Start Digital Marketing Area -->\r\n                <div class=\"row mt-60\">\r\n                    <div class=\"col-lg-4 col-md-12 col-12\">\r\n                        <div class=\"digital-marketing\" data-aos=\"fade-up\">\r\n                            <h3 class=\"heading heading-h3\">Digital Marketing.</h3>\r\n                        </div>\r\n                    </div>\r\n                    <div class=\"col-lg-7 col-md-12 col-12 offset-lg-1\">\r\n                        <div class=\"digital-marketing\" data-aos=\"fade-up\">\r\n                            <div class=\"inner\">\r\n                                <p>Marketing has always been about connecting with your audience in the right place and at the right time. Today, that means you need to meet them where they are already spending time: on the internet. A seasoned inbound marketer might say inbound marketing and digital marketing are virtually the same thing, but there are some minor differences. And conversations with marketers and business owners in the U.S., U.K., Asia, Australia, and New Zealand, I've learned a lot about how those small differences are being observed across the world.</p>\r\n                            </div>\r\n                        </div>\r\n                    </div>\r\n                </div>\r\n                <!-- End Digital Marketing Area -->\r\n\r\n                <!-- Start Gallery Area -->\r\n                <div class=\"custom-layout-gallery mt-60\">\r\n                    <div class=\"row mtn-30\">\r\n                        <div class=\"col-lg-6 col-md-6 col-12 mt-30\">\r\n                            <div class=\"thumbnail\" data-aos=\"fade-up\">\r\n                                <img class=\"w-100\" src=\"/images/project/work-details-2.jpg\" alt=\"Agency\">\r\n                            </div>\r\n                        </div>\r\n                        <div class=\"col-lg-6 col-md-6 col-12 mt-30\">\r\n                            <div class=\"thumbnail\" data-aos=\"fade-up\">\r\n                                <img class=\"w-100\" src=\"/images/project/work-details-3.jpg\" alt=\"Agency\">\r\n                            </div>\r\n                        </div>\r\n\r\n                        <div class=\"col-lg-12 mt-30\">\r\n                            <div class=\"thumbnail\" data-aos=\"fade-up\">\r\n                                <img class=\"w-100\" src=\"/images/project/work-details-4.jpg\" alt=\"Agency\">\r\n                            </div>\r\n                        </div>\r\n                    </div>\r\n                </div>\r\n                <!-- End Gallery Area -->\r\n            </div>\r\n        </div>\r\n        <!-- Start Work Details -->\r\n        <TheFooter />\r\n    </div>\r\n</template>\r\n\r\n\r\n",
+      "start": 1712455690548,
+      "end": 1712455690676,
+      "sourcemaps": null
+    },
+    {
+      "name": "nuxt:layer-aliasing",
+      "start": 1712455690676,
+      "end": 1712455690676,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:server-devonly:transform",
+      "start": 1712455690676,
+      "end": 1712455690677,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:client-fallback-auto-id",
+      "start": 1712455690677,
+      "end": 1712455690677,
+      "order": "pre"
+    },
+    {
+      "name": "vite:css",
+      "start": 1712455690677,
+      "end": 1712455690677,
+      "order": "normal"
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1712455690677,
+      "end": 1712455690677,
+      "order": "normal"
+    },
+    {
+      "name": "vite:json",
+      "start": 1712455690677,
+      "end": 1712455690677,
+      "order": "normal"
+    },
+    {
+      "name": "vite:worker",
+      "start": 1712455690677,
+      "end": 1712455690677,
+      "order": "normal"
+    },
+    {
+      "name": "vite:vue",
+      "result": "const _sfc_main = {}\nimport { resolveComponent as _resolveComponent, createVNode as _createVNode, createElementVNode as _createElementVNode, createTextVNode as _createTextVNode, withCtx as _withCtx, createStaticVNode as _createStaticVNode, openBlock as _openBlock, createElementBlock as _createElementBlock } from \"vue\"\nimport _imports_0 from '/images/project/work-details-1.jpg'\nimport _imports_1 from '/images/project/work-details-2.jpg'\nimport _imports_2 from '/images/project/work-details-3.jpg'\nimport _imports_3 from '/images/project/work-details-4.jpg'\n\n\nconst _hoisted_1 = { class: \"main-container\" }\nconst _hoisted_2 = { class: \"section-padding\" }\nconst _hoisted_3 = { class: \"container\" }\nconst _hoisted_4 = { class: \"row\" }\nconst _hoisted_5 = { class: \"col-lg-4 col-md-6 col-12\" }\nconst _hoisted_6 = {\n  class: \"work-left work-details\",\n  \"data-aos\": \"fade-up\"\n}\nconst _hoisted_7 = { class: \"portfolio-main-info\" }\nconst _hoisted_8 = /*#__PURE__*/_createElementVNode(\"h2\", { class: \"title\" }, [\n  /*#__PURE__*/_createTextVNode(\"About the \"),\n  /*#__PURE__*/_createElementVNode(\"br\"),\n  /*#__PURE__*/_createTextVNode(\" project\")\n], -1)\nconst _hoisted_9 = { class: \"work-details-list mt-40\" }\nconst _hoisted_10 = /*#__PURE__*/_createElementVNode(\"div\", { class: \"details-list\" }, [\n  /*#__PURE__*/_createElementVNode(\"label\", null, \"Date\"),\n  /*#__PURE__*/_createElementVNode(\"span\", null, \"28 Sep 2007\")\n], -1)\nconst _hoisted_11 = /*#__PURE__*/_createElementVNode(\"div\", { class: \"details-list\" }, [\n  /*#__PURE__*/_createElementVNode(\"label\", null, \"Client\"),\n  /*#__PURE__*/_createElementVNode(\"span\", null, \"HighGrove Partners\")\n], -1)\nconst _hoisted_12 = { class: \"details-list\" }\nconst _hoisted_13 = /*#__PURE__*/_createElementVNode(\"label\", null, \"Categories\", -1)\nconst _hoisted_14 = /*#__PURE__*/_createElementVNode(\"div\", { class: \"details-list\" }, [\n  /*#__PURE__*/_createElementVNode(\"label\", null, \"Awards\"),\n  /*#__PURE__*/_createElementVNode(\"span\", null, \"2015 Digital World Awards 2016 Finale Awards\")\n], -1)\nconst _hoisted_15 = /*#__PURE__*/_createElementVNode(\"div\", { class: \"work-share\" }, [\n  /*#__PURE__*/_createElementVNode(\"h6\", { class: \"heading heading-h6\" }, \"SHARE\")\n], -1)\nconst _hoisted_16 = { class: \"col-lg-7 col-md-6 offset-lg-1 col-12\" }\nconst _hoisted_17 = { class: \"work-left work-details mt-30\" }\nconst _hoisted_18 = { class: \"work-main-info\" }\nconst _hoisted_19 = { class: \"work-content\" }\nconst _hoisted_20 = /*#__PURE__*/_createElementVNode(\"h6\", {\n  class: \"title\",\n  \"data-aos\": \"fade-up\"\n}, \"ABOUT THE PROJECT\", -1)\nconst _hoisted_21 = { class: \"desc mt-40\" }\nconst _hoisted_22 = /*#__PURE__*/_createElementVNode(\"div\", {\n  class: \"content mb-20\",\n  \"data-aos\": \"fade-up\"\n}, [\n  /*#__PURE__*/_createElementVNode(\"p\", null, \"Digital marketing encompasses all marketing efforts that use an electronic device or theinternet. Businesses leverage digital channels such as search engines, social media, email, and their websites to connect with current and prospective customers.\")\n], -1)\nconst _hoisted_23 = /*#__PURE__*/_createElementVNode(\"div\", {\n  class: \"content mb-20\",\n  \"data-aos\": \"fade-up\"\n}, [\n  /*#__PURE__*/_createElementVNode(\"p\", null, \"It is. In fact, “constant” internet usage among adults increased by 5% in just the last three years, according to Pew Research. And although we say it a lot, the way people shop and buy really has changed along with it — meaning offline marketing isn’t as effective as it used to be.\")\n], -1)\nconst _hoisted_24 = /*#__PURE__*/_createElementVNode(\"div\", {\n  class: \"content mb-40\",\n  \"data-aos\": \"fade-up\"\n}, [\n  /*#__PURE__*/_createElementVNode(\"p\", null, \"Marketing has always been about connecting with your audience in the right place and at the right time. Today, that means you need to meet them where they are already spending time: on the internet. (Source: blog.hubspot.com)\")\n], -1)\nconst _hoisted_25 = { class: \"work-btn\" }\nconst _hoisted_26 = /*#__PURE__*/_createStaticVNode(\"<div class=\\\"row\\\"><div class=\\\"col-lg-12\\\"><div class=\\\"custom-column-thumbnail mt-60\\\" data-aos=\\\"fade-up\\\"><img class=\\\"w-100\\\" src=\\\"\" + _imports_0 + \"\\\" alt=\\\"Agency\\\"></div></div></div><div class=\\\"row mt-60\\\"><div class=\\\"col-lg-4 col-md-12 col-12\\\"><div class=\\\"digital-marketing\\\" data-aos=\\\"fade-up\\\"><h3 class=\\\"heading heading-h3\\\">Digital Marketing.</h3></div></div><div class=\\\"col-lg-7 col-md-12 col-12 offset-lg-1\\\"><div class=\\\"digital-marketing\\\" data-aos=\\\"fade-up\\\"><div class=\\\"inner\\\"><p>Marketing has always been about connecting with your audience in the right place and at the right time. Today, that means you need to meet them where they are already spending time: on the internet. A seasoned inbound marketer might say inbound marketing and digital marketing are virtually the same thing, but there are some minor differences. And conversations with marketers and business owners in the U.S., U.K., Asia, Australia, and New Zealand, I&#39;ve learned a lot about how those small differences are being observed across the world.</p></div></div></div></div><div class=\\\"custom-layout-gallery mt-60\\\"><div class=\\\"row mtn-30\\\"><div class=\\\"col-lg-6 col-md-6 col-12 mt-30\\\"><div class=\\\"thumbnail\\\" data-aos=\\\"fade-up\\\"><img class=\\\"w-100\\\" src=\\\"\" + _imports_1 + \"\\\" alt=\\\"Agency\\\"></div></div><div class=\\\"col-lg-6 col-md-6 col-12 mt-30\\\"><div class=\\\"thumbnail\\\" data-aos=\\\"fade-up\\\"><img class=\\\"w-100\\\" src=\\\"\" + _imports_2 + \"\\\" alt=\\\"Agency\\\"></div></div><div class=\\\"col-lg-12 mt-30\\\"><div class=\\\"thumbnail\\\" data-aos=\\\"fade-up\\\"><img class=\\\"w-100\\\" src=\\\"\" + _imports_3 + \"\\\" alt=\\\"Agency\\\"></div></div></div></div>\", 3)\n\nfunction _sfc_render(_ctx, _cache) {\n  const _component_TheHeader = _resolveComponent(\"TheHeader\")\n  const _component_OffCanvasMobileMenu = _resolveComponent(\"OffCanvasMobileMenu\")\n  const _component_SearchPopup = _resolveComponent(\"SearchPopup\")\n  const _component_BreadcrumbOne = _resolveComponent(\"BreadcrumbOne\")\n  const _component_NuxtLink = _resolveComponent(\"NuxtLink\")\n  const _component_TheFooter = _resolveComponent(\"TheFooter\")\n\n  return (_openBlock(), _createElementBlock(\"div\", _hoisted_1, [\n    _createVNode(_component_TheHeader),\n    _createVNode(_component_OffCanvasMobileMenu),\n    _createVNode(_component_SearchPopup),\n    _createVNode(_component_BreadcrumbOne, {\n      activePageName: \"Project Details\",\n      title: \"We work with bold brands that we believe in\",\n      backgroundUrl: \"/images/bg/breadcrumb-bg-two.jpg\"\n    }),\n    _createElementVNode(\"div\", _hoisted_2, [\n      _createElementVNode(\"div\", _hoisted_3, [\n        _createElementVNode(\"div\", _hoisted_4, [\n          _createElementVNode(\"div\", _hoisted_5, [\n            _createElementVNode(\"div\", _hoisted_6, [\n              _createElementVNode(\"div\", _hoisted_7, [\n                _hoisted_8,\n                _createElementVNode(\"div\", _hoisted_9, [\n                  _hoisted_10,\n                  _hoisted_11,\n                  _createElementVNode(\"div\", _hoisted_12, [\n                    _hoisted_13,\n                    _createElementVNode(\"span\", null, [\n                      _createVNode(_component_NuxtLink, { to: \"\" }, {\n                        default: _withCtx(() => [\n                          _createTextVNode(\"Digital\")\n                        ]),\n                        _: 1\n                      })\n                    ])\n                  ]),\n                  _hoisted_14\n                ]),\n                _hoisted_15\n              ])\n            ])\n          ]),\n          _createElementVNode(\"div\", _hoisted_16, [\n            _createElementVNode(\"div\", _hoisted_17, [\n              _createElementVNode(\"div\", _hoisted_18, [\n                _createElementVNode(\"div\", _hoisted_19, [\n                  _hoisted_20,\n                  _createElementVNode(\"div\", _hoisted_21, [\n                    _hoisted_22,\n                    _hoisted_23,\n                    _hoisted_24,\n                    _createElementVNode(\"div\", _hoisted_25, [\n                      _createVNode(_component_NuxtLink, {\n                        to: \"/contact-us\",\n                        class: \"btn btn-primary btn-hover-secondary\"\n                      }, {\n                        default: _withCtx(() => [\n                          _createTextVNode(\"Go to link\")\n                        ]),\n                        _: 1\n                      })\n                    ])\n                  ])\n                ])\n              ])\n            ])\n          ])\n        ]),\n        _hoisted_26\n      ])\n    ]),\n    _createVNode(_component_TheFooter)\n  ]))\n}\n\n\nimport _export_sfc from '\u0000plugin-vue:export-helper'\nexport default /*#__PURE__*/_export_sfc(_sfc_main, [['render',_sfc_render]])",
+      "start": 1712455690677,
+      "end": 1712455690679,
+      "order": "normal",
+      "sourcemaps": {
+        "mappings": ""
+      }
+    },
+    {
+      "name": "vite:vue-jsx",
+      "start": 1712455690679,
+      "end": 1712455690679,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1712455690679,
+      "end": 1712455690679,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:remove-plugin-metadata",
+      "start": 1712455690679,
+      "end": 1712455690679,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:chunk-error",
+      "start": 1712455690679,
+      "end": 1712455690679,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:components:imports",
+      "start": 1712455690679,
+      "end": 1712455690679,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1712455690679,
+      "end": 1712455690679,
+      "order": "normal"
+    },
+    {
+      "name": "ssr-styles",
+      "start": 1712455690679,
+      "end": 1712455690679,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1712455690679,
+      "end": 1712455690679,
+      "order": "normal"
+    },
+    {
+      "name": "vite:css-post",
+      "start": 1712455690679,
+      "end": 1712455690679,
+      "order": "normal"
+    },
+    {
+      "name": "vite:build-html",
+      "start": 1712455690679,
+      "end": 1712455690679,
+      "order": "normal"
+    },
+    {
+      "name": "vite:worker-import-meta-url",
+      "start": 1712455690679,
+      "end": 1712455690679,
+      "order": "normal"
+    },
+    {
+      "name": "vite:asset-import-meta-url",
+      "start": 1712455690679,
+      "end": 1712455690679,
+      "order": "normal"
+    },
+    {
+      "name": "commonjs",
+      "start": 1712455690679,
+      "end": 1712455690679,
+      "order": "normal"
+    },
+    {
+      "name": "vite:dynamic-import-vars",
+      "start": 1712455690679,
+      "end": 1712455690679,
+      "order": "normal"
+    },
+    {
+      "name": "vite:import-glob",
+      "start": 1712455690679,
+      "end": 1712455690679,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:composable-keys",
+      "start": 1712455690679,
+      "end": 1712455690680,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:imports-transform",
+      "start": 1712455690680,
+      "end": 1712455690681,
+      "order": "post"
+    },
+    {
+      "name": "unctx:transform",
+      "start": 1712455690681,
+      "end": 1712455690681,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:pages-macros-transform",
+      "result": "\nconst __nuxt_page_meta = null\nexport default __nuxt_page_meta\n",
+      "start": 1712455690681,
+      "end": 1712455690681,
+      "order": "post",
+      "sourcemaps": {
+        "version": 3,
+        "sources": [
+          ""
+        ],
+        "names": [],
+        "mappings": "AAAA;AAAA;AAAA;"
+      }
+    },
+    {
+      "name": "nuxt:runtime-paths-dep",
+      "start": 1712455690681,
+      "end": 1712455690681,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:route-injection-plugin",
+      "start": 1712455690681,
+      "end": 1712455690681,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:components-loader",
+      "start": 1712455690681,
+      "end": 1712455690681,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:tree-shake-composables:transform",
+      "start": 1712455690681,
+      "end": 1712455690681,
+      "order": "post"
+    },
+    {
+      "name": "vite:build-import-analysis",
+      "start": 1712455690681,
+      "end": 1712455690681,
+      "order": "normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1712455690681,
+      "end": 1712455690681,
+      "order": "normal"
+    }
+  ]
+}

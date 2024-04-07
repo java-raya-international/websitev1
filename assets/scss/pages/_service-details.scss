@@ -1,0 +1,52 @@
+.service-details-widget {
+    @media #{$extraBig-device} {
+        margin-right: 40px;
+    }
+    @media #{$tablet-device, $large-mobile} {
+        padding-top: 50px;
+    }
+}
+.service-single-widget {
+    padding: 25px;
+
+    .service-widget-title {
+        padding-bottom: 20px;
+        line-height: 1;
+    }
+
+    .service-list {
+        padding-left: 0;
+        li {
+            list-style: none;
+            a {
+                color: #333;
+                display: block;
+                margin-bottom: 10px;
+                position: relative;
+                padding-left: 35px;
+
+                &:before {
+                    width: 21px;
+                    height: 18px;
+                    left: 0;
+                    top: 50%;
+                    content: '';
+                    position: absolute;
+                    transform: translateY(-50%);
+                    background: url('/images/others/check-tick.png') center no-repeat;
+                }
+
+                &:hover {
+                    color: $primary;
+                    padding-left: 40px;
+                }
+            }
+
+            &:last-child {
+                a {
+                    margin-bottom: 0;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,50 @@
+[
+    {
+        "id": 1,
+        "title": "Artificial Intelligence ",
+        "slug": "ai",
+        "text": "LLM and SLM optimize for local and cross-border marketplace. ",
+        "iconSrc": "/images/svg/frontpage/frontpage-ai.svg",
+        "imgSrc": "/images/project/work-details-1.jpg"
+    },
+    {
+        "id": 2,
+        "title": "Blockchain",
+        "slug": "blockchain",
+        "text": "Transparent data can be leveraged by utilizing Level 1 and Level 2 blockchain technology.",
+        "iconSrc": "/images/svg/frontpage/frontpage-blockchain.svg",
+        "imgSrc": "/images/project/work-details-2.jpg"
+    },
+    {
+        "id": 3,
+        "title": "Decentralized ID",
+        "slug": "decentralized",
+        "text": "Seriously handle privacy for our customers",
+        "iconSrc": "/images/svg/frontpage/frontpage-decentralized.svg",
+        "imgSrc": "/images/project/work-details-3.jpg"
+    },
+    {
+        "id": 4,
+        "title": "Run on any devices",
+        "slug": "multidevice",
+        "text": "Run on Web, Mobile, TV, and VR",
+        "iconSrc": "/images/svg/frontpage/frontpage-multidevices.svg",
+        "imgSrc": "/images/project/work-details-4.jpg"
+    },
+    {
+        "id": 5,
+        "title": "Selected product",
+        "slug": "product",
+        "text": "Marketplace focus with selected product ",
+        "iconSrc": "/images/svg/frontpage/frontpage-greenproduct.svg",
+        "imgSrc": "/images/project/work-details-1.jpg"
+    },
+    {
+        "id": 6,
+        "title": "SME Business",
+        "slug": "msmb",
+        "text": "Helping micro, small and medium business to grow together",
+        "iconSrc": "/images/svg/frontpage/frontpage-sme.svg",
+        "imgSrc": "/images/project/work-details-2.jpg"
+    }
+]

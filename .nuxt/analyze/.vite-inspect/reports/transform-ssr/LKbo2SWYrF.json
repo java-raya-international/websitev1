@@ -1,0 +1,264 @@
+{
+  "resolvedId": "E:/Projects/JavaRayaInternational/website/components/ContactForm.vue",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "<template>\r\n    <div class=\"contact-form-section section-padding-t90-b100\" :style=\"{backgroundColor: '#f8faff'}\">\r\n        <div class=\"container\">\r\n            <div class=\"row\">\r\n                <div class=\"offset-lg-2 col-lg-8\">\r\n                    <!-- Section Title Start -->\r\n                    <div class=\"section-title text-center\" data-aos=\"fade-up\">\r\n                        <h2 class=\"title fz-32\">Let’s talk about your project</h2>\r\n                        <p class=\"sub-title\">We have made it easy for clients to reach us and get their solutions weaved</p>\r\n                    </div>\r\n                    <!-- Section Title End -->\r\n                    <div class=\"contact-form\">\r\n                        <form>\r\n                            <div class=\"row mtn-30\">\r\n                                <div class=\"col-md-6 col-12 mt-30\">\r\n                                    <input type=\"text\" placeholder=\"Your Name *\" name=\"name\">\r\n                                </div>\r\n                                <div class=\"col-md-6 col-12 mt-30\">\r\n                                    <input type=\"email\" placeholder=\"Email *\" name=\"email\">\r\n                                </div>\r\n                                <div class=\"col-md-12 col-12 mt-30\">\r\n                                    <input type=\"text\" placeholder=\"Subject *\" name=\"subject\">\r\n                                </div>\r\n                                <div class=\"col-12 mt-30\">\r\n                                    <textarea name=\"message\" placeholder=\"Message\"></textarea>\r\n                                </div>\r\n                                <div class=\"col-12 text-center mt-30\">\r\n                                    <button class=\"btn btn-primary btn-hover-secondary\">Submit</button>\r\n                                </div>\r\n                            </div>\r\n                        </form>\r\n                    </div>\r\n                </div>\r\n            </div>\r\n        </div>\r\n    </div>\r\n</template>",
+      "start": 1712455695565,
+      "end": 1712455696304,
+      "sourcemaps": null
+    },
+    {
+      "name": "nuxt:layer-aliasing",
+      "start": 1712455696304,
+      "end": 1712455696304,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:layer-aliasing",
+      "start": 1712455696304,
+      "end": 1712455696304,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:server-devonly:transform",
+      "start": 1712455696304,
+      "end": 1712455696304,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:server-devonly:transform",
+      "start": 1712455696304,
+      "end": 1712455696304,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:client-fallback-auto-id",
+      "start": 1712455696304,
+      "end": 1712455696304,
+      "order": "pre"
+    },
+    {
+      "name": "server-only-component-transform",
+      "start": 1712455696304,
+      "end": 1712455696304,
+      "order": "pre"
+    },
+    {
+      "name": "vite:css",
+      "start": 1712455696304,
+      "end": 1712455696304,
+      "order": "normal"
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1712455696304,
+      "end": 1712455696304,
+      "order": "normal"
+    },
+    {
+      "name": "vite:json",
+      "start": 1712455696304,
+      "end": 1712455696304,
+      "order": "normal"
+    },
+    {
+      "name": "vite:worker",
+      "start": 1712455696304,
+      "end": 1712455696304,
+      "order": "normal"
+    },
+    {
+      "name": "vite:vue",
+      "result": "const _sfc_main = {}\nimport { mergeProps as _mergeProps } from \"vue\"\nimport { ssrRenderAttrs as _ssrRenderAttrs } from \"vue/server-renderer\"\n\nfunction _sfc_ssrRender(_ctx, _push, _parent, _attrs) {\n  _push(`<div${_ssrRenderAttrs(_mergeProps({\n    class: \"contact-form-section section-padding-t90-b100\",\n    style: {backgroundColor: '#f8faff'}\n  }, _attrs))}><div class=\"container\"><div class=\"row\"><div class=\"offset-lg-2 col-lg-8\"><div class=\"section-title text-center\" data-aos=\"fade-up\"><h2 class=\"title fz-32\">Let’s talk about your project</h2><p class=\"sub-title\">We have made it easy for clients to reach us and get their solutions weaved</p></div><div class=\"contact-form\"><form><div class=\"row mtn-30\"><div class=\"col-md-6 col-12 mt-30\"><input type=\"text\" placeholder=\"Your Name *\" name=\"name\"></div><div class=\"col-md-6 col-12 mt-30\"><input type=\"email\" placeholder=\"Email *\" name=\"email\"></div><div class=\"col-md-12 col-12 mt-30\"><input type=\"text\" placeholder=\"Subject *\" name=\"subject\"></div><div class=\"col-12 mt-30\"><textarea name=\"message\" placeholder=\"Message\"></textarea></div><div class=\"col-12 text-center mt-30\"><button class=\"btn btn-primary btn-hover-secondary\">Submit</button></div></div></form></div></div></div></div></div>`)\n}\n\n\nimport { useSSRContext as __vite_useSSRContext } from 'vue'\nconst _sfc_setup = _sfc_main.setup\n_sfc_main.setup = (props, ctx) => {\n  const ssrContext = __vite_useSSRContext()\n  ;(ssrContext.modules || (ssrContext.modules = new Set())).add(\"components/ContactForm.vue\")\n  return _sfc_setup ? _sfc_setup(props, ctx) : undefined\n}\nimport _export_sfc from '\u0000plugin-vue:export-helper'\nexport default /*#__PURE__*/_export_sfc(_sfc_main, [['ssrRender',_sfc_ssrRender]])",
+      "start": 1712455696304,
+      "end": 1712455696305,
+      "order": "normal",
+      "sourcemaps": {
+        "version": 3,
+        "sources": [
+          "E:/Projects/JavaRayaInternational/website/components/ContactForm.vue"
+        ],
+        "names": [],
+        "mappings": ";;;;EAAA,aAAA,gBAAA;IACS,KAAK,EAAC,+CAA+C;IAAE,KAAK,EAAE,4BAA4B;KADnG",
+        "sourcesContent": [
+          "<template>\r\n    <div class=\"contact-form-section section-padding-t90-b100\" :style=\"{backgroundColor: '#f8faff'}\">\r\n        <div class=\"container\">\r\n            <div class=\"row\">\r\n                <div class=\"offset-lg-2 col-lg-8\">\r\n                    <!-- Section Title Start -->\r\n                    <div class=\"section-title text-center\" data-aos=\"fade-up\">\r\n                        <h2 class=\"title fz-32\">Let’s talk about your project</h2>\r\n                        <p class=\"sub-title\">We have made it easy for clients to reach us and get their solutions weaved</p>\r\n                    </div>\r\n                    <!-- Section Title End -->\r\n                    <div class=\"contact-form\">\r\n                        <form>\r\n                            <div class=\"row mtn-30\">\r\n                                <div class=\"col-md-6 col-12 mt-30\">\r\n                                    <input type=\"text\" placeholder=\"Your Name *\" name=\"name\">\r\n                                </div>\r\n                                <div class=\"col-md-6 col-12 mt-30\">\r\n                                    <input type=\"email\" placeholder=\"Email *\" name=\"email\">\r\n                                </div>\r\n                                <div class=\"col-md-12 col-12 mt-30\">\r\n                                    <input type=\"text\" placeholder=\"Subject *\" name=\"subject\">\r\n                                </div>\r\n                                <div class=\"col-12 mt-30\">\r\n                                    <textarea name=\"message\" placeholder=\"Message\"></textarea>\r\n                                </div>\r\n                                <div class=\"col-12 text-center mt-30\">\r\n                                    <button class=\"btn btn-primary btn-hover-secondary\">Submit</button>\r\n                                </div>\r\n                            </div>\r\n                        </form>\r\n                    </div>\r\n                </div>\r\n            </div>\r\n        </div>\r\n    </div>\r\n</template>"
+        ]
+      }
+    },
+    {
+      "name": "vite:vue-jsx",
+      "start": 1712455696305,
+      "end": 1712455696305,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1712455696305,
+      "end": 1712455696305,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1712455696305,
+      "end": 1712455696305,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:remove-plugin-metadata",
+      "start": 1712455696305,
+      "end": 1712455696305,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:remove-plugin-metadata",
+      "start": 1712455696305,
+      "end": 1712455696305,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:components:imports",
+      "start": 1712455696306,
+      "end": 1712455696306,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1712455696306,
+      "end": 1712455696306,
+      "order": "normal"
+    },
+    {
+      "name": "ssr-styles",
+      "start": 1712455696306,
+      "end": 1712455696306,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1712455696306,
+      "end": 1712455696306,
+      "order": "normal"
+    },
+    {
+      "name": "vite:css-post",
+      "start": 1712455696306,
+      "end": 1712455696306,
+      "order": "normal"
+    },
+    {
+      "name": "vite:build-html",
+      "start": 1712455696306,
+      "end": 1712455696306,
+      "order": "normal"
+    },
+    {
+      "name": "vite:worker-import-meta-url",
+      "start": 1712455696306,
+      "end": 1712455696306,
+      "order": "normal"
+    },
+    {
+      "name": "vite:asset-import-meta-url",
+      "start": 1712455696306,
+      "end": 1712455696306,
+      "order": "normal"
+    },
+    {
+      "name": "commonjs",
+      "start": 1712455696306,
+      "end": 1712455696306,
+      "order": "normal"
+    },
+    {
+      "name": "vite:dynamic-import-vars",
+      "start": 1712455696306,
+      "end": 1712455696306,
+      "order": "normal"
+    },
+    {
+      "name": "vite:import-glob",
+      "start": 1712455696306,
+      "end": 1712455696306,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:composable-keys",
+      "start": 1712455696306,
+      "end": 1712455696306,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:composable-keys",
+      "start": 1712455696306,
+      "end": 1712455696306,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:imports-transform",
+      "start": 1712455696306,
+      "end": 1712455696306,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:imports-transform",
+      "start": 1712455696306,
+      "end": 1712455696306,
+      "order": "post"
+    },
+    {
+      "name": "unctx:transform",
+      "start": 1712455696306,
+      "end": 1712455696306,
+      "order": "post"
+    },
+    {
+      "name": "unctx:transform",
+      "start": 1712455696306,
+      "end": 1712455696306,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:pages-macros-transform",
+      "start": 1712455696306,
+      "end": 1712455696306,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:pages-macros-transform",
+      "start": 1712455696306,
+      "end": 1712455696306,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:tree-shake-template",
+      "start": 1712455696306,
+      "end": 1712455696306,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:components-loader",
+      "start": 1712455696306,
+      "end": 1712455696306,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:tree-shake-composables:transform",
+      "start": 1712455696306,
+      "end": 1712455696306,
+      "order": "post"
+    },
+    {
+      "name": "vite:build-import-analysis",
+      "start": 1712455696306,
+      "end": 1712455696306,
+      "order": "normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1712455696306,
+      "end": 1712455696306,
+      "order": "normal"
+    }
+  ]
+}

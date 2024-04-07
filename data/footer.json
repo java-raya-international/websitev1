@@ -1,0 +1,84 @@
+{
+    "footerAboutWidget": {
+        "logoSrc": "/images/logo/footer-logo.png",
+        "telephone": "0123456789",
+        "email": "demo@example.com",
+        "fbUrl": "https://www.facebook.com/",
+        "twitterUrl": "https://twitter.com/",
+        "instagramUrl": "https://www.instagram.com/"
+    },
+    "footerLinkTitleOne": "Our Store",
+    "navListOne": [
+        {
+            "navTitle": "Retail",
+            "navUrl": "https://shop.javaraya.co.uk",
+            "target": "_blank" 
+        },
+        {
+            "navTitle": "Material",
+            "navUrl": "/business/material" ,
+            "target": "" 
+        },
+        {
+            "navTitle": "Bioscience",
+            "navUrl": "/business/bioscience" ,
+            "target": "" 
+        }
+    ],
+    "footerLinkTitleTwo": "Products",
+    "navListTwo": [
+        {
+            "navTitle": "Elementor Guru",
+            "navUrl": "/" 
+        },
+        {
+            "navTitle": "WooLentor Pro",
+            "navUrl": "/" 
+        },
+        {
+            "navTitle": "Plugins",
+            "navUrl": "/" 
+        },
+        {
+            "navTitle": "Page Builder",
+            "navUrl": "/" 
+        }
+    ],
+    "footerLinkTitleThree": "About",
+    "navListThree": [
+        {
+            "navTitle": "Company",
+            "navUrl": "/about/company" ,
+            "target": "" 
+        },
+        {
+            "navTitle": "Privacy",
+            "navUrl": "/about/privacy" ,
+            "target": "" 
+        },
+        {
+            "navTitle": "Contact Form",
+            "navUrl": "https://form.jotform.com/240958272825162" ,
+            "target": "_blank" 
+        }
+    ],
+    "footerLinkTitleFour": "Contact",
+    "navListFour": [
+        {
+            "navTitle": "Support Ticket",
+            "navUrl": "/" 
+        },
+        {
+            "navTitle": "Help Desk",
+            "navUrl": "/" 
+        },
+        {
+            "navTitle": "Live Chat",
+            "navUrl": "/" 
+        },
+        {
+            "navTitle": "FAQs",
+            "navUrl": "/" 
+        }
+    ]
+}

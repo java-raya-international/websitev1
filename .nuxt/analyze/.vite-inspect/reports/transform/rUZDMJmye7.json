@@ -1,0 +1,215 @@
+{
+  "resolvedId": "E:/Projects/JavaRayaInternational/website/pages/index.vue",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "<template>\r\n    <div class=\"main-container\">\r\n        <TheHeader />\r\n        <OffCanvasMobileMenu />\r\n        <SearchPopup />\r\n        <HeroFixedBanner />\r\n        <!-- <AboutTwo />\r\n        <FunFact /> -->\r\n        <FeatureOne :style=\"{backgroundColor: '#f8faff'}\" />\r\n\r\n        \r\n        <!-- <SkillWithVideo /> -->\r\n        <!-- <PortfolioGalleryTwo :style=\"{backgroundColor: '#f8faff'}\" /> -->\r\n        <!-- <TestimonialSectionOne /> -->\r\n        <!-- <BlogSectionOne :style=\"{backgroundColor: '#f8faff'}\" /> -->\r\n        <!-- <ContactSectionOne /> -->\r\n        <TheFooter />\r\n    </div>\r\n</template>\r\n\r\n<script>\r\n    export default {\r\n        head() {\r\n            return {\r\n                title: 'Java Raya International'\r\n            }\r\n        },\r\n    };\r\n</script>\r\n",
+      "start": 1712455690684,
+      "end": 1712455690756,
+      "sourcemaps": null
+    },
+    {
+      "name": "nuxt:layer-aliasing",
+      "start": 1712455690756,
+      "end": 1712455690756,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:server-devonly:transform",
+      "start": 1712455690756,
+      "end": 1712455690756,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:client-fallback-auto-id",
+      "start": 1712455690756,
+      "end": 1712455690756,
+      "order": "pre"
+    },
+    {
+      "name": "vite:css",
+      "start": 1712455690756,
+      "end": 1712455690756,
+      "order": "normal"
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1712455690756,
+      "end": 1712455690756,
+      "order": "normal"
+    },
+    {
+      "name": "vite:json",
+      "start": 1712455690756,
+      "end": 1712455690756,
+      "order": "normal"
+    },
+    {
+      "name": "vite:worker",
+      "start": 1712455690756,
+      "end": 1712455690756,
+      "order": "normal"
+    },
+    {
+      "name": "vite:vue",
+      "result": "\r\n    const _sfc_main = {\r\n        head() {\r\n            return {\r\n                title: 'Java Raya International'\r\n            }\r\n        },\r\n    };\r\n\nimport { resolveComponent as _resolveComponent, createVNode as _createVNode, openBlock as _openBlock, createElementBlock as _createElementBlock } from \"vue\"\n\nconst _hoisted_1 = { class: \"main-container\" }\n\nfunction _sfc_render(_ctx, _cache, $props, $setup, $data, $options) {\n  const _component_TheHeader = _resolveComponent(\"TheHeader\")\n  const _component_OffCanvasMobileMenu = _resolveComponent(\"OffCanvasMobileMenu\")\n  const _component_SearchPopup = _resolveComponent(\"SearchPopup\")\n  const _component_HeroFixedBanner = _resolveComponent(\"HeroFixedBanner\")\n  const _component_FeatureOne = _resolveComponent(\"FeatureOne\")\n  const _component_TheFooter = _resolveComponent(\"TheFooter\")\n\n  return (_openBlock(), _createElementBlock(\"div\", _hoisted_1, [\n    _createVNode(_component_TheHeader),\n    _createVNode(_component_OffCanvasMobileMenu),\n    _createVNode(_component_SearchPopup),\n    _createVNode(_component_HeroFixedBanner),\n    _createVNode(_component_FeatureOne, { style: {backgroundColor: '#f8faff'} }),\n    _createVNode(_component_TheFooter)\n  ]))\n}\n\n\nimport _export_sfc from '\u0000plugin-vue:export-helper'\nexport default /*#__PURE__*/_export_sfc(_sfc_main, [['render',_sfc_render]])",
+      "start": 1712455690756,
+      "end": 1712455690757,
+      "order": "normal",
+      "sourcemaps": {
+        "mappings": ""
+      }
+    },
+    {
+      "name": "vite:vue-jsx",
+      "start": 1712455690757,
+      "end": 1712455690757,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1712455690757,
+      "end": 1712455690757,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:remove-plugin-metadata",
+      "start": 1712455690757,
+      "end": 1712455690757,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:chunk-error",
+      "start": 1712455690757,
+      "end": 1712455690757,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:components:imports",
+      "start": 1712455690757,
+      "end": 1712455690757,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1712455690757,
+      "end": 1712455690757,
+      "order": "normal"
+    },
+    {
+      "name": "ssr-styles",
+      "start": 1712455690757,
+      "end": 1712455690757,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1712455690757,
+      "end": 1712455690757,
+      "order": "normal"
+    },
+    {
+      "name": "vite:css-post",
+      "start": 1712455690757,
+      "end": 1712455690757,
+      "order": "normal"
+    },
+    {
+      "name": "vite:build-html",
+      "start": 1712455690757,
+      "end": 1712455690757,
+      "order": "normal"
+    },
+    {
+      "name": "vite:worker-import-meta-url",
+      "start": 1712455690757,
+      "end": 1712455690757,
+      "order": "normal"
+    },
+    {
+      "name": "vite:asset-import-meta-url",
+      "start": 1712455690757,
+      "end": 1712455690757,
+      "order": "normal"
+    },
+    {
+      "name": "commonjs",
+      "start": 1712455690757,
+      "end": 1712455690757,
+      "order": "normal"
+    },
+    {
+      "name": "vite:dynamic-import-vars",
+      "start": 1712455690757,
+      "end": 1712455690757,
+      "order": "normal"
+    },
+    {
+      "name": "vite:import-glob",
+      "start": 1712455690757,
+      "end": 1712455690757,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:composable-keys",
+      "start": 1712455690757,
+      "end": 1712455690757,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:imports-transform",
+      "start": 1712455690757,
+      "end": 1712455690757,
+      "order": "post"
+    },
+    {
+      "name": "unctx:transform",
+      "start": 1712455690757,
+      "end": 1712455690757,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:pages-macros-transform",
+      "start": 1712455690757,
+      "end": 1712455690757,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:runtime-paths-dep",
+      "start": 1712455690757,
+      "end": 1712455690757,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:route-injection-plugin",
+      "start": 1712455690757,
+      "end": 1712455690757,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:components-loader",
+      "result": "import { default as __nuxt_component_0 } from \"E:/Projects/JavaRayaInternational/website/components/TheHeader.vue\";\nimport { default as __nuxt_component_1 } from \"E:/Projects/JavaRayaInternational/website/components/OffCanvasMobileMenu.vue\";\nimport { default as __nuxt_component_2 } from \"E:/Projects/JavaRayaInternational/website/components/SearchPopup.vue\";\nimport { default as __nuxt_component_3 } from \"E:/Projects/JavaRayaInternational/website/components/HeroFixedBanner.vue\";\nimport { default as __nuxt_component_4 } from \"E:/Projects/JavaRayaInternational/website/components/FeatureOne.vue\";\nimport { default as __nuxt_component_5 } from \"E:/Projects/JavaRayaInternational/website/components/TheFooter.vue\";\n\r\n    const _sfc_main = {\r\n        head() {\r\n            return {\r\n                title: 'Java Raya International'\r\n            }\r\n        },\r\n    };\r\n\nimport { resolveComponent as _resolveComponent, createVNode as _createVNode, openBlock as _openBlock, createElementBlock as _createElementBlock } from \"vue\"\n\nconst _hoisted_1 = { class: \"main-container\" }\n\nfunction _sfc_render(_ctx, _cache, $props, $setup, $data, $options) {\n  const _component_TheHeader = __nuxt_component_0\n  const _component_OffCanvasMobileMenu = __nuxt_component_1\n  const _component_SearchPopup = __nuxt_component_2\n  const _component_HeroFixedBanner = __nuxt_component_3\n  const _component_FeatureOne = __nuxt_component_4\n  const _component_TheFooter = __nuxt_component_5\n\n  return (_openBlock(), _createElementBlock(\"div\", _hoisted_1, [\n    _createVNode(_component_TheHeader),\n    _createVNode(_component_OffCanvasMobileMenu),\n    _createVNode(_component_SearchPopup),\n    _createVNode(_component_HeroFixedBanner),\n    _createVNode(_component_FeatureOne, { style: {backgroundColor: '#f8faff'} }),\n    _createVNode(_component_TheFooter)\n  ]))\n}\n\n\nimport _export_sfc from '\u0000plugin-vue:export-helper'\nexport default /*#__PURE__*/_export_sfc(_sfc_main, [['render',_sfc_render]])",
+      "start": 1712455690757,
+      "end": 1712455690758,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:tree-shake-composables:transform",
+      "start": 1712455690758,
+      "end": 1712455690758,
+      "order": "post"
+    },
+    {
+      "name": "vite:build-import-analysis",
+      "start": 1712455690758,
+      "end": 1712455690758,
+      "order": "normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1712455690758,
+      "end": 1712455690758,
+      "order": "normal"
+    }
+  ]
+}

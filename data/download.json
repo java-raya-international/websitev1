@@ -1,0 +1,26 @@
+[
+    {
+        "id": 1,
+        "title": "Android Mobile",
+        "slug": "mobile-android",
+        "text": "Android 9 and latest ",
+        "iconSrc": "/images/svg/download/download-mobile-android.svg",
+        "imgSrc": "/images/project/work-details-1.jpg"
+    },
+    {
+        "id": 2,
+        "title": "IOS Mobile",
+        "slug": "mobile-ios",
+        "text": "IOS 12 and latest",
+        "iconSrc": "/images/svg/download/download-mobile-ios.svg",
+        "imgSrc": "/images/project/work-details-2.jpg"
+    },
+    {
+        "id": 3,
+        "title": "Android TV",
+        "slug": "tv-android",
+        "text": "Android 9 and latest",
+        "iconSrc": "/images/svg/download/download-tv-android.svg",
+        "imgSrc": "/images/project/work-details-3.jpg"
+    }
+]

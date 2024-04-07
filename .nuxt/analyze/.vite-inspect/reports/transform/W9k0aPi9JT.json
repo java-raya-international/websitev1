@@ -1,0 +1,217 @@
+{
+  "resolvedId": "E:/Projects/JavaRayaInternational/website/components/TeamOne.vue",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "<template>\r\n    <div class=\"section-padding\" data-bg-color=\"#f8faff\">\r\n        <div class=\"container\">\r\n            <!-- Section Title Start -->\r\n            <div class=\"section-title text-center mb-60\" data-aos=\"fade-up\">\r\n                <h2 class=\"title\">People behind the screen</h2>\r\n                <p class=\"sub-title\">Get your company heading in the right direction with our digital marketing strategist</p>\r\n            </div>\r\n            <!-- Section Title End -->\r\n\r\n            <div class=\"row row-cols-lg-4 row-cols-sm-2 row-cols-1 mtn-30\">\r\n                <div class=\"col mt-30\" v-for=\"(team, index) in teamData.slice(0, 4)\" :key=\"index\">\r\n                    <TeamMember :team=\"team\" />\r\n                </div>\r\n            </div>\r\n        </div>\r\n    </div>\r\n</template>\r\n\r\n<script>\r\n    import teamData from '~/data/team.json';\r\n\r\n    export default {\r\n        components: {\r\n            TeamMember: () => import('@/components/TeamMember'),\r\n        },\r\n\r\n        data() {\r\n            return {\r\n                teamData\r\n            }\r\n        },\r\n    };\r\n</script>",
+      "start": 1712455690923,
+      "end": 1712455691050,
+      "sourcemaps": null
+    },
+    {
+      "name": "nuxt:layer-aliasing",
+      "start": 1712455691050,
+      "end": 1712455691050,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:server-devonly:transform",
+      "start": 1712455691050,
+      "end": 1712455691050,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:client-fallback-auto-id",
+      "start": 1712455691050,
+      "end": 1712455691050,
+      "order": "pre"
+    },
+    {
+      "name": "vite:css",
+      "start": 1712455691050,
+      "end": 1712455691050,
+      "order": "normal"
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1712455691050,
+      "end": 1712455691050,
+      "order": "normal"
+    },
+    {
+      "name": "vite:json",
+      "start": 1712455691050,
+      "end": 1712455691050,
+      "order": "normal"
+    },
+    {
+      "name": "vite:worker",
+      "start": 1712455691050,
+      "end": 1712455691050,
+      "order": "normal"
+    },
+    {
+      "name": "vite:vue",
+      "result": "\r\n    import teamData from '~/data/team.json';\r\n\r\n    const _sfc_main = {\r\n        components: {\r\n            TeamMember: () => import('@/components/TeamMember'),\r\n        },\r\n\r\n        data() {\r\n            return {\r\n                teamData\r\n            }\r\n        },\r\n    };\r\n\nimport { createElementVNode as _createElementVNode, renderList as _renderList, Fragment as _Fragment, openBlock as _openBlock, createElementBlock as _createElementBlock, resolveComponent as _resolveComponent, createVNode as _createVNode } from \"vue\"\n\nconst _hoisted_1 = {\n  class: \"section-padding\",\n  \"data-bg-color\": \"#f8faff\"\n}\nconst _hoisted_2 = { class: \"container\" }\nconst _hoisted_3 = /*#__PURE__*/_createElementVNode(\"div\", {\n  class: \"section-title text-center mb-60\",\n  \"data-aos\": \"fade-up\"\n}, [\n  /*#__PURE__*/_createElementVNode(\"h2\", { class: \"title\" }, \"People behind the screen\"),\n  /*#__PURE__*/_createElementVNode(\"p\", { class: \"sub-title\" }, \"Get your company heading in the right direction with our digital marketing strategist\")\n], -1)\nconst _hoisted_4 = { class: \"row row-cols-lg-4 row-cols-sm-2 row-cols-1 mtn-30\" }\n\nfunction _sfc_render(_ctx, _cache, $props, $setup, $data, $options) {\n  const _component_TeamMember = _resolveComponent(\"TeamMember\")\n\n  return (_openBlock(), _createElementBlock(\"div\", _hoisted_1, [\n    _createElementVNode(\"div\", _hoisted_2, [\n      _hoisted_3,\n      _createElementVNode(\"div\", _hoisted_4, [\n        (_openBlock(true), _createElementBlock(_Fragment, null, _renderList($data.teamData.slice(0, 4), (team, index) => {\n          return (_openBlock(), _createElementBlock(\"div\", {\n            class: \"col mt-30\",\n            key: index\n          }, [\n            _createVNode(_component_TeamMember, { team: team }, null, 8, [\"team\"])\n          ]))\n        }), 128))\n      ])\n    ])\n  ]))\n}\n\n\nimport _export_sfc from '\u0000plugin-vue:export-helper'\nexport default /*#__PURE__*/_export_sfc(_sfc_main, [['render',_sfc_render]])",
+      "start": 1712455691050,
+      "end": 1712455691051,
+      "order": "normal",
+      "sourcemaps": {
+        "mappings": ""
+      }
+    },
+    {
+      "name": "vite:vue-jsx",
+      "start": 1712455691051,
+      "end": 1712455691051,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1712455691051,
+      "end": 1712455691051,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:remove-plugin-metadata",
+      "start": 1712455691051,
+      "end": 1712455691051,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:chunk-error",
+      "start": 1712455691051,
+      "end": 1712455691051,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:components:imports",
+      "start": 1712455691051,
+      "end": 1712455691051,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1712455691051,
+      "end": 1712455691051,
+      "order": "normal"
+    },
+    {
+      "name": "ssr-styles",
+      "start": 1712455691051,
+      "end": 1712455691051,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1712455691051,
+      "end": 1712455691051,
+      "order": "normal"
+    },
+    {
+      "name": "vite:css-post",
+      "start": 1712455691051,
+      "end": 1712455691051,
+      "order": "normal"
+    },
+    {
+      "name": "vite:build-html",
+      "start": 1712455691051,
+      "end": 1712455691051,
+      "order": "normal"
+    },
+    {
+      "name": "vite:worker-import-meta-url",
+      "start": 1712455691051,
+      "end": 1712455691051,
+      "order": "normal"
+    },
+    {
+      "name": "vite:asset-import-meta-url",
+      "start": 1712455691051,
+      "end": 1712455691051,
+      "order": "normal"
+    },
+    {
+      "name": "commonjs",
+      "start": 1712455691051,
+      "end": 1712455691051,
+      "order": "normal"
+    },
+    {
+      "name": "vite:dynamic-import-vars",
+      "start": 1712455691051,
+      "end": 1712455691051,
+      "order": "normal"
+    },
+    {
+      "name": "vite:import-glob",
+      "start": 1712455691051,
+      "end": 1712455691051,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:composable-keys",
+      "start": 1712455691051,
+      "end": 1712455691051,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:imports-transform",
+      "start": 1712455691051,
+      "end": 1712455691051,
+      "order": "post"
+    },
+    {
+      "name": "unctx:transform",
+      "start": 1712455691051,
+      "end": 1712455691051,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:pages-macros-transform",
+      "start": 1712455691051,
+      "end": 1712455691051,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:runtime-paths-dep",
+      "start": 1712455691051,
+      "end": 1712455691051,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:route-injection-plugin",
+      "start": 1712455691051,
+      "end": 1712455691051,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:components-loader",
+      "result": "import { default as __nuxt_component_0 } from \"E:/Projects/JavaRayaInternational/website/components/TeamMember.vue\";\n\r\n    import teamData from '~/data/team.json';\r\n\r\n    const _sfc_main = {\r\n        components: {\r\n            TeamMember: () => import('@/components/TeamMember'),\r\n        },\r\n\r\n        data() {\r\n            return {\r\n                teamData\r\n            }\r\n        },\r\n    };\r\n\nimport { createElementVNode as _createElementVNode, renderList as _renderList, Fragment as _Fragment, openBlock as _openBlock, createElementBlock as _createElementBlock, resolveComponent as _resolveComponent, createVNode as _createVNode } from \"vue\"\n\nconst _hoisted_1 = {\n  class: \"section-padding\",\n  \"data-bg-color\": \"#f8faff\"\n}\nconst _hoisted_2 = { class: \"container\" }\nconst _hoisted_3 = /*#__PURE__*/_createElementVNode(\"div\", {\n  class: \"section-title text-center mb-60\",\n  \"data-aos\": \"fade-up\"\n}, [\n  /*#__PURE__*/_createElementVNode(\"h2\", { class: \"title\" }, \"People behind the screen\"),\n  /*#__PURE__*/_createElementVNode(\"p\", { class: \"sub-title\" }, \"Get your company heading in the right direction with our digital marketing strategist\")\n], -1)\nconst _hoisted_4 = { class: \"row row-cols-lg-4 row-cols-sm-2 row-cols-1 mtn-30\" }\n\nfunction _sfc_render(_ctx, _cache, $props, $setup, $data, $options) {\n  const _component_TeamMember = __nuxt_component_0\n\n  return (_openBlock(), _createElementBlock(\"div\", _hoisted_1, [\n    _createElementVNode(\"div\", _hoisted_2, [\n      _hoisted_3,\n      _createElementVNode(\"div\", _hoisted_4, [\n        (_openBlock(true), _createElementBlock(_Fragment, null, _renderList($data.teamData.slice(0, 4), (team, index) => {\n          return (_openBlock(), _createElementBlock(\"div\", {\n            class: \"col mt-30\",\n            key: index\n          }, [\n            _createVNode(_component_TeamMember, { team: team }, null, 8, [\"team\"])\n          ]))\n        }), 128))\n      ])\n    ])\n  ]))\n}\n\n\nimport _export_sfc from '\u0000plugin-vue:export-helper'\nexport default /*#__PURE__*/_export_sfc(_sfc_main, [['render',_sfc_render]])",
+      "start": 1712455691051,
+      "end": 1712455691052,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:tree-shake-composables:transform",
+      "start": 1712455691052,
+      "end": 1712455691052,
+      "order": "post"
+    },
+    {
+      "name": "vite:build-import-analysis",
+      "result": "import { __vitePreload } from \"\u0000vite/preload-helper.js\";import { default as __nuxt_component_0 } from \"E:/Projects/JavaRayaInternational/website/components/TeamMember.vue\";\n\r\n    import teamData from '~/data/team.json';\r\n\r\n    const _sfc_main = {\r\n        components: {\r\n            TeamMember: () => __vitePreload(() => import('@/components/TeamMember'),__VITE_IS_MODERN__?\"__VITE_PRELOAD__\":void 0,import.meta.url),\r\n        },\r\n\r\n        data() {\r\n            return {\r\n                teamData\r\n            }\r\n        },\r\n    };\r\n\nimport { createElementVNode as _createElementVNode, renderList as _renderList, Fragment as _Fragment, openBlock as _openBlock, createElementBlock as _createElementBlock, resolveComponent as _resolveComponent, createVNode as _createVNode } from \"vue\"\n\nconst _hoisted_1 = {\n  class: \"section-padding\",\n  \"data-bg-color\": \"#f8faff\"\n}\nconst _hoisted_2 = { class: \"container\" }\nconst _hoisted_3 = /*#__PURE__*/_createElementVNode(\"div\", {\n  class: \"section-title text-center mb-60\",\n  \"data-aos\": \"fade-up\"\n}, [\n  /*#__PURE__*/_createElementVNode(\"h2\", { class: \"title\" }, \"People behind the screen\"),\n  /*#__PURE__*/_createElementVNode(\"p\", { class: \"sub-title\" }, \"Get your company heading in the right direction with our digital marketing strategist\")\n], -1)\nconst _hoisted_4 = { class: \"row row-cols-lg-4 row-cols-sm-2 row-cols-1 mtn-30\" }\n\nfunction _sfc_render(_ctx, _cache, $props, $setup, $data, $options) {\n  const _component_TeamMember = __nuxt_component_0\n\n  return (_openBlock(), _createElementBlock(\"div\", _hoisted_1, [\n    _createElementVNode(\"div\", _hoisted_2, [\n      _hoisted_3,\n      _createElementVNode(\"div\", _hoisted_4, [\n        (_openBlock(true), _createElementBlock(_Fragment, null, _renderList($data.teamData.slice(0, 4), (team, index) => {\n          return (_openBlock(), _createElementBlock(\"div\", {\n            class: \"col mt-30\",\n            key: index\n          }, [\n            _createVNode(_component_TeamMember, { team: team }, null, 8, [\"team\"])\n          ]))\n        }), 128))\n      ])\n    ])\n  ]))\n}\n\n\nimport _export_sfc from '\u0000plugin-vue:export-helper'\nexport default /*#__PURE__*/_export_sfc(_sfc_main, [['render',_sfc_render]])",
+      "start": 1712455691052,
+      "end": 1712455691052,
+      "order": "normal",
+      "sourcemaps": null
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1712455691052,
+      "end": 1712455691052,
+      "order": "normal"
+    }
+  ]
+}
