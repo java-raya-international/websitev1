@@ -1,4 +1,4 @@
-import { b as buildAssetsURL } from '../_/renderer.mjs';
+import { a as buildAssetsURL } from '../_/renderer.mjs';
 import 'file://E:/Projects/JavaRayaInternational/website/node_modules/vue-bundle-renderer/dist/runtime.mjs';
 import 'file://E:/Projects/JavaRayaInternational/website/node_modules/h3/dist/index.mjs';
 import 'file://E:/Projects/JavaRayaInternational/website/node_modules/devalue/index.js';

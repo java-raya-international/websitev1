@@ -1,16 +1,20 @@
 import { version, unref, inject, defineComponent, h, computed, ref, provide, shallowReactive, watch, Suspense, nextTick, Transition, hasInjectionContext, mergeProps, useSSRContext, createApp, effectScope, reactive, getCurrentInstance, onErrorCaptured, onServerPrefetch, createVNode, resolveDynamicComponent, toRef, shallowRef, isReadonly, isRef, isShallow, isReactive, toRaw, withCtx, defineAsyncComponent } from 'file://E:/Projects/JavaRayaInternational/website/node_modules/vue/index.mjs';
-import { joinRelativeURL, withQuery, hasProtocol, parseURL, isScriptProtocol, joinURL } from 'file://E:/Projects/JavaRayaInternational/website/node_modules/ufo/dist/index.mjs';
 import { $fetch } from 'file://E:/Projects/JavaRayaInternational/website/node_modules/ofetch/dist/node.mjs';
+import { b as baseURL } from '../_/renderer.mjs';
 import { createHooks } from 'file://E:/Projects/JavaRayaInternational/website/node_modules/hookable/dist/index.mjs';
 import { getContext } from 'file://E:/Projects/JavaRayaInternational/website/node_modules/unctx/dist/index.mjs';
 import { sanitizeStatusCode, createError as createError$1 } from 'file://E:/Projects/JavaRayaInternational/website/node_modules/h3/dist/index.mjs';
 import { getActiveHead } from 'file://E:/Projects/JavaRayaInternational/website/node_modules/unhead/dist/index.mjs';
 import { defineHeadPlugin } from 'file://E:/Projects/JavaRayaInternational/website/node_modules/@unhead/shared/dist/index.mjs';
 import { useRoute as useRoute$1, RouterView, createMemoryHistory, createRouter, START_LOCATION } from 'file://E:/Projects/JavaRayaInternational/website/node_modules/vue-router/dist/vue-router.node.mjs';
+import { withQuery, hasProtocol, parseURL, isScriptProtocol, joinURL, isSamePath } from 'file://E:/Projects/JavaRayaInternational/website/node_modules/ufo/dist/index.mjs';
 import { toRouteMatcher, createRouter as createRouter$1 } from 'file://E:/Projects/JavaRayaInternational/website/node_modules/radix3/dist/index.mjs';
 import { defu } from 'file://E:/Projects/JavaRayaInternational/website/node_modules/defu/dist/defu.mjs';
 import { ssrRenderSuspense, ssrRenderComponent, ssrRenderVNode } from 'file://E:/Projects/JavaRayaInternational/website/node_modules/vue/server-renderer/index.mjs';
-import { a as useRuntimeConfig$1 } from '../runtime.mjs';
+import 'file://E:/Projects/JavaRayaInternational/website/node_modules/vue-bundle-renderer/dist/runtime.mjs';
+import 'file://E:/Projects/JavaRayaInternational/website/node_modules/devalue/index.js';
+import 'file://E:/Projects/JavaRayaInternational/website/node_modules/@unhead/ssr/dist/index.mjs';
+import '../runtime.mjs';
 import 'file://E:/Projects/JavaRayaInternational/website/node_modules/destr/dist/index.mjs';
 import 'file://E:/Projects/JavaRayaInternational/website/node_modules/unenv/runtime/fetch/index.mjs';
 import 'file://E:/Projects/JavaRayaInternational/website/node_modules/klona/dist/index.mjs';
@@ -24,12 +28,6 @@ import 'node:fs';
 import 'node:url';
 import 'file://E:/Projects/JavaRayaInternational/website/node_modules/pathe/dist/index.mjs';
 
-const appConfig = useRuntimeConfig$1().app;
-const baseURL = () => appConfig.baseURL;
-const publicAssetsURL = (...path) => {
-  const publicBase = appConfig.cdnURL || appConfig.baseURL;
-  return path.length ? joinRelativeURL(publicBase, ...path) : publicBase;
-};
 if (!globalThis.$fetch) {
   globalThis.$fetch = $fetch.create({
     baseURL: baseURL()
@@ -47,7 +45,7 @@ function createNuxtApp(options) {
     globalName: "nuxt",
     versions: {
       get nuxt() {
-        return "3.11.1";
+        return "3.11.2";
       },
       get vue() {
         return nuxtApp.vueApp.version;
@@ -255,7 +253,7 @@ const isProcessingMiddleware = () => {
       return true;
     }
   } catch {
-    return true;
+    return false;
   }
   return false;
 };
@@ -264,9 +262,6 @@ const navigateTo = (to, options) => {
     to = "/";
   }
   const toPath = typeof to === "string" ? to : withQuery(to.path || "/", to.query || {}) + (to.hash || "");
-  if (options == null ? void 0 : options.open) {
-    return Promise.resolve();
-  }
   const isExternal = (options == null ? void 0 : options.external) || hasProtocol(toPath, { acceptRelative: true });
   if (isExternal) {
     if (!(options == null ? void 0 : options.external)) {
@@ -561,7 +556,7 @@ const _routes = [
     meta: {},
     alias: [],
     redirect: void 0 ,
-    component: () => import('./about-old-BOFPq6-C.mjs').then((m) => m.default || m)
+    component: () => import('./about-old-CrbUR-b8.mjs').then((m) => m.default || m)
   },
   {
     name: "about-company",
@@ -569,7 +564,7 @@ const _routes = [
     meta: {},
     alias: [],
     redirect: void 0 ,
-    component: () => import('./company-CAkaVE-7.mjs').then((m) => m.default || m)
+    component: () => import('./company-DAbh5KK6.mjs').then((m) => m.default || m)
   },
   {
     name: "about-contact",
@@ -577,7 +572,7 @@ const _routes = [
     meta: {},
     alias: [],
     redirect: void 0 ,
-    component: () => import('./contact-DGWeWXug.mjs').then((m) => m.default || m)
+    component: () => import('./contact-mTGEChW-.mjs').then((m) => m.default || m)
   },
   {
     name: "about-privacy",
@@ -585,7 +580,7 @@ const _routes = [
     meta: {},
     alias: [],
     redirect: void 0 ,
-    component: () => import('./privacy-zb2MtXCU.mjs').then((m) => m.default || m)
+    component: () => import('./privacy-DGBAJiFE.mjs').then((m) => m.default || m)
   },
   {
     name: "blog-slug",
@@ -593,7 +588,7 @@ const _routes = [
     meta: {},
     alias: [],
     redirect: void 0 ,
-    component: () => import('./_slug_-idZB_nIZ.mjs').then((m) => m.default || m)
+    component: () => import('./_slug_-C21e_CKz.mjs').then((m) => m.default || m)
   },
   {
     name: "blog-blog-classic",
@@ -601,7 +596,7 @@ const _routes = [
     meta: {},
     alias: [],
     redirect: void 0 ,
-    component: () => import('./blog-classic-BXnfnfrP.mjs').then((m) => m.default || m)
+    component: () => import('./blog-classic-WZiJJqMo.mjs').then((m) => m.default || m)
   },
   {
     name: "blog-blog-details",
@@ -609,7 +604,7 @@ const _routes = [
     meta: {},
     alias: [],
     redirect: void 0 ,
-    component: () => import('./blog-details-DJzO1sut.mjs').then((m) => m.default || m)
+    component: () => import('./blog-details-Cma11vTQ.mjs').then((m) => m.default || m)
   },
   {
     name: "blog-categories-slug",
@@ -617,7 +612,7 @@ const _routes = [
     meta: {},
     alias: [],
     redirect: void 0 ,
-    component: () => import('./_slug_-Dt4GWqb4.mjs').then((m) => m.default || m)
+    component: () => import('./_slug_-aZoDW58g.mjs').then((m) => m.default || m)
   },
   {
     name: "blog",
@@ -625,7 +620,7 @@ const _routes = [
     meta: {},
     alias: [],
     redirect: void 0 ,
-    component: () => import('./index-DLjZyEM6.mjs').then((m) => m.default || m)
+    component: () => import('./index-BiyYxwru.mjs').then((m) => m.default || m)
   },
   {
     name: "blog-tags-slug",
@@ -633,7 +628,7 @@ const _routes = [
     meta: {},
     alias: [],
     redirect: void 0 ,
-    component: () => import('./_slug_-BRkuilPX.mjs').then((m) => m.default || m)
+    component: () => import('./_slug_-D_vBiHjd.mjs').then((m) => m.default || m)
   },
   {
     name: "business-bioscience",
@@ -641,7 +636,7 @@ const _routes = [
     meta: {},
     alias: [],
     redirect: void 0 ,
-    component: () => import('./bioscience-BnHOLMgu.mjs').then((m) => m.default || m)
+    component: () => import('./bioscience-C8nL92u1.mjs').then((m) => m.default || m)
   },
   {
     name: "business-material",
@@ -649,7 +644,7 @@ const _routes = [
     meta: {},
     alias: [],
     redirect: void 0 ,
-    component: () => import('./material-E__g5BZZ.mjs').then((m) => m.default || m)
+    component: () => import('./material-D9DbZaGg.mjs').then((m) => m.default || m)
   },
   {
     name: "business-retail",
@@ -657,7 +652,7 @@ const _routes = [
     meta: {},
     alias: [],
     redirect: void 0 ,
-    component: () => import('./retail-B5t6NCvO.mjs').then((m) => m.default || m)
+    component: () => import('./retail-D0FWGrm0.mjs').then((m) => m.default || m)
   },
   {
     name: "contact-us",
@@ -665,7 +660,7 @@ const _routes = [
     meta: {},
     alias: [],
     redirect: void 0 ,
-    component: () => import('./contact-us-DOrw2clE.mjs').then((m) => m.default || m)
+    component: () => import('./contact-us-Gdq9zzLS.mjs').then((m) => m.default || m)
   },
   {
     name: "download",
@@ -673,7 +668,7 @@ const _routes = [
     meta: {},
     alias: [],
     redirect: void 0 ,
-    component: () => import('./index-DghMeRHj.mjs').then((m) => m.default || m)
+    component: () => import('./index-BWMqrnbc.mjs').then((m) => m.default || m)
   },
   {
     name: "features-ai",
@@ -681,7 +676,7 @@ const _routes = [
     meta: {},
     alias: [],
     redirect: void 0 ,
-    component: () => import('./index-C6Jy0CZU.mjs').then((m) => m.default || m)
+    component: () => import('./index-DayVl2U1.mjs').then((m) => m.default || m)
   },
   {
     name: "features-blockchain",
@@ -689,7 +684,7 @@ const _routes = [
     meta: {},
     alias: [],
     redirect: void 0 ,
-    component: () => import('./index-CUzgsbpZ.mjs').then((m) => m.default || m)
+    component: () => import('./index-DX9ztKFg.mjs').then((m) => m.default || m)
   },
   {
     name: "features-decentralized",
@@ -697,7 +692,7 @@ const _routes = [
     meta: {},
     alias: [],
     redirect: void 0 ,
-    component: () => import('./index-Bzhn8UQ-.mjs').then((m) => m.default || m)
+    component: () => import('./index-Mlhlsgja.mjs').then((m) => m.default || m)
   },
   {
     name: "features-msmb",
@@ -705,7 +700,7 @@ const _routes = [
     meta: {},
     alias: [],
     redirect: void 0 ,
-    component: () => import('./index-B49e3XIP.mjs').then((m) => m.default || m)
+    component: () => import('./index-CstmIJxJ.mjs').then((m) => m.default || m)
   },
   {
     name: "features-multidevice",
@@ -713,7 +708,7 @@ const _routes = [
     meta: {},
     alias: [],
     redirect: void 0 ,
-    component: () => import('./index-UdsKeR8W.mjs').then((m) => m.default || m)
+    component: () => import('./index-CPjcZ-c3.mjs').then((m) => m.default || m)
   },
   {
     name: "features-product",
@@ -721,7 +716,7 @@ const _routes = [
     meta: {},
     alias: [],
     redirect: void 0 ,
-    component: () => import('./index-pPkO8v-M.mjs').then((m) => m.default || m)
+    component: () => import('./index-Do4p9kJU.mjs').then((m) => m.default || m)
   },
   {
     name: "home-three",
@@ -729,7 +724,7 @@ const _routes = [
     meta: {},
     alias: [],
     redirect: void 0 ,
-    component: () => import('./home-three-BqU2JOe3.mjs').then((m) => m.default || m)
+    component: () => import('./home-three-DDCGw16V.mjs').then((m) => m.default || m)
   },
   {
     name: "index",
@@ -737,7 +732,7 @@ const _routes = [
     meta: {},
     alias: [],
     redirect: void 0 ,
-    component: () => import('./index-DIHnBLr0.mjs').then((m) => m.default || m)
+    component: () => import('./index-DRrN7sSK.mjs').then((m) => m.default || m)
   },
   {
     name: "project",
@@ -745,7 +740,7 @@ const _routes = [
     meta: {},
     alias: [],
     redirect: void 0 ,
-    component: () => import('./index-DXjbSoKT.mjs').then((m) => m.default || m)
+    component: () => import('./index-CuCDJZNs.mjs').then((m) => m.default || m)
   },
   {
     name: "project-project-details",
@@ -753,7 +748,7 @@ const _routes = [
     meta: {},
     alias: [],
     redirect: void 0 ,
-    component: () => import('./project-details-DpEBhqsX.mjs').then((m) => m.default || m)
+    component: () => import('./project-details-6GYADczB.mjs').then((m) => m.default || m)
   },
   {
     name: "service-slug",
@@ -761,7 +756,7 @@ const _routes = [
     meta: {},
     alias: [],
     redirect: void 0 ,
-    component: () => import('./_slug_-BYfZkXl1.mjs').then((m) => m.default || m)
+    component: () => import('./_slug_-Csjzh_VN.mjs').then((m) => m.default || m)
   },
   {
     name: "service",
@@ -769,7 +764,7 @@ const _routes = [
     meta: {},
     alias: [],
     redirect: void 0 ,
-    component: () => import('./index-DNdK-Q_h.mjs').then((m) => m.default || m)
+    component: () => import('./index-sT2vSfXq.mjs').then((m) => m.default || m)
   }
 ];
 const _wrapIf = (component, props, slots) => {
@@ -892,7 +887,6 @@ const plugin = /* @__PURE__ */ defineNuxtPlugin({
     const history = ((_a = routerOptions.history) == null ? void 0 : _a.call(routerOptions, routerBase)) ?? createMemoryHistory(routerBase);
     const routes = ((_b = routerOptions.routes) == null ? void 0 : _b.call(routerOptions, _routes)) ?? _routes;
     let startPosition;
-    const initialURL = nuxtApp.ssrContext.url;
     const router = createRouter({
       ...routerOptions,
       scrollBehavior: (to, from, savedPosition) => {
@@ -922,7 +916,8 @@ const plugin = /* @__PURE__ */ defineNuxtPlugin({
     Object.defineProperty(nuxtApp.vueApp.config.globalProperties, "previousRoute", {
       get: () => previousRoute.value
     });
-    const _route = shallowRef(router.resolve(initialURL));
+    const initialURL = nuxtApp.ssrContext.url;
+    const _route = shallowRef(router.currentRoute.value);
     const syncCurrentRoute = () => {
       _route.value = router.currentRoute.value;
     };
@@ -944,7 +939,6 @@ const plugin = /* @__PURE__ */ defineNuxtPlugin({
       global: [],
       named: {}
     };
-    useError();
     try {
       if (true) {
         ;
@@ -957,6 +951,8 @@ const plugin = /* @__PURE__ */ defineNuxtPlugin({
     } catch (error2) {
       [__temp, __restore] = executeAsync(() => nuxtApp.runWithContext(() => showError(error2))), await __temp, __restore();
     }
+    const resolvedInitialRoute = router.currentRoute.value;
+    syncCurrentRoute();
     if ((_c = nuxtApp.ssrContext) == null ? void 0 : _c.islandContext) {
       return { provide: { router } };
     }
@@ -1021,6 +1017,7 @@ const plugin = /* @__PURE__ */ defineNuxtPlugin({
       delete nuxtApp._processingMiddleware;
       await nuxtApp.callHook("page:loading:end");
     });
+    useError();
     router.afterEach(async (to, _from, failure) => {
       delete nuxtApp._processingMiddleware;
       if (failure) {
@@ -1038,18 +1035,17 @@ const plugin = /* @__PURE__ */ defineNuxtPlugin({
             path: to.fullPath
           }
         })));
-      } else if (to.redirectedFrom && to.fullPath !== initialURL) {
+      } else if (to.fullPath !== initialURL && (to.redirectedFrom || !isSamePath(to.fullPath, initialURL))) {
         await nuxtApp.runWithContext(() => navigateTo(to.fullPath || "/"));
       }
     });
     nuxtApp.hooks.hookOnce("app:created", async () => {
       try {
-        const to = router.resolve(initialURL);
-        if ("name" in to) {
-          to.name = void 0;
+        if ("name" in resolvedInitialRoute) {
+          resolvedInitialRoute.name = void 0;
         }
         await router.replace({
-          ...to,
+          ...resolvedInitialRoute,
           force: true
         });
         router.options.scrollBehavior = routerOptions.scrollBehavior;
@@ -1092,8 +1088,8 @@ const plugins = [
   components_plugin_KR1HBZs4kY
 ];
 const layouts = {
-  default: () => import('./default-CmsVaHfK.mjs').then((m) => m.default || m),
-  error: () => import('./error-D3f_nLNl.mjs').then((m) => m.default || m)
+  default: () => import('./default-ziM8RKhV.mjs').then((m) => m.default || m),
+  error: () => import('./error-9gAUjL_l.mjs').then((m) => m.default || m)
 };
 const LayoutLoader = defineComponent({
   name: "LayoutLoader",
@@ -1387,8 +1383,8 @@ const _sfc_main$1 = {
     const statusMessage = _error.statusMessage ?? (is404 ? "Page Not Found" : "Internal Server Error");
     const description = _error.message || _error.toString();
     const stack = void 0;
-    const _Error404 = defineAsyncComponent(() => import('./error-404-xjizwXAl.mjs').then((r) => r.default || r));
-    const _Error = defineAsyncComponent(() => import('./error-500-C5KVGc-h.mjs').then((r) => r.default || r));
+    const _Error404 = defineAsyncComponent(() => import('./error-404-BpzyMHQ3.mjs').then((r) => r.default || r));
+    const _Error = defineAsyncComponent(() => import('./error-500-Byhcwaev.mjs').then((r) => r.default || r));
     const ErrorTemplate = is404 ? _Error404 : _Error;
     return (_ctx, _push, _parent, _attrs) => {
       _push(ssrRenderComponent(unref(ErrorTemplate), mergeProps({ statusCode: unref(statusCode), statusMessage: unref(statusMessage), description: unref(description), stack: unref(stack) }, _attrs), null, _parent));
@@ -1468,5 +1464,5 @@ let entry;
 }
 const entry$1 = (ssrContext) => entry(ssrContext);
 
-export { _export_sfc as _, useRuntimeConfig as a, navigateTo as b, entry$1 as default, injectHead as i, nuxtLinkDefaults as n, publicAssetsURL as p, resolveUnrefHeadInput as r, useRouter as u };
+export { _export_sfc as _, useRuntimeConfig as a, navigateTo as b, entry$1 as default, injectHead as i, nuxtLinkDefaults as n, resolveUnrefHeadInput as r, useRouter as u };
 //# sourceMappingURL=server.mjs.map

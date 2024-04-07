@@ -4,75 +4,75 @@
     {
       "name": "vite:load-fallback",
       "result": "<template>\r\n    <div class=\"section-padding-t90-b100\">\r\n        <div class=\"container\">\r\n            <!-- Section Title Start -->\r\n            <SectionTitle title=\"Unique Marketplace APP\" sub-title=\"Shopping with better experiences\" add-class-name=\"mb-60\" />\r\n            <!-- Section Title End -->\r\n\r\n            <div class=\"row row-cols-lg-3 row-cols-md-2 row-cols-sm-2 row-cols-1 mtn-30\">\r\n                <div class=\"col mt-30\" data-aos=\"fade-up\" v-for=\"(download, index) in downloadData.slice(0, 3)\" :key=\"index\" >\r\n                    <div class=\"icon-box text-center\" :class=\"addClassName\" style=\"height: 400px;\">\r\n                        <div class=\"icon\">\r\n                            <img :src=\"download.iconSrc\" :alt=\"download.title\" style=\"height:50px;\">\r\n                        </div>\r\n                        <div class=\"content\">\r\n                            <h3 class=\"title\">{{ download.title }}</h3>\r\n                            <div class=\"desc\">\r\n                                <p>{{ download.text }}</p>\r\n                            </div>\r\n                            <div>\r\n                                Still in development\r\n                            </div>\r\n                            <!-- <NuxtLink :to=\"`/service/${feature.slug}`\" class=\"link\">View Details</NuxtLink> -->\r\n                            <!-- <NuxtLink :to=\"`/features/${feature.slug}`\" class=\"link\">View Details</NuxtLink> -->\r\n                        </div>\r\n                    </div>\r\n                </div>\r\n            </div>\r\n        </div>\r\n    </div>\r\n</template>\r\n\r\n<script>\r\n    import downloadData from '~/data/download.json'\r\n    export default {\r\n        props: [\"addClassName\"],\r\n\r\n        components: {\r\n            SectionTitle: () => import(\"@/components/SectionTitle\"),\r\n        },\r\n\r\n        data() {\r\n            return {\r\n                downloadData\r\n            }\r\n        },\r\n    };\r\n</script>",
-      "start": 1712455695566,
-      "end": 1712455696306,
+      "start": 1712457369118,
+      "end": 1712457369893,
       "sourcemaps": null
     },
     {
       "name": "nuxt:layer-aliasing",
-      "start": 1712455696306,
-      "end": 1712455696306,
+      "start": 1712457369893,
+      "end": 1712457369893,
       "order": "pre"
     },
     {
       "name": "nuxt:layer-aliasing",
-      "start": 1712455696306,
-      "end": 1712455696306,
+      "start": 1712457369893,
+      "end": 1712457369893,
       "order": "pre"
     },
     {
       "name": "nuxt:server-devonly:transform",
-      "start": 1712455696306,
-      "end": 1712455696306,
+      "start": 1712457369893,
+      "end": 1712457369893,
       "order": "pre"
     },
     {
       "name": "nuxt:server-devonly:transform",
-      "start": 1712455696306,
-      "end": 1712455696306,
+      "start": 1712457369893,
+      "end": 1712457369893,
       "order": "pre"
     },
     {
       "name": "nuxt:client-fallback-auto-id",
-      "start": 1712455696306,
-      "end": 1712455696306,
+      "start": 1712457369893,
+      "end": 1712457369893,
       "order": "pre"
     },
     {
       "name": "server-only-component-transform",
-      "start": 1712455696306,
-      "end": 1712455696307,
+      "start": 1712457369893,
+      "end": 1712457369893,
       "order": "pre"
     },
     {
       "name": "vite:css",
-      "start": 1712455696307,
-      "end": 1712455696307,
+      "start": 1712457369893,
+      "end": 1712457369893,
       "order": "normal"
     },
     {
       "name": "vite:esbuild",
-      "start": 1712455696307,
-      "end": 1712455696307,
+      "start": 1712457369893,
+      "end": 1712457369893,
       "order": "normal"
     },
     {
       "name": "vite:json",
-      "start": 1712455696307,
-      "end": 1712455696307,
+      "start": 1712457369893,
+      "end": 1712457369893,
       "order": "normal"
     },
     {
       "name": "vite:worker",
-      "start": 1712455696307,
-      "end": 1712455696307,
+      "start": 1712457369893,
+      "end": 1712457369893,
       "order": "normal"
     },
     {
       "name": "vite:vue",
       "result": "\r\n    import downloadData from '~/data/download.json'\r\n    const _sfc_main = {\r\n        props: [\"addClassName\"],\r\n\r\n        components: {\r\n            SectionTitle: () => import(\"@/components/SectionTitle\"),\r\n        },\r\n\r\n        data() {\r\n            return {\r\n                downloadData\r\n            }\r\n        },\r\n    };\r\n\nimport { resolveComponent as _resolveComponent, mergeProps as _mergeProps } from \"vue\"\nimport { ssrRenderComponent as _ssrRenderComponent, ssrRenderAttr as _ssrRenderAttr, ssrRenderStyle as _ssrRenderStyle, ssrRenderClass as _ssrRenderClass, ssrRenderAttrs as _ssrRenderAttrs, ssrInterpolate as _ssrInterpolate, ssrRenderList as _ssrRenderList } from \"vue/server-renderer\"\n\nfunction _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $options) {\n  const _component_SectionTitle = _resolveComponent(\"SectionTitle\")\n\n  _push(`<div${_ssrRenderAttrs(_mergeProps({ class: \"section-padding-t90-b100\" }, _attrs))}><div class=\"container\">`)\n  _push(_ssrRenderComponent(_component_SectionTitle, {\n    title: \"Unique Marketplace APP\",\n    \"sub-title\": \"Shopping with better experiences\",\n    \"add-class-name\": \"mb-60\"\n  }, null, _parent))\n  _push(`<div class=\"row row-cols-lg-3 row-cols-md-2 row-cols-sm-2 row-cols-1 mtn-30\"><!--[-->`)\n  _ssrRenderList($data.downloadData.slice(0, 3), (download, index) => {\n    _push(`<div class=\"col mt-30\" data-aos=\"fade-up\"><div class=\"${\n      _ssrRenderClass([$props.addClassName, \"icon-box text-center\"])\n    }\" style=\"${\n      _ssrRenderStyle({\"height\":\"400px\"})\n    }\"><div class=\"icon\"><img${\n      _ssrRenderAttr(\"src\", download.iconSrc)\n    }${\n      _ssrRenderAttr(\"alt\", download.title)\n    } style=\"${\n      _ssrRenderStyle({\"height\":\"50px\"})\n    }\"></div><div class=\"content\"><h3 class=\"title\">${\n      _ssrInterpolate(download.title)\n    }</h3><div class=\"desc\"><p>${\n      _ssrInterpolate(download.text)\n    }</p></div><div> Still in development </div></div></div></div>`)\n  })\n  _push(`<!--]--></div></div></div>`)\n}\n\n\nimport { useSSRContext as __vite_useSSRContext } from 'vue'\nconst _sfc_setup = _sfc_main.setup\n_sfc_main.setup = (props, ctx) => {\n  const ssrContext = __vite_useSSRContext()\n  ;(ssrContext.modules || (ssrContext.modules = new Set())).add(\"components/DownloadAppList.vue\")\n  return _sfc_setup ? _sfc_setup(props, ctx) : undefined\n}\nimport _export_sfc from '\u0000plugin-vue:export-helper'\nexport default /*#__PURE__*/_export_sfc(_sfc_main, [['ssrRender',_sfc_ssrRender]])",
-      "start": 1712455696307,
-      "end": 1712455696308,
+      "start": 1712457369893,
+      "end": 1712457369894,
       "order": "normal",
       "sourcemaps": {
         "version": 3,
@@ -89,159 +89,159 @@
     },
     {
       "name": "vite:vue-jsx",
-      "start": 1712455696308,
-      "end": 1712455696308,
+      "start": 1712457369894,
+      "end": 1712457369894,
       "order": "normal"
     },
     {
       "name": "replace",
-      "start": 1712455696308,
-      "end": 1712455696308,
+      "start": 1712457369894,
+      "end": 1712457369894,
       "order": "normal"
     },
     {
       "name": "replace",
-      "start": 1712455696308,
-      "end": 1712455696308,
+      "start": 1712457369894,
+      "end": 1712457369894,
       "order": "normal"
     },
     {
       "name": "nuxt:remove-plugin-metadata",
-      "start": 1712455696308,
-      "end": 1712455696308,
+      "start": 1712457369894,
+      "end": 1712457369894,
       "order": "normal"
     },
     {
       "name": "nuxt:remove-plugin-metadata",
-      "start": 1712455696308,
-      "end": 1712455696308,
+      "start": 1712457369894,
+      "end": 1712457369894,
       "order": "normal"
     },
     {
       "name": "nuxt:components:imports",
-      "start": 1712455696308,
-      "end": 1712455696308,
+      "start": 1712457369894,
+      "end": 1712457369894,
       "order": "normal"
     },
     {
       "name": "replace",
-      "start": 1712455696308,
-      "end": 1712455696308,
+      "start": 1712457369894,
+      "end": 1712457369894,
       "order": "normal"
     },
     {
       "name": "ssr-styles",
-      "start": 1712455696308,
-      "end": 1712455696309,
+      "start": 1712457369894,
+      "end": 1712457369895,
       "order": "normal"
     },
     {
       "name": "vite:define",
-      "start": 1712455696309,
-      "end": 1712455696309,
+      "start": 1712457369895,
+      "end": 1712457369895,
       "order": "normal"
     },
     {
       "name": "vite:css-post",
-      "start": 1712455696309,
-      "end": 1712455696309,
+      "start": 1712457369895,
+      "end": 1712457369895,
       "order": "normal"
     },
     {
       "name": "vite:build-html",
-      "start": 1712455696309,
-      "end": 1712455696309,
+      "start": 1712457369895,
+      "end": 1712457369895,
       "order": "normal"
     },
     {
       "name": "vite:worker-import-meta-url",
-      "start": 1712455696309,
-      "end": 1712455696309,
+      "start": 1712457369895,
+      "end": 1712457369895,
       "order": "normal"
     },
     {
       "name": "vite:asset-import-meta-url",
-      "start": 1712455696309,
-      "end": 1712455696309,
+      "start": 1712457369895,
+      "end": 1712457369895,
       "order": "normal"
     },
     {
       "name": "commonjs",
-      "start": 1712455696309,
-      "end": 1712455696309,
+      "start": 1712457369895,
+      "end": 1712457369895,
       "order": "normal"
     },
     {
       "name": "vite:dynamic-import-vars",
-      "start": 1712455696309,
-      "end": 1712455696309,
+      "start": 1712457369895,
+      "end": 1712457369895,
       "order": "normal"
     },
     {
       "name": "vite:import-glob",
-      "start": 1712455696309,
-      "end": 1712455696309,
+      "start": 1712457369895,
+      "end": 1712457369895,
       "order": "normal"
     },
     {
       "name": "nuxt:composable-keys",
-      "start": 1712455696309,
-      "end": 1712455696309,
+      "start": 1712457369895,
+      "end": 1712457369895,
       "order": "post"
     },
     {
       "name": "nuxt:composable-keys",
-      "start": 1712455696309,
-      "end": 1712455696309,
+      "start": 1712457369895,
+      "end": 1712457369895,
       "order": "post"
     },
     {
       "name": "nuxt:imports-transform",
-      "start": 1712455696309,
-      "end": 1712455696309,
+      "start": 1712457369895,
+      "end": 1712457369895,
       "order": "post"
     },
     {
       "name": "nuxt:imports-transform",
-      "start": 1712455696309,
-      "end": 1712455696309,
+      "start": 1712457369895,
+      "end": 1712457369895,
       "order": "post"
     },
     {
       "name": "unctx:transform",
-      "start": 1712455696309,
-      "end": 1712455696309,
+      "start": 1712457369895,
+      "end": 1712457369895,
       "order": "post"
     },
     {
       "name": "unctx:transform",
-      "start": 1712455696309,
-      "end": 1712455696309,
+      "start": 1712457369895,
+      "end": 1712457369895,
       "order": "post"
     },
     {
       "name": "nuxt:pages-macros-transform",
-      "start": 1712455696309,
-      "end": 1712455696309,
+      "start": 1712457369895,
+      "end": 1712457369895,
       "order": "post"
     },
     {
       "name": "nuxt:pages-macros-transform",
-      "start": 1712455696309,
-      "end": 1712455696309,
+      "start": 1712457369895,
+      "end": 1712457369895,
       "order": "post"
     },
     {
       "name": "nuxt:tree-shake-template",
-      "start": 1712455696309,
-      "end": 1712455696309,
+      "start": 1712457369895,
+      "end": 1712457369895,
       "order": "post"
     },
     {
       "name": "nuxt:components-loader",
       "result": "import { default as __nuxt_component_0 } from \"E:/Projects/JavaRayaInternational/website/components/SectionTitle.vue\";\n\r\n    import downloadData from '~/data/download.json'\r\n    const _sfc_main = {\r\n        props: [\"addClassName\"],\r\n\r\n        components: {\r\n            SectionTitle: () => import(\"@/components/SectionTitle\"),\r\n        },\r\n\r\n        data() {\r\n            return {\r\n                downloadData\r\n            }\r\n        },\r\n    };\r\n\nimport { resolveComponent as _resolveComponent, mergeProps as _mergeProps } from \"vue\"\nimport { ssrRenderComponent as _ssrRenderComponent, ssrRenderAttr as _ssrRenderAttr, ssrRenderStyle as _ssrRenderStyle, ssrRenderClass as _ssrRenderClass, ssrRenderAttrs as _ssrRenderAttrs, ssrInterpolate as _ssrInterpolate, ssrRenderList as _ssrRenderList } from \"vue/server-renderer\"\n\nfunction _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $options) {\n  const _component_SectionTitle = __nuxt_component_0\n\n  _push(`<div${_ssrRenderAttrs(_mergeProps({ class: \"section-padding-t90-b100\" }, _attrs))}><div class=\"container\">`)\n  _push(_ssrRenderComponent(_component_SectionTitle, {\n    title: \"Unique Marketplace APP\",\n    \"sub-title\": \"Shopping with better experiences\",\n    \"add-class-name\": \"mb-60\"\n  }, null, _parent))\n  _push(`<div class=\"row row-cols-lg-3 row-cols-md-2 row-cols-sm-2 row-cols-1 mtn-30\"><!--[-->`)\n  _ssrRenderList($data.downloadData.slice(0, 3), (download, index) => {\n    _push(`<div class=\"col mt-30\" data-aos=\"fade-up\"><div class=\"${\n      _ssrRenderClass([$props.addClassName, \"icon-box text-center\"])\n    }\" style=\"${\n      _ssrRenderStyle({\"height\":\"400px\"})\n    }\"><div class=\"icon\"><img${\n      _ssrRenderAttr(\"src\", download.iconSrc)\n    }${\n      _ssrRenderAttr(\"alt\", download.title)\n    } style=\"${\n      _ssrRenderStyle({\"height\":\"50px\"})\n    }\"></div><div class=\"content\"><h3 class=\"title\">${\n      _ssrInterpolate(download.title)\n    }</h3><div class=\"desc\"><p>${\n      _ssrInterpolate(download.text)\n    }</p></div><div> Still in development </div></div></div></div>`)\n  })\n  _push(`<!--]--></div></div></div>`)\n}\n\n\nimport { useSSRContext as __vite_useSSRContext } from 'vue'\nconst _sfc_setup = _sfc_main.setup\n_sfc_main.setup = (props, ctx) => {\n  const ssrContext = __vite_useSSRContext()\n  ;(ssrContext.modules || (ssrContext.modules = new Set())).add(\"components/DownloadAppList.vue\")\n  return _sfc_setup ? _sfc_setup(props, ctx) : undefined\n}\nimport _export_sfc from '\u0000plugin-vue:export-helper'\nexport default /*#__PURE__*/_export_sfc(_sfc_main, [['ssrRender',_sfc_ssrRender]])",
-      "start": 1712455696309,
-      "end": 1712455696309,
+      "start": 1712457369895,
+      "end": 1712457369895,
       "order": "post",
       "sourcemaps": {
         "version": 3,
@@ -254,20 +254,20 @@
     },
     {
       "name": "nuxt:tree-shake-composables:transform",
-      "start": 1712455696309,
-      "end": 1712455696309,
+      "start": 1712457369896,
+      "end": 1712457369896,
       "order": "post"
     },
     {
       "name": "vite:build-import-analysis",
-      "start": 1712455696309,
-      "end": 1712455696309,
+      "start": 1712457369896,
+      "end": 1712457369896,
       "order": "normal"
     },
     {
       "name": "vite:reporter",
-      "start": 1712455696309,
-      "end": 1712455696309,
+      "start": 1712457369896,
+      "end": 1712457369896,
       "order": "normal"
     }
   ]

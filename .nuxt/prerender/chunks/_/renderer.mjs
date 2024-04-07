@@ -1,10 +1,10 @@
 import { getRequestDependencies, getPreloadLinks, getPrefetchLinks, createRenderer } from 'file://E:/Projects/JavaRayaInternational/website/node_modules/vue-bundle-renderer/dist/runtime.mjs';
 import { eventHandler, setResponseHeader, send, getResponseStatus, setResponseStatus, setResponseHeaders, getQuery, createError, appendResponseHeader, getResponseStatusText } from 'file://E:/Projects/JavaRayaInternational/website/node_modules/h3/dist/index.mjs';
 import { stringify, uneval } from 'file://E:/Projects/JavaRayaInternational/website/node_modules/devalue/index.js';
-import { joinURL, withoutTrailingSlash } from 'file://E:/Projects/JavaRayaInternational/website/node_modules/ufo/dist/index.mjs';
+import { joinRelativeURL, joinURL, withoutTrailingSlash } from 'file://E:/Projects/JavaRayaInternational/website/node_modules/ufo/dist/index.mjs';
 import { renderToString } from 'file://E:/Projects/JavaRayaInternational/website/node_modules/vue/server-renderer/index.mjs';
 import { renderSSRHead } from 'file://E:/Projects/JavaRayaInternational/website/node_modules/@unhead/ssr/dist/index.mjs';
-import { u as useNitroApp, a as useRuntimeConfig, b as useStorage, g as getRouteRules } from '../runtime.mjs';
+import { u as useNitroApp, a as useRuntimeConfig, b as useStorage, g as getRouteRules, c as useAppConfig } from '../runtime.mjs';
 import { version, unref } from 'file://E:/Projects/JavaRayaInternational/website/node_modules/vue/index.mjs';
 import { createServerHead as createServerHead$1 } from 'file://E:/Projects/JavaRayaInternational/website/node_modules/unhead/dist/index.mjs';
 import { defineHeadPlugin } from 'file://E:/Projects/JavaRayaInternational/website/node_modules/@unhead/shared/dist/index.mjs';
@@ -107,16 +107,19 @@ const appTeleportId = "teleports";
 
 const componentIslands = false;
 
+function baseURL() {
+  return useRuntimeConfig().app.baseURL;
+}
 function buildAssetsDir() {
   return useRuntimeConfig().app.buildAssetsDir;
 }
 function buildAssetsURL(...path) {
-  return joinURL(publicAssetsURL(), buildAssetsDir(), ...path);
+  return joinRelativeURL(publicAssetsURL(), buildAssetsDir(), ...path);
 }
 function publicAssetsURL(...path) {
   const app = useRuntimeConfig().app;
   const publicBase = app.cdnURL || app.baseURL;
-  return path.length ? joinURL(publicBase, ...path) : publicBase;
+  return path.length ? joinRelativeURL(publicBase, ...path) : publicBase;
 }
 
 globalThis.__buildAssetsURL = buildAssetsURL;
@@ -245,7 +248,7 @@ const renderer = defineRenderHandler(async (event) => {
     islandContext
   };
   const _PAYLOAD_EXTRACTION = !ssrContext.noSSR && !isRenderingIsland;
-  const payloadURL = _PAYLOAD_EXTRACTION ? joinURL(ssrContext.runtimeConfig.app.baseURL, url, "_payload.json" ) : void 0;
+  const payloadURL = _PAYLOAD_EXTRACTION ? joinURL(ssrContext.runtimeConfig.app.baseURL, url, "_payload.json" ) + "?" + useAppConfig().nuxt?.buildId : void 0;
   {
     ssrContext.payload.prerenderedAt = Date.now();
   }
@@ -434,5 +437,5 @@ const renderer$1 = /*#__PURE__*/Object.freeze({
   default: renderer
 });
 
-export { buildAssetsURL as b, renderer$1 as r };
+export { buildAssetsURL as a, baseURL as b, publicAssetsURL as p, renderer$1 as r };
 //# sourceMappingURL=renderer.mjs.map

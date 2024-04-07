@@ -57,7 +57,7 @@ function _expandFromEnv(value) {
 
 const inlineAppConfig = {
   "nuxt": {
-    "buildId": "1e7b457b-582b-44e5-893b-4a87c0298a15"
+    "buildId": "e8f76c35-e6f1-4793-9199-6cd9b7c9628d"
   }
 };
 
@@ -116,7 +116,18 @@ function useRuntimeConfig(event) {
   event.context.nitro.runtimeConfig = runtimeConfig;
   return runtimeConfig;
 }
-_deepFreeze(klona(appConfig));
+const _sharedAppConfig = _deepFreeze(klona(appConfig));
+function useAppConfig(event) {
+  if (!event) {
+    return _sharedAppConfig;
+  }
+  if (event.context.nitro.appConfig) {
+    return event.context.nitro.appConfig;
+  }
+  const appConfig$1 = klona(appConfig);
+  event.context.nitro.appConfig = appConfig$1;
+  return appConfig$1;
+}
 function _deepFreeze(object) {
   const propNames = Object.getOwnPropertyNames(object);
   for (const name of propNames) {
@@ -879,5 +890,5 @@ const localFetch = nitroApp.localFetch;
 const closePrerenderer = () => nitroApp.hooks.callHook("close");
 trapUnhandledNodeErrors();
 
-export { useRuntimeConfig as a, useStorage as b, closePrerenderer as c, getRouteRules as g, localFetch as l, useNitroApp as u };
+export { useRuntimeConfig as a, useStorage as b, useAppConfig as c, closePrerenderer as d, getRouteRules as g, localFetch as l, useNitroApp as u };
 //# sourceMappingURL=runtime.mjs.map

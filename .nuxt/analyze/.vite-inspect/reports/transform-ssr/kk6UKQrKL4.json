@@ -4,75 +4,75 @@
     {
       "name": "vite:load-fallback",
       "result": "<template>\r\n    <div class=\"blog\">\r\n        <div class=\"thumbnail\">\r\n            <NuxtLink :to=\"`/blog/${blog.slug}`\" class=\"image\">\r\n                <img :src=\"blog.imgSrc\" :alt=\"blog.title\">\r\n            </NuxtLink>\r\n        </div>\r\n        <div class=\"info\">\r\n            <ul class=\"meta\">\r\n                <li><i class=\"far fa-calendar\"></i>{{ blog.date }}</li>\r\n                <li><i class=\"far fa-eye\"></i>{{ blog.view }} Views</li>\r\n            </ul>\r\n            <h3 class=\"title\">\r\n                <NuxtLink :to=\"`/blog/${blog.slug}`\">{{ blog.title }}</NuxtLink>\r\n            </h3>\r\n            <NuxtLink :to=\"`/blog/${blog.slug}`\" class=\"link\">\r\n                <mark>Read More</mark>\r\n            </NuxtLink>\r\n        </div>\r\n    </div>\r\n</template>\r\n\r\n<script>\r\n    export default {\r\n        props: ['blog']\r\n    };\r\n</script>",
-      "start": 1712455695551,
-      "end": 1712455695953,
+      "start": 1712457369095,
+      "end": 1712457369528,
       "sourcemaps": null
     },
     {
       "name": "nuxt:layer-aliasing",
-      "start": 1712455695954,
-      "end": 1712455695954,
+      "start": 1712457369528,
+      "end": 1712457369528,
       "order": "pre"
     },
     {
       "name": "nuxt:layer-aliasing",
-      "start": 1712455695954,
-      "end": 1712455695954,
+      "start": 1712457369528,
+      "end": 1712457369528,
       "order": "pre"
     },
     {
       "name": "nuxt:server-devonly:transform",
-      "start": 1712455695954,
-      "end": 1712455695954,
+      "start": 1712457369528,
+      "end": 1712457369528,
       "order": "pre"
     },
     {
       "name": "nuxt:server-devonly:transform",
-      "start": 1712455695954,
-      "end": 1712455695954,
+      "start": 1712457369528,
+      "end": 1712457369528,
       "order": "pre"
     },
     {
       "name": "nuxt:client-fallback-auto-id",
-      "start": 1712455695954,
-      "end": 1712455695954,
+      "start": 1712457369528,
+      "end": 1712457369528,
       "order": "pre"
     },
     {
       "name": "server-only-component-transform",
-      "start": 1712455695954,
-      "end": 1712455695954,
+      "start": 1712457369528,
+      "end": 1712457369528,
       "order": "pre"
     },
     {
       "name": "vite:css",
-      "start": 1712455695954,
-      "end": 1712455695954,
+      "start": 1712457369528,
+      "end": 1712457369528,
       "order": "normal"
     },
     {
       "name": "vite:esbuild",
-      "start": 1712455695954,
-      "end": 1712455695954,
+      "start": 1712457369528,
+      "end": 1712457369528,
       "order": "normal"
     },
     {
       "name": "vite:json",
-      "start": 1712455695954,
-      "end": 1712455695954,
+      "start": 1712457369528,
+      "end": 1712457369528,
       "order": "normal"
     },
     {
       "name": "vite:worker",
-      "start": 1712455695954,
-      "end": 1712455695954,
+      "start": 1712457369528,
+      "end": 1712457369528,
       "order": "normal"
     },
     {
       "name": "vite:vue",
       "result": "\r\n    const _sfc_main = {\r\n        props: ['blog']\r\n    };\r\n\nimport { resolveComponent as _resolveComponent, withCtx as _withCtx, createVNode as _createVNode, toDisplayString as _toDisplayString, createTextVNode as _createTextVNode, mergeProps as _mergeProps } from \"vue\"\nimport { ssrRenderAttr as _ssrRenderAttr, ssrRenderComponent as _ssrRenderComponent, ssrRenderAttrs as _ssrRenderAttrs, ssrInterpolate as _ssrInterpolate } from \"vue/server-renderer\"\n\nfunction _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $options) {\n  const _component_NuxtLink = _resolveComponent(\"NuxtLink\")\n\n  _push(`<div${_ssrRenderAttrs(_mergeProps({ class: \"blog\" }, _attrs))}><div class=\"thumbnail\">`)\n  _push(_ssrRenderComponent(_component_NuxtLink, {\n    to: `/blog/${$props.blog.slug}`,\n    class: \"image\"\n  }, {\n    default: _withCtx((_, _push, _parent, _scopeId) => {\n      if (_push) {\n        _push(`<img${\n          _ssrRenderAttr(\"src\", $props.blog.imgSrc)\n        }${\n          _ssrRenderAttr(\"alt\", $props.blog.title)\n        }${\n          _scopeId\n        }>`)\n      } else {\n        return [\n          _createVNode(\"img\", {\n            src: $props.blog.imgSrc,\n            alt: $props.blog.title\n          }, null, 8, [\"src\", \"alt\"])\n        ]\n      }\n    }),\n    _: 1\n  }, _parent))\n  _push(`</div><div class=\"info\"><ul class=\"meta\"><li><i class=\"far fa-calendar\"></i>${\n    _ssrInterpolate($props.blog.date)\n  }</li><li><i class=\"far fa-eye\"></i>${\n    _ssrInterpolate($props.blog.view)\n  } Views</li></ul><h3 class=\"title\">`)\n  _push(_ssrRenderComponent(_component_NuxtLink, {\n    to: `/blog/${$props.blog.slug}`\n  }, {\n    default: _withCtx((_, _push, _parent, _scopeId) => {\n      if (_push) {\n        _push(`${_ssrInterpolate($props.blog.title)}`)\n      } else {\n        return [\n          _createTextVNode(_toDisplayString($props.blog.title), 1)\n        ]\n      }\n    }),\n    _: 1\n  }, _parent))\n  _push(`</h3>`)\n  _push(_ssrRenderComponent(_component_NuxtLink, {\n    to: `/blog/${$props.blog.slug}`,\n    class: \"link\"\n  }, {\n    default: _withCtx((_, _push, _parent, _scopeId) => {\n      if (_push) {\n        _push(`<mark${_scopeId}>Read More</mark>`)\n      } else {\n        return [\n          _createVNode(\"mark\", null, \"Read More\")\n        ]\n      }\n    }),\n    _: 1\n  }, _parent))\n  _push(`</div></div>`)\n}\n\n\nimport { useSSRContext as __vite_useSSRContext } from 'vue'\nconst _sfc_setup = _sfc_main.setup\n_sfc_main.setup = (props, ctx) => {\n  const ssrContext = __vite_useSSRContext()\n  ;(ssrContext.modules || (ssrContext.modules = new Set())).add(\"components/BlogGridItem.vue\")\n  return _sfc_setup ? _sfc_setup(props, ctx) : undefined\n}\nimport _export_sfc from '\u0000plugin-vue:export-helper'\nexport default /*#__PURE__*/_export_sfc(_sfc_main, [['ssrRender',_sfc_ssrRender]])",
-      "start": 1712455695954,
-      "end": 1712455695955,
+      "start": 1712457369528,
+      "end": 1712457369530,
       "order": "normal",
       "sourcemaps": {
         "version": 3,
@@ -89,159 +89,159 @@
     },
     {
       "name": "vite:vue-jsx",
-      "start": 1712455695955,
-      "end": 1712455695955,
+      "start": 1712457369530,
+      "end": 1712457369530,
       "order": "normal"
     },
     {
       "name": "replace",
-      "start": 1712455695955,
-      "end": 1712455695955,
+      "start": 1712457369530,
+      "end": 1712457369530,
       "order": "normal"
     },
     {
       "name": "replace",
-      "start": 1712455695955,
-      "end": 1712455695955,
+      "start": 1712457369530,
+      "end": 1712457369530,
       "order": "normal"
     },
     {
       "name": "nuxt:remove-plugin-metadata",
-      "start": 1712455695955,
-      "end": 1712455695955,
+      "start": 1712457369530,
+      "end": 1712457369530,
       "order": "normal"
     },
     {
       "name": "nuxt:remove-plugin-metadata",
-      "start": 1712455695955,
-      "end": 1712455695955,
+      "start": 1712457369530,
+      "end": 1712457369530,
       "order": "normal"
     },
     {
       "name": "nuxt:components:imports",
-      "start": 1712455695955,
-      "end": 1712455695955,
+      "start": 1712457369530,
+      "end": 1712457369530,
       "order": "normal"
     },
     {
       "name": "replace",
-      "start": 1712455695955,
-      "end": 1712455695955,
+      "start": 1712457369530,
+      "end": 1712457369530,
       "order": "normal"
     },
     {
       "name": "ssr-styles",
-      "start": 1712455695955,
-      "end": 1712455695956,
+      "start": 1712457369530,
+      "end": 1712457369530,
       "order": "normal"
     },
     {
       "name": "vite:define",
-      "start": 1712455695956,
-      "end": 1712455695956,
+      "start": 1712457369530,
+      "end": 1712457369530,
       "order": "normal"
     },
     {
       "name": "vite:css-post",
-      "start": 1712455695956,
-      "end": 1712455695956,
+      "start": 1712457369530,
+      "end": 1712457369530,
       "order": "normal"
     },
     {
       "name": "vite:build-html",
-      "start": 1712455695956,
-      "end": 1712455695956,
+      "start": 1712457369530,
+      "end": 1712457369530,
       "order": "normal"
     },
     {
       "name": "vite:worker-import-meta-url",
-      "start": 1712455695956,
-      "end": 1712455695956,
+      "start": 1712457369530,
+      "end": 1712457369530,
       "order": "normal"
     },
     {
       "name": "vite:asset-import-meta-url",
-      "start": 1712455695956,
-      "end": 1712455695956,
+      "start": 1712457369530,
+      "end": 1712457369530,
       "order": "normal"
     },
     {
       "name": "commonjs",
-      "start": 1712455695956,
-      "end": 1712455695956,
+      "start": 1712457369530,
+      "end": 1712457369530,
       "order": "normal"
     },
     {
       "name": "vite:dynamic-import-vars",
-      "start": 1712455695956,
-      "end": 1712455695956,
+      "start": 1712457369530,
+      "end": 1712457369530,
       "order": "normal"
     },
     {
       "name": "vite:import-glob",
-      "start": 1712455695956,
-      "end": 1712455695956,
+      "start": 1712457369530,
+      "end": 1712457369530,
       "order": "normal"
     },
     {
       "name": "nuxt:composable-keys",
-      "start": 1712455695956,
-      "end": 1712455695956,
+      "start": 1712457369530,
+      "end": 1712457369530,
       "order": "post"
     },
     {
       "name": "nuxt:composable-keys",
-      "start": 1712455695956,
-      "end": 1712455695956,
+      "start": 1712457369530,
+      "end": 1712457369530,
       "order": "post"
     },
     {
       "name": "nuxt:imports-transform",
-      "start": 1712455695956,
-      "end": 1712455695957,
+      "start": 1712457369530,
+      "end": 1712457369531,
       "order": "post"
     },
     {
       "name": "nuxt:imports-transform",
-      "start": 1712455695956,
-      "end": 1712455695957,
+      "start": 1712457369530,
+      "end": 1712457369531,
       "order": "post"
     },
     {
       "name": "unctx:transform",
-      "start": 1712455695957,
-      "end": 1712455695957,
+      "start": 1712457369531,
+      "end": 1712457369531,
       "order": "post"
     },
     {
       "name": "unctx:transform",
-      "start": 1712455695957,
-      "end": 1712455695957,
+      "start": 1712457369531,
+      "end": 1712457369531,
       "order": "post"
     },
     {
       "name": "nuxt:pages-macros-transform",
-      "start": 1712455695957,
-      "end": 1712455695957,
+      "start": 1712457369531,
+      "end": 1712457369531,
       "order": "post"
     },
     {
       "name": "nuxt:pages-macros-transform",
-      "start": 1712455695957,
-      "end": 1712455695957,
+      "start": 1712457369531,
+      "end": 1712457369531,
       "order": "post"
     },
     {
       "name": "nuxt:tree-shake-template",
-      "start": 1712455695957,
-      "end": 1712455695957,
+      "start": 1712457369531,
+      "end": 1712457369531,
       "order": "post"
     },
     {
       "name": "nuxt:components-loader",
       "result": "import { default as __nuxt_component_0 } from \"E:/Projects/JavaRayaInternational/website/node_modules/nuxt/dist/app/components/nuxt-link\";\n\r\n    const _sfc_main = {\r\n        props: ['blog']\r\n    };\r\n\nimport { resolveComponent as _resolveComponent, withCtx as _withCtx, createVNode as _createVNode, toDisplayString as _toDisplayString, createTextVNode as _createTextVNode, mergeProps as _mergeProps } from \"vue\"\nimport { ssrRenderAttr as _ssrRenderAttr, ssrRenderComponent as _ssrRenderComponent, ssrRenderAttrs as _ssrRenderAttrs, ssrInterpolate as _ssrInterpolate } from \"vue/server-renderer\"\n\nfunction _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $options) {\n  const _component_NuxtLink = __nuxt_component_0\n\n  _push(`<div${_ssrRenderAttrs(_mergeProps({ class: \"blog\" }, _attrs))}><div class=\"thumbnail\">`)\n  _push(_ssrRenderComponent(_component_NuxtLink, {\n    to: `/blog/${$props.blog.slug}`,\n    class: \"image\"\n  }, {\n    default: _withCtx((_, _push, _parent, _scopeId) => {\n      if (_push) {\n        _push(`<img${\n          _ssrRenderAttr(\"src\", $props.blog.imgSrc)\n        }${\n          _ssrRenderAttr(\"alt\", $props.blog.title)\n        }${\n          _scopeId\n        }>`)\n      } else {\n        return [\n          _createVNode(\"img\", {\n            src: $props.blog.imgSrc,\n            alt: $props.blog.title\n          }, null, 8, [\"src\", \"alt\"])\n        ]\n      }\n    }),\n    _: 1\n  }, _parent))\n  _push(`</div><div class=\"info\"><ul class=\"meta\"><li><i class=\"far fa-calendar\"></i>${\n    _ssrInterpolate($props.blog.date)\n  }</li><li><i class=\"far fa-eye\"></i>${\n    _ssrInterpolate($props.blog.view)\n  } Views</li></ul><h3 class=\"title\">`)\n  _push(_ssrRenderComponent(_component_NuxtLink, {\n    to: `/blog/${$props.blog.slug}`\n  }, {\n    default: _withCtx((_, _push, _parent, _scopeId) => {\n      if (_push) {\n        _push(`${_ssrInterpolate($props.blog.title)}`)\n      } else {\n        return [\n          _createTextVNode(_toDisplayString($props.blog.title), 1)\n        ]\n      }\n    }),\n    _: 1\n  }, _parent))\n  _push(`</h3>`)\n  _push(_ssrRenderComponent(_component_NuxtLink, {\n    to: `/blog/${$props.blog.slug}`,\n    class: \"link\"\n  }, {\n    default: _withCtx((_, _push, _parent, _scopeId) => {\n      if (_push) {\n        _push(`<mark${_scopeId}>Read More</mark>`)\n      } else {\n        return [\n          _createVNode(\"mark\", null, \"Read More\")\n        ]\n      }\n    }),\n    _: 1\n  }, _parent))\n  _push(`</div></div>`)\n}\n\n\nimport { useSSRContext as __vite_useSSRContext } from 'vue'\nconst _sfc_setup = _sfc_main.setup\n_sfc_main.setup = (props, ctx) => {\n  const ssrContext = __vite_useSSRContext()\n  ;(ssrContext.modules || (ssrContext.modules = new Set())).add(\"components/BlogGridItem.vue\")\n  return _sfc_setup ? _sfc_setup(props, ctx) : undefined\n}\nimport _export_sfc from '\u0000plugin-vue:export-helper'\nexport default /*#__PURE__*/_export_sfc(_sfc_main, [['ssrRender',_sfc_ssrRender]])",
-      "start": 1712455695957,
-      "end": 1712455695957,
+      "start": 1712457369531,
+      "end": 1712457369531,
       "order": "post",
       "sourcemaps": {
         "version": 3,
@@ -254,20 +254,20 @@
     },
     {
       "name": "nuxt:tree-shake-composables:transform",
-      "start": 1712455695957,
-      "end": 1712455695957,
+      "start": 1712457369531,
+      "end": 1712457369531,
       "order": "post"
     },
     {
       "name": "vite:build-import-analysis",
-      "start": 1712455695957,
-      "end": 1712455695957,
+      "start": 1712457369531,
+      "end": 1712457369531,
       "order": "normal"
     },
     {
       "name": "vite:reporter",
-      "start": 1712455695957,
-      "end": 1712455695957,
+      "start": 1712457369531,
+      "end": 1712457369531,
       "order": "normal"
     }
   ]
