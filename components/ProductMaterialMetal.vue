@@ -200,14 +200,14 @@
                         <tbody style="border:1px solid black;">
                             <tr>
                                 <td>C3604</td>
-                                <td>Copper with 70%</td>
-                                <td>71.39</td>
-                                <td>4.05</td>
-                                <td>7.21</td>
-                                <td>16.57</td>
-                                <td>0.38</td>
-                                <td>0.11</td>
-                                <td>  < 0.0006</td>
+                                <td></td>
+                                <td>59.47</td>
+                                <td>0.98</td>
+                                <td>2.87</td>
+                                <td>36.22</td>
+                                <td>0.42</td>
+                                <td>0.19</td>
+                                <td>0.06</td>
                                 <td> N/A</td>
 
 
@@ -215,14 +215,14 @@
 
                             <tr>
                                 <td>C3771B/HPb59-1/C37</td>
-                                <td>Copper with 80% purify</td>
-                                <td>79.40</td>
-                                <td>3.38</td>
-                                <td>7.52</td>
-                                <td>9.04</td>
-                                <td>0.15</td>
-                                <td>0.11</td>
-                                <td>  < 0.0006</td>
+                                <td></td>
+                                <td>58.95</td>
+                                <td>0.81</td>
+                                <td>1.34</td>
+                                <td>38.41</td>
+                                <td>0.32</td>
+                                <td>0.19</td>
+                                <td>0.02</td>
                                 <td> N/A</td>
 
 
@@ -230,14 +230,14 @@
 
                             <tr>
                                 <td>Hpb57-3</td>
-                                <td>Bronze with more than 80% purify</td>
-                                <td>84.30</td>
-                                <td>4.99</td>
-                                <td>4.45</td>
-                                <td>5.38</td>
-                                <td>0.08</td>
-                                <td>0.30</td>
-                                <td>  < 0.0006</td>
+                                <td></td>
+                                <td>57.97</td>
+                                <td>0.80</td>
+                                <td>1.99</td>
+                                <td>38.30</td>
+                                <td>0.42</td>
+                                <td>0.25</td>
+                                <td>0.02</td>
                                 <td> N/A</td>
 
 
@@ -265,6 +265,25 @@
             </div>
           </div>
         </div>
+
+        <div class="row mt-60">
+          <div class="col-lg-4 col-md-12 col-12">
+            <div class="digital-marketing" data-aos="fade-up">
+              <h3 class="heading heading-h3">Our stocks</h3>
+            </div>
+          </div>
+          <div class="col-lg-7 col-md-12 col-12 offset-lg-1">
+            <div class="digital-marketing" data-aos="fade-up">
+              <div class="inner">
+                <p>
+                  We are ready for each brass and bronze ingot with 100 MT per month for EU an UK market. For more ingots informations and stock, please ask us for quotation.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
 
         <!-- Start Thumbnail -->
         <div class="row">

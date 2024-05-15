@@ -4,57 +4,57 @@
     {
       "name": "vite:load-fallback",
       "result": "<template>\r\n    <TheHeader />\r\n    <OffCanvasMobileMenu />\r\n    <SearchPopup />\r\n    <BreadcrumbOne activePageName=\"About - Privacy\" title=\"Privacy Policy\" backgroundUrl= \"/images/bg/breadcrumb-bg-darkgray.png\" />\r\n\r\n\r\n    <h1>Privacy Policy</h1>\r\n\r\n<p>This privacy policy (\"Policy\") describes how [Your Company Name] (\"Company\") collects, uses, and shares personal data when using this website (the \"Site\"). Please read the following information carefully to understand our practices regarding your personal data and how we will treat it.</p>\r\n\r\n<h2>Information We Collect</h2>\r\n\r\n<p>We may collect the following types of personal data:</p>\r\n\r\n<ul>\r\n    <li>Contact Information (such as name, email address, mailing address, and phone number)</li>\r\n    <li>Payment Information (such as credit card details)</li>\r\n    <li>Demographic Information (such as age, gender, and location)</li>\r\n    <li>Other information you provide voluntarily (such as product reviews, surveys, or preferences)</li>\r\n</ul>\r\n\r\n<h2>How We Use Your Information</h2>\r\n\r\n<p>We may use your personal data for the following purposes:</p>\r\n\r\n<ul>\r\n    <li>To process and fulfill your orders</li>\r\n    <li>To communicate with you about your orders, account, or inquiries</li>\r\n    <li>To personalize your experience on the Site</li>\r\n    <li>To improve our products and services</li>\r\n    <li>To detect and prevent fraud or security breaches</li>\r\n    <li>To comply with legal obligations</li>\r\n</ul>\r\n\r\n<h2>Information Sharing</h2>\r\n\r\n<p>We may share your personal data with:</p>\r\n\r\n<ul>\r\n    <li>Service providers who assist us in operating the Site, processing orders, or delivering products</li>\r\n    <li>Third-party analytics providers to help us understand how users interact with the Site</li>\r\n    <li>Law enforcement agencies, government bodies, or other third parties when required by law or to protect our legal rights</li>\r\n</ul>\r\n\r\n<h2>Security</h2>\r\n\r\n<p>We take appropriate measures to protect your personal data from unauthorized access, alteration, disclosure, or destruction.</p>\r\n\r\n<h2>Changes to This Policy</h2>\r\n\r\n<p>We may update this Policy from time to time. We will notify you of any changes by posting the new Policy on this page.</p>\r\n\r\n<h2>Contact Us</h2>\r\n\r\n<p>If you have any questions or concerns about this Policy, please contact us at Contact Form.</p>\r\n\r\n\r\n\r\n\r\n    <TheFooter />\r\n</template>",
-      "start": 1715759183258,
-      "end": 1715759183331,
+      "start": 1715787136445,
+      "end": 1715787136532,
       "sourcemaps": null
     },
     {
       "name": "nuxt:layer-aliasing",
-      "start": 1715759183331,
-      "end": 1715759183331,
+      "start": 1715787136532,
+      "end": 1715787136532,
       "order": "pre"
     },
     {
       "name": "nuxt:server-devonly:transform",
-      "start": 1715759183331,
-      "end": 1715759183331,
+      "start": 1715787136532,
+      "end": 1715787136532,
       "order": "pre"
     },
     {
       "name": "nuxt:client-fallback-auto-id",
-      "start": 1715759183331,
-      "end": 1715759183331,
+      "start": 1715787136532,
+      "end": 1715787136532,
       "order": "pre"
     },
     {
       "name": "vite:css",
-      "start": 1715759183331,
-      "end": 1715759183331,
+      "start": 1715787136532,
+      "end": 1715787136532,
       "order": "normal"
     },
     {
       "name": "vite:esbuild",
-      "start": 1715759183331,
-      "end": 1715759183331,
+      "start": 1715787136532,
+      "end": 1715787136532,
       "order": "normal"
     },
     {
       "name": "vite:json",
-      "start": 1715759183331,
-      "end": 1715759183331,
+      "start": 1715787136532,
+      "end": 1715787136532,
       "order": "normal"
     },
     {
       "name": "vite:worker",
-      "start": 1715759183331,
-      "end": 1715759183331,
+      "start": 1715787136532,
+      "end": 1715787136532,
       "order": "normal"
     },
     {
       "name": "vite:vue",
       "result": "const _sfc_main = {}\nimport { resolveComponent as _resolveComponent, createVNode as _createVNode, createElementVNode as _createElementVNode, createStaticVNode as _createStaticVNode, Fragment as _Fragment, openBlock as _openBlock, createElementBlock as _createElementBlock } from \"vue\"\n\nconst _hoisted_1 = /*#__PURE__*/_createStaticVNode(\"<h1>Privacy Policy</h1><p>This privacy policy (&quot;Policy&quot;) describes how [Your Company Name] (&quot;Company&quot;) collects, uses, and shares personal data when using this website (the &quot;Site&quot;). Please read the following information carefully to understand our practices regarding your personal data and how we will treat it.</p><h2>Information We Collect</h2><p>We may collect the following types of personal data:</p><ul><li>Contact Information (such as name, email address, mailing address, and phone number)</li><li>Payment Information (such as credit card details)</li><li>Demographic Information (such as age, gender, and location)</li><li>Other information you provide voluntarily (such as product reviews, surveys, or preferences)</li></ul><h2>How We Use Your Information</h2><p>We may use your personal data for the following purposes:</p><ul><li>To process and fulfill your orders</li><li>To communicate with you about your orders, account, or inquiries</li><li>To personalize your experience on the Site</li><li>To improve our products and services</li><li>To detect and prevent fraud or security breaches</li><li>To comply with legal obligations</li></ul><h2>Information Sharing</h2><p>We may share your personal data with:</p><ul><li>Service providers who assist us in operating the Site, processing orders, or delivering products</li><li>Third-party analytics providers to help us understand how users interact with the Site</li><li>Law enforcement agencies, government bodies, or other third parties when required by law or to protect our legal rights</li></ul><h2>Security</h2><p>We take appropriate measures to protect your personal data from unauthorized access, alteration, disclosure, or destruction.</p><h2>Changes to This Policy</h2><p>We may update this Policy from time to time. We will notify you of any changes by posting the new Policy on this page.</p><h2>Contact Us</h2><p>If you have any questions or concerns about this Policy, please contact us at Contact Form.</p>\", 17)\n\nfunction _sfc_render(_ctx, _cache) {\n  const _component_TheHeader = _resolveComponent(\"TheHeader\")\n  const _component_OffCanvasMobileMenu = _resolveComponent(\"OffCanvasMobileMenu\")\n  const _component_SearchPopup = _resolveComponent(\"SearchPopup\")\n  const _component_BreadcrumbOne = _resolveComponent(\"BreadcrumbOne\")\n  const _component_TheFooter = _resolveComponent(\"TheFooter\")\n\n  return (_openBlock(), _createElementBlock(_Fragment, null, [\n    _createVNode(_component_TheHeader),\n    _createVNode(_component_OffCanvasMobileMenu),\n    _createVNode(_component_SearchPopup),\n    _createVNode(_component_BreadcrumbOne, {\n      activePageName: \"About - Privacy\",\n      title: \"Privacy Policy\",\n      backgroundUrl: \"/images/bg/breadcrumb-bg-darkgray.png\"\n    }),\n    _hoisted_1,\n    _createVNode(_component_TheFooter)\n  ], 64))\n}\n\n\nimport _export_sfc from '\u0000plugin-vue:export-helper'\nexport default /*#__PURE__*/_export_sfc(_sfc_main, [['render',_sfc_render]])",
-      "start": 1715759183331,
-      "end": 1715759183332,
+      "start": 1715787136532,
+      "end": 1715787136532,
       "order": "normal",
       "sourcemaps": {
         "mappings": ""
@@ -62,153 +62,153 @@
     },
     {
       "name": "vite:vue-jsx",
-      "start": 1715759183332,
-      "end": 1715759183332,
+      "start": 1715787136532,
+      "end": 1715787136532,
       "order": "normal"
     },
     {
       "name": "replace",
-      "start": 1715759183332,
-      "end": 1715759183332,
+      "start": 1715787136532,
+      "end": 1715787136532,
       "order": "normal"
     },
     {
       "name": "nuxt:remove-plugin-metadata",
-      "start": 1715759183332,
-      "end": 1715759183332,
+      "start": 1715787136532,
+      "end": 1715787136532,
       "order": "normal"
     },
     {
       "name": "nuxt:chunk-error",
-      "start": 1715759183332,
-      "end": 1715759183332,
+      "start": 1715787136532,
+      "end": 1715787136532,
       "order": "normal"
     },
     {
       "name": "nuxt:components:imports",
-      "start": 1715759183332,
-      "end": 1715759183332,
+      "start": 1715787136532,
+      "end": 1715787136533,
       "order": "normal"
     },
     {
       "name": "replace",
-      "start": 1715759183332,
-      "end": 1715759183332,
+      "start": 1715787136533,
+      "end": 1715787136533,
       "order": "normal"
     },
     {
       "name": "ssr-styles",
-      "start": 1715759183332,
-      "end": 1715759183332,
+      "start": 1715787136533,
+      "end": 1715787136533,
       "order": "normal"
     },
     {
       "name": "vite:define",
-      "start": 1715759183332,
-      "end": 1715759183332,
+      "start": 1715787136533,
+      "end": 1715787136533,
       "order": "normal"
     },
     {
       "name": "vite:css-post",
-      "start": 1715759183332,
-      "end": 1715759183332,
+      "start": 1715787136533,
+      "end": 1715787136533,
       "order": "normal"
     },
     {
       "name": "vite:build-html",
-      "start": 1715759183332,
-      "end": 1715759183332,
+      "start": 1715787136533,
+      "end": 1715787136533,
       "order": "normal"
     },
     {
       "name": "vite:worker-import-meta-url",
-      "start": 1715759183332,
-      "end": 1715759183332,
+      "start": 1715787136533,
+      "end": 1715787136533,
       "order": "normal"
     },
     {
       "name": "vite:asset-import-meta-url",
-      "start": 1715759183332,
-      "end": 1715759183332,
+      "start": 1715787136533,
+      "end": 1715787136533,
       "order": "normal"
     },
     {
       "name": "commonjs",
-      "start": 1715759183332,
-      "end": 1715759183332,
+      "start": 1715787136533,
+      "end": 1715787136533,
       "order": "normal"
     },
     {
       "name": "vite:dynamic-import-vars",
-      "start": 1715759183332,
-      "end": 1715759183332,
+      "start": 1715787136533,
+      "end": 1715787136533,
       "order": "normal"
     },
     {
       "name": "vite:import-glob",
-      "start": 1715759183332,
-      "end": 1715759183332,
+      "start": 1715787136533,
+      "end": 1715787136533,
       "order": "normal"
     },
     {
       "name": "nuxt:composable-keys",
-      "start": 1715759183332,
-      "end": 1715759183333,
+      "start": 1715787136533,
+      "end": 1715787136533,
       "order": "post"
     },
     {
       "name": "nuxt:imports-transform",
-      "start": 1715759183333,
-      "end": 1715759183333,
+      "start": 1715787136533,
+      "end": 1715787136533,
       "order": "post"
     },
     {
       "name": "unctx:transform",
-      "start": 1715759183333,
-      "end": 1715759183333,
+      "start": 1715787136533,
+      "end": 1715787136533,
       "order": "post"
     },
     {
       "name": "nuxt:pages-macros-transform",
-      "start": 1715759183333,
-      "end": 1715759183333,
+      "start": 1715787136533,
+      "end": 1715787136533,
       "order": "post"
     },
     {
       "name": "nuxt:runtime-paths-dep",
-      "start": 1715759183333,
-      "end": 1715759183333,
+      "start": 1715787136533,
+      "end": 1715787136533,
       "order": "post"
     },
     {
       "name": "nuxt:route-injection-plugin",
-      "start": 1715759183333,
-      "end": 1715759183333,
+      "start": 1715787136533,
+      "end": 1715787136533,
       "order": "post"
     },
     {
       "name": "nuxt:components-loader",
       "result": "import { default as __nuxt_component_0 } from \"E:/Projects/JavaRayaInternational/website/components/TheHeader.vue\";\nimport { default as __nuxt_component_1 } from \"E:/Projects/JavaRayaInternational/website/components/OffCanvasMobileMenu.vue\";\nimport { default as __nuxt_component_2 } from \"E:/Projects/JavaRayaInternational/website/components/SearchPopup.vue\";\nimport { default as __nuxt_component_3 } from \"E:/Projects/JavaRayaInternational/website/components/BreadcrumbOne.vue\";\nimport { default as __nuxt_component_4 } from \"E:/Projects/JavaRayaInternational/website/components/TheFooter.vue\";\nconst _sfc_main = {}\nimport { resolveComponent as _resolveComponent, createVNode as _createVNode, createElementVNode as _createElementVNode, createStaticVNode as _createStaticVNode, Fragment as _Fragment, openBlock as _openBlock, createElementBlock as _createElementBlock } from \"vue\"\n\nconst _hoisted_1 = /*#__PURE__*/_createStaticVNode(\"<h1>Privacy Policy</h1><p>This privacy policy (&quot;Policy&quot;) describes how [Your Company Name] (&quot;Company&quot;) collects, uses, and shares personal data when using this website (the &quot;Site&quot;). Please read the following information carefully to understand our practices regarding your personal data and how we will treat it.</p><h2>Information We Collect</h2><p>We may collect the following types of personal data:</p><ul><li>Contact Information (such as name, email address, mailing address, and phone number)</li><li>Payment Information (such as credit card details)</li><li>Demographic Information (such as age, gender, and location)</li><li>Other information you provide voluntarily (such as product reviews, surveys, or preferences)</li></ul><h2>How We Use Your Information</h2><p>We may use your personal data for the following purposes:</p><ul><li>To process and fulfill your orders</li><li>To communicate with you about your orders, account, or inquiries</li><li>To personalize your experience on the Site</li><li>To improve our products and services</li><li>To detect and prevent fraud or security breaches</li><li>To comply with legal obligations</li></ul><h2>Information Sharing</h2><p>We may share your personal data with:</p><ul><li>Service providers who assist us in operating the Site, processing orders, or delivering products</li><li>Third-party analytics providers to help us understand how users interact with the Site</li><li>Law enforcement agencies, government bodies, or other third parties when required by law or to protect our legal rights</li></ul><h2>Security</h2><p>We take appropriate measures to protect your personal data from unauthorized access, alteration, disclosure, or destruction.</p><h2>Changes to This Policy</h2><p>We may update this Policy from time to time. We will notify you of any changes by posting the new Policy on this page.</p><h2>Contact Us</h2><p>If you have any questions or concerns about this Policy, please contact us at Contact Form.</p>\", 17)\n\nfunction _sfc_render(_ctx, _cache) {\n  const _component_TheHeader = __nuxt_component_0\n  const _component_OffCanvasMobileMenu = __nuxt_component_1\n  const _component_SearchPopup = __nuxt_component_2\n  const _component_BreadcrumbOne = __nuxt_component_3\n  const _component_TheFooter = __nuxt_component_4\n\n  return (_openBlock(), _createElementBlock(_Fragment, null, [\n    _createVNode(_component_TheHeader),\n    _createVNode(_component_OffCanvasMobileMenu),\n    _createVNode(_component_SearchPopup),\n    _createVNode(_component_BreadcrumbOne, {\n      activePageName: \"About - Privacy\",\n      title: \"Privacy Policy\",\n      backgroundUrl: \"/images/bg/breadcrumb-bg-darkgray.png\"\n    }),\n    _hoisted_1,\n    _createVNode(_component_TheFooter)\n  ], 64))\n}\n\n\nimport _export_sfc from '\u0000plugin-vue:export-helper'\nexport default /*#__PURE__*/_export_sfc(_sfc_main, [['render',_sfc_render]])",
-      "start": 1715759183333,
-      "end": 1715759183334,
+      "start": 1715787136533,
+      "end": 1715787136533,
       "order": "post"
     },
     {
       "name": "nuxt:tree-shake-composables:transform",
-      "start": 1715759183334,
-      "end": 1715759183334,
+      "start": 1715787136533,
+      "end": 1715787136533,
       "order": "post"
     },
     {
       "name": "vite:build-import-analysis",
-      "start": 1715759183334,
-      "end": 1715759183334,
+      "start": 1715787136533,
+      "end": 1715787136533,
       "order": "normal"
     },
     {
       "name": "vite:reporter",
-      "start": 1715759183334,
-      "end": 1715759183334,
+      "start": 1715787136533,
+      "end": 1715787136533,
       "order": "normal"
     }
   ]

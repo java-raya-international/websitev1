@@ -4,75 +4,75 @@
     {
       "name": "vite:load-fallback",
       "result": "<template>\r\n    <div class=\"shape scene\" :class='addClassName'>\r\n        <span :data-depth=\"dataDepth\">\r\n            <img :src=\"imgSrc\" alt=\"shape image\">\r\n        </span>\r\n    </div>\r\n</template>\r\n\r\n<script>\r\n    import Parallax from 'parallax-js';\r\n    \r\n    export default {\r\n        props: ['addClassName', 'imgSrc', 'dataDepth'],\r\n\r\n        mounted () {\r\n            var scene = document.querySelectorAll('.scene');\r\n            if(scene) {\r\n                scene.forEach((el, i) => {\r\n                    new Parallax(el);\r\n                });\r\n            };\r\n        },\r\n    };\r\n</script>\r\n",
-      "start": 1715759188942,
-      "end": 1715759189048,
+      "start": 1715787141985,
+      "end": 1715787142083,
       "sourcemaps": null
     },
     {
       "name": "nuxt:layer-aliasing",
-      "start": 1715759189049,
-      "end": 1715759189049,
+      "start": 1715787142083,
+      "end": 1715787142083,
       "order": "pre"
     },
     {
       "name": "nuxt:layer-aliasing",
-      "start": 1715759189049,
-      "end": 1715759189049,
+      "start": 1715787142083,
+      "end": 1715787142083,
       "order": "pre"
     },
     {
       "name": "nuxt:server-devonly:transform",
-      "start": 1715759189049,
-      "end": 1715759189049,
+      "start": 1715787142083,
+      "end": 1715787142083,
       "order": "pre"
     },
     {
       "name": "nuxt:server-devonly:transform",
-      "start": 1715759189049,
-      "end": 1715759189049,
+      "start": 1715787142083,
+      "end": 1715787142083,
       "order": "pre"
     },
     {
       "name": "nuxt:client-fallback-auto-id",
-      "start": 1715759189049,
-      "end": 1715759189049,
+      "start": 1715787142083,
+      "end": 1715787142083,
       "order": "pre"
     },
     {
       "name": "server-only-component-transform",
-      "start": 1715759189049,
-      "end": 1715759189049,
+      "start": 1715787142083,
+      "end": 1715787142083,
       "order": "pre"
     },
     {
       "name": "vite:css",
-      "start": 1715759189049,
-      "end": 1715759189049,
+      "start": 1715787142083,
+      "end": 1715787142083,
       "order": "normal"
     },
     {
       "name": "vite:esbuild",
-      "start": 1715759189049,
-      "end": 1715759189049,
+      "start": 1715787142083,
+      "end": 1715787142083,
       "order": "normal"
     },
     {
       "name": "vite:json",
-      "start": 1715759189049,
-      "end": 1715759189049,
+      "start": 1715787142083,
+      "end": 1715787142083,
       "order": "normal"
     },
     {
       "name": "vite:worker",
-      "start": 1715759189049,
-      "end": 1715759189049,
+      "start": 1715787142083,
+      "end": 1715787142083,
       "order": "normal"
     },
     {
       "name": "vite:vue",
       "result": "\r\n    import Parallax from 'parallax-js';\r\n    \r\n    const _sfc_main = {\r\n        props: ['addClassName', 'imgSrc', 'dataDepth'],\r\n\r\n        mounted () {\r\n            var scene = document.querySelectorAll('.scene');\r\n            if(scene) {\r\n                scene.forEach((el, i) => {\r\n                    new Parallax(el);\r\n                });\r\n            };\r\n        },\r\n    };\r\n\nimport { mergeProps as _mergeProps } from \"vue\"\nimport { ssrRenderAttr as _ssrRenderAttr, ssrRenderAttrs as _ssrRenderAttrs } from \"vue/server-renderer\"\n\nfunction _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $options) {\n  _push(`<div${\n    _ssrRenderAttrs(_mergeProps({\n      class: [\"shape scene\", $props.addClassName]\n    }, _attrs))\n  }><span${\n    _ssrRenderAttr(\"data-depth\", $props.dataDepth)\n  }><img${\n    _ssrRenderAttr(\"src\", $props.imgSrc)\n  } alt=\"shape image\"></span></div>`)\n}\n\n\nimport { useSSRContext as __vite_useSSRContext } from 'vue'\nconst _sfc_setup = _sfc_main.setup\n_sfc_main.setup = (props, ctx) => {\n  const ssrContext = __vite_useSSRContext()\n  ;(ssrContext.modules || (ssrContext.modules = new Set())).add(\"components/ShapeWithAnimation.vue\")\n  return _sfc_setup ? _sfc_setup(props, ctx) : undefined\n}\nimport _export_sfc from '\u0000plugin-vue:export-helper'\nexport default /*#__PURE__*/_export_sfc(_sfc_main, [['ssrRender',_sfc_ssrRender]])",
-      "start": 1715759189049,
-      "end": 1715759189049,
+      "start": 1715787142083,
+      "end": 1715787142084,
       "order": "normal",
       "sourcemaps": {
         "version": 3,
@@ -89,178 +89,178 @@
     },
     {
       "name": "vite:vue-jsx",
-      "start": 1715759189049,
-      "end": 1715759189049,
+      "start": 1715787142085,
+      "end": 1715787142085,
       "order": "normal"
     },
     {
       "name": "replace",
-      "start": 1715759189049,
-      "end": 1715759189049,
+      "start": 1715787142085,
+      "end": 1715787142085,
       "order": "normal"
     },
     {
       "name": "replace",
-      "start": 1715759189049,
-      "end": 1715759189049,
+      "start": 1715787142085,
+      "end": 1715787142085,
       "order": "normal"
     },
     {
       "name": "nuxt:remove-plugin-metadata",
-      "start": 1715759189049,
-      "end": 1715759189049,
+      "start": 1715787142085,
+      "end": 1715787142085,
       "order": "normal"
     },
     {
       "name": "nuxt:remove-plugin-metadata",
-      "start": 1715759189049,
-      "end": 1715759189049,
+      "start": 1715787142085,
+      "end": 1715787142086,
       "order": "normal"
     },
     {
       "name": "nuxt:components:imports",
-      "start": 1715759189049,
-      "end": 1715759189050,
+      "start": 1715787142086,
+      "end": 1715787142086,
       "order": "normal"
     },
     {
       "name": "replace",
-      "start": 1715759189050,
-      "end": 1715759189050,
+      "start": 1715787142086,
+      "end": 1715787142086,
       "order": "normal"
     },
     {
       "name": "ssr-styles",
-      "start": 1715759189050,
-      "end": 1715759189050,
+      "start": 1715787142087,
+      "end": 1715787142087,
       "order": "normal"
     },
     {
       "name": "vite:define",
       "result": "import Parallax from \"parallax-js\";\nconst _sfc_main = {\n  props: [\"addClassName\", \"imgSrc\", \"dataDepth\"],\n  mounted() {\n    var scene = (void 0).querySelectorAll(\".scene\");\n    if (scene) {\n      scene.forEach((el, i) => {\n        new Parallax(el);\n      });\n    }\n    ;\n  }\n};\nimport { mergeProps as _mergeProps } from \"vue\";\nimport { ssrRenderAttr as _ssrRenderAttr, ssrRenderAttrs as _ssrRenderAttrs } from \"vue/server-renderer\";\nfunction _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $options) {\n  _push(`<div${_ssrRenderAttrs(_mergeProps({\n    class: [\"shape scene\", $props.addClassName]\n  }, _attrs))}><span${_ssrRenderAttr(\"data-depth\", $props.dataDepth)}><img${_ssrRenderAttr(\"src\", $props.imgSrc)} alt=\"shape image\"></span></div>`);\n}\nimport { useSSRContext as __vite_useSSRContext } from \"vue\";\nconst _sfc_setup = _sfc_main.setup;\n_sfc_main.setup = (props, ctx) => {\n  const ssrContext = __vite_useSSRContext();\n  (ssrContext.modules || (ssrContext.modules = /* @__PURE__ */ new Set())).add(\"components/ShapeWithAnimation.vue\");\n  return _sfc_setup ? _sfc_setup(props, ctx) : void 0;\n};\nimport _export_sfc from \"\\0plugin-vue:export-helper\";\nexport default /* @__PURE__ */ _export_sfc(_sfc_main, [[\"ssrRender\", _sfc_ssrRender]]);\n",
-      "start": 1715759189050,
-      "end": 1715759189112,
+      "start": 1715787142087,
+      "end": 1715787142159,
       "order": "normal",
       "sourcemaps": "{\n  \"version\": 3,\n  \"sources\": [\"E:/Projects/JavaRayaInternational/website/components/ShapeWithAnimation.vue\"],\n  \"sourcesContent\": [\"\\r\\n    import Parallax from 'parallax-js';\\r\\n    \\r\\n    const _sfc_main = {\\r\\n        props: ['addClassName', 'imgSrc', 'dataDepth'],\\r\\n\\r\\n        mounted () {\\r\\n            var scene = document.querySelectorAll('.scene');\\r\\n            if(scene) {\\r\\n                scene.forEach((el, i) => {\\r\\n                    new Parallax(el);\\r\\n                });\\r\\n            };\\r\\n        },\\r\\n    };\\r\\n\\nimport { mergeProps as _mergeProps } from \\\"vue\\\"\\nimport { ssrRenderAttr as _ssrRenderAttr, ssrRenderAttrs as _ssrRenderAttrs } from \\\"vue/server-renderer\\\"\\n\\nfunction _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $options) {\\n  _push(`<div${\\n    _ssrRenderAttrs(_mergeProps({\\n      class: [\\\"shape scene\\\", $props.addClassName]\\n    }, _attrs))\\n  }><span${\\n    _ssrRenderAttr(\\\"data-depth\\\", $props.dataDepth)\\n  }><img${\\n    _ssrRenderAttr(\\\"src\\\", $props.imgSrc)\\n  } alt=\\\"shape image\\\"></span></div>`)\\n}\\n\\n\\nimport { useSSRContext as __vite_useSSRContext } from 'vue'\\nconst _sfc_setup = _sfc_main.setup\\n_sfc_main.setup = (props, ctx) => {\\n  const ssrContext = __vite_useSSRContext()\\n  ;(ssrContext.modules || (ssrContext.modules = new Set())).add(\\\"components/ShapeWithAnimation.vue\\\")\\n  return _sfc_setup ? _sfc_setup(props, ctx) : undefined\\n}\\nimport _export_sfc from '\\u0000plugin-vue:export-helper'\\nexport default /*#__PURE__*/_export_sfc(_sfc_main, [['ssrRender',_sfc_ssrRender]])\"],\n  \"mappings\": \"AACI,OAAO,cAAc;AAErB,MAAM,YAAY;AAAA,EACd,OAAO,CAAC,gBAAgB,UAAU,WAAW;AAAA,EAE7C,UAAW;AACP,QAAI,QAAQ,SAAS,iBAAiB,QAAQ;AAC9C,QAAG,OAAO;AACN,YAAM,QAAQ,CAAC,IAAI,MAAM;AACrB,YAAI,SAAS,EAAE;AAAA,MACnB,CAAC;AAAA,IACL;AAAC;AAAA,EACL;AACJ;AAEJ,SAAS,cAAc,mBAAmB;AAC1C,SAAS,iBAAiB,gBAAgB,kBAAkB,uBAAuB;AAEnF,SAAS,eAAe,MAAM,OAAO,SAAS,QAAQ,QAAQ,QAAQ,OAAO,UAAU;AACrF,QAAM,OACJ,gBAAgB,YAAY;AAAA,IAC1B,OAAO,CAAC,eAAe,OAAO,YAAY;AAAA,EAC5C,GAAG,MAAM,CAAC,CACZ,SACE,eAAe,cAAc,OAAO,SAAS,CAC/C,QACE,eAAe,OAAO,OAAO,MAAM,CACrC,kCAAkC;AACpC;AAGA,SAAS,iBAAiB,4BAA4B;AACtD,MAAM,aAAa,UAAU;AAC7B,UAAU,QAAQ,CAAC,OAAO,QAAQ;AAChC,QAAM,aAAa,qBAAqB;AACvC,GAAC,WAAW,YAAY,WAAW,UAAU,oBAAI,IAAI,IAAI,IAAI,mCAAmC;AACjG,SAAO,aAAa,WAAW,OAAO,GAAG,IAAI;AAC/C;AACA,OAAO,iBAAiB;AACxB,eAA4B,4BAAY,WAAW,CAAC,CAAC,aAAY,cAAc,CAAC,CAAC;\",\n  \"names\": []\n}\n"
     },
     {
       "name": "vite:css-post",
-      "start": 1715759189112,
-      "end": 1715759189112,
+      "start": 1715787142159,
+      "end": 1715787142159,
       "order": "normal"
     },
     {
       "name": "vite:build-html",
-      "start": 1715759189112,
-      "end": 1715759189112,
+      "start": 1715787142159,
+      "end": 1715787142159,
       "order": "normal"
     },
     {
       "name": "vite:worker-import-meta-url",
-      "start": 1715759189112,
-      "end": 1715759189112,
+      "start": 1715787142159,
+      "end": 1715787142159,
       "order": "normal"
     },
     {
       "name": "vite:asset-import-meta-url",
-      "start": 1715759189112,
-      "end": 1715759189112,
+      "start": 1715787142159,
+      "end": 1715787142159,
       "order": "normal"
     },
     {
       "name": "commonjs",
-      "start": 1715759189112,
-      "end": 1715759189112,
+      "start": 1715787142159,
+      "end": 1715787142159,
       "order": "normal"
     },
     {
       "name": "vite:dynamic-import-vars",
-      "start": 1715759189112,
-      "end": 1715759189112,
+      "start": 1715787142159,
+      "end": 1715787142159,
       "order": "normal"
     },
     {
       "name": "vite:import-glob",
-      "start": 1715759189112,
-      "end": 1715759189112,
+      "start": 1715787142159,
+      "end": 1715787142159,
       "order": "normal"
     },
     {
       "name": "nuxt:composable-keys",
-      "start": 1715759189112,
-      "end": 1715759189112,
+      "start": 1715787142159,
+      "end": 1715787142159,
       "order": "post"
     },
     {
       "name": "nuxt:composable-keys",
-      "start": 1715759189112,
-      "end": 1715759189112,
+      "start": 1715787142159,
+      "end": 1715787142159,
       "order": "post"
     },
     {
       "name": "nuxt:imports-transform",
-      "start": 1715759189112,
-      "end": 1715759189113,
+      "start": 1715787142159,
+      "end": 1715787142159,
       "order": "post"
     },
     {
       "name": "nuxt:imports-transform",
-      "start": 1715759189112,
-      "end": 1715759189113,
+      "start": 1715787142159,
+      "end": 1715787142159,
       "order": "post"
     },
     {
       "name": "unctx:transform",
-      "start": 1715759189113,
-      "end": 1715759189113,
+      "start": 1715787142159,
+      "end": 1715787142159,
       "order": "post"
     },
     {
       "name": "unctx:transform",
-      "start": 1715759189113,
-      "end": 1715759189113,
+      "start": 1715787142159,
+      "end": 1715787142159,
       "order": "post"
     },
     {
       "name": "nuxt:pages-macros-transform",
-      "start": 1715759189113,
-      "end": 1715759189113,
+      "start": 1715787142159,
+      "end": 1715787142159,
       "order": "post"
     },
     {
       "name": "nuxt:pages-macros-transform",
-      "start": 1715759189113,
-      "end": 1715759189113,
+      "start": 1715787142159,
+      "end": 1715787142159,
       "order": "post"
     },
     {
       "name": "nuxt:tree-shake-template",
-      "start": 1715759189113,
-      "end": 1715759189113,
+      "start": 1715787142159,
+      "end": 1715787142160,
       "order": "post"
     },
     {
       "name": "nuxt:components-loader",
-      "start": 1715759189113,
-      "end": 1715759189113,
+      "start": 1715787142160,
+      "end": 1715787142160,
       "order": "post"
     },
     {
       "name": "nuxt:tree-shake-composables:transform",
-      "start": 1715759189113,
-      "end": 1715759189113,
+      "start": 1715787142160,
+      "end": 1715787142160,
       "order": "post"
     },
     {
       "name": "vite:build-import-analysis",
-      "start": 1715759189113,
-      "end": 1715759189113,
+      "start": 1715787142160,
+      "end": 1715787142160,
       "order": "normal"
     },
     {
       "name": "vite:reporter",
-      "start": 1715759189113,
-      "end": 1715759189113,
+      "start": 1715787142160,
+      "end": 1715787142160,
       "order": "normal"
     }
   ]

@@ -4,75 +4,75 @@
     {
       "name": "vite:load-fallback",
       "result": "<template>\r\n    <div class=\"error404\">\r\n        <div class=\"container\">\r\n            <div class=\"row\">\r\n                <div class=\"col-md-12 text-center\">\r\n                    <div class=\"error-image\">\r\n                        <img class=\"img-fluid\" src=\"/images/others/page-404-image.png\" alt=\"Not Found Image\">\r\n                    </div>\r\n                    <h1 class=\"error-404-title text-white\" v-if=\"error.statusCode === 404\">Oops! Page not found!</h1>\r\n                    <h1 class=\"error-404-title text-white\" v-else>An error occurred</h1>\r\n                    <div class=\"error-buttons\">\r\n                        <button class=\"btn btn-primary btn-hover-secondary\" @click=\"$router.go(-1)\">\r\n                            <span class=\"button-text\">Go back previous page</span>\r\n                        </button>\r\n                    </div>\r\n                </div>\r\n            </div>\r\n        </div>\r\n    </div>\r\n</template>\r\n\r\n<script>\r\n    export default {\r\n        props: ['error']\r\n    }\r\n</script>\r\n\r\n<style lang=\"scss\" scoped>\r\n    .error404 {\r\n        display: flex;\r\n        height: 100vh;\r\n        align-items: center;\r\n        justify-content: center;\r\n        background-color: #111111;\r\n    }\r\n    .error-404-title {\r\n        font-weight: 500;\r\n        padding-top: 40px;\r\n        margin-bottom: 30px;\r\n        //res\r\n        @media #{$extra-small-mobile} {\r\n            font-size: 30px;\r\n        }\r\n    }\r\n</style>",
-      "start": 1715759189130,
-      "end": 1715759189174,
+      "start": 1715787142049,
+      "end": 1715787142153,
       "sourcemaps": null
     },
     {
       "name": "nuxt:layer-aliasing",
-      "start": 1715759189174,
-      "end": 1715759189174,
+      "start": 1715787142153,
+      "end": 1715787142153,
       "order": "pre"
     },
     {
       "name": "nuxt:layer-aliasing",
-      "start": 1715759189174,
-      "end": 1715759189174,
+      "start": 1715787142153,
+      "end": 1715787142153,
       "order": "pre"
     },
     {
       "name": "nuxt:server-devonly:transform",
-      "start": 1715759189174,
-      "end": 1715759189174,
+      "start": 1715787142153,
+      "end": 1715787142153,
       "order": "pre"
     },
     {
       "name": "nuxt:server-devonly:transform",
-      "start": 1715759189174,
-      "end": 1715759189174,
+      "start": 1715787142153,
+      "end": 1715787142153,
       "order": "pre"
     },
     {
       "name": "nuxt:client-fallback-auto-id",
-      "start": 1715759189174,
-      "end": 1715759189174,
+      "start": 1715787142153,
+      "end": 1715787142153,
       "order": "pre"
     },
     {
       "name": "server-only-component-transform",
-      "start": 1715759189174,
-      "end": 1715759189174,
+      "start": 1715787142153,
+      "end": 1715787142153,
       "order": "pre"
     },
     {
       "name": "vite:css",
-      "start": 1715759189174,
-      "end": 1715759189174,
+      "start": 1715787142153,
+      "end": 1715787142153,
       "order": "normal"
     },
     {
       "name": "vite:esbuild",
-      "start": 1715759189174,
-      "end": 1715759189174,
+      "start": 1715787142153,
+      "end": 1715787142153,
       "order": "normal"
     },
     {
       "name": "vite:json",
-      "start": 1715759189174,
-      "end": 1715759189174,
+      "start": 1715787142153,
+      "end": 1715787142153,
       "order": "normal"
     },
     {
       "name": "vite:worker",
-      "start": 1715759189174,
-      "end": 1715759189174,
+      "start": 1715787142153,
+      "end": 1715787142153,
       "order": "normal"
     },
     {
       "name": "vite:vue",
       "result": "\r\n    const _sfc_main = {\r\n        props: ['error']\r\n    }\r\n\nimport { mergeProps as _mergeProps } from \"vue\"\nimport { ssrRenderAttr as _ssrRenderAttr, ssrRenderAttrs as _ssrRenderAttrs } from \"vue/server-renderer\"\nimport _imports_0 from '/images/others/page-404-image.png'\n\n\nfunction _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $options) {\n  _push(`<div${\n    _ssrRenderAttrs(_mergeProps({ class: \"error404\" }, _attrs))\n  } data-v-aec0da7f><div class=\"container\" data-v-aec0da7f><div class=\"row\" data-v-aec0da7f><div class=\"col-md-12 text-center\" data-v-aec0da7f><div class=\"error-image\" data-v-aec0da7f><img class=\"img-fluid\"${\n    _ssrRenderAttr(\"src\", _imports_0)\n  } alt=\"Not Found Image\" data-v-aec0da7f></div>`)\n  if ($props.error.statusCode === 404) {\n    _push(`<h1 class=\"error-404-title text-white\" data-v-aec0da7f>Oops! Page not found!</h1>`)\n  } else {\n    _push(`<h1 class=\"error-404-title text-white\" data-v-aec0da7f>An error occurred</h1>`)\n  }\n  _push(`<div class=\"error-buttons\" data-v-aec0da7f><button class=\"btn btn-primary btn-hover-secondary\" data-v-aec0da7f><span class=\"button-text\" data-v-aec0da7f>Go back previous page</span></button></div></div></div></div></div>`)\n}\n\nimport \"E:/Projects/JavaRayaInternational/website/layouts/error.vue?vue&type=style&index=0&scoped=aec0da7f&lang.scss\"\n\nimport { useSSRContext as __vite_useSSRContext } from 'vue'\nconst _sfc_setup = _sfc_main.setup\n_sfc_main.setup = (props, ctx) => {\n  const ssrContext = __vite_useSSRContext()\n  ;(ssrContext.modules || (ssrContext.modules = new Set())).add(\"layouts/error.vue\")\n  return _sfc_setup ? _sfc_setup(props, ctx) : undefined\n}\nimport _export_sfc from '\u0000plugin-vue:export-helper'\nexport default /*#__PURE__*/_export_sfc(_sfc_main, [['ssrRender',_sfc_ssrRender],['__scopeId',\"data-v-aec0da7f\"]])",
-      "start": 1715759189174,
-      "end": 1715759189175,
+      "start": 1715787142153,
+      "end": 1715787142154,
       "order": "normal",
       "sourcemaps": {
         "version": 3,
@@ -89,176 +89,176 @@
     },
     {
       "name": "vite:vue-jsx",
-      "start": 1715759189175,
-      "end": 1715759189175,
+      "start": 1715787142154,
+      "end": 1715787142154,
       "order": "normal"
     },
     {
       "name": "replace",
-      "start": 1715759189175,
-      "end": 1715759189175,
+      "start": 1715787142154,
+      "end": 1715787142154,
       "order": "normal"
     },
     {
       "name": "replace",
-      "start": 1715759189175,
-      "end": 1715759189175,
+      "start": 1715787142154,
+      "end": 1715787142154,
       "order": "normal"
     },
     {
       "name": "nuxt:remove-plugin-metadata",
-      "start": 1715759189175,
-      "end": 1715759189175,
+      "start": 1715787142154,
+      "end": 1715787142154,
       "order": "normal"
     },
     {
       "name": "nuxt:remove-plugin-metadata",
-      "start": 1715759189175,
-      "end": 1715759189175,
+      "start": 1715787142154,
+      "end": 1715787142154,
       "order": "normal"
     },
     {
       "name": "nuxt:components:imports",
-      "start": 1715759189175,
-      "end": 1715759189175,
+      "start": 1715787142154,
+      "end": 1715787142154,
       "order": "normal"
     },
     {
       "name": "replace",
-      "start": 1715759189175,
-      "end": 1715759189175,
+      "start": 1715787142154,
+      "end": 1715787142154,
       "order": "normal"
     },
     {
       "name": "ssr-styles",
-      "start": 1715759189175,
-      "end": 1715759189176,
+      "start": 1715787142154,
+      "end": 1715787142155,
       "order": "normal"
     },
     {
       "name": "vite:define",
-      "start": 1715759189176,
-      "end": 1715759189176,
+      "start": 1715787142155,
+      "end": 1715787142155,
       "order": "normal"
     },
     {
       "name": "vite:css-post",
-      "start": 1715759189176,
-      "end": 1715759189176,
+      "start": 1715787142155,
+      "end": 1715787142155,
       "order": "normal"
     },
     {
       "name": "vite:build-html",
-      "start": 1715759189176,
-      "end": 1715759189176,
+      "start": 1715787142155,
+      "end": 1715787142155,
       "order": "normal"
     },
     {
       "name": "vite:worker-import-meta-url",
-      "start": 1715759189176,
-      "end": 1715759189176,
+      "start": 1715787142155,
+      "end": 1715787142155,
       "order": "normal"
     },
     {
       "name": "vite:asset-import-meta-url",
-      "start": 1715759189176,
-      "end": 1715759189176,
+      "start": 1715787142155,
+      "end": 1715787142155,
       "order": "normal"
     },
     {
       "name": "commonjs",
-      "start": 1715759189176,
-      "end": 1715759189176,
+      "start": 1715787142155,
+      "end": 1715787142155,
       "order": "normal"
     },
     {
       "name": "vite:dynamic-import-vars",
-      "start": 1715759189176,
-      "end": 1715759189176,
+      "start": 1715787142155,
+      "end": 1715787142155,
       "order": "normal"
     },
     {
       "name": "vite:import-glob",
-      "start": 1715759189176,
-      "end": 1715759189176,
+      "start": 1715787142155,
+      "end": 1715787142155,
       "order": "normal"
     },
     {
       "name": "nuxt:composable-keys",
-      "start": 1715759189176,
-      "end": 1715759189176,
+      "start": 1715787142155,
+      "end": 1715787142155,
       "order": "post"
     },
     {
       "name": "nuxt:composable-keys",
-      "start": 1715759189176,
-      "end": 1715759189176,
+      "start": 1715787142155,
+      "end": 1715787142155,
       "order": "post"
     },
     {
       "name": "nuxt:imports-transform",
-      "start": 1715759189176,
-      "end": 1715759189176,
+      "start": 1715787142155,
+      "end": 1715787142155,
       "order": "post"
     },
     {
       "name": "nuxt:imports-transform",
-      "start": 1715759189176,
-      "end": 1715759189176,
+      "start": 1715787142155,
+      "end": 1715787142155,
       "order": "post"
     },
     {
       "name": "unctx:transform",
-      "start": 1715759189176,
-      "end": 1715759189176,
+      "start": 1715787142155,
+      "end": 1715787142155,
       "order": "post"
     },
     {
       "name": "unctx:transform",
-      "start": 1715759189176,
-      "end": 1715759189176,
+      "start": 1715787142155,
+      "end": 1715787142155,
       "order": "post"
     },
     {
       "name": "nuxt:pages-macros-transform",
-      "start": 1715759189176,
-      "end": 1715759189176,
+      "start": 1715787142155,
+      "end": 1715787142155,
       "order": "post"
     },
     {
       "name": "nuxt:pages-macros-transform",
-      "start": 1715759189176,
-      "end": 1715759189176,
+      "start": 1715787142155,
+      "end": 1715787142155,
       "order": "post"
     },
     {
       "name": "nuxt:tree-shake-template",
-      "start": 1715759189176,
-      "end": 1715759189176,
+      "start": 1715787142155,
+      "end": 1715787142155,
       "order": "post"
     },
     {
       "name": "nuxt:components-loader",
-      "start": 1715759189176,
-      "end": 1715759189176,
+      "start": 1715787142155,
+      "end": 1715787142155,
       "order": "post"
     },
     {
       "name": "nuxt:tree-shake-composables:transform",
-      "start": 1715759189176,
-      "end": 1715759189176,
+      "start": 1715787142155,
+      "end": 1715787142155,
       "order": "post"
     },
     {
       "name": "vite:build-import-analysis",
-      "start": 1715759189176,
-      "end": 1715759189176,
+      "start": 1715787142155,
+      "end": 1715787142156,
       "order": "normal"
     },
     {
       "name": "vite:reporter",
-      "start": 1715759189177,
-      "end": 1715759189177,
+      "start": 1715787142156,
+      "end": 1715787142156,
       "order": "normal"
     }
   ]

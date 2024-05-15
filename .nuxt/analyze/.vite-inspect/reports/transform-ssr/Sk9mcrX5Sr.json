@@ -4,75 +4,75 @@
     {
       "name": "vite:load-fallback",
       "result": "<template>\r\n    <div class=\"section-padding-t90-b100\">\r\n        <div class=\"container\">\r\n            <!-- Section Title Start -->\r\n            <SectionTitle title=\"We are a full-service creative agency\" sub-title=\"Our team of designers, developers and creatives are perfectionists who love what they do and love\" />\r\n            <!-- Section Title End -->\r\n\r\n            <div class=\"row row-cols-lg-3 row-cols-md-2 row-cols-sm-2 row-cols-1 mtn-60\">\r\n                <div class=\"col mt-30\" v-for=\"(blog, index) in blogData.slice(0, 3)\" :key=\"index\">\r\n                    <BlogGridItem :blog=\"blog\" />\r\n                </div>\r\n            </div>\r\n        </div>\r\n    </div>\r\n</template>\r\n\r\n<script>\r\n    import blogData from '~/data/blog.json';\r\n\r\n    export default {\r\n        data() {\r\n            return {\r\n               blogData \r\n            }\r\n        },\r\n\r\n        components: {\r\n            BlogGridItem: () => import(\"@/components/BlogGridItem\"),\r\n            SectionTitle: () => import(\"@/components/SectionTitle\"),\r\n        },\r\n    };\r\n</script>",
-      "start": 1715759188828,
-      "end": 1715759188929,
+      "start": 1715787141859,
+      "end": 1715787141990,
       "sourcemaps": null
     },
     {
       "name": "nuxt:layer-aliasing",
-      "start": 1715759188929,
-      "end": 1715759188929,
+      "start": 1715787141990,
+      "end": 1715787141990,
       "order": "pre"
     },
     {
       "name": "nuxt:layer-aliasing",
-      "start": 1715759188929,
-      "end": 1715759188929,
+      "start": 1715787141990,
+      "end": 1715787141990,
       "order": "pre"
     },
     {
       "name": "nuxt:server-devonly:transform",
-      "start": 1715759188929,
-      "end": 1715759188929,
+      "start": 1715787141990,
+      "end": 1715787141990,
       "order": "pre"
     },
     {
       "name": "nuxt:server-devonly:transform",
-      "start": 1715759188929,
-      "end": 1715759188929,
+      "start": 1715787141990,
+      "end": 1715787141990,
       "order": "pre"
     },
     {
       "name": "nuxt:client-fallback-auto-id",
-      "start": 1715759188929,
-      "end": 1715759188929,
+      "start": 1715787141990,
+      "end": 1715787141990,
       "order": "pre"
     },
     {
       "name": "server-only-component-transform",
-      "start": 1715759188929,
-      "end": 1715759188929,
+      "start": 1715787141990,
+      "end": 1715787141990,
       "order": "pre"
     },
     {
       "name": "vite:css",
-      "start": 1715759188929,
-      "end": 1715759188929,
+      "start": 1715787141990,
+      "end": 1715787141990,
       "order": "normal"
     },
     {
       "name": "vite:esbuild",
-      "start": 1715759188929,
-      "end": 1715759188929,
+      "start": 1715787141990,
+      "end": 1715787141990,
       "order": "normal"
     },
     {
       "name": "vite:json",
-      "start": 1715759188929,
-      "end": 1715759188929,
+      "start": 1715787141990,
+      "end": 1715787141990,
       "order": "normal"
     },
     {
       "name": "vite:worker",
-      "start": 1715759188929,
-      "end": 1715759188929,
+      "start": 1715787141990,
+      "end": 1715787141990,
       "order": "normal"
     },
     {
       "name": "vite:vue",
       "result": "\r\n    import blogData from '~/data/blog.json';\r\n\r\n    const _sfc_main = {\r\n        data() {\r\n            return {\r\n               blogData \r\n            }\r\n        },\r\n\r\n        components: {\r\n            BlogGridItem: () => import(\"@/components/BlogGridItem\"),\r\n            SectionTitle: () => import(\"@/components/SectionTitle\"),\r\n        },\r\n    };\r\n\nimport { resolveComponent as _resolveComponent, mergeProps as _mergeProps } from \"vue\"\nimport { ssrRenderComponent as _ssrRenderComponent, ssrRenderAttrs as _ssrRenderAttrs, ssrRenderList as _ssrRenderList } from \"vue/server-renderer\"\n\nfunction _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $options) {\n  const _component_SectionTitle = _resolveComponent(\"SectionTitle\")\n  const _component_BlogGridItem = _resolveComponent(\"BlogGridItem\")\n\n  _push(`<div${_ssrRenderAttrs(_mergeProps({ class: \"section-padding-t90-b100\" }, _attrs))}><div class=\"container\">`)\n  _push(_ssrRenderComponent(_component_SectionTitle, {\n    title: \"We are a full-service creative agency\",\n    \"sub-title\": \"Our team of designers, developers and creatives are perfectionists who love what they do and love\"\n  }, null, _parent))\n  _push(`<div class=\"row row-cols-lg-3 row-cols-md-2 row-cols-sm-2 row-cols-1 mtn-60\"><!--[-->`)\n  _ssrRenderList($data.blogData.slice(0, 3), (blog, index) => {\n    _push(`<div class=\"col mt-30\">`)\n    _push(_ssrRenderComponent(_component_BlogGridItem, { blog: blog }, null, _parent))\n    _push(`</div>`)\n  })\n  _push(`<!--]--></div></div></div>`)\n}\n\n\nimport { useSSRContext as __vite_useSSRContext } from 'vue'\nconst _sfc_setup = _sfc_main.setup\n_sfc_main.setup = (props, ctx) => {\n  const ssrContext = __vite_useSSRContext()\n  ;(ssrContext.modules || (ssrContext.modules = new Set())).add(\"components/BlogSectionOne.vue\")\n  return _sfc_setup ? _sfc_setup(props, ctx) : undefined\n}\nimport _export_sfc from '\u0000plugin-vue:export-helper'\nexport default /*#__PURE__*/_export_sfc(_sfc_main, [['ssrRender',_sfc_ssrRender]])",
-      "start": 1715759188929,
-      "end": 1715759188930,
+      "start": 1715787141990,
+      "end": 1715787141990,
       "order": "normal",
       "sourcemaps": {
         "version": 3,
@@ -89,159 +89,159 @@
     },
     {
       "name": "vite:vue-jsx",
-      "start": 1715759188930,
-      "end": 1715759188930,
+      "start": 1715787141990,
+      "end": 1715787141990,
       "order": "normal"
     },
     {
       "name": "replace",
-      "start": 1715759188930,
-      "end": 1715759188930,
+      "start": 1715787141990,
+      "end": 1715787141990,
       "order": "normal"
     },
     {
       "name": "replace",
-      "start": 1715759188930,
-      "end": 1715759188930,
+      "start": 1715787141990,
+      "end": 1715787141990,
       "order": "normal"
     },
     {
       "name": "nuxt:remove-plugin-metadata",
-      "start": 1715759188930,
-      "end": 1715759188930,
+      "start": 1715787141990,
+      "end": 1715787141990,
       "order": "normal"
     },
     {
       "name": "nuxt:remove-plugin-metadata",
-      "start": 1715759188930,
-      "end": 1715759188930,
+      "start": 1715787141990,
+      "end": 1715787141990,
       "order": "normal"
     },
     {
       "name": "nuxt:components:imports",
-      "start": 1715759188930,
-      "end": 1715759188930,
+      "start": 1715787141991,
+      "end": 1715787141991,
       "order": "normal"
     },
     {
       "name": "replace",
-      "start": 1715759188930,
-      "end": 1715759188930,
+      "start": 1715787141991,
+      "end": 1715787141991,
       "order": "normal"
     },
     {
       "name": "ssr-styles",
-      "start": 1715759188930,
-      "end": 1715759188930,
+      "start": 1715787141991,
+      "end": 1715787141991,
       "order": "normal"
     },
     {
       "name": "vite:define",
-      "start": 1715759188930,
-      "end": 1715759188930,
+      "start": 1715787141991,
+      "end": 1715787141991,
       "order": "normal"
     },
     {
       "name": "vite:css-post",
-      "start": 1715759188930,
-      "end": 1715759188930,
+      "start": 1715787141991,
+      "end": 1715787141991,
       "order": "normal"
     },
     {
       "name": "vite:build-html",
-      "start": 1715759188931,
-      "end": 1715759188931,
+      "start": 1715787141991,
+      "end": 1715787141991,
       "order": "normal"
     },
     {
       "name": "vite:worker-import-meta-url",
-      "start": 1715759188931,
-      "end": 1715759188931,
+      "start": 1715787141991,
+      "end": 1715787141991,
       "order": "normal"
     },
     {
       "name": "vite:asset-import-meta-url",
-      "start": 1715759188931,
-      "end": 1715759188931,
+      "start": 1715787141991,
+      "end": 1715787141991,
       "order": "normal"
     },
     {
       "name": "commonjs",
-      "start": 1715759188931,
-      "end": 1715759188931,
+      "start": 1715787141991,
+      "end": 1715787141991,
       "order": "normal"
     },
     {
       "name": "vite:dynamic-import-vars",
-      "start": 1715759188931,
-      "end": 1715759188931,
+      "start": 1715787141991,
+      "end": 1715787141991,
       "order": "normal"
     },
     {
       "name": "vite:import-glob",
-      "start": 1715759188931,
-      "end": 1715759188931,
+      "start": 1715787141991,
+      "end": 1715787141991,
       "order": "normal"
     },
     {
       "name": "nuxt:composable-keys",
-      "start": 1715759188931,
-      "end": 1715759188931,
+      "start": 1715787141991,
+      "end": 1715787141991,
       "order": "post"
     },
     {
       "name": "nuxt:composable-keys",
-      "start": 1715759188931,
-      "end": 1715759188931,
+      "start": 1715787141991,
+      "end": 1715787141991,
       "order": "post"
     },
     {
       "name": "nuxt:imports-transform",
-      "start": 1715759188931,
-      "end": 1715759188931,
+      "start": 1715787141991,
+      "end": 1715787141991,
       "order": "post"
     },
     {
       "name": "nuxt:imports-transform",
-      "start": 1715759188931,
-      "end": 1715759188931,
+      "start": 1715787141991,
+      "end": 1715787141991,
       "order": "post"
     },
     {
       "name": "unctx:transform",
-      "start": 1715759188931,
-      "end": 1715759188931,
+      "start": 1715787141991,
+      "end": 1715787141991,
       "order": "post"
     },
     {
       "name": "unctx:transform",
-      "start": 1715759188931,
-      "end": 1715759188931,
+      "start": 1715787141991,
+      "end": 1715787141991,
       "order": "post"
     },
     {
       "name": "nuxt:pages-macros-transform",
-      "start": 1715759188931,
-      "end": 1715759188931,
+      "start": 1715787141991,
+      "end": 1715787141991,
       "order": "post"
     },
     {
       "name": "nuxt:pages-macros-transform",
-      "start": 1715759188931,
-      "end": 1715759188931,
+      "start": 1715787141991,
+      "end": 1715787141991,
       "order": "post"
     },
     {
       "name": "nuxt:tree-shake-template",
-      "start": 1715759188931,
-      "end": 1715759188931,
+      "start": 1715787141991,
+      "end": 1715787141991,
       "order": "post"
     },
     {
       "name": "nuxt:components-loader",
       "result": "import { default as __nuxt_component_0 } from \"E:/Projects/JavaRayaInternational/website/components/SectionTitle.vue\";\nimport { default as __nuxt_component_1 } from \"E:/Projects/JavaRayaInternational/website/components/BlogGridItem.vue\";\n\r\n    import blogData from '~/data/blog.json';\r\n\r\n    const _sfc_main = {\r\n        data() {\r\n            return {\r\n               blogData \r\n            }\r\n        },\r\n\r\n        components: {\r\n            BlogGridItem: () => import(\"@/components/BlogGridItem\"),\r\n            SectionTitle: () => import(\"@/components/SectionTitle\"),\r\n        },\r\n    };\r\n\nimport { resolveComponent as _resolveComponent, mergeProps as _mergeProps } from \"vue\"\nimport { ssrRenderComponent as _ssrRenderComponent, ssrRenderAttrs as _ssrRenderAttrs, ssrRenderList as _ssrRenderList } from \"vue/server-renderer\"\n\nfunction _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $options) {\n  const _component_SectionTitle = __nuxt_component_0\n  const _component_BlogGridItem = __nuxt_component_1\n\n  _push(`<div${_ssrRenderAttrs(_mergeProps({ class: \"section-padding-t90-b100\" }, _attrs))}><div class=\"container\">`)\n  _push(_ssrRenderComponent(_component_SectionTitle, {\n    title: \"We are a full-service creative agency\",\n    \"sub-title\": \"Our team of designers, developers and creatives are perfectionists who love what they do and love\"\n  }, null, _parent))\n  _push(`<div class=\"row row-cols-lg-3 row-cols-md-2 row-cols-sm-2 row-cols-1 mtn-60\"><!--[-->`)\n  _ssrRenderList($data.blogData.slice(0, 3), (blog, index) => {\n    _push(`<div class=\"col mt-30\">`)\n    _push(_ssrRenderComponent(_component_BlogGridItem, { blog: blog }, null, _parent))\n    _push(`</div>`)\n  })\n  _push(`<!--]--></div></div></div>`)\n}\n\n\nimport { useSSRContext as __vite_useSSRContext } from 'vue'\nconst _sfc_setup = _sfc_main.setup\n_sfc_main.setup = (props, ctx) => {\n  const ssrContext = __vite_useSSRContext()\n  ;(ssrContext.modules || (ssrContext.modules = new Set())).add(\"components/BlogSectionOne.vue\")\n  return _sfc_setup ? _sfc_setup(props, ctx) : undefined\n}\nimport _export_sfc from '\u0000plugin-vue:export-helper'\nexport default /*#__PURE__*/_export_sfc(_sfc_main, [['ssrRender',_sfc_ssrRender]])",
-      "start": 1715759188931,
-      "end": 1715759188931,
+      "start": 1715787141991,
+      "end": 1715787141991,
       "order": "post",
       "sourcemaps": {
         "version": 3,
@@ -254,20 +254,20 @@
     },
     {
       "name": "nuxt:tree-shake-composables:transform",
-      "start": 1715759188931,
-      "end": 1715759188931,
+      "start": 1715787141991,
+      "end": 1715787141991,
       "order": "post"
     },
     {
       "name": "vite:build-import-analysis",
-      "start": 1715759188931,
-      "end": 1715759188931,
+      "start": 1715787141991,
+      "end": 1715787141991,
       "order": "normal"
     },
     {
       "name": "vite:reporter",
-      "start": 1715759188931,
-      "end": 1715759188931,
+      "start": 1715787141991,
+      "end": 1715787141991,
       "order": "normal"
     }
   ]

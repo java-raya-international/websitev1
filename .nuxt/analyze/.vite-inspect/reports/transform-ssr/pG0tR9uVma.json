@@ -4,75 +4,75 @@
     {
       "name": "vite:load-fallback",
       "result": "<template>\r\n    <div class=\"faq-section section-padding-top overflow-hidden\" :style=\"{backgroundColor: '#f8faff'}\">\r\n        <div class=\"container\">\r\n            <div class=\"row row-cols-lg-2 row-cols-1\">\r\n                <!-- Faq Content Start -->\r\n                <div class=\"col mb-30\">\r\n                    <div class=\"faq-content\">\r\n                        <!-- Section Title Two Start -->\r\n                        <div class=\"section-title-two\">\r\n                            <span class=\"sub-title\">Frequently asked questions</span>\r\n                            <h3 class=\"title\">You’ve got questions and <br> we’ve got answers</h3>\r\n                        </div>\r\n                        <!-- Section Title Two End -->\r\n\r\n                        <AccordionStyleOne />\r\n                    </div>\r\n                </div>\r\n                <!-- Faq Content End -->\r\n\r\n                <div class=\"col pl-xl-12\">\r\n                    <div class=\"about-image-area faq-image-area\">\r\n                        <div class=\"about-image right-n50 js-tilt\">\r\n                            <img src=\"/images/faq/faq-2.jpg\" alt=\"image\">\r\n                        </div>\r\n                        <div class=\"about-image js-tilt\">\r\n                            <img src=\"/images/faq/faq-1.jpg\" alt=\"image\">\r\n                        </div>\r\n                        <!-- Animation Shape Start -->\r\n                        <ShapeWithAnimation addClassName=\"shape-1\" data-depth=\"4\" imgSrc=\"/images/shape-animation/video-shape-1.png\" />\r\n                    </div>\r\n                </div>\r\n            </div>\r\n        </div>\r\n    </div>\r\n</template>\r\n\r\n<script>\r\n    export default {\r\n        components: {\r\n            AccordionStyleOne: () => import('@/components/AccordionStyleOne'),\r\n            ShapeWithAnimation: () => import('@/components/ShapeWithAnimation'),\r\n        },\r\n    };\r\n</script>",
-      "start": 1715759188818,
-      "end": 1715759188924,
+      "start": 1715787141847,
+      "end": 1715787141994,
       "sourcemaps": null
     },
     {
       "name": "nuxt:layer-aliasing",
-      "start": 1715759188924,
-      "end": 1715759188924,
+      "start": 1715787141994,
+      "end": 1715787141994,
       "order": "pre"
     },
     {
       "name": "nuxt:layer-aliasing",
-      "start": 1715759188924,
-      "end": 1715759188924,
+      "start": 1715787141994,
+      "end": 1715787141994,
       "order": "pre"
     },
     {
       "name": "nuxt:server-devonly:transform",
-      "start": 1715759188924,
-      "end": 1715759188924,
+      "start": 1715787141994,
+      "end": 1715787141994,
       "order": "pre"
     },
     {
       "name": "nuxt:server-devonly:transform",
-      "start": 1715759188924,
-      "end": 1715759188924,
+      "start": 1715787141994,
+      "end": 1715787141994,
       "order": "pre"
     },
     {
       "name": "nuxt:client-fallback-auto-id",
-      "start": 1715759188924,
-      "end": 1715759188924,
+      "start": 1715787141994,
+      "end": 1715787141994,
       "order": "pre"
     },
     {
       "name": "server-only-component-transform",
-      "start": 1715759188924,
-      "end": 1715759188924,
+      "start": 1715787141994,
+      "end": 1715787141994,
       "order": "pre"
     },
     {
       "name": "vite:css",
-      "start": 1715759188924,
-      "end": 1715759188924,
+      "start": 1715787141994,
+      "end": 1715787141994,
       "order": "normal"
     },
     {
       "name": "vite:esbuild",
-      "start": 1715759188924,
-      "end": 1715759188924,
+      "start": 1715787141994,
+      "end": 1715787141994,
       "order": "normal"
     },
     {
       "name": "vite:json",
-      "start": 1715759188924,
-      "end": 1715759188924,
+      "start": 1715787141994,
+      "end": 1715787141994,
       "order": "normal"
     },
     {
       "name": "vite:worker",
-      "start": 1715759188924,
-      "end": 1715759188924,
+      "start": 1715787141994,
+      "end": 1715787141994,
       "order": "normal"
     },
     {
       "name": "vite:vue",
       "result": "\r\n    const _sfc_main = {\r\n        components: {\r\n            AccordionStyleOne: () => import('@/components/AccordionStyleOne'),\r\n            ShapeWithAnimation: () => import('@/components/ShapeWithAnimation'),\r\n        },\r\n    };\r\n\nimport { resolveComponent as _resolveComponent, mergeProps as _mergeProps } from \"vue\"\nimport { ssrRenderComponent as _ssrRenderComponent, ssrRenderAttr as _ssrRenderAttr, ssrRenderAttrs as _ssrRenderAttrs } from \"vue/server-renderer\"\nimport _imports_0 from '/images/faq/faq-2.jpg'\nimport _imports_1 from '/images/faq/faq-1.jpg'\n\n\nfunction _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $options) {\n  const _component_AccordionStyleOne = _resolveComponent(\"AccordionStyleOne\")\n  const _component_ShapeWithAnimation = _resolveComponent(\"ShapeWithAnimation\")\n\n  _push(`<div${_ssrRenderAttrs(_mergeProps({\n    class: \"faq-section section-padding-top overflow-hidden\",\n    style: {backgroundColor: '#f8faff'}\n  }, _attrs))}><div class=\"container\"><div class=\"row row-cols-lg-2 row-cols-1\"><div class=\"col mb-30\"><div class=\"faq-content\"><div class=\"section-title-two\"><span class=\"sub-title\">Frequently asked questions</span><h3 class=\"title\">You’ve got questions and <br> we’ve got answers</h3></div>`)\n  _push(_ssrRenderComponent(_component_AccordionStyleOne, null, null, _parent))\n  _push(`</div></div><div class=\"col pl-xl-12\"><div class=\"about-image-area faq-image-area\"><div class=\"about-image right-n50 js-tilt\"><img${\n    _ssrRenderAttr(\"src\", _imports_0)\n  } alt=\"image\"></div><div class=\"about-image js-tilt\"><img${\n    _ssrRenderAttr(\"src\", _imports_1)\n  } alt=\"image\"></div>`)\n  _push(_ssrRenderComponent(_component_ShapeWithAnimation, {\n    addClassName: \"shape-1\",\n    \"data-depth\": \"4\",\n    imgSrc: \"/images/shape-animation/video-shape-1.png\"\n  }, null, _parent))\n  _push(`</div></div></div></div></div>`)\n}\n\n\nimport { useSSRContext as __vite_useSSRContext } from 'vue'\nconst _sfc_setup = _sfc_main.setup\n_sfc_main.setup = (props, ctx) => {\n  const ssrContext = __vite_useSSRContext()\n  ;(ssrContext.modules || (ssrContext.modules = new Set())).add(\"components/FaqOne.vue\")\n  return _sfc_setup ? _sfc_setup(props, ctx) : undefined\n}\nimport _export_sfc from '\u0000plugin-vue:export-helper'\nexport default /*#__PURE__*/_export_sfc(_sfc_main, [['ssrRender',_sfc_ssrRender]])",
-      "start": 1715759188924,
-      "end": 1715759188928,
+      "start": 1715787141994,
+      "end": 1715787141995,
       "order": "normal",
       "sourcemaps": {
         "version": 3,
@@ -89,159 +89,159 @@
     },
     {
       "name": "vite:vue-jsx",
-      "start": 1715759188928,
-      "end": 1715759188928,
+      "start": 1715787141995,
+      "end": 1715787141995,
       "order": "normal"
     },
     {
       "name": "replace",
-      "start": 1715759188928,
-      "end": 1715759188928,
+      "start": 1715787141995,
+      "end": 1715787141995,
       "order": "normal"
     },
     {
       "name": "replace",
-      "start": 1715759188928,
-      "end": 1715759188928,
+      "start": 1715787141995,
+      "end": 1715787141995,
       "order": "normal"
     },
     {
       "name": "nuxt:remove-plugin-metadata",
-      "start": 1715759188928,
-      "end": 1715759188928,
+      "start": 1715787141995,
+      "end": 1715787141995,
       "order": "normal"
     },
     {
       "name": "nuxt:remove-plugin-metadata",
-      "start": 1715759188928,
-      "end": 1715759188928,
+      "start": 1715787141995,
+      "end": 1715787141995,
       "order": "normal"
     },
     {
       "name": "nuxt:components:imports",
-      "start": 1715759188928,
-      "end": 1715759188928,
+      "start": 1715787141995,
+      "end": 1715787141995,
       "order": "normal"
     },
     {
       "name": "replace",
-      "start": 1715759188928,
-      "end": 1715759188928,
+      "start": 1715787141995,
+      "end": 1715787141995,
       "order": "normal"
     },
     {
       "name": "ssr-styles",
-      "start": 1715759188928,
-      "end": 1715759188928,
+      "start": 1715787141995,
+      "end": 1715787141995,
       "order": "normal"
     },
     {
       "name": "vite:define",
-      "start": 1715759188928,
-      "end": 1715759188928,
+      "start": 1715787141995,
+      "end": 1715787141995,
       "order": "normal"
     },
     {
       "name": "vite:css-post",
-      "start": 1715759188928,
-      "end": 1715759188928,
+      "start": 1715787141995,
+      "end": 1715787141995,
       "order": "normal"
     },
     {
       "name": "vite:build-html",
-      "start": 1715759188928,
-      "end": 1715759188928,
+      "start": 1715787141995,
+      "end": 1715787141995,
       "order": "normal"
     },
     {
       "name": "vite:worker-import-meta-url",
-      "start": 1715759188928,
-      "end": 1715759188928,
+      "start": 1715787141995,
+      "end": 1715787141995,
       "order": "normal"
     },
     {
       "name": "vite:asset-import-meta-url",
-      "start": 1715759188928,
-      "end": 1715759188928,
+      "start": 1715787141995,
+      "end": 1715787141995,
       "order": "normal"
     },
     {
       "name": "commonjs",
-      "start": 1715759188928,
-      "end": 1715759188928,
+      "start": 1715787141995,
+      "end": 1715787141995,
       "order": "normal"
     },
     {
       "name": "vite:dynamic-import-vars",
-      "start": 1715759188928,
-      "end": 1715759188928,
+      "start": 1715787141995,
+      "end": 1715787141995,
       "order": "normal"
     },
     {
       "name": "vite:import-glob",
-      "start": 1715759188928,
-      "end": 1715759188928,
+      "start": 1715787141995,
+      "end": 1715787141995,
       "order": "normal"
     },
     {
       "name": "nuxt:composable-keys",
-      "start": 1715759188928,
-      "end": 1715759188928,
+      "start": 1715787141995,
+      "end": 1715787141995,
       "order": "post"
     },
     {
       "name": "nuxt:composable-keys",
-      "start": 1715759188928,
-      "end": 1715759188928,
+      "start": 1715787141995,
+      "end": 1715787141995,
       "order": "post"
     },
     {
       "name": "nuxt:imports-transform",
-      "start": 1715759188928,
-      "end": 1715759188928,
+      "start": 1715787141995,
+      "end": 1715787141995,
       "order": "post"
     },
     {
       "name": "nuxt:imports-transform",
-      "start": 1715759188928,
-      "end": 1715759188928,
+      "start": 1715787141995,
+      "end": 1715787141995,
       "order": "post"
     },
     {
       "name": "unctx:transform",
-      "start": 1715759188928,
-      "end": 1715759188928,
+      "start": 1715787141995,
+      "end": 1715787141995,
       "order": "post"
     },
     {
       "name": "unctx:transform",
-      "start": 1715759188928,
-      "end": 1715759188928,
+      "start": 1715787141995,
+      "end": 1715787141995,
       "order": "post"
     },
     {
       "name": "nuxt:pages-macros-transform",
-      "start": 1715759188928,
-      "end": 1715759188928,
+      "start": 1715787141995,
+      "end": 1715787141995,
       "order": "post"
     },
     {
       "name": "nuxt:pages-macros-transform",
-      "start": 1715759188928,
-      "end": 1715759188928,
+      "start": 1715787141995,
+      "end": 1715787141995,
       "order": "post"
     },
     {
       "name": "nuxt:tree-shake-template",
-      "start": 1715759188928,
-      "end": 1715759188928,
+      "start": 1715787141995,
+      "end": 1715787141995,
       "order": "post"
     },
     {
       "name": "nuxt:components-loader",
       "result": "import { default as __nuxt_component_0 } from \"E:/Projects/JavaRayaInternational/website/components/AccordionStyleOne.vue\";\nimport { default as __nuxt_component_1 } from \"E:/Projects/JavaRayaInternational/website/components/ShapeWithAnimation.vue\";\n\r\n    const _sfc_main = {\r\n        components: {\r\n            AccordionStyleOne: () => import('@/components/AccordionStyleOne'),\r\n            ShapeWithAnimation: () => import('@/components/ShapeWithAnimation'),\r\n        },\r\n    };\r\n\nimport { resolveComponent as _resolveComponent, mergeProps as _mergeProps } from \"vue\"\nimport { ssrRenderComponent as _ssrRenderComponent, ssrRenderAttr as _ssrRenderAttr, ssrRenderAttrs as _ssrRenderAttrs } from \"vue/server-renderer\"\nimport _imports_0 from '/images/faq/faq-2.jpg'\nimport _imports_1 from '/images/faq/faq-1.jpg'\n\n\nfunction _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $options) {\n  const _component_AccordionStyleOne = __nuxt_component_0\n  const _component_ShapeWithAnimation = __nuxt_component_1\n\n  _push(`<div${_ssrRenderAttrs(_mergeProps({\n    class: \"faq-section section-padding-top overflow-hidden\",\n    style: {backgroundColor: '#f8faff'}\n  }, _attrs))}><div class=\"container\"><div class=\"row row-cols-lg-2 row-cols-1\"><div class=\"col mb-30\"><div class=\"faq-content\"><div class=\"section-title-two\"><span class=\"sub-title\">Frequently asked questions</span><h3 class=\"title\">You’ve got questions and <br> we’ve got answers</h3></div>`)\n  _push(_ssrRenderComponent(_component_AccordionStyleOne, null, null, _parent))\n  _push(`</div></div><div class=\"col pl-xl-12\"><div class=\"about-image-area faq-image-area\"><div class=\"about-image right-n50 js-tilt\"><img${\n    _ssrRenderAttr(\"src\", _imports_0)\n  } alt=\"image\"></div><div class=\"about-image js-tilt\"><img${\n    _ssrRenderAttr(\"src\", _imports_1)\n  } alt=\"image\"></div>`)\n  _push(_ssrRenderComponent(_component_ShapeWithAnimation, {\n    addClassName: \"shape-1\",\n    \"data-depth\": \"4\",\n    imgSrc: \"/images/shape-animation/video-shape-1.png\"\n  }, null, _parent))\n  _push(`</div></div></div></div></div>`)\n}\n\n\nimport { useSSRContext as __vite_useSSRContext } from 'vue'\nconst _sfc_setup = _sfc_main.setup\n_sfc_main.setup = (props, ctx) => {\n  const ssrContext = __vite_useSSRContext()\n  ;(ssrContext.modules || (ssrContext.modules = new Set())).add(\"components/FaqOne.vue\")\n  return _sfc_setup ? _sfc_setup(props, ctx) : undefined\n}\nimport _export_sfc from '\u0000plugin-vue:export-helper'\nexport default /*#__PURE__*/_export_sfc(_sfc_main, [['ssrRender',_sfc_ssrRender]])",
-      "start": 1715759188928,
-      "end": 1715759188929,
+      "start": 1715787141995,
+      "end": 1715787141996,
       "order": "post",
       "sourcemaps": {
         "version": 3,
@@ -254,20 +254,20 @@
     },
     {
       "name": "nuxt:tree-shake-composables:transform",
-      "start": 1715759188929,
-      "end": 1715759188929,
+      "start": 1715787141996,
+      "end": 1715787141996,
       "order": "post"
     },
     {
       "name": "vite:build-import-analysis",
-      "start": 1715759188929,
-      "end": 1715759188929,
+      "start": 1715787141996,
+      "end": 1715787141996,
       "order": "normal"
     },
     {
       "name": "vite:reporter",
-      "start": 1715759188929,
-      "end": 1715759188929,
+      "start": 1715787141996,
+      "end": 1715787141996,
       "order": "normal"
     }
   ]

@@ -832,7 +832,7 @@ const _routes = [
     meta: {},
     alias: [],
     redirect: void 0 ,
-    component: () => import('./index-CnnXMCxv.mjs').then((m) => m.default || m)
+    component: () => import('./index-BCV0dz5r.mjs').then((m) => m.default || m)
   },
   {
     name: "invest",
@@ -848,7 +848,7 @@ const _routes = [
     meta: {},
     alias: [],
     redirect: void 0 ,
-    component: () => import('./index-D2iGmiuP.mjs').then((m) => m.default || m)
+    component: () => import('./index-C_5vzt4X.mjs').then((m) => m.default || m)
   },
   {
     name: "products-indonesia-craft",
@@ -864,7 +864,7 @@ const _routes = [
     meta: {},
     alias: [],
     redirect: void 0 ,
-    component: () => import('./index-CJNIVroW.mjs').then((m) => m.default || m)
+    component: () => import('./index-D7nEabUB.mjs').then((m) => m.default || m)
   },
   {
     name: "products-metal-processed",
@@ -896,7 +896,7 @@ const _routes = [
     meta: {},
     alias: [],
     redirect: void 0 ,
-    component: () => import('./project-details-D2rM7fSD.mjs').then((m) => m.default || m)
+    component: () => import('./project-details-BsmxBwkM.mjs').then((m) => m.default || m)
   },
   {
     name: "service-slug",

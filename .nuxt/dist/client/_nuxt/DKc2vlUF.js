@@ -1,1 +1,0 @@
-import{B as s}from"./kZ-ytLh4.js";const t=s("/images/project/work-details-1.jpg"),p=s("/images/project/work-details-2.jpg"),r=s("/images/project/work-details-3.jpg"),a=s("/images/project/work-details-4.jpg");export{t as _,p as a,r as b,a as c};
