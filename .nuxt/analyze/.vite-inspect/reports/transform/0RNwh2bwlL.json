@@ -3,58 +3,58 @@
   "transforms": [
     {
       "name": "vite:load-fallback",
-      "result": "<template>\r\n    <div class=\"section-padding-t90-b100\">\r\n        <div class=\"container\">\r\n            <!-- Section Title Start -->\r\n            <SectionTitle title=\"Unique Marketplace APP\" sub-title=\"Shopping with better experiences\" add-class-name=\"mb-60\" />\r\n            <!-- Section Title End -->\r\n\r\n            <div class=\"row row-cols-lg-3 row-cols-md-2 row-cols-sm-2 row-cols-1 mtn-30\">\r\n                <div class=\"col mt-30\" data-aos=\"fade-up\" v-for=\"(feature, index) in featureData.slice(0, 6)\" :key=\"index\" >\r\n                    <div class=\"icon-box text-center\" :class=\"addClassName\" style=\"height: 400px;\">\r\n                        <div class=\"icon\">\r\n                            <img :src=\"feature.iconSrc\" :alt=\"feature.title\" style=\"height:50px;\">\r\n                        </div>\r\n                        <div class=\"content\">\r\n                            <h3 class=\"title\">{{ feature.title }}</h3>\r\n                            <div class=\"desc\">\r\n                                <p>{{ feature.text }}</p>\r\n                            </div>\r\n                            <!-- <NuxtLink :to=\"`/service/${feature.slug}`\" class=\"link\">View Details</NuxtLink> -->\r\n                            <NuxtLink :to=\"`/features/${feature.slug}`\" class=\"link\">View Details</NuxtLink>\r\n                        </div>\r\n                    </div>\r\n                </div>\r\n            </div>\r\n        </div>\r\n    </div>\r\n</template>\r\n\r\n<script>\r\n    import featureData from '~/data/features.json'\r\n    export default {\r\n        props: [\"addClassName\"],\r\n\r\n        components: {\r\n            SectionTitle: () => import(\"@/components/SectionTitle\"),\r\n        },\r\n\r\n        data() {\r\n            return {\r\n                featureData\r\n            }\r\n        },\r\n    };\r\n</script>",
-      "start": 1712457363772,
-      "end": 1712457363914,
+      "result": "<template>\r\n    <div class=\"section-padding-t90-b100\">\r\n        <div class=\"container\">\r\n            <!-- Section Title Start -->\r\n            <SectionTitle title=\"Unique Marketplace APP\" sub-title=\"Shopping with better experiences\" add-class-name=\"mb-60\" />\r\n            <!-- Section Title End -->\r\n\r\n            <div class=\"row row-cols-lg-3 row-cols-md-2 row-cols-sm-2 row-cols-1 mtn-30\">\r\n                <div class=\"col mt-30\" data-aos=\"fade-up\" v-for=\"(feature, index) in featureData.slice(0, 6)\" :key=\"index\" >\r\n                    <div class=\"icon-box text-center\" :class=\"addClassName\" style=\"height: 400px;\">\r\n                        <div class=\"icon\">\r\n                            <img :src=\"feature.iconSrc\" :alt=\"feature.title\" style=\"height:50px;\">\r\n                        </div>\r\n                        <div class=\"content\">\r\n                            <h3 class=\"title\">{{ feature.title }}</h3>\r\n                            <div class=\"desc\">\r\n                                <p>{{ feature.text }}</p>\r\n                            </div>\r\n                            <!-- <NuxtLink :to=\"`/service/${feature.slug}`\" class=\"link\">View Details</NuxtLink> -->\r\n                            <NuxtLink :to=\"`/products/${feature.slug}`\" class=\"link\">View Details</NuxtLink>\r\n                        </div>\r\n                    </div>\r\n                </div>\r\n            </div>\r\n        </div>\r\n    </div>\r\n</template>\r\n\r\n<script>\r\n    import featureData from '~/data/products.json'\r\n    export default {\r\n        props: [\"addClassName\"],\r\n\r\n        components: {\r\n            SectionTitle: () => import(\"@/components/SectionTitle\"),\r\n        },\r\n\r\n        data() {\r\n            return {\r\n                featureData\r\n            }\r\n        },\r\n    };\r\n</script>",
+      "start": 1715759183600,
+      "end": 1715759183729,
       "sourcemaps": null
     },
     {
       "name": "nuxt:layer-aliasing",
-      "start": 1712457363914,
-      "end": 1712457363914,
+      "start": 1715759183729,
+      "end": 1715759183729,
       "order": "pre"
     },
     {
       "name": "nuxt:server-devonly:transform",
-      "start": 1712457363914,
-      "end": 1712457363914,
+      "start": 1715759183729,
+      "end": 1715759183729,
       "order": "pre"
     },
     {
       "name": "nuxt:client-fallback-auto-id",
-      "start": 1712457363914,
-      "end": 1712457363914,
+      "start": 1715759183729,
+      "end": 1715759183729,
       "order": "pre"
     },
     {
       "name": "vite:css",
-      "start": 1712457363914,
-      "end": 1712457363914,
+      "start": 1715759183729,
+      "end": 1715759183729,
       "order": "normal"
     },
     {
       "name": "vite:esbuild",
-      "start": 1712457363914,
-      "end": 1712457363914,
+      "start": 1715759183729,
+      "end": 1715759183729,
       "order": "normal"
     },
     {
       "name": "vite:json",
-      "start": 1712457363914,
-      "end": 1712457363914,
+      "start": 1715759183729,
+      "end": 1715759183729,
       "order": "normal"
     },
     {
       "name": "vite:worker",
-      "start": 1712457363914,
-      "end": 1712457363914,
+      "start": 1715759183729,
+      "end": 1715759183729,
       "order": "normal"
     },
     {
       "name": "vite:vue",
-      "result": "\r\n    import featureData from '~/data/features.json'\r\n    const _sfc_main = {\r\n        props: [\"addClassName\"],\r\n\r\n        components: {\r\n            SectionTitle: () => import(\"@/components/SectionTitle\"),\r\n        },\r\n\r\n        data() {\r\n            return {\r\n                featureData\r\n            }\r\n        },\r\n    };\r\n\nimport { resolveComponent as _resolveComponent, createVNode as _createVNode, renderList as _renderList, Fragment as _Fragment, openBlock as _openBlock, createElementBlock as _createElementBlock, createElementVNode as _createElementVNode, toDisplayString as _toDisplayString, createTextVNode as _createTextVNode, withCtx as _withCtx, normalizeClass as _normalizeClass } from \"vue\"\n\nconst _hoisted_1 = { class: \"section-padding-t90-b100\" }\nconst _hoisted_2 = { class: \"container\" }\nconst _hoisted_3 = { class: \"row row-cols-lg-3 row-cols-md-2 row-cols-sm-2 row-cols-1 mtn-30\" }\nconst _hoisted_4 = { class: \"icon\" }\nconst _hoisted_5 = [\"src\", \"alt\"]\nconst _hoisted_6 = { class: \"content\" }\nconst _hoisted_7 = { class: \"title\" }\nconst _hoisted_8 = { class: \"desc\" }\n\nfunction _sfc_render(_ctx, _cache, $props, $setup, $data, $options) {\n  const _component_SectionTitle = _resolveComponent(\"SectionTitle\")\n  const _component_NuxtLink = _resolveComponent(\"NuxtLink\")\n\n  return (_openBlock(), _createElementBlock(\"div\", _hoisted_1, [\n    _createElementVNode(\"div\", _hoisted_2, [\n      _createVNode(_component_SectionTitle, {\n        title: \"Unique Marketplace APP\",\n        \"sub-title\": \"Shopping with better experiences\",\n        \"add-class-name\": \"mb-60\"\n      }),\n      _createElementVNode(\"div\", _hoisted_3, [\n        (_openBlock(true), _createElementBlock(_Fragment, null, _renderList($data.featureData.slice(0, 6), (feature, index) => {\n          return (_openBlock(), _createElementBlock(\"div\", {\n            class: \"col mt-30\",\n            \"data-aos\": \"fade-up\",\n            key: index\n          }, [\n            _createElementVNode(\"div\", {\n              class: _normalizeClass([\"icon-box text-center\", $props.addClassName]),\n              style: {\"height\":\"400px\"}\n            }, [\n              _createElementVNode(\"div\", _hoisted_4, [\n                _createElementVNode(\"img\", {\n                  src: feature.iconSrc,\n                  alt: feature.title,\n                  style: {\"height\":\"50px\"}\n                }, null, 8, _hoisted_5)\n              ]),\n              _createElementVNode(\"div\", _hoisted_6, [\n                _createElementVNode(\"h3\", _hoisted_7, _toDisplayString(feature.title), 1),\n                _createElementVNode(\"div\", _hoisted_8, [\n                  _createElementVNode(\"p\", null, _toDisplayString(feature.text), 1)\n                ]),\n                _createVNode(_component_NuxtLink, {\n                  to: `/features/${feature.slug}`,\n                  class: \"link\"\n                }, {\n                  default: _withCtx(() => [\n                    _createTextVNode(\"View Details\")\n                  ]),\n                  _: 2\n                }, 1032, [\"to\"])\n              ])\n            ], 2)\n          ]))\n        }), 128))\n      ])\n    ])\n  ]))\n}\n\n\nimport _export_sfc from '\u0000plugin-vue:export-helper'\nexport default /*#__PURE__*/_export_sfc(_sfc_main, [['render',_sfc_render]])",
-      "start": 1712457363914,
-      "end": 1712457363916,
+      "result": "\r\n    import featureData from '~/data/products.json'\r\n    const _sfc_main = {\r\n        props: [\"addClassName\"],\r\n\r\n        components: {\r\n            SectionTitle: () => import(\"@/components/SectionTitle\"),\r\n        },\r\n\r\n        data() {\r\n            return {\r\n                featureData\r\n            }\r\n        },\r\n    };\r\n\nimport { resolveComponent as _resolveComponent, createVNode as _createVNode, renderList as _renderList, Fragment as _Fragment, openBlock as _openBlock, createElementBlock as _createElementBlock, createElementVNode as _createElementVNode, toDisplayString as _toDisplayString, createTextVNode as _createTextVNode, withCtx as _withCtx, normalizeClass as _normalizeClass } from \"vue\"\n\nconst _hoisted_1 = { class: \"section-padding-t90-b100\" }\nconst _hoisted_2 = { class: \"container\" }\nconst _hoisted_3 = { class: \"row row-cols-lg-3 row-cols-md-2 row-cols-sm-2 row-cols-1 mtn-30\" }\nconst _hoisted_4 = { class: \"icon\" }\nconst _hoisted_5 = [\"src\", \"alt\"]\nconst _hoisted_6 = { class: \"content\" }\nconst _hoisted_7 = { class: \"title\" }\nconst _hoisted_8 = { class: \"desc\" }\n\nfunction _sfc_render(_ctx, _cache, $props, $setup, $data, $options) {\n  const _component_SectionTitle = _resolveComponent(\"SectionTitle\")\n  const _component_NuxtLink = _resolveComponent(\"NuxtLink\")\n\n  return (_openBlock(), _createElementBlock(\"div\", _hoisted_1, [\n    _createElementVNode(\"div\", _hoisted_2, [\n      _createVNode(_component_SectionTitle, {\n        title: \"Unique Marketplace APP\",\n        \"sub-title\": \"Shopping with better experiences\",\n        \"add-class-name\": \"mb-60\"\n      }),\n      _createElementVNode(\"div\", _hoisted_3, [\n        (_openBlock(true), _createElementBlock(_Fragment, null, _renderList($data.featureData.slice(0, 6), (feature, index) => {\n          return (_openBlock(), _createElementBlock(\"div\", {\n            class: \"col mt-30\",\n            \"data-aos\": \"fade-up\",\n            key: index\n          }, [\n            _createElementVNode(\"div\", {\n              class: _normalizeClass([\"icon-box text-center\", $props.addClassName]),\n              style: {\"height\":\"400px\"}\n            }, [\n              _createElementVNode(\"div\", _hoisted_4, [\n                _createElementVNode(\"img\", {\n                  src: feature.iconSrc,\n                  alt: feature.title,\n                  style: {\"height\":\"50px\"}\n                }, null, 8, _hoisted_5)\n              ]),\n              _createElementVNode(\"div\", _hoisted_6, [\n                _createElementVNode(\"h3\", _hoisted_7, _toDisplayString(feature.title), 1),\n                _createElementVNode(\"div\", _hoisted_8, [\n                  _createElementVNode(\"p\", null, _toDisplayString(feature.text), 1)\n                ]),\n                _createVNode(_component_NuxtLink, {\n                  to: `/products/${feature.slug}`,\n                  class: \"link\"\n                }, {\n                  default: _withCtx(() => [\n                    _createTextVNode(\"View Details\")\n                  ]),\n                  _: 2\n                }, 1032, [\"to\"])\n              ])\n            ], 2)\n          ]))\n        }), 128))\n      ])\n    ])\n  ]))\n}\n\n\nimport _export_sfc from '\u0000plugin-vue:export-helper'\nexport default /*#__PURE__*/_export_sfc(_sfc_main, [['render',_sfc_render]])",
+      "start": 1715759183729,
+      "end": 1715759183731,
       "order": "normal",
       "sourcemaps": {
         "mappings": ""
@@ -62,155 +62,155 @@
     },
     {
       "name": "vite:vue-jsx",
-      "start": 1712457363916,
-      "end": 1712457363916,
+      "start": 1715759183731,
+      "end": 1715759183731,
       "order": "normal"
     },
     {
       "name": "replace",
-      "start": 1712457363916,
-      "end": 1712457363916,
+      "start": 1715759183731,
+      "end": 1715759183731,
       "order": "normal"
     },
     {
       "name": "nuxt:remove-plugin-metadata",
-      "start": 1712457363916,
-      "end": 1712457363916,
+      "start": 1715759183731,
+      "end": 1715759183731,
       "order": "normal"
     },
     {
       "name": "nuxt:chunk-error",
-      "start": 1712457363916,
-      "end": 1712457363916,
+      "start": 1715759183731,
+      "end": 1715759183731,
       "order": "normal"
     },
     {
       "name": "nuxt:components:imports",
-      "start": 1712457363916,
-      "end": 1712457363916,
+      "start": 1715759183731,
+      "end": 1715759183731,
       "order": "normal"
     },
     {
       "name": "replace",
-      "start": 1712457363916,
-      "end": 1712457363916,
+      "start": 1715759183731,
+      "end": 1715759183731,
       "order": "normal"
     },
     {
       "name": "ssr-styles",
-      "start": 1712457363916,
-      "end": 1712457363916,
+      "start": 1715759183731,
+      "end": 1715759183731,
       "order": "normal"
     },
     {
       "name": "vite:define",
-      "start": 1712457363916,
-      "end": 1712457363916,
+      "start": 1715759183731,
+      "end": 1715759183731,
       "order": "normal"
     },
     {
       "name": "vite:css-post",
-      "start": 1712457363916,
-      "end": 1712457363916,
+      "start": 1715759183731,
+      "end": 1715759183731,
       "order": "normal"
     },
     {
       "name": "vite:build-html",
-      "start": 1712457363916,
-      "end": 1712457363916,
+      "start": 1715759183731,
+      "end": 1715759183731,
       "order": "normal"
     },
     {
       "name": "vite:worker-import-meta-url",
-      "start": 1712457363916,
-      "end": 1712457363916,
+      "start": 1715759183731,
+      "end": 1715759183731,
       "order": "normal"
     },
     {
       "name": "vite:asset-import-meta-url",
-      "start": 1712457363916,
-      "end": 1712457363916,
+      "start": 1715759183731,
+      "end": 1715759183731,
       "order": "normal"
     },
     {
       "name": "commonjs",
-      "start": 1712457363916,
-      "end": 1712457363916,
+      "start": 1715759183731,
+      "end": 1715759183731,
       "order": "normal"
     },
     {
       "name": "vite:dynamic-import-vars",
-      "start": 1712457363916,
-      "end": 1712457363916,
+      "start": 1715759183731,
+      "end": 1715759183731,
       "order": "normal"
     },
     {
       "name": "vite:import-glob",
-      "start": 1712457363916,
-      "end": 1712457363916,
+      "start": 1715759183731,
+      "end": 1715759183731,
       "order": "normal"
     },
     {
       "name": "nuxt:composable-keys",
-      "start": 1712457363916,
-      "end": 1712457363916,
+      "start": 1715759183731,
+      "end": 1715759183731,
       "order": "post"
     },
     {
       "name": "nuxt:imports-transform",
-      "start": 1712457363916,
-      "end": 1712457363917,
+      "start": 1715759183731,
+      "end": 1715759183732,
       "order": "post"
     },
     {
       "name": "unctx:transform",
-      "start": 1712457363917,
-      "end": 1712457363917,
+      "start": 1715759183732,
+      "end": 1715759183732,
       "order": "post"
     },
     {
       "name": "nuxt:pages-macros-transform",
-      "start": 1712457363917,
-      "end": 1712457363917,
+      "start": 1715759183732,
+      "end": 1715759183732,
       "order": "post"
     },
     {
       "name": "nuxt:runtime-paths-dep",
-      "start": 1712457363917,
-      "end": 1712457363917,
+      "start": 1715759183732,
+      "end": 1715759183732,
       "order": "post"
     },
     {
       "name": "nuxt:route-injection-plugin",
-      "start": 1712457363917,
-      "end": 1712457363917,
+      "start": 1715759183732,
+      "end": 1715759183732,
       "order": "post"
     },
     {
       "name": "nuxt:components-loader",
-      "result": "import { default as __nuxt_component_0 } from \"E:/Projects/JavaRayaInternational/website/components/SectionTitle.vue\";\nimport { default as __nuxt_component_1 } from \"E:/Projects/JavaRayaInternational/website/node_modules/nuxt/dist/app/components/nuxt-link\";\n\r\n    import featureData from '~/data/features.json'\r\n    const _sfc_main = {\r\n        props: [\"addClassName\"],\r\n\r\n        components: {\r\n            SectionTitle: () => import(\"@/components/SectionTitle\"),\r\n        },\r\n\r\n        data() {\r\n            return {\r\n                featureData\r\n            }\r\n        },\r\n    };\r\n\nimport { resolveComponent as _resolveComponent, createVNode as _createVNode, renderList as _renderList, Fragment as _Fragment, openBlock as _openBlock, createElementBlock as _createElementBlock, createElementVNode as _createElementVNode, toDisplayString as _toDisplayString, createTextVNode as _createTextVNode, withCtx as _withCtx, normalizeClass as _normalizeClass } from \"vue\"\n\nconst _hoisted_1 = { class: \"section-padding-t90-b100\" }\nconst _hoisted_2 = { class: \"container\" }\nconst _hoisted_3 = { class: \"row row-cols-lg-3 row-cols-md-2 row-cols-sm-2 row-cols-1 mtn-30\" }\nconst _hoisted_4 = { class: \"icon\" }\nconst _hoisted_5 = [\"src\", \"alt\"]\nconst _hoisted_6 = { class: \"content\" }\nconst _hoisted_7 = { class: \"title\" }\nconst _hoisted_8 = { class: \"desc\" }\n\nfunction _sfc_render(_ctx, _cache, $props, $setup, $data, $options) {\n  const _component_SectionTitle = __nuxt_component_0\n  const _component_NuxtLink = __nuxt_component_1\n\n  return (_openBlock(), _createElementBlock(\"div\", _hoisted_1, [\n    _createElementVNode(\"div\", _hoisted_2, [\n      _createVNode(_component_SectionTitle, {\n        title: \"Unique Marketplace APP\",\n        \"sub-title\": \"Shopping with better experiences\",\n        \"add-class-name\": \"mb-60\"\n      }),\n      _createElementVNode(\"div\", _hoisted_3, [\n        (_openBlock(true), _createElementBlock(_Fragment, null, _renderList($data.featureData.slice(0, 6), (feature, index) => {\n          return (_openBlock(), _createElementBlock(\"div\", {\n            class: \"col mt-30\",\n            \"data-aos\": \"fade-up\",\n            key: index\n          }, [\n            _createElementVNode(\"div\", {\n              class: _normalizeClass([\"icon-box text-center\", $props.addClassName]),\n              style: {\"height\":\"400px\"}\n            }, [\n              _createElementVNode(\"div\", _hoisted_4, [\n                _createElementVNode(\"img\", {\n                  src: feature.iconSrc,\n                  alt: feature.title,\n                  style: {\"height\":\"50px\"}\n                }, null, 8, _hoisted_5)\n              ]),\n              _createElementVNode(\"div\", _hoisted_6, [\n                _createElementVNode(\"h3\", _hoisted_7, _toDisplayString(feature.title), 1),\n                _createElementVNode(\"div\", _hoisted_8, [\n                  _createElementVNode(\"p\", null, _toDisplayString(feature.text), 1)\n                ]),\n                _createVNode(_component_NuxtLink, {\n                  to: `/features/${feature.slug}`,\n                  class: \"link\"\n                }, {\n                  default: _withCtx(() => [\n                    _createTextVNode(\"View Details\")\n                  ]),\n                  _: 2\n                }, 1032, [\"to\"])\n              ])\n            ], 2)\n          ]))\n        }), 128))\n      ])\n    ])\n  ]))\n}\n\n\nimport _export_sfc from '\u0000plugin-vue:export-helper'\nexport default /*#__PURE__*/_export_sfc(_sfc_main, [['render',_sfc_render]])",
-      "start": 1712457363917,
-      "end": 1712457363917,
+      "result": "import { default as __nuxt_component_0 } from \"E:/Projects/JavaRayaInternational/website/components/SectionTitle.vue\";\nimport { default as __nuxt_component_1 } from \"E:/Projects/JavaRayaInternational/website/node_modules/nuxt/dist/app/components/nuxt-link\";\n\r\n    import featureData from '~/data/products.json'\r\n    const _sfc_main = {\r\n        props: [\"addClassName\"],\r\n\r\n        components: {\r\n            SectionTitle: () => import(\"@/components/SectionTitle\"),\r\n        },\r\n\r\n        data() {\r\n            return {\r\n                featureData\r\n            }\r\n        },\r\n    };\r\n\nimport { resolveComponent as _resolveComponent, createVNode as _createVNode, renderList as _renderList, Fragment as _Fragment, openBlock as _openBlock, createElementBlock as _createElementBlock, createElementVNode as _createElementVNode, toDisplayString as _toDisplayString, createTextVNode as _createTextVNode, withCtx as _withCtx, normalizeClass as _normalizeClass } from \"vue\"\n\nconst _hoisted_1 = { class: \"section-padding-t90-b100\" }\nconst _hoisted_2 = { class: \"container\" }\nconst _hoisted_3 = { class: \"row row-cols-lg-3 row-cols-md-2 row-cols-sm-2 row-cols-1 mtn-30\" }\nconst _hoisted_4 = { class: \"icon\" }\nconst _hoisted_5 = [\"src\", \"alt\"]\nconst _hoisted_6 = { class: \"content\" }\nconst _hoisted_7 = { class: \"title\" }\nconst _hoisted_8 = { class: \"desc\" }\n\nfunction _sfc_render(_ctx, _cache, $props, $setup, $data, $options) {\n  const _component_SectionTitle = __nuxt_component_0\n  const _component_NuxtLink = __nuxt_component_1\n\n  return (_openBlock(), _createElementBlock(\"div\", _hoisted_1, [\n    _createElementVNode(\"div\", _hoisted_2, [\n      _createVNode(_component_SectionTitle, {\n        title: \"Unique Marketplace APP\",\n        \"sub-title\": \"Shopping with better experiences\",\n        \"add-class-name\": \"mb-60\"\n      }),\n      _createElementVNode(\"div\", _hoisted_3, [\n        (_openBlock(true), _createElementBlock(_Fragment, null, _renderList($data.featureData.slice(0, 6), (feature, index) => {\n          return (_openBlock(), _createElementBlock(\"div\", {\n            class: \"col mt-30\",\n            \"data-aos\": \"fade-up\",\n            key: index\n          }, [\n            _createElementVNode(\"div\", {\n              class: _normalizeClass([\"icon-box text-center\", $props.addClassName]),\n              style: {\"height\":\"400px\"}\n            }, [\n              _createElementVNode(\"div\", _hoisted_4, [\n                _createElementVNode(\"img\", {\n                  src: feature.iconSrc,\n                  alt: feature.title,\n                  style: {\"height\":\"50px\"}\n                }, null, 8, _hoisted_5)\n              ]),\n              _createElementVNode(\"div\", _hoisted_6, [\n                _createElementVNode(\"h3\", _hoisted_7, _toDisplayString(feature.title), 1),\n                _createElementVNode(\"div\", _hoisted_8, [\n                  _createElementVNode(\"p\", null, _toDisplayString(feature.text), 1)\n                ]),\n                _createVNode(_component_NuxtLink, {\n                  to: `/products/${feature.slug}`,\n                  class: \"link\"\n                }, {\n                  default: _withCtx(() => [\n                    _createTextVNode(\"View Details\")\n                  ]),\n                  _: 2\n                }, 1032, [\"to\"])\n              ])\n            ], 2)\n          ]))\n        }), 128))\n      ])\n    ])\n  ]))\n}\n\n\nimport _export_sfc from '\u0000plugin-vue:export-helper'\nexport default /*#__PURE__*/_export_sfc(_sfc_main, [['render',_sfc_render]])",
+      "start": 1715759183732,
+      "end": 1715759183732,
       "order": "post"
     },
     {
       "name": "nuxt:tree-shake-composables:transform",
-      "start": 1712457363917,
-      "end": 1712457363917,
+      "start": 1715759183732,
+      "end": 1715759183732,
       "order": "post"
     },
     {
       "name": "vite:build-import-analysis",
-      "result": "import { __vitePreload } from \"\u0000vite/preload-helper.js\";import { default as __nuxt_component_0 } from \"E:/Projects/JavaRayaInternational/website/components/SectionTitle.vue\";\nimport { default as __nuxt_component_1 } from \"E:/Projects/JavaRayaInternational/website/node_modules/nuxt/dist/app/components/nuxt-link\";\n\r\n    import featureData from '~/data/features.json'\r\n    const _sfc_main = {\r\n        props: [\"addClassName\"],\r\n\r\n        components: {\r\n            SectionTitle: () => __vitePreload(() => import(\"@/components/SectionTitle\"),__VITE_IS_MODERN__?\"__VITE_PRELOAD__\":void 0,import.meta.url),\r\n        },\r\n\r\n        data() {\r\n            return {\r\n                featureData\r\n            }\r\n        },\r\n    };\r\n\nimport { resolveComponent as _resolveComponent, createVNode as _createVNode, renderList as _renderList, Fragment as _Fragment, openBlock as _openBlock, createElementBlock as _createElementBlock, createElementVNode as _createElementVNode, toDisplayString as _toDisplayString, createTextVNode as _createTextVNode, withCtx as _withCtx, normalizeClass as _normalizeClass } from \"vue\"\n\nconst _hoisted_1 = { class: \"section-padding-t90-b100\" }\nconst _hoisted_2 = { class: \"container\" }\nconst _hoisted_3 = { class: \"row row-cols-lg-3 row-cols-md-2 row-cols-sm-2 row-cols-1 mtn-30\" }\nconst _hoisted_4 = { class: \"icon\" }\nconst _hoisted_5 = [\"src\", \"alt\"]\nconst _hoisted_6 = { class: \"content\" }\nconst _hoisted_7 = { class: \"title\" }\nconst _hoisted_8 = { class: \"desc\" }\n\nfunction _sfc_render(_ctx, _cache, $props, $setup, $data, $options) {\n  const _component_SectionTitle = __nuxt_component_0\n  const _component_NuxtLink = __nuxt_component_1\n\n  return (_openBlock(), _createElementBlock(\"div\", _hoisted_1, [\n    _createElementVNode(\"div\", _hoisted_2, [\n      _createVNode(_component_SectionTitle, {\n        title: \"Unique Marketplace APP\",\n        \"sub-title\": \"Shopping with better experiences\",\n        \"add-class-name\": \"mb-60\"\n      }),\n      _createElementVNode(\"div\", _hoisted_3, [\n        (_openBlock(true), _createElementBlock(_Fragment, null, _renderList($data.featureData.slice(0, 6), (feature, index) => {\n          return (_openBlock(), _createElementBlock(\"div\", {\n            class: \"col mt-30\",\n            \"data-aos\": \"fade-up\",\n            key: index\n          }, [\n            _createElementVNode(\"div\", {\n              class: _normalizeClass([\"icon-box text-center\", $props.addClassName]),\n              style: {\"height\":\"400px\"}\n            }, [\n              _createElementVNode(\"div\", _hoisted_4, [\n                _createElementVNode(\"img\", {\n                  src: feature.iconSrc,\n                  alt: feature.title,\n                  style: {\"height\":\"50px\"}\n                }, null, 8, _hoisted_5)\n              ]),\n              _createElementVNode(\"div\", _hoisted_6, [\n                _createElementVNode(\"h3\", _hoisted_7, _toDisplayString(feature.title), 1),\n                _createElementVNode(\"div\", _hoisted_8, [\n                  _createElementVNode(\"p\", null, _toDisplayString(feature.text), 1)\n                ]),\n                _createVNode(_component_NuxtLink, {\n                  to: `/features/${feature.slug}`,\n                  class: \"link\"\n                }, {\n                  default: _withCtx(() => [\n                    _createTextVNode(\"View Details\")\n                  ]),\n                  _: 2\n                }, 1032, [\"to\"])\n              ])\n            ], 2)\n          ]))\n        }), 128))\n      ])\n    ])\n  ]))\n}\n\n\nimport _export_sfc from '\u0000plugin-vue:export-helper'\nexport default /*#__PURE__*/_export_sfc(_sfc_main, [['render',_sfc_render]])",
-      "start": 1712457363917,
-      "end": 1712457363917,
+      "result": "import { __vitePreload } from \"\u0000vite/preload-helper.js\";import { default as __nuxt_component_0 } from \"E:/Projects/JavaRayaInternational/website/components/SectionTitle.vue\";\nimport { default as __nuxt_component_1 } from \"E:/Projects/JavaRayaInternational/website/node_modules/nuxt/dist/app/components/nuxt-link\";\n\r\n    import featureData from '~/data/products.json'\r\n    const _sfc_main = {\r\n        props: [\"addClassName\"],\r\n\r\n        components: {\r\n            SectionTitle: () => __vitePreload(() => import(\"@/components/SectionTitle\"),__VITE_IS_MODERN__?\"__VITE_PRELOAD__\":void 0,import.meta.url),\r\n        },\r\n\r\n        data() {\r\n            return {\r\n                featureData\r\n            }\r\n        },\r\n    };\r\n\nimport { resolveComponent as _resolveComponent, createVNode as _createVNode, renderList as _renderList, Fragment as _Fragment, openBlock as _openBlock, createElementBlock as _createElementBlock, createElementVNode as _createElementVNode, toDisplayString as _toDisplayString, createTextVNode as _createTextVNode, withCtx as _withCtx, normalizeClass as _normalizeClass } from \"vue\"\n\nconst _hoisted_1 = { class: \"section-padding-t90-b100\" }\nconst _hoisted_2 = { class: \"container\" }\nconst _hoisted_3 = { class: \"row row-cols-lg-3 row-cols-md-2 row-cols-sm-2 row-cols-1 mtn-30\" }\nconst _hoisted_4 = { class: \"icon\" }\nconst _hoisted_5 = [\"src\", \"alt\"]\nconst _hoisted_6 = { class: \"content\" }\nconst _hoisted_7 = { class: \"title\" }\nconst _hoisted_8 = { class: \"desc\" }\n\nfunction _sfc_render(_ctx, _cache, $props, $setup, $data, $options) {\n  const _component_SectionTitle = __nuxt_component_0\n  const _component_NuxtLink = __nuxt_component_1\n\n  return (_openBlock(), _createElementBlock(\"div\", _hoisted_1, [\n    _createElementVNode(\"div\", _hoisted_2, [\n      _createVNode(_component_SectionTitle, {\n        title: \"Unique Marketplace APP\",\n        \"sub-title\": \"Shopping with better experiences\",\n        \"add-class-name\": \"mb-60\"\n      }),\n      _createElementVNode(\"div\", _hoisted_3, [\n        (_openBlock(true), _createElementBlock(_Fragment, null, _renderList($data.featureData.slice(0, 6), (feature, index) => {\n          return (_openBlock(), _createElementBlock(\"div\", {\n            class: \"col mt-30\",\n            \"data-aos\": \"fade-up\",\n            key: index\n          }, [\n            _createElementVNode(\"div\", {\n              class: _normalizeClass([\"icon-box text-center\", $props.addClassName]),\n              style: {\"height\":\"400px\"}\n            }, [\n              _createElementVNode(\"div\", _hoisted_4, [\n                _createElementVNode(\"img\", {\n                  src: feature.iconSrc,\n                  alt: feature.title,\n                  style: {\"height\":\"50px\"}\n                }, null, 8, _hoisted_5)\n              ]),\n              _createElementVNode(\"div\", _hoisted_6, [\n                _createElementVNode(\"h3\", _hoisted_7, _toDisplayString(feature.title), 1),\n                _createElementVNode(\"div\", _hoisted_8, [\n                  _createElementVNode(\"p\", null, _toDisplayString(feature.text), 1)\n                ]),\n                _createVNode(_component_NuxtLink, {\n                  to: `/products/${feature.slug}`,\n                  class: \"link\"\n                }, {\n                  default: _withCtx(() => [\n                    _createTextVNode(\"View Details\")\n                  ]),\n                  _: 2\n                }, 1032, [\"to\"])\n              ])\n            ], 2)\n          ]))\n        }), 128))\n      ])\n    ])\n  ]))\n}\n\n\nimport _export_sfc from '\u0000plugin-vue:export-helper'\nexport default /*#__PURE__*/_export_sfc(_sfc_main, [['render',_sfc_render]])",
+      "start": 1715759183732,
+      "end": 1715759183732,
       "order": "normal",
       "sourcemaps": null
     },
     {
       "name": "vite:reporter",
-      "start": 1712457363917,
-      "end": 1712457363917,
+      "start": 1715759183732,
+      "end": 1715759183732,
       "order": "normal"
     }
   ]

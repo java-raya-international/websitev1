@@ -4,57 +4,57 @@
     {
       "name": "vite:load-fallback",
       "result": "<template>\r\n    <div class=\"mobile-navigation\">\r\n        <nav class=\"offcanvas-navigation\" id=\"offcanvas-navigation\">\r\n            <ul>\r\n                <li class=\"menu-item-has-children\">\r\n                    <NuxtLink to=\"/\">Home</NuxtLink>\r\n                    <!-- <ul class=\"sub-menu\">\r\n                        <li>\r\n                            <NuxtLink to=\"/\">Home One</NuxtLink>\r\n                        </li>\r\n                        <li>\r\n                            <NuxtLink to=\"/home-two\">Home Two</NuxtLink>\r\n                        </li>\r\n                        <li>\r\n                            <NuxtLink to=\"/home-three\">Home Three</NuxtLink>\r\n                        </li>\r\n                    </ul> -->\r\n                </li>\r\n\r\n                <li class=\"has-children\">\r\n                    <NuxtLink to=\"/#\">Features</NuxtLink>\r\n                    <ul class=\"sub-menu\"  v-for=\"(feature, index) in featureData.slice(0, 6)\" :key=\"index\">\r\n                        <li>\r\n                            <NuxtLink :to=\"`/features/${feature.slug}`\" class=\"link\">${feature.title}</NuxtLink>\r\n                        </li>\r\n\r\n\r\n                    <!-- <li>\r\n                        <NuxtLink :to=\"`/features/ai`\">Artificial Intelligence</NuxtLink>\r\n                    </li>\r\n                    <li>\r\n                        <NuxtLink :to=\"`/features/blockchain`\">Blockchain</NuxtLink>\r\n                    </li>\r\n                    <li>\r\n                        <NuxtLink :to=\"`/features/decentralized`\">Decentralized ID</NuxtLink>\r\n                    </li>\r\n                    <li>\r\n                        <NuxtLink :to=\"`/features/greenproduct`\">Product</NuxtLink>\r\n                    </li>\r\n                    <li>\r\n                        <NuxtLink :to=\"`/features/multidevice`\">Any Device</NuxtLink>\r\n                    </li>\r\n                    <li>\r\n                        <NuxtLink :to=\"`/features/msmb`\">Business</NuxtLink>\r\n                    </li> -->\r\n                </ul>\r\n                </li>\r\n                <li>\r\n                    <NuxtLink to=\"/about/company\">About</NuxtLink>\r\n                </li>\r\n                <!-- <li class=\"menu-item-has-children\">\r\n                    <NuxtLink to=\"/service\">Service</NuxtLink>\r\n                    <ul class=\"sub-menu\">\r\n                        <li>\r\n                            <NuxtLink to=\"/service\">Service</NuxtLink>\r\n                        </li>\r\n                        <li>\r\n                            <NuxtLink to=\"/service/branding\">Service Details</NuxtLink>\r\n                        </li>\r\n                    </ul>\r\n                </li> -->\r\n\r\n                <!-- <li class=\"menu-item-has-children\">\r\n                    <NuxtLink to=\"/project\">Project</NuxtLink>\r\n                    <ul class=\"sub-menu\">\r\n                        <li>\r\n                            <NuxtLink to=\"/project\">Project</NuxtLink>\r\n                        </li>\r\n                        <li>\r\n                            <NuxtLink to=\"/project/project-details\">Project Details</NuxtLink>\r\n                        </li>\r\n                    </ul>\r\n                </li> -->\r\n\r\n                <!-- <li class=\"menu-item-has-children\">\r\n                    <NuxtLink to=\"/blog\">Blog</NuxtLink>\r\n                    <ul class=\"sub-menu\">\r\n                        <li>\r\n                            <NuxtLink to=\"/blog\">Blog Grid</NuxtLink>\r\n                        </li>\r\n                        <li>\r\n                            <NuxtLink to=\"/blog/blog-classic\">Blog Classic</NuxtLink>\r\n                        </li>\r\n                        <li>\r\n                            <NuxtLink to=\"/blog/blog-details\">Blog Details</NuxtLink>\r\n                        </li>\r\n                    </ul>\r\n                </li> -->\r\n\r\n                <!-- <li>\r\n                    <NuxtLink to=\"/contact-us\">Contact Us</NuxtLink>\r\n                </li> -->\r\n            </ul>\r\n        </nav>\r\n    </div>\r\n</template>\r\n\r\n<script>\r\n\r\n    import featureData from '~/data/features.json'\r\n\r\n    export default{\r\n        mounted() {\r\n            const offCanvasNav = document.querySelector('#offcanvas-navigation');\r\n            const offCanvasNavSubMenu = offCanvasNav.querySelectorAll('.sub-menu');\r\n            const anchorLinks = offCanvasNav.querySelectorAll('a');\r\n        \r\n            for (let i = 0; i < offCanvasNavSubMenu.length; i++){\r\n                offCanvasNavSubMenu[i].insertAdjacentHTML(\"beforebegin\", \"<span class='menu-expand'><i></i></span>\");\r\n            }\r\n        \r\n            const menuExpand = offCanvasNav.querySelectorAll('.menu-expand');\r\n            const numMenuExpand = menuExpand.length;\r\n        \r\n            for (let i = 0; i < numMenuExpand; i++) {\r\n                menuExpand[i].addEventListener(\"click\", (e) => {sideMenuExpand(e)});\r\n            }\r\n        \r\n            for (let i = 0; i < anchorLinks.length; i++) {\r\n                anchorLinks[i].addEventListener(\"click\", () => {closeMobileMenu()});\r\n            }\r\n\r\n            const sideMenuExpand = (e) => {\r\n                e.currentTarget.parentElement.classList.toggle('active');\r\n            }\r\n            const closeMobileMenu = () => {\r\n                const offcanvasMobileMenu = document.querySelector('#offcanvas-mobile-menu');\r\n                offcanvasMobileMenu?.classList.remove('active');\r\n            }\r\n        },\r\n\r\n        props: [\"addClassName\"],\r\n\r\n        components: {\r\n            SectionTitle: () => import(\"@/components/SectionTitle\"),\r\n        },\r\n\r\n        data() {\r\n            return {\r\n                featureData\r\n            }\r\n        },\r\n    };\r\n</script>\r\n\r\n<style lang=\"scss\">\r\n    .offcanvas-navigation {\r\n        ul {\r\n            padding-left: 0;\r\n            li {\r\n                border-bottom: 1px solid rgba(255, 255, 255, 0.15);\r\n                &.menu-item-has-children {\r\n                    .sub-menu {\r\n                        height: 0;\r\n                        opacity: 0;\r\n                        transition: 0.3s;\r\n                        visibility: hidden;\r\n                    }\r\n                    &.active > {\r\n                        .sub-menu {\r\n                            height: 100%;\r\n                            opacity: 1;\r\n                            visibility: visible;\r\n                            padding-left: 0;\r\n                        }\r\n                    }\r\n                }\r\n                a {\r\n                    color: $white;\r\n                    font-size: 16px;\r\n                    font-weight: 500;\r\n                    padding: 10px 0;\r\n                    display: block;\r\n                    &:hover {\r\n                        color: $primary;\r\n                    }\r\n                }\r\n            }\r\n        }\r\n\r\n        ul {\r\n            &.sub-menu {\r\n                margin-left: 15px;\r\n                transition: 0.4s;\r\n                li {\r\n                    list-style: none;\r\n                    border: none;\r\n                    a {\r\n                        color: $white;\r\n                        font-weight: 400;\r\n                        &:hover {\r\n                            color: $primary;\r\n                        }\r\n                    }\r\n                    .sub-menu {\r\n                        li {\r\n                            a {\r\n                                font-size: 13px;\r\n                                padding: 5px 0;\r\n                            }\r\n                        }\r\n                    }\r\n                }\r\n            }\r\n            li {\r\n                &.menu-item-has-children {\r\n                    position: relative;\r\n                    display: block;\r\n                    a {\r\n                        display: inline-block;\r\n                    }\r\n\r\n                    &.active > {\r\n                        .menu-expand {\r\n                            background-color: rgba($white, 0.2);\r\n                            i {\r\n                                &:before {\r\n                                    transform: rotate(0);\r\n                                }\r\n                            }\r\n                        }\r\n                    }\r\n\r\n                    .menu-expand {\r\n                        top: 5px;\r\n                        right: 0;\r\n                        width: 35px;\r\n                        height: 35px;\r\n                        cursor: pointer;\r\n                        line-height: 35px;\r\n                        position: absolute;\r\n                        text-align: center;\r\n                        background-color: rgba($white, 0.1);\r\n                        &:hover {\r\n                            background-color: rgba($white, 0.2);\r\n                        }\r\n\r\n                        i {\r\n                            display: block;\r\n                            border-bottom: 1px solid $white;\r\n                            position: relative;\r\n                            width: 10px;\r\n                            text-align: center;\r\n                            top: 50%;\r\n                            left: 50%;\r\n                            transform: translate(-50%, -50%);\r\n                            &:before {\r\n                                width: 100%;\r\n                                content: \"\";\r\n                                border-bottom: 1px solid $white;\r\n                                display: block;\r\n                                position: absolute;\r\n                                top: 0;\r\n                                transform: rotate(90deg);\r\n                                transition: 0.4s;\r\n                            }\r\n                        }\r\n                    }\r\n                }\r\n            }\r\n        }\r\n    }\r\n</style>",
-      "start": 1712457363943,
-      "end": 1712457364001,
+      "start": 1715759183789,
+      "end": 1715759184150,
       "sourcemaps": null
     },
     {
       "name": "nuxt:layer-aliasing",
-      "start": 1712457364001,
-      "end": 1712457364001,
+      "start": 1715759184150,
+      "end": 1715759184150,
       "order": "pre"
     },
     {
       "name": "nuxt:server-devonly:transform",
-      "start": 1712457364001,
-      "end": 1712457364001,
+      "start": 1715759184150,
+      "end": 1715759184150,
       "order": "pre"
     },
     {
       "name": "nuxt:client-fallback-auto-id",
-      "start": 1712457364001,
-      "end": 1712457364001,
+      "start": 1715759184150,
+      "end": 1715759184150,
       "order": "pre"
     },
     {
       "name": "vite:css",
-      "start": 1712457364001,
-      "end": 1712457364001,
+      "start": 1715759184150,
+      "end": 1715759184150,
       "order": "normal"
     },
     {
       "name": "vite:esbuild",
-      "start": 1712457364001,
-      "end": 1712457364001,
+      "start": 1715759184150,
+      "end": 1715759184150,
       "order": "normal"
     },
     {
       "name": "vite:json",
-      "start": 1712457364001,
-      "end": 1712457364001,
+      "start": 1715759184150,
+      "end": 1715759184150,
       "order": "normal"
     },
     {
       "name": "vite:worker",
-      "start": 1712457364001,
-      "end": 1712457364001,
+      "start": 1715759184150,
+      "end": 1715759184150,
       "order": "normal"
     },
     {
       "name": "vite:vue",
       "result": "\r\n\r\n    import featureData from '~/data/features.json'\r\n\r\n    const _sfc_main = {\r\n        mounted() {\r\n            const offCanvasNav = document.querySelector('#offcanvas-navigation');\r\n            const offCanvasNavSubMenu = offCanvasNav.querySelectorAll('.sub-menu');\r\n            const anchorLinks = offCanvasNav.querySelectorAll('a');\r\n        \r\n            for (let i = 0; i < offCanvasNavSubMenu.length; i++){\r\n                offCanvasNavSubMenu[i].insertAdjacentHTML(\"beforebegin\", \"<span class='menu-expand'><i></i></span>\");\r\n            }\r\n        \r\n            const menuExpand = offCanvasNav.querySelectorAll('.menu-expand');\r\n            const numMenuExpand = menuExpand.length;\r\n        \r\n            for (let i = 0; i < numMenuExpand; i++) {\r\n                menuExpand[i].addEventListener(\"click\", (e) => {sideMenuExpand(e)});\r\n            }\r\n        \r\n            for (let i = 0; i < anchorLinks.length; i++) {\r\n                anchorLinks[i].addEventListener(\"click\", () => {closeMobileMenu()});\r\n            }\r\n\r\n            const sideMenuExpand = (e) => {\r\n                e.currentTarget.parentElement.classList.toggle('active');\r\n            }\r\n            const closeMobileMenu = () => {\r\n                const offcanvasMobileMenu = document.querySelector('#offcanvas-mobile-menu');\r\n                offcanvasMobileMenu?.classList.remove('active');\r\n            }\r\n        },\r\n\r\n        props: [\"addClassName\"],\r\n\r\n        components: {\r\n            SectionTitle: () => import(\"@/components/SectionTitle\"),\r\n        },\r\n\r\n        data() {\r\n            return {\r\n                featureData\r\n            }\r\n        },\r\n    };\r\n\nimport { createTextVNode as _createTextVNode, resolveComponent as _resolveComponent, withCtx as _withCtx, createVNode as _createVNode, createElementVNode as _createElementVNode, renderList as _renderList, Fragment as _Fragment, openBlock as _openBlock, createElementBlock as _createElementBlock } from \"vue\"\n\nconst _hoisted_1 = { class: \"mobile-navigation\" }\nconst _hoisted_2 = {\n  class: \"offcanvas-navigation\",\n  id: \"offcanvas-navigation\"\n}\nconst _hoisted_3 = { class: \"menu-item-has-children\" }\nconst _hoisted_4 = { class: \"has-children\" }\n\nfunction _sfc_render(_ctx, _cache, $props, $setup, $data, $options) {\n  const _component_NuxtLink = _resolveComponent(\"NuxtLink\")\n\n  return (_openBlock(), _createElementBlock(\"div\", _hoisted_1, [\n    _createElementVNode(\"nav\", _hoisted_2, [\n      _createElementVNode(\"ul\", null, [\n        _createElementVNode(\"li\", _hoisted_3, [\n          _createVNode(_component_NuxtLink, { to: \"/\" }, {\n            default: _withCtx(() => [\n              _createTextVNode(\"Home\")\n            ]),\n            _: 1\n          })\n        ]),\n        _createElementVNode(\"li\", _hoisted_4, [\n          _createVNode(_component_NuxtLink, { to: \"/#\" }, {\n            default: _withCtx(() => [\n              _createTextVNode(\"Features\")\n            ]),\n            _: 1\n          }),\n          (_openBlock(true), _createElementBlock(_Fragment, null, _renderList($data.featureData.slice(0, 6), (feature, index) => {\n            return (_openBlock(), _createElementBlock(\"ul\", {\n              class: \"sub-menu\",\n              key: index\n            }, [\n              _createElementVNode(\"li\", null, [\n                _createVNode(_component_NuxtLink, {\n                  to: `/features/${feature.slug}`,\n                  class: \"link\"\n                }, {\n                  default: _withCtx(() => [\n                    _createTextVNode(\"${feature.title}\")\n                  ]),\n                  _: 2\n                }, 1032, [\"to\"])\n              ])\n            ]))\n          }), 128))\n        ]),\n        _createElementVNode(\"li\", null, [\n          _createVNode(_component_NuxtLink, { to: \"/about/company\" }, {\n            default: _withCtx(() => [\n              _createTextVNode(\"About\")\n            ]),\n            _: 1\n          })\n        ])\n      ])\n    ])\n  ]))\n}\n\nimport \"E:/Projects/JavaRayaInternational/website/components/MobileNavigation.vue?vue&type=style&index=0&lang.scss\"\n\nimport _export_sfc from '\u0000plugin-vue:export-helper'\nexport default /*#__PURE__*/_export_sfc(_sfc_main, [['render',_sfc_render]])",
-      "start": 1712457364001,
-      "end": 1712457364004,
+      "start": 1715759184150,
+      "end": 1715759184152,
       "order": "normal",
       "sourcemaps": {
         "mappings": ""
@@ -62,155 +62,155 @@
     },
     {
       "name": "vite:vue-jsx",
-      "start": 1712457364004,
-      "end": 1712457364004,
+      "start": 1715759184152,
+      "end": 1715759184152,
       "order": "normal"
     },
     {
       "name": "replace",
-      "start": 1712457364004,
-      "end": 1712457364004,
+      "start": 1715759184152,
+      "end": 1715759184152,
       "order": "normal"
     },
     {
       "name": "nuxt:remove-plugin-metadata",
-      "start": 1712457364004,
-      "end": 1712457364004,
+      "start": 1715759184152,
+      "end": 1715759184152,
       "order": "normal"
     },
     {
       "name": "nuxt:chunk-error",
-      "start": 1712457364004,
-      "end": 1712457364004,
+      "start": 1715759184152,
+      "end": 1715759184152,
       "order": "normal"
     },
     {
       "name": "nuxt:components:imports",
-      "start": 1712457364004,
-      "end": 1712457364004,
+      "start": 1715759184152,
+      "end": 1715759184152,
       "order": "normal"
     },
     {
       "name": "replace",
-      "start": 1712457364004,
-      "end": 1712457364004,
+      "start": 1715759184152,
+      "end": 1715759184152,
       "order": "normal"
     },
     {
       "name": "ssr-styles",
-      "start": 1712457364004,
-      "end": 1712457364004,
+      "start": 1715759184152,
+      "end": 1715759184152,
       "order": "normal"
     },
     {
       "name": "vite:define",
-      "start": 1712457364004,
-      "end": 1712457364004,
+      "start": 1715759184152,
+      "end": 1715759184152,
       "order": "normal"
     },
     {
       "name": "vite:css-post",
-      "start": 1712457364004,
-      "end": 1712457364004,
+      "start": 1715759184152,
+      "end": 1715759184152,
       "order": "normal"
     },
     {
       "name": "vite:build-html",
-      "start": 1712457364004,
-      "end": 1712457364004,
+      "start": 1715759184152,
+      "end": 1715759184152,
       "order": "normal"
     },
     {
       "name": "vite:worker-import-meta-url",
-      "start": 1712457364004,
-      "end": 1712457364004,
+      "start": 1715759184152,
+      "end": 1715759184152,
       "order": "normal"
     },
     {
       "name": "vite:asset-import-meta-url",
-      "start": 1712457364004,
-      "end": 1712457364004,
+      "start": 1715759184152,
+      "end": 1715759184152,
       "order": "normal"
     },
     {
       "name": "commonjs",
-      "start": 1712457364004,
-      "end": 1712457364004,
+      "start": 1715759184152,
+      "end": 1715759184152,
       "order": "normal"
     },
     {
       "name": "vite:dynamic-import-vars",
-      "start": 1712457364004,
-      "end": 1712457364004,
+      "start": 1715759184152,
+      "end": 1715759184153,
       "order": "normal"
     },
     {
       "name": "vite:import-glob",
-      "start": 1712457364004,
-      "end": 1712457364004,
+      "start": 1715759184153,
+      "end": 1715759184153,
       "order": "normal"
     },
     {
       "name": "nuxt:composable-keys",
-      "start": 1712457364004,
-      "end": 1712457364004,
+      "start": 1715759184153,
+      "end": 1715759184153,
       "order": "post"
     },
     {
       "name": "nuxt:imports-transform",
-      "start": 1712457364004,
-      "end": 1712457364006,
+      "start": 1715759184153,
+      "end": 1715759184153,
       "order": "post"
     },
     {
       "name": "unctx:transform",
-      "start": 1712457364006,
-      "end": 1712457364006,
+      "start": 1715759184153,
+      "end": 1715759184153,
       "order": "post"
     },
     {
       "name": "nuxt:pages-macros-transform",
-      "start": 1712457364006,
-      "end": 1712457364006,
+      "start": 1715759184153,
+      "end": 1715759184153,
       "order": "post"
     },
     {
       "name": "nuxt:runtime-paths-dep",
-      "start": 1712457364006,
-      "end": 1712457364006,
+      "start": 1715759184153,
+      "end": 1715759184153,
       "order": "post"
     },
     {
       "name": "nuxt:route-injection-plugin",
-      "start": 1712457364006,
-      "end": 1712457364006,
+      "start": 1715759184153,
+      "end": 1715759184153,
       "order": "post"
     },
     {
       "name": "nuxt:components-loader",
       "result": "import { default as __nuxt_component_0 } from \"E:/Projects/JavaRayaInternational/website/node_modules/nuxt/dist/app/components/nuxt-link\";\n\r\n\r\n    import featureData from '~/data/features.json'\r\n\r\n    const _sfc_main = {\r\n        mounted() {\r\n            const offCanvasNav = document.querySelector('#offcanvas-navigation');\r\n            const offCanvasNavSubMenu = offCanvasNav.querySelectorAll('.sub-menu');\r\n            const anchorLinks = offCanvasNav.querySelectorAll('a');\r\n        \r\n            for (let i = 0; i < offCanvasNavSubMenu.length; i++){\r\n                offCanvasNavSubMenu[i].insertAdjacentHTML(\"beforebegin\", \"<span class='menu-expand'><i></i></span>\");\r\n            }\r\n        \r\n            const menuExpand = offCanvasNav.querySelectorAll('.menu-expand');\r\n            const numMenuExpand = menuExpand.length;\r\n        \r\n            for (let i = 0; i < numMenuExpand; i++) {\r\n                menuExpand[i].addEventListener(\"click\", (e) => {sideMenuExpand(e)});\r\n            }\r\n        \r\n            for (let i = 0; i < anchorLinks.length; i++) {\r\n                anchorLinks[i].addEventListener(\"click\", () => {closeMobileMenu()});\r\n            }\r\n\r\n            const sideMenuExpand = (e) => {\r\n                e.currentTarget.parentElement.classList.toggle('active');\r\n            }\r\n            const closeMobileMenu = () => {\r\n                const offcanvasMobileMenu = document.querySelector('#offcanvas-mobile-menu');\r\n                offcanvasMobileMenu?.classList.remove('active');\r\n            }\r\n        },\r\n\r\n        props: [\"addClassName\"],\r\n\r\n        components: {\r\n            SectionTitle: () => import(\"@/components/SectionTitle\"),\r\n        },\r\n\r\n        data() {\r\n            return {\r\n                featureData\r\n            }\r\n        },\r\n    };\r\n\nimport { createTextVNode as _createTextVNode, resolveComponent as _resolveComponent, withCtx as _withCtx, createVNode as _createVNode, createElementVNode as _createElementVNode, renderList as _renderList, Fragment as _Fragment, openBlock as _openBlock, createElementBlock as _createElementBlock } from \"vue\"\n\nconst _hoisted_1 = { class: \"mobile-navigation\" }\nconst _hoisted_2 = {\n  class: \"offcanvas-navigation\",\n  id: \"offcanvas-navigation\"\n}\nconst _hoisted_3 = { class: \"menu-item-has-children\" }\nconst _hoisted_4 = { class: \"has-children\" }\n\nfunction _sfc_render(_ctx, _cache, $props, $setup, $data, $options) {\n  const _component_NuxtLink = __nuxt_component_0\n\n  return (_openBlock(), _createElementBlock(\"div\", _hoisted_1, [\n    _createElementVNode(\"nav\", _hoisted_2, [\n      _createElementVNode(\"ul\", null, [\n        _createElementVNode(\"li\", _hoisted_3, [\n          _createVNode(_component_NuxtLink, { to: \"/\" }, {\n            default: _withCtx(() => [\n              _createTextVNode(\"Home\")\n            ]),\n            _: 1\n          })\n        ]),\n        _createElementVNode(\"li\", _hoisted_4, [\n          _createVNode(_component_NuxtLink, { to: \"/#\" }, {\n            default: _withCtx(() => [\n              _createTextVNode(\"Features\")\n            ]),\n            _: 1\n          }),\n          (_openBlock(true), _createElementBlock(_Fragment, null, _renderList($data.featureData.slice(0, 6), (feature, index) => {\n            return (_openBlock(), _createElementBlock(\"ul\", {\n              class: \"sub-menu\",\n              key: index\n            }, [\n              _createElementVNode(\"li\", null, [\n                _createVNode(_component_NuxtLink, {\n                  to: `/features/${feature.slug}`,\n                  class: \"link\"\n                }, {\n                  default: _withCtx(() => [\n                    _createTextVNode(\"${feature.title}\")\n                  ]),\n                  _: 2\n                }, 1032, [\"to\"])\n              ])\n            ]))\n          }), 128))\n        ]),\n        _createElementVNode(\"li\", null, [\n          _createVNode(_component_NuxtLink, { to: \"/about/company\" }, {\n            default: _withCtx(() => [\n              _createTextVNode(\"About\")\n            ]),\n            _: 1\n          })\n        ])\n      ])\n    ])\n  ]))\n}\n\nimport \"E:/Projects/JavaRayaInternational/website/components/MobileNavigation.vue?vue&type=style&index=0&lang.scss\"\n\nimport _export_sfc from '\u0000plugin-vue:export-helper'\nexport default /*#__PURE__*/_export_sfc(_sfc_main, [['render',_sfc_render]])",
-      "start": 1712457364006,
-      "end": 1712457364006,
+      "start": 1715759184153,
+      "end": 1715759184154,
       "order": "post"
     },
     {
       "name": "nuxt:tree-shake-composables:transform",
-      "start": 1712457364006,
-      "end": 1712457364006,
+      "start": 1715759184154,
+      "end": 1715759184154,
       "order": "post"
     },
     {
       "name": "vite:build-import-analysis",
       "result": "import { __vitePreload } from \"\u0000vite/preload-helper.js\";import { default as __nuxt_component_0 } from \"E:/Projects/JavaRayaInternational/website/node_modules/nuxt/dist/app/components/nuxt-link\";\n\r\n\r\n    import featureData from '~/data/features.json'\r\n\r\n    const _sfc_main = {\r\n        mounted() {\r\n            const offCanvasNav = document.querySelector('#offcanvas-navigation');\r\n            const offCanvasNavSubMenu = offCanvasNav.querySelectorAll('.sub-menu');\r\n            const anchorLinks = offCanvasNav.querySelectorAll('a');\r\n        \r\n            for (let i = 0; i < offCanvasNavSubMenu.length; i++){\r\n                offCanvasNavSubMenu[i].insertAdjacentHTML(\"beforebegin\", \"<span class='menu-expand'><i></i></span>\");\r\n            }\r\n        \r\n            const menuExpand = offCanvasNav.querySelectorAll('.menu-expand');\r\n            const numMenuExpand = menuExpand.length;\r\n        \r\n            for (let i = 0; i < numMenuExpand; i++) {\r\n                menuExpand[i].addEventListener(\"click\", (e) => {sideMenuExpand(e)});\r\n            }\r\n        \r\n            for (let i = 0; i < anchorLinks.length; i++) {\r\n                anchorLinks[i].addEventListener(\"click\", () => {closeMobileMenu()});\r\n            }\r\n\r\n            const sideMenuExpand = (e) => {\r\n                e.currentTarget.parentElement.classList.toggle('active');\r\n            }\r\n            const closeMobileMenu = () => {\r\n                const offcanvasMobileMenu = document.querySelector('#offcanvas-mobile-menu');\r\n                offcanvasMobileMenu?.classList.remove('active');\r\n            }\r\n        },\r\n\r\n        props: [\"addClassName\"],\r\n\r\n        components: {\r\n            SectionTitle: () => __vitePreload(() => import(\"@/components/SectionTitle\"),__VITE_IS_MODERN__?\"__VITE_PRELOAD__\":void 0,import.meta.url),\r\n        },\r\n\r\n        data() {\r\n            return {\r\n                featureData\r\n            }\r\n        },\r\n    };\r\n\nimport { createTextVNode as _createTextVNode, resolveComponent as _resolveComponent, withCtx as _withCtx, createVNode as _createVNode, createElementVNode as _createElementVNode, renderList as _renderList, Fragment as _Fragment, openBlock as _openBlock, createElementBlock as _createElementBlock } from \"vue\"\n\nconst _hoisted_1 = { class: \"mobile-navigation\" }\nconst _hoisted_2 = {\n  class: \"offcanvas-navigation\",\n  id: \"offcanvas-navigation\"\n}\nconst _hoisted_3 = { class: \"menu-item-has-children\" }\nconst _hoisted_4 = { class: \"has-children\" }\n\nfunction _sfc_render(_ctx, _cache, $props, $setup, $data, $options) {\n  const _component_NuxtLink = __nuxt_component_0\n\n  return (_openBlock(), _createElementBlock(\"div\", _hoisted_1, [\n    _createElementVNode(\"nav\", _hoisted_2, [\n      _createElementVNode(\"ul\", null, [\n        _createElementVNode(\"li\", _hoisted_3, [\n          _createVNode(_component_NuxtLink, { to: \"/\" }, {\n            default: _withCtx(() => [\n              _createTextVNode(\"Home\")\n            ]),\n            _: 1\n          })\n        ]),\n        _createElementVNode(\"li\", _hoisted_4, [\n          _createVNode(_component_NuxtLink, { to: \"/#\" }, {\n            default: _withCtx(() => [\n              _createTextVNode(\"Features\")\n            ]),\n            _: 1\n          }),\n          (_openBlock(true), _createElementBlock(_Fragment, null, _renderList($data.featureData.slice(0, 6), (feature, index) => {\n            return (_openBlock(), _createElementBlock(\"ul\", {\n              class: \"sub-menu\",\n              key: index\n            }, [\n              _createElementVNode(\"li\", null, [\n                _createVNode(_component_NuxtLink, {\n                  to: `/features/${feature.slug}`,\n                  class: \"link\"\n                }, {\n                  default: _withCtx(() => [\n                    _createTextVNode(\"${feature.title}\")\n                  ]),\n                  _: 2\n                }, 1032, [\"to\"])\n              ])\n            ]))\n          }), 128))\n        ]),\n        _createElementVNode(\"li\", null, [\n          _createVNode(_component_NuxtLink, { to: \"/about/company\" }, {\n            default: _withCtx(() => [\n              _createTextVNode(\"About\")\n            ]),\n            _: 1\n          })\n        ])\n      ])\n    ])\n  ]))\n}\n\nimport \"E:/Projects/JavaRayaInternational/website/components/MobileNavigation.vue?vue&type=style&index=0&lang.scss\"\n\nimport _export_sfc from '\u0000plugin-vue:export-helper'\nexport default /*#__PURE__*/_export_sfc(_sfc_main, [['render',_sfc_render]])",
-      "start": 1712457364006,
-      "end": 1712457364006,
+      "start": 1715759184154,
+      "end": 1715759184154,
       "order": "normal",
       "sourcemaps": null
     },
     {
       "name": "vite:reporter",
-      "start": 1712457364006,
-      "end": 1712457364006,
+      "start": 1715759184154,
+      "end": 1715759184154,
       "order": "normal"
     }
   ]

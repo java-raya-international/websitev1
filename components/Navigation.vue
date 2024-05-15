@@ -16,9 +16,9 @@
                 </ul> -->
             </li>
             <li class="has-children">
-                <NuxtLink to="#">Features</NuxtLink>
+                <NuxtLink to="#">Products</NuxtLink>
                 <ul class="sub-menu"  >
-                    <template v-for="(feature, index) in featureData.slice(0, 6)" :key="index">
+                    <template v-for="(product, index) in productData.slice(0, 6)" :key="index">
 
                         <li>
                             <!-- <a href="{{ feature.slug }}">A</a>     -->
@@ -26,7 +26,7 @@
                             <!-- <NuxtLink to="/features/{features.slug}"> A </NuxtLink> -->
 
 
-                            <NuxtLink :to="`/features/${feature.slug}`" class="link">{{feature.title}}</NuxtLink>
+                            <NuxtLink :to="`/products/${product.slug}`" class="link">{{product.title}}</NuxtLink>
                         </li>
                     </template>
 
@@ -97,7 +97,7 @@
 </template>
 
 <script>
-    import featureData from '~/data/features.json'
+    import productData from '~/data/products.json'
     export default {
         props: ["addClassName"],
 
@@ -107,7 +107,7 @@
 
         data() {
             return {
-                featureData
+                productData
             }
         },
     };

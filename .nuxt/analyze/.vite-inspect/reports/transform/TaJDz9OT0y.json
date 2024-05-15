@@ -4,57 +4,57 @@
     {
       "name": "vite:load-fallback",
       "result": "<template>\r\n    <div class=\"main-container\">\r\n        <TheHeader />\r\n        <OffCanvasMobileMenu />\r\n        <SearchPopup />\r\n        <BreadcrumbOne activePageName=\"About Us\" title=\"We are an agency located in New York\" backgroundUrl= \"/images/bg/breadcrumb-bg.jpg\" />\r\n        <AboutTwo class=\"section-padding-top about-section-padding-bottom-200\" />\r\n        <CallToActionVideo />\r\n        <AboutFour />\r\n        <TestimonialSectionOne :style=\"{backgroundColor: '#f8faff'}\" />\r\n        <CallToActionThree />\r\n        <TheFooter />\r\n    </div>\r\n</template>\r\n\r\n\r\n",
-      "start": 1712457363328,
-      "end": 1712457363415,
+      "start": 1715759183243,
+      "end": 1715759183317,
       "sourcemaps": null
     },
     {
       "name": "nuxt:layer-aliasing",
-      "start": 1712457363415,
-      "end": 1712457363415,
+      "start": 1715759183317,
+      "end": 1715759183317,
       "order": "pre"
     },
     {
       "name": "nuxt:server-devonly:transform",
-      "start": 1712457363415,
-      "end": 1712457363415,
+      "start": 1715759183317,
+      "end": 1715759183317,
       "order": "pre"
     },
     {
       "name": "nuxt:client-fallback-auto-id",
-      "start": 1712457363415,
-      "end": 1712457363415,
+      "start": 1715759183317,
+      "end": 1715759183317,
       "order": "pre"
     },
     {
       "name": "vite:css",
-      "start": 1712457363415,
-      "end": 1712457363415,
+      "start": 1715759183317,
+      "end": 1715759183317,
       "order": "normal"
     },
     {
       "name": "vite:esbuild",
-      "start": 1712457363415,
-      "end": 1712457363415,
+      "start": 1715759183317,
+      "end": 1715759183317,
       "order": "normal"
     },
     {
       "name": "vite:json",
-      "start": 1712457363415,
-      "end": 1712457363415,
+      "start": 1715759183317,
+      "end": 1715759183317,
       "order": "normal"
     },
     {
       "name": "vite:worker",
-      "start": 1712457363415,
-      "end": 1712457363415,
+      "start": 1715759183317,
+      "end": 1715759183317,
       "order": "normal"
     },
     {
       "name": "vite:vue",
       "result": "const _sfc_main = {}\nimport { resolveComponent as _resolveComponent, createVNode as _createVNode, openBlock as _openBlock, createElementBlock as _createElementBlock } from \"vue\"\n\nconst _hoisted_1 = { class: \"main-container\" }\n\nfunction _sfc_render(_ctx, _cache) {\n  const _component_TheHeader = _resolveComponent(\"TheHeader\")\n  const _component_OffCanvasMobileMenu = _resolveComponent(\"OffCanvasMobileMenu\")\n  const _component_SearchPopup = _resolveComponent(\"SearchPopup\")\n  const _component_BreadcrumbOne = _resolveComponent(\"BreadcrumbOne\")\n  const _component_AboutTwo = _resolveComponent(\"AboutTwo\")\n  const _component_CallToActionVideo = _resolveComponent(\"CallToActionVideo\")\n  const _component_AboutFour = _resolveComponent(\"AboutFour\")\n  const _component_TestimonialSectionOne = _resolveComponent(\"TestimonialSectionOne\")\n  const _component_CallToActionThree = _resolveComponent(\"CallToActionThree\")\n  const _component_TheFooter = _resolveComponent(\"TheFooter\")\n\n  return (_openBlock(), _createElementBlock(\"div\", _hoisted_1, [\n    _createVNode(_component_TheHeader),\n    _createVNode(_component_OffCanvasMobileMenu),\n    _createVNode(_component_SearchPopup),\n    _createVNode(_component_BreadcrumbOne, {\n      activePageName: \"About Us\",\n      title: \"We are an agency located in New York\",\n      backgroundUrl: \"/images/bg/breadcrumb-bg.jpg\"\n    }),\n    _createVNode(_component_AboutTwo, { class: \"section-padding-top about-section-padding-bottom-200\" }),\n    _createVNode(_component_CallToActionVideo),\n    _createVNode(_component_AboutFour),\n    _createVNode(_component_TestimonialSectionOne, { style: {backgroundColor: '#f8faff'} }),\n    _createVNode(_component_CallToActionThree),\n    _createVNode(_component_TheFooter)\n  ]))\n}\n\n\nimport _export_sfc from '\u0000plugin-vue:export-helper'\nexport default /*#__PURE__*/_export_sfc(_sfc_main, [['render',_sfc_render]])",
-      "start": 1712457363415,
-      "end": 1712457363416,
+      "start": 1715759183317,
+      "end": 1715759183318,
       "order": "normal",
       "sourcemaps": {
         "mappings": ""
@@ -62,153 +62,153 @@
     },
     {
       "name": "vite:vue-jsx",
-      "start": 1712457363416,
-      "end": 1712457363416,
+      "start": 1715759183318,
+      "end": 1715759183318,
       "order": "normal"
     },
     {
       "name": "replace",
-      "start": 1712457363416,
-      "end": 1712457363416,
+      "start": 1715759183318,
+      "end": 1715759183318,
       "order": "normal"
     },
     {
       "name": "nuxt:remove-plugin-metadata",
-      "start": 1712457363416,
-      "end": 1712457363416,
+      "start": 1715759183318,
+      "end": 1715759183318,
       "order": "normal"
     },
     {
       "name": "nuxt:chunk-error",
-      "start": 1712457363416,
-      "end": 1712457363416,
+      "start": 1715759183318,
+      "end": 1715759183318,
       "order": "normal"
     },
     {
       "name": "nuxt:components:imports",
-      "start": 1712457363416,
-      "end": 1712457363416,
+      "start": 1715759183318,
+      "end": 1715759183318,
       "order": "normal"
     },
     {
       "name": "replace",
-      "start": 1712457363416,
-      "end": 1712457363416,
+      "start": 1715759183318,
+      "end": 1715759183318,
       "order": "normal"
     },
     {
       "name": "ssr-styles",
-      "start": 1712457363416,
-      "end": 1712457363416,
+      "start": 1715759183318,
+      "end": 1715759183318,
       "order": "normal"
     },
     {
       "name": "vite:define",
-      "start": 1712457363416,
-      "end": 1712457363416,
+      "start": 1715759183318,
+      "end": 1715759183318,
       "order": "normal"
     },
     {
       "name": "vite:css-post",
-      "start": 1712457363416,
-      "end": 1712457363416,
+      "start": 1715759183318,
+      "end": 1715759183318,
       "order": "normal"
     },
     {
       "name": "vite:build-html",
-      "start": 1712457363416,
-      "end": 1712457363416,
+      "start": 1715759183318,
+      "end": 1715759183318,
       "order": "normal"
     },
     {
       "name": "vite:worker-import-meta-url",
-      "start": 1712457363416,
-      "end": 1712457363416,
+      "start": 1715759183318,
+      "end": 1715759183318,
       "order": "normal"
     },
     {
       "name": "vite:asset-import-meta-url",
-      "start": 1712457363416,
-      "end": 1712457363416,
+      "start": 1715759183318,
+      "end": 1715759183318,
       "order": "normal"
     },
     {
       "name": "commonjs",
-      "start": 1712457363416,
-      "end": 1712457363416,
+      "start": 1715759183318,
+      "end": 1715759183318,
       "order": "normal"
     },
     {
       "name": "vite:dynamic-import-vars",
-      "start": 1712457363416,
-      "end": 1712457363416,
+      "start": 1715759183318,
+      "end": 1715759183318,
       "order": "normal"
     },
     {
       "name": "vite:import-glob",
-      "start": 1712457363416,
-      "end": 1712457363416,
+      "start": 1715759183318,
+      "end": 1715759183318,
       "order": "normal"
     },
     {
       "name": "nuxt:composable-keys",
-      "start": 1712457363416,
-      "end": 1712457363416,
+      "start": 1715759183318,
+      "end": 1715759183318,
       "order": "post"
     },
     {
       "name": "nuxt:imports-transform",
-      "start": 1712457363416,
-      "end": 1712457363416,
+      "start": 1715759183318,
+      "end": 1715759183318,
       "order": "post"
     },
     {
       "name": "unctx:transform",
-      "start": 1712457363416,
-      "end": 1712457363416,
+      "start": 1715759183318,
+      "end": 1715759183318,
       "order": "post"
     },
     {
       "name": "nuxt:pages-macros-transform",
-      "start": 1712457363416,
-      "end": 1712457363416,
+      "start": 1715759183318,
+      "end": 1715759183318,
       "order": "post"
     },
     {
       "name": "nuxt:runtime-paths-dep",
-      "start": 1712457363416,
-      "end": 1712457363416,
+      "start": 1715759183318,
+      "end": 1715759183318,
       "order": "post"
     },
     {
       "name": "nuxt:route-injection-plugin",
-      "start": 1712457363417,
-      "end": 1712457363417,
+      "start": 1715759183318,
+      "end": 1715759183318,
       "order": "post"
     },
     {
       "name": "nuxt:components-loader",
       "result": "import { default as __nuxt_component_0 } from \"E:/Projects/JavaRayaInternational/website/components/TheHeader.vue\";\nimport { default as __nuxt_component_1 } from \"E:/Projects/JavaRayaInternational/website/components/OffCanvasMobileMenu.vue\";\nimport { default as __nuxt_component_2 } from \"E:/Projects/JavaRayaInternational/website/components/SearchPopup.vue\";\nimport { default as __nuxt_component_3 } from \"E:/Projects/JavaRayaInternational/website/components/BreadcrumbOne.vue\";\nimport { default as __nuxt_component_4 } from \"E:/Projects/JavaRayaInternational/website/components/CallToActionVideo.vue\";\nimport { default as __nuxt_component_5 } from \"E:/Projects/JavaRayaInternational/website/components/TestimonialSectionOne.vue\";\nimport { default as __nuxt_component_6 } from \"E:/Projects/JavaRayaInternational/website/components/CallToActionThree.vue\";\nimport { default as __nuxt_component_7 } from \"E:/Projects/JavaRayaInternational/website/components/TheFooter.vue\";\nconst _sfc_main = {}\nimport { resolveComponent as _resolveComponent, createVNode as _createVNode, openBlock as _openBlock, createElementBlock as _createElementBlock } from \"vue\"\n\nconst _hoisted_1 = { class: \"main-container\" }\n\nfunction _sfc_render(_ctx, _cache) {\n  const _component_TheHeader = __nuxt_component_0\n  const _component_OffCanvasMobileMenu = __nuxt_component_1\n  const _component_SearchPopup = __nuxt_component_2\n  const _component_BreadcrumbOne = __nuxt_component_3\n  const _component_AboutTwo = _resolveComponent(\"AboutTwo\")\n  const _component_CallToActionVideo = __nuxt_component_4\n  const _component_AboutFour = _resolveComponent(\"AboutFour\")\n  const _component_TestimonialSectionOne = __nuxt_component_5\n  const _component_CallToActionThree = __nuxt_component_6\n  const _component_TheFooter = __nuxt_component_7\n\n  return (_openBlock(), _createElementBlock(\"div\", _hoisted_1, [\n    _createVNode(_component_TheHeader),\n    _createVNode(_component_OffCanvasMobileMenu),\n    _createVNode(_component_SearchPopup),\n    _createVNode(_component_BreadcrumbOne, {\n      activePageName: \"About Us\",\n      title: \"We are an agency located in New York\",\n      backgroundUrl: \"/images/bg/breadcrumb-bg.jpg\"\n    }),\n    _createVNode(_component_AboutTwo, { class: \"section-padding-top about-section-padding-bottom-200\" }),\n    _createVNode(_component_CallToActionVideo),\n    _createVNode(_component_AboutFour),\n    _createVNode(_component_TestimonialSectionOne, { style: {backgroundColor: '#f8faff'} }),\n    _createVNode(_component_CallToActionThree),\n    _createVNode(_component_TheFooter)\n  ]))\n}\n\n\nimport _export_sfc from '\u0000plugin-vue:export-helper'\nexport default /*#__PURE__*/_export_sfc(_sfc_main, [['render',_sfc_render]])",
-      "start": 1712457363417,
-      "end": 1712457363417,
+      "start": 1715759183318,
+      "end": 1715759183319,
       "order": "post"
     },
     {
       "name": "nuxt:tree-shake-composables:transform",
-      "start": 1712457363417,
-      "end": 1712457363417,
+      "start": 1715759183319,
+      "end": 1715759183319,
       "order": "post"
     },
     {
       "name": "vite:build-import-analysis",
-      "start": 1712457363417,
-      "end": 1712457363417,
+      "start": 1715759183319,
+      "end": 1715759183319,
       "order": "normal"
     },
     {
       "name": "vite:reporter",
-      "start": 1712457363417,
-      "end": 1712457363417,
+      "start": 1715759183319,
+      "end": 1715759183319,
       "order": "normal"
     }
   ]

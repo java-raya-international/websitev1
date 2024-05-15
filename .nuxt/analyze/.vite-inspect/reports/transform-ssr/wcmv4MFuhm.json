@@ -4,75 +4,75 @@
     {
       "name": "vite:load-fallback",
       "result": "<template>\r\n    <div class=\"main-container\">\r\n        <TheHeader />\r\n        <OffCanvasMobileMenu />\r\n        <SearchPopup />\r\n        <BreadcrumbOne activePageName=\"All Project\" title=\"We work with bold brands that we believe in\" backgroundUrl= \"/images/bg/breadcrumb-bg-two.jpg\" />\r\n        <ProjectWrapper />\r\n        <CallToActionTwo />\r\n        <AboutFour />\r\n        <BrandLogoCarousel class=\"pt-0\" />\r\n        <FaqOne />\r\n        <TheFooter />\r\n    </div>\r\n</template>\r\n\r\n",
-      "start": 1712457368948,
-      "end": 1712457369046,
+      "start": 1715759188104,
+      "end": 1715759188473,
       "sourcemaps": null
     },
     {
       "name": "nuxt:layer-aliasing",
-      "start": 1712457369046,
-      "end": 1712457369046,
+      "start": 1715759188473,
+      "end": 1715759188473,
       "order": "pre"
     },
     {
       "name": "nuxt:layer-aliasing",
-      "start": 1712457369046,
-      "end": 1712457369047,
+      "start": 1715759188473,
+      "end": 1715759188473,
       "order": "pre"
     },
     {
       "name": "nuxt:server-devonly:transform",
-      "start": 1712457369047,
-      "end": 1712457369047,
+      "start": 1715759188473,
+      "end": 1715759188473,
       "order": "pre"
     },
     {
       "name": "nuxt:server-devonly:transform",
-      "start": 1712457369047,
-      "end": 1712457369047,
+      "start": 1715759188473,
+      "end": 1715759188473,
       "order": "pre"
     },
     {
       "name": "nuxt:client-fallback-auto-id",
-      "start": 1712457369047,
-      "end": 1712457369047,
+      "start": 1715759188473,
+      "end": 1715759188473,
       "order": "pre"
     },
     {
       "name": "server-only-component-transform",
-      "start": 1712457369047,
-      "end": 1712457369047,
+      "start": 1715759188473,
+      "end": 1715759188473,
       "order": "pre"
     },
     {
       "name": "vite:css",
-      "start": 1712457369047,
-      "end": 1712457369047,
+      "start": 1715759188473,
+      "end": 1715759188473,
       "order": "normal"
     },
     {
       "name": "vite:esbuild",
-      "start": 1712457369047,
-      "end": 1712457369047,
+      "start": 1715759188473,
+      "end": 1715759188473,
       "order": "normal"
     },
     {
       "name": "vite:json",
-      "start": 1712457369047,
-      "end": 1712457369047,
+      "start": 1715759188473,
+      "end": 1715759188473,
       "order": "normal"
     },
     {
       "name": "vite:worker",
-      "start": 1712457369047,
-      "end": 1712457369047,
+      "start": 1715759188473,
+      "end": 1715759188473,
       "order": "normal"
     },
     {
       "name": "vite:vue",
       "result": "const _sfc_main = {}\nimport { resolveComponent as _resolveComponent, mergeProps as _mergeProps } from \"vue\"\nimport { ssrRenderComponent as _ssrRenderComponent, ssrRenderAttrs as _ssrRenderAttrs } from \"vue/server-renderer\"\n\nfunction _sfc_ssrRender(_ctx, _push, _parent, _attrs) {\n  const _component_TheHeader = _resolveComponent(\"TheHeader\")\n  const _component_OffCanvasMobileMenu = _resolveComponent(\"OffCanvasMobileMenu\")\n  const _component_SearchPopup = _resolveComponent(\"SearchPopup\")\n  const _component_BreadcrumbOne = _resolveComponent(\"BreadcrumbOne\")\n  const _component_ProjectWrapper = _resolveComponent(\"ProjectWrapper\")\n  const _component_CallToActionTwo = _resolveComponent(\"CallToActionTwo\")\n  const _component_AboutFour = _resolveComponent(\"AboutFour\")\n  const _component_BrandLogoCarousel = _resolveComponent(\"BrandLogoCarousel\")\n  const _component_FaqOne = _resolveComponent(\"FaqOne\")\n  const _component_TheFooter = _resolveComponent(\"TheFooter\")\n\n  _push(`<div${_ssrRenderAttrs(_mergeProps({ class: \"main-container\" }, _attrs))}>`)\n  _push(_ssrRenderComponent(_component_TheHeader, null, null, _parent))\n  _push(_ssrRenderComponent(_component_OffCanvasMobileMenu, null, null, _parent))\n  _push(_ssrRenderComponent(_component_SearchPopup, null, null, _parent))\n  _push(_ssrRenderComponent(_component_BreadcrumbOne, {\n    activePageName: \"All Project\",\n    title: \"We work with bold brands that we believe in\",\n    backgroundUrl: \"/images/bg/breadcrumb-bg-two.jpg\"\n  }, null, _parent))\n  _push(_ssrRenderComponent(_component_ProjectWrapper, null, null, _parent))\n  _push(_ssrRenderComponent(_component_CallToActionTwo, null, null, _parent))\n  _push(_ssrRenderComponent(_component_AboutFour, null, null, _parent))\n  _push(_ssrRenderComponent(_component_BrandLogoCarousel, { class: \"pt-0\" }, null, _parent))\n  _push(_ssrRenderComponent(_component_FaqOne, null, null, _parent))\n  _push(_ssrRenderComponent(_component_TheFooter, null, null, _parent))\n  _push(`</div>`)\n}\n\n\nimport { useSSRContext as __vite_useSSRContext } from 'vue'\nconst _sfc_setup = _sfc_main.setup\n_sfc_main.setup = (props, ctx) => {\n  const ssrContext = __vite_useSSRContext()\n  ;(ssrContext.modules || (ssrContext.modules = new Set())).add(\"pages/project/index.vue\")\n  return _sfc_setup ? _sfc_setup(props, ctx) : undefined\n}\nimport _export_sfc from '\u0000plugin-vue:export-helper'\nexport default /*#__PURE__*/_export_sfc(_sfc_main, [['ssrRender',_sfc_ssrRender]])",
-      "start": 1712457369047,
-      "end": 1712457369047,
+      "start": 1715759188473,
+      "end": 1715759188474,
       "order": "normal",
       "sourcemaps": {
         "version": 3,
@@ -88,159 +88,159 @@
     },
     {
       "name": "vite:vue-jsx",
-      "start": 1712457369047,
-      "end": 1712457369047,
+      "start": 1715759188474,
+      "end": 1715759188474,
       "order": "normal"
     },
     {
       "name": "replace",
-      "start": 1712457369047,
-      "end": 1712457369047,
+      "start": 1715759188474,
+      "end": 1715759188474,
       "order": "normal"
     },
     {
       "name": "replace",
-      "start": 1712457369047,
-      "end": 1712457369047,
+      "start": 1715759188474,
+      "end": 1715759188474,
       "order": "normal"
     },
     {
       "name": "nuxt:remove-plugin-metadata",
-      "start": 1712457369047,
-      "end": 1712457369047,
+      "start": 1715759188474,
+      "end": 1715759188474,
       "order": "normal"
     },
     {
       "name": "nuxt:remove-plugin-metadata",
-      "start": 1712457369047,
-      "end": 1712457369047,
+      "start": 1715759188474,
+      "end": 1715759188474,
       "order": "normal"
     },
     {
       "name": "nuxt:components:imports",
-      "start": 1712457369047,
-      "end": 1712457369047,
+      "start": 1715759188474,
+      "end": 1715759188474,
       "order": "normal"
     },
     {
       "name": "replace",
-      "start": 1712457369047,
-      "end": 1712457369047,
+      "start": 1715759188474,
+      "end": 1715759188474,
       "order": "normal"
     },
     {
       "name": "ssr-styles",
-      "start": 1712457369047,
-      "end": 1712457369047,
+      "start": 1715759188475,
+      "end": 1715759188475,
       "order": "normal"
     },
     {
       "name": "vite:define",
-      "start": 1712457369047,
-      "end": 1712457369047,
+      "start": 1715759188475,
+      "end": 1715759188475,
       "order": "normal"
     },
     {
       "name": "vite:css-post",
-      "start": 1712457369047,
-      "end": 1712457369047,
+      "start": 1715759188475,
+      "end": 1715759188475,
       "order": "normal"
     },
     {
       "name": "vite:build-html",
-      "start": 1712457369047,
-      "end": 1712457369047,
+      "start": 1715759188475,
+      "end": 1715759188475,
       "order": "normal"
     },
     {
       "name": "vite:worker-import-meta-url",
-      "start": 1712457369047,
-      "end": 1712457369047,
+      "start": 1715759188475,
+      "end": 1715759188475,
       "order": "normal"
     },
     {
       "name": "vite:asset-import-meta-url",
-      "start": 1712457369047,
-      "end": 1712457369047,
+      "start": 1715759188475,
+      "end": 1715759188475,
       "order": "normal"
     },
     {
       "name": "commonjs",
-      "start": 1712457369047,
-      "end": 1712457369047,
+      "start": 1715759188475,
+      "end": 1715759188475,
       "order": "normal"
     },
     {
       "name": "vite:dynamic-import-vars",
-      "start": 1712457369047,
-      "end": 1712457369048,
+      "start": 1715759188475,
+      "end": 1715759188475,
       "order": "normal"
     },
     {
       "name": "vite:import-glob",
-      "start": 1712457369048,
-      "end": 1712457369048,
+      "start": 1715759188475,
+      "end": 1715759188475,
       "order": "normal"
     },
     {
       "name": "nuxt:composable-keys",
-      "start": 1712457369048,
-      "end": 1712457369048,
+      "start": 1715759188475,
+      "end": 1715759188475,
       "order": "post"
     },
     {
       "name": "nuxt:composable-keys",
-      "start": 1712457369048,
-      "end": 1712457369048,
+      "start": 1715759188475,
+      "end": 1715759188475,
       "order": "post"
     },
     {
       "name": "nuxt:imports-transform",
-      "start": 1712457369048,
-      "end": 1712457369048,
+      "start": 1715759188475,
+      "end": 1715759188475,
       "order": "post"
     },
     {
       "name": "nuxt:imports-transform",
-      "start": 1712457369048,
-      "end": 1712457369048,
+      "start": 1715759188475,
+      "end": 1715759188475,
       "order": "post"
     },
     {
       "name": "unctx:transform",
-      "start": 1712457369048,
-      "end": 1712457369048,
+      "start": 1715759188475,
+      "end": 1715759188475,
       "order": "post"
     },
     {
       "name": "unctx:transform",
-      "start": 1712457369048,
-      "end": 1712457369048,
+      "start": 1715759188475,
+      "end": 1715759188475,
       "order": "post"
     },
     {
       "name": "nuxt:pages-macros-transform",
-      "start": 1712457369048,
-      "end": 1712457369048,
+      "start": 1715759188475,
+      "end": 1715759188475,
       "order": "post"
     },
     {
       "name": "nuxt:pages-macros-transform",
-      "start": 1712457369048,
-      "end": 1712457369048,
+      "start": 1715759188475,
+      "end": 1715759188475,
       "order": "post"
     },
     {
       "name": "nuxt:tree-shake-template",
-      "start": 1712457369048,
-      "end": 1712457369048,
+      "start": 1715759188475,
+      "end": 1715759188476,
       "order": "post"
     },
     {
       "name": "nuxt:components-loader",
       "result": "import { default as __nuxt_component_0 } from \"E:/Projects/JavaRayaInternational/website/components/TheHeader.vue\";\nimport { default as __nuxt_component_1 } from \"E:/Projects/JavaRayaInternational/website/components/OffCanvasMobileMenu.vue\";\nimport { default as __nuxt_component_2 } from \"E:/Projects/JavaRayaInternational/website/components/SearchPopup.vue\";\nimport { default as __nuxt_component_3 } from \"E:/Projects/JavaRayaInternational/website/components/BreadcrumbOne.vue\";\nimport { default as __nuxt_component_4 } from \"E:/Projects/JavaRayaInternational/website/components/ProjectWrapper.vue\";\nimport { default as __nuxt_component_5 } from \"E:/Projects/JavaRayaInternational/website/components/CallToActionTwo.vue\";\nimport { default as __nuxt_component_6 } from \"E:/Projects/JavaRayaInternational/website/components/BrandLogoCarousel.vue\";\nimport { default as __nuxt_component_7 } from \"E:/Projects/JavaRayaInternational/website/components/FaqOne.vue\";\nimport { default as __nuxt_component_8 } from \"E:/Projects/JavaRayaInternational/website/components/TheFooter.vue\";\nconst _sfc_main = {}\nimport { resolveComponent as _resolveComponent, mergeProps as _mergeProps } from \"vue\"\nimport { ssrRenderComponent as _ssrRenderComponent, ssrRenderAttrs as _ssrRenderAttrs } from \"vue/server-renderer\"\n\nfunction _sfc_ssrRender(_ctx, _push, _parent, _attrs) {\n  const _component_TheHeader = __nuxt_component_0\n  const _component_OffCanvasMobileMenu = __nuxt_component_1\n  const _component_SearchPopup = __nuxt_component_2\n  const _component_BreadcrumbOne = __nuxt_component_3\n  const _component_ProjectWrapper = __nuxt_component_4\n  const _component_CallToActionTwo = __nuxt_component_5\n  const _component_AboutFour = _resolveComponent(\"AboutFour\")\n  const _component_BrandLogoCarousel = __nuxt_component_6\n  const _component_FaqOne = __nuxt_component_7\n  const _component_TheFooter = __nuxt_component_8\n\n  _push(`<div${_ssrRenderAttrs(_mergeProps({ class: \"main-container\" }, _attrs))}>`)\n  _push(_ssrRenderComponent(_component_TheHeader, null, null, _parent))\n  _push(_ssrRenderComponent(_component_OffCanvasMobileMenu, null, null, _parent))\n  _push(_ssrRenderComponent(_component_SearchPopup, null, null, _parent))\n  _push(_ssrRenderComponent(_component_BreadcrumbOne, {\n    activePageName: \"All Project\",\n    title: \"We work with bold brands that we believe in\",\n    backgroundUrl: \"/images/bg/breadcrumb-bg-two.jpg\"\n  }, null, _parent))\n  _push(_ssrRenderComponent(_component_ProjectWrapper, null, null, _parent))\n  _push(_ssrRenderComponent(_component_CallToActionTwo, null, null, _parent))\n  _push(_ssrRenderComponent(_component_AboutFour, null, null, _parent))\n  _push(_ssrRenderComponent(_component_BrandLogoCarousel, { class: \"pt-0\" }, null, _parent))\n  _push(_ssrRenderComponent(_component_FaqOne, null, null, _parent))\n  _push(_ssrRenderComponent(_component_TheFooter, null, null, _parent))\n  _push(`</div>`)\n}\n\n\nimport { useSSRContext as __vite_useSSRContext } from 'vue'\nconst _sfc_setup = _sfc_main.setup\n_sfc_main.setup = (props, ctx) => {\n  const ssrContext = __vite_useSSRContext()\n  ;(ssrContext.modules || (ssrContext.modules = new Set())).add(\"pages/project/index.vue\")\n  return _sfc_setup ? _sfc_setup(props, ctx) : undefined\n}\nimport _export_sfc from '\u0000plugin-vue:export-helper'\nexport default /*#__PURE__*/_export_sfc(_sfc_main, [['ssrRender',_sfc_ssrRender]])",
-      "start": 1712457369048,
-      "end": 1712457369048,
+      "start": 1715759188476,
+      "end": 1715759188476,
       "order": "post",
       "sourcemaps": {
         "version": 3,
@@ -253,20 +253,20 @@
     },
     {
       "name": "nuxt:tree-shake-composables:transform",
-      "start": 1712457369048,
-      "end": 1712457369048,
+      "start": 1715759188476,
+      "end": 1715759188476,
       "order": "post"
     },
     {
       "name": "vite:build-import-analysis",
-      "start": 1712457369048,
-      "end": 1712457369049,
+      "start": 1715759188476,
+      "end": 1715759188476,
       "order": "normal"
     },
     {
       "name": "vite:reporter",
-      "start": 1712457369049,
-      "end": 1712457369049,
+      "start": 1715759188476,
+      "end": 1715759188476,
       "order": "normal"
     }
   ]

@@ -1,0 +1,223 @@
+{
+  "resolvedId": "E:/Projects/JavaRayaInternational/website/pages/products/carbon-active/index.vue?macro=true",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "<template>\r\n    <TheHeader />\r\n    <OffCanvasMobileMenu />\r\n    <SearchPopup />\r\n    <BreadcrumbOne activePageName=\"Carbon Active\" title=\"Carbon Active\" backgroundUrl= \"/images/bg/breadcrumb-bg-darkgray.png\" />\r\n   \r\n    <ProductMaterialCarbonActivated />\r\n\r\n    <TheFooter />\r\n</template>",
+      "start": 1715759183204,
+      "end": 1715759183298,
+      "sourcemaps": null
+    },
+    {
+      "name": "nuxt:layer-aliasing",
+      "start": 1715759183298,
+      "end": 1715759183298,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:server-devonly:transform",
+      "start": 1715759183298,
+      "end": 1715759183298,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:client-fallback-auto-id",
+      "start": 1715759183298,
+      "end": 1715759183298,
+      "order": "pre"
+    },
+    {
+      "name": "vite:css",
+      "start": 1715759183298,
+      "end": 1715759183298,
+      "order": "normal"
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1715759183298,
+      "end": 1715759183298,
+      "order": "normal"
+    },
+    {
+      "name": "vite:json",
+      "start": 1715759183298,
+      "end": 1715759183298,
+      "order": "normal"
+    },
+    {
+      "name": "vite:worker",
+      "start": 1715759183298,
+      "end": 1715759183298,
+      "order": "normal"
+    },
+    {
+      "name": "vite:vue",
+      "result": "const _sfc_main = {}\nimport { resolveComponent as _resolveComponent, createVNode as _createVNode, Fragment as _Fragment, openBlock as _openBlock, createElementBlock as _createElementBlock } from \"vue\"\n\nfunction _sfc_render(_ctx, _cache) {\n  const _component_TheHeader = _resolveComponent(\"TheHeader\")\n  const _component_OffCanvasMobileMenu = _resolveComponent(\"OffCanvasMobileMenu\")\n  const _component_SearchPopup = _resolveComponent(\"SearchPopup\")\n  const _component_BreadcrumbOne = _resolveComponent(\"BreadcrumbOne\")\n  const _component_ProductMaterialCarbonActivated = _resolveComponent(\"ProductMaterialCarbonActivated\")\n  const _component_TheFooter = _resolveComponent(\"TheFooter\")\n\n  return (_openBlock(), _createElementBlock(_Fragment, null, [\n    _createVNode(_component_TheHeader),\n    _createVNode(_component_OffCanvasMobileMenu),\n    _createVNode(_component_SearchPopup),\n    _createVNode(_component_BreadcrumbOne, {\n      activePageName: \"Carbon Active\",\n      title: \"Carbon Active\",\n      backgroundUrl: \"/images/bg/breadcrumb-bg-darkgray.png\"\n    }),\n    _createVNode(_component_ProductMaterialCarbonActivated),\n    _createVNode(_component_TheFooter)\n  ], 64))\n}\n\n\nimport _export_sfc from '\u0000plugin-vue:export-helper'\nexport default /*#__PURE__*/_export_sfc(_sfc_main, [['render',_sfc_render]])",
+      "start": 1715759183298,
+      "end": 1715759183298,
+      "order": "normal",
+      "sourcemaps": {
+        "mappings": ""
+      }
+    },
+    {
+      "name": "vite:vue-jsx",
+      "start": 1715759183298,
+      "end": 1715759183298,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1715759183298,
+      "end": 1715759183298,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:remove-plugin-metadata",
+      "start": 1715759183298,
+      "end": 1715759183298,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:chunk-error",
+      "start": 1715759183298,
+      "end": 1715759183298,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:components:imports",
+      "start": 1715759183298,
+      "end": 1715759183298,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1715759183298,
+      "end": 1715759183299,
+      "order": "normal"
+    },
+    {
+      "name": "ssr-styles",
+      "start": 1715759183299,
+      "end": 1715759183299,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1715759183299,
+      "end": 1715759183299,
+      "order": "normal"
+    },
+    {
+      "name": "vite:css-post",
+      "start": 1715759183299,
+      "end": 1715759183299,
+      "order": "normal"
+    },
+    {
+      "name": "vite:build-html",
+      "start": 1715759183299,
+      "end": 1715759183299,
+      "order": "normal"
+    },
+    {
+      "name": "vite:worker-import-meta-url",
+      "start": 1715759183299,
+      "end": 1715759183299,
+      "order": "normal"
+    },
+    {
+      "name": "vite:asset-import-meta-url",
+      "start": 1715759183299,
+      "end": 1715759183299,
+      "order": "normal"
+    },
+    {
+      "name": "commonjs",
+      "start": 1715759183299,
+      "end": 1715759183299,
+      "order": "normal"
+    },
+    {
+      "name": "vite:dynamic-import-vars",
+      "start": 1715759183299,
+      "end": 1715759183299,
+      "order": "normal"
+    },
+    {
+      "name": "vite:import-glob",
+      "start": 1715759183299,
+      "end": 1715759183299,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:composable-keys",
+      "start": 1715759183299,
+      "end": 1715759183299,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:imports-transform",
+      "start": 1715759183299,
+      "end": 1715759183299,
+      "order": "post"
+    },
+    {
+      "name": "unctx:transform",
+      "start": 1715759183299,
+      "end": 1715759183299,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:pages-macros-transform",
+      "result": "\nconst __nuxt_page_meta = null\nexport default __nuxt_page_meta\n",
+      "start": 1715759183299,
+      "end": 1715759183299,
+      "order": "post",
+      "sourcemaps": {
+        "version": 3,
+        "sources": [
+          ""
+        ],
+        "names": [],
+        "mappings": "AAAA;AAAA;AAAA;"
+      }
+    },
+    {
+      "name": "nuxt:runtime-paths-dep",
+      "start": 1715759183299,
+      "end": 1715759183299,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:route-injection-plugin",
+      "start": 1715759183299,
+      "end": 1715759183299,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:components-loader",
+      "start": 1715759183299,
+      "end": 1715759183299,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:tree-shake-composables:transform",
+      "start": 1715759183299,
+      "end": 1715759183299,
+      "order": "post"
+    },
+    {
+      "name": "vite:build-import-analysis",
+      "start": 1715759183299,
+      "end": 1715759183299,
+      "order": "normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1715759183299,
+      "end": 1715759183299,
+      "order": "normal"
+    }
+  ]
+}

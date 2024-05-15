@@ -38,8 +38,8 @@
                                 </div>
                                 <div class="col-sm-6">
                                     <div class="service-details-content mt-30">
-                                        <h4>International Payment (Fiat and Crypto)</h4>
-                                        <p>We use international payment. We try to avoid bank transfer to decrease scam and fraud. </p>
+                                        <h4>International Payment</h4>
+                                        <p>We will conduct KYC and KYB for our selected customer and supplier.</p>
                                     </div>
                                 </div>
                                 <div class="col-sm-6">

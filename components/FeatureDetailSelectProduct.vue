@@ -44,14 +44,14 @@
                                 </div>
                                 <div class="col-sm-6">
                                     <div class="service-details-content mt-30">
-                                        <h4>Metals</h4>
-                                        <p>We provides metals for your business. The ingots are directly from manufacturer in South East Asian</p>
+                                        <h4>Small Medium Exclusive Products </h4>
+                                        <p>We provide small medium products such as hand bags, arts, fashion clothes.</p>
                                     </div>
                                 </div>
                                 <div class="col-sm-6">
                                     <div class="service-details-content mt-30">
-                                        <h4>Bioscience</h4>
-                                        <p>We sells bioscience products for your business.</p>
+                                        <h4>Metals</h4>
+                                        <p>We provides metals for your business. The ingots are directly from manufacturer in South East Asian</p>
                                     </div>
                                 </div>
                                

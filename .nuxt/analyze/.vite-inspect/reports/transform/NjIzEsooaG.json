@@ -4,57 +4,57 @@
     {
       "name": "vite:load-fallback",
       "result": "<template>\r\n    <div class=\"section-title text-center\" :class=\"addClassName\" data-aos=\"fade-up\">\r\n        <h2 class=\"title\">{{ title }}</h2>\r\n        <p class=\"sub-title\">{{ subTitle }}</p>\r\n    </div>\r\n</template>\r\n\r\n<script>\r\n    export default {\r\n        name: 'SectionTitle',\r\n\r\n        props: [\"title\", \"subTitle\", \"addClassName\"]\r\n    };\r\n</script>",
-      "start": 1712457363988,
-      "end": 1712457364499,
+      "start": 1715759184131,
+      "end": 1715759184236,
       "sourcemaps": null
     },
     {
       "name": "nuxt:layer-aliasing",
-      "start": 1712457364499,
-      "end": 1712457364499,
+      "start": 1715759184236,
+      "end": 1715759184236,
       "order": "pre"
     },
     {
       "name": "nuxt:server-devonly:transform",
-      "start": 1712457364499,
-      "end": 1712457364499,
+      "start": 1715759184236,
+      "end": 1715759184236,
       "order": "pre"
     },
     {
       "name": "nuxt:client-fallback-auto-id",
-      "start": 1712457364499,
-      "end": 1712457364499,
+      "start": 1715759184236,
+      "end": 1715759184236,
       "order": "pre"
     },
     {
       "name": "vite:css",
-      "start": 1712457364499,
-      "end": 1712457364499,
+      "start": 1715759184236,
+      "end": 1715759184236,
       "order": "normal"
     },
     {
       "name": "vite:esbuild",
-      "start": 1712457364499,
-      "end": 1712457364499,
+      "start": 1715759184236,
+      "end": 1715759184236,
       "order": "normal"
     },
     {
       "name": "vite:json",
-      "start": 1712457364499,
-      "end": 1712457364499,
+      "start": 1715759184236,
+      "end": 1715759184236,
       "order": "normal"
     },
     {
       "name": "vite:worker",
-      "start": 1712457364499,
-      "end": 1712457364499,
+      "start": 1715759184236,
+      "end": 1715759184236,
       "order": "normal"
     },
     {
       "name": "vite:vue",
       "result": "\r\n    const _sfc_main = {\r\n        name: 'SectionTitle',\r\n\r\n        props: [\"title\", \"subTitle\", \"addClassName\"]\r\n    };\r\n\nimport { toDisplayString as _toDisplayString, createElementVNode as _createElementVNode, normalizeClass as _normalizeClass, openBlock as _openBlock, createElementBlock as _createElementBlock } from \"vue\"\n\nconst _hoisted_1 = { class: \"title\" }\nconst _hoisted_2 = { class: \"sub-title\" }\n\nfunction _sfc_render(_ctx, _cache, $props, $setup, $data, $options) {\n  return (_openBlock(), _createElementBlock(\"div\", {\n    class: _normalizeClass([\"section-title text-center\", $props.addClassName]),\n    \"data-aos\": \"fade-up\"\n  }, [\n    _createElementVNode(\"h2\", _hoisted_1, _toDisplayString($props.title), 1),\n    _createElementVNode(\"p\", _hoisted_2, _toDisplayString($props.subTitle), 1)\n  ], 2))\n}\n\n\nimport _export_sfc from '\u0000plugin-vue:export-helper'\nexport default /*#__PURE__*/_export_sfc(_sfc_main, [['render',_sfc_render]])",
-      "start": 1712457364499,
-      "end": 1712457364500,
+      "start": 1715759184236,
+      "end": 1715759184237,
       "order": "normal",
       "sourcemaps": {
         "mappings": ""
@@ -62,152 +62,152 @@
     },
     {
       "name": "vite:vue-jsx",
-      "start": 1712457364500,
-      "end": 1712457364500,
+      "start": 1715759184237,
+      "end": 1715759184237,
       "order": "normal"
     },
     {
       "name": "replace",
-      "start": 1712457364500,
-      "end": 1712457364500,
+      "start": 1715759184237,
+      "end": 1715759184237,
       "order": "normal"
     },
     {
       "name": "nuxt:remove-plugin-metadata",
-      "start": 1712457364500,
-      "end": 1712457364500,
+      "start": 1715759184237,
+      "end": 1715759184237,
       "order": "normal"
     },
     {
       "name": "nuxt:chunk-error",
-      "start": 1712457364500,
-      "end": 1712457364500,
+      "start": 1715759184237,
+      "end": 1715759184237,
       "order": "normal"
     },
     {
       "name": "nuxt:components:imports",
-      "start": 1712457364500,
-      "end": 1712457364500,
+      "start": 1715759184237,
+      "end": 1715759184237,
       "order": "normal"
     },
     {
       "name": "replace",
-      "start": 1712457364500,
-      "end": 1712457364500,
+      "start": 1715759184237,
+      "end": 1715759184237,
       "order": "normal"
     },
     {
       "name": "ssr-styles",
-      "start": 1712457364500,
-      "end": 1712457364500,
+      "start": 1715759184237,
+      "end": 1715759184237,
       "order": "normal"
     },
     {
       "name": "vite:define",
-      "start": 1712457364500,
-      "end": 1712457364500,
+      "start": 1715759184237,
+      "end": 1715759184237,
       "order": "normal"
     },
     {
       "name": "vite:css-post",
-      "start": 1712457364500,
-      "end": 1712457364500,
+      "start": 1715759184237,
+      "end": 1715759184237,
       "order": "normal"
     },
     {
       "name": "vite:build-html",
-      "start": 1712457364500,
-      "end": 1712457364500,
+      "start": 1715759184237,
+      "end": 1715759184237,
       "order": "normal"
     },
     {
       "name": "vite:worker-import-meta-url",
-      "start": 1712457364500,
-      "end": 1712457364500,
+      "start": 1715759184237,
+      "end": 1715759184237,
       "order": "normal"
     },
     {
       "name": "vite:asset-import-meta-url",
-      "start": 1712457364500,
-      "end": 1712457364500,
+      "start": 1715759184237,
+      "end": 1715759184237,
       "order": "normal"
     },
     {
       "name": "commonjs",
-      "start": 1712457364500,
-      "end": 1712457364500,
+      "start": 1715759184237,
+      "end": 1715759184237,
       "order": "normal"
     },
     {
       "name": "vite:dynamic-import-vars",
-      "start": 1712457364500,
-      "end": 1712457364500,
+      "start": 1715759184237,
+      "end": 1715759184237,
       "order": "normal"
     },
     {
       "name": "vite:import-glob",
-      "start": 1712457364500,
-      "end": 1712457364500,
+      "start": 1715759184237,
+      "end": 1715759184237,
       "order": "normal"
     },
     {
       "name": "nuxt:composable-keys",
-      "start": 1712457364500,
-      "end": 1712457364500,
+      "start": 1715759184237,
+      "end": 1715759184237,
       "order": "post"
     },
     {
       "name": "nuxt:imports-transform",
-      "start": 1712457364500,
-      "end": 1712457364501,
+      "start": 1715759184237,
+      "end": 1715759184237,
       "order": "post"
     },
     {
       "name": "unctx:transform",
-      "start": 1712457364501,
-      "end": 1712457364501,
+      "start": 1715759184237,
+      "end": 1715759184237,
       "order": "post"
     },
     {
       "name": "nuxt:pages-macros-transform",
-      "start": 1712457364501,
-      "end": 1712457364501,
+      "start": 1715759184237,
+      "end": 1715759184237,
       "order": "post"
     },
     {
       "name": "nuxt:runtime-paths-dep",
-      "start": 1712457364501,
-      "end": 1712457364501,
+      "start": 1715759184237,
+      "end": 1715759184237,
       "order": "post"
     },
     {
       "name": "nuxt:route-injection-plugin",
-      "start": 1712457364501,
-      "end": 1712457364501,
+      "start": 1715759184237,
+      "end": 1715759184237,
       "order": "post"
     },
     {
       "name": "nuxt:components-loader",
-      "start": 1712457364501,
-      "end": 1712457364501,
+      "start": 1715759184237,
+      "end": 1715759184237,
       "order": "post"
     },
     {
       "name": "nuxt:tree-shake-composables:transform",
-      "start": 1712457364501,
-      "end": 1712457364501,
+      "start": 1715759184237,
+      "end": 1715759184237,
       "order": "post"
     },
     {
       "name": "vite:build-import-analysis",
-      "start": 1712457364501,
-      "end": 1712457364501,
+      "start": 1715759184237,
+      "end": 1715759184237,
       "order": "normal"
     },
     {
       "name": "vite:reporter",
-      "start": 1712457364501,
-      "end": 1712457364501,
+      "start": 1715759184237,
+      "end": 1715759184237,
       "order": "normal"
     }
   ]

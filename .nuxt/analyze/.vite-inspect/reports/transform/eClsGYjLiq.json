@@ -4,57 +4,57 @@
     {
       "name": "vite:load-fallback",
       "result": "<template>\r\n    <div class=\"popup-mobile-menu popup-mobile-visiable\" id=\"offcanvas-menu\">\r\n        <div class=\"mobile-menu-overlay\" @click=\"mobiletoggleClass('removeClass', 'show-mobile-menu')\"></div>\r\n        <div class=\"inner custom-scrollbar\">\r\n            <div class=\"mobile-header\">\r\n                <div class=\"logo\">\r\n                    <NuxtLink to=\"/\">\r\n                        <img src=\"/images/logo/logo.png\" alt=\"site logo\">\r\n                    </NuxtLink>\r\n                </div>\r\n                <button class=\"mobile-close-btn\" @click=\"mobiletoggleClass('removeClass', 'show-mobile-menu')\"></button>\r\n            </div>\r\n            <div class=\"menu-content\">\r\n                <MobileNavigation />\r\n            </div>\r\n        </div>\r\n    </div>\r\n</template>\r\n\r\n<script>\r\n    export default {\r\n        components: {\r\n            MobileNavigation: () => import('@/components/MobileNavigation'),\r\n        },\r\n        \r\n        methods: {\r\n            // offcanvas menu close\r\n            mobiletoggleClass(addRemoveClass, className) {\r\n                const el = document.querySelector('#offcanvas-menu');\r\n                if (addRemoveClass === 'addClass') {\r\n                    el.classList.add(className);\r\n                } else {\r\n                    el.classList.remove(className);\r\n                }\r\n            }\r\n        }\r\n    };\r\n</script>",
-      "start": 1712457363611,
-      "end": 1712457363700,
+      "start": 1715759183504,
+      "end": 1715759183581,
       "sourcemaps": null
     },
     {
       "name": "nuxt:layer-aliasing",
-      "start": 1712457363701,
-      "end": 1712457363701,
+      "start": 1715759183581,
+      "end": 1715759183581,
       "order": "pre"
     },
     {
       "name": "nuxt:server-devonly:transform",
-      "start": 1712457363701,
-      "end": 1712457363701,
+      "start": 1715759183581,
+      "end": 1715759183581,
       "order": "pre"
     },
     {
       "name": "nuxt:client-fallback-auto-id",
-      "start": 1712457363701,
-      "end": 1712457363701,
+      "start": 1715759183581,
+      "end": 1715759183581,
       "order": "pre"
     },
     {
       "name": "vite:css",
-      "start": 1712457363701,
-      "end": 1712457363701,
+      "start": 1715759183581,
+      "end": 1715759183581,
       "order": "normal"
     },
     {
       "name": "vite:esbuild",
-      "start": 1712457363701,
-      "end": 1712457363701,
+      "start": 1715759183581,
+      "end": 1715759183581,
       "order": "normal"
     },
     {
       "name": "vite:json",
-      "start": 1712457363701,
-      "end": 1712457363701,
+      "start": 1715759183581,
+      "end": 1715759183581,
       "order": "normal"
     },
     {
       "name": "vite:worker",
-      "start": 1712457363701,
-      "end": 1712457363701,
+      "start": 1715759183581,
+      "end": 1715759183581,
       "order": "normal"
     },
     {
       "name": "vite:vue",
       "result": "\r\n    const _sfc_main = {\r\n        components: {\r\n            MobileNavigation: () => import('@/components/MobileNavigation'),\r\n        },\r\n        \r\n        methods: {\r\n            // offcanvas menu close\r\n            mobiletoggleClass(addRemoveClass, className) {\r\n                const el = document.querySelector('#offcanvas-menu');\r\n                if (addRemoveClass === 'addClass') {\r\n                    el.classList.add(className);\r\n                } else {\r\n                    el.classList.remove(className);\r\n                }\r\n            }\r\n        }\r\n    };\r\n\nimport { createElementVNode as _createElementVNode, resolveComponent as _resolveComponent, withCtx as _withCtx, createVNode as _createVNode, openBlock as _openBlock, createElementBlock as _createElementBlock } from \"vue\"\nimport _imports_0 from '/images/logo/logo.png'\n\n\nconst _hoisted_1 = {\n  class: \"popup-mobile-menu popup-mobile-visiable\",\n  id: \"offcanvas-menu\"\n}\nconst _hoisted_2 = { class: \"inner custom-scrollbar\" }\nconst _hoisted_3 = { class: \"mobile-header\" }\nconst _hoisted_4 = { class: \"logo\" }\nconst _hoisted_5 = /*#__PURE__*/_createElementVNode(\"img\", {\n  src: _imports_0,\n  alt: \"site logo\"\n}, null, -1)\nconst _hoisted_6 = { class: \"menu-content\" }\n\nfunction _sfc_render(_ctx, _cache, $props, $setup, $data, $options) {\n  const _component_NuxtLink = _resolveComponent(\"NuxtLink\")\n  const _component_MobileNavigation = _resolveComponent(\"MobileNavigation\")\n\n  return (_openBlock(), _createElementBlock(\"div\", _hoisted_1, [\n    _createElementVNode(\"div\", {\n      class: \"mobile-menu-overlay\",\n      onClick: _cache[0] || (_cache[0] = $event => ($options.mobiletoggleClass('removeClass', 'show-mobile-menu')))\n    }),\n    _createElementVNode(\"div\", _hoisted_2, [\n      _createElementVNode(\"div\", _hoisted_3, [\n        _createElementVNode(\"div\", _hoisted_4, [\n          _createVNode(_component_NuxtLink, { to: \"/\" }, {\n            default: _withCtx(() => [\n              _hoisted_5\n            ]),\n            _: 1\n          })\n        ]),\n        _createElementVNode(\"button\", {\n          class: \"mobile-close-btn\",\n          onClick: _cache[1] || (_cache[1] = $event => ($options.mobiletoggleClass('removeClass', 'show-mobile-menu')))\n        })\n      ]),\n      _createElementVNode(\"div\", _hoisted_6, [\n        _createVNode(_component_MobileNavigation)\n      ])\n    ])\n  ]))\n}\n\n\nimport _export_sfc from '\u0000plugin-vue:export-helper'\nexport default /*#__PURE__*/_export_sfc(_sfc_main, [['render',_sfc_render]])",
-      "start": 1712457363701,
-      "end": 1712457363704,
+      "start": 1715759183581,
+      "end": 1715759183583,
       "order": "normal",
       "sourcemaps": {
         "mappings": ""
@@ -62,155 +62,155 @@
     },
     {
       "name": "vite:vue-jsx",
-      "start": 1712457363704,
-      "end": 1712457363704,
+      "start": 1715759183583,
+      "end": 1715759183583,
       "order": "normal"
     },
     {
       "name": "replace",
-      "start": 1712457363704,
-      "end": 1712457363704,
+      "start": 1715759183583,
+      "end": 1715759183583,
       "order": "normal"
     },
     {
       "name": "nuxt:remove-plugin-metadata",
-      "start": 1712457363704,
-      "end": 1712457363704,
+      "start": 1715759183583,
+      "end": 1715759183583,
       "order": "normal"
     },
     {
       "name": "nuxt:chunk-error",
-      "start": 1712457363704,
-      "end": 1712457363704,
+      "start": 1715759183583,
+      "end": 1715759183583,
       "order": "normal"
     },
     {
       "name": "nuxt:components:imports",
-      "start": 1712457363704,
-      "end": 1712457363704,
+      "start": 1715759183583,
+      "end": 1715759183583,
       "order": "normal"
     },
     {
       "name": "replace",
-      "start": 1712457363704,
-      "end": 1712457363704,
+      "start": 1715759183583,
+      "end": 1715759183583,
       "order": "normal"
     },
     {
       "name": "ssr-styles",
-      "start": 1712457363704,
-      "end": 1712457363704,
+      "start": 1715759183583,
+      "end": 1715759183583,
       "order": "normal"
     },
     {
       "name": "vite:define",
-      "start": 1712457363704,
-      "end": 1712457363704,
+      "start": 1715759183583,
+      "end": 1715759183583,
       "order": "normal"
     },
     {
       "name": "vite:css-post",
-      "start": 1712457363704,
-      "end": 1712457363704,
+      "start": 1715759183583,
+      "end": 1715759183583,
       "order": "normal"
     },
     {
       "name": "vite:build-html",
-      "start": 1712457363704,
-      "end": 1712457363704,
+      "start": 1715759183583,
+      "end": 1715759183583,
       "order": "normal"
     },
     {
       "name": "vite:worker-import-meta-url",
-      "start": 1712457363704,
-      "end": 1712457363704,
+      "start": 1715759183583,
+      "end": 1715759183583,
       "order": "normal"
     },
     {
       "name": "vite:asset-import-meta-url",
-      "start": 1712457363704,
-      "end": 1712457363704,
+      "start": 1715759183583,
+      "end": 1715759183583,
       "order": "normal"
     },
     {
       "name": "commonjs",
-      "start": 1712457363704,
-      "end": 1712457363704,
+      "start": 1715759183583,
+      "end": 1715759183583,
       "order": "normal"
     },
     {
       "name": "vite:dynamic-import-vars",
-      "start": 1712457363704,
-      "end": 1712457363705,
+      "start": 1715759183583,
+      "end": 1715759183583,
       "order": "normal"
     },
     {
       "name": "vite:import-glob",
-      "start": 1712457363705,
-      "end": 1712457363705,
+      "start": 1715759183583,
+      "end": 1715759183583,
       "order": "normal"
     },
     {
       "name": "nuxt:composable-keys",
-      "start": 1712457363705,
-      "end": 1712457363705,
+      "start": 1715759183583,
+      "end": 1715759183583,
       "order": "post"
     },
     {
       "name": "nuxt:imports-transform",
-      "start": 1712457363705,
-      "end": 1712457363706,
+      "start": 1715759183583,
+      "end": 1715759183584,
       "order": "post"
     },
     {
       "name": "unctx:transform",
-      "start": 1712457363706,
-      "end": 1712457363706,
+      "start": 1715759183584,
+      "end": 1715759183584,
       "order": "post"
     },
     {
       "name": "nuxt:pages-macros-transform",
-      "start": 1712457363706,
-      "end": 1712457363706,
+      "start": 1715759183584,
+      "end": 1715759183584,
       "order": "post"
     },
     {
       "name": "nuxt:runtime-paths-dep",
-      "start": 1712457363706,
-      "end": 1712457363706,
+      "start": 1715759183584,
+      "end": 1715759183584,
       "order": "post"
     },
     {
       "name": "nuxt:route-injection-plugin",
-      "start": 1712457363706,
-      "end": 1712457363706,
+      "start": 1715759183584,
+      "end": 1715759183584,
       "order": "post"
     },
     {
       "name": "nuxt:components-loader",
       "result": "import { default as __nuxt_component_0 } from \"E:/Projects/JavaRayaInternational/website/node_modules/nuxt/dist/app/components/nuxt-link\";\nimport { default as __nuxt_component_1 } from \"E:/Projects/JavaRayaInternational/website/components/MobileNavigation.vue\";\n\r\n    const _sfc_main = {\r\n        components: {\r\n            MobileNavigation: () => import('@/components/MobileNavigation'),\r\n        },\r\n        \r\n        methods: {\r\n            // offcanvas menu close\r\n            mobiletoggleClass(addRemoveClass, className) {\r\n                const el = document.querySelector('#offcanvas-menu');\r\n                if (addRemoveClass === 'addClass') {\r\n                    el.classList.add(className);\r\n                } else {\r\n                    el.classList.remove(className);\r\n                }\r\n            }\r\n        }\r\n    };\r\n\nimport { createElementVNode as _createElementVNode, resolveComponent as _resolveComponent, withCtx as _withCtx, createVNode as _createVNode, openBlock as _openBlock, createElementBlock as _createElementBlock } from \"vue\"\nimport _imports_0 from '/images/logo/logo.png'\n\n\nconst _hoisted_1 = {\n  class: \"popup-mobile-menu popup-mobile-visiable\",\n  id: \"offcanvas-menu\"\n}\nconst _hoisted_2 = { class: \"inner custom-scrollbar\" }\nconst _hoisted_3 = { class: \"mobile-header\" }\nconst _hoisted_4 = { class: \"logo\" }\nconst _hoisted_5 = /*#__PURE__*/_createElementVNode(\"img\", {\n  src: _imports_0,\n  alt: \"site logo\"\n}, null, -1)\nconst _hoisted_6 = { class: \"menu-content\" }\n\nfunction _sfc_render(_ctx, _cache, $props, $setup, $data, $options) {\n  const _component_NuxtLink = __nuxt_component_0\n  const _component_MobileNavigation = __nuxt_component_1\n\n  return (_openBlock(), _createElementBlock(\"div\", _hoisted_1, [\n    _createElementVNode(\"div\", {\n      class: \"mobile-menu-overlay\",\n      onClick: _cache[0] || (_cache[0] = $event => ($options.mobiletoggleClass('removeClass', 'show-mobile-menu')))\n    }),\n    _createElementVNode(\"div\", _hoisted_2, [\n      _createElementVNode(\"div\", _hoisted_3, [\n        _createElementVNode(\"div\", _hoisted_4, [\n          _createVNode(_component_NuxtLink, { to: \"/\" }, {\n            default: _withCtx(() => [\n              _hoisted_5\n            ]),\n            _: 1\n          })\n        ]),\n        _createElementVNode(\"button\", {\n          class: \"mobile-close-btn\",\n          onClick: _cache[1] || (_cache[1] = $event => ($options.mobiletoggleClass('removeClass', 'show-mobile-menu')))\n        })\n      ]),\n      _createElementVNode(\"div\", _hoisted_6, [\n        _createVNode(_component_MobileNavigation)\n      ])\n    ])\n  ]))\n}\n\n\nimport _export_sfc from '\u0000plugin-vue:export-helper'\nexport default /*#__PURE__*/_export_sfc(_sfc_main, [['render',_sfc_render]])",
-      "start": 1712457363706,
-      "end": 1712457363707,
+      "start": 1715759183584,
+      "end": 1715759183584,
       "order": "post"
     },
     {
       "name": "nuxt:tree-shake-composables:transform",
-      "start": 1712457363707,
-      "end": 1712457363707,
+      "start": 1715759183584,
+      "end": 1715759183584,
       "order": "post"
     },
     {
       "name": "vite:build-import-analysis",
       "result": "import { __vitePreload } from \"\u0000vite/preload-helper.js\";import { default as __nuxt_component_0 } from \"E:/Projects/JavaRayaInternational/website/node_modules/nuxt/dist/app/components/nuxt-link\";\nimport { default as __nuxt_component_1 } from \"E:/Projects/JavaRayaInternational/website/components/MobileNavigation.vue\";\n\r\n    const _sfc_main = {\r\n        components: {\r\n            MobileNavigation: () => __vitePreload(() => import('@/components/MobileNavigation'),__VITE_IS_MODERN__?\"__VITE_PRELOAD__\":void 0,import.meta.url),\r\n        },\r\n        \r\n        methods: {\r\n            // offcanvas menu close\r\n            mobiletoggleClass(addRemoveClass, className) {\r\n                const el = document.querySelector('#offcanvas-menu');\r\n                if (addRemoveClass === 'addClass') {\r\n                    el.classList.add(className);\r\n                } else {\r\n                    el.classList.remove(className);\r\n                }\r\n            }\r\n        }\r\n    };\r\n\nimport { createElementVNode as _createElementVNode, resolveComponent as _resolveComponent, withCtx as _withCtx, createVNode as _createVNode, openBlock as _openBlock, createElementBlock as _createElementBlock } from \"vue\"\nimport _imports_0 from '/images/logo/logo.png'\n\n\nconst _hoisted_1 = {\n  class: \"popup-mobile-menu popup-mobile-visiable\",\n  id: \"offcanvas-menu\"\n}\nconst _hoisted_2 = { class: \"inner custom-scrollbar\" }\nconst _hoisted_3 = { class: \"mobile-header\" }\nconst _hoisted_4 = { class: \"logo\" }\nconst _hoisted_5 = /*#__PURE__*/_createElementVNode(\"img\", {\n  src: _imports_0,\n  alt: \"site logo\"\n}, null, -1)\nconst _hoisted_6 = { class: \"menu-content\" }\n\nfunction _sfc_render(_ctx, _cache, $props, $setup, $data, $options) {\n  const _component_NuxtLink = __nuxt_component_0\n  const _component_MobileNavigation = __nuxt_component_1\n\n  return (_openBlock(), _createElementBlock(\"div\", _hoisted_1, [\n    _createElementVNode(\"div\", {\n      class: \"mobile-menu-overlay\",\n      onClick: _cache[0] || (_cache[0] = $event => ($options.mobiletoggleClass('removeClass', 'show-mobile-menu')))\n    }),\n    _createElementVNode(\"div\", _hoisted_2, [\n      _createElementVNode(\"div\", _hoisted_3, [\n        _createElementVNode(\"div\", _hoisted_4, [\n          _createVNode(_component_NuxtLink, { to: \"/\" }, {\n            default: _withCtx(() => [\n              _hoisted_5\n            ]),\n            _: 1\n          })\n        ]),\n        _createElementVNode(\"button\", {\n          class: \"mobile-close-btn\",\n          onClick: _cache[1] || (_cache[1] = $event => ($options.mobiletoggleClass('removeClass', 'show-mobile-menu')))\n        })\n      ]),\n      _createElementVNode(\"div\", _hoisted_6, [\n        _createVNode(_component_MobileNavigation)\n      ])\n    ])\n  ]))\n}\n\n\nimport _export_sfc from '\u0000plugin-vue:export-helper'\nexport default /*#__PURE__*/_export_sfc(_sfc_main, [['render',_sfc_render]])",
-      "start": 1712457363707,
-      "end": 1712457363707,
+      "start": 1715759183584,
+      "end": 1715759183584,
       "order": "normal",
       "sourcemaps": null
     },
     {
       "name": "vite:reporter",
-      "start": 1712457363707,
-      "end": 1712457363707,
+      "start": 1715759183584,
+      "end": 1715759183584,
       "order": "normal"
     }
   ]

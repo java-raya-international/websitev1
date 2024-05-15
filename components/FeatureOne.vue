@@ -17,7 +17,7 @@
                                 <p>{{ feature.text }}</p>
                             </div>
                             <!-- <NuxtLink :to="`/service/${feature.slug}`" class="link">View Details</NuxtLink> -->
-                            <NuxtLink :to="`/features/${feature.slug}`" class="link">View Details</NuxtLink>
+                            <NuxtLink :to="`/products/${feature.slug}`" class="link">View Details</NuxtLink>
                         </div>
                     </div>
                 </div>
@@ -27,7 +27,7 @@
 </template>
 
 <script>
-    import featureData from '~/data/features.json'
+    import featureData from '~/data/products.json'
     export default {
         props: ["addClassName"],
 

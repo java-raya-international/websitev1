@@ -4,57 +4,57 @@
     {
       "name": "vite:load-fallback",
       "result": "<template>\r\n    <div class=\"blog\">\r\n        <div class=\"thumbnail\">\r\n            <NuxtLink :to=\"`/blog/${blog.slug}`\" class=\"image\">\r\n                <img :src=\"blog.imgSrc\" :alt=\"blog.title\">\r\n            </NuxtLink>\r\n        </div>\r\n        <div class=\"info\">\r\n            <ul class=\"meta\">\r\n                <li><i class=\"far fa-calendar\"></i>{{ blog.date }}</li>\r\n                <li><i class=\"far fa-eye\"></i>{{ blog.view }} Views</li>\r\n            </ul>\r\n            <h3 class=\"title\">\r\n                <NuxtLink :to=\"`/blog/${blog.slug}`\">{{ blog.title }}</NuxtLink>\r\n            </h3>\r\n            <NuxtLink :to=\"`/blog/${blog.slug}`\" class=\"link\">\r\n                <mark>Read More</mark>\r\n            </NuxtLink>\r\n        </div>\r\n    </div>\r\n</template>\r\n\r\n<script>\r\n    export default {\r\n        props: ['blog']\r\n    };\r\n</script>",
-      "start": 1712457363675,
-      "end": 1712457363788,
+      "start": 1715759183553,
+      "end": 1715759183653,
       "sourcemaps": null
     },
     {
       "name": "nuxt:layer-aliasing",
-      "start": 1712457363788,
-      "end": 1712457363788,
+      "start": 1715759183653,
+      "end": 1715759183653,
       "order": "pre"
     },
     {
       "name": "nuxt:server-devonly:transform",
-      "start": 1712457363788,
-      "end": 1712457363788,
+      "start": 1715759183653,
+      "end": 1715759183653,
       "order": "pre"
     },
     {
       "name": "nuxt:client-fallback-auto-id",
-      "start": 1712457363788,
-      "end": 1712457363788,
+      "start": 1715759183653,
+      "end": 1715759183653,
       "order": "pre"
     },
     {
       "name": "vite:css",
-      "start": 1712457363788,
-      "end": 1712457363788,
+      "start": 1715759183653,
+      "end": 1715759183653,
       "order": "normal"
     },
     {
       "name": "vite:esbuild",
-      "start": 1712457363788,
-      "end": 1712457363788,
+      "start": 1715759183653,
+      "end": 1715759183653,
       "order": "normal"
     },
     {
       "name": "vite:json",
-      "start": 1712457363788,
-      "end": 1712457363788,
+      "start": 1715759183653,
+      "end": 1715759183653,
       "order": "normal"
     },
     {
       "name": "vite:worker",
-      "start": 1712457363788,
-      "end": 1712457363788,
+      "start": 1715759183653,
+      "end": 1715759183653,
       "order": "normal"
     },
     {
       "name": "vite:vue",
       "result": "\r\n    const _sfc_main = {\r\n        props: ['blog']\r\n    };\r\n\nimport { createElementVNode as _createElementVNode, resolveComponent as _resolveComponent, withCtx as _withCtx, createVNode as _createVNode, toDisplayString as _toDisplayString, createTextVNode as _createTextVNode, openBlock as _openBlock, createElementBlock as _createElementBlock } from \"vue\"\n\nconst _hoisted_1 = { class: \"blog\" }\nconst _hoisted_2 = { class: \"thumbnail\" }\nconst _hoisted_3 = [\"src\", \"alt\"]\nconst _hoisted_4 = { class: \"info\" }\nconst _hoisted_5 = { class: \"meta\" }\nconst _hoisted_6 = /*#__PURE__*/_createElementVNode(\"i\", { class: \"far fa-calendar\" }, null, -1)\nconst _hoisted_7 = /*#__PURE__*/_createElementVNode(\"i\", { class: \"far fa-eye\" }, null, -1)\nconst _hoisted_8 = { class: \"title\" }\nconst _hoisted_9 = /*#__PURE__*/_createElementVNode(\"mark\", null, \"Read More\", -1)\n\nfunction _sfc_render(_ctx, _cache, $props, $setup, $data, $options) {\n  const _component_NuxtLink = _resolveComponent(\"NuxtLink\")\n\n  return (_openBlock(), _createElementBlock(\"div\", _hoisted_1, [\n    _createElementVNode(\"div\", _hoisted_2, [\n      _createVNode(_component_NuxtLink, {\n        to: `/blog/${$props.blog.slug}`,\n        class: \"image\"\n      }, {\n        default: _withCtx(() => [\n          _createElementVNode(\"img\", {\n            src: $props.blog.imgSrc,\n            alt: $props.blog.title\n          }, null, 8, _hoisted_3)\n        ]),\n        _: 1\n      }, 8, [\"to\"])\n    ]),\n    _createElementVNode(\"div\", _hoisted_4, [\n      _createElementVNode(\"ul\", _hoisted_5, [\n        _createElementVNode(\"li\", null, [\n          _hoisted_6,\n          _createTextVNode(_toDisplayString($props.blog.date), 1)\n        ]),\n        _createElementVNode(\"li\", null, [\n          _hoisted_7,\n          _createTextVNode(_toDisplayString($props.blog.view) + \" Views\", 1)\n        ])\n      ]),\n      _createElementVNode(\"h3\", _hoisted_8, [\n        _createVNode(_component_NuxtLink, {\n          to: `/blog/${$props.blog.slug}`\n        }, {\n          default: _withCtx(() => [\n            _createTextVNode(_toDisplayString($props.blog.title), 1)\n          ]),\n          _: 1\n        }, 8, [\"to\"])\n      ]),\n      _createVNode(_component_NuxtLink, {\n        to: `/blog/${$props.blog.slug}`,\n        class: \"link\"\n      }, {\n        default: _withCtx(() => [\n          _hoisted_9\n        ]),\n        _: 1\n      }, 8, [\"to\"])\n    ])\n  ]))\n}\n\n\nimport _export_sfc from '\u0000plugin-vue:export-helper'\nexport default /*#__PURE__*/_export_sfc(_sfc_main, [['render',_sfc_render]])",
-      "start": 1712457363788,
-      "end": 1712457363789,
+      "start": 1715759183653,
+      "end": 1715759183655,
       "order": "normal",
       "sourcemaps": {
         "mappings": ""
@@ -62,153 +62,153 @@
     },
     {
       "name": "vite:vue-jsx",
-      "start": 1712457363789,
-      "end": 1712457363789,
+      "start": 1715759183655,
+      "end": 1715759183655,
       "order": "normal"
     },
     {
       "name": "replace",
-      "start": 1712457363789,
-      "end": 1712457363789,
+      "start": 1715759183655,
+      "end": 1715759183655,
       "order": "normal"
     },
     {
       "name": "nuxt:remove-plugin-metadata",
-      "start": 1712457363789,
-      "end": 1712457363789,
+      "start": 1715759183655,
+      "end": 1715759183655,
       "order": "normal"
     },
     {
       "name": "nuxt:chunk-error",
-      "start": 1712457363789,
-      "end": 1712457363789,
+      "start": 1715759183655,
+      "end": 1715759183655,
       "order": "normal"
     },
     {
       "name": "nuxt:components:imports",
-      "start": 1712457363789,
-      "end": 1712457363789,
+      "start": 1715759183655,
+      "end": 1715759183655,
       "order": "normal"
     },
     {
       "name": "replace",
-      "start": 1712457363789,
-      "end": 1712457363789,
+      "start": 1715759183655,
+      "end": 1715759183655,
       "order": "normal"
     },
     {
       "name": "ssr-styles",
-      "start": 1712457363789,
-      "end": 1712457363789,
+      "start": 1715759183655,
+      "end": 1715759183655,
       "order": "normal"
     },
     {
       "name": "vite:define",
-      "start": 1712457363789,
-      "end": 1712457363789,
+      "start": 1715759183655,
+      "end": 1715759183655,
       "order": "normal"
     },
     {
       "name": "vite:css-post",
-      "start": 1712457363789,
-      "end": 1712457363789,
+      "start": 1715759183655,
+      "end": 1715759183655,
       "order": "normal"
     },
     {
       "name": "vite:build-html",
-      "start": 1712457363789,
-      "end": 1712457363789,
+      "start": 1715759183655,
+      "end": 1715759183655,
       "order": "normal"
     },
     {
       "name": "vite:worker-import-meta-url",
-      "start": 1712457363789,
-      "end": 1712457363789,
+      "start": 1715759183655,
+      "end": 1715759183655,
       "order": "normal"
     },
     {
       "name": "vite:asset-import-meta-url",
-      "start": 1712457363789,
-      "end": 1712457363789,
+      "start": 1715759183655,
+      "end": 1715759183655,
       "order": "normal"
     },
     {
       "name": "commonjs",
-      "start": 1712457363789,
-      "end": 1712457363789,
+      "start": 1715759183655,
+      "end": 1715759183655,
       "order": "normal"
     },
     {
       "name": "vite:dynamic-import-vars",
-      "start": 1712457363789,
-      "end": 1712457363789,
+      "start": 1715759183655,
+      "end": 1715759183655,
       "order": "normal"
     },
     {
       "name": "vite:import-glob",
-      "start": 1712457363789,
-      "end": 1712457363789,
+      "start": 1715759183655,
+      "end": 1715759183655,
       "order": "normal"
     },
     {
       "name": "nuxt:composable-keys",
-      "start": 1712457363789,
-      "end": 1712457363789,
+      "start": 1715759183655,
+      "end": 1715759183655,
       "order": "post"
     },
     {
       "name": "nuxt:imports-transform",
-      "start": 1712457363789,
-      "end": 1712457363790,
+      "start": 1715759183655,
+      "end": 1715759183655,
       "order": "post"
     },
     {
       "name": "unctx:transform",
-      "start": 1712457363790,
-      "end": 1712457363790,
+      "start": 1715759183655,
+      "end": 1715759183655,
       "order": "post"
     },
     {
       "name": "nuxt:pages-macros-transform",
-      "start": 1712457363790,
-      "end": 1712457363790,
+      "start": 1715759183655,
+      "end": 1715759183655,
       "order": "post"
     },
     {
       "name": "nuxt:runtime-paths-dep",
-      "start": 1712457363790,
-      "end": 1712457363790,
+      "start": 1715759183655,
+      "end": 1715759183655,
       "order": "post"
     },
     {
       "name": "nuxt:route-injection-plugin",
-      "start": 1712457363790,
-      "end": 1712457363790,
+      "start": 1715759183655,
+      "end": 1715759183655,
       "order": "post"
     },
     {
       "name": "nuxt:components-loader",
       "result": "import { default as __nuxt_component_0 } from \"E:/Projects/JavaRayaInternational/website/node_modules/nuxt/dist/app/components/nuxt-link\";\n\r\n    const _sfc_main = {\r\n        props: ['blog']\r\n    };\r\n\nimport { createElementVNode as _createElementVNode, resolveComponent as _resolveComponent, withCtx as _withCtx, createVNode as _createVNode, toDisplayString as _toDisplayString, createTextVNode as _createTextVNode, openBlock as _openBlock, createElementBlock as _createElementBlock } from \"vue\"\n\nconst _hoisted_1 = { class: \"blog\" }\nconst _hoisted_2 = { class: \"thumbnail\" }\nconst _hoisted_3 = [\"src\", \"alt\"]\nconst _hoisted_4 = { class: \"info\" }\nconst _hoisted_5 = { class: \"meta\" }\nconst _hoisted_6 = /*#__PURE__*/_createElementVNode(\"i\", { class: \"far fa-calendar\" }, null, -1)\nconst _hoisted_7 = /*#__PURE__*/_createElementVNode(\"i\", { class: \"far fa-eye\" }, null, -1)\nconst _hoisted_8 = { class: \"title\" }\nconst _hoisted_9 = /*#__PURE__*/_createElementVNode(\"mark\", null, \"Read More\", -1)\n\nfunction _sfc_render(_ctx, _cache, $props, $setup, $data, $options) {\n  const _component_NuxtLink = __nuxt_component_0\n\n  return (_openBlock(), _createElementBlock(\"div\", _hoisted_1, [\n    _createElementVNode(\"div\", _hoisted_2, [\n      _createVNode(_component_NuxtLink, {\n        to: `/blog/${$props.blog.slug}`,\n        class: \"image\"\n      }, {\n        default: _withCtx(() => [\n          _createElementVNode(\"img\", {\n            src: $props.blog.imgSrc,\n            alt: $props.blog.title\n          }, null, 8, _hoisted_3)\n        ]),\n        _: 1\n      }, 8, [\"to\"])\n    ]),\n    _createElementVNode(\"div\", _hoisted_4, [\n      _createElementVNode(\"ul\", _hoisted_5, [\n        _createElementVNode(\"li\", null, [\n          _hoisted_6,\n          _createTextVNode(_toDisplayString($props.blog.date), 1)\n        ]),\n        _createElementVNode(\"li\", null, [\n          _hoisted_7,\n          _createTextVNode(_toDisplayString($props.blog.view) + \" Views\", 1)\n        ])\n      ]),\n      _createElementVNode(\"h3\", _hoisted_8, [\n        _createVNode(_component_NuxtLink, {\n          to: `/blog/${$props.blog.slug}`\n        }, {\n          default: _withCtx(() => [\n            _createTextVNode(_toDisplayString($props.blog.title), 1)\n          ]),\n          _: 1\n        }, 8, [\"to\"])\n      ]),\n      _createVNode(_component_NuxtLink, {\n        to: `/blog/${$props.blog.slug}`,\n        class: \"link\"\n      }, {\n        default: _withCtx(() => [\n          _hoisted_9\n        ]),\n        _: 1\n      }, 8, [\"to\"])\n    ])\n  ]))\n}\n\n\nimport _export_sfc from '\u0000plugin-vue:export-helper'\nexport default /*#__PURE__*/_export_sfc(_sfc_main, [['render',_sfc_render]])",
-      "start": 1712457363790,
-      "end": 1712457363790,
+      "start": 1715759183655,
+      "end": 1715759183655,
       "order": "post"
     },
     {
       "name": "nuxt:tree-shake-composables:transform",
-      "start": 1712457363790,
-      "end": 1712457363790,
+      "start": 1715759183655,
+      "end": 1715759183655,
       "order": "post"
     },
     {
       "name": "vite:build-import-analysis",
-      "start": 1712457363790,
-      "end": 1712457363790,
+      "start": 1715759183655,
+      "end": 1715759183655,
       "order": "normal"
     },
     {
       "name": "vite:reporter",
-      "start": 1712457363790,
-      "end": 1712457363790,
+      "start": 1715759183655,
+      "end": 1715759183655,
       "order": "normal"
     }
   ]

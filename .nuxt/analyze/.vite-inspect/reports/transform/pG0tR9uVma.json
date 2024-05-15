@@ -4,57 +4,57 @@
     {
       "name": "vite:load-fallback",
       "result": "<template>\r\n    <div class=\"faq-section section-padding-top overflow-hidden\" :style=\"{backgroundColor: '#f8faff'}\">\r\n        <div class=\"container\">\r\n            <div class=\"row row-cols-lg-2 row-cols-1\">\r\n                <!-- Faq Content Start -->\r\n                <div class=\"col mb-30\">\r\n                    <div class=\"faq-content\">\r\n                        <!-- Section Title Two Start -->\r\n                        <div class=\"section-title-two\">\r\n                            <span class=\"sub-title\">Frequently asked questions</span>\r\n                            <h3 class=\"title\">You’ve got questions and <br> we’ve got answers</h3>\r\n                        </div>\r\n                        <!-- Section Title Two End -->\r\n\r\n                        <AccordionStyleOne />\r\n                    </div>\r\n                </div>\r\n                <!-- Faq Content End -->\r\n\r\n                <div class=\"col pl-xl-12\">\r\n                    <div class=\"about-image-area faq-image-area\">\r\n                        <div class=\"about-image right-n50 js-tilt\">\r\n                            <img src=\"/images/faq/faq-2.jpg\" alt=\"image\">\r\n                        </div>\r\n                        <div class=\"about-image js-tilt\">\r\n                            <img src=\"/images/faq/faq-1.jpg\" alt=\"image\">\r\n                        </div>\r\n                        <!-- Animation Shape Start -->\r\n                        <ShapeWithAnimation addClassName=\"shape-1\" data-depth=\"4\" imgSrc=\"/images/shape-animation/video-shape-1.png\" />\r\n                    </div>\r\n                </div>\r\n            </div>\r\n        </div>\r\n    </div>\r\n</template>\r\n\r\n<script>\r\n    export default {\r\n        components: {\r\n            AccordionStyleOne: () => import('@/components/AccordionStyleOne'),\r\n            ShapeWithAnimation: () => import('@/components/ShapeWithAnimation'),\r\n        },\r\n    };\r\n</script>",
-      "start": 1712457363778,
-      "end": 1712457363917,
+      "start": 1715759183603,
+      "end": 1715759183732,
       "sourcemaps": null
     },
     {
       "name": "nuxt:layer-aliasing",
-      "start": 1712457363917,
-      "end": 1712457363917,
+      "start": 1715759183732,
+      "end": 1715759183732,
       "order": "pre"
     },
     {
       "name": "nuxt:server-devonly:transform",
-      "start": 1712457363917,
-      "end": 1712457363917,
+      "start": 1715759183732,
+      "end": 1715759183732,
       "order": "pre"
     },
     {
       "name": "nuxt:client-fallback-auto-id",
-      "start": 1712457363917,
-      "end": 1712457363917,
+      "start": 1715759183732,
+      "end": 1715759183732,
       "order": "pre"
     },
     {
       "name": "vite:css",
-      "start": 1712457363917,
-      "end": 1712457363917,
+      "start": 1715759183732,
+      "end": 1715759183732,
       "order": "normal"
     },
     {
       "name": "vite:esbuild",
-      "start": 1712457363917,
-      "end": 1712457363917,
+      "start": 1715759183732,
+      "end": 1715759183732,
       "order": "normal"
     },
     {
       "name": "vite:json",
-      "start": 1712457363917,
-      "end": 1712457363917,
+      "start": 1715759183732,
+      "end": 1715759183732,
       "order": "normal"
     },
     {
       "name": "vite:worker",
-      "start": 1712457363917,
-      "end": 1712457363917,
+      "start": 1715759183732,
+      "end": 1715759183732,
       "order": "normal"
     },
     {
       "name": "vite:vue",
       "result": "\r\n    const _sfc_main = {\r\n        components: {\r\n            AccordionStyleOne: () => import('@/components/AccordionStyleOne'),\r\n            ShapeWithAnimation: () => import('@/components/ShapeWithAnimation'),\r\n        },\r\n    };\r\n\nimport { createElementVNode as _createElementVNode, createTextVNode as _createTextVNode, resolveComponent as _resolveComponent, createVNode as _createVNode, openBlock as _openBlock, createElementBlock as _createElementBlock } from \"vue\"\nimport _imports_0 from '/images/faq/faq-2.jpg'\nimport _imports_1 from '/images/faq/faq-1.jpg'\n\n\nconst _hoisted_1 = {\n  class: \"faq-section section-padding-top overflow-hidden\",\n  style: {backgroundColor: '#f8faff'}\n}\nconst _hoisted_2 = { class: \"container\" }\nconst _hoisted_3 = { class: \"row row-cols-lg-2 row-cols-1\" }\nconst _hoisted_4 = { class: \"col mb-30\" }\nconst _hoisted_5 = { class: \"faq-content\" }\nconst _hoisted_6 = /*#__PURE__*/_createElementVNode(\"div\", { class: \"section-title-two\" }, [\n  /*#__PURE__*/_createElementVNode(\"span\", { class: \"sub-title\" }, \"Frequently asked questions\"),\n  /*#__PURE__*/_createElementVNode(\"h3\", { class: \"title\" }, [\n    /*#__PURE__*/_createTextVNode(\"You’ve got questions and \"),\n    /*#__PURE__*/_createElementVNode(\"br\"),\n    /*#__PURE__*/_createTextVNode(\" we’ve got answers\")\n  ])\n], -1)\nconst _hoisted_7 = { class: \"col pl-xl-12\" }\nconst _hoisted_8 = { class: \"about-image-area faq-image-area\" }\nconst _hoisted_9 = /*#__PURE__*/_createElementVNode(\"div\", { class: \"about-image right-n50 js-tilt\" }, [\n  /*#__PURE__*/_createElementVNode(\"img\", {\n    src: _imports_0,\n    alt: \"image\"\n  })\n], -1)\nconst _hoisted_10 = /*#__PURE__*/_createElementVNode(\"div\", { class: \"about-image js-tilt\" }, [\n  /*#__PURE__*/_createElementVNode(\"img\", {\n    src: _imports_1,\n    alt: \"image\"\n  })\n], -1)\n\nfunction _sfc_render(_ctx, _cache, $props, $setup, $data, $options) {\n  const _component_AccordionStyleOne = _resolveComponent(\"AccordionStyleOne\")\n  const _component_ShapeWithAnimation = _resolveComponent(\"ShapeWithAnimation\")\n\n  return (_openBlock(), _createElementBlock(\"div\", _hoisted_1, [\n    _createElementVNode(\"div\", _hoisted_2, [\n      _createElementVNode(\"div\", _hoisted_3, [\n        _createElementVNode(\"div\", _hoisted_4, [\n          _createElementVNode(\"div\", _hoisted_5, [\n            _hoisted_6,\n            _createVNode(_component_AccordionStyleOne)\n          ])\n        ]),\n        _createElementVNode(\"div\", _hoisted_7, [\n          _createElementVNode(\"div\", _hoisted_8, [\n            _hoisted_9,\n            _hoisted_10,\n            _createVNode(_component_ShapeWithAnimation, {\n              addClassName: \"shape-1\",\n              \"data-depth\": \"4\",\n              imgSrc: \"/images/shape-animation/video-shape-1.png\"\n            })\n          ])\n        ])\n      ])\n    ])\n  ]))\n}\n\n\nimport _export_sfc from '\u0000plugin-vue:export-helper'\nexport default /*#__PURE__*/_export_sfc(_sfc_main, [['render',_sfc_render]])",
-      "start": 1712457363917,
-      "end": 1712457363919,
+      "start": 1715759183732,
+      "end": 1715759183733,
       "order": "normal",
       "sourcemaps": {
         "mappings": ""
@@ -62,155 +62,155 @@
     },
     {
       "name": "vite:vue-jsx",
-      "start": 1712457363919,
-      "end": 1712457363919,
+      "start": 1715759183733,
+      "end": 1715759183733,
       "order": "normal"
     },
     {
       "name": "replace",
-      "start": 1712457363919,
-      "end": 1712457363919,
+      "start": 1715759183733,
+      "end": 1715759183734,
       "order": "normal"
     },
     {
       "name": "nuxt:remove-plugin-metadata",
-      "start": 1712457363919,
-      "end": 1712457363919,
+      "start": 1715759183734,
+      "end": 1715759183734,
       "order": "normal"
     },
     {
       "name": "nuxt:chunk-error",
-      "start": 1712457363919,
-      "end": 1712457363919,
+      "start": 1715759183734,
+      "end": 1715759183734,
       "order": "normal"
     },
     {
       "name": "nuxt:components:imports",
-      "start": 1712457363919,
-      "end": 1712457363919,
+      "start": 1715759183734,
+      "end": 1715759183734,
       "order": "normal"
     },
     {
       "name": "replace",
-      "start": 1712457363919,
-      "end": 1712457363919,
+      "start": 1715759183734,
+      "end": 1715759183734,
       "order": "normal"
     },
     {
       "name": "ssr-styles",
-      "start": 1712457363919,
-      "end": 1712457363919,
+      "start": 1715759183734,
+      "end": 1715759183734,
       "order": "normal"
     },
     {
       "name": "vite:define",
-      "start": 1712457363919,
-      "end": 1712457363919,
+      "start": 1715759183734,
+      "end": 1715759183734,
       "order": "normal"
     },
     {
       "name": "vite:css-post",
-      "start": 1712457363919,
-      "end": 1712457363919,
+      "start": 1715759183734,
+      "end": 1715759183734,
       "order": "normal"
     },
     {
       "name": "vite:build-html",
-      "start": 1712457363919,
-      "end": 1712457363919,
+      "start": 1715759183734,
+      "end": 1715759183734,
       "order": "normal"
     },
     {
       "name": "vite:worker-import-meta-url",
-      "start": 1712457363920,
-      "end": 1712457363920,
+      "start": 1715759183734,
+      "end": 1715759183734,
       "order": "normal"
     },
     {
       "name": "vite:asset-import-meta-url",
-      "start": 1712457363920,
-      "end": 1712457363920,
+      "start": 1715759183734,
+      "end": 1715759183734,
       "order": "normal"
     },
     {
       "name": "commonjs",
-      "start": 1712457363920,
-      "end": 1712457363920,
+      "start": 1715759183734,
+      "end": 1715759183734,
       "order": "normal"
     },
     {
       "name": "vite:dynamic-import-vars",
-      "start": 1712457363920,
-      "end": 1712457363920,
+      "start": 1715759183734,
+      "end": 1715759183734,
       "order": "normal"
     },
     {
       "name": "vite:import-glob",
-      "start": 1712457363920,
-      "end": 1712457363920,
+      "start": 1715759183734,
+      "end": 1715759183734,
       "order": "normal"
     },
     {
       "name": "nuxt:composable-keys",
-      "start": 1712457363920,
-      "end": 1712457363920,
+      "start": 1715759183734,
+      "end": 1715759183734,
       "order": "post"
     },
     {
       "name": "nuxt:imports-transform",
-      "start": 1712457363920,
-      "end": 1712457363921,
+      "start": 1715759183734,
+      "end": 1715759183734,
       "order": "post"
     },
     {
       "name": "unctx:transform",
-      "start": 1712457363921,
-      "end": 1712457363921,
+      "start": 1715759183734,
+      "end": 1715759183734,
       "order": "post"
     },
     {
       "name": "nuxt:pages-macros-transform",
-      "start": 1712457363921,
-      "end": 1712457363921,
+      "start": 1715759183734,
+      "end": 1715759183734,
       "order": "post"
     },
     {
       "name": "nuxt:runtime-paths-dep",
-      "start": 1712457363921,
-      "end": 1712457363921,
+      "start": 1715759183734,
+      "end": 1715759183734,
       "order": "post"
     },
     {
       "name": "nuxt:route-injection-plugin",
-      "start": 1712457363921,
-      "end": 1712457363921,
+      "start": 1715759183734,
+      "end": 1715759183734,
       "order": "post"
     },
     {
       "name": "nuxt:components-loader",
       "result": "import { default as __nuxt_component_0 } from \"E:/Projects/JavaRayaInternational/website/components/AccordionStyleOne.vue\";\nimport { default as __nuxt_component_1 } from \"E:/Projects/JavaRayaInternational/website/components/ShapeWithAnimation.vue\";\n\r\n    const _sfc_main = {\r\n        components: {\r\n            AccordionStyleOne: () => import('@/components/AccordionStyleOne'),\r\n            ShapeWithAnimation: () => import('@/components/ShapeWithAnimation'),\r\n        },\r\n    };\r\n\nimport { createElementVNode as _createElementVNode, createTextVNode as _createTextVNode, resolveComponent as _resolveComponent, createVNode as _createVNode, openBlock as _openBlock, createElementBlock as _createElementBlock } from \"vue\"\nimport _imports_0 from '/images/faq/faq-2.jpg'\nimport _imports_1 from '/images/faq/faq-1.jpg'\n\n\nconst _hoisted_1 = {\n  class: \"faq-section section-padding-top overflow-hidden\",\n  style: {backgroundColor: '#f8faff'}\n}\nconst _hoisted_2 = { class: \"container\" }\nconst _hoisted_3 = { class: \"row row-cols-lg-2 row-cols-1\" }\nconst _hoisted_4 = { class: \"col mb-30\" }\nconst _hoisted_5 = { class: \"faq-content\" }\nconst _hoisted_6 = /*#__PURE__*/_createElementVNode(\"div\", { class: \"section-title-two\" }, [\n  /*#__PURE__*/_createElementVNode(\"span\", { class: \"sub-title\" }, \"Frequently asked questions\"),\n  /*#__PURE__*/_createElementVNode(\"h3\", { class: \"title\" }, [\n    /*#__PURE__*/_createTextVNode(\"You’ve got questions and \"),\n    /*#__PURE__*/_createElementVNode(\"br\"),\n    /*#__PURE__*/_createTextVNode(\" we’ve got answers\")\n  ])\n], -1)\nconst _hoisted_7 = { class: \"col pl-xl-12\" }\nconst _hoisted_8 = { class: \"about-image-area faq-image-area\" }\nconst _hoisted_9 = /*#__PURE__*/_createElementVNode(\"div\", { class: \"about-image right-n50 js-tilt\" }, [\n  /*#__PURE__*/_createElementVNode(\"img\", {\n    src: _imports_0,\n    alt: \"image\"\n  })\n], -1)\nconst _hoisted_10 = /*#__PURE__*/_createElementVNode(\"div\", { class: \"about-image js-tilt\" }, [\n  /*#__PURE__*/_createElementVNode(\"img\", {\n    src: _imports_1,\n    alt: \"image\"\n  })\n], -1)\n\nfunction _sfc_render(_ctx, _cache, $props, $setup, $data, $options) {\n  const _component_AccordionStyleOne = __nuxt_component_0\n  const _component_ShapeWithAnimation = __nuxt_component_1\n\n  return (_openBlock(), _createElementBlock(\"div\", _hoisted_1, [\n    _createElementVNode(\"div\", _hoisted_2, [\n      _createElementVNode(\"div\", _hoisted_3, [\n        _createElementVNode(\"div\", _hoisted_4, [\n          _createElementVNode(\"div\", _hoisted_5, [\n            _hoisted_6,\n            _createVNode(_component_AccordionStyleOne)\n          ])\n        ]),\n        _createElementVNode(\"div\", _hoisted_7, [\n          _createElementVNode(\"div\", _hoisted_8, [\n            _hoisted_9,\n            _hoisted_10,\n            _createVNode(_component_ShapeWithAnimation, {\n              addClassName: \"shape-1\",\n              \"data-depth\": \"4\",\n              imgSrc: \"/images/shape-animation/video-shape-1.png\"\n            })\n          ])\n        ])\n      ])\n    ])\n  ]))\n}\n\n\nimport _export_sfc from '\u0000plugin-vue:export-helper'\nexport default /*#__PURE__*/_export_sfc(_sfc_main, [['render',_sfc_render]])",
-      "start": 1712457363921,
-      "end": 1712457363921,
+      "start": 1715759183734,
+      "end": 1715759183734,
       "order": "post"
     },
     {
       "name": "nuxt:tree-shake-composables:transform",
-      "start": 1712457363921,
-      "end": 1712457363921,
+      "start": 1715759183734,
+      "end": 1715759183734,
       "order": "post"
     },
     {
       "name": "vite:build-import-analysis",
       "result": "import { __vitePreload } from \"\u0000vite/preload-helper.js\";import { default as __nuxt_component_0 } from \"E:/Projects/JavaRayaInternational/website/components/AccordionStyleOne.vue\";\nimport { default as __nuxt_component_1 } from \"E:/Projects/JavaRayaInternational/website/components/ShapeWithAnimation.vue\";\n\r\n    const _sfc_main = {\r\n        components: {\r\n            AccordionStyleOne: () => __vitePreload(() => import('@/components/AccordionStyleOne'),__VITE_IS_MODERN__?\"__VITE_PRELOAD__\":void 0,import.meta.url),\r\n            ShapeWithAnimation: () => __vitePreload(() => import('@/components/ShapeWithAnimation'),__VITE_IS_MODERN__?\"__VITE_PRELOAD__\":void 0,import.meta.url),\r\n        },\r\n    };\r\n\nimport { createElementVNode as _createElementVNode, createTextVNode as _createTextVNode, resolveComponent as _resolveComponent, createVNode as _createVNode, openBlock as _openBlock, createElementBlock as _createElementBlock } from \"vue\"\nimport _imports_0 from '/images/faq/faq-2.jpg'\nimport _imports_1 from '/images/faq/faq-1.jpg'\n\n\nconst _hoisted_1 = {\n  class: \"faq-section section-padding-top overflow-hidden\",\n  style: {backgroundColor: '#f8faff'}\n}\nconst _hoisted_2 = { class: \"container\" }\nconst _hoisted_3 = { class: \"row row-cols-lg-2 row-cols-1\" }\nconst _hoisted_4 = { class: \"col mb-30\" }\nconst _hoisted_5 = { class: \"faq-content\" }\nconst _hoisted_6 = /*#__PURE__*/_createElementVNode(\"div\", { class: \"section-title-two\" }, [\n  /*#__PURE__*/_createElementVNode(\"span\", { class: \"sub-title\" }, \"Frequently asked questions\"),\n  /*#__PURE__*/_createElementVNode(\"h3\", { class: \"title\" }, [\n    /*#__PURE__*/_createTextVNode(\"You’ve got questions and \"),\n    /*#__PURE__*/_createElementVNode(\"br\"),\n    /*#__PURE__*/_createTextVNode(\" we’ve got answers\")\n  ])\n], -1)\nconst _hoisted_7 = { class: \"col pl-xl-12\" }\nconst _hoisted_8 = { class: \"about-image-area faq-image-area\" }\nconst _hoisted_9 = /*#__PURE__*/_createElementVNode(\"div\", { class: \"about-image right-n50 js-tilt\" }, [\n  /*#__PURE__*/_createElementVNode(\"img\", {\n    src: _imports_0,\n    alt: \"image\"\n  })\n], -1)\nconst _hoisted_10 = /*#__PURE__*/_createElementVNode(\"div\", { class: \"about-image js-tilt\" }, [\n  /*#__PURE__*/_createElementVNode(\"img\", {\n    src: _imports_1,\n    alt: \"image\"\n  })\n], -1)\n\nfunction _sfc_render(_ctx, _cache, $props, $setup, $data, $options) {\n  const _component_AccordionStyleOne = __nuxt_component_0\n  const _component_ShapeWithAnimation = __nuxt_component_1\n\n  return (_openBlock(), _createElementBlock(\"div\", _hoisted_1, [\n    _createElementVNode(\"div\", _hoisted_2, [\n      _createElementVNode(\"div\", _hoisted_3, [\n        _createElementVNode(\"div\", _hoisted_4, [\n          _createElementVNode(\"div\", _hoisted_5, [\n            _hoisted_6,\n            _createVNode(_component_AccordionStyleOne)\n          ])\n        ]),\n        _createElementVNode(\"div\", _hoisted_7, [\n          _createElementVNode(\"div\", _hoisted_8, [\n            _hoisted_9,\n            _hoisted_10,\n            _createVNode(_component_ShapeWithAnimation, {\n              addClassName: \"shape-1\",\n              \"data-depth\": \"4\",\n              imgSrc: \"/images/shape-animation/video-shape-1.png\"\n            })\n          ])\n        ])\n      ])\n    ])\n  ]))\n}\n\n\nimport _export_sfc from '\u0000plugin-vue:export-helper'\nexport default /*#__PURE__*/_export_sfc(_sfc_main, [['render',_sfc_render]])",
-      "start": 1712457363921,
-      "end": 1712457363921,
+      "start": 1715759183734,
+      "end": 1715759183734,
       "order": "normal",
       "sourcemaps": null
     },
     {
       "name": "vite:reporter",
-      "start": 1712457363922,
-      "end": 1712457363922,
+      "start": 1715759183734,
+      "end": 1715759183734,
       "order": "normal"
     }
   ]

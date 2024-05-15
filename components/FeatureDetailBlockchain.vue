@@ -42,12 +42,12 @@
                                         <p>We will automate everything using smart contract in the blockchain. This add trust the business</p>
                                     </div>
                                 </div>
-                                <div class="col-sm-6">
+                                <!-- <div class="col-sm-6">
                                     <div class="service-details-content mt-30">
                                         <h4>Crypto Payment (optional)</h4>
                                         <p>Enlarge capability to pay with crypto such as BTC or ETH for selected vendors and/or large transaction</p>
                                     </div>
-                                </div>
+                                </div> -->
                                
                             </div>
                         </div>

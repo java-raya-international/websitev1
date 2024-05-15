@@ -1,0 +1,34 @@
+[
+    {
+        "id": 1,
+        "title": "Metal ingots ",
+        "slug": "metal-ingots",
+        "text": "Marketplace for metal ingots. ",
+        "iconSrc": "/images/svg/frontpage/frontpage-ai.svg",
+        "imgSrc": "/images/project/work-details-1.jpg"
+    },
+    {
+        "id": 2,
+        "title": "Premium Rice",
+        "slug": "premium-rice",
+        "text": "Marketplace for premium rice",
+        "iconSrc": "/images/svg/frontpage/frontpage-decentralized.svg",
+        "imgSrc": "/images/project/work-details-3.jpg"
+    },
+    {
+        "id": 3,
+        "title": "Carbon Activated",
+        "slug": "carbon-active",
+        "text": "marketplace for Carbon Activated",
+        "iconSrc": "/images/svg/frontpage/frontpage-multidevices.svg",
+        "imgSrc": "/images/project/work-details-4.jpg"
+    },
+    {
+        "id": 4,
+        "title": "Indonesia Craft",
+        "slug": "indonesia-craft",
+        "text": "Marketplace for Indonesia originating hand-made craft.",
+        "iconSrc": "/images/svg/frontpage/frontpage-greenproduct.svg",
+        "imgSrc": "/images/project/work-details-1.jpg"
+    }
+]

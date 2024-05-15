@@ -3,58 +3,58 @@
   "transforms": [
     {
       "name": "vite:load-fallback",
-      "result": "<template>\r\n    <div class=\"main-container\">\r\n      \r\n        <!-- service section start -->\r\n        <section class=\"service-details-wrapper section-padding pb-125\">\r\n            <div class=\"container\">\r\n                <div class=\"row\">\r\n                    <div class=\"col-lg-4 mtn-40 order-2 order-lg-1\">\r\n                        <div class=\"service-details-widget\">\r\n                            <div class=\"service-single-widget mt-40\" :style=\"{backgroundColor: '#f8faff'}\">\r\n                                <h4 class=\"service-widget-title\">Technology Stack</h4>\r\n                                <ul class=\"service-list\">\r\n                                    <li><a href=\"#\">Dotnet 8 (LTS) or latest</a></li>\r\n                                   \r\n                                </ul>\r\n                            </div>\r\n                            <div class=\"service-single-widget mt-40\" :style=\"{backgroundColor: '#f8faff'}\">\r\n                                <h4 class=\"service-widget-title\">Download Docs</h4>\r\n                                <ul class=\"service-list\">\r\n                                    <li>No release yet on github</li>\r\n                                </ul>\r\n                            </div>\r\n                        </div>\r\n                    </div>\r\n                    <div class=\"col-lg-8 order-1 order-lg-2\">\r\n                        <div class=\"service-details\">\r\n                            <div class=\"service-details-thumb\">\r\n                            </div>\r\n                            <h3 class=\"mt-4 mb-3\">Business</h3>\r\n                            <p>In today's interconnected world, businesses of all sizes have unprecedented opportunities to tap into global markets. However, navigating the complexities of cross-border trade can be daunting, especially for SMBs with limited resources. This website aims to provide valuable insights and practical solutions tailored specifically to SMBs looking to expand their reach across borders.</p>\r\n                            <p class=\"mb-0\">Below is our plan the use of SMB in our APP</p>\r\n                            <div class=\"row\">\r\n                                <div class=\"col-sm-6\">\r\n                                    <div class=\"service-details-content mt-30\">\r\n                                        <h4>International Logistic</h4>\r\n                                        <p>App will integrate back to back </p>\r\n                                    </div>\r\n                                </div>\r\n                                <div class=\"col-sm-6\">\r\n                                    <div class=\"service-details-content mt-30\">\r\n                                        <h4>International Payment (Fiat and Crypto)</h4>\r\n                                        <p>We use international payment. We try to avoid bank transfer to decrease scam and fraud. </p>\r\n                                    </div>\r\n                                </div>\r\n                                <div class=\"col-sm-6\">\r\n                                    <div class=\"service-details-content mt-30\">\r\n                                        <h4>Real time multi currency support</h4>\r\n                                        <p>Our app will get real time currency from UK and EU central bank directly. </p>\r\n                                    </div>\r\n                                </div>\r\n                                <div class=\"col-sm-6\">\r\n                                    <div class=\"service-details-content mt-30\">\r\n                                        <h4>Cloud based cross border compliance</h4>\r\n                                        <p>Our app will use cloud based SAAS compliance to optimize cost and deliverables  </p>\r\n                                    </div>\r\n                                </div>\r\n                               \r\n                            </div>\r\n                        </div>\r\n                    </div>\r\n                </div>\r\n            </div>\r\n        </section>\r\n        <!-- service section end -->\r\n\r\n    </div>\r\n</template>\r\n\r\n<script>\r\n    \r\n</script>\r\n\r\n\r\n",
-      "start": 1712457363731,
-      "end": 1712457363900,
+      "result": "<template>\r\n    <div class=\"main-container\">\r\n      \r\n        <!-- service section start -->\r\n        <section class=\"service-details-wrapper section-padding pb-125\">\r\n            <div class=\"container\">\r\n                <div class=\"row\">\r\n                    <div class=\"col-lg-4 mtn-40 order-2 order-lg-1\">\r\n                        <div class=\"service-details-widget\">\r\n                            <div class=\"service-single-widget mt-40\" :style=\"{backgroundColor: '#f8faff'}\">\r\n                                <h4 class=\"service-widget-title\">Technology Stack</h4>\r\n                                <ul class=\"service-list\">\r\n                                    <li><a href=\"#\">Dotnet 8 (LTS) or latest</a></li>\r\n                                   \r\n                                </ul>\r\n                            </div>\r\n                            <div class=\"service-single-widget mt-40\" :style=\"{backgroundColor: '#f8faff'}\">\r\n                                <h4 class=\"service-widget-title\">Download Docs</h4>\r\n                                <ul class=\"service-list\">\r\n                                    <li>No release yet on github</li>\r\n                                </ul>\r\n                            </div>\r\n                        </div>\r\n                    </div>\r\n                    <div class=\"col-lg-8 order-1 order-lg-2\">\r\n                        <div class=\"service-details\">\r\n                            <div class=\"service-details-thumb\">\r\n                            </div>\r\n                            <h3 class=\"mt-4 mb-3\">Business</h3>\r\n                            <p>In today's interconnected world, businesses of all sizes have unprecedented opportunities to tap into global markets. However, navigating the complexities of cross-border trade can be daunting, especially for SMBs with limited resources. This website aims to provide valuable insights and practical solutions tailored specifically to SMBs looking to expand their reach across borders.</p>\r\n                            <p class=\"mb-0\">Below is our plan the use of SMB in our APP</p>\r\n                            <div class=\"row\">\r\n                                <div class=\"col-sm-6\">\r\n                                    <div class=\"service-details-content mt-30\">\r\n                                        <h4>International Logistic</h4>\r\n                                        <p>App will integrate back to back </p>\r\n                                    </div>\r\n                                </div>\r\n                                <div class=\"col-sm-6\">\r\n                                    <div class=\"service-details-content mt-30\">\r\n                                        <h4>International Payment</h4>\r\n                                        <p>We will conduct KYC and KYB for our selected customer and supplier.</p>\r\n                                    </div>\r\n                                </div>\r\n                                <div class=\"col-sm-6\">\r\n                                    <div class=\"service-details-content mt-30\">\r\n                                        <h4>Real time multi currency support</h4>\r\n                                        <p>Our app will get real time currency from UK and EU central bank directly. </p>\r\n                                    </div>\r\n                                </div>\r\n                                <div class=\"col-sm-6\">\r\n                                    <div class=\"service-details-content mt-30\">\r\n                                        <h4>Cloud based cross border compliance</h4>\r\n                                        <p>Our app will use cloud based SAAS compliance to optimize cost and deliverables  </p>\r\n                                    </div>\r\n                                </div>\r\n                               \r\n                            </div>\r\n                        </div>\r\n                    </div>\r\n                </div>\r\n            </div>\r\n        </section>\r\n        <!-- service section end -->\r\n\r\n    </div>\r\n</template>\r\n\r\n<script>\r\n    \r\n</script>\r\n\r\n\r\n",
+      "start": 1715759183583,
+      "end": 1715759183720,
       "sourcemaps": null
     },
     {
       "name": "nuxt:layer-aliasing",
-      "start": 1712457363900,
-      "end": 1712457363900,
+      "start": 1715759183720,
+      "end": 1715759183720,
       "order": "pre"
     },
     {
       "name": "nuxt:server-devonly:transform",
-      "start": 1712457363900,
-      "end": 1712457363900,
+      "start": 1715759183720,
+      "end": 1715759183720,
       "order": "pre"
     },
     {
       "name": "nuxt:client-fallback-auto-id",
-      "start": 1712457363900,
-      "end": 1712457363900,
+      "start": 1715759183720,
+      "end": 1715759183720,
       "order": "pre"
     },
     {
       "name": "vite:css",
-      "start": 1712457363900,
-      "end": 1712457363900,
+      "start": 1715759183720,
+      "end": 1715759183720,
       "order": "normal"
     },
     {
       "name": "vite:esbuild",
-      "start": 1712457363900,
-      "end": 1712457363900,
+      "start": 1715759183720,
+      "end": 1715759183720,
       "order": "normal"
     },
     {
       "name": "vite:json",
-      "start": 1712457363900,
-      "end": 1712457363900,
+      "start": 1715759183720,
+      "end": 1715759183720,
       "order": "normal"
     },
     {
       "name": "vite:worker",
-      "start": 1712457363900,
-      "end": 1712457363900,
+      "start": 1715759183720,
+      "end": 1715759183720,
       "order": "normal"
     },
     {
       "name": "vite:vue",
-      "result": "const _sfc_main = {}\nimport { createElementVNode as _createElementVNode, createStaticVNode as _createStaticVNode, openBlock as _openBlock, createElementBlock as _createElementBlock } from \"vue\"\n\nconst _hoisted_1 = { class: \"main-container\" }\nconst _hoisted_2 = /*#__PURE__*/_createStaticVNode(\"<section class=\\\"service-details-wrapper section-padding pb-125\\\"><div class=\\\"container\\\"><div class=\\\"row\\\"><div class=\\\"col-lg-4 mtn-40 order-2 order-lg-1\\\"><div class=\\\"service-details-widget\\\"><div class=\\\"service-single-widget mt-40\\\" style=\\\"background-color:#f8faff;\\\"><h4 class=\\\"service-widget-title\\\">Technology Stack</h4><ul class=\\\"service-list\\\"><li><a href=\\\"#\\\">Dotnet 8 (LTS) or latest</a></li></ul></div><div class=\\\"service-single-widget mt-40\\\" style=\\\"background-color:#f8faff;\\\"><h4 class=\\\"service-widget-title\\\">Download Docs</h4><ul class=\\\"service-list\\\"><li>No release yet on github</li></ul></div></div></div><div class=\\\"col-lg-8 order-1 order-lg-2\\\"><div class=\\\"service-details\\\"><div class=\\\"service-details-thumb\\\"></div><h3 class=\\\"mt-4 mb-3\\\">Business</h3><p>In today&#39;s interconnected world, businesses of all sizes have unprecedented opportunities to tap into global markets. However, navigating the complexities of cross-border trade can be daunting, especially for SMBs with limited resources. This website aims to provide valuable insights and practical solutions tailored specifically to SMBs looking to expand their reach across borders.</p><p class=\\\"mb-0\\\">Below is our plan the use of SMB in our APP</p><div class=\\\"row\\\"><div class=\\\"col-sm-6\\\"><div class=\\\"service-details-content mt-30\\\"><h4>International Logistic</h4><p>App will integrate back to back </p></div></div><div class=\\\"col-sm-6\\\"><div class=\\\"service-details-content mt-30\\\"><h4>International Payment (Fiat and Crypto)</h4><p>We use international payment. We try to avoid bank transfer to decrease scam and fraud. </p></div></div><div class=\\\"col-sm-6\\\"><div class=\\\"service-details-content mt-30\\\"><h4>Real time multi currency support</h4><p>Our app will get real time currency from UK and EU central bank directly. </p></div></div><div class=\\\"col-sm-6\\\"><div class=\\\"service-details-content mt-30\\\"><h4>Cloud based cross border compliance</h4><p>Our app will use cloud based SAAS compliance to optimize cost and deliverables </p></div></div></div></div></div></div></div></section>\", 1)\nconst _hoisted_3 = [\n  _hoisted_2\n]\n\nfunction _sfc_render(_ctx, _cache) {\n  return (_openBlock(), _createElementBlock(\"div\", _hoisted_1, _hoisted_3))\n}\n\n\nimport _export_sfc from '\u0000plugin-vue:export-helper'\nexport default /*#__PURE__*/_export_sfc(_sfc_main, [['render',_sfc_render]])",
-      "start": 1712457363900,
-      "end": 1712457363902,
+      "result": "const _sfc_main = {}\nimport { createElementVNode as _createElementVNode, createStaticVNode as _createStaticVNode, openBlock as _openBlock, createElementBlock as _createElementBlock } from \"vue\"\n\nconst _hoisted_1 = { class: \"main-container\" }\nconst _hoisted_2 = /*#__PURE__*/_createStaticVNode(\"<section class=\\\"service-details-wrapper section-padding pb-125\\\"><div class=\\\"container\\\"><div class=\\\"row\\\"><div class=\\\"col-lg-4 mtn-40 order-2 order-lg-1\\\"><div class=\\\"service-details-widget\\\"><div class=\\\"service-single-widget mt-40\\\" style=\\\"background-color:#f8faff;\\\"><h4 class=\\\"service-widget-title\\\">Technology Stack</h4><ul class=\\\"service-list\\\"><li><a href=\\\"#\\\">Dotnet 8 (LTS) or latest</a></li></ul></div><div class=\\\"service-single-widget mt-40\\\" style=\\\"background-color:#f8faff;\\\"><h4 class=\\\"service-widget-title\\\">Download Docs</h4><ul class=\\\"service-list\\\"><li>No release yet on github</li></ul></div></div></div><div class=\\\"col-lg-8 order-1 order-lg-2\\\"><div class=\\\"service-details\\\"><div class=\\\"service-details-thumb\\\"></div><h3 class=\\\"mt-4 mb-3\\\">Business</h3><p>In today&#39;s interconnected world, businesses of all sizes have unprecedented opportunities to tap into global markets. However, navigating the complexities of cross-border trade can be daunting, especially for SMBs with limited resources. This website aims to provide valuable insights and practical solutions tailored specifically to SMBs looking to expand their reach across borders.</p><p class=\\\"mb-0\\\">Below is our plan the use of SMB in our APP</p><div class=\\\"row\\\"><div class=\\\"col-sm-6\\\"><div class=\\\"service-details-content mt-30\\\"><h4>International Logistic</h4><p>App will integrate back to back </p></div></div><div class=\\\"col-sm-6\\\"><div class=\\\"service-details-content mt-30\\\"><h4>International Payment</h4><p>We will conduct KYC and KYB for our selected customer and supplier.</p></div></div><div class=\\\"col-sm-6\\\"><div class=\\\"service-details-content mt-30\\\"><h4>Real time multi currency support</h4><p>Our app will get real time currency from UK and EU central bank directly. </p></div></div><div class=\\\"col-sm-6\\\"><div class=\\\"service-details-content mt-30\\\"><h4>Cloud based cross border compliance</h4><p>Our app will use cloud based SAAS compliance to optimize cost and deliverables </p></div></div></div></div></div></div></div></section>\", 1)\nconst _hoisted_3 = [\n  _hoisted_2\n]\n\nfunction _sfc_render(_ctx, _cache) {\n  return (_openBlock(), _createElementBlock(\"div\", _hoisted_1, _hoisted_3))\n}\n\n\nimport _export_sfc from '\u0000plugin-vue:export-helper'\nexport default /*#__PURE__*/_export_sfc(_sfc_main, [['render',_sfc_render]])",
+      "start": 1715759183720,
+      "end": 1715759183721,
       "order": "normal",
       "sourcemaps": {
         "mappings": ""
@@ -62,152 +62,152 @@
     },
     {
       "name": "vite:vue-jsx",
-      "start": 1712457363902,
-      "end": 1712457363902,
+      "start": 1715759183721,
+      "end": 1715759183721,
       "order": "normal"
     },
     {
       "name": "replace",
-      "start": 1712457363902,
-      "end": 1712457363902,
+      "start": 1715759183721,
+      "end": 1715759183721,
       "order": "normal"
     },
     {
       "name": "nuxt:remove-plugin-metadata",
-      "start": 1712457363902,
-      "end": 1712457363902,
+      "start": 1715759183721,
+      "end": 1715759183721,
       "order": "normal"
     },
     {
       "name": "nuxt:chunk-error",
-      "start": 1712457363902,
-      "end": 1712457363902,
+      "start": 1715759183721,
+      "end": 1715759183721,
       "order": "normal"
     },
     {
       "name": "nuxt:components:imports",
-      "start": 1712457363902,
-      "end": 1712457363902,
+      "start": 1715759183721,
+      "end": 1715759183721,
       "order": "normal"
     },
     {
       "name": "replace",
-      "start": 1712457363902,
-      "end": 1712457363902,
+      "start": 1715759183721,
+      "end": 1715759183721,
       "order": "normal"
     },
     {
       "name": "ssr-styles",
-      "start": 1712457363902,
-      "end": 1712457363902,
+      "start": 1715759183721,
+      "end": 1715759183721,
       "order": "normal"
     },
     {
       "name": "vite:define",
-      "start": 1712457363902,
-      "end": 1712457363902,
+      "start": 1715759183721,
+      "end": 1715759183721,
       "order": "normal"
     },
     {
       "name": "vite:css-post",
-      "start": 1712457363902,
-      "end": 1712457363902,
+      "start": 1715759183721,
+      "end": 1715759183721,
       "order": "normal"
     },
     {
       "name": "vite:build-html",
-      "start": 1712457363902,
-      "end": 1712457363902,
+      "start": 1715759183721,
+      "end": 1715759183721,
       "order": "normal"
     },
     {
       "name": "vite:worker-import-meta-url",
-      "start": 1712457363902,
-      "end": 1712457363902,
+      "start": 1715759183721,
+      "end": 1715759183721,
       "order": "normal"
     },
     {
       "name": "vite:asset-import-meta-url",
-      "start": 1712457363902,
-      "end": 1712457363902,
+      "start": 1715759183721,
+      "end": 1715759183721,
       "order": "normal"
     },
     {
       "name": "commonjs",
-      "start": 1712457363902,
-      "end": 1712457363902,
+      "start": 1715759183721,
+      "end": 1715759183721,
       "order": "normal"
     },
     {
       "name": "vite:dynamic-import-vars",
-      "start": 1712457363902,
-      "end": 1712457363902,
+      "start": 1715759183721,
+      "end": 1715759183721,
       "order": "normal"
     },
     {
       "name": "vite:import-glob",
-      "start": 1712457363902,
-      "end": 1712457363902,
+      "start": 1715759183721,
+      "end": 1715759183721,
       "order": "normal"
     },
     {
       "name": "nuxt:composable-keys",
-      "start": 1712457363902,
-      "end": 1712457363902,
+      "start": 1715759183721,
+      "end": 1715759183721,
       "order": "post"
     },
     {
       "name": "nuxt:imports-transform",
-      "start": 1712457363902,
-      "end": 1712457363902,
+      "start": 1715759183721,
+      "end": 1715759183722,
       "order": "post"
     },
     {
       "name": "unctx:transform",
-      "start": 1712457363902,
-      "end": 1712457363902,
+      "start": 1715759183722,
+      "end": 1715759183722,
       "order": "post"
     },
     {
       "name": "nuxt:pages-macros-transform",
-      "start": 1712457363902,
-      "end": 1712457363902,
+      "start": 1715759183722,
+      "end": 1715759183722,
       "order": "post"
     },
     {
       "name": "nuxt:runtime-paths-dep",
-      "start": 1712457363902,
-      "end": 1712457363902,
+      "start": 1715759183722,
+      "end": 1715759183722,
       "order": "post"
     },
     {
       "name": "nuxt:route-injection-plugin",
-      "start": 1712457363902,
-      "end": 1712457363902,
+      "start": 1715759183722,
+      "end": 1715759183722,
       "order": "post"
     },
     {
       "name": "nuxt:components-loader",
-      "start": 1712457363902,
-      "end": 1712457363902,
+      "start": 1715759183722,
+      "end": 1715759183722,
       "order": "post"
     },
     {
       "name": "nuxt:tree-shake-composables:transform",
-      "start": 1712457363902,
-      "end": 1712457363902,
+      "start": 1715759183722,
+      "end": 1715759183722,
       "order": "post"
     },
     {
       "name": "vite:build-import-analysis",
-      "start": 1712457363902,
-      "end": 1712457363903,
+      "start": 1715759183722,
+      "end": 1715759183722,
       "order": "normal"
     },
     {
       "name": "vite:reporter",
-      "start": 1712457363903,
-      "end": 1712457363903,
+      "start": 1715759183722,
+      "end": 1715759183722,
       "order": "normal"
     }
   ]
