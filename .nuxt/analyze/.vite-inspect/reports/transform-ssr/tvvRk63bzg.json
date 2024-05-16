@@ -4,75 +4,75 @@
     {
       "name": "vite:load-fallback",
       "result": "<template>\r\n    <div class=\"section-padding-t110-b120 newsletter-section bg-cover overflow-hidden\" data-overlay=\"0.7\" :style=\"{ backgroundImage: `url('/images/bg/newsletter.jpg')` }\">\r\n        <div class=\"container\">\r\n            <div class=\"row align-items-center\">\r\n                <div class=\"col-lg-12\">\r\n                    <div class=\"cta-content text-center\">\r\n                        <SectionTitle title=\"Let’s find out how to work together\" sub-title=\"Ready to start your project? The contact information collected through this form will only be used to send a response to your inquiry.\" add-class-name=\"color-light\" />\r\n                        <NuxtLink to=\"/contact-us\" class=\"btn btn-primary btn-hover-secondary mt-6\">Get Started</NuxtLink>\r\n                    </div>\r\n                </div>\r\n            </div>\r\n        </div>\r\n\r\n        <!-- <ShapeWithAnimation add-class-name=\"shape-1\" data-depth=\"1\" img-src=\"/images/shape-animation/newsletter-shape.png\" /> -->\r\n    </div>\r\n</template>\r\n\r\n<script>\r\n    export default {\r\n        components: {\r\n            SectionTitle: () => import(\"@/components/SectionTitle\"),\r\n            ShapeWithAnimation: () => import(\"@/components/ShapeWithAnimation\"),\r\n        },\r\n    };\r\n</script>",
-      "start": 1715842300649,
-      "end": 1715842300734,
+      "start": 1715843841099,
+      "end": 1715843841449,
       "sourcemaps": null
     },
     {
       "name": "nuxt:layer-aliasing",
-      "start": 1715842300734,
-      "end": 1715842300734,
+      "start": 1715843841449,
+      "end": 1715843841449,
       "order": "pre"
     },
     {
       "name": "nuxt:layer-aliasing",
-      "start": 1715842300734,
-      "end": 1715842300734,
+      "start": 1715843841449,
+      "end": 1715843841449,
       "order": "pre"
     },
     {
       "name": "nuxt:server-devonly:transform",
-      "start": 1715842300734,
-      "end": 1715842300734,
+      "start": 1715843841449,
+      "end": 1715843841449,
       "order": "pre"
     },
     {
       "name": "nuxt:server-devonly:transform",
-      "start": 1715842300734,
-      "end": 1715842300734,
+      "start": 1715843841449,
+      "end": 1715843841449,
       "order": "pre"
     },
     {
       "name": "nuxt:client-fallback-auto-id",
-      "start": 1715842300734,
-      "end": 1715842300734,
+      "start": 1715843841449,
+      "end": 1715843841449,
       "order": "pre"
     },
     {
       "name": "server-only-component-transform",
-      "start": 1715842300734,
-      "end": 1715842300734,
+      "start": 1715843841449,
+      "end": 1715843841449,
       "order": "pre"
     },
     {
       "name": "vite:css",
-      "start": 1715842300734,
-      "end": 1715842300734,
+      "start": 1715843841449,
+      "end": 1715843841449,
       "order": "normal"
     },
     {
       "name": "vite:esbuild",
-      "start": 1715842300734,
-      "end": 1715842300734,
+      "start": 1715843841449,
+      "end": 1715843841449,
       "order": "normal"
     },
     {
       "name": "vite:json",
-      "start": 1715842300734,
-      "end": 1715842300734,
+      "start": 1715843841449,
+      "end": 1715843841449,
       "order": "normal"
     },
     {
       "name": "vite:worker",
-      "start": 1715842300734,
-      "end": 1715842300734,
+      "start": 1715843841449,
+      "end": 1715843841449,
       "order": "normal"
     },
     {
       "name": "vite:vue",
       "result": "\r\n    const _sfc_main = {\r\n        components: {\r\n            SectionTitle: () => import(\"@/components/SectionTitle\"),\r\n            ShapeWithAnimation: () => import(\"@/components/ShapeWithAnimation\"),\r\n        },\r\n    };\r\n\nimport { resolveComponent as _resolveComponent, withCtx as _withCtx, createTextVNode as _createTextVNode, mergeProps as _mergeProps } from \"vue\"\nimport { ssrRenderComponent as _ssrRenderComponent, ssrRenderAttrs as _ssrRenderAttrs } from \"vue/server-renderer\"\n\nfunction _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $options) {\n  const _component_SectionTitle = _resolveComponent(\"SectionTitle\")\n  const _component_NuxtLink = _resolveComponent(\"NuxtLink\")\n\n  _push(`<div${_ssrRenderAttrs(_mergeProps({\n    class: \"section-padding-t110-b120 newsletter-section bg-cover overflow-hidden\",\n    \"data-overlay\": \"0.7\",\n    style: { backgroundImage: `url('/images/bg/newsletter.jpg')` }\n  }, _attrs))}><div class=\"container\"><div class=\"row align-items-center\"><div class=\"col-lg-12\"><div class=\"cta-content text-center\">`)\n  _push(_ssrRenderComponent(_component_SectionTitle, {\n    title: \"Let’s find out how to work together\",\n    \"sub-title\": \"Ready to start your project? The contact information collected through this form will only be used to send a response to your inquiry.\",\n    \"add-class-name\": \"color-light\"\n  }, null, _parent))\n  _push(_ssrRenderComponent(_component_NuxtLink, {\n    to: \"/contact-us\",\n    class: \"btn btn-primary btn-hover-secondary mt-6\"\n  }, {\n    default: _withCtx((_, _push, _parent, _scopeId) => {\n      if (_push) {\n        _push(`Get Started`)\n      } else {\n        return [\n          _createTextVNode(\"Get Started\")\n        ]\n      }\n    }),\n    _: 1\n  }, _parent))\n  _push(`</div></div></div></div></div>`)\n}\n\n\nimport { useSSRContext as __vite_useSSRContext } from 'vue'\nconst _sfc_setup = _sfc_main.setup\n_sfc_main.setup = (props, ctx) => {\n  const ssrContext = __vite_useSSRContext()\n  ;(ssrContext.modules || (ssrContext.modules = new Set())).add(\"components/CallToActionTwo.vue\")\n  return _sfc_setup ? _sfc_setup(props, ctx) : undefined\n}\nimport _export_sfc from '\u0000plugin-vue:export-helper'\nexport default /*#__PURE__*/_export_sfc(_sfc_main, [['ssrRender',_sfc_ssrRender]])",
-      "start": 1715842300734,
-      "end": 1715842300735,
+      "start": 1715843841449,
+      "end": 1715843841450,
       "order": "normal",
       "sourcemaps": {
         "version": 3,
@@ -89,159 +89,159 @@
     },
     {
       "name": "vite:vue-jsx",
-      "start": 1715842300735,
-      "end": 1715842300735,
+      "start": 1715843841450,
+      "end": 1715843841450,
       "order": "normal"
     },
     {
       "name": "replace",
-      "start": 1715842300735,
-      "end": 1715842300735,
+      "start": 1715843841450,
+      "end": 1715843841450,
       "order": "normal"
     },
     {
       "name": "replace",
-      "start": 1715842300735,
-      "end": 1715842300735,
+      "start": 1715843841450,
+      "end": 1715843841450,
       "order": "normal"
     },
     {
       "name": "nuxt:remove-plugin-metadata",
-      "start": 1715842300735,
-      "end": 1715842300735,
+      "start": 1715843841450,
+      "end": 1715843841450,
       "order": "normal"
     },
     {
       "name": "nuxt:remove-plugin-metadata",
-      "start": 1715842300735,
-      "end": 1715842300735,
+      "start": 1715843841450,
+      "end": 1715843841450,
       "order": "normal"
     },
     {
       "name": "nuxt:components:imports",
-      "start": 1715842300735,
-      "end": 1715842300735,
+      "start": 1715843841450,
+      "end": 1715843841450,
       "order": "normal"
     },
     {
       "name": "replace",
-      "start": 1715842300735,
-      "end": 1715842300735,
+      "start": 1715843841450,
+      "end": 1715843841450,
       "order": "normal"
     },
     {
       "name": "ssr-styles",
-      "start": 1715842300735,
-      "end": 1715842300735,
+      "start": 1715843841450,
+      "end": 1715843841450,
       "order": "normal"
     },
     {
       "name": "vite:define",
-      "start": 1715842300735,
-      "end": 1715842300735,
+      "start": 1715843841450,
+      "end": 1715843841450,
       "order": "normal"
     },
     {
       "name": "vite:css-post",
-      "start": 1715842300735,
-      "end": 1715842300735,
+      "start": 1715843841450,
+      "end": 1715843841450,
       "order": "normal"
     },
     {
       "name": "vite:build-html",
-      "start": 1715842300735,
-      "end": 1715842300735,
+      "start": 1715843841450,
+      "end": 1715843841450,
       "order": "normal"
     },
     {
       "name": "vite:worker-import-meta-url",
-      "start": 1715842300735,
-      "end": 1715842300735,
+      "start": 1715843841450,
+      "end": 1715843841450,
       "order": "normal"
     },
     {
       "name": "vite:asset-import-meta-url",
-      "start": 1715842300735,
-      "end": 1715842300735,
+      "start": 1715843841450,
+      "end": 1715843841450,
       "order": "normal"
     },
     {
       "name": "commonjs",
-      "start": 1715842300735,
-      "end": 1715842300735,
+      "start": 1715843841450,
+      "end": 1715843841450,
       "order": "normal"
     },
     {
       "name": "vite:dynamic-import-vars",
-      "start": 1715842300735,
-      "end": 1715842300735,
+      "start": 1715843841450,
+      "end": 1715843841450,
       "order": "normal"
     },
     {
       "name": "vite:import-glob",
-      "start": 1715842300735,
-      "end": 1715842300735,
+      "start": 1715843841450,
+      "end": 1715843841450,
       "order": "normal"
     },
     {
       "name": "nuxt:composable-keys",
-      "start": 1715842300735,
-      "end": 1715842300735,
+      "start": 1715843841450,
+      "end": 1715843841450,
       "order": "post"
     },
     {
       "name": "nuxt:composable-keys",
-      "start": 1715842300735,
-      "end": 1715842300735,
+      "start": 1715843841450,
+      "end": 1715843841450,
       "order": "post"
     },
     {
       "name": "nuxt:imports-transform",
-      "start": 1715842300735,
-      "end": 1715842300736,
+      "start": 1715843841450,
+      "end": 1715843841451,
       "order": "post"
     },
     {
       "name": "nuxt:imports-transform",
-      "start": 1715842300735,
-      "end": 1715842300736,
+      "start": 1715843841450,
+      "end": 1715843841451,
       "order": "post"
     },
     {
       "name": "unctx:transform",
-      "start": 1715842300736,
-      "end": 1715842300736,
+      "start": 1715843841451,
+      "end": 1715843841451,
       "order": "post"
     },
     {
       "name": "unctx:transform",
-      "start": 1715842300736,
-      "end": 1715842300736,
+      "start": 1715843841451,
+      "end": 1715843841451,
       "order": "post"
     },
     {
       "name": "nuxt:pages-macros-transform",
-      "start": 1715842300736,
-      "end": 1715842300736,
+      "start": 1715843841451,
+      "end": 1715843841451,
       "order": "post"
     },
     {
       "name": "nuxt:pages-macros-transform",
-      "start": 1715842300736,
-      "end": 1715842300736,
+      "start": 1715843841451,
+      "end": 1715843841451,
       "order": "post"
     },
     {
       "name": "nuxt:tree-shake-template",
-      "start": 1715842300736,
-      "end": 1715842300736,
+      "start": 1715843841451,
+      "end": 1715843841451,
       "order": "post"
     },
     {
       "name": "nuxt:components-loader",
       "result": "import { default as __nuxt_component_0 } from \"E:/Projects/JavaRayaInternational/website/components/SectionTitle.vue\";\nimport { default as __nuxt_component_1 } from \"E:/Projects/JavaRayaInternational/website/node_modules/nuxt/dist/app/components/nuxt-link\";\n\r\n    const _sfc_main = {\r\n        components: {\r\n            SectionTitle: () => import(\"@/components/SectionTitle\"),\r\n            ShapeWithAnimation: () => import(\"@/components/ShapeWithAnimation\"),\r\n        },\r\n    };\r\n\nimport { resolveComponent as _resolveComponent, withCtx as _withCtx, createTextVNode as _createTextVNode, mergeProps as _mergeProps } from \"vue\"\nimport { ssrRenderComponent as _ssrRenderComponent, ssrRenderAttrs as _ssrRenderAttrs } from \"vue/server-renderer\"\n\nfunction _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $options) {\n  const _component_SectionTitle = __nuxt_component_0\n  const _component_NuxtLink = __nuxt_component_1\n\n  _push(`<div${_ssrRenderAttrs(_mergeProps({\n    class: \"section-padding-t110-b120 newsletter-section bg-cover overflow-hidden\",\n    \"data-overlay\": \"0.7\",\n    style: { backgroundImage: `url('/images/bg/newsletter.jpg')` }\n  }, _attrs))}><div class=\"container\"><div class=\"row align-items-center\"><div class=\"col-lg-12\"><div class=\"cta-content text-center\">`)\n  _push(_ssrRenderComponent(_component_SectionTitle, {\n    title: \"Let’s find out how to work together\",\n    \"sub-title\": \"Ready to start your project? The contact information collected through this form will only be used to send a response to your inquiry.\",\n    \"add-class-name\": \"color-light\"\n  }, null, _parent))\n  _push(_ssrRenderComponent(_component_NuxtLink, {\n    to: \"/contact-us\",\n    class: \"btn btn-primary btn-hover-secondary mt-6\"\n  }, {\n    default: _withCtx((_, _push, _parent, _scopeId) => {\n      if (_push) {\n        _push(`Get Started`)\n      } else {\n        return [\n          _createTextVNode(\"Get Started\")\n        ]\n      }\n    }),\n    _: 1\n  }, _parent))\n  _push(`</div></div></div></div></div>`)\n}\n\n\nimport { useSSRContext as __vite_useSSRContext } from 'vue'\nconst _sfc_setup = _sfc_main.setup\n_sfc_main.setup = (props, ctx) => {\n  const ssrContext = __vite_useSSRContext()\n  ;(ssrContext.modules || (ssrContext.modules = new Set())).add(\"components/CallToActionTwo.vue\")\n  return _sfc_setup ? _sfc_setup(props, ctx) : undefined\n}\nimport _export_sfc from '\u0000plugin-vue:export-helper'\nexport default /*#__PURE__*/_export_sfc(_sfc_main, [['ssrRender',_sfc_ssrRender]])",
-      "start": 1715842300736,
-      "end": 1715842300736,
+      "start": 1715843841451,
+      "end": 1715843841451,
       "order": "post",
       "sourcemaps": {
         "version": 3,
@@ -254,20 +254,20 @@
     },
     {
       "name": "nuxt:tree-shake-composables:transform",
-      "start": 1715842300736,
-      "end": 1715842300736,
+      "start": 1715843841451,
+      "end": 1715843841451,
       "order": "post"
     },
     {
       "name": "vite:build-import-analysis",
-      "start": 1715842300736,
-      "end": 1715842300736,
+      "start": 1715843841451,
+      "end": 1715843841451,
       "order": "normal"
     },
     {
       "name": "vite:reporter",
-      "start": 1715842300736,
-      "end": 1715842300736,
+      "start": 1715843841451,
+      "end": 1715843841451,
       "order": "normal"
     }
   ]

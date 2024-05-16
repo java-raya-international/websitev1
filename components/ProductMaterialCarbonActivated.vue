@@ -262,9 +262,7 @@
             <div class="digital-marketing" data-aos="fade-up">
               <div class="inner">
                 <p>
-                  We are ready for each brass and bronze ingot with 100 MT per
-                  month for EU an UK market. For more ingots informations and
-                  stock, please ask us for quotation.
+                  We have monthly production of 100 MT for both granulated and powdered for UK and EU zone.
                 </p>
               </div>
             </div>
@@ -316,6 +314,22 @@
               </div>
             </div>
           </div>
+
+          <div class="col mt-30">
+            <div class="work">
+              <div class="thumbnail">
+                <img src="/images/solutions/activated-carbon-pharmacy.jpg" />
+              </div>
+              <div class="info">
+                <h3 class="title">Pharmacy</h3>
+                <p class="desc">
+                  Water and air purification  for multiple stage of medicine
+                </p>
+              </div>
+            </div>
+          </div>
+
+
 
         </div>
 

@@ -4,75 +4,75 @@
     {
       "name": "vite:load-fallback",
       "result": "<template>\r\n    <div class=\"main-container\">\r\n        <TheHeader />\r\n        <OffCanvasMobileMenu />\r\n        <SearchPopup />\r\n        <BreadcrumbOne activePageName=\"Blog Details\" title=\"Find all our latest news, insights, and events\" backgroundUrl= \"/images/bg/breadcrumb-bg-four.jpg\" />\r\n\r\n        <!-- Blog Section Start -->\r\n        <div class=\"section-padding fix\">\r\n            <div class=\"container\">\r\n                <div class=\"row  mtn-50\">\r\n                    <div class=\"col-lg-8 col-12 order-lg-1 mt-50\">\r\n                        <div class=\"row row-cols-1 no-gutters\">\r\n                            <!-- Blog Start -->\r\n                            <div class=\"blog-3 blog-details col\" data-aos=\"fade-up\">\r\n                                <div class=\"thumbnail\">\r\n                                    <img class=\"w-100\" src=\"/images/blog/370/blog-1.jpg\" alt=\"Blog Image\">\r\n                                </div>\r\n                                <div class=\"info\">\r\n                                    <h3 class=\"title\">Marketing just became invaluable: a new revenue marketing model for a new world</h3>\r\n                                    <div class=\"desc\">\r\n                                        <p><strong>We've always known the power of digital, and we've mastered the strategy, tactics, and technology to harness it. Now, other departments have had to embrace the digital transformation that busine- sses have been talking about for so long, and those colleagues are turning to us in Marketing to provide guidance.</strong></p>\r\n\r\n                                        <p>Even if it is a brave new world for everyone else, for marketers it's another day in the proverbial office.</p>\r\n\r\n                                        <p>Now, the digital evolution is resonating across organizations. The pandemic has shifted internal structures and changed relationships with customers, and as a result marketers have become more valuable than ever.</p>\r\n\r\n                                        <p><strong>The Shift Inside Organizations: Marketers Become Indispensable in a Digital World.</strong></p>\r\n\r\n                                        <p>Marketing has often been known as the department that makes PowerPoints and polishes websites. That wasn't ever close to the whole truth, of course, but past company structures — in which Marketing always played second fiddle to Sales — allowed that falsehood to persist.</p>\r\n\r\n                                        <p>The pandemic has transformed what the marketing team means to an organization: It's given us agency. It's upended the customer journey. It's redefined how sales and marketing teams should interact. And it's forced businesses to see the value that marketers provide in a digital world.</p>\r\n                                    </div>\r\n                                    <ul class=\"meta mb-0 mt-4\">\r\n                                        <li><i class=\"fal fa-pencil-alt\"></i>Written by Admin, 10 Oct 2020</li>\r\n                                        <li><i class=\"fas fa-tags\"></i>Marketing, UX Design</li>\r\n                                        <li><i class=\"fas fa-comments\"></i>4 Comments</li>\r\n                                        <li class=\"media\"><a href=\"#\"><i class=\"fas fa-share-alt\"></i>Share this post</a>\r\n                                            <div class=\"list\">\r\n                                                <a href=\"#\"><i class=\"fab fa-facebook-f\"></i></a>\r\n                                                <a href=\"#\"><i class=\"fab fa-twitter\"></i></a>\r\n                                                <a href=\"#\"><i class=\"fab fa-linkedin\"></i></a>\r\n                                                <a href=\"#\"><i class=\"fab fa-tumblr-square\"></i></a>\r\n                                            </div>\r\n                                        </li>\r\n                                    </ul>\r\n                                </div>\r\n                            </div>\r\n                            <!-- Blog End -->\r\n\r\n                            <div class=\"entry-author\">\r\n                                <div class=\"author-info\">\r\n                                    <div class=\"author-avatar\">\r\n                                        <img src=\"/images/blog/blog-author.png\" alt=\"image\">\r\n                                    </div>\r\n                                    <div class=\"author-description\">\r\n                                        <h6 class=\"author-name\">Eloise Smith</h6>\r\n                                        <span class=\"designation\">CEO at Flow</span>\r\n                                        <div class=\"author-biographical-info\">\r\n                                            She is a lawyer, podcaster, speaker, and writer. As an educational content director, she helps develop HasThemes' premium training products.\r\n                                        </div>\r\n                                    </div>\r\n                                </div>\r\n                            </div>\r\n\r\n                            <div class=\"blog-nav-links\">\r\n                                <h4 class=\"title\">Related Posts </h4>\r\n                                <div class=\"nav-list\">\r\n                                    <div class=\"nav-item prev\">\r\n                                        <div class=\"inner\">\r\n                                            <a href=\"#\">\r\n                                                <div class=\"hover-bg has-thumbnail\" :style=\"{backgroundImage: `url('/images/pagination/blog-pagination.jpg')`}\"></div>\r\n                                                <span class=\"cate\">Marketing</span>\r\n                                                <h6>Eleven top tips for developing agile marketing strategies that work</h6>\r\n                                            </a>\r\n                                        </div>\r\n                                    </div>\r\n\r\n                                    <div class=\"nav-item next\">\r\n                                        <div class=\"inner\">\r\n                                            <a href=\"#\">\r\n                                                <div class=\"hover-bg has-thumbnail\" :style=\"{backgroundImage: `url('/images/pagination/blog-pagination-2.jpg')`}\"></div>\r\n                                                <span class=\"cate\">Startup</span>\r\n                                                <h6>Growing a startup involves balancing out the financial stack</h6>\r\n                                            </a>\r\n                                        </div>\r\n                                    </div>\r\n                                </div>\r\n                            </div>\r\n\r\n                            <div class=\"comment-list-wrapper\">\r\n                                <div class=\"row\">\r\n                                    <div class=\"col-lg-12\">\r\n                                        <h4 class=\"title\">Comments (4) </h4>\r\n                                    </div>\r\n                                    <div class=\"col-lg-12\">\r\n                                        <ul class=\"comment-list\">\r\n                                            <li class=\"comment\">\r\n                                                <div class=\"comment-2\">\r\n                                                    <div class=\"comment-author vcard\">\r\n                                                        <img alt=\"\" src=\"/images/comment/comment1.png\">\r\n                                                    </div>\r\n                                                    <div class=\"comment-content\">\r\n                                                        <div class=\"meta\">\r\n                                                            <h6 class=\"fn\">Thomas Smith</h6>\r\n                                                            <div class=\"comment-datetime\"> 10 Oct, 2019. 10:00AM </div>\r\n                                                        </div>\r\n                                                        <div class=\"comment-text\">\r\n                                                            <p>An interesting article​ about ​content marketing. It has evolved moving from If you are interested in content marketing, have a look at the article's traditional media into the digital landscape.</p>\r\n                                                        </div>\r\n                                                        <div class=\"comment-actions\">\r\n                                                            <a class=\"comment-reply-link\" href=\"javascript:void(0)\">Reply</a>\r\n                                                        </div>\r\n                                                    </div>\r\n                                                </div>\r\n                                            </li>\r\n                                            <!-- comment End-->\r\n                                            <li class=\"children comment\">\r\n                                                <div class=\"comment-6\">\r\n                                                    <div class=\"comment-author vcard\">\r\n                                                        <img alt=\"\" src=\"/images/comment/comment2.png\">\r\n                                                    </div>\r\n                                                    <div class=\"comment-content\">\r\n                                                        <div class=\"meta\">\r\n                                                            <h6 class=\"fn\">Eloise Smith</h6>\r\n                                                            <div class=\"comment-datetime\">10 Oct, 2019. 10:00AM</div>\r\n                                                        </div>\r\n                                                        <div class=\"comment-text\">\r\n                                                            <p>An interesting article​ about ​content marketing. It has evolved moving from If you are interested in content marketing, have a look at the article's traditional media into the digital landscape.</p>\r\n                                                        </div>\r\n                                                        <div class=\"comment-actions\">\r\n                                                            <a class=\"comment-reply-link\" href=\"javascript:void(0)\">Reply</a>\r\n                                                        </div>\r\n                                                    </div>\r\n                                                </div>\r\n                                            </li><!-- comment End -->\r\n                                            <li class=\"comment\">\r\n                                                <div class=\"comment-2\">\r\n                                                    <div class=\"comment-author vcard\">\r\n                                                        <img alt=\"\" src=\"/images/comment/comment3.png\">\r\n                                                    </div>\r\n                                                    <div class=\"comment-content\">\r\n                                                        <div class=\"meta\">\r\n                                                            <h6 class=\"fn\">Stella Smith</h6>\r\n                                                            <div class=\"comment-datetime\"> 10 Oct, 2019. 10:00AM </div>\r\n                                                        </div>\r\n                                                        <div class=\"comment-text\">\r\n                                                            <p>An interesting article​ about ​content marketing. It has evolved moving from If you are interested in content marketing, have a look at the article's traditional media into the digital landscape.</p>\r\n                                                        </div>\r\n                                                        <div class=\"comment-actions\">\r\n                                                            <a class=\"comment-reply-link\" href=\"javascript:void(0)\">Reply</a>\r\n                                                        </div>\r\n                                                    </div>\r\n                                                </div>\r\n                                            </li>\r\n                                        </ul>\r\n                                    </div>\r\n                                </div>\r\n                            </div>\r\n\r\n                            <div class=\"comment-form-wrap\">\r\n                                <div class=\"comment-respond\">\r\n                                    <h3 class=\"title\">Leave a Reply</h3>\r\n                                    <form action=\"#\" method=\"post\">\r\n                                        <div class=\"row\">\r\n                                            <div class=\"col-md-6 col-12 mb-3\">\r\n                                                <input type=\"text\" placeholder=\"Your Name *\" name=\"name\">\r\n                                            </div>\r\n                                            <div class=\"col-md-6 col-12 mb-3\">\r\n                                                <input type=\"email\" placeholder=\"Email *\" name=\"email\">\r\n                                            </div>\r\n                                            <div class=\"col-12 mb-3\">\r\n                                                <textarea name=\"message\" placeholder=\"Your Comment\"></textarea>\r\n                                            </div>\r\n                                            <div class=\"col-12 text-left\">\r\n                                                <button class=\"btn btn-primary btn-hover-secondary\">Submit</button>\r\n                                            </div>\r\n                                        </div>\r\n                                    </form>\r\n                                </div>\r\n                            </div>\r\n                        </div>\r\n                    </div>\r\n\r\n                    <div class=\"col-lg-4 col-12 order-lg-2 mt-50\">\r\n                        <BlogSidebar />\r\n                    </div>\r\n                </div>\r\n            </div>\r\n        </div>\r\n        <!-- Blog Section End -->\r\n\r\n        <CallToActionTwo />\r\n        <TheFooter />\r\n    </div>\r\n</template>\r\n\r\n<script>\r\n    import blogData from \"~/data/blog.json\";\r\n\r\n    export default {\r\n        data() {\r\n            return {\r\n                blogData\r\n            }\r\n        },\r\n    };\r\n</script>\r\n\r\n\r\n",
-      "start": 1715842299944,
-      "end": 1715842300011,
+      "start": 1715843840655,
+      "end": 1715843840720,
       "sourcemaps": null
     },
     {
       "name": "nuxt:layer-aliasing",
-      "start": 1715842300011,
-      "end": 1715842300011,
+      "start": 1715843840720,
+      "end": 1715843840720,
       "order": "pre"
     },
     {
       "name": "nuxt:layer-aliasing",
-      "start": 1715842300011,
-      "end": 1715842300011,
+      "start": 1715843840720,
+      "end": 1715843840720,
       "order": "pre"
     },
     {
       "name": "nuxt:server-devonly:transform",
-      "start": 1715842300011,
-      "end": 1715842300011,
+      "start": 1715843840720,
+      "end": 1715843840720,
       "order": "pre"
     },
     {
       "name": "nuxt:server-devonly:transform",
-      "start": 1715842300011,
-      "end": 1715842300011,
+      "start": 1715843840720,
+      "end": 1715843840720,
       "order": "pre"
     },
     {
       "name": "nuxt:client-fallback-auto-id",
-      "start": 1715842300011,
-      "end": 1715842300011,
+      "start": 1715843840720,
+      "end": 1715843840720,
       "order": "pre"
     },
     {
       "name": "server-only-component-transform",
-      "start": 1715842300011,
-      "end": 1715842300011,
+      "start": 1715843840720,
+      "end": 1715843840720,
       "order": "pre"
     },
     {
       "name": "vite:css",
-      "start": 1715842300011,
-      "end": 1715842300011,
+      "start": 1715843840720,
+      "end": 1715843840720,
       "order": "normal"
     },
     {
       "name": "vite:esbuild",
-      "start": 1715842300011,
-      "end": 1715842300011,
+      "start": 1715843840720,
+      "end": 1715843840720,
       "order": "normal"
     },
     {
       "name": "vite:json",
-      "start": 1715842300011,
-      "end": 1715842300011,
+      "start": 1715843840720,
+      "end": 1715843840720,
       "order": "normal"
     },
     {
       "name": "vite:worker",
-      "start": 1715842300011,
-      "end": 1715842300011,
+      "start": 1715843840720,
+      "end": 1715843840720,
       "order": "normal"
     },
     {
       "name": "vite:vue",
       "result": "\r\n    import blogData from \"~/data/blog.json\";\r\n\r\n    const _sfc_main = {\r\n        data() {\r\n            return {\r\n                blogData\r\n            }\r\n        },\r\n    };\r\n\nimport { resolveComponent as _resolveComponent, mergeProps as _mergeProps } from \"vue\"\nimport { ssrRenderComponent as _ssrRenderComponent, ssrRenderAttr as _ssrRenderAttr, ssrRenderStyle as _ssrRenderStyle, ssrRenderAttrs as _ssrRenderAttrs } from \"vue/server-renderer\"\nimport _imports_0 from '/images/blog/370/blog-1.jpg'\nimport _imports_1 from '/images/blog/blog-author.png'\nimport _imports_2 from '/images/comment/comment1.png'\nimport _imports_3 from '/images/comment/comment2.png'\nimport _imports_4 from '/images/comment/comment3.png'\n\n\nfunction _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $options) {\n  const _component_TheHeader = _resolveComponent(\"TheHeader\")\n  const _component_OffCanvasMobileMenu = _resolveComponent(\"OffCanvasMobileMenu\")\n  const _component_SearchPopup = _resolveComponent(\"SearchPopup\")\n  const _component_BreadcrumbOne = _resolveComponent(\"BreadcrumbOne\")\n  const _component_BlogSidebar = _resolveComponent(\"BlogSidebar\")\n  const _component_CallToActionTwo = _resolveComponent(\"CallToActionTwo\")\n  const _component_TheFooter = _resolveComponent(\"TheFooter\")\n\n  _push(`<div${_ssrRenderAttrs(_mergeProps({ class: \"main-container\" }, _attrs))}>`)\n  _push(_ssrRenderComponent(_component_TheHeader, null, null, _parent))\n  _push(_ssrRenderComponent(_component_OffCanvasMobileMenu, null, null, _parent))\n  _push(_ssrRenderComponent(_component_SearchPopup, null, null, _parent))\n  _push(_ssrRenderComponent(_component_BreadcrumbOne, {\n    activePageName: \"Blog Details\",\n    title: \"Find all our latest news, insights, and events\",\n    backgroundUrl: \"/images/bg/breadcrumb-bg-four.jpg\"\n  }, null, _parent))\n  _push(`<div class=\"section-padding fix\"><div class=\"container\"><div class=\"row mtn-50\"><div class=\"col-lg-8 col-12 order-lg-1 mt-50\"><div class=\"row row-cols-1 no-gutters\"><div class=\"blog-3 blog-details col\" data-aos=\"fade-up\"><div class=\"thumbnail\"><img class=\"w-100\"${\n    _ssrRenderAttr(\"src\", _imports_0)\n  } alt=\"Blog Image\"></div><div class=\"info\"><h3 class=\"title\">Marketing just became invaluable: a new revenue marketing model for a new world</h3><div class=\"desc\"><p><strong>We&#39;ve always known the power of digital, and we&#39;ve mastered the strategy, tactics, and technology to harness it. Now, other departments have had to embrace the digital transformation that busine- sses have been talking about for so long, and those colleagues are turning to us in Marketing to provide guidance.</strong></p><p>Even if it is a brave new world for everyone else, for marketers it&#39;s another day in the proverbial office.</p><p>Now, the digital evolution is resonating across organizations. The pandemic has shifted internal structures and changed relationships with customers, and as a result marketers have become more valuable than ever.</p><p><strong>The Shift Inside Organizations: Marketers Become Indispensable in a Digital World.</strong></p><p>Marketing has often been known as the department that makes PowerPoints and polishes websites. That wasn&#39;t ever close to the whole truth, of course, but past company structures — in which Marketing always played second fiddle to Sales — allowed that falsehood to persist.</p><p>The pandemic has transformed what the marketing team means to an organization: It&#39;s given us agency. It&#39;s upended the customer journey. It&#39;s redefined how sales and marketing teams should interact. And it&#39;s forced businesses to see the value that marketers provide in a digital world.</p></div><ul class=\"meta mb-0 mt-4\"><li><i class=\"fal fa-pencil-alt\"></i>Written by Admin, 10 Oct 2020</li><li><i class=\"fas fa-tags\"></i>Marketing, UX Design</li><li><i class=\"fas fa-comments\"></i>4 Comments</li><li class=\"media\"><a href=\"#\"><i class=\"fas fa-share-alt\"></i>Share this post</a><div class=\"list\"><a href=\"#\"><i class=\"fab fa-facebook-f\"></i></a><a href=\"#\"><i class=\"fab fa-twitter\"></i></a><a href=\"#\"><i class=\"fab fa-linkedin\"></i></a><a href=\"#\"><i class=\"fab fa-tumblr-square\"></i></a></div></li></ul></div></div><div class=\"entry-author\"><div class=\"author-info\"><div class=\"author-avatar\"><img${\n    _ssrRenderAttr(\"src\", _imports_1)\n  } alt=\"image\"></div><div class=\"author-description\"><h6 class=\"author-name\">Eloise Smith</h6><span class=\"designation\">CEO at Flow</span><div class=\"author-biographical-info\"> She is a lawyer, podcaster, speaker, and writer. As an educational content director, she helps develop HasThemes&#39; premium training products. </div></div></div></div><div class=\"blog-nav-links\"><h4 class=\"title\">Related Posts </h4><div class=\"nav-list\"><div class=\"nav-item prev\"><div class=\"inner\"><a href=\"#\"><div class=\"hover-bg has-thumbnail\" style=\"${\n    _ssrRenderStyle({backgroundImage: `url('/images/pagination/blog-pagination.jpg')`})\n  }\"></div><span class=\"cate\">Marketing</span><h6>Eleven top tips for developing agile marketing strategies that work</h6></a></div></div><div class=\"nav-item next\"><div class=\"inner\"><a href=\"#\"><div class=\"hover-bg has-thumbnail\" style=\"${\n    _ssrRenderStyle({backgroundImage: `url('/images/pagination/blog-pagination-2.jpg')`})\n  }\"></div><span class=\"cate\">Startup</span><h6>Growing a startup involves balancing out the financial stack</h6></a></div></div></div></div><div class=\"comment-list-wrapper\"><div class=\"row\"><div class=\"col-lg-12\"><h4 class=\"title\">Comments (4) </h4></div><div class=\"col-lg-12\"><ul class=\"comment-list\"><li class=\"comment\"><div class=\"comment-2\"><div class=\"comment-author vcard\"><img alt=\"\"${\n    _ssrRenderAttr(\"src\", _imports_2)\n  }></div><div class=\"comment-content\"><div class=\"meta\"><h6 class=\"fn\">Thomas Smith</h6><div class=\"comment-datetime\"> 10 Oct, 2019. 10:00AM </div></div><div class=\"comment-text\"><p>An interesting article​ about ​content marketing. It has evolved moving from If you are interested in content marketing, have a look at the article&#39;s traditional media into the digital landscape.</p></div><div class=\"comment-actions\"><a class=\"comment-reply-link\" href=\"javascript:void(0)\">Reply</a></div></div></div></li><li class=\"children comment\"><div class=\"comment-6\"><div class=\"comment-author vcard\"><img alt=\"\"${\n    _ssrRenderAttr(\"src\", _imports_3)\n  }></div><div class=\"comment-content\"><div class=\"meta\"><h6 class=\"fn\">Eloise Smith</h6><div class=\"comment-datetime\">10 Oct, 2019. 10:00AM</div></div><div class=\"comment-text\"><p>An interesting article​ about ​content marketing. It has evolved moving from If you are interested in content marketing, have a look at the article&#39;s traditional media into the digital landscape.</p></div><div class=\"comment-actions\"><a class=\"comment-reply-link\" href=\"javascript:void(0)\">Reply</a></div></div></div></li><li class=\"comment\"><div class=\"comment-2\"><div class=\"comment-author vcard\"><img alt=\"\"${\n    _ssrRenderAttr(\"src\", _imports_4)\n  }></div><div class=\"comment-content\"><div class=\"meta\"><h6 class=\"fn\">Stella Smith</h6><div class=\"comment-datetime\"> 10 Oct, 2019. 10:00AM </div></div><div class=\"comment-text\"><p>An interesting article​ about ​content marketing. It has evolved moving from If you are interested in content marketing, have a look at the article&#39;s traditional media into the digital landscape.</p></div><div class=\"comment-actions\"><a class=\"comment-reply-link\" href=\"javascript:void(0)\">Reply</a></div></div></div></li></ul></div></div></div><div class=\"comment-form-wrap\"><div class=\"comment-respond\"><h3 class=\"title\">Leave a Reply</h3><form action=\"#\" method=\"post\"><div class=\"row\"><div class=\"col-md-6 col-12 mb-3\"><input type=\"text\" placeholder=\"Your Name *\" name=\"name\"></div><div class=\"col-md-6 col-12 mb-3\"><input type=\"email\" placeholder=\"Email *\" name=\"email\"></div><div class=\"col-12 mb-3\"><textarea name=\"message\" placeholder=\"Your Comment\"></textarea></div><div class=\"col-12 text-left\"><button class=\"btn btn-primary btn-hover-secondary\">Submit</button></div></div></form></div></div></div></div><div class=\"col-lg-4 col-12 order-lg-2 mt-50\">`)\n  _push(_ssrRenderComponent(_component_BlogSidebar, null, null, _parent))\n  _push(`</div></div></div></div>`)\n  _push(_ssrRenderComponent(_component_CallToActionTwo, null, null, _parent))\n  _push(_ssrRenderComponent(_component_TheFooter, null, null, _parent))\n  _push(`</div>`)\n}\n\n\nimport { useSSRContext as __vite_useSSRContext } from 'vue'\nconst _sfc_setup = _sfc_main.setup\n_sfc_main.setup = (props, ctx) => {\n  const ssrContext = __vite_useSSRContext()\n  ;(ssrContext.modules || (ssrContext.modules = new Set())).add(\"pages/blog/blog-details.vue\")\n  return _sfc_setup ? _sfc_setup(props, ctx) : undefined\n}\nimport _export_sfc from '\u0000plugin-vue:export-helper'\nexport default /*#__PURE__*/_export_sfc(_sfc_main, [['ssrRender',_sfc_ssrRender]])",
-      "start": 1715842300011,
-      "end": 1715842300014,
+      "start": 1715843840720,
+      "end": 1715843840722,
       "order": "normal",
       "sourcemaps": {
         "version": 3,
@@ -89,159 +89,159 @@
     },
     {
       "name": "vite:vue-jsx",
-      "start": 1715842300015,
-      "end": 1715842300015,
+      "start": 1715843840722,
+      "end": 1715843840722,
       "order": "normal"
     },
     {
       "name": "replace",
-      "start": 1715842300015,
-      "end": 1715842300015,
+      "start": 1715843840722,
+      "end": 1715843840722,
       "order": "normal"
     },
     {
       "name": "replace",
-      "start": 1715842300015,
-      "end": 1715842300015,
+      "start": 1715843840722,
+      "end": 1715843840722,
       "order": "normal"
     },
     {
       "name": "nuxt:remove-plugin-metadata",
-      "start": 1715842300015,
-      "end": 1715842300015,
+      "start": 1715843840722,
+      "end": 1715843840723,
       "order": "normal"
     },
     {
       "name": "nuxt:remove-plugin-metadata",
-      "start": 1715842300015,
-      "end": 1715842300015,
+      "start": 1715843840722,
+      "end": 1715843840723,
       "order": "normal"
     },
     {
       "name": "nuxt:components:imports",
-      "start": 1715842300015,
-      "end": 1715842300015,
+      "start": 1715843840723,
+      "end": 1715843840723,
       "order": "normal"
     },
     {
       "name": "replace",
-      "start": 1715842300015,
-      "end": 1715842300015,
+      "start": 1715843840723,
+      "end": 1715843840723,
       "order": "normal"
     },
     {
       "name": "ssr-styles",
-      "start": 1715842300015,
-      "end": 1715842300015,
+      "start": 1715843840723,
+      "end": 1715843840723,
       "order": "normal"
     },
     {
       "name": "vite:define",
-      "start": 1715842300015,
-      "end": 1715842300016,
+      "start": 1715843840723,
+      "end": 1715843840723,
       "order": "normal"
     },
     {
       "name": "vite:css-post",
-      "start": 1715842300016,
-      "end": 1715842300016,
+      "start": 1715843840723,
+      "end": 1715843840723,
       "order": "normal"
     },
     {
       "name": "vite:build-html",
-      "start": 1715842300016,
-      "end": 1715842300016,
+      "start": 1715843840723,
+      "end": 1715843840723,
       "order": "normal"
     },
     {
       "name": "vite:worker-import-meta-url",
-      "start": 1715842300016,
-      "end": 1715842300016,
+      "start": 1715843840723,
+      "end": 1715843840723,
       "order": "normal"
     },
     {
       "name": "vite:asset-import-meta-url",
-      "start": 1715842300016,
-      "end": 1715842300016,
+      "start": 1715843840723,
+      "end": 1715843840723,
       "order": "normal"
     },
     {
       "name": "commonjs",
-      "start": 1715842300016,
-      "end": 1715842300016,
+      "start": 1715843840723,
+      "end": 1715843840723,
       "order": "normal"
     },
     {
       "name": "vite:dynamic-import-vars",
-      "start": 1715842300016,
-      "end": 1715842300016,
+      "start": 1715843840723,
+      "end": 1715843840723,
       "order": "normal"
     },
     {
       "name": "vite:import-glob",
-      "start": 1715842300016,
-      "end": 1715842300016,
+      "start": 1715843840723,
+      "end": 1715843840723,
       "order": "normal"
     },
     {
       "name": "nuxt:composable-keys",
-      "start": 1715842300016,
-      "end": 1715842300016,
+      "start": 1715843840723,
+      "end": 1715843840723,
       "order": "post"
     },
     {
       "name": "nuxt:composable-keys",
-      "start": 1715842300016,
-      "end": 1715842300016,
+      "start": 1715843840723,
+      "end": 1715843840723,
       "order": "post"
     },
     {
       "name": "nuxt:imports-transform",
-      "start": 1715842300016,
-      "end": 1715842300016,
+      "start": 1715843840723,
+      "end": 1715843840724,
       "order": "post"
     },
     {
       "name": "nuxt:imports-transform",
-      "start": 1715842300016,
-      "end": 1715842300016,
+      "start": 1715843840723,
+      "end": 1715843840724,
       "order": "post"
     },
     {
       "name": "unctx:transform",
-      "start": 1715842300016,
-      "end": 1715842300016,
+      "start": 1715843840724,
+      "end": 1715843840724,
       "order": "post"
     },
     {
       "name": "unctx:transform",
-      "start": 1715842300016,
-      "end": 1715842300016,
+      "start": 1715843840724,
+      "end": 1715843840724,
       "order": "post"
     },
     {
       "name": "nuxt:pages-macros-transform",
-      "start": 1715842300016,
-      "end": 1715842300016,
+      "start": 1715843840724,
+      "end": 1715843840724,
       "order": "post"
     },
     {
       "name": "nuxt:pages-macros-transform",
-      "start": 1715842300016,
-      "end": 1715842300016,
+      "start": 1715843840724,
+      "end": 1715843840724,
       "order": "post"
     },
     {
       "name": "nuxt:tree-shake-template",
-      "start": 1715842300016,
-      "end": 1715842300017,
+      "start": 1715843840724,
+      "end": 1715843840724,
       "order": "post"
     },
     {
       "name": "nuxt:components-loader",
       "result": "import { default as __nuxt_component_0 } from \"E:/Projects/JavaRayaInternational/website/components/TheHeader.vue\";\nimport { default as __nuxt_component_1 } from \"E:/Projects/JavaRayaInternational/website/components/OffCanvasMobileMenu.vue\";\nimport { default as __nuxt_component_2 } from \"E:/Projects/JavaRayaInternational/website/components/SearchPopup.vue\";\nimport { default as __nuxt_component_3 } from \"E:/Projects/JavaRayaInternational/website/components/BreadcrumbOne.vue\";\nimport { default as __nuxt_component_4 } from \"E:/Projects/JavaRayaInternational/website/components/BlogSidebar.vue\";\nimport { default as __nuxt_component_5 } from \"E:/Projects/JavaRayaInternational/website/components/CallToActionTwo.vue\";\nimport { default as __nuxt_component_6 } from \"E:/Projects/JavaRayaInternational/website/components/TheFooter.vue\";\n\r\n    import blogData from \"~/data/blog.json\";\r\n\r\n    const _sfc_main = {\r\n        data() {\r\n            return {\r\n                blogData\r\n            }\r\n        },\r\n    };\r\n\nimport { resolveComponent as _resolveComponent, mergeProps as _mergeProps } from \"vue\"\nimport { ssrRenderComponent as _ssrRenderComponent, ssrRenderAttr as _ssrRenderAttr, ssrRenderStyle as _ssrRenderStyle, ssrRenderAttrs as _ssrRenderAttrs } from \"vue/server-renderer\"\nimport _imports_0 from '/images/blog/370/blog-1.jpg'\nimport _imports_1 from '/images/blog/blog-author.png'\nimport _imports_2 from '/images/comment/comment1.png'\nimport _imports_3 from '/images/comment/comment2.png'\nimport _imports_4 from '/images/comment/comment3.png'\n\n\nfunction _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $options) {\n  const _component_TheHeader = __nuxt_component_0\n  const _component_OffCanvasMobileMenu = __nuxt_component_1\n  const _component_SearchPopup = __nuxt_component_2\n  const _component_BreadcrumbOne = __nuxt_component_3\n  const _component_BlogSidebar = __nuxt_component_4\n  const _component_CallToActionTwo = __nuxt_component_5\n  const _component_TheFooter = __nuxt_component_6\n\n  _push(`<div${_ssrRenderAttrs(_mergeProps({ class: \"main-container\" }, _attrs))}>`)\n  _push(_ssrRenderComponent(_component_TheHeader, null, null, _parent))\n  _push(_ssrRenderComponent(_component_OffCanvasMobileMenu, null, null, _parent))\n  _push(_ssrRenderComponent(_component_SearchPopup, null, null, _parent))\n  _push(_ssrRenderComponent(_component_BreadcrumbOne, {\n    activePageName: \"Blog Details\",\n    title: \"Find all our latest news, insights, and events\",\n    backgroundUrl: \"/images/bg/breadcrumb-bg-four.jpg\"\n  }, null, _parent))\n  _push(`<div class=\"section-padding fix\"><div class=\"container\"><div class=\"row mtn-50\"><div class=\"col-lg-8 col-12 order-lg-1 mt-50\"><div class=\"row row-cols-1 no-gutters\"><div class=\"blog-3 blog-details col\" data-aos=\"fade-up\"><div class=\"thumbnail\"><img class=\"w-100\"${\n    _ssrRenderAttr(\"src\", _imports_0)\n  } alt=\"Blog Image\"></div><div class=\"info\"><h3 class=\"title\">Marketing just became invaluable: a new revenue marketing model for a new world</h3><div class=\"desc\"><p><strong>We&#39;ve always known the power of digital, and we&#39;ve mastered the strategy, tactics, and technology to harness it. Now, other departments have had to embrace the digital transformation that busine- sses have been talking about for so long, and those colleagues are turning to us in Marketing to provide guidance.</strong></p><p>Even if it is a brave new world for everyone else, for marketers it&#39;s another day in the proverbial office.</p><p>Now, the digital evolution is resonating across organizations. The pandemic has shifted internal structures and changed relationships with customers, and as a result marketers have become more valuable than ever.</p><p><strong>The Shift Inside Organizations: Marketers Become Indispensable in a Digital World.</strong></p><p>Marketing has often been known as the department that makes PowerPoints and polishes websites. That wasn&#39;t ever close to the whole truth, of course, but past company structures — in which Marketing always played second fiddle to Sales — allowed that falsehood to persist.</p><p>The pandemic has transformed what the marketing team means to an organization: It&#39;s given us agency. It&#39;s upended the customer journey. It&#39;s redefined how sales and marketing teams should interact. And it&#39;s forced businesses to see the value that marketers provide in a digital world.</p></div><ul class=\"meta mb-0 mt-4\"><li><i class=\"fal fa-pencil-alt\"></i>Written by Admin, 10 Oct 2020</li><li><i class=\"fas fa-tags\"></i>Marketing, UX Design</li><li><i class=\"fas fa-comments\"></i>4 Comments</li><li class=\"media\"><a href=\"#\"><i class=\"fas fa-share-alt\"></i>Share this post</a><div class=\"list\"><a href=\"#\"><i class=\"fab fa-facebook-f\"></i></a><a href=\"#\"><i class=\"fab fa-twitter\"></i></a><a href=\"#\"><i class=\"fab fa-linkedin\"></i></a><a href=\"#\"><i class=\"fab fa-tumblr-square\"></i></a></div></li></ul></div></div><div class=\"entry-author\"><div class=\"author-info\"><div class=\"author-avatar\"><img${\n    _ssrRenderAttr(\"src\", _imports_1)\n  } alt=\"image\"></div><div class=\"author-description\"><h6 class=\"author-name\">Eloise Smith</h6><span class=\"designation\">CEO at Flow</span><div class=\"author-biographical-info\"> She is a lawyer, podcaster, speaker, and writer. As an educational content director, she helps develop HasThemes&#39; premium training products. </div></div></div></div><div class=\"blog-nav-links\"><h4 class=\"title\">Related Posts </h4><div class=\"nav-list\"><div class=\"nav-item prev\"><div class=\"inner\"><a href=\"#\"><div class=\"hover-bg has-thumbnail\" style=\"${\n    _ssrRenderStyle({backgroundImage: `url('/images/pagination/blog-pagination.jpg')`})\n  }\"></div><span class=\"cate\">Marketing</span><h6>Eleven top tips for developing agile marketing strategies that work</h6></a></div></div><div class=\"nav-item next\"><div class=\"inner\"><a href=\"#\"><div class=\"hover-bg has-thumbnail\" style=\"${\n    _ssrRenderStyle({backgroundImage: `url('/images/pagination/blog-pagination-2.jpg')`})\n  }\"></div><span class=\"cate\">Startup</span><h6>Growing a startup involves balancing out the financial stack</h6></a></div></div></div></div><div class=\"comment-list-wrapper\"><div class=\"row\"><div class=\"col-lg-12\"><h4 class=\"title\">Comments (4) </h4></div><div class=\"col-lg-12\"><ul class=\"comment-list\"><li class=\"comment\"><div class=\"comment-2\"><div class=\"comment-author vcard\"><img alt=\"\"${\n    _ssrRenderAttr(\"src\", _imports_2)\n  }></div><div class=\"comment-content\"><div class=\"meta\"><h6 class=\"fn\">Thomas Smith</h6><div class=\"comment-datetime\"> 10 Oct, 2019. 10:00AM </div></div><div class=\"comment-text\"><p>An interesting article​ about ​content marketing. It has evolved moving from If you are interested in content marketing, have a look at the article&#39;s traditional media into the digital landscape.</p></div><div class=\"comment-actions\"><a class=\"comment-reply-link\" href=\"javascript:void(0)\">Reply</a></div></div></div></li><li class=\"children comment\"><div class=\"comment-6\"><div class=\"comment-author vcard\"><img alt=\"\"${\n    _ssrRenderAttr(\"src\", _imports_3)\n  }></div><div class=\"comment-content\"><div class=\"meta\"><h6 class=\"fn\">Eloise Smith</h6><div class=\"comment-datetime\">10 Oct, 2019. 10:00AM</div></div><div class=\"comment-text\"><p>An interesting article​ about ​content marketing. It has evolved moving from If you are interested in content marketing, have a look at the article&#39;s traditional media into the digital landscape.</p></div><div class=\"comment-actions\"><a class=\"comment-reply-link\" href=\"javascript:void(0)\">Reply</a></div></div></div></li><li class=\"comment\"><div class=\"comment-2\"><div class=\"comment-author vcard\"><img alt=\"\"${\n    _ssrRenderAttr(\"src\", _imports_4)\n  }></div><div class=\"comment-content\"><div class=\"meta\"><h6 class=\"fn\">Stella Smith</h6><div class=\"comment-datetime\"> 10 Oct, 2019. 10:00AM </div></div><div class=\"comment-text\"><p>An interesting article​ about ​content marketing. It has evolved moving from If you are interested in content marketing, have a look at the article&#39;s traditional media into the digital landscape.</p></div><div class=\"comment-actions\"><a class=\"comment-reply-link\" href=\"javascript:void(0)\">Reply</a></div></div></div></li></ul></div></div></div><div class=\"comment-form-wrap\"><div class=\"comment-respond\"><h3 class=\"title\">Leave a Reply</h3><form action=\"#\" method=\"post\"><div class=\"row\"><div class=\"col-md-6 col-12 mb-3\"><input type=\"text\" placeholder=\"Your Name *\" name=\"name\"></div><div class=\"col-md-6 col-12 mb-3\"><input type=\"email\" placeholder=\"Email *\" name=\"email\"></div><div class=\"col-12 mb-3\"><textarea name=\"message\" placeholder=\"Your Comment\"></textarea></div><div class=\"col-12 text-left\"><button class=\"btn btn-primary btn-hover-secondary\">Submit</button></div></div></form></div></div></div></div><div class=\"col-lg-4 col-12 order-lg-2 mt-50\">`)\n  _push(_ssrRenderComponent(_component_BlogSidebar, null, null, _parent))\n  _push(`</div></div></div></div>`)\n  _push(_ssrRenderComponent(_component_CallToActionTwo, null, null, _parent))\n  _push(_ssrRenderComponent(_component_TheFooter, null, null, _parent))\n  _push(`</div>`)\n}\n\n\nimport { useSSRContext as __vite_useSSRContext } from 'vue'\nconst _sfc_setup = _sfc_main.setup\n_sfc_main.setup = (props, ctx) => {\n  const ssrContext = __vite_useSSRContext()\n  ;(ssrContext.modules || (ssrContext.modules = new Set())).add(\"pages/blog/blog-details.vue\")\n  return _sfc_setup ? _sfc_setup(props, ctx) : undefined\n}\nimport _export_sfc from '\u0000plugin-vue:export-helper'\nexport default /*#__PURE__*/_export_sfc(_sfc_main, [['ssrRender',_sfc_ssrRender]])",
-      "start": 1715842300017,
-      "end": 1715842300017,
+      "start": 1715843840724,
+      "end": 1715843840724,
       "order": "post",
       "sourcemaps": {
         "version": 3,
@@ -254,20 +254,20 @@
     },
     {
       "name": "nuxt:tree-shake-composables:transform",
-      "start": 1715842300017,
-      "end": 1715842300017,
+      "start": 1715843840724,
+      "end": 1715843840724,
       "order": "post"
     },
     {
       "name": "vite:build-import-analysis",
-      "start": 1715842300017,
-      "end": 1715842300017,
+      "start": 1715843840724,
+      "end": 1715843840724,
       "order": "normal"
     },
     {
       "name": "vite:reporter",
-      "start": 1715842300017,
-      "end": 1715842300017,
+      "start": 1715843840724,
+      "end": 1715843840724,
       "order": "normal"
     }
   ]

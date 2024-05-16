@@ -4,45 +4,45 @@
     {
       "name": "vite:load-fallback",
       "result": "{\r\n    \"footerAboutWidget\": {\r\n        \"logoSrc\": \"/images/logo/footer-logo.png\",\r\n        \"telephone\": \"0123456789\",\r\n        \"email\": \"demo@example.com\",\r\n        \"fbUrl\": \"https://www.facebook.com/\",\r\n        \"twitterUrl\": \"https://twitter.com/\",\r\n        \"instagramUrl\": \"https://www.instagram.com/\"\r\n    },\r\n    \"footerLinkTitleOne\": \"Our Store\",\r\n    \"navListOne\": [\r\n        {\r\n            \"navTitle\": \"Retail\",\r\n            \"navUrl\": \"https://shop.javaraya.co.uk\",\r\n            \"target\": \"_blank\" \r\n        },\r\n        {\r\n            \"navTitle\": \"Materials and Metals\",\r\n            \"navUrl\": \"/business/material\" ,\r\n            \"target\": \"\" \r\n        }\r\n    ],\r\n    \"footerLinkTitleTwo\": \"Products\",\r\n    \"navListTwo\": [\r\n        {\r\n            \"navTitle\": \"Elementor Guru\",\r\n            \"navUrl\": \"/\" \r\n        },\r\n        {\r\n            \"navTitle\": \"WooLentor Pro\",\r\n            \"navUrl\": \"/\" \r\n        },\r\n        {\r\n            \"navTitle\": \"Plugins\",\r\n            \"navUrl\": \"/\" \r\n        },\r\n        {\r\n            \"navTitle\": \"Page Builder\",\r\n            \"navUrl\": \"/\" \r\n        }\r\n    ],\r\n    \"footerLinkTitleThree\": \"About\",\r\n    \"navListThree\": [\r\n        {\r\n            \"navTitle\": \"Company\",\r\n            \"navUrl\": \"/about/company\" ,\r\n            \"target\": \"\" \r\n        },\r\n        {\r\n            \"navTitle\": \"Privacy\",\r\n            \"navUrl\": \"/about/privacy\" ,\r\n            \"target\": \"\" \r\n        },\r\n        {\r\n            \"navTitle\": \"Contact Form\",\r\n            \"navUrl\": \"https://form.jotform.com/240958272825162\" ,\r\n            \"target\": \"_blank\" \r\n        },\r\n        {\r\n            \"navTitle\": \"Refund\",\r\n            \"navUrl\": \"/about/refund\" ,\r\n            \"target\": \"_blank\" \r\n        },\r\n        {\r\n            \"navTitle\": \"Term and Condition\",\r\n            \"navUrl\": \"/about/tandc\" ,\r\n            \"target\": \"_blank\" \r\n        }\r\n    ],\r\n    \"footerLinkTitleFour\": \"Contact\",\r\n    \"navListFour\": [\r\n        {\r\n            \"navTitle\": \"Support Ticket\",\r\n            \"navUrl\": \"/\" \r\n        },\r\n        {\r\n            \"navTitle\": \"Help Desk\",\r\n            \"navUrl\": \"/\" \r\n        },\r\n        {\r\n            \"navTitle\": \"Live Chat\",\r\n            \"navUrl\": \"/\" \r\n        },\r\n        {\r\n            \"navTitle\": \"FAQs\",\r\n            \"navUrl\": \"/\" \r\n        }\r\n    ]\r\n}",
-      "start": 1715842296169,
-      "end": 1715842296297,
+      "start": 1715843836834,
+      "end": 1715843836972,
       "sourcemaps": null
     },
     {
       "name": "nuxt:layer-aliasing",
-      "start": 1715842296297,
-      "end": 1715842296297,
+      "start": 1715843836972,
+      "end": 1715843836972,
       "order": "pre"
     },
     {
       "name": "nuxt:server-devonly:transform",
-      "start": 1715842296297,
-      "end": 1715842296297,
+      "start": 1715843836972,
+      "end": 1715843836972,
       "order": "pre"
     },
     {
       "name": "nuxt:client-fallback-auto-id",
-      "start": 1715842296297,
-      "end": 1715842296297,
+      "start": 1715843836972,
+      "end": 1715843836972,
       "order": "pre"
     },
     {
       "name": "vite:css",
-      "start": 1715842296297,
-      "end": 1715842296297,
+      "start": 1715843836972,
+      "end": 1715843836972,
       "order": "normal"
     },
     {
       "name": "vite:esbuild",
-      "start": 1715842296297,
-      "end": 1715842296297,
+      "start": 1715843836972,
+      "end": 1715843836972,
       "order": "normal"
     },
     {
       "name": "vite:json",
       "result": "export const footerAboutWidget = {\n\tlogoSrc: \"/images/logo/footer-logo.png\",\n\ttelephone: \"0123456789\",\n\temail: \"demo@example.com\",\n\tfbUrl: \"https://www.facebook.com/\",\n\ttwitterUrl: \"https://twitter.com/\",\n\tinstagramUrl: \"https://www.instagram.com/\"\n};\nexport const footerLinkTitleOne = \"Our Store\";\nexport const navListOne = [\n\t{\n\t\tnavTitle: \"Retail\",\n\t\tnavUrl: \"https://shop.javaraya.co.uk\",\n\t\ttarget: \"_blank\"\n\t},\n\t{\n\t\tnavTitle: \"Materials and Metals\",\n\t\tnavUrl: \"/business/material\",\n\t\ttarget: \"\"\n\t}\n];\nexport const footerLinkTitleTwo = \"Products\";\nexport const navListTwo = [\n\t{\n\t\tnavTitle: \"Elementor Guru\",\n\t\tnavUrl: \"/\"\n\t},\n\t{\n\t\tnavTitle: \"WooLentor Pro\",\n\t\tnavUrl: \"/\"\n\t},\n\t{\n\t\tnavTitle: \"Plugins\",\n\t\tnavUrl: \"/\"\n\t},\n\t{\n\t\tnavTitle: \"Page Builder\",\n\t\tnavUrl: \"/\"\n\t}\n];\nexport const footerLinkTitleThree = \"About\";\nexport const navListThree = [\n\t{\n\t\tnavTitle: \"Company\",\n\t\tnavUrl: \"/about/company\",\n\t\ttarget: \"\"\n\t},\n\t{\n\t\tnavTitle: \"Privacy\",\n\t\tnavUrl: \"/about/privacy\",\n\t\ttarget: \"\"\n\t},\n\t{\n\t\tnavTitle: \"Contact Form\",\n\t\tnavUrl: \"https://form.jotform.com/240958272825162\",\n\t\ttarget: \"_blank\"\n\t},\n\t{\n\t\tnavTitle: \"Refund\",\n\t\tnavUrl: \"/about/refund\",\n\t\ttarget: \"_blank\"\n\t},\n\t{\n\t\tnavTitle: \"Term and Condition\",\n\t\tnavUrl: \"/about/tandc\",\n\t\ttarget: \"_blank\"\n\t}\n];\nexport const footerLinkTitleFour = \"Contact\";\nexport const navListFour = [\n\t{\n\t\tnavTitle: \"Support Ticket\",\n\t\tnavUrl: \"/\"\n\t},\n\t{\n\t\tnavTitle: \"Help Desk\",\n\t\tnavUrl: \"/\"\n\t},\n\t{\n\t\tnavTitle: \"Live Chat\",\n\t\tnavUrl: \"/\"\n\t},\n\t{\n\t\tnavTitle: \"FAQs\",\n\t\tnavUrl: \"/\"\n\t}\n];\nexport default {\n\tfooterAboutWidget: footerAboutWidget,\n\tfooterLinkTitleOne: footerLinkTitleOne,\n\tnavListOne: navListOne,\n\tfooterLinkTitleTwo: footerLinkTitleTwo,\n\tnavListTwo: navListTwo,\n\tfooterLinkTitleThree: footerLinkTitleThree,\n\tnavListThree: navListThree,\n\tfooterLinkTitleFour: footerLinkTitleFour,\n\tnavListFour: navListFour\n};\n",
-      "start": 1715842296297,
-      "end": 1715842296297,
+      "start": 1715843836972,
+      "end": 1715843836973,
       "order": "normal",
       "sourcemaps": {
         "mappings": ""
@@ -50,164 +50,164 @@
     },
     {
       "name": "vite:worker",
-      "start": 1715842296297,
-      "end": 1715842296297,
+      "start": 1715843836973,
+      "end": 1715843836973,
       "order": "normal"
     },
     {
       "name": "vite:vue",
-      "start": 1715842296297,
-      "end": 1715842296297,
+      "start": 1715843836973,
+      "end": 1715843836973,
       "order": "normal"
     },
     {
       "name": "vite:vue-jsx",
-      "start": 1715842296297,
-      "end": 1715842296297,
+      "start": 1715843836973,
+      "end": 1715843836973,
       "order": "normal"
     },
     {
       "name": "replace",
-      "start": 1715842296297,
-      "end": 1715842296297,
+      "start": 1715843836973,
+      "end": 1715843836973,
       "order": "normal"
     },
     {
       "name": "nuxt:remove-plugin-metadata",
-      "start": 1715842296297,
-      "end": 1715842296297,
+      "start": 1715843836973,
+      "end": 1715843836973,
       "order": "normal"
     },
     {
       "name": "nuxt:chunk-error",
-      "start": 1715842296297,
-      "end": 1715842296297,
+      "start": 1715843836973,
+      "end": 1715843836973,
       "order": "normal"
     },
     {
       "name": "nuxt:components:imports",
-      "start": 1715842296297,
-      "end": 1715842296297,
+      "start": 1715843836973,
+      "end": 1715843836973,
       "order": "normal"
     },
     {
       "name": "replace",
-      "start": 1715842296297,
-      "end": 1715842296297,
+      "start": 1715843836973,
+      "end": 1715843836973,
       "order": "normal"
     },
     {
       "name": "ssr-styles",
-      "start": 1715842296297,
-      "end": 1715842296297,
+      "start": 1715843836973,
+      "end": 1715843836973,
       "order": "normal"
     },
     {
       "name": "vite:define",
-      "start": 1715842296297,
-      "end": 1715842296297,
+      "start": 1715843836973,
+      "end": 1715843836973,
       "order": "normal"
     },
     {
       "name": "vite:css-post",
-      "start": 1715842296297,
-      "end": 1715842296297,
+      "start": 1715843836973,
+      "end": 1715843836973,
       "order": "normal"
     },
     {
       "name": "vite:build-html",
-      "start": 1715842296297,
-      "end": 1715842296297,
+      "start": 1715843836973,
+      "end": 1715843836973,
       "order": "normal"
     },
     {
       "name": "vite:worker-import-meta-url",
-      "start": 1715842296297,
-      "end": 1715842296297,
+      "start": 1715843836973,
+      "end": 1715843836973,
       "order": "normal"
     },
     {
       "name": "vite:asset-import-meta-url",
-      "start": 1715842296297,
-      "end": 1715842296297,
+      "start": 1715843836973,
+      "end": 1715843836973,
       "order": "normal"
     },
     {
       "name": "commonjs",
-      "start": 1715842296297,
-      "end": 1715842296297,
+      "start": 1715843836973,
+      "end": 1715843836973,
       "order": "normal"
     },
     {
       "name": "vite:dynamic-import-vars",
-      "start": 1715842296297,
-      "end": 1715842296297,
+      "start": 1715843836973,
+      "end": 1715843836973,
       "order": "normal"
     },
     {
       "name": "vite:import-glob",
-      "start": 1715842296297,
-      "end": 1715842296297,
+      "start": 1715843836973,
+      "end": 1715843836973,
       "order": "normal"
     },
     {
       "name": "nuxt:composable-keys",
-      "start": 1715842296297,
-      "end": 1715842296297,
+      "start": 1715843836973,
+      "end": 1715843836973,
       "order": "post"
     },
     {
       "name": "nuxt:imports-transform",
-      "start": 1715842296297,
-      "end": 1715842296297,
+      "start": 1715843836973,
+      "end": 1715843836973,
       "order": "post"
     },
     {
       "name": "unctx:transform",
-      "start": 1715842296297,
-      "end": 1715842296297,
+      "start": 1715843836973,
+      "end": 1715843836973,
       "order": "post"
     },
     {
       "name": "nuxt:pages-macros-transform",
-      "start": 1715842296297,
-      "end": 1715842296297,
+      "start": 1715843836973,
+      "end": 1715843836973,
       "order": "post"
     },
     {
       "name": "nuxt:runtime-paths-dep",
-      "start": 1715842296297,
-      "end": 1715842296297,
+      "start": 1715843836973,
+      "end": 1715843836973,
       "order": "post"
     },
     {
       "name": "nuxt:route-injection-plugin",
-      "start": 1715842296297,
-      "end": 1715842296297,
+      "start": 1715843836973,
+      "end": 1715843836973,
       "order": "post"
     },
     {
       "name": "nuxt:components-loader",
-      "start": 1715842296297,
-      "end": 1715842296297,
+      "start": 1715843836973,
+      "end": 1715843836973,
       "order": "post"
     },
     {
       "name": "nuxt:tree-shake-composables:transform",
-      "start": 1715842296297,
-      "end": 1715842296297,
+      "start": 1715843836973,
+      "end": 1715843836973,
       "order": "post"
     },
     {
       "name": "vite:build-import-analysis",
-      "start": 1715842296297,
-      "end": 1715842296297,
+      "start": 1715843836973,
+      "end": 1715843836973,
       "order": "normal"
     },
     {
       "name": "vite:reporter",
-      "start": 1715842296297,
-      "end": 1715842296297,
+      "start": 1715843836973,
+      "end": 1715843836973,
       "order": "normal"
     }
   ]

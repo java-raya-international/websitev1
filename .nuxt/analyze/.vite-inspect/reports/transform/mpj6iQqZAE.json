@@ -4,57 +4,57 @@
     {
       "name": "vite:load-fallback",
       "result": "<template>\r\n    <div class=\"section-padding contact-section overflow-hidden\">\r\n        <div class=\"container\">\r\n            <div class=\"row row-cols-lg-2 row-cols-1 align-items-center\">\r\n                <div class=\"col\">\r\n                    <!-- Contact Information -->\r\n                    <div class=\"contact-Information mr-xl-7\">\r\n                        <!-- Section Title Two Start -->\r\n                        <div class=\"section-title-two\">\r\n                            <span class=\"sub-title\">Lets talk</span>\r\n                            <h3 class=\"title\">Vendors, Supplier, Investors, Customers are welcome to talk</h3>\r\n                        </div>\r\n                        <!-- Section Title Two End -->\r\n\r\n                        <!-- Contact Info Item Start -->\r\n                        <div class=\"contact-info ct-info-two\" data-vivus-hover>\r\n                            <div class=\"icon\">\r\n                                <img class=\"svgInject\" src=\"/images/svg/linea/linea-basic-map.svg\" alt=\"\">\r\n                            </div>\r\n                            <div class=\"info\">\r\n                                <h4 class=\"title\">Our Locations</h4>\r\n                                <span class=\"info-text\">Java Raya International LTD, <br/>  2nd Floor College House, 17 King Edwards Road, Ruislip, London, HA4 7AE, United Kingdom</span>\r\n                            </div>\r\n                        </div>\r\n                        <!-- Contact Info Item End -->\r\n\r\n                        <!-- Contact Info Item Start -->\r\n                        <!-- <div class=\"contact-info ct-info-two\" data-vivus-hover>\r\n                            <div class=\"icon\">\r\n                                <img class=\"svgInject\" src=\"/images/svg/linea/linea-basic-message-txt.svg\" alt=\"\">\r\n                            </div>\r\n                            <div class=\"info\">\r\n                                <h4 class=\"title\">Give Us A Call</h4>\r\n                                <span class=\"info-text\"> 0123456789 / 0123456789</span>\r\n                            </div>\r\n                        </div> -->\r\n                        <!-- Contact Info Item End -->\r\n\r\n                        <!-- Contact Info Item Start -->\r\n                        <div class=\"contact-info ct-info-two\" data-vivus-hover>\r\n                            <div class=\"icon\">\r\n                                <img class=\"svgInject\" src=\"/images/svg/linea/linea-basic-mail-open-text.svg\" alt=\"\">\r\n                            </div>\r\n                            <div class=\"info\">\r\n                                <h4 class=\"title\">Contact Us</h4>\r\n                                <span class=\"info-text\">\r\n                                   <a href=\"https://form.jotform.com/240958272825162\" target=\"_blank\">Contact Form</a>\r\n                                </span>\r\n                            </div>\r\n                        </div>\r\n                        <!-- Contact Info Item End -->\r\n                    </div>\r\n                    <!-- Contact Information -->\r\n                </div>\r\n\r\n                <div class=\"col\">\r\n                </div>\r\n            </div>\r\n        </div>\r\n\r\n        <!-- Animation Shape Start -->\r\n        <ShapeWithAnimation addClassName=\"shape-1\" data-depth=\"1\" imgSrc=\"/images/shape-animation/contact-shape.png\" />\r\n\r\n    </div>\r\n</template>\r\n\r\n<script>\r\n    export default {\r\n        components: {\r\n            ShapeWithAnimation: () => import('@/components/ShapeWithAnimation'),\r\n        },\r\n    };\r\n</script>",
-      "start": 1715842295558,
-      "end": 1715842295655,
+      "start": 1715843836169,
+      "end": 1715843836270,
       "sourcemaps": null
     },
     {
       "name": "nuxt:layer-aliasing",
-      "start": 1715842295655,
-      "end": 1715842295655,
+      "start": 1715843836270,
+      "end": 1715843836270,
       "order": "pre"
     },
     {
       "name": "nuxt:server-devonly:transform",
-      "start": 1715842295655,
-      "end": 1715842295655,
+      "start": 1715843836270,
+      "end": 1715843836270,
       "order": "pre"
     },
     {
       "name": "nuxt:client-fallback-auto-id",
-      "start": 1715842295655,
-      "end": 1715842295655,
+      "start": 1715843836270,
+      "end": 1715843836270,
       "order": "pre"
     },
     {
       "name": "vite:css",
-      "start": 1715842295655,
-      "end": 1715842295655,
+      "start": 1715843836270,
+      "end": 1715843836270,
       "order": "normal"
     },
     {
       "name": "vite:esbuild",
-      "start": 1715842295655,
-      "end": 1715842295655,
+      "start": 1715843836270,
+      "end": 1715843836270,
       "order": "normal"
     },
     {
       "name": "vite:json",
-      "start": 1715842295655,
-      "end": 1715842295655,
+      "start": 1715843836270,
+      "end": 1715843836270,
       "order": "normal"
     },
     {
       "name": "vite:worker",
-      "start": 1715842295655,
-      "end": 1715842295655,
+      "start": 1715843836270,
+      "end": 1715843836270,
       "order": "normal"
     },
     {
       "name": "vite:vue",
       "result": "\r\n    const _sfc_main = {\r\n        components: {\r\n            ShapeWithAnimation: () => import('@/components/ShapeWithAnimation'),\r\n        },\r\n    };\r\n\nimport { createElementVNode as _createElementVNode, createTextVNode as _createTextVNode, resolveComponent as _resolveComponent, createVNode as _createVNode, createStaticVNode as _createStaticVNode, openBlock as _openBlock, createElementBlock as _createElementBlock } from \"vue\"\nimport _imports_0 from '/images/svg/linea/linea-basic-map.svg'\nimport _imports_1 from '/images/svg/linea/linea-basic-mail-open-text.svg'\n\n\nconst _hoisted_1 = { class: \"section-padding contact-section overflow-hidden\" }\nconst _hoisted_2 = /*#__PURE__*/_createStaticVNode(\"<div class=\\\"container\\\"><div class=\\\"row row-cols-lg-2 row-cols-1 align-items-center\\\"><div class=\\\"col\\\"><div class=\\\"contact-Information mr-xl-7\\\"><div class=\\\"section-title-two\\\"><span class=\\\"sub-title\\\">Lets talk</span><h3 class=\\\"title\\\">Vendors, Supplier, Investors, Customers are welcome to talk</h3></div><div class=\\\"contact-info ct-info-two\\\" data-vivus-hover><div class=\\\"icon\\\"><img class=\\\"svgInject\\\" src=\\\"\" + _imports_0 + \"\\\" alt=\\\"\\\"></div><div class=\\\"info\\\"><h4 class=\\\"title\\\">Our Locations</h4><span class=\\\"info-text\\\">Java Raya International LTD, <br> 2nd Floor College House, 17 King Edwards Road, Ruislip, London, HA4 7AE, United Kingdom</span></div></div><div class=\\\"contact-info ct-info-two\\\" data-vivus-hover><div class=\\\"icon\\\"><img class=\\\"svgInject\\\" src=\\\"\" + _imports_1 + \"\\\" alt=\\\"\\\"></div><div class=\\\"info\\\"><h4 class=\\\"title\\\">Contact Us</h4><span class=\\\"info-text\\\"><a href=\\\"https://form.jotform.com/240958272825162\\\" target=\\\"_blank\\\">Contact Form</a></span></div></div></div></div><div class=\\\"col\\\"></div></div></div>\", 1)\n\nfunction _sfc_render(_ctx, _cache, $props, $setup, $data, $options) {\n  const _component_ShapeWithAnimation = _resolveComponent(\"ShapeWithAnimation\")\n\n  return (_openBlock(), _createElementBlock(\"div\", _hoisted_1, [\n    _hoisted_2,\n    _createVNode(_component_ShapeWithAnimation, {\n      addClassName: \"shape-1\",\n      \"data-depth\": \"1\",\n      imgSrc: \"/images/shape-animation/contact-shape.png\"\n    })\n  ]))\n}\n\n\nimport _export_sfc from '\u0000plugin-vue:export-helper'\nexport default /*#__PURE__*/_export_sfc(_sfc_main, [['render',_sfc_render]])",
-      "start": 1715842295655,
-      "end": 1715842295657,
+      "start": 1715843836270,
+      "end": 1715843836271,
       "order": "normal",
       "sourcemaps": {
         "mappings": ""
@@ -62,155 +62,155 @@
     },
     {
       "name": "vite:vue-jsx",
-      "start": 1715842295657,
-      "end": 1715842295657,
+      "start": 1715843836271,
+      "end": 1715843836271,
       "order": "normal"
     },
     {
       "name": "replace",
-      "start": 1715842295657,
-      "end": 1715842295657,
+      "start": 1715843836271,
+      "end": 1715843836271,
       "order": "normal"
     },
     {
       "name": "nuxt:remove-plugin-metadata",
-      "start": 1715842295657,
-      "end": 1715842295657,
+      "start": 1715843836271,
+      "end": 1715843836271,
       "order": "normal"
     },
     {
       "name": "nuxt:chunk-error",
-      "start": 1715842295657,
-      "end": 1715842295657,
+      "start": 1715843836271,
+      "end": 1715843836271,
       "order": "normal"
     },
     {
       "name": "nuxt:components:imports",
-      "start": 1715842295657,
-      "end": 1715842295657,
+      "start": 1715843836271,
+      "end": 1715843836271,
       "order": "normal"
     },
     {
       "name": "replace",
-      "start": 1715842295657,
-      "end": 1715842295657,
+      "start": 1715843836271,
+      "end": 1715843836271,
       "order": "normal"
     },
     {
       "name": "ssr-styles",
-      "start": 1715842295657,
-      "end": 1715842295657,
+      "start": 1715843836271,
+      "end": 1715843836271,
       "order": "normal"
     },
     {
       "name": "vite:define",
-      "start": 1715842295657,
-      "end": 1715842295657,
+      "start": 1715843836271,
+      "end": 1715843836271,
       "order": "normal"
     },
     {
       "name": "vite:css-post",
-      "start": 1715842295657,
-      "end": 1715842295657,
+      "start": 1715843836271,
+      "end": 1715843836271,
       "order": "normal"
     },
     {
       "name": "vite:build-html",
-      "start": 1715842295657,
-      "end": 1715842295657,
+      "start": 1715843836271,
+      "end": 1715843836271,
       "order": "normal"
     },
     {
       "name": "vite:worker-import-meta-url",
-      "start": 1715842295657,
-      "end": 1715842295657,
+      "start": 1715843836271,
+      "end": 1715843836271,
       "order": "normal"
     },
     {
       "name": "vite:asset-import-meta-url",
-      "start": 1715842295657,
-      "end": 1715842295657,
+      "start": 1715843836271,
+      "end": 1715843836271,
       "order": "normal"
     },
     {
       "name": "commonjs",
-      "start": 1715842295657,
-      "end": 1715842295657,
+      "start": 1715843836271,
+      "end": 1715843836271,
       "order": "normal"
     },
     {
       "name": "vite:dynamic-import-vars",
-      "start": 1715842295657,
-      "end": 1715842295657,
+      "start": 1715843836271,
+      "end": 1715843836271,
       "order": "normal"
     },
     {
       "name": "vite:import-glob",
-      "start": 1715842295657,
-      "end": 1715842295657,
+      "start": 1715843836271,
+      "end": 1715843836271,
       "order": "normal"
     },
     {
       "name": "nuxt:composable-keys",
-      "start": 1715842295657,
-      "end": 1715842295657,
+      "start": 1715843836271,
+      "end": 1715843836272,
       "order": "post"
     },
     {
       "name": "nuxt:imports-transform",
-      "start": 1715842295657,
-      "end": 1715842295658,
+      "start": 1715843836272,
+      "end": 1715843836272,
       "order": "post"
     },
     {
       "name": "unctx:transform",
-      "start": 1715842295658,
-      "end": 1715842295658,
+      "start": 1715843836272,
+      "end": 1715843836272,
       "order": "post"
     },
     {
       "name": "nuxt:pages-macros-transform",
-      "start": 1715842295658,
-      "end": 1715842295658,
+      "start": 1715843836272,
+      "end": 1715843836272,
       "order": "post"
     },
     {
       "name": "nuxt:runtime-paths-dep",
-      "start": 1715842295658,
-      "end": 1715842295658,
+      "start": 1715843836272,
+      "end": 1715843836272,
       "order": "post"
     },
     {
       "name": "nuxt:route-injection-plugin",
-      "start": 1715842295658,
-      "end": 1715842295658,
+      "start": 1715843836272,
+      "end": 1715843836272,
       "order": "post"
     },
     {
       "name": "nuxt:components-loader",
       "result": "import { default as __nuxt_component_0 } from \"E:/Projects/JavaRayaInternational/website/components/ShapeWithAnimation.vue\";\n\r\n    const _sfc_main = {\r\n        components: {\r\n            ShapeWithAnimation: () => import('@/components/ShapeWithAnimation'),\r\n        },\r\n    };\r\n\nimport { createElementVNode as _createElementVNode, createTextVNode as _createTextVNode, resolveComponent as _resolveComponent, createVNode as _createVNode, createStaticVNode as _createStaticVNode, openBlock as _openBlock, createElementBlock as _createElementBlock } from \"vue\"\nimport _imports_0 from '/images/svg/linea/linea-basic-map.svg'\nimport _imports_1 from '/images/svg/linea/linea-basic-mail-open-text.svg'\n\n\nconst _hoisted_1 = { class: \"section-padding contact-section overflow-hidden\" }\nconst _hoisted_2 = /*#__PURE__*/_createStaticVNode(\"<div class=\\\"container\\\"><div class=\\\"row row-cols-lg-2 row-cols-1 align-items-center\\\"><div class=\\\"col\\\"><div class=\\\"contact-Information mr-xl-7\\\"><div class=\\\"section-title-two\\\"><span class=\\\"sub-title\\\">Lets talk</span><h3 class=\\\"title\\\">Vendors, Supplier, Investors, Customers are welcome to talk</h3></div><div class=\\\"contact-info ct-info-two\\\" data-vivus-hover><div class=\\\"icon\\\"><img class=\\\"svgInject\\\" src=\\\"\" + _imports_0 + \"\\\" alt=\\\"\\\"></div><div class=\\\"info\\\"><h4 class=\\\"title\\\">Our Locations</h4><span class=\\\"info-text\\\">Java Raya International LTD, <br> 2nd Floor College House, 17 King Edwards Road, Ruislip, London, HA4 7AE, United Kingdom</span></div></div><div class=\\\"contact-info ct-info-two\\\" data-vivus-hover><div class=\\\"icon\\\"><img class=\\\"svgInject\\\" src=\\\"\" + _imports_1 + \"\\\" alt=\\\"\\\"></div><div class=\\\"info\\\"><h4 class=\\\"title\\\">Contact Us</h4><span class=\\\"info-text\\\"><a href=\\\"https://form.jotform.com/240958272825162\\\" target=\\\"_blank\\\">Contact Form</a></span></div></div></div></div><div class=\\\"col\\\"></div></div></div>\", 1)\n\nfunction _sfc_render(_ctx, _cache, $props, $setup, $data, $options) {\n  const _component_ShapeWithAnimation = __nuxt_component_0\n\n  return (_openBlock(), _createElementBlock(\"div\", _hoisted_1, [\n    _hoisted_2,\n    _createVNode(_component_ShapeWithAnimation, {\n      addClassName: \"shape-1\",\n      \"data-depth\": \"1\",\n      imgSrc: \"/images/shape-animation/contact-shape.png\"\n    })\n  ]))\n}\n\n\nimport _export_sfc from '\u0000plugin-vue:export-helper'\nexport default /*#__PURE__*/_export_sfc(_sfc_main, [['render',_sfc_render]])",
-      "start": 1715842295658,
-      "end": 1715842295658,
+      "start": 1715843836272,
+      "end": 1715843836272,
       "order": "post"
     },
     {
       "name": "nuxt:tree-shake-composables:transform",
-      "start": 1715842295658,
-      "end": 1715842295658,
+      "start": 1715843836272,
+      "end": 1715843836272,
       "order": "post"
     },
     {
       "name": "vite:build-import-analysis",
       "result": "import { __vitePreload } from \"\u0000vite/preload-helper.js\";import { default as __nuxt_component_0 } from \"E:/Projects/JavaRayaInternational/website/components/ShapeWithAnimation.vue\";\n\r\n    const _sfc_main = {\r\n        components: {\r\n            ShapeWithAnimation: () => __vitePreload(() => import('@/components/ShapeWithAnimation'),__VITE_IS_MODERN__?\"__VITE_PRELOAD__\":void 0,import.meta.url),\r\n        },\r\n    };\r\n\nimport { createElementVNode as _createElementVNode, createTextVNode as _createTextVNode, resolveComponent as _resolveComponent, createVNode as _createVNode, createStaticVNode as _createStaticVNode, openBlock as _openBlock, createElementBlock as _createElementBlock } from \"vue\"\nimport _imports_0 from '/images/svg/linea/linea-basic-map.svg'\nimport _imports_1 from '/images/svg/linea/linea-basic-mail-open-text.svg'\n\n\nconst _hoisted_1 = { class: \"section-padding contact-section overflow-hidden\" }\nconst _hoisted_2 = /*#__PURE__*/_createStaticVNode(\"<div class=\\\"container\\\"><div class=\\\"row row-cols-lg-2 row-cols-1 align-items-center\\\"><div class=\\\"col\\\"><div class=\\\"contact-Information mr-xl-7\\\"><div class=\\\"section-title-two\\\"><span class=\\\"sub-title\\\">Lets talk</span><h3 class=\\\"title\\\">Vendors, Supplier, Investors, Customers are welcome to talk</h3></div><div class=\\\"contact-info ct-info-two\\\" data-vivus-hover><div class=\\\"icon\\\"><img class=\\\"svgInject\\\" src=\\\"\" + _imports_0 + \"\\\" alt=\\\"\\\"></div><div class=\\\"info\\\"><h4 class=\\\"title\\\">Our Locations</h4><span class=\\\"info-text\\\">Java Raya International LTD, <br> 2nd Floor College House, 17 King Edwards Road, Ruislip, London, HA4 7AE, United Kingdom</span></div></div><div class=\\\"contact-info ct-info-two\\\" data-vivus-hover><div class=\\\"icon\\\"><img class=\\\"svgInject\\\" src=\\\"\" + _imports_1 + \"\\\" alt=\\\"\\\"></div><div class=\\\"info\\\"><h4 class=\\\"title\\\">Contact Us</h4><span class=\\\"info-text\\\"><a href=\\\"https://form.jotform.com/240958272825162\\\" target=\\\"_blank\\\">Contact Form</a></span></div></div></div></div><div class=\\\"col\\\"></div></div></div>\", 1)\n\nfunction _sfc_render(_ctx, _cache, $props, $setup, $data, $options) {\n  const _component_ShapeWithAnimation = __nuxt_component_0\n\n  return (_openBlock(), _createElementBlock(\"div\", _hoisted_1, [\n    _hoisted_2,\n    _createVNode(_component_ShapeWithAnimation, {\n      addClassName: \"shape-1\",\n      \"data-depth\": \"1\",\n      imgSrc: \"/images/shape-animation/contact-shape.png\"\n    })\n  ]))\n}\n\n\nimport _export_sfc from '\u0000plugin-vue:export-helper'\nexport default /*#__PURE__*/_export_sfc(_sfc_main, [['render',_sfc_render]])",
-      "start": 1715842295658,
-      "end": 1715842295658,
+      "start": 1715843836272,
+      "end": 1715843836272,
       "order": "normal",
       "sourcemaps": null
     },
     {
       "name": "vite:reporter",
-      "start": 1715842295658,
-      "end": 1715842295658,
+      "start": 1715843836272,
+      "end": 1715843836272,
       "order": "normal"
     }
   ]

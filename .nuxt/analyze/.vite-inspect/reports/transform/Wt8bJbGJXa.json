@@ -3,58 +3,58 @@
   "transforms": [
     {
       "name": "vite:load-fallback",
-      "result": "<template>\r\n    <div class=\"header-section header-transparent\" :class=\"{'is-sticky': isSticky}\">\r\n        <div class=\"header-inner\">\r\n            <div class=\"container position-relative\">\r\n                <div class=\"row justify-content-between align-items-center\">\r\n\r\n                    <!-- Header Logo Start -->\r\n                    <div class=\"col-xl-2 col-auto order-0\">\r\n                        <div class=\"header-logo\">\r\n                            <NuxtLink to=\"/\">\r\n                                <img style=\"opacity: 0.5;\" class=\"dark-logo\" src=\"/images/logo/logo.png\" alt=\"Agency Logo\">\r\n                                <img style=\"opacity: 0.5;\" class=\"light-logo\" src=\"/images/logo/logo.png\" alt=\"Agency Logo\">\r\n                            </NuxtLink>\r\n                        </div>\r\n                    </div>\r\n                    <!-- Header Logo End -->\r\n\r\n                    <!-- Header Main Menu Start -->\r\n                    <div class=\"col-auto col-xl d-flex align-items-center justify-content-xl-center justify-content-end order-2 order-xl-1\">\r\n                        <div class=\"menu-column-area d-none d-xl-block position-static\">\r\n                            <Navigation />\r\n                        </div>\r\n                        <!-- Header Search Start -->\r\n                        <div class=\"header-search-area\">\r\n                            <!-- Header Login Start -->\r\n                            <!-- <div class=\"header-search\">\r\n                                <button class=\"header-search-toggle\" @click=\"toggleClass('addClass', 'search-popup-open')\">\r\n                                    <i class=\"fa fa-search\"></i>\r\n                                </button>\r\n                            </div> -->\r\n                            <!-- Header Login End -->\r\n                        </div>\r\n                        <!-- Header Search End -->\r\n\r\n                        <!-- Header Mobile Menu Toggle Start -->\r\n                        <div class=\"header-mobile-menu-toggle d-xl-none ml-sm-2\">\r\n                            <button class=\"toggle\" @click=\"mobiletoggleClass('addClass', 'show-mobile-menu')\">\r\n                                <i class=\"icon-top\"></i>\r\n                                <i class=\"icon-middle\"></i>\r\n                                <i class=\"icon-bottom\"></i>\r\n                            </button>\r\n                        </div>\r\n                        <!-- Header Mobile Menu Toggle End -->\r\n                    </div>\r\n                    <!-- Header Main Menu End -->\r\n\r\n                    <!-- Header Right Start -->\r\n                    <div class=\"col-xl-2 col d-none d-sm-flex justify-content-end order-1 order-xl-2\">\r\n                        <a href=\"https://shop.javaraya.co.uk\" class=\"btn btn-light btn-hover-primary\" target=\"_blank\">Shop Now</a>\r\n                    </div>\r\n\r\n                    <div class=\"col-xl-2 col d-none d-sm-flex justify-content-end order-1 order-xl-2\">\r\n                       <NuxtLink to=\"/download\" class=\"btn btn-light btn-hover-primary\">Download App</NuxtLink>\r\n                    </div>\r\n\r\n                    <!-- Header Right End -->\r\n\r\n                </div>\r\n            </div>\r\n        </div>\r\n    </div>\r\n</template>\r\n\r\n<script>\r\n    export default {\r\n        components: {\r\n            Navigation: () => import(\"@/components/Navigation\"),\r\n        },\r\n\r\n        data() {\r\n            return {\r\n                isSticky: false,\r\n            }\r\n        },\r\n\r\n        mounted(){\r\n            window.addEventListener('scroll', () => {\r\n                let scrollPos = window.scrollY\r\n                if(scrollPos >= 200){\r\n                    this.isSticky = true\r\n                } else {\r\n                    this.isSticky = false\r\n                }\r\n            })\r\n        },\r\n\r\n        methods: {\r\n            // offcanvas mobile menu\r\n            mobiletoggleClass(addRemoveClass, className) {\r\n                const el = document.querySelector('#offcanvas-menu');\r\n                if (addRemoveClass === 'addClass') {\r\n                    el.classList.add(className);\r\n                } else {\r\n                    el.classList.remove(className);\r\n                }\r\n            },\r\n\r\n            //offcanvas search \r\n            toggleClass(addRemoveClass, className) {\r\n                const el = document.querySelector('#search-popup');\r\n                if (addRemoveClass === 'addClass') {\r\n                    el.classList.add(className);\r\n                } else {\r\n                    el.classList.remove(className);\r\n                }\r\n            },\r\n        },\r\n    };\r\n</script>",
-      "start": 1715842295479,
-      "end": 1715842295571,
+      "result": "<template>\r\n    <div class=\"header-section header-transparent\" :class=\"{'is-sticky': isSticky}\">\r\n        <div class=\"header-inner\">\r\n            <div class=\"container position-relative\">\r\n                <div class=\"row justify-content-between align-items-center\">\r\n\r\n                    <!-- Header Logo Start -->\r\n                    <div class=\"col-xl-2 col-auto order-0\">\r\n                        <div class=\"header-logo\">\r\n                            <NuxtLink to=\"/\">\r\n                                <img style=\"opacity: 0.5;\" class=\"dark-logo\" src=\"/images/logo/logo.png\" alt=\"Javaraya Logo\">\r\n                                <img style=\"opacity: 0.5;\" class=\"light-logo\" src=\"/images/logo/logo.png\" alt=\"Javaraya Logo\">\r\n                            </NuxtLink>\r\n                        </div>\r\n                    </div>\r\n                    <!-- Header Logo End -->\r\n\r\n                    <!-- Header Main Menu Start -->\r\n                    <div class=\"col-auto col-xl d-flex align-items-center justify-content-xl-center justify-content-end order-2 order-xl-1\">\r\n                        <div class=\"menu-column-area d-none d-xl-block position-static\">\r\n                            <Navigation />\r\n                        </div>\r\n                        <!-- Header Search Start -->\r\n                        <div class=\"header-search-area\">\r\n                            <!-- Header Login Start -->\r\n                            <!-- <div class=\"header-search\">\r\n                                <button class=\"header-search-toggle\" @click=\"toggleClass('addClass', 'search-popup-open')\">\r\n                                    <i class=\"fa fa-search\"></i>\r\n                                </button>\r\n                            </div> -->\r\n                            <!-- Header Login End -->\r\n                        </div>\r\n                        <!-- Header Search End -->\r\n\r\n                        <!-- Header Mobile Menu Toggle Start -->\r\n                        <div class=\"header-mobile-menu-toggle d-xl-none ml-sm-2\">\r\n                            <button class=\"toggle\" @click=\"mobiletoggleClass('addClass', 'show-mobile-menu')\">\r\n                                <i class=\"icon-top\"></i>\r\n                                <i class=\"icon-middle\"></i>\r\n                                <i class=\"icon-bottom\"></i>\r\n                            </button>\r\n                        </div>\r\n                        <!-- Header Mobile Menu Toggle End -->\r\n                    </div>\r\n                    <!-- Header Main Menu End -->\r\n\r\n                    <!-- Header Right Start -->\r\n                    <!-- <div class=\"col-xl-2 col d-none d-sm-flex justify-content-end order-1 order-xl-2\">\r\n                        <a href=\"https://shop.javaraya.co.uk\" class=\"btn btn-light btn-hover-primary\" target=\"_blank\">Shop Now</a>\r\n                    </div> -->\r\n\r\n                    <!-- <div class=\"col-xl-2 col d-none d-sm-flex justify-content-end order-1 order-xl-2\">\r\n                       <NuxtLink to=\"/download\" class=\"btn btn-light btn-hover-primary\">Download App</NuxtLink>\r\n                    </div> -->\r\n\r\n                    <!-- Header Right End -->\r\n\r\n                </div>\r\n            </div>\r\n        </div>\r\n    </div>\r\n</template>\r\n\r\n<script>\r\n    export default {\r\n        components: {\r\n            Navigation: () => import(\"@/components/Navigation\"),\r\n        },\r\n\r\n        data() {\r\n            return {\r\n                isSticky: false,\r\n            }\r\n        },\r\n\r\n        mounted(){\r\n            window.addEventListener('scroll', () => {\r\n                let scrollPos = window.scrollY\r\n                if(scrollPos >= 200){\r\n                    this.isSticky = true\r\n                } else {\r\n                    this.isSticky = false\r\n                }\r\n            })\r\n        },\r\n\r\n        methods: {\r\n            // offcanvas mobile menu\r\n            mobiletoggleClass(addRemoveClass, className) {\r\n                const el = document.querySelector('#offcanvas-menu');\r\n                if (addRemoveClass === 'addClass') {\r\n                    el.classList.add(className);\r\n                } else {\r\n                    el.classList.remove(className);\r\n                }\r\n            },\r\n\r\n            //offcanvas search \r\n            toggleClass(addRemoveClass, className) {\r\n                const el = document.querySelector('#search-popup');\r\n                if (addRemoveClass === 'addClass') {\r\n                    el.classList.add(className);\r\n                } else {\r\n                    el.classList.remove(className);\r\n                }\r\n            },\r\n        },\r\n    };\r\n</script>",
+      "start": 1715843836117,
+      "end": 1715843836187,
       "sourcemaps": null
     },
     {
       "name": "nuxt:layer-aliasing",
-      "start": 1715842295571,
-      "end": 1715842295571,
+      "start": 1715843836187,
+      "end": 1715843836187,
       "order": "pre"
     },
     {
       "name": "nuxt:server-devonly:transform",
-      "start": 1715842295571,
-      "end": 1715842295571,
+      "start": 1715843836187,
+      "end": 1715843836187,
       "order": "pre"
     },
     {
       "name": "nuxt:client-fallback-auto-id",
-      "start": 1715842295571,
-      "end": 1715842295571,
+      "start": 1715843836187,
+      "end": 1715843836187,
       "order": "pre"
     },
     {
       "name": "vite:css",
-      "start": 1715842295571,
-      "end": 1715842295571,
+      "start": 1715843836187,
+      "end": 1715843836187,
       "order": "normal"
     },
     {
       "name": "vite:esbuild",
-      "start": 1715842295571,
-      "end": 1715842295571,
+      "start": 1715843836187,
+      "end": 1715843836187,
       "order": "normal"
     },
     {
       "name": "vite:json",
-      "start": 1715842295571,
-      "end": 1715842295571,
+      "start": 1715843836187,
+      "end": 1715843836187,
       "order": "normal"
     },
     {
       "name": "vite:worker",
-      "start": 1715842295571,
-      "end": 1715842295571,
+      "start": 1715843836187,
+      "end": 1715843836187,
       "order": "normal"
     },
     {
       "name": "vite:vue",
-      "result": "\r\n    const _sfc_main = {\r\n        components: {\r\n            Navigation: () => import(\"@/components/Navigation\"),\r\n        },\r\n\r\n        data() {\r\n            return {\r\n                isSticky: false,\r\n            }\r\n        },\r\n\r\n        mounted(){\r\n            window.addEventListener('scroll', () => {\r\n                let scrollPos = window.scrollY\r\n                if(scrollPos >= 200){\r\n                    this.isSticky = true\r\n                } else {\r\n                    this.isSticky = false\r\n                }\r\n            })\r\n        },\r\n\r\n        methods: {\r\n            // offcanvas mobile menu\r\n            mobiletoggleClass(addRemoveClass, className) {\r\n                const el = document.querySelector('#offcanvas-menu');\r\n                if (addRemoveClass === 'addClass') {\r\n                    el.classList.add(className);\r\n                } else {\r\n                    el.classList.remove(className);\r\n                }\r\n            },\r\n\r\n            //offcanvas search \r\n            toggleClass(addRemoveClass, className) {\r\n                const el = document.querySelector('#search-popup');\r\n                if (addRemoveClass === 'addClass') {\r\n                    el.classList.add(className);\r\n                } else {\r\n                    el.classList.remove(className);\r\n                }\r\n            },\r\n        },\r\n    };\r\n\nimport { createElementVNode as _createElementVNode, resolveComponent as _resolveComponent, withCtx as _withCtx, createVNode as _createVNode, createTextVNode as _createTextVNode, normalizeClass as _normalizeClass, openBlock as _openBlock, createElementBlock as _createElementBlock } from \"vue\"\nimport _imports_0 from '/images/logo/logo.png'\n\n\nconst _hoisted_1 = { class: \"header-inner\" }\nconst _hoisted_2 = { class: \"container position-relative\" }\nconst _hoisted_3 = { class: \"row justify-content-between align-items-center\" }\nconst _hoisted_4 = { class: \"col-xl-2 col-auto order-0\" }\nconst _hoisted_5 = { class: \"header-logo\" }\nconst _hoisted_6 = /*#__PURE__*/_createElementVNode(\"img\", {\n  style: {\"opacity\":\"0.5\"},\n  class: \"dark-logo\",\n  src: _imports_0,\n  alt: \"Agency Logo\"\n}, null, -1)\nconst _hoisted_7 = /*#__PURE__*/_createElementVNode(\"img\", {\n  style: {\"opacity\":\"0.5\"},\n  class: \"light-logo\",\n  src: _imports_0,\n  alt: \"Agency Logo\"\n}, null, -1)\nconst _hoisted_8 = { class: \"col-auto col-xl d-flex align-items-center justify-content-xl-center justify-content-end order-2 order-xl-1\" }\nconst _hoisted_9 = { class: \"menu-column-area d-none d-xl-block position-static\" }\nconst _hoisted_10 = /*#__PURE__*/_createElementVNode(\"div\", { class: \"header-search-area\" }, null, -1)\nconst _hoisted_11 = { class: \"header-mobile-menu-toggle d-xl-none ml-sm-2\" }\nconst _hoisted_12 = /*#__PURE__*/_createElementVNode(\"i\", { class: \"icon-top\" }, null, -1)\nconst _hoisted_13 = /*#__PURE__*/_createElementVNode(\"i\", { class: \"icon-middle\" }, null, -1)\nconst _hoisted_14 = /*#__PURE__*/_createElementVNode(\"i\", { class: \"icon-bottom\" }, null, -1)\nconst _hoisted_15 = [\n  _hoisted_12,\n  _hoisted_13,\n  _hoisted_14\n]\nconst _hoisted_16 = /*#__PURE__*/_createElementVNode(\"div\", { class: \"col-xl-2 col d-none d-sm-flex justify-content-end order-1 order-xl-2\" }, [\n  /*#__PURE__*/_createElementVNode(\"a\", {\n    href: \"https://shop.javaraya.co.uk\",\n    class: \"btn btn-light btn-hover-primary\",\n    target: \"_blank\"\n  }, \"Shop Now\")\n], -1)\nconst _hoisted_17 = { class: \"col-xl-2 col d-none d-sm-flex justify-content-end order-1 order-xl-2\" }\n\nfunction _sfc_render(_ctx, _cache, $props, $setup, $data, $options) {\n  const _component_NuxtLink = _resolveComponent(\"NuxtLink\")\n  const _component_Navigation = _resolveComponent(\"Navigation\")\n\n  return (_openBlock(), _createElementBlock(\"div\", {\n    class: _normalizeClass([\"header-section header-transparent\", {'is-sticky': $data.isSticky}])\n  }, [\n    _createElementVNode(\"div\", _hoisted_1, [\n      _createElementVNode(\"div\", _hoisted_2, [\n        _createElementVNode(\"div\", _hoisted_3, [\n          _createElementVNode(\"div\", _hoisted_4, [\n            _createElementVNode(\"div\", _hoisted_5, [\n              _createVNode(_component_NuxtLink, { to: \"/\" }, {\n                default: _withCtx(() => [\n                  _hoisted_6,\n                  _hoisted_7\n                ]),\n                _: 1\n              })\n            ])\n          ]),\n          _createElementVNode(\"div\", _hoisted_8, [\n            _createElementVNode(\"div\", _hoisted_9, [\n              _createVNode(_component_Navigation)\n            ]),\n            _hoisted_10,\n            _createElementVNode(\"div\", _hoisted_11, [\n              _createElementVNode(\"button\", {\n                class: \"toggle\",\n                onClick: _cache[0] || (_cache[0] = $event => ($options.mobiletoggleClass('addClass', 'show-mobile-menu')))\n              }, _hoisted_15)\n            ])\n          ]),\n          _hoisted_16,\n          _createElementVNode(\"div\", _hoisted_17, [\n            _createVNode(_component_NuxtLink, {\n              to: \"/download\",\n              class: \"btn btn-light btn-hover-primary\"\n            }, {\n              default: _withCtx(() => [\n                _createTextVNode(\"Download App\")\n              ]),\n              _: 1\n            })\n          ])\n        ])\n      ])\n    ])\n  ], 2))\n}\n\n\nimport _export_sfc from '\u0000plugin-vue:export-helper'\nexport default /*#__PURE__*/_export_sfc(_sfc_main, [['render',_sfc_render]])",
-      "start": 1715842295571,
-      "end": 1715842295574,
+      "result": "\r\n    const _sfc_main = {\r\n        components: {\r\n            Navigation: () => import(\"@/components/Navigation\"),\r\n        },\r\n\r\n        data() {\r\n            return {\r\n                isSticky: false,\r\n            }\r\n        },\r\n\r\n        mounted(){\r\n            window.addEventListener('scroll', () => {\r\n                let scrollPos = window.scrollY\r\n                if(scrollPos >= 200){\r\n                    this.isSticky = true\r\n                } else {\r\n                    this.isSticky = false\r\n                }\r\n            })\r\n        },\r\n\r\n        methods: {\r\n            // offcanvas mobile menu\r\n            mobiletoggleClass(addRemoveClass, className) {\r\n                const el = document.querySelector('#offcanvas-menu');\r\n                if (addRemoveClass === 'addClass') {\r\n                    el.classList.add(className);\r\n                } else {\r\n                    el.classList.remove(className);\r\n                }\r\n            },\r\n\r\n            //offcanvas search \r\n            toggleClass(addRemoveClass, className) {\r\n                const el = document.querySelector('#search-popup');\r\n                if (addRemoveClass === 'addClass') {\r\n                    el.classList.add(className);\r\n                } else {\r\n                    el.classList.remove(className);\r\n                }\r\n            },\r\n        },\r\n    };\r\n\nimport { createElementVNode as _createElementVNode, resolveComponent as _resolveComponent, withCtx as _withCtx, createVNode as _createVNode, normalizeClass as _normalizeClass, openBlock as _openBlock, createElementBlock as _createElementBlock } from \"vue\"\nimport _imports_0 from '/images/logo/logo.png'\n\n\nconst _hoisted_1 = { class: \"header-inner\" }\nconst _hoisted_2 = { class: \"container position-relative\" }\nconst _hoisted_3 = { class: \"row justify-content-between align-items-center\" }\nconst _hoisted_4 = { class: \"col-xl-2 col-auto order-0\" }\nconst _hoisted_5 = { class: \"header-logo\" }\nconst _hoisted_6 = /*#__PURE__*/_createElementVNode(\"img\", {\n  style: {\"opacity\":\"0.5\"},\n  class: \"dark-logo\",\n  src: _imports_0,\n  alt: \"Javaraya Logo\"\n}, null, -1)\nconst _hoisted_7 = /*#__PURE__*/_createElementVNode(\"img\", {\n  style: {\"opacity\":\"0.5\"},\n  class: \"light-logo\",\n  src: _imports_0,\n  alt: \"Javaraya Logo\"\n}, null, -1)\nconst _hoisted_8 = { class: \"col-auto col-xl d-flex align-items-center justify-content-xl-center justify-content-end order-2 order-xl-1\" }\nconst _hoisted_9 = { class: \"menu-column-area d-none d-xl-block position-static\" }\nconst _hoisted_10 = /*#__PURE__*/_createElementVNode(\"div\", { class: \"header-search-area\" }, null, -1)\nconst _hoisted_11 = { class: \"header-mobile-menu-toggle d-xl-none ml-sm-2\" }\nconst _hoisted_12 = /*#__PURE__*/_createElementVNode(\"i\", { class: \"icon-top\" }, null, -1)\nconst _hoisted_13 = /*#__PURE__*/_createElementVNode(\"i\", { class: \"icon-middle\" }, null, -1)\nconst _hoisted_14 = /*#__PURE__*/_createElementVNode(\"i\", { class: \"icon-bottom\" }, null, -1)\nconst _hoisted_15 = [\n  _hoisted_12,\n  _hoisted_13,\n  _hoisted_14\n]\n\nfunction _sfc_render(_ctx, _cache, $props, $setup, $data, $options) {\n  const _component_NuxtLink = _resolveComponent(\"NuxtLink\")\n  const _component_Navigation = _resolveComponent(\"Navigation\")\n\n  return (_openBlock(), _createElementBlock(\"div\", {\n    class: _normalizeClass([\"header-section header-transparent\", {'is-sticky': $data.isSticky}])\n  }, [\n    _createElementVNode(\"div\", _hoisted_1, [\n      _createElementVNode(\"div\", _hoisted_2, [\n        _createElementVNode(\"div\", _hoisted_3, [\n          _createElementVNode(\"div\", _hoisted_4, [\n            _createElementVNode(\"div\", _hoisted_5, [\n              _createVNode(_component_NuxtLink, { to: \"/\" }, {\n                default: _withCtx(() => [\n                  _hoisted_6,\n                  _hoisted_7\n                ]),\n                _: 1\n              })\n            ])\n          ]),\n          _createElementVNode(\"div\", _hoisted_8, [\n            _createElementVNode(\"div\", _hoisted_9, [\n              _createVNode(_component_Navigation)\n            ]),\n            _hoisted_10,\n            _createElementVNode(\"div\", _hoisted_11, [\n              _createElementVNode(\"button\", {\n                class: \"toggle\",\n                onClick: _cache[0] || (_cache[0] = $event => ($options.mobiletoggleClass('addClass', 'show-mobile-menu')))\n              }, _hoisted_15)\n            ])\n          ])\n        ])\n      ])\n    ])\n  ], 2))\n}\n\n\nimport _export_sfc from '\u0000plugin-vue:export-helper'\nexport default /*#__PURE__*/_export_sfc(_sfc_main, [['render',_sfc_render]])",
+      "start": 1715843836187,
+      "end": 1715843836190,
       "order": "normal",
       "sourcemaps": {
         "mappings": ""
@@ -62,155 +62,155 @@
     },
     {
       "name": "vite:vue-jsx",
-      "start": 1715842295574,
-      "end": 1715842295574,
+      "start": 1715843836190,
+      "end": 1715843836190,
       "order": "normal"
     },
     {
       "name": "replace",
-      "start": 1715842295574,
-      "end": 1715842295574,
+      "start": 1715843836190,
+      "end": 1715843836190,
       "order": "normal"
     },
     {
       "name": "nuxt:remove-plugin-metadata",
-      "start": 1715842295574,
-      "end": 1715842295574,
+      "start": 1715843836190,
+      "end": 1715843836190,
       "order": "normal"
     },
     {
       "name": "nuxt:chunk-error",
-      "start": 1715842295574,
-      "end": 1715842295574,
+      "start": 1715843836190,
+      "end": 1715843836190,
       "order": "normal"
     },
     {
       "name": "nuxt:components:imports",
-      "start": 1715842295574,
-      "end": 1715842295574,
+      "start": 1715843836190,
+      "end": 1715843836190,
       "order": "normal"
     },
     {
       "name": "replace",
-      "start": 1715842295574,
-      "end": 1715842295574,
+      "start": 1715843836190,
+      "end": 1715843836190,
       "order": "normal"
     },
     {
       "name": "ssr-styles",
-      "start": 1715842295574,
-      "end": 1715842295574,
+      "start": 1715843836190,
+      "end": 1715843836190,
       "order": "normal"
     },
     {
       "name": "vite:define",
-      "start": 1715842295574,
-      "end": 1715842295574,
+      "start": 1715843836190,
+      "end": 1715843836190,
       "order": "normal"
     },
     {
       "name": "vite:css-post",
-      "start": 1715842295574,
-      "end": 1715842295574,
+      "start": 1715843836190,
+      "end": 1715843836190,
       "order": "normal"
     },
     {
       "name": "vite:build-html",
-      "start": 1715842295574,
-      "end": 1715842295574,
+      "start": 1715843836190,
+      "end": 1715843836190,
       "order": "normal"
     },
     {
       "name": "vite:worker-import-meta-url",
-      "start": 1715842295574,
-      "end": 1715842295574,
+      "start": 1715843836190,
+      "end": 1715843836190,
       "order": "normal"
     },
     {
       "name": "vite:asset-import-meta-url",
-      "start": 1715842295574,
-      "end": 1715842295574,
+      "start": 1715843836190,
+      "end": 1715843836190,
       "order": "normal"
     },
     {
       "name": "commonjs",
-      "start": 1715842295574,
-      "end": 1715842295574,
+      "start": 1715843836190,
+      "end": 1715843836190,
       "order": "normal"
     },
     {
       "name": "vite:dynamic-import-vars",
-      "start": 1715842295574,
-      "end": 1715842295575,
+      "start": 1715843836190,
+      "end": 1715843836190,
       "order": "normal"
     },
     {
       "name": "vite:import-glob",
-      "start": 1715842295575,
-      "end": 1715842295575,
+      "start": 1715843836190,
+      "end": 1715843836190,
       "order": "normal"
     },
     {
       "name": "nuxt:composable-keys",
-      "start": 1715842295575,
-      "end": 1715842295575,
+      "start": 1715843836190,
+      "end": 1715843836190,
       "order": "post"
     },
     {
       "name": "nuxt:imports-transform",
-      "start": 1715842295575,
-      "end": 1715842295576,
+      "start": 1715843836190,
+      "end": 1715843836191,
       "order": "post"
     },
     {
       "name": "unctx:transform",
-      "start": 1715842295576,
-      "end": 1715842295576,
+      "start": 1715843836191,
+      "end": 1715843836191,
       "order": "post"
     },
     {
       "name": "nuxt:pages-macros-transform",
-      "start": 1715842295576,
-      "end": 1715842295576,
+      "start": 1715843836191,
+      "end": 1715843836191,
       "order": "post"
     },
     {
       "name": "nuxt:runtime-paths-dep",
-      "start": 1715842295576,
-      "end": 1715842295576,
+      "start": 1715843836191,
+      "end": 1715843836191,
       "order": "post"
     },
     {
       "name": "nuxt:route-injection-plugin",
-      "start": 1715842295576,
-      "end": 1715842295576,
+      "start": 1715843836191,
+      "end": 1715843836191,
       "order": "post"
     },
     {
       "name": "nuxt:components-loader",
-      "result": "import { default as __nuxt_component_0 } from \"E:/Projects/JavaRayaInternational/website/node_modules/nuxt/dist/app/components/nuxt-link\";\nimport { default as __nuxt_component_1 } from \"E:/Projects/JavaRayaInternational/website/components/Navigation.vue\";\n\r\n    const _sfc_main = {\r\n        components: {\r\n            Navigation: () => import(\"@/components/Navigation\"),\r\n        },\r\n\r\n        data() {\r\n            return {\r\n                isSticky: false,\r\n            }\r\n        },\r\n\r\n        mounted(){\r\n            window.addEventListener('scroll', () => {\r\n                let scrollPos = window.scrollY\r\n                if(scrollPos >= 200){\r\n                    this.isSticky = true\r\n                } else {\r\n                    this.isSticky = false\r\n                }\r\n            })\r\n        },\r\n\r\n        methods: {\r\n            // offcanvas mobile menu\r\n            mobiletoggleClass(addRemoveClass, className) {\r\n                const el = document.querySelector('#offcanvas-menu');\r\n                if (addRemoveClass === 'addClass') {\r\n                    el.classList.add(className);\r\n                } else {\r\n                    el.classList.remove(className);\r\n                }\r\n            },\r\n\r\n            //offcanvas search \r\n            toggleClass(addRemoveClass, className) {\r\n                const el = document.querySelector('#search-popup');\r\n                if (addRemoveClass === 'addClass') {\r\n                    el.classList.add(className);\r\n                } else {\r\n                    el.classList.remove(className);\r\n                }\r\n            },\r\n        },\r\n    };\r\n\nimport { createElementVNode as _createElementVNode, resolveComponent as _resolveComponent, withCtx as _withCtx, createVNode as _createVNode, createTextVNode as _createTextVNode, normalizeClass as _normalizeClass, openBlock as _openBlock, createElementBlock as _createElementBlock } from \"vue\"\nimport _imports_0 from '/images/logo/logo.png'\n\n\nconst _hoisted_1 = { class: \"header-inner\" }\nconst _hoisted_2 = { class: \"container position-relative\" }\nconst _hoisted_3 = { class: \"row justify-content-between align-items-center\" }\nconst _hoisted_4 = { class: \"col-xl-2 col-auto order-0\" }\nconst _hoisted_5 = { class: \"header-logo\" }\nconst _hoisted_6 = /*#__PURE__*/_createElementVNode(\"img\", {\n  style: {\"opacity\":\"0.5\"},\n  class: \"dark-logo\",\n  src: _imports_0,\n  alt: \"Agency Logo\"\n}, null, -1)\nconst _hoisted_7 = /*#__PURE__*/_createElementVNode(\"img\", {\n  style: {\"opacity\":\"0.5\"},\n  class: \"light-logo\",\n  src: _imports_0,\n  alt: \"Agency Logo\"\n}, null, -1)\nconst _hoisted_8 = { class: \"col-auto col-xl d-flex align-items-center justify-content-xl-center justify-content-end order-2 order-xl-1\" }\nconst _hoisted_9 = { class: \"menu-column-area d-none d-xl-block position-static\" }\nconst _hoisted_10 = /*#__PURE__*/_createElementVNode(\"div\", { class: \"header-search-area\" }, null, -1)\nconst _hoisted_11 = { class: \"header-mobile-menu-toggle d-xl-none ml-sm-2\" }\nconst _hoisted_12 = /*#__PURE__*/_createElementVNode(\"i\", { class: \"icon-top\" }, null, -1)\nconst _hoisted_13 = /*#__PURE__*/_createElementVNode(\"i\", { class: \"icon-middle\" }, null, -1)\nconst _hoisted_14 = /*#__PURE__*/_createElementVNode(\"i\", { class: \"icon-bottom\" }, null, -1)\nconst _hoisted_15 = [\n  _hoisted_12,\n  _hoisted_13,\n  _hoisted_14\n]\nconst _hoisted_16 = /*#__PURE__*/_createElementVNode(\"div\", { class: \"col-xl-2 col d-none d-sm-flex justify-content-end order-1 order-xl-2\" }, [\n  /*#__PURE__*/_createElementVNode(\"a\", {\n    href: \"https://shop.javaraya.co.uk\",\n    class: \"btn btn-light btn-hover-primary\",\n    target: \"_blank\"\n  }, \"Shop Now\")\n], -1)\nconst _hoisted_17 = { class: \"col-xl-2 col d-none d-sm-flex justify-content-end order-1 order-xl-2\" }\n\nfunction _sfc_render(_ctx, _cache, $props, $setup, $data, $options) {\n  const _component_NuxtLink = __nuxt_component_0\n  const _component_Navigation = __nuxt_component_1\n\n  return (_openBlock(), _createElementBlock(\"div\", {\n    class: _normalizeClass([\"header-section header-transparent\", {'is-sticky': $data.isSticky}])\n  }, [\n    _createElementVNode(\"div\", _hoisted_1, [\n      _createElementVNode(\"div\", _hoisted_2, [\n        _createElementVNode(\"div\", _hoisted_3, [\n          _createElementVNode(\"div\", _hoisted_4, [\n            _createElementVNode(\"div\", _hoisted_5, [\n              _createVNode(_component_NuxtLink, { to: \"/\" }, {\n                default: _withCtx(() => [\n                  _hoisted_6,\n                  _hoisted_7\n                ]),\n                _: 1\n              })\n            ])\n          ]),\n          _createElementVNode(\"div\", _hoisted_8, [\n            _createElementVNode(\"div\", _hoisted_9, [\n              _createVNode(_component_Navigation)\n            ]),\n            _hoisted_10,\n            _createElementVNode(\"div\", _hoisted_11, [\n              _createElementVNode(\"button\", {\n                class: \"toggle\",\n                onClick: _cache[0] || (_cache[0] = $event => ($options.mobiletoggleClass('addClass', 'show-mobile-menu')))\n              }, _hoisted_15)\n            ])\n          ]),\n          _hoisted_16,\n          _createElementVNode(\"div\", _hoisted_17, [\n            _createVNode(_component_NuxtLink, {\n              to: \"/download\",\n              class: \"btn btn-light btn-hover-primary\"\n            }, {\n              default: _withCtx(() => [\n                _createTextVNode(\"Download App\")\n              ]),\n              _: 1\n            })\n          ])\n        ])\n      ])\n    ])\n  ], 2))\n}\n\n\nimport _export_sfc from '\u0000plugin-vue:export-helper'\nexport default /*#__PURE__*/_export_sfc(_sfc_main, [['render',_sfc_render]])",
-      "start": 1715842295576,
-      "end": 1715842295576,
+      "result": "import { default as __nuxt_component_0 } from \"E:/Projects/JavaRayaInternational/website/node_modules/nuxt/dist/app/components/nuxt-link\";\nimport { default as __nuxt_component_1 } from \"E:/Projects/JavaRayaInternational/website/components/Navigation.vue\";\n\r\n    const _sfc_main = {\r\n        components: {\r\n            Navigation: () => import(\"@/components/Navigation\"),\r\n        },\r\n\r\n        data() {\r\n            return {\r\n                isSticky: false,\r\n            }\r\n        },\r\n\r\n        mounted(){\r\n            window.addEventListener('scroll', () => {\r\n                let scrollPos = window.scrollY\r\n                if(scrollPos >= 200){\r\n                    this.isSticky = true\r\n                } else {\r\n                    this.isSticky = false\r\n                }\r\n            })\r\n        },\r\n\r\n        methods: {\r\n            // offcanvas mobile menu\r\n            mobiletoggleClass(addRemoveClass, className) {\r\n                const el = document.querySelector('#offcanvas-menu');\r\n                if (addRemoveClass === 'addClass') {\r\n                    el.classList.add(className);\r\n                } else {\r\n                    el.classList.remove(className);\r\n                }\r\n            },\r\n\r\n            //offcanvas search \r\n            toggleClass(addRemoveClass, className) {\r\n                const el = document.querySelector('#search-popup');\r\n                if (addRemoveClass === 'addClass') {\r\n                    el.classList.add(className);\r\n                } else {\r\n                    el.classList.remove(className);\r\n                }\r\n            },\r\n        },\r\n    };\r\n\nimport { createElementVNode as _createElementVNode, resolveComponent as _resolveComponent, withCtx as _withCtx, createVNode as _createVNode, normalizeClass as _normalizeClass, openBlock as _openBlock, createElementBlock as _createElementBlock } from \"vue\"\nimport _imports_0 from '/images/logo/logo.png'\n\n\nconst _hoisted_1 = { class: \"header-inner\" }\nconst _hoisted_2 = { class: \"container position-relative\" }\nconst _hoisted_3 = { class: \"row justify-content-between align-items-center\" }\nconst _hoisted_4 = { class: \"col-xl-2 col-auto order-0\" }\nconst _hoisted_5 = { class: \"header-logo\" }\nconst _hoisted_6 = /*#__PURE__*/_createElementVNode(\"img\", {\n  style: {\"opacity\":\"0.5\"},\n  class: \"dark-logo\",\n  src: _imports_0,\n  alt: \"Javaraya Logo\"\n}, null, -1)\nconst _hoisted_7 = /*#__PURE__*/_createElementVNode(\"img\", {\n  style: {\"opacity\":\"0.5\"},\n  class: \"light-logo\",\n  src: _imports_0,\n  alt: \"Javaraya Logo\"\n}, null, -1)\nconst _hoisted_8 = { class: \"col-auto col-xl d-flex align-items-center justify-content-xl-center justify-content-end order-2 order-xl-1\" }\nconst _hoisted_9 = { class: \"menu-column-area d-none d-xl-block position-static\" }\nconst _hoisted_10 = /*#__PURE__*/_createElementVNode(\"div\", { class: \"header-search-area\" }, null, -1)\nconst _hoisted_11 = { class: \"header-mobile-menu-toggle d-xl-none ml-sm-2\" }\nconst _hoisted_12 = /*#__PURE__*/_createElementVNode(\"i\", { class: \"icon-top\" }, null, -1)\nconst _hoisted_13 = /*#__PURE__*/_createElementVNode(\"i\", { class: \"icon-middle\" }, null, -1)\nconst _hoisted_14 = /*#__PURE__*/_createElementVNode(\"i\", { class: \"icon-bottom\" }, null, -1)\nconst _hoisted_15 = [\n  _hoisted_12,\n  _hoisted_13,\n  _hoisted_14\n]\n\nfunction _sfc_render(_ctx, _cache, $props, $setup, $data, $options) {\n  const _component_NuxtLink = __nuxt_component_0\n  const _component_Navigation = __nuxt_component_1\n\n  return (_openBlock(), _createElementBlock(\"div\", {\n    class: _normalizeClass([\"header-section header-transparent\", {'is-sticky': $data.isSticky}])\n  }, [\n    _createElementVNode(\"div\", _hoisted_1, [\n      _createElementVNode(\"div\", _hoisted_2, [\n        _createElementVNode(\"div\", _hoisted_3, [\n          _createElementVNode(\"div\", _hoisted_4, [\n            _createElementVNode(\"div\", _hoisted_5, [\n              _createVNode(_component_NuxtLink, { to: \"/\" }, {\n                default: _withCtx(() => [\n                  _hoisted_6,\n                  _hoisted_7\n                ]),\n                _: 1\n              })\n            ])\n          ]),\n          _createElementVNode(\"div\", _hoisted_8, [\n            _createElementVNode(\"div\", _hoisted_9, [\n              _createVNode(_component_Navigation)\n            ]),\n            _hoisted_10,\n            _createElementVNode(\"div\", _hoisted_11, [\n              _createElementVNode(\"button\", {\n                class: \"toggle\",\n                onClick: _cache[0] || (_cache[0] = $event => ($options.mobiletoggleClass('addClass', 'show-mobile-menu')))\n              }, _hoisted_15)\n            ])\n          ])\n        ])\n      ])\n    ])\n  ], 2))\n}\n\n\nimport _export_sfc from '\u0000plugin-vue:export-helper'\nexport default /*#__PURE__*/_export_sfc(_sfc_main, [['render',_sfc_render]])",
+      "start": 1715843836191,
+      "end": 1715843836191,
       "order": "post"
     },
     {
       "name": "nuxt:tree-shake-composables:transform",
-      "start": 1715842295576,
-      "end": 1715842295576,
+      "start": 1715843836191,
+      "end": 1715843836191,
       "order": "post"
     },
     {
       "name": "vite:build-import-analysis",
-      "result": "import { __vitePreload } from \"\u0000vite/preload-helper.js\";import { default as __nuxt_component_0 } from \"E:/Projects/JavaRayaInternational/website/node_modules/nuxt/dist/app/components/nuxt-link\";\nimport { default as __nuxt_component_1 } from \"E:/Projects/JavaRayaInternational/website/components/Navigation.vue\";\n\r\n    const _sfc_main = {\r\n        components: {\r\n            Navigation: () => __vitePreload(() => import(\"@/components/Navigation\"),__VITE_IS_MODERN__?\"__VITE_PRELOAD__\":void 0,import.meta.url),\r\n        },\r\n\r\n        data() {\r\n            return {\r\n                isSticky: false,\r\n            }\r\n        },\r\n\r\n        mounted(){\r\n            window.addEventListener('scroll', () => {\r\n                let scrollPos = window.scrollY\r\n                if(scrollPos >= 200){\r\n                    this.isSticky = true\r\n                } else {\r\n                    this.isSticky = false\r\n                }\r\n            })\r\n        },\r\n\r\n        methods: {\r\n            // offcanvas mobile menu\r\n            mobiletoggleClass(addRemoveClass, className) {\r\n                const el = document.querySelector('#offcanvas-menu');\r\n                if (addRemoveClass === 'addClass') {\r\n                    el.classList.add(className);\r\n                } else {\r\n                    el.classList.remove(className);\r\n                }\r\n            },\r\n\r\n            //offcanvas search \r\n            toggleClass(addRemoveClass, className) {\r\n                const el = document.querySelector('#search-popup');\r\n                if (addRemoveClass === 'addClass') {\r\n                    el.classList.add(className);\r\n                } else {\r\n                    el.classList.remove(className);\r\n                }\r\n            },\r\n        },\r\n    };\r\n\nimport { createElementVNode as _createElementVNode, resolveComponent as _resolveComponent, withCtx as _withCtx, createVNode as _createVNode, createTextVNode as _createTextVNode, normalizeClass as _normalizeClass, openBlock as _openBlock, createElementBlock as _createElementBlock } from \"vue\"\nimport _imports_0 from '/images/logo/logo.png'\n\n\nconst _hoisted_1 = { class: \"header-inner\" }\nconst _hoisted_2 = { class: \"container position-relative\" }\nconst _hoisted_3 = { class: \"row justify-content-between align-items-center\" }\nconst _hoisted_4 = { class: \"col-xl-2 col-auto order-0\" }\nconst _hoisted_5 = { class: \"header-logo\" }\nconst _hoisted_6 = /*#__PURE__*/_createElementVNode(\"img\", {\n  style: {\"opacity\":\"0.5\"},\n  class: \"dark-logo\",\n  src: _imports_0,\n  alt: \"Agency Logo\"\n}, null, -1)\nconst _hoisted_7 = /*#__PURE__*/_createElementVNode(\"img\", {\n  style: {\"opacity\":\"0.5\"},\n  class: \"light-logo\",\n  src: _imports_0,\n  alt: \"Agency Logo\"\n}, null, -1)\nconst _hoisted_8 = { class: \"col-auto col-xl d-flex align-items-center justify-content-xl-center justify-content-end order-2 order-xl-1\" }\nconst _hoisted_9 = { class: \"menu-column-area d-none d-xl-block position-static\" }\nconst _hoisted_10 = /*#__PURE__*/_createElementVNode(\"div\", { class: \"header-search-area\" }, null, -1)\nconst _hoisted_11 = { class: \"header-mobile-menu-toggle d-xl-none ml-sm-2\" }\nconst _hoisted_12 = /*#__PURE__*/_createElementVNode(\"i\", { class: \"icon-top\" }, null, -1)\nconst _hoisted_13 = /*#__PURE__*/_createElementVNode(\"i\", { class: \"icon-middle\" }, null, -1)\nconst _hoisted_14 = /*#__PURE__*/_createElementVNode(\"i\", { class: \"icon-bottom\" }, null, -1)\nconst _hoisted_15 = [\n  _hoisted_12,\n  _hoisted_13,\n  _hoisted_14\n]\nconst _hoisted_16 = /*#__PURE__*/_createElementVNode(\"div\", { class: \"col-xl-2 col d-none d-sm-flex justify-content-end order-1 order-xl-2\" }, [\n  /*#__PURE__*/_createElementVNode(\"a\", {\n    href: \"https://shop.javaraya.co.uk\",\n    class: \"btn btn-light btn-hover-primary\",\n    target: \"_blank\"\n  }, \"Shop Now\")\n], -1)\nconst _hoisted_17 = { class: \"col-xl-2 col d-none d-sm-flex justify-content-end order-1 order-xl-2\" }\n\nfunction _sfc_render(_ctx, _cache, $props, $setup, $data, $options) {\n  const _component_NuxtLink = __nuxt_component_0\n  const _component_Navigation = __nuxt_component_1\n\n  return (_openBlock(), _createElementBlock(\"div\", {\n    class: _normalizeClass([\"header-section header-transparent\", {'is-sticky': $data.isSticky}])\n  }, [\n    _createElementVNode(\"div\", _hoisted_1, [\n      _createElementVNode(\"div\", _hoisted_2, [\n        _createElementVNode(\"div\", _hoisted_3, [\n          _createElementVNode(\"div\", _hoisted_4, [\n            _createElementVNode(\"div\", _hoisted_5, [\n              _createVNode(_component_NuxtLink, { to: \"/\" }, {\n                default: _withCtx(() => [\n                  _hoisted_6,\n                  _hoisted_7\n                ]),\n                _: 1\n              })\n            ])\n          ]),\n          _createElementVNode(\"div\", _hoisted_8, [\n            _createElementVNode(\"div\", _hoisted_9, [\n              _createVNode(_component_Navigation)\n            ]),\n            _hoisted_10,\n            _createElementVNode(\"div\", _hoisted_11, [\n              _createElementVNode(\"button\", {\n                class: \"toggle\",\n                onClick: _cache[0] || (_cache[0] = $event => ($options.mobiletoggleClass('addClass', 'show-mobile-menu')))\n              }, _hoisted_15)\n            ])\n          ]),\n          _hoisted_16,\n          _createElementVNode(\"div\", _hoisted_17, [\n            _createVNode(_component_NuxtLink, {\n              to: \"/download\",\n              class: \"btn btn-light btn-hover-primary\"\n            }, {\n              default: _withCtx(() => [\n                _createTextVNode(\"Download App\")\n              ]),\n              _: 1\n            })\n          ])\n        ])\n      ])\n    ])\n  ], 2))\n}\n\n\nimport _export_sfc from '\u0000plugin-vue:export-helper'\nexport default /*#__PURE__*/_export_sfc(_sfc_main, [['render',_sfc_render]])",
-      "start": 1715842295576,
-      "end": 1715842295576,
+      "result": "import { __vitePreload } from \"\u0000vite/preload-helper.js\";import { default as __nuxt_component_0 } from \"E:/Projects/JavaRayaInternational/website/node_modules/nuxt/dist/app/components/nuxt-link\";\nimport { default as __nuxt_component_1 } from \"E:/Projects/JavaRayaInternational/website/components/Navigation.vue\";\n\r\n    const _sfc_main = {\r\n        components: {\r\n            Navigation: () => __vitePreload(() => import(\"@/components/Navigation\"),__VITE_IS_MODERN__?\"__VITE_PRELOAD__\":void 0,import.meta.url),\r\n        },\r\n\r\n        data() {\r\n            return {\r\n                isSticky: false,\r\n            }\r\n        },\r\n\r\n        mounted(){\r\n            window.addEventListener('scroll', () => {\r\n                let scrollPos = window.scrollY\r\n                if(scrollPos >= 200){\r\n                    this.isSticky = true\r\n                } else {\r\n                    this.isSticky = false\r\n                }\r\n            })\r\n        },\r\n\r\n        methods: {\r\n            // offcanvas mobile menu\r\n            mobiletoggleClass(addRemoveClass, className) {\r\n                const el = document.querySelector('#offcanvas-menu');\r\n                if (addRemoveClass === 'addClass') {\r\n                    el.classList.add(className);\r\n                } else {\r\n                    el.classList.remove(className);\r\n                }\r\n            },\r\n\r\n            //offcanvas search \r\n            toggleClass(addRemoveClass, className) {\r\n                const el = document.querySelector('#search-popup');\r\n                if (addRemoveClass === 'addClass') {\r\n                    el.classList.add(className);\r\n                } else {\r\n                    el.classList.remove(className);\r\n                }\r\n            },\r\n        },\r\n    };\r\n\nimport { createElementVNode as _createElementVNode, resolveComponent as _resolveComponent, withCtx as _withCtx, createVNode as _createVNode, normalizeClass as _normalizeClass, openBlock as _openBlock, createElementBlock as _createElementBlock } from \"vue\"\nimport _imports_0 from '/images/logo/logo.png'\n\n\nconst _hoisted_1 = { class: \"header-inner\" }\nconst _hoisted_2 = { class: \"container position-relative\" }\nconst _hoisted_3 = { class: \"row justify-content-between align-items-center\" }\nconst _hoisted_4 = { class: \"col-xl-2 col-auto order-0\" }\nconst _hoisted_5 = { class: \"header-logo\" }\nconst _hoisted_6 = /*#__PURE__*/_createElementVNode(\"img\", {\n  style: {\"opacity\":\"0.5\"},\n  class: \"dark-logo\",\n  src: _imports_0,\n  alt: \"Javaraya Logo\"\n}, null, -1)\nconst _hoisted_7 = /*#__PURE__*/_createElementVNode(\"img\", {\n  style: {\"opacity\":\"0.5\"},\n  class: \"light-logo\",\n  src: _imports_0,\n  alt: \"Javaraya Logo\"\n}, null, -1)\nconst _hoisted_8 = { class: \"col-auto col-xl d-flex align-items-center justify-content-xl-center justify-content-end order-2 order-xl-1\" }\nconst _hoisted_9 = { class: \"menu-column-area d-none d-xl-block position-static\" }\nconst _hoisted_10 = /*#__PURE__*/_createElementVNode(\"div\", { class: \"header-search-area\" }, null, -1)\nconst _hoisted_11 = { class: \"header-mobile-menu-toggle d-xl-none ml-sm-2\" }\nconst _hoisted_12 = /*#__PURE__*/_createElementVNode(\"i\", { class: \"icon-top\" }, null, -1)\nconst _hoisted_13 = /*#__PURE__*/_createElementVNode(\"i\", { class: \"icon-middle\" }, null, -1)\nconst _hoisted_14 = /*#__PURE__*/_createElementVNode(\"i\", { class: \"icon-bottom\" }, null, -1)\nconst _hoisted_15 = [\n  _hoisted_12,\n  _hoisted_13,\n  _hoisted_14\n]\n\nfunction _sfc_render(_ctx, _cache, $props, $setup, $data, $options) {\n  const _component_NuxtLink = __nuxt_component_0\n  const _component_Navigation = __nuxt_component_1\n\n  return (_openBlock(), _createElementBlock(\"div\", {\n    class: _normalizeClass([\"header-section header-transparent\", {'is-sticky': $data.isSticky}])\n  }, [\n    _createElementVNode(\"div\", _hoisted_1, [\n      _createElementVNode(\"div\", _hoisted_2, [\n        _createElementVNode(\"div\", _hoisted_3, [\n          _createElementVNode(\"div\", _hoisted_4, [\n            _createElementVNode(\"div\", _hoisted_5, [\n              _createVNode(_component_NuxtLink, { to: \"/\" }, {\n                default: _withCtx(() => [\n                  _hoisted_6,\n                  _hoisted_7\n                ]),\n                _: 1\n              })\n            ])\n          ]),\n          _createElementVNode(\"div\", _hoisted_8, [\n            _createElementVNode(\"div\", _hoisted_9, [\n              _createVNode(_component_Navigation)\n            ]),\n            _hoisted_10,\n            _createElementVNode(\"div\", _hoisted_11, [\n              _createElementVNode(\"button\", {\n                class: \"toggle\",\n                onClick: _cache[0] || (_cache[0] = $event => ($options.mobiletoggleClass('addClass', 'show-mobile-menu')))\n              }, _hoisted_15)\n            ])\n          ])\n        ])\n      ])\n    ])\n  ], 2))\n}\n\n\nimport _export_sfc from '\u0000plugin-vue:export-helper'\nexport default /*#__PURE__*/_export_sfc(_sfc_main, [['render',_sfc_render]])",
+      "start": 1715843836191,
+      "end": 1715843836192,
       "order": "normal",
       "sourcemaps": null
     },
     {
       "name": "vite:reporter",
-      "start": 1715842295576,
-      "end": 1715842295576,
+      "start": 1715843836192,
+      "end": 1715843836192,
       "order": "normal"
     }
   ]

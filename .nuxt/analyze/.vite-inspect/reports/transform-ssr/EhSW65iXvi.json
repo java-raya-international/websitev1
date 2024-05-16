@@ -4,75 +4,75 @@
     {
       "name": "vite:load-fallback",
       "result": "<template>\r\n    <div class=\"main-search-active\" id=\"search-popup\">\r\n        <div class=\"sidebar-search-icon\">\r\n            <button class=\"search-close\" @click=\"toggleClass('removeClass', 'search-popup-open')\">\r\n                <i class=\"fa fa-times\"></i>\r\n            </button>\r\n        </div>\r\n        <div class=\"sidebar-search-input\">\r\n            <form>\r\n                <div class=\"form-search\">\r\n                    <input id=\"search\" class=\"input-text\" value=\"\" placeholder=\"\" type=\"search\">\r\n                    <button>\r\n                        <i class=\"fa fa-search\"></i>\r\n                    </button>\r\n                </div>\r\n            </form>\r\n            <p class=\"form-description\">Hit enter to search</p>\r\n        </div>\r\n    </div>\r\n</template>\r\n\r\n<script>\r\n    export default {\r\n        methods: {\r\n            // offcanvas search close\r\n            toggleClass(addRemoveClass, className) {\r\n                const el = document.querySelector('#search-popup');\r\n                if (addRemoveClass === 'addClass') {\r\n                    el.classList.add(className);\r\n                } else {\r\n                    el.classList.remove(className);\r\n                }\r\n            }\r\n        }\r\n    };\r\n</script>",
-      "start": 1715842300628,
-      "end": 1715842300706,
+      "start": 1715843841074,
+      "end": 1715843841413,
       "sourcemaps": null
     },
     {
       "name": "nuxt:layer-aliasing",
-      "start": 1715842300706,
-      "end": 1715842300706,
+      "start": 1715843841413,
+      "end": 1715843841413,
       "order": "pre"
     },
     {
       "name": "nuxt:layer-aliasing",
-      "start": 1715842300706,
-      "end": 1715842300706,
+      "start": 1715843841413,
+      "end": 1715843841413,
       "order": "pre"
     },
     {
       "name": "nuxt:server-devonly:transform",
-      "start": 1715842300706,
-      "end": 1715842300706,
+      "start": 1715843841413,
+      "end": 1715843841413,
       "order": "pre"
     },
     {
       "name": "nuxt:server-devonly:transform",
-      "start": 1715842300706,
-      "end": 1715842300706,
+      "start": 1715843841413,
+      "end": 1715843841413,
       "order": "pre"
     },
     {
       "name": "nuxt:client-fallback-auto-id",
-      "start": 1715842300706,
-      "end": 1715842300706,
+      "start": 1715843841413,
+      "end": 1715843841413,
       "order": "pre"
     },
     {
       "name": "server-only-component-transform",
-      "start": 1715842300706,
-      "end": 1715842300706,
+      "start": 1715843841413,
+      "end": 1715843841413,
       "order": "pre"
     },
     {
       "name": "vite:css",
-      "start": 1715842300706,
-      "end": 1715842300706,
+      "start": 1715843841413,
+      "end": 1715843841413,
       "order": "normal"
     },
     {
       "name": "vite:esbuild",
-      "start": 1715842300706,
-      "end": 1715842300706,
+      "start": 1715843841413,
+      "end": 1715843841413,
       "order": "normal"
     },
     {
       "name": "vite:json",
-      "start": 1715842300706,
-      "end": 1715842300706,
+      "start": 1715843841413,
+      "end": 1715843841413,
       "order": "normal"
     },
     {
       "name": "vite:worker",
-      "start": 1715842300706,
-      "end": 1715842300706,
+      "start": 1715843841413,
+      "end": 1715843841413,
       "order": "normal"
     },
     {
       "name": "vite:vue",
       "result": "\r\n    const _sfc_main = {\r\n        methods: {\r\n            // offcanvas search close\r\n            toggleClass(addRemoveClass, className) {\r\n                const el = document.querySelector('#search-popup');\r\n                if (addRemoveClass === 'addClass') {\r\n                    el.classList.add(className);\r\n                } else {\r\n                    el.classList.remove(className);\r\n                }\r\n            }\r\n        }\r\n    };\r\n\nimport { mergeProps as _mergeProps } from \"vue\"\nimport { ssrRenderAttrs as _ssrRenderAttrs } from \"vue/server-renderer\"\n\nfunction _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $options) {\n  _push(`<div${_ssrRenderAttrs(_mergeProps({\n    class: \"main-search-active\",\n    id: \"search-popup\"\n  }, _attrs))}><div class=\"sidebar-search-icon\"><button class=\"search-close\"><i class=\"fa fa-times\"></i></button></div><div class=\"sidebar-search-input\"><form><div class=\"form-search\"><input id=\"search\" class=\"input-text\" value=\"\" placeholder=\"\" type=\"search\"><button><i class=\"fa fa-search\"></i></button></div></form><p class=\"form-description\">Hit enter to search</p></div></div>`)\n}\n\n\nimport { useSSRContext as __vite_useSSRContext } from 'vue'\nconst _sfc_setup = _sfc_main.setup\n_sfc_main.setup = (props, ctx) => {\n  const ssrContext = __vite_useSSRContext()\n  ;(ssrContext.modules || (ssrContext.modules = new Set())).add(\"components/SearchPopup.vue\")\n  return _sfc_setup ? _sfc_setup(props, ctx) : undefined\n}\nimport _export_sfc from '\u0000plugin-vue:export-helper'\nexport default /*#__PURE__*/_export_sfc(_sfc_main, [['ssrRender',_sfc_ssrRender]])",
-      "start": 1715842300706,
-      "end": 1715842300707,
+      "start": 1715843841413,
+      "end": 1715843841414,
       "order": "normal",
       "sourcemaps": {
         "version": 3,
@@ -89,178 +89,178 @@
     },
     {
       "name": "vite:vue-jsx",
-      "start": 1715842300707,
-      "end": 1715842300707,
+      "start": 1715843841414,
+      "end": 1715843841414,
       "order": "normal"
     },
     {
       "name": "replace",
-      "start": 1715842300707,
-      "end": 1715842300707,
+      "start": 1715843841414,
+      "end": 1715843841414,
       "order": "normal"
     },
     {
       "name": "replace",
-      "start": 1715842300707,
-      "end": 1715842300707,
+      "start": 1715843841414,
+      "end": 1715843841414,
       "order": "normal"
     },
     {
       "name": "nuxt:remove-plugin-metadata",
-      "start": 1715842300707,
-      "end": 1715842300707,
+      "start": 1715843841414,
+      "end": 1715843841414,
       "order": "normal"
     },
     {
       "name": "nuxt:remove-plugin-metadata",
-      "start": 1715842300707,
-      "end": 1715842300707,
+      "start": 1715843841414,
+      "end": 1715843841414,
       "order": "normal"
     },
     {
       "name": "nuxt:components:imports",
-      "start": 1715842300707,
-      "end": 1715842300707,
+      "start": 1715843841414,
+      "end": 1715843841414,
       "order": "normal"
     },
     {
       "name": "replace",
-      "start": 1715842300707,
-      "end": 1715842300707,
+      "start": 1715843841414,
+      "end": 1715843841414,
       "order": "normal"
     },
     {
       "name": "ssr-styles",
-      "start": 1715842300707,
-      "end": 1715842300707,
+      "start": 1715843841414,
+      "end": 1715843841414,
       "order": "normal"
     },
     {
       "name": "vite:define",
       "result": "const _sfc_main = {\n  methods: {\n    // offcanvas search close\n    toggleClass(addRemoveClass, className) {\n      const el = (void 0).querySelector(\"#search-popup\");\n      if (addRemoveClass === \"addClass\") {\n        el.classList.add(className);\n      } else {\n        el.classList.remove(className);\n      }\n    }\n  }\n};\nimport { mergeProps as _mergeProps } from \"vue\";\nimport { ssrRenderAttrs as _ssrRenderAttrs } from \"vue/server-renderer\";\nfunction _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $options) {\n  _push(`<div${_ssrRenderAttrs(_mergeProps({\n    class: \"main-search-active\",\n    id: \"search-popup\"\n  }, _attrs))}><div class=\"sidebar-search-icon\"><button class=\"search-close\"><i class=\"fa fa-times\"></i></button></div><div class=\"sidebar-search-input\"><form><div class=\"form-search\"><input id=\"search\" class=\"input-text\" value=\"\" placeholder=\"\" type=\"search\"><button><i class=\"fa fa-search\"></i></button></div></form><p class=\"form-description\">Hit enter to search</p></div></div>`);\n}\nimport { useSSRContext as __vite_useSSRContext } from \"vue\";\nconst _sfc_setup = _sfc_main.setup;\n_sfc_main.setup = (props, ctx) => {\n  const ssrContext = __vite_useSSRContext();\n  (ssrContext.modules || (ssrContext.modules = /* @__PURE__ */ new Set())).add(\"components/SearchPopup.vue\");\n  return _sfc_setup ? _sfc_setup(props, ctx) : void 0;\n};\nimport _export_sfc from \"\\0plugin-vue:export-helper\";\nexport default /* @__PURE__ */ _export_sfc(_sfc_main, [[\"ssrRender\", _sfc_ssrRender]]);\n",
-      "start": 1715842300707,
-      "end": 1715842300771,
+      "start": 1715843841414,
+      "end": 1715843841485,
       "order": "normal",
       "sourcemaps": "{\n  \"version\": 3,\n  \"sources\": [\"E:/Projects/JavaRayaInternational/website/components/SearchPopup.vue\"],\n  \"sourcesContent\": [\"\\r\\n    const _sfc_main = {\\r\\n        methods: {\\r\\n            // offcanvas search close\\r\\n            toggleClass(addRemoveClass, className) {\\r\\n                const el = document.querySelector('#search-popup');\\r\\n                if (addRemoveClass === 'addClass') {\\r\\n                    el.classList.add(className);\\r\\n                } else {\\r\\n                    el.classList.remove(className);\\r\\n                }\\r\\n            }\\r\\n        }\\r\\n    };\\r\\n\\nimport { mergeProps as _mergeProps } from \\\"vue\\\"\\nimport { ssrRenderAttrs as _ssrRenderAttrs } from \\\"vue/server-renderer\\\"\\n\\nfunction _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $options) {\\n  _push(`<div${_ssrRenderAttrs(_mergeProps({\\n    class: \\\"main-search-active\\\",\\n    id: \\\"search-popup\\\"\\n  }, _attrs))}><div class=\\\"sidebar-search-icon\\\"><button class=\\\"search-close\\\"><i class=\\\"fa fa-times\\\"></i></button></div><div class=\\\"sidebar-search-input\\\"><form><div class=\\\"form-search\\\"><input id=\\\"search\\\" class=\\\"input-text\\\" value=\\\"\\\" placeholder=\\\"\\\" type=\\\"search\\\"><button><i class=\\\"fa fa-search\\\"></i></button></div></form><p class=\\\"form-description\\\">Hit enter to search</p></div></div>`)\\n}\\n\\n\\nimport { useSSRContext as __vite_useSSRContext } from 'vue'\\nconst _sfc_setup = _sfc_main.setup\\n_sfc_main.setup = (props, ctx) => {\\n  const ssrContext = __vite_useSSRContext()\\n  ;(ssrContext.modules || (ssrContext.modules = new Set())).add(\\\"components/SearchPopup.vue\\\")\\n  return _sfc_setup ? _sfc_setup(props, ctx) : undefined\\n}\\nimport _export_sfc from '\\u0000plugin-vue:export-helper'\\nexport default /*#__PURE__*/_export_sfc(_sfc_main, [['ssrRender',_sfc_ssrRender]])\"],\n  \"mappings\": \"AACI,MAAM,YAAY;AAAA,EACd,SAAS;AAAA;AAAA,IAEL,YAAY,gBAAgB,WAAW;AACnC,YAAM,KAAK,SAAS,cAAc,eAAe;AACjD,UAAI,mBAAmB,YAAY;AAC/B,WAAG,UAAU,IAAI,SAAS;AAAA,MAC9B,OAAO;AACH,WAAG,UAAU,OAAO,SAAS;AAAA,MACjC;AAAA,IACJ;AAAA,EACJ;AACJ;AAEJ,SAAS,cAAc,mBAAmB;AAC1C,SAAS,kBAAkB,uBAAuB;AAElD,SAAS,eAAe,MAAM,OAAO,SAAS,QAAQ,QAAQ,QAAQ,OAAO,UAAU;AACrF,QAAM,OAAO,gBAAgB,YAAY;AAAA,IACvC,OAAO;AAAA,IACP,IAAI;AAAA,EACN,GAAG,MAAM,CAAC,CAAC,iXAAiX;AAC9X;AAGA,SAAS,iBAAiB,4BAA4B;AACtD,MAAM,aAAa,UAAU;AAC7B,UAAU,QAAQ,CAAC,OAAO,QAAQ;AAChC,QAAM,aAAa,qBAAqB;AACvC,GAAC,WAAW,YAAY,WAAW,UAAU,oBAAI,IAAI,IAAI,IAAI,4BAA4B;AAC1F,SAAO,aAAa,WAAW,OAAO,GAAG,IAAI;AAC/C;AACA,OAAO,iBAAiB;AACxB,eAA4B,4BAAY,WAAW,CAAC,CAAC,aAAY,cAAc,CAAC,CAAC;\",\n  \"names\": []\n}\n"
     },
     {
       "name": "vite:css-post",
-      "start": 1715842300771,
-      "end": 1715842300771,
+      "start": 1715843841486,
+      "end": 1715843841486,
       "order": "normal"
     },
     {
       "name": "vite:build-html",
-      "start": 1715842300771,
-      "end": 1715842300771,
+      "start": 1715843841486,
+      "end": 1715843841486,
       "order": "normal"
     },
     {
       "name": "vite:worker-import-meta-url",
-      "start": 1715842300771,
-      "end": 1715842300771,
+      "start": 1715843841486,
+      "end": 1715843841486,
       "order": "normal"
     },
     {
       "name": "vite:asset-import-meta-url",
-      "start": 1715842300771,
-      "end": 1715842300771,
+      "start": 1715843841486,
+      "end": 1715843841486,
       "order": "normal"
     },
     {
       "name": "commonjs",
-      "start": 1715842300771,
-      "end": 1715842300772,
+      "start": 1715843841486,
+      "end": 1715843841486,
       "order": "normal"
     },
     {
       "name": "vite:dynamic-import-vars",
-      "start": 1715842300772,
-      "end": 1715842300772,
+      "start": 1715843841486,
+      "end": 1715843841486,
       "order": "normal"
     },
     {
       "name": "vite:import-glob",
-      "start": 1715842300772,
-      "end": 1715842300772,
+      "start": 1715843841487,
+      "end": 1715843841487,
       "order": "normal"
     },
     {
       "name": "nuxt:composable-keys",
-      "start": 1715842300772,
-      "end": 1715842300772,
+      "start": 1715843841487,
+      "end": 1715843841487,
       "order": "post"
     },
     {
       "name": "nuxt:composable-keys",
-      "start": 1715842300772,
-      "end": 1715842300772,
+      "start": 1715843841487,
+      "end": 1715843841487,
       "order": "post"
     },
     {
       "name": "nuxt:imports-transform",
-      "start": 1715842300772,
-      "end": 1715842300773,
+      "start": 1715843841487,
+      "end": 1715843841487,
       "order": "post"
     },
     {
       "name": "nuxt:imports-transform",
-      "start": 1715842300772,
-      "end": 1715842300773,
+      "start": 1715843841487,
+      "end": 1715843841487,
       "order": "post"
     },
     {
       "name": "unctx:transform",
-      "start": 1715842300773,
-      "end": 1715842300773,
+      "start": 1715843841488,
+      "end": 1715843841488,
       "order": "post"
     },
     {
       "name": "unctx:transform",
-      "start": 1715842300773,
-      "end": 1715842300773,
+      "start": 1715843841488,
+      "end": 1715843841488,
       "order": "post"
     },
     {
       "name": "nuxt:pages-macros-transform",
-      "start": 1715842300773,
-      "end": 1715842300773,
+      "start": 1715843841488,
+      "end": 1715843841488,
       "order": "post"
     },
     {
       "name": "nuxt:pages-macros-transform",
-      "start": 1715842300773,
-      "end": 1715842300773,
+      "start": 1715843841488,
+      "end": 1715843841488,
       "order": "post"
     },
     {
       "name": "nuxt:tree-shake-template",
-      "start": 1715842300773,
-      "end": 1715842300773,
+      "start": 1715843841488,
+      "end": 1715843841488,
       "order": "post"
     },
     {
       "name": "nuxt:components-loader",
-      "start": 1715842300776,
-      "end": 1715842300776,
+      "start": 1715843841493,
+      "end": 1715843841493,
       "order": "post"
     },
     {
       "name": "nuxt:tree-shake-composables:transform",
-      "start": 1715842300776,
-      "end": 1715842300776,
+      "start": 1715843841493,
+      "end": 1715843841493,
       "order": "post"
     },
     {
       "name": "vite:build-import-analysis",
-      "start": 1715842300776,
-      "end": 1715842300776,
+      "start": 1715843841493,
+      "end": 1715843841493,
       "order": "normal"
     },
     {
       "name": "vite:reporter",
-      "start": 1715842300778,
-      "end": 1715842300778,
+      "start": 1715843841495,
+      "end": 1715843841495,
       "order": "normal"
     }
   ]

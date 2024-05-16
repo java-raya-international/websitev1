@@ -640,7 +640,7 @@ const _routes = [
     meta: {},
     alias: [],
     redirect: void 0 ,
-    component: () => import('./about-old-BsTNbQAM.mjs').then((m) => m.default || m)
+    component: () => import('./about-old-VnvvEqgD.mjs').then((m) => m.default || m)
   },
   {
     name: "about-company",
@@ -648,7 +648,7 @@ const _routes = [
     meta: {},
     alias: [],
     redirect: void 0 ,
-    component: () => import('./company-Bx80tCJ1.mjs').then((m) => m.default || m)
+    component: () => import('./company-AYYHFmLz.mjs').then((m) => m.default || m)
   },
   {
     name: "about-contact",
@@ -656,7 +656,7 @@ const _routes = [
     meta: {},
     alias: [],
     redirect: void 0 ,
-    component: () => import('./contact-SpNO8LR3.mjs').then((m) => m.default || m)
+    component: () => import('./contact-Dk1NpuxW.mjs').then((m) => m.default || m)
   },
   {
     name: "about-privacy",
@@ -664,7 +664,7 @@ const _routes = [
     meta: {},
     alias: [],
     redirect: void 0 ,
-    component: () => import('./privacy-DP6nzISm.mjs').then((m) => m.default || m)
+    component: () => import('./privacy-S-biazIR.mjs').then((m) => m.default || m)
   },
   {
     name: "about-refund",
@@ -672,7 +672,7 @@ const _routes = [
     meta: {},
     alias: [],
     redirect: void 0 ,
-    component: () => import('./refund-DgeckNsa.mjs').then((m) => m.default || m)
+    component: () => import('./refund-BfIpSPog.mjs').then((m) => m.default || m)
   },
   {
     name: "about-tandc",
@@ -680,7 +680,7 @@ const _routes = [
     meta: {},
     alias: [],
     redirect: void 0 ,
-    component: () => import('./tandc-D4V7w9L6.mjs').then((m) => m.default || m)
+    component: () => import('./tandc-j9B61p-o.mjs').then((m) => m.default || m)
   },
   {
     name: "blog-slug",
@@ -688,7 +688,7 @@ const _routes = [
     meta: {},
     alias: [],
     redirect: void 0 ,
-    component: () => import('./_slug_-Bp_3dTn6.mjs').then((m) => m.default || m)
+    component: () => import('./_slug_-mqGl27Nr.mjs').then((m) => m.default || m)
   },
   {
     name: "blog-blog-classic",
@@ -696,7 +696,7 @@ const _routes = [
     meta: {},
     alias: [],
     redirect: void 0 ,
-    component: () => import('./blog-classic-Bs5XWdQe.mjs').then((m) => m.default || m)
+    component: () => import('./blog-classic-Dv3nzZaJ.mjs').then((m) => m.default || m)
   },
   {
     name: "blog-blog-details",
@@ -704,7 +704,7 @@ const _routes = [
     meta: {},
     alias: [],
     redirect: void 0 ,
-    component: () => import('./blog-details-DHOo4Kf-.mjs').then((m) => m.default || m)
+    component: () => import('./blog-details-CD3Ua2Vv.mjs').then((m) => m.default || m)
   },
   {
     name: "blog-categories-slug",
@@ -712,7 +712,7 @@ const _routes = [
     meta: {},
     alias: [],
     redirect: void 0 ,
-    component: () => import('./_slug_-CqiAQ6VP.mjs').then((m) => m.default || m)
+    component: () => import('./_slug_-CebOG30O.mjs').then((m) => m.default || m)
   },
   {
     name: "blog",
@@ -720,7 +720,7 @@ const _routes = [
     meta: {},
     alias: [],
     redirect: void 0 ,
-    component: () => import('./index-By4gzNct.mjs').then((m) => m.default || m)
+    component: () => import('./index-p4O_JiMg.mjs').then((m) => m.default || m)
   },
   {
     name: "blog-tags-slug",
@@ -728,7 +728,7 @@ const _routes = [
     meta: {},
     alias: [],
     redirect: void 0 ,
-    component: () => import('./_slug_-DOoeSGWL.mjs').then((m) => m.default || m)
+    component: () => import('./_slug_-DSwurI0G.mjs').then((m) => m.default || m)
   },
   {
     name: "business-bioscience",
@@ -736,7 +736,7 @@ const _routes = [
     meta: {},
     alias: [],
     redirect: void 0 ,
-    component: () => import('./bioscience-DKLROW3z.mjs').then((m) => m.default || m)
+    component: () => import('./bioscience-3B-0Jbk_.mjs').then((m) => m.default || m)
   },
   {
     name: "business-material",
@@ -744,7 +744,7 @@ const _routes = [
     meta: {},
     alias: [],
     redirect: void 0 ,
-    component: () => import('./material-BeqWG9Fq.mjs').then((m) => m.default || m)
+    component: () => import('./material-C5ovjjzK.mjs').then((m) => m.default || m)
   },
   {
     name: "business-retail",
@@ -752,7 +752,7 @@ const _routes = [
     meta: {},
     alias: [],
     redirect: void 0 ,
-    component: () => import('./retail-C-yTgmnK.mjs').then((m) => m.default || m)
+    component: () => import('./retail-BVssDgUM.mjs').then((m) => m.default || m)
   },
   {
     name: "contact-us",
@@ -760,7 +760,7 @@ const _routes = [
     meta: {},
     alias: [],
     redirect: void 0 ,
-    component: () => import('./contact-us-B_avn0Gn.mjs').then((m) => m.default || m)
+    component: () => import('./contact-us-4-gEyLE9.mjs').then((m) => m.default || m)
   },
   {
     name: "download",
@@ -768,7 +768,7 @@ const _routes = [
     meta: {},
     alias: [],
     redirect: void 0 ,
-    component: () => import('./index-Bb4fXpfQ.mjs').then((m) => m.default || m)
+    component: () => import('./index-C13oGG3W.mjs').then((m) => m.default || m)
   },
   {
     name: "features-ai",
@@ -776,7 +776,7 @@ const _routes = [
     meta: {},
     alias: [],
     redirect: void 0 ,
-    component: () => import('./index-Cpq5jYwZ.mjs').then((m) => m.default || m)
+    component: () => import('./index-Q4hD7Gw-.mjs').then((m) => m.default || m)
   },
   {
     name: "features-blockchain",
@@ -784,7 +784,7 @@ const _routes = [
     meta: {},
     alias: [],
     redirect: void 0 ,
-    component: () => import('./index-C9WQ176e.mjs').then((m) => m.default || m)
+    component: () => import('./index-C9NdcrdH.mjs').then((m) => m.default || m)
   },
   {
     name: "features-decentralized",
@@ -792,7 +792,7 @@ const _routes = [
     meta: {},
     alias: [],
     redirect: void 0 ,
-    component: () => import('./index-PAq2XPtY.mjs').then((m) => m.default || m)
+    component: () => import('./index-Ce6JprXX.mjs').then((m) => m.default || m)
   },
   {
     name: "features-msmb",
@@ -800,7 +800,7 @@ const _routes = [
     meta: {},
     alias: [],
     redirect: void 0 ,
-    component: () => import('./index-ZbXR54rt.mjs').then((m) => m.default || m)
+    component: () => import('./index-BiwxGdZj.mjs').then((m) => m.default || m)
   },
   {
     name: "features-multidevice",
@@ -808,7 +808,7 @@ const _routes = [
     meta: {},
     alias: [],
     redirect: void 0 ,
-    component: () => import('./index-1eoCR5CE.mjs').then((m) => m.default || m)
+    component: () => import('./index-BaAUXPjn.mjs').then((m) => m.default || m)
   },
   {
     name: "features-product",
@@ -816,7 +816,7 @@ const _routes = [
     meta: {},
     alias: [],
     redirect: void 0 ,
-    component: () => import('./index-DXvjd0xV.mjs').then((m) => m.default || m)
+    component: () => import('./index-DQ16I-tu.mjs').then((m) => m.default || m)
   },
   {
     name: "home-three",
@@ -824,7 +824,7 @@ const _routes = [
     meta: {},
     alias: [],
     redirect: void 0 ,
-    component: () => import('./home-three-28Y9EHuC.mjs').then((m) => m.default || m)
+    component: () => import('./home-three-Am6TmzG8.mjs').then((m) => m.default || m)
   },
   {
     name: "index",
@@ -832,7 +832,7 @@ const _routes = [
     meta: {},
     alias: [],
     redirect: void 0 ,
-    component: () => import('./index-DVrDjb9Z.mjs').then((m) => m.default || m)
+    component: () => import('./index-dNxZsYlA.mjs').then((m) => m.default || m)
   },
   {
     name: "invest",
@@ -840,7 +840,7 @@ const _routes = [
     meta: {},
     alias: [],
     redirect: void 0 ,
-    component: () => import('./index-BwqMCh15.mjs').then((m) => m.default || m)
+    component: () => import('./index-CzJND5NC.mjs').then((m) => m.default || m)
   },
   {
     name: "products-carbon-active",
@@ -848,7 +848,7 @@ const _routes = [
     meta: {},
     alias: [],
     redirect: void 0 ,
-    component: () => import('./index-BwdkOOBo.mjs').then((m) => m.default || m)
+    component: () => import('./index-F7inFP4s.mjs').then((m) => m.default || m)
   },
   {
     name: "products-indonesia-craft",
@@ -856,7 +856,7 @@ const _routes = [
     meta: {},
     alias: [],
     redirect: void 0 ,
-    component: () => import('./index-5ZIdD3k0.mjs').then((m) => m.default || m)
+    component: () => import('./index-ynD9xCGm.mjs').then((m) => m.default || m)
   },
   {
     name: "products-metal-ingots",
@@ -864,7 +864,7 @@ const _routes = [
     meta: {},
     alias: [],
     redirect: void 0 ,
-    component: () => import('./index-DDUVlOj4.mjs').then((m) => m.default || m)
+    component: () => import('./index-B9pfenE9.mjs').then((m) => m.default || m)
   },
   {
     name: "products-metal-processed",
@@ -872,7 +872,7 @@ const _routes = [
     meta: {},
     alias: [],
     redirect: void 0 ,
-    component: () => import('./index-Bv1GPk4u.mjs').then((m) => m.default || m)
+    component: () => import('./index-BtfLzRrr.mjs').then((m) => m.default || m)
   },
   {
     name: "products-premium-rice",
@@ -880,7 +880,7 @@ const _routes = [
     meta: {},
     alias: [],
     redirect: void 0 ,
-    component: () => import('./index-D4u0vAWI.mjs').then((m) => m.default || m)
+    component: () => import('./index-Djqo3lFe.mjs').then((m) => m.default || m)
   },
   {
     name: "project",
@@ -888,7 +888,7 @@ const _routes = [
     meta: {},
     alias: [],
     redirect: void 0 ,
-    component: () => import('./index-CBi0n9Pl.mjs').then((m) => m.default || m)
+    component: () => import('./index-BRN1bgOz.mjs').then((m) => m.default || m)
   },
   {
     name: "project-project-details",
@@ -896,7 +896,7 @@ const _routes = [
     meta: {},
     alias: [],
     redirect: void 0 ,
-    component: () => import('./project-details-CT5osgwe.mjs').then((m) => m.default || m)
+    component: () => import('./project-details-CaCR0R4x.mjs').then((m) => m.default || m)
   },
   {
     name: "service-slug",
@@ -904,7 +904,7 @@ const _routes = [
     meta: {},
     alias: [],
     redirect: void 0 ,
-    component: () => import('./_slug_-C9DCtmhh.mjs').then((m) => m.default || m)
+    component: () => import('./_slug_-mHRcWP8D.mjs').then((m) => m.default || m)
   },
   {
     name: "service",
@@ -912,7 +912,7 @@ const _routes = [
     meta: {},
     alias: [],
     redirect: void 0 ,
-    component: () => import('./index-CFY4bgNm.mjs').then((m) => m.default || m)
+    component: () => import('./index-D_iBtudT.mjs').then((m) => m.default || m)
   }
 ];
 const _wrapIf = (component, props, slots) => {

@@ -8,8 +8,8 @@
                     <div class="col-xl-2 col-auto order-0">
                         <div class="header-logo">
                             <NuxtLink to="/">
-                                <img style="opacity: 0.5;" class="dark-logo" src="/images/logo/logo.png" alt="Agency Logo">
-                                <img style="opacity: 0.5;" class="light-logo" src="/images/logo/logo.png" alt="Agency Logo">
+                                <img style="opacity: 0.5;" class="dark-logo" src="/images/logo/logo.png" alt="Javaraya Logo">
+                                <img style="opacity: 0.5;" class="light-logo" src="/images/logo/logo.png" alt="Javaraya Logo">
                             </NuxtLink>
                         </div>
                     </div>
@@ -45,13 +45,13 @@
                     <!-- Header Main Menu End -->
 
                     <!-- Header Right Start -->
-                    <div class="col-xl-2 col d-none d-sm-flex justify-content-end order-1 order-xl-2">
+                    <!-- <div class="col-xl-2 col d-none d-sm-flex justify-content-end order-1 order-xl-2">
                         <a href="https://shop.javaraya.co.uk" class="btn btn-light btn-hover-primary" target="_blank">Shop Now</a>
-                    </div>
+                    </div> -->
 
-                    <div class="col-xl-2 col d-none d-sm-flex justify-content-end order-1 order-xl-2">
+                    <!-- <div class="col-xl-2 col d-none d-sm-flex justify-content-end order-1 order-xl-2">
                        <NuxtLink to="/download" class="btn btn-light btn-hover-primary">Download App</NuxtLink>
-                    </div>
+                    </div> -->
 
                     <!-- Header Right End -->
 
