@@ -848,7 +848,7 @@ const _routes = [
     meta: {},
     alias: [],
     redirect: void 0 ,
-    component: () => import('./index-C_5vzt4X.mjs').then((m) => m.default || m)
+    component: () => import('./index-Dd3PCpFH.mjs').then((m) => m.default || m)
   },
   {
     name: "products-indonesia-craft",
@@ -864,7 +864,7 @@ const _routes = [
     meta: {},
     alias: [],
     redirect: void 0 ,
-    component: () => import('./index-D7nEabUB.mjs').then((m) => m.default || m)
+    component: () => import('./index-B95fokxh.mjs').then((m) => m.default || m)
   },
   {
     name: "products-metal-processed",

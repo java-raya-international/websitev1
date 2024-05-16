@@ -4,45 +4,45 @@
     {
       "name": "vite:load-fallback",
       "result": "[\r\n    {\r\n        \"id\": 1,\r\n        \"imgSrc\": \"/images/project/project-1.jpg\",\r\n        \"title\": \"HasThemes Development: An outstanding payment app\",\r\n        \"desc\": \"Quickly analyzing the digital business landscape, we create effective action plans and design optimal strategies.\"\r\n    },\r\n    {\r\n        \"id\": 2,\r\n        \"imgSrc\": \"/images/project/project-2.jpg\",\r\n        \"title\": \"Dashboards UI Kit open-source set of ready-to-use templates\",\r\n        \"desc\": \"Quickly analyzing the digital business landscape, we create effective action plans and design optimal strategies.\"\r\n    },\r\n    {\r\n        \"id\": 3,\r\n        \"imgSrc\": \"/images/project/project-3.jpg\",\r\n        \"title\": \"Project You X Ventures Studio. Toronto, Canada\",\r\n        \"desc\": \"Quickly analyzing the digital business landscape, we create effective action plans and design optimal strategies.\"\r\n    },\r\n    {\r\n        \"id\": 4,\r\n        \"imgSrc\": \"/images/project/project-4.jpg\",\r\n        \"title\": \"Launching a new campaign this month, Nike by you\",\r\n        \"desc\": \"Quickly analyzing the digital business landscape, we create effective action plans and design optimal strategies.\"\r\n    },\r\n    {\r\n        \"id\": 5,\r\n        \"imgSrc\": \"/images/project/project-5.jpg\",\r\n        \"title\": \"Branding and photography. Mother Nature: Summer\",\r\n        \"desc\": \"Quickly analyzing the digital business landscape, we create effective action plans and design optimal strategies.\"\r\n    },\r\n    {\r\n        \"id\": 6,\r\n        \"imgSrc\": \"/images/project/project-6.jpg\",\r\n        \"title\": \"Modern and unique design for a furniture application\",\r\n        \"desc\": \"Quickly analyzing the digital business landscape, we create effective action plans and design optimal strategies.\"\r\n    }\r\n]",
-      "start": 1715787137380,
-      "end": 1715787137490,
+      "start": 1715794594451,
+      "end": 1715794594549,
       "sourcemaps": null
     },
     {
       "name": "nuxt:layer-aliasing",
-      "start": 1715787137490,
-      "end": 1715787137490,
+      "start": 1715794594549,
+      "end": 1715794594549,
       "order": "pre"
     },
     {
       "name": "nuxt:server-devonly:transform",
-      "start": 1715787137490,
-      "end": 1715787137490,
+      "start": 1715794594549,
+      "end": 1715794594549,
       "order": "pre"
     },
     {
       "name": "nuxt:client-fallback-auto-id",
-      "start": 1715787137490,
-      "end": 1715787137490,
+      "start": 1715794594549,
+      "end": 1715794594549,
       "order": "pre"
     },
     {
       "name": "vite:css",
-      "start": 1715787137490,
-      "end": 1715787137490,
+      "start": 1715794594549,
+      "end": 1715794594549,
       "order": "normal"
     },
     {
       "name": "vite:esbuild",
-      "start": 1715787137490,
-      "end": 1715787137490,
+      "start": 1715794594549,
+      "end": 1715794594549,
       "order": "normal"
     },
     {
       "name": "vite:json",
       "result": "export default [\n\t{\n\t\tid: 1,\n\t\timgSrc: \"/images/project/project-1.jpg\",\n\t\ttitle: \"HasThemes Development: An outstanding payment app\",\n\t\tdesc: \"Quickly analyzing the digital business landscape, we create effective action plans and design optimal strategies.\"\n\t},\n\t{\n\t\tid: 2,\n\t\timgSrc: \"/images/project/project-2.jpg\",\n\t\ttitle: \"Dashboards UI Kit open-source set of ready-to-use templates\",\n\t\tdesc: \"Quickly analyzing the digital business landscape, we create effective action plans and design optimal strategies.\"\n\t},\n\t{\n\t\tid: 3,\n\t\timgSrc: \"/images/project/project-3.jpg\",\n\t\ttitle: \"Project You X Ventures Studio. Toronto, Canada\",\n\t\tdesc: \"Quickly analyzing the digital business landscape, we create effective action plans and design optimal strategies.\"\n\t},\n\t{\n\t\tid: 4,\n\t\timgSrc: \"/images/project/project-4.jpg\",\n\t\ttitle: \"Launching a new campaign this month, Nike by you\",\n\t\tdesc: \"Quickly analyzing the digital business landscape, we create effective action plans and design optimal strategies.\"\n\t},\n\t{\n\t\tid: 5,\n\t\timgSrc: \"/images/project/project-5.jpg\",\n\t\ttitle: \"Branding and photography. Mother Nature: Summer\",\n\t\tdesc: \"Quickly analyzing the digital business landscape, we create effective action plans and design optimal strategies.\"\n\t},\n\t{\n\t\tid: 6,\n\t\timgSrc: \"/images/project/project-6.jpg\",\n\t\ttitle: \"Modern and unique design for a furniture application\",\n\t\tdesc: \"Quickly analyzing the digital business landscape, we create effective action plans and design optimal strategies.\"\n\t}\n];",
-      "start": 1715787137490,
-      "end": 1715787137490,
+      "start": 1715794594549,
+      "end": 1715794594549,
       "order": "normal",
       "sourcemaps": {
         "mappings": ""
@@ -50,164 +50,164 @@
     },
     {
       "name": "vite:worker",
-      "start": 1715787137490,
-      "end": 1715787137490,
+      "start": 1715794594549,
+      "end": 1715794594549,
       "order": "normal"
     },
     {
       "name": "vite:vue",
-      "start": 1715787137490,
-      "end": 1715787137490,
+      "start": 1715794594549,
+      "end": 1715794594549,
       "order": "normal"
     },
     {
       "name": "vite:vue-jsx",
-      "start": 1715787137490,
-      "end": 1715787137490,
+      "start": 1715794594549,
+      "end": 1715794594549,
       "order": "normal"
     },
     {
       "name": "replace",
-      "start": 1715787137490,
-      "end": 1715787137490,
+      "start": 1715794594549,
+      "end": 1715794594549,
       "order": "normal"
     },
     {
       "name": "nuxt:remove-plugin-metadata",
-      "start": 1715787137490,
-      "end": 1715787137490,
+      "start": 1715794594549,
+      "end": 1715794594549,
       "order": "normal"
     },
     {
       "name": "nuxt:chunk-error",
-      "start": 1715787137490,
-      "end": 1715787137490,
+      "start": 1715794594551,
+      "end": 1715794594551,
       "order": "normal"
     },
     {
       "name": "nuxt:components:imports",
-      "start": 1715787137490,
-      "end": 1715787137490,
+      "start": 1715794594551,
+      "end": 1715794594551,
       "order": "normal"
     },
     {
       "name": "replace",
-      "start": 1715787137490,
-      "end": 1715787137490,
+      "start": 1715794594551,
+      "end": 1715794594551,
       "order": "normal"
     },
     {
       "name": "ssr-styles",
-      "start": 1715787137490,
-      "end": 1715787137490,
+      "start": 1715794594551,
+      "end": 1715794594551,
       "order": "normal"
     },
     {
       "name": "vite:define",
-      "start": 1715787137490,
-      "end": 1715787137490,
+      "start": 1715794594551,
+      "end": 1715794594551,
       "order": "normal"
     },
     {
       "name": "vite:css-post",
-      "start": 1715787137490,
-      "end": 1715787137490,
+      "start": 1715794594551,
+      "end": 1715794594551,
       "order": "normal"
     },
     {
       "name": "vite:build-html",
-      "start": 1715787137490,
-      "end": 1715787137490,
+      "start": 1715794594551,
+      "end": 1715794594551,
       "order": "normal"
     },
     {
       "name": "vite:worker-import-meta-url",
-      "start": 1715787137491,
-      "end": 1715787137491,
+      "start": 1715794594551,
+      "end": 1715794594551,
       "order": "normal"
     },
     {
       "name": "vite:asset-import-meta-url",
-      "start": 1715787137491,
-      "end": 1715787137491,
+      "start": 1715794594551,
+      "end": 1715794594551,
       "order": "normal"
     },
     {
       "name": "commonjs",
-      "start": 1715787137491,
-      "end": 1715787137491,
+      "start": 1715794594551,
+      "end": 1715794594551,
       "order": "normal"
     },
     {
       "name": "vite:dynamic-import-vars",
-      "start": 1715787137491,
-      "end": 1715787137491,
+      "start": 1715794594551,
+      "end": 1715794594551,
       "order": "normal"
     },
     {
       "name": "vite:import-glob",
-      "start": 1715787137491,
-      "end": 1715787137491,
+      "start": 1715794594551,
+      "end": 1715794594551,
       "order": "normal"
     },
     {
       "name": "nuxt:composable-keys",
-      "start": 1715787137491,
-      "end": 1715787137491,
+      "start": 1715794594551,
+      "end": 1715794594551,
       "order": "post"
     },
     {
       "name": "nuxt:imports-transform",
-      "start": 1715787137491,
-      "end": 1715787137491,
+      "start": 1715794594551,
+      "end": 1715794594551,
       "order": "post"
     },
     {
       "name": "unctx:transform",
-      "start": 1715787137491,
-      "end": 1715787137491,
+      "start": 1715794594551,
+      "end": 1715794594551,
       "order": "post"
     },
     {
       "name": "nuxt:pages-macros-transform",
-      "start": 1715787137491,
-      "end": 1715787137491,
+      "start": 1715794594551,
+      "end": 1715794594551,
       "order": "post"
     },
     {
       "name": "nuxt:runtime-paths-dep",
-      "start": 1715787137491,
-      "end": 1715787137491,
+      "start": 1715794594551,
+      "end": 1715794594551,
       "order": "post"
     },
     {
       "name": "nuxt:route-injection-plugin",
-      "start": 1715787137491,
-      "end": 1715787137491,
+      "start": 1715794594551,
+      "end": 1715794594551,
       "order": "post"
     },
     {
       "name": "nuxt:components-loader",
-      "start": 1715787137491,
-      "end": 1715787137491,
+      "start": 1715794594551,
+      "end": 1715794594551,
       "order": "post"
     },
     {
       "name": "nuxt:tree-shake-composables:transform",
-      "start": 1715787137491,
-      "end": 1715787137491,
+      "start": 1715794594551,
+      "end": 1715794594551,
       "order": "post"
     },
     {
       "name": "vite:build-import-analysis",
-      "start": 1715787137491,
-      "end": 1715787137491,
+      "start": 1715794594551,
+      "end": 1715794594551,
       "order": "normal"
     },
     {
       "name": "vite:reporter",
-      "start": 1715787137491,
-      "end": 1715787137491,
+      "start": 1715794594551,
+      "end": 1715794594551,
       "order": "normal"
     }
   ]

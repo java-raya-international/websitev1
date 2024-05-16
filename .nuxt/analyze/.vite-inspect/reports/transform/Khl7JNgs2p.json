@@ -4,57 +4,57 @@
     {
       "name": "vite:load-fallback",
       "result": "<template>\r\n    <div class=\"main-container\">\r\n        <TheHeader />\r\n        <OffCanvasMobileMenu />\r\n        <SearchPopup />\r\n        <BreadcrumbOne :activePageName=\"slug\" :title=\"slug\" backgroundUrl= \"/images/bg/breadcrumb-bg-two.jpg\" />\r\n\r\n        <!-- service section start -->\r\n        <section class=\"service-details-wrapper section-padding pb-125\">\r\n            <div class=\"container\">\r\n                <div class=\"row\">\r\n                    <div class=\"col-lg-4 mtn-40 order-2 order-lg-1\">\r\n                        <div class=\"service-details-widget\">\r\n                            <div class=\"service-single-widget mt-40\" :style=\"{backgroundColor: '#f8faff'}\">\r\n                                <h4 class=\"service-widget-title\">Services</h4>\r\n                                <ul class=\"service-list\">\r\n                                    <li><a href=\"#\">Agency</a></li>\r\n                                    <li><a href=\"#\">Banking</a></li>\r\n                                    <li><a href=\"#\">Technology</a></li>\r\n                                    <li><a href=\"#\">Financial</a></li>\r\n                                    <li><a href=\"#\">Marketing</a></li>\r\n                                    <li><a href=\"#\">Construction</a></li>\r\n                                </ul>\r\n                            </div>\r\n                            <div class=\"service-single-widget mt-40\" :style=\"{backgroundColor: '#f8faff'}\">\r\n                                <h4 class=\"service-widget-title\">Download Brochure</h4>\r\n                                <ul class=\"service-list\">\r\n                                    <li><a href=\"#\">Brochures.PDF</a></li>\r\n                                    <li><a href=\"#\">Brochures.DOC</a></li>\r\n                                </ul>\r\n                            </div>\r\n                        </div>\r\n                    </div>\r\n                    <div class=\"col-lg-8 order-1 order-lg-2\">\r\n                        <div class=\"service-details\">\r\n                            <div class=\"service-details-thumb\">\r\n                                <img :src=\"service.imgSrc\" :alt=\"service.title\">\r\n                            </div>\r\n                            <h3 class=\"mt-4 mb-3\">{{ service.title }}</h3>\r\n                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione, sunt perspiciatis error id ipsa atque unde quis dolore nobis eum aperiam enim blanditiis pariatur inventore eius commodi consectetur ut. Totam, assumenda! Laboriosam possimus, corporis dicta!</p>\r\n                            <p class=\"mb-0\">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores aliquid quod, officiis unde nostrum itaque! Adipisci dolorum, ab dolor, exercitationem praesentium dolorem quo voluptatum itaque dignissimos, sit esse cupiditate. Doloremque rerum similique a nobis placeat in illum, quo quaerat, ut repellat, fuga itaque? Nihil mollitia nisi, nam, accusantium nemo consequuntur reiciendis autem dicta consequatur earum beatae dolor distinctio, debitis repudiandae?</p>\r\n                            <div class=\"row\">\r\n                                <div class=\"col-sm-6\">\r\n                                    <div class=\"service-details-content mt-30\">\r\n                                        <h4>Project Analysis</h4>\r\n                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat, animi? Vel quas in minima qui totam, aliquid dolores quaerat voluptatum?</p>\r\n                                    </div>\r\n                                </div>\r\n                                <div class=\"col-sm-6\">\r\n                                    <div class=\"service-details-content mt-30\">\r\n                                        <h4>Project Costing</h4>\r\n                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat, animi? Vel quas in minima qui totam, aliquid dolores quaerat voluptatum?</p>\r\n                                    </div>\r\n                                </div>\r\n                                <div class=\"col-sm-6\">\r\n                                    <div class=\"service-details-content mt-30\">\r\n                                        <h4>Project Planning</h4>\r\n                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat, animi? Vel quas in minima qui totam, aliquid dolores quaerat voluptatum?</p>\r\n                                    </div>\r\n                                </div>\r\n                                <div class=\"col-sm-6\">\r\n                                    <div class=\"service-details-content mt-30\">\r\n                                        <h4>Project Strategy</h4>\r\n                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat, animi? Vel quas in minima qui totam, aliquid dolores quaerat voluptatum?</p>\r\n                                    </div>\r\n                                </div>\r\n                            </div>\r\n                        </div>\r\n                    </div>\r\n                </div>\r\n            </div>\r\n        </section>\r\n        <!-- service section end -->\r\n\r\n        <TheFooter />\r\n    </div>\r\n</template>\r\n\r\n<script>\r\n    import serviceData from '~/data/service.json';\r\n    export default {\r\n        data() {\r\n            return {\r\n                serviceData,\r\n                slug: this.$route.params.slug\r\n            }\r\n        },\r\n        computed: {\r\n            service() {\r\n                return this.serviceData.find(service => service.slug === this.slug)\r\n            }\r\n        }\r\n    };\r\n</script>\r\n\r\n\r\n",
-      "start": 1715787136425,
-      "end": 1715787136517,
+      "start": 1715794593371,
+      "end": 1715794593454,
       "sourcemaps": null
     },
     {
       "name": "nuxt:layer-aliasing",
-      "start": 1715787136517,
-      "end": 1715787136517,
+      "start": 1715794593454,
+      "end": 1715794593454,
       "order": "pre"
     },
     {
       "name": "nuxt:server-devonly:transform",
-      "start": 1715787136517,
-      "end": 1715787136517,
+      "start": 1715794593454,
+      "end": 1715794593454,
       "order": "pre"
     },
     {
       "name": "nuxt:client-fallback-auto-id",
-      "start": 1715787136517,
-      "end": 1715787136517,
+      "start": 1715794593454,
+      "end": 1715794593454,
       "order": "pre"
     },
     {
       "name": "vite:css",
-      "start": 1715787136517,
-      "end": 1715787136517,
+      "start": 1715794593454,
+      "end": 1715794593454,
       "order": "normal"
     },
     {
       "name": "vite:esbuild",
-      "start": 1715787136517,
-      "end": 1715787136517,
+      "start": 1715794593454,
+      "end": 1715794593454,
       "order": "normal"
     },
     {
       "name": "vite:json",
-      "start": 1715787136517,
-      "end": 1715787136517,
+      "start": 1715794593454,
+      "end": 1715794593454,
       "order": "normal"
     },
     {
       "name": "vite:worker",
-      "start": 1715787136517,
-      "end": 1715787136517,
+      "start": 1715794593454,
+      "end": 1715794593454,
       "order": "normal"
     },
     {
       "name": "vite:vue",
       "result": "\r\n    import serviceData from '~/data/service.json';\r\n    const _sfc_main = {\r\n        data() {\r\n            return {\r\n                serviceData,\r\n                slug: this.$route.params.slug\r\n            }\r\n        },\r\n        computed: {\r\n            service() {\r\n                return this.serviceData.find(service => service.slug === this.slug)\r\n            }\r\n        }\r\n    };\r\n\nimport { resolveComponent as _resolveComponent, createVNode as _createVNode, createElementVNode as _createElementVNode, toDisplayString as _toDisplayString, createStaticVNode as _createStaticVNode, openBlock as _openBlock, createElementBlock as _createElementBlock } from \"vue\"\n\nconst _hoisted_1 = { class: \"main-container\" }\nconst _hoisted_2 = { class: \"service-details-wrapper section-padding pb-125\" }\nconst _hoisted_3 = { class: \"container\" }\nconst _hoisted_4 = { class: \"row\" }\nconst _hoisted_5 = /*#__PURE__*/_createStaticVNode(\"<div class=\\\"col-lg-4 mtn-40 order-2 order-lg-1\\\"><div class=\\\"service-details-widget\\\"><div class=\\\"service-single-widget mt-40\\\" style=\\\"background-color:#f8faff;\\\"><h4 class=\\\"service-widget-title\\\">Services</h4><ul class=\\\"service-list\\\"><li><a href=\\\"#\\\">Agency</a></li><li><a href=\\\"#\\\">Banking</a></li><li><a href=\\\"#\\\">Technology</a></li><li><a href=\\\"#\\\">Financial</a></li><li><a href=\\\"#\\\">Marketing</a></li><li><a href=\\\"#\\\">Construction</a></li></ul></div><div class=\\\"service-single-widget mt-40\\\" style=\\\"background-color:#f8faff;\\\"><h4 class=\\\"service-widget-title\\\">Download Brochure</h4><ul class=\\\"service-list\\\"><li><a href=\\\"#\\\">Brochures.PDF</a></li><li><a href=\\\"#\\\">Brochures.DOC</a></li></ul></div></div></div>\", 1)\nconst _hoisted_6 = { class: \"col-lg-8 order-1 order-lg-2\" }\nconst _hoisted_7 = { class: \"service-details\" }\nconst _hoisted_8 = { class: \"service-details-thumb\" }\nconst _hoisted_9 = [\"src\", \"alt\"]\nconst _hoisted_10 = { class: \"mt-4 mb-3\" }\nconst _hoisted_11 = /*#__PURE__*/_createStaticVNode(\"<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione, sunt perspiciatis error id ipsa atque unde quis dolore nobis eum aperiam enim blanditiis pariatur inventore eius commodi consectetur ut. Totam, assumenda! Laboriosam possimus, corporis dicta!</p><p class=\\\"mb-0\\\">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores aliquid quod, officiis unde nostrum itaque! Adipisci dolorum, ab dolor, exercitationem praesentium dolorem quo voluptatum itaque dignissimos, sit esse cupiditate. Doloremque rerum similique a nobis placeat in illum, quo quaerat, ut repellat, fuga itaque? Nihil mollitia nisi, nam, accusantium nemo consequuntur reiciendis autem dicta consequatur earum beatae dolor distinctio, debitis repudiandae?</p><div class=\\\"row\\\"><div class=\\\"col-sm-6\\\"><div class=\\\"service-details-content mt-30\\\"><h4>Project Analysis</h4><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat, animi? Vel quas in minima qui totam, aliquid dolores quaerat voluptatum?</p></div></div><div class=\\\"col-sm-6\\\"><div class=\\\"service-details-content mt-30\\\"><h4>Project Costing</h4><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat, animi? Vel quas in minima qui totam, aliquid dolores quaerat voluptatum?</p></div></div><div class=\\\"col-sm-6\\\"><div class=\\\"service-details-content mt-30\\\"><h4>Project Planning</h4><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat, animi? Vel quas in minima qui totam, aliquid dolores quaerat voluptatum?</p></div></div><div class=\\\"col-sm-6\\\"><div class=\\\"service-details-content mt-30\\\"><h4>Project Strategy</h4><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat, animi? Vel quas in minima qui totam, aliquid dolores quaerat voluptatum?</p></div></div></div>\", 3)\n\nfunction _sfc_render(_ctx, _cache, $props, $setup, $data, $options) {\n  const _component_TheHeader = _resolveComponent(\"TheHeader\")\n  const _component_OffCanvasMobileMenu = _resolveComponent(\"OffCanvasMobileMenu\")\n  const _component_SearchPopup = _resolveComponent(\"SearchPopup\")\n  const _component_BreadcrumbOne = _resolveComponent(\"BreadcrumbOne\")\n  const _component_TheFooter = _resolveComponent(\"TheFooter\")\n\n  return (_openBlock(), _createElementBlock(\"div\", _hoisted_1, [\n    _createVNode(_component_TheHeader),\n    _createVNode(_component_OffCanvasMobileMenu),\n    _createVNode(_component_SearchPopup),\n    _createVNode(_component_BreadcrumbOne, {\n      activePageName: $data.slug,\n      title: $data.slug,\n      backgroundUrl: \"/images/bg/breadcrumb-bg-two.jpg\"\n    }, null, 8, [\"activePageName\", \"title\"]),\n    _createElementVNode(\"section\", _hoisted_2, [\n      _createElementVNode(\"div\", _hoisted_3, [\n        _createElementVNode(\"div\", _hoisted_4, [\n          _hoisted_5,\n          _createElementVNode(\"div\", _hoisted_6, [\n            _createElementVNode(\"div\", _hoisted_7, [\n              _createElementVNode(\"div\", _hoisted_8, [\n                _createElementVNode(\"img\", {\n                  src: $options.service.imgSrc,\n                  alt: $options.service.title\n                }, null, 8, _hoisted_9)\n              ]),\n              _createElementVNode(\"h3\", _hoisted_10, _toDisplayString($options.service.title), 1),\n              _hoisted_11\n            ])\n          ])\n        ])\n      ])\n    ]),\n    _createVNode(_component_TheFooter)\n  ]))\n}\n\n\nimport _export_sfc from '\u0000plugin-vue:export-helper'\nexport default /*#__PURE__*/_export_sfc(_sfc_main, [['render',_sfc_render]])",
-      "start": 1715787136517,
-      "end": 1715787136521,
+      "start": 1715794593454,
+      "end": 1715794593457,
       "order": "normal",
       "sourcemaps": {
         "mappings": ""
@@ -62,117 +62,117 @@
     },
     {
       "name": "vite:vue-jsx",
-      "start": 1715787136521,
-      "end": 1715787136521,
+      "start": 1715794593457,
+      "end": 1715794593457,
       "order": "normal"
     },
     {
       "name": "replace",
-      "start": 1715787136521,
-      "end": 1715787136521,
+      "start": 1715794593457,
+      "end": 1715794593457,
       "order": "normal"
     },
     {
       "name": "nuxt:remove-plugin-metadata",
-      "start": 1715787136521,
-      "end": 1715787136521,
+      "start": 1715794593457,
+      "end": 1715794593457,
       "order": "normal"
     },
     {
       "name": "nuxt:chunk-error",
-      "start": 1715787136521,
-      "end": 1715787136521,
+      "start": 1715794593457,
+      "end": 1715794593457,
       "order": "normal"
     },
     {
       "name": "nuxt:components:imports",
-      "start": 1715787136521,
-      "end": 1715787136521,
+      "start": 1715794593457,
+      "end": 1715794593457,
       "order": "normal"
     },
     {
       "name": "replace",
-      "start": 1715787136521,
-      "end": 1715787136521,
+      "start": 1715794593457,
+      "end": 1715794593457,
       "order": "normal"
     },
     {
       "name": "ssr-styles",
-      "start": 1715787136521,
-      "end": 1715787136521,
+      "start": 1715794593457,
+      "end": 1715794593457,
       "order": "normal"
     },
     {
       "name": "vite:define",
-      "start": 1715787136521,
-      "end": 1715787136521,
+      "start": 1715794593457,
+      "end": 1715794593457,
       "order": "normal"
     },
     {
       "name": "vite:css-post",
-      "start": 1715787136521,
-      "end": 1715787136521,
+      "start": 1715794593457,
+      "end": 1715794593457,
       "order": "normal"
     },
     {
       "name": "vite:build-html",
-      "start": 1715787136521,
-      "end": 1715787136521,
+      "start": 1715794593457,
+      "end": 1715794593457,
       "order": "normal"
     },
     {
       "name": "vite:worker-import-meta-url",
-      "start": 1715787136521,
-      "end": 1715787136521,
+      "start": 1715794593457,
+      "end": 1715794593457,
       "order": "normal"
     },
     {
       "name": "vite:asset-import-meta-url",
-      "start": 1715787136521,
-      "end": 1715787136521,
+      "start": 1715794593457,
+      "end": 1715794593457,
       "order": "normal"
     },
     {
       "name": "commonjs",
-      "start": 1715787136521,
-      "end": 1715787136521,
+      "start": 1715794593457,
+      "end": 1715794593457,
       "order": "normal"
     },
     {
       "name": "vite:dynamic-import-vars",
-      "start": 1715787136521,
-      "end": 1715787136521,
+      "start": 1715794593457,
+      "end": 1715794593457,
       "order": "normal"
     },
     {
       "name": "vite:import-glob",
-      "start": 1715787136521,
-      "end": 1715787136521,
+      "start": 1715794593457,
+      "end": 1715794593457,
       "order": "normal"
     },
     {
       "name": "nuxt:composable-keys",
-      "start": 1715787136521,
-      "end": 1715787136521,
+      "start": 1715794593457,
+      "end": 1715794593457,
       "order": "post"
     },
     {
       "name": "nuxt:imports-transform",
-      "start": 1715787136521,
-      "end": 1715787136522,
+      "start": 1715794593457,
+      "end": 1715794593458,
       "order": "post"
     },
     {
       "name": "unctx:transform",
-      "start": 1715787136522,
-      "end": 1715787136522,
+      "start": 1715794593458,
+      "end": 1715794593458,
       "order": "post"
     },
     {
       "name": "nuxt:pages-macros-transform",
       "result": "\nconst __nuxt_page_meta = null\nexport default __nuxt_page_meta\n",
-      "start": 1715787136522,
-      "end": 1715787136522,
+      "start": 1715794593458,
+      "end": 1715794593458,
       "order": "post",
       "sourcemaps": {
         "version": 3,
@@ -185,38 +185,38 @@
     },
     {
       "name": "nuxt:runtime-paths-dep",
-      "start": 1715787136522,
-      "end": 1715787136522,
+      "start": 1715794593458,
+      "end": 1715794593458,
       "order": "post"
     },
     {
       "name": "nuxt:route-injection-plugin",
-      "start": 1715787136522,
-      "end": 1715787136522,
+      "start": 1715794593458,
+      "end": 1715794593458,
       "order": "post"
     },
     {
       "name": "nuxt:components-loader",
-      "start": 1715787136522,
-      "end": 1715787136522,
+      "start": 1715794593458,
+      "end": 1715794593458,
       "order": "post"
     },
     {
       "name": "nuxt:tree-shake-composables:transform",
-      "start": 1715787136522,
-      "end": 1715787136522,
+      "start": 1715794593458,
+      "end": 1715794593458,
       "order": "post"
     },
     {
       "name": "vite:build-import-analysis",
-      "start": 1715787136522,
-      "end": 1715787136522,
+      "start": 1715794593458,
+      "end": 1715794593458,
       "order": "normal"
     },
     {
       "name": "vite:reporter",
-      "start": 1715787136522,
-      "end": 1715787136522,
+      "start": 1715794593458,
+      "end": 1715794593458,
       "order": "normal"
     }
   ]

@@ -4,57 +4,57 @@
     {
       "name": "vite:load-fallback",
       "result": "<template>\r\n    <div class=\"video-section section-padding overflow-hidden\" :style=\"{backgroundImage: `url('/images/bg/video-bg.jpg')`}\">\r\n        <div class=\"container text-center\">\r\n            <!-- Section Title Start -->\r\n            <div class=\"section-title color-light text-center\" data-aos=\"fade-up\">\r\n                <h2 class=\"title\">A full-service creative agency since 2007</h2>\r\n            </div>\r\n            <!-- Section Title End -->\r\n            <client-only>\r\n                <silent-box :image=\"videos[0]\">\r\n                    <template v-slot:silentbox-item>\r\n                        <div class=\"play-btn icon video-popup\">\r\n                            <i class=\"fas fa-play\"></i>\r\n                        </div>\r\n                    </template>\r\n                </silent-box>\r\n            </client-only>\r\n        </div>\r\n\r\n        <!-- Animation Shape Start -->\r\n        <ShapeWithAnimation addClassName=\"shape-1\" data-depth=\"1\" imgSrc=\"/images/shape-animation/newsletter-shape.png\" />\r\n        <!-- Animation Shape End -->\r\n    </div>\r\n</template>\r\n\r\n<script>\r\n    export default {\r\n        components: {\r\n            ShapeWithAnimation: () => import('@/components/ShapeWithAnimation')\r\n        },\r\n\r\n        data() {\r\n            return {\r\n                videos: [\r\n                    {\r\n                        src: \"https://www.youtube.com/watch?v=eS9Qm4AOOBY\"\r\n                    }\r\n                ]\r\n            };\r\n        }\r\n    };\r\n</script>",
-      "start": 1715787136680,
-      "end": 1715787136766,
+      "start": 1715794593653,
+      "end": 1715794593721,
       "sourcemaps": null
     },
     {
       "name": "nuxt:layer-aliasing",
-      "start": 1715787136766,
-      "end": 1715787136766,
+      "start": 1715794593721,
+      "end": 1715794593721,
       "order": "pre"
     },
     {
       "name": "nuxt:server-devonly:transform",
-      "start": 1715787136766,
-      "end": 1715787136766,
+      "start": 1715794593721,
+      "end": 1715794593721,
       "order": "pre"
     },
     {
       "name": "nuxt:client-fallback-auto-id",
-      "start": 1715787136766,
-      "end": 1715787136766,
+      "start": 1715794593721,
+      "end": 1715794593721,
       "order": "pre"
     },
     {
       "name": "vite:css",
-      "start": 1715787136766,
-      "end": 1715787136766,
+      "start": 1715794593721,
+      "end": 1715794593721,
       "order": "normal"
     },
     {
       "name": "vite:esbuild",
-      "start": 1715787136766,
-      "end": 1715787136766,
+      "start": 1715794593721,
+      "end": 1715794593721,
       "order": "normal"
     },
     {
       "name": "vite:json",
-      "start": 1715787136766,
-      "end": 1715787136766,
+      "start": 1715794593721,
+      "end": 1715794593721,
       "order": "normal"
     },
     {
       "name": "vite:worker",
-      "start": 1715787136766,
-      "end": 1715787136766,
+      "start": 1715794593721,
+      "end": 1715794593721,
       "order": "normal"
     },
     {
       "name": "vite:vue",
       "result": "\r\n    const _sfc_main = {\r\n        components: {\r\n            ShapeWithAnimation: () => import('@/components/ShapeWithAnimation')\r\n        },\r\n\r\n        data() {\r\n            return {\r\n                videos: [\r\n                    {\r\n                        src: \"https://www.youtube.com/watch?v=eS9Qm4AOOBY\"\r\n                    }\r\n                ]\r\n            };\r\n        }\r\n    };\r\n\nimport { createElementVNode as _createElementVNode, resolveComponent as _resolveComponent, withCtx as _withCtx, createVNode as _createVNode, normalizeStyle as _normalizeStyle, openBlock as _openBlock, createElementBlock as _createElementBlock } from \"vue\"\n\nconst _hoisted_1 = { class: \"container text-center\" }\nconst _hoisted_2 = /*#__PURE__*/_createElementVNode(\"div\", {\n  class: \"section-title color-light text-center\",\n  \"data-aos\": \"fade-up\"\n}, [\n  /*#__PURE__*/_createElementVNode(\"h2\", { class: \"title\" }, \"A full-service creative agency since 2007\")\n], -1)\nconst _hoisted_3 = /*#__PURE__*/_createElementVNode(\"div\", { class: \"play-btn icon video-popup\" }, [\n  /*#__PURE__*/_createElementVNode(\"i\", { class: \"fas fa-play\" })\n], -1)\n\nfunction _sfc_render(_ctx, _cache, $props, $setup, $data, $options) {\n  const _component_silent_box = _resolveComponent(\"silent-box\")\n  const _component_client_only = _resolveComponent(\"client-only\")\n  const _component_ShapeWithAnimation = _resolveComponent(\"ShapeWithAnimation\")\n\n  return (_openBlock(), _createElementBlock(\"div\", {\n    class: \"video-section section-padding overflow-hidden\",\n    style: _normalizeStyle({backgroundImage: `url('/images/bg/video-bg.jpg')`})\n  }, [\n    _createElementVNode(\"div\", _hoisted_1, [\n      _hoisted_2,\n      _createVNode(_component_client_only, null, {\n        default: _withCtx(() => [\n          _createVNode(_component_silent_box, {\n            image: $data.videos[0]\n          }, {\n            \"silentbox-item\": _withCtx(() => [\n              _hoisted_3\n            ]),\n            _: 1\n          }, 8, [\"image\"])\n        ]),\n        _: 1\n      })\n    ]),\n    _createVNode(_component_ShapeWithAnimation, {\n      addClassName: \"shape-1\",\n      \"data-depth\": \"1\",\n      imgSrc: \"/images/shape-animation/newsletter-shape.png\"\n    })\n  ], 4))\n}\n\n\nimport _export_sfc from '\u0000plugin-vue:export-helper'\nexport default /*#__PURE__*/_export_sfc(_sfc_main, [['render',_sfc_render]])",
-      "start": 1715787136766,
-      "end": 1715787136768,
+      "start": 1715794593721,
+      "end": 1715794593723,
       "order": "normal",
       "sourcemaps": {
         "mappings": ""
@@ -62,155 +62,155 @@
     },
     {
       "name": "vite:vue-jsx",
-      "start": 1715787136768,
-      "end": 1715787136768,
+      "start": 1715794593723,
+      "end": 1715794593723,
       "order": "normal"
     },
     {
       "name": "replace",
-      "start": 1715787136768,
-      "end": 1715787136768,
+      "start": 1715794593723,
+      "end": 1715794593723,
       "order": "normal"
     },
     {
       "name": "nuxt:remove-plugin-metadata",
-      "start": 1715787136768,
-      "end": 1715787136768,
+      "start": 1715794593723,
+      "end": 1715794593723,
       "order": "normal"
     },
     {
       "name": "nuxt:chunk-error",
-      "start": 1715787136768,
-      "end": 1715787136768,
+      "start": 1715794593723,
+      "end": 1715794593723,
       "order": "normal"
     },
     {
       "name": "nuxt:components:imports",
-      "start": 1715787136768,
-      "end": 1715787136768,
+      "start": 1715794593723,
+      "end": 1715794593723,
       "order": "normal"
     },
     {
       "name": "replace",
-      "start": 1715787136768,
-      "end": 1715787136768,
+      "start": 1715794593723,
+      "end": 1715794593723,
       "order": "normal"
     },
     {
       "name": "ssr-styles",
-      "start": 1715787136768,
-      "end": 1715787136768,
+      "start": 1715794593723,
+      "end": 1715794593723,
       "order": "normal"
     },
     {
       "name": "vite:define",
-      "start": 1715787136768,
-      "end": 1715787136768,
+      "start": 1715794593723,
+      "end": 1715794593723,
       "order": "normal"
     },
     {
       "name": "vite:css-post",
-      "start": 1715787136768,
-      "end": 1715787136768,
+      "start": 1715794593723,
+      "end": 1715794593723,
       "order": "normal"
     },
     {
       "name": "vite:build-html",
-      "start": 1715787136768,
-      "end": 1715787136768,
+      "start": 1715794593723,
+      "end": 1715794593723,
       "order": "normal"
     },
     {
       "name": "vite:worker-import-meta-url",
-      "start": 1715787136768,
-      "end": 1715787136768,
+      "start": 1715794593723,
+      "end": 1715794593723,
       "order": "normal"
     },
     {
       "name": "vite:asset-import-meta-url",
-      "start": 1715787136768,
-      "end": 1715787136768,
+      "start": 1715794593723,
+      "end": 1715794593723,
       "order": "normal"
     },
     {
       "name": "commonjs",
-      "start": 1715787136768,
-      "end": 1715787136768,
+      "start": 1715794593723,
+      "end": 1715794593723,
       "order": "normal"
     },
     {
       "name": "vite:dynamic-import-vars",
-      "start": 1715787136768,
-      "end": 1715787136768,
+      "start": 1715794593723,
+      "end": 1715794593723,
       "order": "normal"
     },
     {
       "name": "vite:import-glob",
-      "start": 1715787136768,
-      "end": 1715787136768,
+      "start": 1715794593723,
+      "end": 1715794593723,
       "order": "normal"
     },
     {
       "name": "nuxt:composable-keys",
-      "start": 1715787136768,
-      "end": 1715787136768,
+      "start": 1715794593723,
+      "end": 1715794593723,
       "order": "post"
     },
     {
       "name": "nuxt:imports-transform",
-      "start": 1715787136768,
-      "end": 1715787136768,
+      "start": 1715794593723,
+      "end": 1715794593724,
       "order": "post"
     },
     {
       "name": "unctx:transform",
-      "start": 1715787136768,
-      "end": 1715787136768,
+      "start": 1715794593724,
+      "end": 1715794593724,
       "order": "post"
     },
     {
       "name": "nuxt:pages-macros-transform",
-      "start": 1715787136768,
-      "end": 1715787136768,
+      "start": 1715794593724,
+      "end": 1715794593724,
       "order": "post"
     },
     {
       "name": "nuxt:runtime-paths-dep",
-      "start": 1715787136768,
-      "end": 1715787136768,
+      "start": 1715794593724,
+      "end": 1715794593724,
       "order": "post"
     },
     {
       "name": "nuxt:route-injection-plugin",
-      "start": 1715787136768,
-      "end": 1715787136768,
+      "start": 1715794593724,
+      "end": 1715794593724,
       "order": "post"
     },
     {
       "name": "nuxt:components-loader",
       "result": "import { default as __nuxt_component_0 } from \"E:/Projects/JavaRayaInternational/website/node_modules/nuxt/dist/app/components/client-only\";\nimport { default as __nuxt_component_1 } from \"E:/Projects/JavaRayaInternational/website/components/ShapeWithAnimation.vue\";\n\r\n    const _sfc_main = {\r\n        components: {\r\n            ShapeWithAnimation: () => import('@/components/ShapeWithAnimation')\r\n        },\r\n\r\n        data() {\r\n            return {\r\n                videos: [\r\n                    {\r\n                        src: \"https://www.youtube.com/watch?v=eS9Qm4AOOBY\"\r\n                    }\r\n                ]\r\n            };\r\n        }\r\n    };\r\n\nimport { createElementVNode as _createElementVNode, resolveComponent as _resolveComponent, withCtx as _withCtx, createVNode as _createVNode, normalizeStyle as _normalizeStyle, openBlock as _openBlock, createElementBlock as _createElementBlock } from \"vue\"\n\nconst _hoisted_1 = { class: \"container text-center\" }\nconst _hoisted_2 = /*#__PURE__*/_createElementVNode(\"div\", {\n  class: \"section-title color-light text-center\",\n  \"data-aos\": \"fade-up\"\n}, [\n  /*#__PURE__*/_createElementVNode(\"h2\", { class: \"title\" }, \"A full-service creative agency since 2007\")\n], -1)\nconst _hoisted_3 = /*#__PURE__*/_createElementVNode(\"div\", { class: \"play-btn icon video-popup\" }, [\n  /*#__PURE__*/_createElementVNode(\"i\", { class: \"fas fa-play\" })\n], -1)\n\nfunction _sfc_render(_ctx, _cache, $props, $setup, $data, $options) {\n  const _component_silent_box = _resolveComponent(\"silent-box\")\n  const _component_client_only = __nuxt_component_0\n  const _component_ShapeWithAnimation = __nuxt_component_1\n\n  return (_openBlock(), _createElementBlock(\"div\", {\n    class: \"video-section section-padding overflow-hidden\",\n    style: _normalizeStyle({backgroundImage: `url('/images/bg/video-bg.jpg')`})\n  }, [\n    _createElementVNode(\"div\", _hoisted_1, [\n      _hoisted_2,\n      _createVNode(_component_client_only, null, {\n        default: _withCtx(() => [\n          _createVNode(_component_silent_box, {\n            image: $data.videos[0]\n          }, {\n            \"silentbox-item\": _withCtx(() => [\n              _hoisted_3\n            ]),\n            _: 1\n          }, 8, [\"image\"])\n        ]),\n        _: 1\n      })\n    ]),\n    _createVNode(_component_ShapeWithAnimation, {\n      addClassName: \"shape-1\",\n      \"data-depth\": \"1\",\n      imgSrc: \"/images/shape-animation/newsletter-shape.png\"\n    })\n  ], 4))\n}\n\n\nimport _export_sfc from '\u0000plugin-vue:export-helper'\nexport default /*#__PURE__*/_export_sfc(_sfc_main, [['render',_sfc_render]])",
-      "start": 1715787136768,
-      "end": 1715787136769,
+      "start": 1715794593724,
+      "end": 1715794593724,
       "order": "post"
     },
     {
       "name": "nuxt:tree-shake-composables:transform",
-      "start": 1715787136769,
-      "end": 1715787136769,
+      "start": 1715794593724,
+      "end": 1715794593724,
       "order": "post"
     },
     {
       "name": "vite:build-import-analysis",
       "result": "import { __vitePreload } from \"\u0000vite/preload-helper.js\";import { default as __nuxt_component_0 } from \"E:/Projects/JavaRayaInternational/website/node_modules/nuxt/dist/app/components/client-only\";\nimport { default as __nuxt_component_1 } from \"E:/Projects/JavaRayaInternational/website/components/ShapeWithAnimation.vue\";\n\r\n    const _sfc_main = {\r\n        components: {\r\n            ShapeWithAnimation: () => __vitePreload(() => import('@/components/ShapeWithAnimation'),__VITE_IS_MODERN__?\"__VITE_PRELOAD__\":void 0,import.meta.url)\r\n        },\r\n\r\n        data() {\r\n            return {\r\n                videos: [\r\n                    {\r\n                        src: \"https://www.youtube.com/watch?v=eS9Qm4AOOBY\"\r\n                    }\r\n                ]\r\n            };\r\n        }\r\n    };\r\n\nimport { createElementVNode as _createElementVNode, resolveComponent as _resolveComponent, withCtx as _withCtx, createVNode as _createVNode, normalizeStyle as _normalizeStyle, openBlock as _openBlock, createElementBlock as _createElementBlock } from \"vue\"\n\nconst _hoisted_1 = { class: \"container text-center\" }\nconst _hoisted_2 = /*#__PURE__*/_createElementVNode(\"div\", {\n  class: \"section-title color-light text-center\",\n  \"data-aos\": \"fade-up\"\n}, [\n  /*#__PURE__*/_createElementVNode(\"h2\", { class: \"title\" }, \"A full-service creative agency since 2007\")\n], -1)\nconst _hoisted_3 = /*#__PURE__*/_createElementVNode(\"div\", { class: \"play-btn icon video-popup\" }, [\n  /*#__PURE__*/_createElementVNode(\"i\", { class: \"fas fa-play\" })\n], -1)\n\nfunction _sfc_render(_ctx, _cache, $props, $setup, $data, $options) {\n  const _component_silent_box = _resolveComponent(\"silent-box\")\n  const _component_client_only = __nuxt_component_0\n  const _component_ShapeWithAnimation = __nuxt_component_1\n\n  return (_openBlock(), _createElementBlock(\"div\", {\n    class: \"video-section section-padding overflow-hidden\",\n    style: _normalizeStyle({backgroundImage: `url('/images/bg/video-bg.jpg')`})\n  }, [\n    _createElementVNode(\"div\", _hoisted_1, [\n      _hoisted_2,\n      _createVNode(_component_client_only, null, {\n        default: _withCtx(() => [\n          _createVNode(_component_silent_box, {\n            image: $data.videos[0]\n          }, {\n            \"silentbox-item\": _withCtx(() => [\n              _hoisted_3\n            ]),\n            _: 1\n          }, 8, [\"image\"])\n        ]),\n        _: 1\n      })\n    ]),\n    _createVNode(_component_ShapeWithAnimation, {\n      addClassName: \"shape-1\",\n      \"data-depth\": \"1\",\n      imgSrc: \"/images/shape-animation/newsletter-shape.png\"\n    })\n  ], 4))\n}\n\n\nimport _export_sfc from '\u0000plugin-vue:export-helper'\nexport default /*#__PURE__*/_export_sfc(_sfc_main, [['render',_sfc_render]])",
-      "start": 1715787136769,
-      "end": 1715787136769,
+      "start": 1715794593724,
+      "end": 1715794593724,
       "order": "normal",
       "sourcemaps": null
     },
     {
       "name": "vite:reporter",
-      "start": 1715787136769,
-      "end": 1715787136769,
+      "start": 1715794593724,
+      "end": 1715794593724,
       "order": "normal"
     }
   ]

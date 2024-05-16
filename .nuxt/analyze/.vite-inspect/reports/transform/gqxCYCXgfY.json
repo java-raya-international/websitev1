@@ -4,45 +4,45 @@
     {
       "name": "vite:load-fallback",
       "result": "[\r\n    {\r\n        \"id\": 1,\r\n        \"title\": \"How your sales can work together in account-based marketing\",\r\n        \"slug\": \"how-your-sales-can-work-together-in-account-based-marketing\",\r\n        \"date\": \"Apr 06, 2021\",\r\n        \"view\": 70,\r\n        \"imgSrc\": \"/images/blog/370/blog-1.jpg\",\r\n        \"desc\": \"We've always known the power of digital, and we've mastered the strategy, tactics, and technology to harness it. Now, other departments have had to embrace the digital transformation that businesses have been talking about for so long.\",\r\n        \"comment\": 8,\r\n        \"categories\": [\"marketing\", \"business\", \"branding\"],\r\n        \"tags\": [\"marketing\", \"business\"]\r\n    },\r\n    {\r\n        \"id\": 2,\r\n        \"title\": \"The six things marketers need to understand about DTC marketing\",\r\n        \"slug\": \"the-six-things-marketers-need-to-understand-about-dtc-marketing\",\r\n        \"date\": \"Jun 26, 2021\",\r\n        \"view\": 92,\r\n        \"imgSrc\": \"/images/blog/370/blog-2.jpg\",\r\n        \"desc\": \"We've always known the power of digital, and we've mastered the strategy, tactics, and technology to harness it. Now, other departments have had to embrace the digital transformation that businesses have been talking about for so long.\",\r\n        \"comment\": 9,\r\n        \"categories\": [\"agency\", \"digital\"],\r\n        \"tags\": [\"agency\", \"digital\"]\r\n    },\r\n    {\r\n        \"id\": 3,\r\n        \"title\": \"Eleven top tips for developing agile marketing\",\r\n        \"slug\": \"eleven-top-tips-for-developing-agile-marketing\",\r\n        \"date\": \"May 16, 2021\",\r\n        \"view\": 55,\r\n        \"imgSrc\": \"/images/blog/370/blog-3.jpg\",\r\n        \"desc\": \"We've always known the power of digital, and we've mastered the strategy, tactics, and technology to harness it. Now, other departments have had to embrace the digital transformation that businesses have been talking about for so long.\",\r\n        \"comment\": 15,\r\n        \"categories\": [\"branding\", \"business\"],\r\n        \"tags\": [\"branding\", \"business\"]\r\n    },\r\n    {\r\n        \"id\": 4,\r\n        \"title\": \"A guide to latest trends product for this summer\",\r\n        \"slug\": \"a-guide-to-latest-trends-product-for-this-summer\",\r\n        \"date\": \"Feb 14, 2021\",\r\n        \"view\": 36,\r\n        \"imgSrc\": \"/images/blog/370/blog-4.jpg\",\r\n        \"desc\": \"We've always known the power of digital, and we've mastered the strategy, tactics, and technology to harness it. Now, other departments have had to embrace the digital transformation that businesses have been talking about for so long.\",\r\n        \"comment\": 40,\r\n        \"categories\": [\"marketing\", \"business\"],\r\n        \"tags\": [\"marketing\", \"business\"]\r\n    },\r\n    {\r\n        \"id\": 5,\r\n        \"title\": \"New winter collection with discount for this summer\",\r\n        \"slug\": \"new-winter-collection-with-discount-for-this-summer\",\r\n        \"date\": \"Aug 26, 2021\",\r\n        \"view\": 46,\r\n        \"imgSrc\": \"/images/blog/370/blog-5.jpg\",\r\n        \"desc\": \"We've always known the power of digital, and we've mastered the strategy, tactics, and technology to harness it. Now, other departments have had to embrace the digital transformation that businesses have been talking about for so long.\",\r\n        \"comment\": 32,\r\n        \"categories\": [\"agency\", \"digital\"],\r\n        \"tags\": [\"agency\", \"digital\"]\r\n    },\r\n    {\r\n        \"id\": 6,\r\n        \"title\": \"Make your store stand out from the others by business\",\r\n        \"slug\": \"make-your-store-stand-out-from-the-others-by-business\",\r\n        \"date\": \"Jun 22, 2021\",\r\n        \"view\": 34,\r\n        \"imgSrc\": \"/images/blog/370/blog-6.jpg\",\r\n        \"desc\": \"We've always known the power of digital, and we've mastered the strategy, tactics, and technology to harness it. Now, other departments have had to embrace the digital transformation that businesses have been talking about for so long.\",\r\n        \"comment\": 64,\r\n        \"categories\": [\"branding\", \"business\"],\r\n        \"tags\": [\"branding\", \"business\"]\r\n    }\r\n]",
-      "start": 1715787136728,
-      "end": 1715787136834,
+      "start": 1715794593687,
+      "end": 1715794593779,
       "sourcemaps": null
     },
     {
       "name": "nuxt:layer-aliasing",
-      "start": 1715787136834,
-      "end": 1715787136834,
+      "start": 1715794593780,
+      "end": 1715794593780,
       "order": "pre"
     },
     {
       "name": "nuxt:server-devonly:transform",
-      "start": 1715787136834,
-      "end": 1715787136834,
+      "start": 1715794593780,
+      "end": 1715794593780,
       "order": "pre"
     },
     {
       "name": "nuxt:client-fallback-auto-id",
-      "start": 1715787136834,
-      "end": 1715787136834,
+      "start": 1715794593780,
+      "end": 1715794593780,
       "order": "pre"
     },
     {
       "name": "vite:css",
-      "start": 1715787136834,
-      "end": 1715787136834,
+      "start": 1715794593780,
+      "end": 1715794593780,
       "order": "normal"
     },
     {
       "name": "vite:esbuild",
-      "start": 1715787136834,
-      "end": 1715787136834,
+      "start": 1715794593780,
+      "end": 1715794593780,
       "order": "normal"
     },
     {
       "name": "vite:json",
       "result": "export default [\n\t{\n\t\tid: 1,\n\t\ttitle: \"How your sales can work together in account-based marketing\",\n\t\tslug: \"how-your-sales-can-work-together-in-account-based-marketing\",\n\t\tdate: \"Apr 06, 2021\",\n\t\tview: 70,\n\t\timgSrc: \"/images/blog/370/blog-1.jpg\",\n\t\tdesc: \"We've always known the power of digital, and we've mastered the strategy, tactics, and technology to harness it. Now, other departments have had to embrace the digital transformation that businesses have been talking about for so long.\",\n\t\tcomment: 8,\n\t\tcategories: [\n\t\t\t\"marketing\",\n\t\t\t\"business\",\n\t\t\t\"branding\"\n\t\t],\n\t\ttags: [\n\t\t\t\"marketing\",\n\t\t\t\"business\"\n\t\t]\n\t},\n\t{\n\t\tid: 2,\n\t\ttitle: \"The six things marketers need to understand about DTC marketing\",\n\t\tslug: \"the-six-things-marketers-need-to-understand-about-dtc-marketing\",\n\t\tdate: \"Jun 26, 2021\",\n\t\tview: 92,\n\t\timgSrc: \"/images/blog/370/blog-2.jpg\",\n\t\tdesc: \"We've always known the power of digital, and we've mastered the strategy, tactics, and technology to harness it. Now, other departments have had to embrace the digital transformation that businesses have been talking about for so long.\",\n\t\tcomment: 9,\n\t\tcategories: [\n\t\t\t\"agency\",\n\t\t\t\"digital\"\n\t\t],\n\t\ttags: [\n\t\t\t\"agency\",\n\t\t\t\"digital\"\n\t\t]\n\t},\n\t{\n\t\tid: 3,\n\t\ttitle: \"Eleven top tips for developing agile marketing\",\n\t\tslug: \"eleven-top-tips-for-developing-agile-marketing\",\n\t\tdate: \"May 16, 2021\",\n\t\tview: 55,\n\t\timgSrc: \"/images/blog/370/blog-3.jpg\",\n\t\tdesc: \"We've always known the power of digital, and we've mastered the strategy, tactics, and technology to harness it. Now, other departments have had to embrace the digital transformation that businesses have been talking about for so long.\",\n\t\tcomment: 15,\n\t\tcategories: [\n\t\t\t\"branding\",\n\t\t\t\"business\"\n\t\t],\n\t\ttags: [\n\t\t\t\"branding\",\n\t\t\t\"business\"\n\t\t]\n\t},\n\t{\n\t\tid: 4,\n\t\ttitle: \"A guide to latest trends product for this summer\",\n\t\tslug: \"a-guide-to-latest-trends-product-for-this-summer\",\n\t\tdate: \"Feb 14, 2021\",\n\t\tview: 36,\n\t\timgSrc: \"/images/blog/370/blog-4.jpg\",\n\t\tdesc: \"We've always known the power of digital, and we've mastered the strategy, tactics, and technology to harness it. Now, other departments have had to embrace the digital transformation that businesses have been talking about for so long.\",\n\t\tcomment: 40,\n\t\tcategories: [\n\t\t\t\"marketing\",\n\t\t\t\"business\"\n\t\t],\n\t\ttags: [\n\t\t\t\"marketing\",\n\t\t\t\"business\"\n\t\t]\n\t},\n\t{\n\t\tid: 5,\n\t\ttitle: \"New winter collection with discount for this summer\",\n\t\tslug: \"new-winter-collection-with-discount-for-this-summer\",\n\t\tdate: \"Aug 26, 2021\",\n\t\tview: 46,\n\t\timgSrc: \"/images/blog/370/blog-5.jpg\",\n\t\tdesc: \"We've always known the power of digital, and we've mastered the strategy, tactics, and technology to harness it. Now, other departments have had to embrace the digital transformation that businesses have been talking about for so long.\",\n\t\tcomment: 32,\n\t\tcategories: [\n\t\t\t\"agency\",\n\t\t\t\"digital\"\n\t\t],\n\t\ttags: [\n\t\t\t\"agency\",\n\t\t\t\"digital\"\n\t\t]\n\t},\n\t{\n\t\tid: 6,\n\t\ttitle: \"Make your store stand out from the others by business\",\n\t\tslug: \"make-your-store-stand-out-from-the-others-by-business\",\n\t\tdate: \"Jun 22, 2021\",\n\t\tview: 34,\n\t\timgSrc: \"/images/blog/370/blog-6.jpg\",\n\t\tdesc: \"We've always known the power of digital, and we've mastered the strategy, tactics, and technology to harness it. Now, other departments have had to embrace the digital transformation that businesses have been talking about for so long.\",\n\t\tcomment: 64,\n\t\tcategories: [\n\t\t\t\"branding\",\n\t\t\t\"business\"\n\t\t],\n\t\ttags: [\n\t\t\t\"branding\",\n\t\t\t\"business\"\n\t\t]\n\t}\n];",
-      "start": 1715787136834,
-      "end": 1715787136835,
+      "start": 1715794593780,
+      "end": 1715794593780,
       "order": "normal",
       "sourcemaps": {
         "mappings": ""
@@ -50,164 +50,164 @@
     },
     {
       "name": "vite:worker",
-      "start": 1715787136835,
-      "end": 1715787136835,
+      "start": 1715794593780,
+      "end": 1715794593780,
       "order": "normal"
     },
     {
       "name": "vite:vue",
-      "start": 1715787136835,
-      "end": 1715787136835,
+      "start": 1715794593780,
+      "end": 1715794593780,
       "order": "normal"
     },
     {
       "name": "vite:vue-jsx",
-      "start": 1715787136835,
-      "end": 1715787136835,
+      "start": 1715794593780,
+      "end": 1715794593780,
       "order": "normal"
     },
     {
       "name": "replace",
-      "start": 1715787136835,
-      "end": 1715787136835,
+      "start": 1715794593780,
+      "end": 1715794593780,
       "order": "normal"
     },
     {
       "name": "nuxt:remove-plugin-metadata",
-      "start": 1715787136835,
-      "end": 1715787136835,
+      "start": 1715794593780,
+      "end": 1715794593780,
       "order": "normal"
     },
     {
       "name": "nuxt:chunk-error",
-      "start": 1715787136835,
-      "end": 1715787136835,
+      "start": 1715794593780,
+      "end": 1715794593780,
       "order": "normal"
     },
     {
       "name": "nuxt:components:imports",
-      "start": 1715787136835,
-      "end": 1715787136835,
+      "start": 1715794593780,
+      "end": 1715794593780,
       "order": "normal"
     },
     {
       "name": "replace",
-      "start": 1715787136835,
-      "end": 1715787136835,
+      "start": 1715794593780,
+      "end": 1715794593780,
       "order": "normal"
     },
     {
       "name": "ssr-styles",
-      "start": 1715787136835,
-      "end": 1715787136835,
+      "start": 1715794593780,
+      "end": 1715794593780,
       "order": "normal"
     },
     {
       "name": "vite:define",
-      "start": 1715787136835,
-      "end": 1715787136835,
+      "start": 1715794593780,
+      "end": 1715794593780,
       "order": "normal"
     },
     {
       "name": "vite:css-post",
-      "start": 1715787136835,
-      "end": 1715787136835,
+      "start": 1715794593780,
+      "end": 1715794593780,
       "order": "normal"
     },
     {
       "name": "vite:build-html",
-      "start": 1715787136835,
-      "end": 1715787136835,
+      "start": 1715794593780,
+      "end": 1715794593780,
       "order": "normal"
     },
     {
       "name": "vite:worker-import-meta-url",
-      "start": 1715787136835,
-      "end": 1715787136835,
+      "start": 1715794593780,
+      "end": 1715794593780,
       "order": "normal"
     },
     {
       "name": "vite:asset-import-meta-url",
-      "start": 1715787136835,
-      "end": 1715787136835,
+      "start": 1715794593780,
+      "end": 1715794593780,
       "order": "normal"
     },
     {
       "name": "commonjs",
-      "start": 1715787136835,
-      "end": 1715787136835,
+      "start": 1715794593780,
+      "end": 1715794593780,
       "order": "normal"
     },
     {
       "name": "vite:dynamic-import-vars",
-      "start": 1715787136835,
-      "end": 1715787136835,
+      "start": 1715794593780,
+      "end": 1715794593780,
       "order": "normal"
     },
     {
       "name": "vite:import-glob",
-      "start": 1715787136835,
-      "end": 1715787136835,
+      "start": 1715794593780,
+      "end": 1715794593780,
       "order": "normal"
     },
     {
       "name": "nuxt:composable-keys",
-      "start": 1715787136835,
-      "end": 1715787136835,
+      "start": 1715794593780,
+      "end": 1715794593781,
       "order": "post"
     },
     {
       "name": "nuxt:imports-transform",
-      "start": 1715787136835,
-      "end": 1715787136835,
+      "start": 1715794593781,
+      "end": 1715794593781,
       "order": "post"
     },
     {
       "name": "unctx:transform",
-      "start": 1715787136835,
-      "end": 1715787136835,
+      "start": 1715794593781,
+      "end": 1715794593781,
       "order": "post"
     },
     {
       "name": "nuxt:pages-macros-transform",
-      "start": 1715787136835,
-      "end": 1715787136835,
+      "start": 1715794593781,
+      "end": 1715794593781,
       "order": "post"
     },
     {
       "name": "nuxt:runtime-paths-dep",
-      "start": 1715787136835,
-      "end": 1715787136835,
+      "start": 1715794593781,
+      "end": 1715794593781,
       "order": "post"
     },
     {
       "name": "nuxt:route-injection-plugin",
-      "start": 1715787136835,
-      "end": 1715787136835,
+      "start": 1715794593781,
+      "end": 1715794593781,
       "order": "post"
     },
     {
       "name": "nuxt:components-loader",
-      "start": 1715787136835,
-      "end": 1715787136835,
+      "start": 1715794593781,
+      "end": 1715794593781,
       "order": "post"
     },
     {
       "name": "nuxt:tree-shake-composables:transform",
-      "start": 1715787136835,
-      "end": 1715787136835,
+      "start": 1715794593781,
+      "end": 1715794593781,
       "order": "post"
     },
     {
       "name": "vite:build-import-analysis",
-      "start": 1715787136835,
-      "end": 1715787136835,
+      "start": 1715794593781,
+      "end": 1715794593781,
       "order": "normal"
     },
     {
       "name": "vite:reporter",
-      "start": 1715787136835,
-      "end": 1715787136835,
+      "start": 1715794593781,
+      "end": 1715794593781,
       "order": "normal"
     }
   ]

@@ -292,7 +292,7 @@
               <img
                 class="w-100"
                 src="/images/products/metal-01.jpg"
-                alt="Agency"
+                alt="Metal ingots"
               />
             </div>
           </div>
@@ -344,7 +344,7 @@
                 <img
                   class="w-100"
                   src="/images/products/metal-04.jpg"
-                  alt="Agency"
+                  alt="Metal Ingots"
                 />
               </div>
             </div>
@@ -354,7 +354,7 @@
                 <img
                   class="w-100"
                   src="/images/products/metal-05.jpg"
-                  alt="Agency"
+                  alt="Metal Ingots"
                 />
               </div>
             </div>

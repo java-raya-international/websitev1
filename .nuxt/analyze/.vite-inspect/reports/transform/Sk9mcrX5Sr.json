@@ -4,57 +4,57 @@
     {
       "name": "vite:load-fallback",
       "result": "<template>\r\n    <div class=\"section-padding-t90-b100\">\r\n        <div class=\"container\">\r\n            <!-- Section Title Start -->\r\n            <SectionTitle title=\"We are a full-service creative agency\" sub-title=\"Our team of designers, developers and creatives are perfectionists who love what they do and love\" />\r\n            <!-- Section Title End -->\r\n\r\n            <div class=\"row row-cols-lg-3 row-cols-md-2 row-cols-sm-2 row-cols-1 mtn-60\">\r\n                <div class=\"col mt-30\" v-for=\"(blog, index) in blogData.slice(0, 3)\" :key=\"index\">\r\n                    <BlogGridItem :blog=\"blog\" />\r\n                </div>\r\n            </div>\r\n        </div>\r\n    </div>\r\n</template>\r\n\r\n<script>\r\n    import blogData from '~/data/blog.json';\r\n\r\n    export default {\r\n        data() {\r\n            return {\r\n               blogData \r\n            }\r\n        },\r\n\r\n        components: {\r\n            BlogGridItem: () => import(\"@/components/BlogGridItem\"),\r\n            SectionTitle: () => import(\"@/components/SectionTitle\"),\r\n        },\r\n    };\r\n</script>",
-      "start": 1715787136814,
-      "end": 1715787136941,
+      "start": 1715794593772,
+      "end": 1715794593870,
       "sourcemaps": null
     },
     {
       "name": "nuxt:layer-aliasing",
-      "start": 1715787136941,
-      "end": 1715787136941,
+      "start": 1715794593870,
+      "end": 1715794593870,
       "order": "pre"
     },
     {
       "name": "nuxt:server-devonly:transform",
-      "start": 1715787136941,
-      "end": 1715787136941,
+      "start": 1715794593870,
+      "end": 1715794593870,
       "order": "pre"
     },
     {
       "name": "nuxt:client-fallback-auto-id",
-      "start": 1715787136941,
-      "end": 1715787136941,
+      "start": 1715794593870,
+      "end": 1715794593870,
       "order": "pre"
     },
     {
       "name": "vite:css",
-      "start": 1715787136941,
-      "end": 1715787136941,
+      "start": 1715794593870,
+      "end": 1715794593870,
       "order": "normal"
     },
     {
       "name": "vite:esbuild",
-      "start": 1715787136941,
-      "end": 1715787136941,
+      "start": 1715794593870,
+      "end": 1715794593870,
       "order": "normal"
     },
     {
       "name": "vite:json",
-      "start": 1715787136941,
-      "end": 1715787136941,
+      "start": 1715794593870,
+      "end": 1715794593870,
       "order": "normal"
     },
     {
       "name": "vite:worker",
-      "start": 1715787136941,
-      "end": 1715787136941,
+      "start": 1715794593870,
+      "end": 1715794593870,
       "order": "normal"
     },
     {
       "name": "vite:vue",
       "result": "\r\n    import blogData from '~/data/blog.json';\r\n\r\n    const _sfc_main = {\r\n        data() {\r\n            return {\r\n               blogData \r\n            }\r\n        },\r\n\r\n        components: {\r\n            BlogGridItem: () => import(\"@/components/BlogGridItem\"),\r\n            SectionTitle: () => import(\"@/components/SectionTitle\"),\r\n        },\r\n    };\r\n\nimport { resolveComponent as _resolveComponent, createVNode as _createVNode, renderList as _renderList, Fragment as _Fragment, openBlock as _openBlock, createElementBlock as _createElementBlock, createElementVNode as _createElementVNode } from \"vue\"\n\nconst _hoisted_1 = { class: \"section-padding-t90-b100\" }\nconst _hoisted_2 = { class: \"container\" }\nconst _hoisted_3 = { class: \"row row-cols-lg-3 row-cols-md-2 row-cols-sm-2 row-cols-1 mtn-60\" }\n\nfunction _sfc_render(_ctx, _cache, $props, $setup, $data, $options) {\n  const _component_SectionTitle = _resolveComponent(\"SectionTitle\")\n  const _component_BlogGridItem = _resolveComponent(\"BlogGridItem\")\n\n  return (_openBlock(), _createElementBlock(\"div\", _hoisted_1, [\n    _createElementVNode(\"div\", _hoisted_2, [\n      _createVNode(_component_SectionTitle, {\n        title: \"We are a full-service creative agency\",\n        \"sub-title\": \"Our team of designers, developers and creatives are perfectionists who love what they do and love\"\n      }),\n      _createElementVNode(\"div\", _hoisted_3, [\n        (_openBlock(true), _createElementBlock(_Fragment, null, _renderList($data.blogData.slice(0, 3), (blog, index) => {\n          return (_openBlock(), _createElementBlock(\"div\", {\n            class: \"col mt-30\",\n            key: index\n          }, [\n            _createVNode(_component_BlogGridItem, { blog: blog }, null, 8, [\"blog\"])\n          ]))\n        }), 128))\n      ])\n    ])\n  ]))\n}\n\n\nimport _export_sfc from '\u0000plugin-vue:export-helper'\nexport default /*#__PURE__*/_export_sfc(_sfc_main, [['render',_sfc_render]])",
-      "start": 1715787136941,
-      "end": 1715787136942,
+      "start": 1715794593870,
+      "end": 1715794593871,
       "order": "normal",
       "sourcemaps": {
         "mappings": ""
@@ -62,155 +62,155 @@
     },
     {
       "name": "vite:vue-jsx",
-      "start": 1715787136942,
-      "end": 1715787136942,
+      "start": 1715794593871,
+      "end": 1715794593871,
       "order": "normal"
     },
     {
       "name": "replace",
-      "start": 1715787136942,
-      "end": 1715787136942,
+      "start": 1715794593871,
+      "end": 1715794593871,
       "order": "normal"
     },
     {
       "name": "nuxt:remove-plugin-metadata",
-      "start": 1715787136942,
-      "end": 1715787136942,
+      "start": 1715794593871,
+      "end": 1715794593871,
       "order": "normal"
     },
     {
       "name": "nuxt:chunk-error",
-      "start": 1715787136942,
-      "end": 1715787136942,
+      "start": 1715794593871,
+      "end": 1715794593871,
       "order": "normal"
     },
     {
       "name": "nuxt:components:imports",
-      "start": 1715787136942,
-      "end": 1715787136942,
+      "start": 1715794593871,
+      "end": 1715794593871,
       "order": "normal"
     },
     {
       "name": "replace",
-      "start": 1715787136942,
-      "end": 1715787136942,
+      "start": 1715794593871,
+      "end": 1715794593871,
       "order": "normal"
     },
     {
       "name": "ssr-styles",
-      "start": 1715787136942,
-      "end": 1715787136942,
+      "start": 1715794593871,
+      "end": 1715794593871,
       "order": "normal"
     },
     {
       "name": "vite:define",
-      "start": 1715787136942,
-      "end": 1715787136942,
+      "start": 1715794593871,
+      "end": 1715794593871,
       "order": "normal"
     },
     {
       "name": "vite:css-post",
-      "start": 1715787136942,
-      "end": 1715787136942,
+      "start": 1715794593871,
+      "end": 1715794593871,
       "order": "normal"
     },
     {
       "name": "vite:build-html",
-      "start": 1715787136942,
-      "end": 1715787136942,
+      "start": 1715794593871,
+      "end": 1715794593871,
       "order": "normal"
     },
     {
       "name": "vite:worker-import-meta-url",
-      "start": 1715787136942,
-      "end": 1715787136942,
+      "start": 1715794593871,
+      "end": 1715794593871,
       "order": "normal"
     },
     {
       "name": "vite:asset-import-meta-url",
-      "start": 1715787136942,
-      "end": 1715787136942,
+      "start": 1715794593871,
+      "end": 1715794593871,
       "order": "normal"
     },
     {
       "name": "commonjs",
-      "start": 1715787136942,
-      "end": 1715787136942,
+      "start": 1715794593871,
+      "end": 1715794593871,
       "order": "normal"
     },
     {
       "name": "vite:dynamic-import-vars",
-      "start": 1715787136942,
-      "end": 1715787136942,
+      "start": 1715794593871,
+      "end": 1715794593872,
       "order": "normal"
     },
     {
       "name": "vite:import-glob",
-      "start": 1715787136942,
-      "end": 1715787136942,
+      "start": 1715794593872,
+      "end": 1715794593872,
       "order": "normal"
     },
     {
       "name": "nuxt:composable-keys",
-      "start": 1715787136942,
-      "end": 1715787136942,
+      "start": 1715794593872,
+      "end": 1715794593872,
       "order": "post"
     },
     {
       "name": "nuxt:imports-transform",
-      "start": 1715787136942,
-      "end": 1715787136943,
+      "start": 1715794593872,
+      "end": 1715794593872,
       "order": "post"
     },
     {
       "name": "unctx:transform",
-      "start": 1715787136943,
-      "end": 1715787136943,
+      "start": 1715794593872,
+      "end": 1715794593872,
       "order": "post"
     },
     {
       "name": "nuxt:pages-macros-transform",
-      "start": 1715787136943,
-      "end": 1715787136943,
+      "start": 1715794593872,
+      "end": 1715794593872,
       "order": "post"
     },
     {
       "name": "nuxt:runtime-paths-dep",
-      "start": 1715787136943,
-      "end": 1715787136943,
+      "start": 1715794593872,
+      "end": 1715794593872,
       "order": "post"
     },
     {
       "name": "nuxt:route-injection-plugin",
-      "start": 1715787136943,
-      "end": 1715787136943,
+      "start": 1715794593872,
+      "end": 1715794593872,
       "order": "post"
     },
     {
       "name": "nuxt:components-loader",
       "result": "import { default as __nuxt_component_0 } from \"E:/Projects/JavaRayaInternational/website/components/SectionTitle.vue\";\nimport { default as __nuxt_component_1 } from \"E:/Projects/JavaRayaInternational/website/components/BlogGridItem.vue\";\n\r\n    import blogData from '~/data/blog.json';\r\n\r\n    const _sfc_main = {\r\n        data() {\r\n            return {\r\n               blogData \r\n            }\r\n        },\r\n\r\n        components: {\r\n            BlogGridItem: () => import(\"@/components/BlogGridItem\"),\r\n            SectionTitle: () => import(\"@/components/SectionTitle\"),\r\n        },\r\n    };\r\n\nimport { resolveComponent as _resolveComponent, createVNode as _createVNode, renderList as _renderList, Fragment as _Fragment, openBlock as _openBlock, createElementBlock as _createElementBlock, createElementVNode as _createElementVNode } from \"vue\"\n\nconst _hoisted_1 = { class: \"section-padding-t90-b100\" }\nconst _hoisted_2 = { class: \"container\" }\nconst _hoisted_3 = { class: \"row row-cols-lg-3 row-cols-md-2 row-cols-sm-2 row-cols-1 mtn-60\" }\n\nfunction _sfc_render(_ctx, _cache, $props, $setup, $data, $options) {\n  const _component_SectionTitle = __nuxt_component_0\n  const _component_BlogGridItem = __nuxt_component_1\n\n  return (_openBlock(), _createElementBlock(\"div\", _hoisted_1, [\n    _createElementVNode(\"div\", _hoisted_2, [\n      _createVNode(_component_SectionTitle, {\n        title: \"We are a full-service creative agency\",\n        \"sub-title\": \"Our team of designers, developers and creatives are perfectionists who love what they do and love\"\n      }),\n      _createElementVNode(\"div\", _hoisted_3, [\n        (_openBlock(true), _createElementBlock(_Fragment, null, _renderList($data.blogData.slice(0, 3), (blog, index) => {\n          return (_openBlock(), _createElementBlock(\"div\", {\n            class: \"col mt-30\",\n            key: index\n          }, [\n            _createVNode(_component_BlogGridItem, { blog: blog }, null, 8, [\"blog\"])\n          ]))\n        }), 128))\n      ])\n    ])\n  ]))\n}\n\n\nimport _export_sfc from '\u0000plugin-vue:export-helper'\nexport default /*#__PURE__*/_export_sfc(_sfc_main, [['render',_sfc_render]])",
-      "start": 1715787136943,
-      "end": 1715787136943,
+      "start": 1715794593872,
+      "end": 1715794593872,
       "order": "post"
     },
     {
       "name": "nuxt:tree-shake-composables:transform",
-      "start": 1715787136943,
-      "end": 1715787136943,
+      "start": 1715794593872,
+      "end": 1715794593872,
       "order": "post"
     },
     {
       "name": "vite:build-import-analysis",
       "result": "import { __vitePreload } from \"\u0000vite/preload-helper.js\";import { default as __nuxt_component_0 } from \"E:/Projects/JavaRayaInternational/website/components/SectionTitle.vue\";\nimport { default as __nuxt_component_1 } from \"E:/Projects/JavaRayaInternational/website/components/BlogGridItem.vue\";\n\r\n    import blogData from '~/data/blog.json';\r\n\r\n    const _sfc_main = {\r\n        data() {\r\n            return {\r\n               blogData \r\n            }\r\n        },\r\n\r\n        components: {\r\n            BlogGridItem: () => __vitePreload(() => import(\"@/components/BlogGridItem\"),__VITE_IS_MODERN__?\"__VITE_PRELOAD__\":void 0,import.meta.url),\r\n            SectionTitle: () => __vitePreload(() => import(\"@/components/SectionTitle\"),__VITE_IS_MODERN__?\"__VITE_PRELOAD__\":void 0,import.meta.url),\r\n        },\r\n    };\r\n\nimport { resolveComponent as _resolveComponent, createVNode as _createVNode, renderList as _renderList, Fragment as _Fragment, openBlock as _openBlock, createElementBlock as _createElementBlock, createElementVNode as _createElementVNode } from \"vue\"\n\nconst _hoisted_1 = { class: \"section-padding-t90-b100\" }\nconst _hoisted_2 = { class: \"container\" }\nconst _hoisted_3 = { class: \"row row-cols-lg-3 row-cols-md-2 row-cols-sm-2 row-cols-1 mtn-60\" }\n\nfunction _sfc_render(_ctx, _cache, $props, $setup, $data, $options) {\n  const _component_SectionTitle = __nuxt_component_0\n  const _component_BlogGridItem = __nuxt_component_1\n\n  return (_openBlock(), _createElementBlock(\"div\", _hoisted_1, [\n    _createElementVNode(\"div\", _hoisted_2, [\n      _createVNode(_component_SectionTitle, {\n        title: \"We are a full-service creative agency\",\n        \"sub-title\": \"Our team of designers, developers and creatives are perfectionists who love what they do and love\"\n      }),\n      _createElementVNode(\"div\", _hoisted_3, [\n        (_openBlock(true), _createElementBlock(_Fragment, null, _renderList($data.blogData.slice(0, 3), (blog, index) => {\n          return (_openBlock(), _createElementBlock(\"div\", {\n            class: \"col mt-30\",\n            key: index\n          }, [\n            _createVNode(_component_BlogGridItem, { blog: blog }, null, 8, [\"blog\"])\n          ]))\n        }), 128))\n      ])\n    ])\n  ]))\n}\n\n\nimport _export_sfc from '\u0000plugin-vue:export-helper'\nexport default /*#__PURE__*/_export_sfc(_sfc_main, [['render',_sfc_render]])",
-      "start": 1715787136943,
-      "end": 1715787136943,
+      "start": 1715794593872,
+      "end": 1715794593872,
       "order": "normal",
       "sourcemaps": null
     },
     {
       "name": "vite:reporter",
-      "start": 1715787136943,
-      "end": 1715787136943,
+      "start": 1715794593872,
+      "end": 1715794593872,
       "order": "normal"
     }
   ]

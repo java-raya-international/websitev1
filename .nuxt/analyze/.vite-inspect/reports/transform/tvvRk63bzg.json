@@ -4,57 +4,57 @@
     {
       "name": "vite:load-fallback",
       "result": "<template>\r\n    <div class=\"section-padding-t110-b120 newsletter-section bg-cover overflow-hidden\" data-overlay=\"0.7\" :style=\"{ backgroundImage: `url('/images/bg/newsletter.jpg')` }\">\r\n        <div class=\"container\">\r\n            <div class=\"row align-items-center\">\r\n                <div class=\"col-lg-12\">\r\n                    <div class=\"cta-content text-center\">\r\n                        <SectionTitle title=\"Let’s find out how to work together\" sub-title=\"Ready to start your project? The contact information collected through this form will only be used to send a response to your inquiry.\" add-class-name=\"color-light\" />\r\n                        <NuxtLink to=\"/contact-us\" class=\"btn btn-primary btn-hover-secondary mt-6\">Get Started</NuxtLink>\r\n                    </div>\r\n                </div>\r\n            </div>\r\n        </div>\r\n\r\n        <!-- <ShapeWithAnimation add-class-name=\"shape-1\" data-depth=\"1\" img-src=\"/images/shape-animation/newsletter-shape.png\" /> -->\r\n    </div>\r\n</template>\r\n\r\n<script>\r\n    export default {\r\n        components: {\r\n            SectionTitle: () => import(\"@/components/SectionTitle\"),\r\n            ShapeWithAnimation: () => import(\"@/components/ShapeWithAnimation\"),\r\n        },\r\n    };\r\n</script>",
-      "start": 1715787136728,
-      "end": 1715787136822,
+      "start": 1715794593685,
+      "end": 1715794593777,
       "sourcemaps": null
     },
     {
       "name": "nuxt:layer-aliasing",
-      "start": 1715787136822,
-      "end": 1715787136822,
+      "start": 1715794593777,
+      "end": 1715794593777,
       "order": "pre"
     },
     {
       "name": "nuxt:server-devonly:transform",
-      "start": 1715787136822,
-      "end": 1715787136822,
+      "start": 1715794593777,
+      "end": 1715794593778,
       "order": "pre"
     },
     {
       "name": "nuxt:client-fallback-auto-id",
-      "start": 1715787136822,
-      "end": 1715787136822,
+      "start": 1715794593778,
+      "end": 1715794593778,
       "order": "pre"
     },
     {
       "name": "vite:css",
-      "start": 1715787136822,
-      "end": 1715787136822,
+      "start": 1715794593778,
+      "end": 1715794593778,
       "order": "normal"
     },
     {
       "name": "vite:esbuild",
-      "start": 1715787136822,
-      "end": 1715787136822,
+      "start": 1715794593778,
+      "end": 1715794593778,
       "order": "normal"
     },
     {
       "name": "vite:json",
-      "start": 1715787136822,
-      "end": 1715787136822,
+      "start": 1715794593778,
+      "end": 1715794593778,
       "order": "normal"
     },
     {
       "name": "vite:worker",
-      "start": 1715787136822,
-      "end": 1715787136822,
+      "start": 1715794593778,
+      "end": 1715794593778,
       "order": "normal"
     },
     {
       "name": "vite:vue",
       "result": "\r\n    const _sfc_main = {\r\n        components: {\r\n            SectionTitle: () => import(\"@/components/SectionTitle\"),\r\n            ShapeWithAnimation: () => import(\"@/components/ShapeWithAnimation\"),\r\n        },\r\n    };\r\n\nimport { resolveComponent as _resolveComponent, createVNode as _createVNode, createTextVNode as _createTextVNode, withCtx as _withCtx, createElementVNode as _createElementVNode, normalizeStyle as _normalizeStyle, openBlock as _openBlock, createElementBlock as _createElementBlock } from \"vue\"\n\nconst _hoisted_1 = { class: \"container\" }\nconst _hoisted_2 = { class: \"row align-items-center\" }\nconst _hoisted_3 = { class: \"col-lg-12\" }\nconst _hoisted_4 = { class: \"cta-content text-center\" }\n\nfunction _sfc_render(_ctx, _cache, $props, $setup, $data, $options) {\n  const _component_SectionTitle = _resolveComponent(\"SectionTitle\")\n  const _component_NuxtLink = _resolveComponent(\"NuxtLink\")\n\n  return (_openBlock(), _createElementBlock(\"div\", {\n    class: \"section-padding-t110-b120 newsletter-section bg-cover overflow-hidden\",\n    \"data-overlay\": \"0.7\",\n    style: _normalizeStyle({ backgroundImage: `url('/images/bg/newsletter.jpg')` })\n  }, [\n    _createElementVNode(\"div\", _hoisted_1, [\n      _createElementVNode(\"div\", _hoisted_2, [\n        _createElementVNode(\"div\", _hoisted_3, [\n          _createElementVNode(\"div\", _hoisted_4, [\n            _createVNode(_component_SectionTitle, {\n              title: \"Let’s find out how to work together\",\n              \"sub-title\": \"Ready to start your project? The contact information collected through this form will only be used to send a response to your inquiry.\",\n              \"add-class-name\": \"color-light\"\n            }),\n            _createVNode(_component_NuxtLink, {\n              to: \"/contact-us\",\n              class: \"btn btn-primary btn-hover-secondary mt-6\"\n            }, {\n              default: _withCtx(() => [\n                _createTextVNode(\"Get Started\")\n              ]),\n              _: 1\n            })\n          ])\n        ])\n      ])\n    ])\n  ], 4))\n}\n\n\nimport _export_sfc from '\u0000plugin-vue:export-helper'\nexport default /*#__PURE__*/_export_sfc(_sfc_main, [['render',_sfc_render]])",
-      "start": 1715787136822,
-      "end": 1715787136824,
+      "start": 1715794593778,
+      "end": 1715794593779,
       "order": "normal",
       "sourcemaps": {
         "mappings": ""
@@ -62,155 +62,155 @@
     },
     {
       "name": "vite:vue-jsx",
-      "start": 1715787136824,
-      "end": 1715787136824,
+      "start": 1715794593779,
+      "end": 1715794593779,
       "order": "normal"
     },
     {
       "name": "replace",
-      "start": 1715787136824,
-      "end": 1715787136824,
+      "start": 1715794593779,
+      "end": 1715794593779,
       "order": "normal"
     },
     {
       "name": "nuxt:remove-plugin-metadata",
-      "start": 1715787136824,
-      "end": 1715787136824,
+      "start": 1715794593779,
+      "end": 1715794593779,
       "order": "normal"
     },
     {
       "name": "nuxt:chunk-error",
-      "start": 1715787136824,
-      "end": 1715787136824,
+      "start": 1715794593779,
+      "end": 1715794593779,
       "order": "normal"
     },
     {
       "name": "nuxt:components:imports",
-      "start": 1715787136824,
-      "end": 1715787136824,
+      "start": 1715794593779,
+      "end": 1715794593779,
       "order": "normal"
     },
     {
       "name": "replace",
-      "start": 1715787136824,
-      "end": 1715787136824,
+      "start": 1715794593779,
+      "end": 1715794593779,
       "order": "normal"
     },
     {
       "name": "ssr-styles",
-      "start": 1715787136824,
-      "end": 1715787136824,
+      "start": 1715794593779,
+      "end": 1715794593779,
       "order": "normal"
     },
     {
       "name": "vite:define",
-      "start": 1715787136824,
-      "end": 1715787136824,
+      "start": 1715794593779,
+      "end": 1715794593779,
       "order": "normal"
     },
     {
       "name": "vite:css-post",
-      "start": 1715787136824,
-      "end": 1715787136824,
+      "start": 1715794593779,
+      "end": 1715794593779,
       "order": "normal"
     },
     {
       "name": "vite:build-html",
-      "start": 1715787136824,
-      "end": 1715787136824,
+      "start": 1715794593779,
+      "end": 1715794593779,
       "order": "normal"
     },
     {
       "name": "vite:worker-import-meta-url",
-      "start": 1715787136824,
-      "end": 1715787136824,
+      "start": 1715794593779,
+      "end": 1715794593779,
       "order": "normal"
     },
     {
       "name": "vite:asset-import-meta-url",
-      "start": 1715787136824,
-      "end": 1715787136824,
+      "start": 1715794593779,
+      "end": 1715794593779,
       "order": "normal"
     },
     {
       "name": "commonjs",
-      "start": 1715787136824,
-      "end": 1715787136824,
+      "start": 1715794593779,
+      "end": 1715794593779,
       "order": "normal"
     },
     {
       "name": "vite:dynamic-import-vars",
-      "start": 1715787136824,
-      "end": 1715787136824,
+      "start": 1715794593779,
+      "end": 1715794593779,
       "order": "normal"
     },
     {
       "name": "vite:import-glob",
-      "start": 1715787136824,
-      "end": 1715787136824,
+      "start": 1715794593779,
+      "end": 1715794593779,
       "order": "normal"
     },
     {
       "name": "nuxt:composable-keys",
-      "start": 1715787136824,
-      "end": 1715787136824,
+      "start": 1715794593779,
+      "end": 1715794593779,
       "order": "post"
     },
     {
       "name": "nuxt:imports-transform",
-      "start": 1715787136824,
-      "end": 1715787136824,
+      "start": 1715794593779,
+      "end": 1715794593779,
       "order": "post"
     },
     {
       "name": "unctx:transform",
-      "start": 1715787136824,
-      "end": 1715787136824,
+      "start": 1715794593779,
+      "end": 1715794593779,
       "order": "post"
     },
     {
       "name": "nuxt:pages-macros-transform",
-      "start": 1715787136824,
-      "end": 1715787136824,
+      "start": 1715794593779,
+      "end": 1715794593779,
       "order": "post"
     },
     {
       "name": "nuxt:runtime-paths-dep",
-      "start": 1715787136824,
-      "end": 1715787136824,
+      "start": 1715794593779,
+      "end": 1715794593779,
       "order": "post"
     },
     {
       "name": "nuxt:route-injection-plugin",
-      "start": 1715787136824,
-      "end": 1715787136825,
+      "start": 1715794593779,
+      "end": 1715794593779,
       "order": "post"
     },
     {
       "name": "nuxt:components-loader",
       "result": "import { default as __nuxt_component_0 } from \"E:/Projects/JavaRayaInternational/website/components/SectionTitle.vue\";\nimport { default as __nuxt_component_1 } from \"E:/Projects/JavaRayaInternational/website/node_modules/nuxt/dist/app/components/nuxt-link\";\n\r\n    const _sfc_main = {\r\n        components: {\r\n            SectionTitle: () => import(\"@/components/SectionTitle\"),\r\n            ShapeWithAnimation: () => import(\"@/components/ShapeWithAnimation\"),\r\n        },\r\n    };\r\n\nimport { resolveComponent as _resolveComponent, createVNode as _createVNode, createTextVNode as _createTextVNode, withCtx as _withCtx, createElementVNode as _createElementVNode, normalizeStyle as _normalizeStyle, openBlock as _openBlock, createElementBlock as _createElementBlock } from \"vue\"\n\nconst _hoisted_1 = { class: \"container\" }\nconst _hoisted_2 = { class: \"row align-items-center\" }\nconst _hoisted_3 = { class: \"col-lg-12\" }\nconst _hoisted_4 = { class: \"cta-content text-center\" }\n\nfunction _sfc_render(_ctx, _cache, $props, $setup, $data, $options) {\n  const _component_SectionTitle = __nuxt_component_0\n  const _component_NuxtLink = __nuxt_component_1\n\n  return (_openBlock(), _createElementBlock(\"div\", {\n    class: \"section-padding-t110-b120 newsletter-section bg-cover overflow-hidden\",\n    \"data-overlay\": \"0.7\",\n    style: _normalizeStyle({ backgroundImage: `url('/images/bg/newsletter.jpg')` })\n  }, [\n    _createElementVNode(\"div\", _hoisted_1, [\n      _createElementVNode(\"div\", _hoisted_2, [\n        _createElementVNode(\"div\", _hoisted_3, [\n          _createElementVNode(\"div\", _hoisted_4, [\n            _createVNode(_component_SectionTitle, {\n              title: \"Let’s find out how to work together\",\n              \"sub-title\": \"Ready to start your project? The contact information collected through this form will only be used to send a response to your inquiry.\",\n              \"add-class-name\": \"color-light\"\n            }),\n            _createVNode(_component_NuxtLink, {\n              to: \"/contact-us\",\n              class: \"btn btn-primary btn-hover-secondary mt-6\"\n            }, {\n              default: _withCtx(() => [\n                _createTextVNode(\"Get Started\")\n              ]),\n              _: 1\n            })\n          ])\n        ])\n      ])\n    ])\n  ], 4))\n}\n\n\nimport _export_sfc from '\u0000plugin-vue:export-helper'\nexport default /*#__PURE__*/_export_sfc(_sfc_main, [['render',_sfc_render]])",
-      "start": 1715787136825,
-      "end": 1715787136825,
+      "start": 1715794593779,
+      "end": 1715794593779,
       "order": "post"
     },
     {
       "name": "nuxt:tree-shake-composables:transform",
-      "start": 1715787136825,
-      "end": 1715787136825,
+      "start": 1715794593779,
+      "end": 1715794593779,
       "order": "post"
     },
     {
       "name": "vite:build-import-analysis",
       "result": "import { __vitePreload } from \"\u0000vite/preload-helper.js\";import { default as __nuxt_component_0 } from \"E:/Projects/JavaRayaInternational/website/components/SectionTitle.vue\";\nimport { default as __nuxt_component_1 } from \"E:/Projects/JavaRayaInternational/website/node_modules/nuxt/dist/app/components/nuxt-link\";\n\r\n    const _sfc_main = {\r\n        components: {\r\n            SectionTitle: () => __vitePreload(() => import(\"@/components/SectionTitle\"),__VITE_IS_MODERN__?\"__VITE_PRELOAD__\":void 0,import.meta.url),\r\n            ShapeWithAnimation: () => __vitePreload(() => import(\"@/components/ShapeWithAnimation\"),__VITE_IS_MODERN__?\"__VITE_PRELOAD__\":void 0,import.meta.url),\r\n        },\r\n    };\r\n\nimport { resolveComponent as _resolveComponent, createVNode as _createVNode, createTextVNode as _createTextVNode, withCtx as _withCtx, createElementVNode as _createElementVNode, normalizeStyle as _normalizeStyle, openBlock as _openBlock, createElementBlock as _createElementBlock } from \"vue\"\n\nconst _hoisted_1 = { class: \"container\" }\nconst _hoisted_2 = { class: \"row align-items-center\" }\nconst _hoisted_3 = { class: \"col-lg-12\" }\nconst _hoisted_4 = { class: \"cta-content text-center\" }\n\nfunction _sfc_render(_ctx, _cache, $props, $setup, $data, $options) {\n  const _component_SectionTitle = __nuxt_component_0\n  const _component_NuxtLink = __nuxt_component_1\n\n  return (_openBlock(), _createElementBlock(\"div\", {\n    class: \"section-padding-t110-b120 newsletter-section bg-cover overflow-hidden\",\n    \"data-overlay\": \"0.7\",\n    style: _normalizeStyle({ backgroundImage: `url('/images/bg/newsletter.jpg')` })\n  }, [\n    _createElementVNode(\"div\", _hoisted_1, [\n      _createElementVNode(\"div\", _hoisted_2, [\n        _createElementVNode(\"div\", _hoisted_3, [\n          _createElementVNode(\"div\", _hoisted_4, [\n            _createVNode(_component_SectionTitle, {\n              title: \"Let’s find out how to work together\",\n              \"sub-title\": \"Ready to start your project? The contact information collected through this form will only be used to send a response to your inquiry.\",\n              \"add-class-name\": \"color-light\"\n            }),\n            _createVNode(_component_NuxtLink, {\n              to: \"/contact-us\",\n              class: \"btn btn-primary btn-hover-secondary mt-6\"\n            }, {\n              default: _withCtx(() => [\n                _createTextVNode(\"Get Started\")\n              ]),\n              _: 1\n            })\n          ])\n        ])\n      ])\n    ])\n  ], 4))\n}\n\n\nimport _export_sfc from '\u0000plugin-vue:export-helper'\nexport default /*#__PURE__*/_export_sfc(_sfc_main, [['render',_sfc_render]])",
-      "start": 1715787136825,
-      "end": 1715787136825,
+      "start": 1715794593779,
+      "end": 1715794593779,
       "order": "normal",
       "sourcemaps": null
     },
     {
       "name": "vite:reporter",
-      "start": 1715787136825,
-      "end": 1715787136825,
+      "start": 1715794593779,
+      "end": 1715794593779,
       "order": "normal"
     }
   ]

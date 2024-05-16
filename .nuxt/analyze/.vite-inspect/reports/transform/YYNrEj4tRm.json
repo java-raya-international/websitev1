@@ -4,45 +4,45 @@
     {
       "name": "vite:load-fallback",
       "result": "[\r\n    {\r\n        \"id\": 1,\r\n        \"title\": \"Artificial Intelligence \",\r\n        \"slug\": \"ai\",\r\n        \"text\": \"LLM and SLM optimize for local and cross-border marketplace. \",\r\n        \"iconSrc\": \"/images/svg/frontpage/frontpage-ai.svg\",\r\n        \"imgSrc\": \"/images/project/work-details-1.jpg\"\r\n    },\r\n    {\r\n        \"id\": 2,\r\n        \"title\": \"Blockchain\",\r\n        \"slug\": \"blockchain\",\r\n        \"text\": \"Transparent data can be leveraged by utilizing Level 1 and Level 2 blockchain technology.\",\r\n        \"iconSrc\": \"/images/svg/frontpage/frontpage-blockchain.svg\",\r\n        \"imgSrc\": \"/images/project/work-details-2.jpg\"\r\n    },\r\n    {\r\n        \"id\": 3,\r\n        \"title\": \"Decentralized ID\",\r\n        \"slug\": \"decentralized\",\r\n        \"text\": \"Seriously handle privacy for our customers\",\r\n        \"iconSrc\": \"/images/svg/frontpage/frontpage-decentralized.svg\",\r\n        \"imgSrc\": \"/images/project/work-details-3.jpg\"\r\n    },\r\n    {\r\n        \"id\": 4,\r\n        \"title\": \"Run on any devices\",\r\n        \"slug\": \"multidevice\",\r\n        \"text\": \"Run on Web, Mobile, TV, and VR\",\r\n        \"iconSrc\": \"/images/svg/frontpage/frontpage-multidevices.svg\",\r\n        \"imgSrc\": \"/images/project/work-details-4.jpg\"\r\n    },\r\n    {\r\n        \"id\": 5,\r\n        \"title\": \"Selected product\",\r\n        \"slug\": \"product\",\r\n        \"text\": \"Marketplace focus with selected product \",\r\n        \"iconSrc\": \"/images/svg/frontpage/frontpage-greenproduct.svg\",\r\n        \"imgSrc\": \"/images/project/work-details-1.jpg\"\r\n    },\r\n    {\r\n        \"id\": 6,\r\n        \"title\": \"SME Business\",\r\n        \"slug\": \"msmb\",\r\n        \"text\": \"Helping micro, small and medium business to grow together\",\r\n        \"iconSrc\": \"/images/svg/frontpage/frontpage-sme.svg\",\r\n        \"imgSrc\": \"/images/project/work-details-2.jpg\"\r\n    }\r\n]",
-      "start": 1715787137475,
-      "end": 1715787137524,
+      "start": 1715794594551,
+      "end": 1715794594644,
       "sourcemaps": null
     },
     {
       "name": "nuxt:layer-aliasing",
-      "start": 1715787137524,
-      "end": 1715787137524,
+      "start": 1715794594644,
+      "end": 1715794594644,
       "order": "pre"
     },
     {
       "name": "nuxt:server-devonly:transform",
-      "start": 1715787137524,
-      "end": 1715787137524,
+      "start": 1715794594644,
+      "end": 1715794594644,
       "order": "pre"
     },
     {
       "name": "nuxt:client-fallback-auto-id",
-      "start": 1715787137524,
-      "end": 1715787137524,
+      "start": 1715794594644,
+      "end": 1715794594644,
       "order": "pre"
     },
     {
       "name": "vite:css",
-      "start": 1715787137524,
-      "end": 1715787137524,
+      "start": 1715794594644,
+      "end": 1715794594644,
       "order": "normal"
     },
     {
       "name": "vite:esbuild",
-      "start": 1715787137524,
-      "end": 1715787137524,
+      "start": 1715794594644,
+      "end": 1715794594644,
       "order": "normal"
     },
     {
       "name": "vite:json",
       "result": "export default [\n\t{\n\t\tid: 1,\n\t\ttitle: \"Artificial Intelligence \",\n\t\tslug: \"ai\",\n\t\ttext: \"LLM and SLM optimize for local and cross-border marketplace. \",\n\t\ticonSrc: \"/images/svg/frontpage/frontpage-ai.svg\",\n\t\timgSrc: \"/images/project/work-details-1.jpg\"\n\t},\n\t{\n\t\tid: 2,\n\t\ttitle: \"Blockchain\",\n\t\tslug: \"blockchain\",\n\t\ttext: \"Transparent data can be leveraged by utilizing Level 1 and Level 2 blockchain technology.\",\n\t\ticonSrc: \"/images/svg/frontpage/frontpage-blockchain.svg\",\n\t\timgSrc: \"/images/project/work-details-2.jpg\"\n\t},\n\t{\n\t\tid: 3,\n\t\ttitle: \"Decentralized ID\",\n\t\tslug: \"decentralized\",\n\t\ttext: \"Seriously handle privacy for our customers\",\n\t\ticonSrc: \"/images/svg/frontpage/frontpage-decentralized.svg\",\n\t\timgSrc: \"/images/project/work-details-3.jpg\"\n\t},\n\t{\n\t\tid: 4,\n\t\ttitle: \"Run on any devices\",\n\t\tslug: \"multidevice\",\n\t\ttext: \"Run on Web, Mobile, TV, and VR\",\n\t\ticonSrc: \"/images/svg/frontpage/frontpage-multidevices.svg\",\n\t\timgSrc: \"/images/project/work-details-4.jpg\"\n\t},\n\t{\n\t\tid: 5,\n\t\ttitle: \"Selected product\",\n\t\tslug: \"product\",\n\t\ttext: \"Marketplace focus with selected product \",\n\t\ticonSrc: \"/images/svg/frontpage/frontpage-greenproduct.svg\",\n\t\timgSrc: \"/images/project/work-details-1.jpg\"\n\t},\n\t{\n\t\tid: 6,\n\t\ttitle: \"SME Business\",\n\t\tslug: \"msmb\",\n\t\ttext: \"Helping micro, small and medium business to grow together\",\n\t\ticonSrc: \"/images/svg/frontpage/frontpage-sme.svg\",\n\t\timgSrc: \"/images/project/work-details-2.jpg\"\n\t}\n];",
-      "start": 1715787137524,
-      "end": 1715787137524,
+      "start": 1715794594644,
+      "end": 1715794594644,
       "order": "normal",
       "sourcemaps": {
         "mappings": ""
@@ -50,164 +50,164 @@
     },
     {
       "name": "vite:worker",
-      "start": 1715787137524,
-      "end": 1715787137524,
+      "start": 1715794594644,
+      "end": 1715794594644,
       "order": "normal"
     },
     {
       "name": "vite:vue",
-      "start": 1715787137524,
-      "end": 1715787137524,
+      "start": 1715794594644,
+      "end": 1715794594644,
       "order": "normal"
     },
     {
       "name": "vite:vue-jsx",
-      "start": 1715787137525,
-      "end": 1715787137525,
+      "start": 1715794594644,
+      "end": 1715794594644,
       "order": "normal"
     },
     {
       "name": "replace",
-      "start": 1715787137525,
-      "end": 1715787137525,
+      "start": 1715794594644,
+      "end": 1715794594644,
       "order": "normal"
     },
     {
       "name": "nuxt:remove-plugin-metadata",
-      "start": 1715787137525,
-      "end": 1715787137525,
+      "start": 1715794594644,
+      "end": 1715794594644,
       "order": "normal"
     },
     {
       "name": "nuxt:chunk-error",
-      "start": 1715787137525,
-      "end": 1715787137525,
+      "start": 1715794594644,
+      "end": 1715794594644,
       "order": "normal"
     },
     {
       "name": "nuxt:components:imports",
-      "start": 1715787137525,
-      "end": 1715787137525,
+      "start": 1715794594644,
+      "end": 1715794594644,
       "order": "normal"
     },
     {
       "name": "replace",
-      "start": 1715787137525,
-      "end": 1715787137525,
+      "start": 1715794594644,
+      "end": 1715794594644,
       "order": "normal"
     },
     {
       "name": "ssr-styles",
-      "start": 1715787137525,
-      "end": 1715787137525,
+      "start": 1715794594644,
+      "end": 1715794594644,
       "order": "normal"
     },
     {
       "name": "vite:define",
-      "start": 1715787137525,
-      "end": 1715787137525,
+      "start": 1715794594644,
+      "end": 1715794594644,
       "order": "normal"
     },
     {
       "name": "vite:css-post",
-      "start": 1715787137525,
-      "end": 1715787137525,
+      "start": 1715794594644,
+      "end": 1715794594644,
       "order": "normal"
     },
     {
       "name": "vite:build-html",
-      "start": 1715787137525,
-      "end": 1715787137525,
+      "start": 1715794594644,
+      "end": 1715794594644,
       "order": "normal"
     },
     {
       "name": "vite:worker-import-meta-url",
-      "start": 1715787137525,
-      "end": 1715787137525,
+      "start": 1715794594644,
+      "end": 1715794594644,
       "order": "normal"
     },
     {
       "name": "vite:asset-import-meta-url",
-      "start": 1715787137525,
-      "end": 1715787137525,
+      "start": 1715794594644,
+      "end": 1715794594644,
       "order": "normal"
     },
     {
       "name": "commonjs",
-      "start": 1715787137525,
-      "end": 1715787137525,
+      "start": 1715794594644,
+      "end": 1715794594644,
       "order": "normal"
     },
     {
       "name": "vite:dynamic-import-vars",
-      "start": 1715787137525,
-      "end": 1715787137525,
+      "start": 1715794594644,
+      "end": 1715794594644,
       "order": "normal"
     },
     {
       "name": "vite:import-glob",
-      "start": 1715787137525,
-      "end": 1715787137525,
+      "start": 1715794594644,
+      "end": 1715794594644,
       "order": "normal"
     },
     {
       "name": "nuxt:composable-keys",
-      "start": 1715787137525,
-      "end": 1715787137525,
+      "start": 1715794594644,
+      "end": 1715794594644,
       "order": "post"
     },
     {
       "name": "nuxt:imports-transform",
-      "start": 1715787137525,
-      "end": 1715787137525,
+      "start": 1715794594644,
+      "end": 1715794594644,
       "order": "post"
     },
     {
       "name": "unctx:transform",
-      "start": 1715787137525,
-      "end": 1715787137525,
+      "start": 1715794594644,
+      "end": 1715794594644,
       "order": "post"
     },
     {
       "name": "nuxt:pages-macros-transform",
-      "start": 1715787137525,
-      "end": 1715787137525,
+      "start": 1715794594644,
+      "end": 1715794594644,
       "order": "post"
     },
     {
       "name": "nuxt:runtime-paths-dep",
-      "start": 1715787137525,
-      "end": 1715787137525,
+      "start": 1715794594644,
+      "end": 1715794594644,
       "order": "post"
     },
     {
       "name": "nuxt:route-injection-plugin",
-      "start": 1715787137525,
-      "end": 1715787137525,
+      "start": 1715794594644,
+      "end": 1715794594644,
       "order": "post"
     },
     {
       "name": "nuxt:components-loader",
-      "start": 1715787137525,
-      "end": 1715787137525,
+      "start": 1715794594644,
+      "end": 1715794594644,
       "order": "post"
     },
     {
       "name": "nuxt:tree-shake-composables:transform",
-      "start": 1715787137525,
-      "end": 1715787137525,
+      "start": 1715794594644,
+      "end": 1715794594644,
       "order": "post"
     },
     {
       "name": "vite:build-import-analysis",
-      "start": 1715787137525,
-      "end": 1715787137525,
+      "start": 1715794594644,
+      "end": 1715794594644,
       "order": "normal"
     },
     {
       "name": "vite:reporter",
-      "start": 1715787137525,
-      "end": 1715787137525,
+      "start": 1715794594644,
+      "end": 1715794594644,
       "order": "normal"
     }
   ]
