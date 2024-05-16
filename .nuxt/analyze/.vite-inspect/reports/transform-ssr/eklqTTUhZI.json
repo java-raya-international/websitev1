@@ -1,0 +1,294 @@
+{
+  "resolvedId": "E:/Projects/JavaRayaInternational/website/components/ProductMaterialCarbonActivated.vue?vue&type=style&index=0&lang.css?inline&used",
+  "transforms": [
+    {
+      "name": "vite:vue",
+      "result": "\r\n.styled-table {\r\n  border-collapse: collapse;\r\n  margin: 25px 0;\r\n  font-size: 0.9em;\r\n  font-family: sans-serif;\r\n  min-width: 400px;\r\n  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);\r\n}\r\n\r\n.styled-table thead tr {\r\n  background-color: #026fae;\r\n  color: #ffffff;\r\n  text-align: left;\r\n}\r\n\r\n.styled-table th,\r\n.styled-table td {\r\n  padding: 12px 15px;\r\n}\r\n\r\n.styled-table tbody tr {\r\n  border-bottom: 1px solid #dddddd;\r\n}\r\n\r\n.styled-table tbody tr:nth-of-type(even) {\r\n  background-color: #f3f3f3;\r\n}\r\n\r\n.styled-table tbody tr:last-of-type {\r\n  border-bottom: 2px solid #009879;\r\n}\r\n\r\n.styled-table tbody tr.active-row {\r\n  font-weight: bold;\r\n  color: #009879;\r\n}\r\n",
+      "start": 1715822279841,
+      "end": 1715822279841,
+      "sourcemaps": {
+        "version": 3,
+        "sources": [
+          "E:/Projects/JavaRayaInternational/website/components/ProductMaterialCarbonActivated.vue"
+        ],
+        "names": [],
+        "mappings": "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",
+        "file": "E:/Projects/JavaRayaInternational/website/components/ProductMaterialCarbonActivated.vue",
+        "sourceRoot": "",
+        "sourcesContent": [
+          "<template>\r\n  <div class=\"main-container\">\r\n    <!-- Start Work Details -->\r\n    <div class=\"section-padding\">\r\n      <div class=\"container\">\r\n        <div class=\"row\">\r\n          <!-- Portfolio Left -->\r\n          <div class=\"col-lg-4 col-md-6 col-12\">\r\n            <div class=\"work-left work-details\" data-aos=\"fade-up\">\r\n              <div class=\"portfolio-main-info\">\r\n                <h2 class=\"title\">Granulated Activated Carbon</h2>\r\n                <!-- Start Details List -->\r\n                <div class=\"work-details-list mt-40\">\r\n                  <div class=\"details-list\">\r\n                    <label>Supplier Location</label>\r\n                    <span>Surabaya, East Java</span>\r\n                  </div>\r\n\r\n                  <div class=\"details-list\">\r\n                    <label>Categories</label>\r\n                    <span>\r\n                      <NuxtLink to=\"\">Activated Carbon</NuxtLink>\r\n                    </span>\r\n                  </div>\r\n\r\n                  <div class=\"details-list\">\r\n                    <label>US Mesh Size</label>\r\n                    <span>Mesh 5 and Mesh 10</span>\r\n                  </div>\r\n                </div>\r\n                <!-- End Details List -->\r\n                <!-- Start Work Share -->\r\n              </div>\r\n            </div>\r\n          </div>\r\n\r\n          <!-- Work Right -->\r\n          <div class=\"col-lg-7 col-md-6 offset-lg-1 col-12\">\r\n            <div class=\"work-left work-details mt-30\">\r\n              <div class=\"work-main-info\">\r\n                <div class=\"work-content\">\r\n                  <h6 class=\"title\" data-aos=\"fade-up\">Specification</h6>\r\n\r\n                  <div class=\"desc mt-40\">\r\n                    <div class=\"content mb-20\" data-aos=\"fade-up\">\r\n                      <p>\r\n                        Our granulated activated carbon use coconut shell with\r\n                        our patent to process from coconut shell to carbon with\r\n                        green technology\r\n                      </p>\r\n                    </div>\r\n                    <div class=\"content mb-20\" data-aos=\"fade-up\">\r\n                      <table class=\"styled-table\">\r\n                        <thead>\r\n                          <tr style=\"border: 1px solid black\">\r\n                            <td>Parameter</td>\r\n                            <td>Description</td>\r\n                            <td>Notes</td>\r\n                          </tr>\r\n                        </thead>\r\n                        <tbody style=\"border: 1px solid black\">\r\n                          <tr>\r\n                            <td>Source</td>\r\n                            <td>Coconut Shell</td>\r\n                            <td>N/A</td>\r\n                          </tr>\r\n\r\n                          <tr>\r\n                            <td>Type</td>\r\n                            <td>GAC</td>\r\n                            <td>N/A</td>\r\n                          </tr>\r\n\r\n                          <tr>\r\n                            <td>IoN, mg/g</td>\r\n                            <td>650– 950</td>\r\n                            <td>N/A</td>\r\n                          </tr>\r\n\r\n                          <tr>\r\n                            <td>Water</td>\r\n                            <td>2%-50%</td>\r\n                            <td>N/A</td>\r\n                          </tr>\r\n\r\n                          <tr>\r\n                            <td>Ash</td>\r\n                            <td>8%-10%</td>\r\n                            <td>N/A</td>\r\n                          </tr>\r\n\r\n                          <tr>\r\n                            <td>Abrasion</td>\r\n                            <td>70</td>\r\n                            <td>N/A</td>\r\n                          </tr>\r\n\r\n                          <tr>\r\n                            <td>pH</td>\r\n                            <td>5-11</td>\r\n                            <td>N/A</td>\r\n                          </tr>\r\n                        </tbody>\r\n                      </table>\r\n                    </div>\r\n                    <div class=\"content mb-40\" data-aos=\"fade-up\">\r\n                      <p>Granulated activated carbon</p>\r\n                    </div>\r\n                  </div>\r\n                </div>\r\n              </div>\r\n            </div>\r\n          </div>\r\n        </div>\r\n\r\n        <div class=\"row\">\r\n          <!-- Portfolio Left -->\r\n          <div class=\"col-lg-4 col-md-6 col-12\">\r\n            <div class=\"work-left work-details\" data-aos=\"fade-up\">\r\n              <div class=\"portfolio-main-info\">\r\n                <h2 class=\"title\">Powdered Activated Carbon</h2>\r\n                <!-- Start Details List -->\r\n                <div class=\"work-details-list mt-40\">\r\n                  <div class=\"details-list\">\r\n                    <label>Supplier Location</label>\r\n                    <span>Surabaya, East Java</span>\r\n                  </div>\r\n\r\n                  <div class=\"details-list\">\r\n                    <label>Categories</label>\r\n                    <span>\r\n                      <NuxtLink to=\"\">Activated Carbon</NuxtLink>\r\n                    </span>\r\n                  </div>\r\n\r\n                  <div class=\"details-list\">\r\n                    <label>US Mesh Size</label>\r\n                    <span>30, 40 and 50</span>\r\n                  </div>\r\n                </div>\r\n                <!-- End Details List -->\r\n                <!-- Start Work Share -->\r\n              </div>\r\n            </div>\r\n          </div>\r\n\r\n          <!-- Work Right -->\r\n          <div class=\"col-lg-7 col-md-6 offset-lg-1 col-12\">\r\n            <div class=\"work-left work-details mt-30\">\r\n              <div class=\"work-main-info\">\r\n                <div class=\"work-content\">\r\n                  <h6 class=\"title\" data-aos=\"fade-up\">Specification</h6>\r\n\r\n                  <div class=\"desc mt-40\">\r\n                    <div class=\"content mb-20\" data-aos=\"fade-up\">\r\n                      <p>\r\n                        Our powdered activated carbon use coconut shell with our\r\n                        patent to process from coconut shell to carbon with\r\n                        green technology\r\n                      </p>\r\n                    </div>\r\n                    <div class=\"content mb-20\" data-aos=\"fade-up\">\r\n                      <table class=\"styled-table\">\r\n                        <thead>\r\n                          <tr style=\"border: 1px solid black\">\r\n                            <td>Parameter</td>\r\n                            <td>Description</td>\r\n                            <td>Notes</td>\r\n                          </tr>\r\n                        </thead>\r\n                        <tbody style=\"border: 1px solid black\">\r\n                          <tr>\r\n                            <td>Source</td>\r\n                            <td>Coconut Shell</td>\r\n                            <td>N/A</td>\r\n                          </tr>\r\n\r\n                          <tr>\r\n                            <td>Type</td>\r\n                            <td>GAC</td>\r\n                            <td>N/A</td>\r\n                          </tr>\r\n\r\n                          <tr>\r\n                            <td>IoN, mg/g</td>\r\n                            <td>650– 950</td>\r\n                            <td>N/A</td>\r\n                          </tr>\r\n\r\n                          <tr>\r\n                            <td>Water</td>\r\n                            <td>2%-50%</td>\r\n                            <td>N/A</td>\r\n                          </tr>\r\n\r\n                          <tr>\r\n                            <td>Ash</td>\r\n                            <td>8%-10%</td>\r\n                            <td>N/A</td>\r\n                          </tr>\r\n\r\n                          <tr>\r\n                            <td>Abrasion</td>\r\n                            <td>70</td>\r\n                            <td>N/A</td>\r\n                          </tr>\r\n\r\n                          <tr>\r\n                            <td>pH</td>\r\n                            <td>5-11</td>\r\n                            <td>N/A</td>\r\n                          </tr>\r\n                        </tbody>\r\n                      </table>\r\n                    </div>\r\n                    <div class=\"content mb-40\" data-aos=\"fade-up\">\r\n                      <p>Powdered activate carbon</p>\r\n                    </div>\r\n                  </div>\r\n                </div>\r\n              </div>\r\n            </div>\r\n          </div>\r\n        </div>\r\n\r\n        <div class=\"custom-layout-gallery mt-60\" style=\"margin:60px;\">\r\n            \r\n            <div class=\"row mtn-30\">\r\n              <div class=\"col-lg-6 col-md-6 col-12 mt-30\">\r\n                <div class=\"thumbnail\" data-aos=\"fade-up\">\r\n                  <img\r\n                    class=\"w-100\"\r\n                    src=\"/images/products/activated-carbon-granulated.png\"\r\n                    alt=\"Metal Ingots\"\r\n                  />\r\n                </div>\r\n              </div>\r\n              <div class=\"col-lg-6 col-md-6 col-12 mt-30\">\r\n                <div class=\"thumbnail\" data-aos=\"fade-up\">\r\n                  <img\r\n                    class=\"w-100\"\r\n                    src=\"/images/products/activated-carbon-powdered.png\"\r\n                    alt=\"Metal Ingots\"\r\n                  />\r\n                </div>\r\n              </div>\r\n              \r\n            </div>\r\n          </div>\r\n\r\n\r\n\r\n        <hr />\r\n\r\n        <div class=\"row mt-60\" style=\"margin-bottom: 60px;\">\r\n          <div class=\"col-lg-4 col-md-12 col-12\">\r\n            <div class=\"digital-marketing\" data-aos=\"fade-up\">\r\n              <h3 class=\"heading heading-h3\">Industrial Solution</h3>\r\n            </div>\r\n          </div>\r\n          <div class=\"col-lg-7 col-md-12 col-12 offset-lg-1\">\r\n            <div class=\"digital-marketing\" data-aos=\"fade-up\">\r\n              <div class=\"inner\">\r\n                <p>\r\n                  We are ready for each brass and bronze ingot with 100 MT per\r\n                  month for EU an UK market. For more ingots informations and\r\n                  stock, please ask us for quotation.\r\n                </p>\r\n              </div>\r\n            </div>\r\n          </div>\r\n        </div>\r\n\r\n        <div class=\"row row-cols-lg-3 row-cols-md-2 row-cols-1 mtn-30\">\r\n          <div class=\"col mt-30\">\r\n            <div class=\"work\">\r\n              <div class=\"thumbnail\">\r\n                <img\r\n                  src=\"/images/solutions/activated-carbon-water-treatment.png\"\r\n                />\r\n              </div>\r\n              <div class=\"info\">\r\n                <h3 class=\"title\">Water Treatment</h3>\r\n                <p class=\"desc\">\r\n                  Controlling VOC, and removing organic compounds for industrial\r\n                  usage\r\n                </p>\r\n              </div>\r\n            </div>\r\n          </div>\r\n\r\n          <div class=\"col mt-30\">\r\n            <div class=\"work\">\r\n              <div class=\"thumbnail\">\r\n                <img src=\"/images/solutions/activated-carbon-mining.jpg\" />\r\n              </div>\r\n              <div class=\"info\">\r\n                <h3 class=\"title\">Mining</h3>\r\n                <p class=\"desc\">\r\n                  Extraction and recovery of metal complexes, including gold.\r\n                </p>\r\n              </div>\r\n            </div>\r\n          </div>\r\n\r\n          <div class=\"col mt-30\">\r\n            <div class=\"work\">\r\n              <div class=\"thumbnail\">\r\n                <img src=\"/images/solutions/activated-carbon-air-treatment.jpg\" />\r\n              </div>\r\n              <div class=\"info\">\r\n                <h3 class=\"title\">Air Treatment</h3>\r\n                <p class=\"desc\">\r\n                  Purification from VOC and dangerous compound\r\n                </p>\r\n              </div>\r\n            </div>\r\n          </div>\r\n\r\n        </div>\r\n\r\n        <!-- <div class=\"row mt-60\">\r\n          <div class=\"col-lg-4 col-md-12 col-12\">\r\n            <div class=\"digital-marketing\" data-aos=\"fade-up\">\r\n              <h3 class=\"heading heading-h3\">Industrial Solution</h3>\r\n            </div>\r\n          </div>\r\n          <div class=\"col-lg-7 col-md-12 col-12 offset-lg-1\">\r\n            <div class=\"digital-marketing\" data-aos=\"fade-up\">\r\n              <div class=\"inner\">\r\n                <p>\r\n                  We are ready for each brass and bronze ingot with 100 MT per\r\n                  month for EU an UK market. For more ingots informations and\r\n                  stock, please ask us for quotation.\r\n                </p>\r\n              </div>\r\n            </div>\r\n          </div>\r\n        </div> -->\r\n\r\n        <!-- Start Thumbnail -->\r\n        <!-- <div class=\"row\">\r\n          <div class=\"col-lg-12\">\r\n            <div class=\"custom-column-thumbnail mt-60\" data-aos=\"fade-up\">\r\n              <img\r\n                class=\"w-100\"\r\n                src=\"/images/products/metal-01.jpg\"\r\n                alt=\"Metal ingots\"\r\n              />\r\n            </div>\r\n          </div>\r\n        </div> -->\r\n\r\n        <!-- Start Digital Marketing Area -->\r\n        <!-- <div class=\"row mt-60\">\r\n          <div class=\"col-lg-4 col-md-12 col-12\">\r\n            <div class=\"digital-marketing\" data-aos=\"fade-up\">\r\n              <h3 class=\"heading heading-h3\">Digital Marketing.</h3>\r\n            </div>\r\n          </div>\r\n          <div class=\"col-lg-7 col-md-12 col-12 offset-lg-1\">\r\n            <div class=\"digital-marketing\" data-aos=\"fade-up\">\r\n              <div class=\"inner\">\r\n                <p>\r\n                  We \r\n                </p>\r\n              </div>\r\n            </div>\r\n          </div>\r\n        </div> -->\r\n        <!-- End Digital Marketing Area -->\r\n\r\n        <!-- Start Gallery Area -->\r\n\r\n        <!-- End Gallery Area -->\r\n      </div>\r\n    </div>\r\n    <!-- Start Work Details -->\r\n  </div>\r\n</template>\r\n\r\n<style>\r\n.styled-table {\r\n  border-collapse: collapse;\r\n  margin: 25px 0;\r\n  font-size: 0.9em;\r\n  font-family: sans-serif;\r\n  min-width: 400px;\r\n  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);\r\n}\r\n\r\n.styled-table thead tr {\r\n  background-color: #026fae;\r\n  color: #ffffff;\r\n  text-align: left;\r\n}\r\n\r\n.styled-table th,\r\n.styled-table td {\r\n  padding: 12px 15px;\r\n}\r\n\r\n.styled-table tbody tr {\r\n  border-bottom: 1px solid #dddddd;\r\n}\r\n\r\n.styled-table tbody tr:nth-of-type(even) {\r\n  background-color: #f3f3f3;\r\n}\r\n\r\n.styled-table tbody tr:last-of-type {\r\n  border-bottom: 2px solid #009879;\r\n}\r\n\r\n.styled-table tbody tr.active-row {\r\n  font-weight: bold;\r\n  color: #009879;\r\n}\r\n</style>\r\n"
+        ]
+      }
+    },
+    {
+      "name": "nuxt:layer-aliasing",
+      "start": 1715822279841,
+      "end": 1715822279841,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:layer-aliasing",
+      "start": 1715822279841,
+      "end": 1715822279841,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:server-devonly:transform",
+      "start": 1715822279842,
+      "end": 1715822279842,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:server-devonly:transform",
+      "start": 1715822279842,
+      "end": 1715822279842,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:client-fallback-auto-id",
+      "start": 1715822279842,
+      "end": 1715822279842,
+      "order": "pre"
+    },
+    {
+      "name": "server-only-component-transform",
+      "start": 1715822279842,
+      "end": 1715822279842,
+      "order": "pre"
+    },
+    {
+      "name": "vite:css",
+      "result": ".styled-table{border-collapse:collapse;box-shadow:0 0 20px rgba(0,0,0,.15);font-family:sans-serif;font-size:.9em;margin:25px 0;min-width:400px}.styled-table thead tr{background-color:#026fae;color:#fff;text-align:left}.styled-table td,.styled-table th{padding:12px 15px}.styled-table tbody tr{border-bottom:1px solid #ddd}.styled-table tbody tr:nth-of-type(2n){background-color:#f3f3f3}.styled-table tbody tr:last-of-type{border-bottom:2px solid #009879}.styled-table tbody tr.active-row{color:#009879;font-weight:700}",
+      "start": 1715822279842,
+      "end": 1715822279845,
+      "order": "normal",
+      "sourcemaps": {
+        "file": "E:/Projects/JavaRayaInternational/website/components/ProductMaterialCarbonActivated.vue",
+        "mappings": "AACA,cACE,wBAAyB,CAKzB,mCAAwC,CAFxC,sBAAuB,CADvB,cAAgB,CADhB,aAAc,CAGd,eAEF,CAEA,uBACE,wBAAyB,CACzB,UAAc,CACd,eACF,CAEA,kCAEE,iBACF,CAEA,uBACE,4BACF,CAEA,uCACE,wBACF,CAEA,oCACE,+BACF,CAEA,kCAEE,aAAc,CADd,eAEF",
+        "names": [],
+        "sources": [
+          "E:/Projects/JavaRayaInternational/website/components/ProductMaterialCarbonActivated.vue"
+        ],
+        "sourcesContent": [
+          "\r\n.styled-table {\r\n  border-collapse: collapse;\r\n  margin: 25px 0;\r\n  font-size: 0.9em;\r\n  font-family: sans-serif;\r\n  min-width: 400px;\r\n  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);\r\n}\r\n\r\n.styled-table thead tr {\r\n  background-color: #026fae;\r\n  color: #ffffff;\r\n  text-align: left;\r\n}\r\n\r\n.styled-table th,\r\n.styled-table td {\r\n  padding: 12px 15px;\r\n}\r\n\r\n.styled-table tbody tr {\r\n  border-bottom: 1px solid #dddddd;\r\n}\r\n\r\n.styled-table tbody tr:nth-of-type(even) {\r\n  background-color: #f3f3f3;\r\n}\r\n\r\n.styled-table tbody tr:last-of-type {\r\n  border-bottom: 2px solid #009879;\r\n}\r\n\r\n.styled-table tbody tr.active-row {\r\n  font-weight: bold;\r\n  color: #009879;\r\n}\r\n"
+        ],
+        "version": 3
+      }
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1715822279845,
+      "end": 1715822279845,
+      "order": "normal"
+    },
+    {
+      "name": "vite:json",
+      "start": 1715822279845,
+      "end": 1715822279845,
+      "order": "normal"
+    },
+    {
+      "name": "vite:worker",
+      "start": 1715822279845,
+      "end": 1715822279845,
+      "order": "normal"
+    },
+    {
+      "name": "vite:vue",
+      "result": ".styled-table{border-collapse:collapse;box-shadow:0 0 20px rgba(0,0,0,.15);font-family:sans-serif;font-size:.9em;margin:25px 0;min-width:400px}.styled-table thead tr{background-color:#026fae;color:#fff;text-align:left}.styled-table td,.styled-table th{padding:12px 15px}.styled-table tbody tr{border-bottom:1px solid #ddd}.styled-table tbody tr:nth-of-type(2n){background-color:#f3f3f3}.styled-table tbody tr:last-of-type{border-bottom:2px solid #009879}.styled-table tbody tr.active-row{color:#009879;font-weight:700}",
+      "start": 1715822279845,
+      "end": 1715822279846,
+      "order": "normal",
+      "sourcemaps": {
+        "file": "E:/Projects/JavaRayaInternational/website/components/ProductMaterialCarbonActivated.vue",
+        "mappings": "AAAA,cAAc,wBAAwB,CAAC,mCAAmC,CAAC,sBAAsB,CAAC,cAAc,CAAC,aAAa,CAAC,eAAe,CAAC,uBAAuB,wBAAwB,CAAC,UAAU,CAAC,eAAe,CAAC,kCAAkC,iBAAiB,CAAC,uBAAuB,4BAA4B,CAAC,uCAAuC,wBAAwB,CAAC,oCAAoC,+BAA+B,CAAC,kCAAkC,aAAa,CAAC,eAAe",
+        "names": [],
+        "sources": [
+          "E:/Projects/JavaRayaInternational/website/components/ProductMaterialCarbonActivated.vue"
+        ],
+        "sourcesContent": [
+          null
+        ],
+        "version": 3
+      }
+    },
+    {
+      "name": "vite:vue-jsx",
+      "start": 1715822279846,
+      "end": 1715822279846,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1715822279846,
+      "end": 1715822279846,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1715822279846,
+      "end": 1715822279846,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:remove-plugin-metadata",
+      "start": 1715822279846,
+      "end": 1715822279846,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:remove-plugin-metadata",
+      "start": 1715822279846,
+      "end": 1715822279846,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:components:imports",
+      "start": 1715822279846,
+      "end": 1715822279847,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1715822279847,
+      "end": 1715822279847,
+      "order": "normal"
+    },
+    {
+      "name": "ssr-styles",
+      "start": 1715822279847,
+      "end": 1715822279847,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1715822279847,
+      "end": 1715822279847,
+      "order": "normal"
+    },
+    {
+      "name": "vite:css-post",
+      "result": "export default \".styled-table{border-collapse:collapse;box-shadow:0 0 20px rgba(0,0,0,.15);font-family:sans-serif;font-size:.9em;margin:25px 0;min-width:400px}.styled-table thead tr{background-color:#026fae;color:#fff;text-align:left}.styled-table td,.styled-table th{padding:12px 15px}.styled-table tbody tr{border-bottom:1px solid #ddd}.styled-table tbody tr:nth-of-type(2n){background-color:#f3f3f3}.styled-table tbody tr:last-of-type{border-bottom:2px solid #009879}.styled-table tbody tr.active-row{color:#009879;font-weight:700}\"",
+      "start": 1715822279847,
+      "end": 1715822279847,
+      "order": "normal",
+      "sourcemaps": {
+        "mappings": ""
+      }
+    },
+    {
+      "name": "vite:build-html",
+      "start": 1715822279847,
+      "end": 1715822279847,
+      "order": "normal"
+    },
+    {
+      "name": "vite:worker-import-meta-url",
+      "start": 1715822279847,
+      "end": 1715822279847,
+      "order": "normal"
+    },
+    {
+      "name": "vite:asset-import-meta-url",
+      "start": 1715822279847,
+      "end": 1715822279847,
+      "order": "normal"
+    },
+    {
+      "name": "commonjs",
+      "start": 1715822279847,
+      "end": 1715822279847,
+      "order": "normal"
+    },
+    {
+      "name": "vite:dynamic-import-vars",
+      "start": 1715822279847,
+      "end": 1715822279847,
+      "order": "normal"
+    },
+    {
+      "name": "vite:import-glob",
+      "start": 1715822279847,
+      "end": 1715822279847,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:composable-keys",
+      "start": 1715822279847,
+      "end": 1715822279847,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:composable-keys",
+      "start": 1715822279847,
+      "end": 1715822279847,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:imports-transform",
+      "start": 1715822279847,
+      "end": 1715822279847,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:imports-transform",
+      "start": 1715822279847,
+      "end": 1715822279847,
+      "order": "post"
+    },
+    {
+      "name": "unctx:transform",
+      "start": 1715822279847,
+      "end": 1715822279847,
+      "order": "post"
+    },
+    {
+      "name": "unctx:transform",
+      "start": 1715822279847,
+      "end": 1715822279847,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:pages-macros-transform",
+      "start": 1715822279847,
+      "end": 1715822279847,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:pages-macros-transform",
+      "start": 1715822279847,
+      "end": 1715822279847,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:tree-shake-template",
+      "start": 1715822279847,
+      "end": 1715822279847,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:components-loader",
+      "start": 1715822279847,
+      "end": 1715822279847,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:tree-shake-composables:transform",
+      "start": 1715822279847,
+      "end": 1715822279847,
+      "order": "post"
+    },
+    {
+      "name": "vite:build-import-analysis",
+      "start": 1715822279847,
+      "end": 1715822279847,
+      "order": "normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1715822279847,
+      "end": 1715822279847,
+      "order": "normal"
+    }
+  ]
+}

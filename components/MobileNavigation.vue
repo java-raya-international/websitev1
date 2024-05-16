@@ -18,10 +18,10 @@
                 </li>
 
                 <li class="has-children">
-                    <NuxtLink to="/#">Features</NuxtLink>
-                    <ul class="sub-menu"  v-for="(feature, index) in featureData.slice(0, 6)" :key="index">
+                    <NuxtLink to="/#">Products</NuxtLink>
+                    <ul class="sub-menu"  v-for="(product, index) in productData.slice(0, 6)" :key="index">
                         <li>
-                            <NuxtLink :to="`/features/${feature.slug}`" class="link">${feature.title}</NuxtLink>
+                            <NuxtLink :to="`/products/${product.slug}`" class="link">{{product.title}}</NuxtLink>
                         </li>
 
 
@@ -97,7 +97,7 @@
 
 <script>
 
-    import featureData from '~/data/features.json'
+    import productData from '~/data/products.json'
 
     export default{
         mounted() {
@@ -137,7 +137,7 @@
 
         data() {
             return {
-                featureData
+                productData
             }
         },
     };

@@ -1,0 +1,295 @@
+{
+  "resolvedId": "E:/Projects/JavaRayaInternational/website/components/PortfolioGalleryTwo.vue?vue&type=style&index=0&lang.scss?inline&used",
+  "transforms": [
+    {
+      "name": "vite:vue",
+      "result": "\r\n    .portfolio-item:empty {\r\n        display: none;\r\n    }\r\n",
+      "start": 1715822279836,
+      "end": 1715822279836,
+      "sourcemaps": {
+        "version": 3,
+        "sources": [
+          "E:/Projects/JavaRayaInternational/website/components/PortfolioGalleryTwo.vue"
+        ],
+        "names": [],
+        "mappings": ";IA6DI,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,EAAE;QAClB,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,EAAE,CAAC,CAAC,CAAC,CAAC;IACjB",
+        "file": "E:/Projects/JavaRayaInternational/website/components/PortfolioGalleryTwo.vue",
+        "sourceRoot": "",
+        "sourcesContent": [
+          "<template>\r\n    <div class=\"section-padding\">\r\n        <div class=\"container-fluid px-0\">\r\n            <div class=\"section-title text-center\" data-aos=\"fade-up\">\r\n                <h2 class=\"title\">Great even greater creative works</h2>\r\n                <p class=\"sub-title\">Get your company heading in the right direction with our digital marketing strategist</p>\r\n            </div>\r\n\r\n            <div class=\"messonry-button text-center mb-60\">\r\n                <button @click=\"filterHandler('all')\" :class=\"{'mixitup-control-active': selectedCat === 'all'}\"><span class=\"filter-text\">All</span></button>\r\n                <button v-for=\"(filter, index) in categories\" :key=\"index\" @click=\"filterHandler(filter)\" :class=\"{ 'mixitup-control-active': selectedCat === filter }\"><span class=\"filter-text\">{{ filter }}</span></button>\r\n            </div>\r\n\r\n            <div class=\"row row-cols-lg-3 row-cols-md-2 row-cols-sm-2 row-cols-1 g-0 box\">\r\n                <div class=\"col portfolio-item\" :class=\"portfolio.category\" v-for=\"(portfolio, index) in portfolios\" :key=\"index\">\r\n                    <div v-if=\"selectedCat === portfolio.category || selectedCat === 'all'\" class=\"single-portfolio\">\r\n                        <div class=\"thumbnail\">\r\n                            <img class=\"img-fluid\" :src=\"portfolio.imgSrc\" :alt=\"portfolio.title\">\r\n                        </div>\r\n                        <div class=\"content\">\r\n                            <h5 class=\"title\">\r\n                                <NuxtLink to=\"/project/project-details\">{{ portfolio.title }}</NuxtLink>\r\n                            </h5>\r\n                        </div>\r\n                    </div>\r\n                </div>\r\n            </div>\r\n        </div>\r\n    </div>\r\n</template>\r\n\r\n<script>\r\n    import portfolios from \"~/data/portfolios.json\"\r\n\r\n    export default {\r\n        data() {\r\n            return {\r\n                portfolios,\r\n                categories: [],\r\n                selectedCat: 'all'\r\n            }\r\n        },\r\n\r\n        methods: {\r\n            filterHandler(selection) {\r\n                this.selectedCat = selection;\r\n            },\r\n            shuffle () {\r\n                this.portfolios = this.portfolios.groupBy('category')\r\n            },\r\n            filterCategories(){\r\n                this.categories = [...new Set(this.portfolios.map(item => item.category))];\r\n            }\r\n        },\r\n        mounted(){\r\n            this.filterCategories();\r\n        }\r\n    }\r\n</script>\r\n\r\n<style lang=\"scss\">\r\n    .portfolio-item:empty {\r\n        display: none;\r\n    }\r\n</style>"
+        ]
+      }
+    },
+    {
+      "name": "nuxt:layer-aliasing",
+      "start": 1715822279836,
+      "end": 1715822279836,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:layer-aliasing",
+      "start": 1715822279836,
+      "end": 1715822279836,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:server-devonly:transform",
+      "start": 1715822279837,
+      "end": 1715822279837,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:server-devonly:transform",
+      "start": 1715822279837,
+      "end": 1715822279837,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:client-fallback-auto-id",
+      "start": 1715822279837,
+      "end": 1715822279837,
+      "order": "pre"
+    },
+    {
+      "name": "server-only-component-transform",
+      "start": 1715822279837,
+      "end": 1715822279837,
+      "order": "pre"
+    },
+    {
+      "name": "vite:css",
+      "result": ".portfolio-item:empty{display:none}",
+      "start": 1715822279837,
+      "end": 1715822279932,
+      "order": "normal",
+      "sourcemaps": {
+        "version": 3,
+        "file": "E:/Projects/JavaRayaInternational/website/components/PortfolioGalleryTwo.vue",
+        "mappings": "AACI,sBACI",
+        "names": [],
+        "ignoreList": [],
+        "sources": [
+          "E:/Projects/JavaRayaInternational/website/components/PortfolioGalleryTwo.vue"
+        ],
+        "sourcesContent": [
+          null
+        ]
+      }
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1715822279932,
+      "end": 1715822279932,
+      "order": "normal"
+    },
+    {
+      "name": "vite:json",
+      "start": 1715822279932,
+      "end": 1715822279932,
+      "order": "normal"
+    },
+    {
+      "name": "vite:worker",
+      "start": 1715822279932,
+      "end": 1715822279932,
+      "order": "normal"
+    },
+    {
+      "name": "vite:vue",
+      "result": ".portfolio-item:empty{display:none}",
+      "start": 1715822279932,
+      "end": 1715822279933,
+      "order": "normal",
+      "sourcemaps": {
+        "file": "E:/Projects/JavaRayaInternational/website/components/PortfolioGalleryTwo.vue",
+        "mappings": "AAAA,sBAAsB,YAAY",
+        "names": [],
+        "sources": [
+          "E:/Projects/JavaRayaInternational/website/components/PortfolioGalleryTwo.vue"
+        ],
+        "sourcesContent": [
+          null
+        ],
+        "version": 3
+      }
+    },
+    {
+      "name": "vite:vue-jsx",
+      "start": 1715822279933,
+      "end": 1715822279933,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1715822279933,
+      "end": 1715822279933,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1715822279933,
+      "end": 1715822279933,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:remove-plugin-metadata",
+      "start": 1715822279933,
+      "end": 1715822279933,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:remove-plugin-metadata",
+      "start": 1715822279933,
+      "end": 1715822279933,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:components:imports",
+      "start": 1715822279933,
+      "end": 1715822279933,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1715822279933,
+      "end": 1715822279933,
+      "order": "normal"
+    },
+    {
+      "name": "ssr-styles",
+      "start": 1715822279933,
+      "end": 1715822279933,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1715822279933,
+      "end": 1715822279933,
+      "order": "normal"
+    },
+    {
+      "name": "vite:css-post",
+      "result": "export default \".portfolio-item:empty{display:none}\"",
+      "start": 1715822279933,
+      "end": 1715822279933,
+      "order": "normal",
+      "sourcemaps": {
+        "mappings": ""
+      }
+    },
+    {
+      "name": "vite:build-html",
+      "start": 1715822279933,
+      "end": 1715822279933,
+      "order": "normal"
+    },
+    {
+      "name": "vite:worker-import-meta-url",
+      "start": 1715822279933,
+      "end": 1715822279933,
+      "order": "normal"
+    },
+    {
+      "name": "vite:asset-import-meta-url",
+      "start": 1715822279933,
+      "end": 1715822279933,
+      "order": "normal"
+    },
+    {
+      "name": "commonjs",
+      "start": 1715822279933,
+      "end": 1715822279933,
+      "order": "normal"
+    },
+    {
+      "name": "vite:dynamic-import-vars",
+      "start": 1715822279933,
+      "end": 1715822279933,
+      "order": "normal"
+    },
+    {
+      "name": "vite:import-glob",
+      "start": 1715822279933,
+      "end": 1715822279933,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:composable-keys",
+      "start": 1715822279933,
+      "end": 1715822279933,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:composable-keys",
+      "start": 1715822279933,
+      "end": 1715822279933,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:imports-transform",
+      "start": 1715822279933,
+      "end": 1715822279933,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:imports-transform",
+      "start": 1715822279933,
+      "end": 1715822279933,
+      "order": "post"
+    },
+    {
+      "name": "unctx:transform",
+      "start": 1715822279933,
+      "end": 1715822279933,
+      "order": "post"
+    },
+    {
+      "name": "unctx:transform",
+      "start": 1715822279933,
+      "end": 1715822279933,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:pages-macros-transform",
+      "start": 1715822279934,
+      "end": 1715822279934,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:pages-macros-transform",
+      "start": 1715822279934,
+      "end": 1715822279934,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:tree-shake-template",
+      "start": 1715822279934,
+      "end": 1715822279934,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:components-loader",
+      "start": 1715822279934,
+      "end": 1715822279934,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:tree-shake-composables:transform",
+      "start": 1715822279934,
+      "end": 1715822279934,
+      "order": "post"
+    },
+    {
+      "name": "vite:build-import-analysis",
+      "start": 1715822279934,
+      "end": 1715822279934,
+      "order": "normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1715822279934,
+      "end": 1715822279934,
+      "order": "normal"
+    }
+  ]
+}

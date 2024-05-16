@@ -4,45 +4,45 @@
     {
       "name": "vite:load-fallback",
       "result": "[\r\n    {\r\n        \"imgSrc\": \"/images/team/team-1.jpg\",\r\n        \"name\": \"Merrie Lewis\",\r\n        \"position\": \"General Director\",\r\n        \"role\": \"admin\",\r\n        \"socialList\": [\r\n            {\r\n                \"name\": \"Facebook\",\r\n                \"iconName\": \"fab fa-facebook-f\",\r\n                \"url\": \"#\"\r\n            },\r\n            {\r\n                \"name\": \"Twitter\",\r\n                \"iconName\": \"fab fa-twitter\",\r\n                \"url\": \"#\"\r\n            },\r\n            {\r\n                \"name\": \"Instagram\",\r\n                \"iconName\": \"fab fa-instagram\",\r\n                \"url\": \"#\"\r\n            }\r\n        ]\r\n    },\r\n    {\r\n        \"imgSrc\": \"/images/team/team-2.jpg\",\r\n        \"name\": \"Mariana Buenos\",\r\n        \"position\": \"CEO & Chief Manager\",\r\n        \"role\": \"admin\",\r\n        \"socialList\": [\r\n            {\r\n                \"name\": \"Facebook\",\r\n                \"iconName\": \"fab fa-facebook-f\",\r\n                \"url\": \"#\"\r\n            },\r\n            {\r\n                \"name\": \"Twitter\",\r\n                \"iconName\": \"fab fa-twitter\",\r\n                \"url\": \"#\"\r\n            },\r\n            {\r\n                \"name\": \"Instagram\",\r\n                \"iconName\": \"fab fa-instagram\",\r\n                \"url\": \"#\"\r\n            }\r\n        ]\r\n    },\r\n    {\r\n        \"imgSrc\": \"/images/team/team-3.jpg\",\r\n        \"name\": \"Maya\",\r\n        \"position\": \"Project Manager\",\r\n        \"role\": \"admin\",\r\n        \"socialList\": [\r\n            {\r\n                \"name\": \"Facebook\",\r\n                \"iconName\": \"fab fa-facebook-f\",\r\n                \"url\": \"#\"\r\n            },\r\n            {\r\n                \"name\": \"Twitter\",\r\n                \"iconName\": \"fab fa-twitter\",\r\n                \"url\": \"#\"\r\n            },\r\n            {\r\n                \"name\": \"Instagram\",\r\n                \"iconName\": \"fab fa-instagram\",\r\n                \"url\": \"#\"\r\n            }\r\n        ]\r\n    },\r\n    {\r\n        \"imgSrc\": \"/images/team/team-4.jpg\",\r\n        \"name\": \"Parks Missie\",\r\n        \"position\": \"Marketing Manager\",\r\n        \"role\": \"employee\",\r\n        \"socialList\": [\r\n            {\r\n                \"name\": \"Facebook\",\r\n                \"iconName\": \"fab fa-facebook-f\",\r\n                \"url\": \"#\"\r\n            },\r\n            {\r\n                \"name\": \"Twitter\",\r\n                \"iconName\": \"fab fa-twitter\",\r\n                \"url\": \"#\"\r\n            },\r\n            {\r\n                \"name\": \"Instagram\",\r\n                \"iconName\": \"fab fa-instagram\",\r\n                \"url\": \"#\"\r\n            }\r\n        ]\r\n    }\r\n]",
-      "start": 1715794594432,
-      "end": 1715794594551,
+      "start": 1715822275053,
+      "end": 1715822275168,
       "sourcemaps": null
     },
     {
       "name": "nuxt:layer-aliasing",
-      "start": 1715794594551,
-      "end": 1715794594551,
+      "start": 1715822275168,
+      "end": 1715822275168,
       "order": "pre"
     },
     {
       "name": "nuxt:server-devonly:transform",
-      "start": 1715794594551,
-      "end": 1715794594552,
+      "start": 1715822275168,
+      "end": 1715822275168,
       "order": "pre"
     },
     {
       "name": "nuxt:client-fallback-auto-id",
-      "start": 1715794594552,
-      "end": 1715794594552,
+      "start": 1715822275168,
+      "end": 1715822275168,
       "order": "pre"
     },
     {
       "name": "vite:css",
-      "start": 1715794594552,
-      "end": 1715794594552,
+      "start": 1715822275168,
+      "end": 1715822275168,
       "order": "normal"
     },
     {
       "name": "vite:esbuild",
-      "start": 1715794594552,
-      "end": 1715794594552,
+      "start": 1715822275168,
+      "end": 1715822275168,
       "order": "normal"
     },
     {
       "name": "vite:json",
       "result": "export default [\n\t{\n\t\timgSrc: \"/images/team/team-1.jpg\",\n\t\tname: \"Merrie Lewis\",\n\t\tposition: \"General Director\",\n\t\trole: \"admin\",\n\t\tsocialList: [\n\t\t\t{\n\t\t\t\tname: \"Facebook\",\n\t\t\t\ticonName: \"fab fa-facebook-f\",\n\t\t\t\turl: \"#\"\n\t\t\t},\n\t\t\t{\n\t\t\t\tname: \"Twitter\",\n\t\t\t\ticonName: \"fab fa-twitter\",\n\t\t\t\turl: \"#\"\n\t\t\t},\n\t\t\t{\n\t\t\t\tname: \"Instagram\",\n\t\t\t\ticonName: \"fab fa-instagram\",\n\t\t\t\turl: \"#\"\n\t\t\t}\n\t\t]\n\t},\n\t{\n\t\timgSrc: \"/images/team/team-2.jpg\",\n\t\tname: \"Mariana Buenos\",\n\t\tposition: \"CEO & Chief Manager\",\n\t\trole: \"admin\",\n\t\tsocialList: [\n\t\t\t{\n\t\t\t\tname: \"Facebook\",\n\t\t\t\ticonName: \"fab fa-facebook-f\",\n\t\t\t\turl: \"#\"\n\t\t\t},\n\t\t\t{\n\t\t\t\tname: \"Twitter\",\n\t\t\t\ticonName: \"fab fa-twitter\",\n\t\t\t\turl: \"#\"\n\t\t\t},\n\t\t\t{\n\t\t\t\tname: \"Instagram\",\n\t\t\t\ticonName: \"fab fa-instagram\",\n\t\t\t\turl: \"#\"\n\t\t\t}\n\t\t]\n\t},\n\t{\n\t\timgSrc: \"/images/team/team-3.jpg\",\n\t\tname: \"Maya\",\n\t\tposition: \"Project Manager\",\n\t\trole: \"admin\",\n\t\tsocialList: [\n\t\t\t{\n\t\t\t\tname: \"Facebook\",\n\t\t\t\ticonName: \"fab fa-facebook-f\",\n\t\t\t\turl: \"#\"\n\t\t\t},\n\t\t\t{\n\t\t\t\tname: \"Twitter\",\n\t\t\t\ticonName: \"fab fa-twitter\",\n\t\t\t\turl: \"#\"\n\t\t\t},\n\t\t\t{\n\t\t\t\tname: \"Instagram\",\n\t\t\t\ticonName: \"fab fa-instagram\",\n\t\t\t\turl: \"#\"\n\t\t\t}\n\t\t]\n\t},\n\t{\n\t\timgSrc: \"/images/team/team-4.jpg\",\n\t\tname: \"Parks Missie\",\n\t\tposition: \"Marketing Manager\",\n\t\trole: \"employee\",\n\t\tsocialList: [\n\t\t\t{\n\t\t\t\tname: \"Facebook\",\n\t\t\t\ticonName: \"fab fa-facebook-f\",\n\t\t\t\turl: \"#\"\n\t\t\t},\n\t\t\t{\n\t\t\t\tname: \"Twitter\",\n\t\t\t\ticonName: \"fab fa-twitter\",\n\t\t\t\turl: \"#\"\n\t\t\t},\n\t\t\t{\n\t\t\t\tname: \"Instagram\",\n\t\t\t\ticonName: \"fab fa-instagram\",\n\t\t\t\turl: \"#\"\n\t\t\t}\n\t\t]\n\t}\n];",
-      "start": 1715794594552,
-      "end": 1715794594552,
+      "start": 1715822275168,
+      "end": 1715822275169,
       "order": "normal",
       "sourcemaps": {
         "mappings": ""
@@ -50,164 +50,164 @@
     },
     {
       "name": "vite:worker",
-      "start": 1715794594552,
-      "end": 1715794594552,
+      "start": 1715822275169,
+      "end": 1715822275169,
       "order": "normal"
     },
     {
       "name": "vite:vue",
-      "start": 1715794594552,
-      "end": 1715794594552,
+      "start": 1715822275169,
+      "end": 1715822275169,
       "order": "normal"
     },
     {
       "name": "vite:vue-jsx",
-      "start": 1715794594552,
-      "end": 1715794594552,
+      "start": 1715822275169,
+      "end": 1715822275169,
       "order": "normal"
     },
     {
       "name": "replace",
-      "start": 1715794594552,
-      "end": 1715794594552,
+      "start": 1715822275169,
+      "end": 1715822275169,
       "order": "normal"
     },
     {
       "name": "nuxt:remove-plugin-metadata",
-      "start": 1715794594552,
-      "end": 1715794594552,
+      "start": 1715822275169,
+      "end": 1715822275169,
       "order": "normal"
     },
     {
       "name": "nuxt:chunk-error",
-      "start": 1715794594552,
-      "end": 1715794594552,
+      "start": 1715822275169,
+      "end": 1715822275169,
       "order": "normal"
     },
     {
       "name": "nuxt:components:imports",
-      "start": 1715794594552,
-      "end": 1715794594552,
+      "start": 1715822275169,
+      "end": 1715822275169,
       "order": "normal"
     },
     {
       "name": "replace",
-      "start": 1715794594552,
-      "end": 1715794594552,
+      "start": 1715822275169,
+      "end": 1715822275169,
       "order": "normal"
     },
     {
       "name": "ssr-styles",
-      "start": 1715794594552,
-      "end": 1715794594552,
+      "start": 1715822275169,
+      "end": 1715822275169,
       "order": "normal"
     },
     {
       "name": "vite:define",
-      "start": 1715794594552,
-      "end": 1715794594552,
+      "start": 1715822275169,
+      "end": 1715822275169,
       "order": "normal"
     },
     {
       "name": "vite:css-post",
-      "start": 1715794594552,
-      "end": 1715794594552,
+      "start": 1715822275169,
+      "end": 1715822275169,
       "order": "normal"
     },
     {
       "name": "vite:build-html",
-      "start": 1715794594552,
-      "end": 1715794594552,
+      "start": 1715822275169,
+      "end": 1715822275169,
       "order": "normal"
     },
     {
       "name": "vite:worker-import-meta-url",
-      "start": 1715794594552,
-      "end": 1715794594552,
+      "start": 1715822275169,
+      "end": 1715822275169,
       "order": "normal"
     },
     {
       "name": "vite:asset-import-meta-url",
-      "start": 1715794594552,
-      "end": 1715794594552,
+      "start": 1715822275169,
+      "end": 1715822275169,
       "order": "normal"
     },
     {
       "name": "commonjs",
-      "start": 1715794594552,
-      "end": 1715794594552,
+      "start": 1715822275169,
+      "end": 1715822275169,
       "order": "normal"
     },
     {
       "name": "vite:dynamic-import-vars",
-      "start": 1715794594552,
-      "end": 1715794594552,
+      "start": 1715822275169,
+      "end": 1715822275169,
       "order": "normal"
     },
     {
       "name": "vite:import-glob",
-      "start": 1715794594552,
-      "end": 1715794594552,
+      "start": 1715822275169,
+      "end": 1715822275169,
       "order": "normal"
     },
     {
       "name": "nuxt:composable-keys",
-      "start": 1715794594552,
-      "end": 1715794594552,
+      "start": 1715822275169,
+      "end": 1715822275169,
       "order": "post"
     },
     {
       "name": "nuxt:imports-transform",
-      "start": 1715794594552,
-      "end": 1715794594552,
+      "start": 1715822275169,
+      "end": 1715822275169,
       "order": "post"
     },
     {
       "name": "unctx:transform",
-      "start": 1715794594552,
-      "end": 1715794594552,
+      "start": 1715822275169,
+      "end": 1715822275169,
       "order": "post"
     },
     {
       "name": "nuxt:pages-macros-transform",
-      "start": 1715794594552,
-      "end": 1715794594552,
+      "start": 1715822275169,
+      "end": 1715822275169,
       "order": "post"
     },
     {
       "name": "nuxt:runtime-paths-dep",
-      "start": 1715794594552,
-      "end": 1715794594552,
+      "start": 1715822275169,
+      "end": 1715822275169,
       "order": "post"
     },
     {
       "name": "nuxt:route-injection-plugin",
-      "start": 1715794594552,
-      "end": 1715794594552,
+      "start": 1715822275169,
+      "end": 1715822275169,
       "order": "post"
     },
     {
       "name": "nuxt:components-loader",
-      "start": 1715794594552,
-      "end": 1715794594552,
+      "start": 1715822275169,
+      "end": 1715822275169,
       "order": "post"
     },
     {
       "name": "nuxt:tree-shake-composables:transform",
-      "start": 1715794594552,
-      "end": 1715794594552,
+      "start": 1715822275169,
+      "end": 1715822275169,
       "order": "post"
     },
     {
       "name": "vite:build-import-analysis",
-      "start": 1715794594552,
-      "end": 1715794594552,
+      "start": 1715822275169,
+      "end": 1715822275169,
       "order": "normal"
     },
     {
       "name": "vite:reporter",
-      "start": 1715794594552,
-      "end": 1715794594552,
+      "start": 1715822275169,
+      "end": 1715822275169,
       "order": "normal"
     }
   ]
