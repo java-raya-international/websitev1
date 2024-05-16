@@ -1,15 +1,18 @@
 <template>
-    <div class="main-container">
-        <div>
-            <h1>We will use and develop our own marketplace</h1>
-            <p>We will develop e-commerce for our selling products in the web application and mobile application</p>
-            <p>Our priorrity is B2B customer with bulk buyer.</p>
-            <p>Below is our plan for app development until 2025 (2 year action plan)</p>
-            <p>We will split the stores from B2B customers and B2C customers</p>
-        </div>
-        <div class="intro-section overlay bg-cover" :style="{
-            backgroundImage: `url('/images/bg/javaraya-app-timeline.png')`,
-        }"></div>
+  <div class="main-container">
+    <div>
+      <p>Our priority is B2B customer with bulk quantity or B2C customers with bulk quantity</p>
+      <p>We will split the stores from B2B customers and B2C customers</p>
+      <p>We will add more products such as metals, chemicals or agriculture periodically</p>
+      <p>Our supplier with provide details documentations, lab test and certifications upon request.</p>
+
     </div>
-    <div>dfdfd</div>
+    <!-- <div
+      class="intro-section overlay bg-cover"
+      :style="{
+        backgroundImage: `url('/images/bg/javaraya-app-timeline.png')`,
+      }"
+    ></div> -->
+  </div>
+  <div></div>
 </template>

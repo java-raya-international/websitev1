@@ -3,58 +3,58 @@
   "transforms": [
     {
       "name": "vite:load-fallback",
-      "result": "<template>\r\n\r\n</template>",
-      "start": 1715822274556,
-      "end": 1715822274622,
+      "result": "<template>\r\n  <div class=\"section-padding\">\r\n    <div class=\"container\">\r\n      <div class=\"row\">\r\n        <!-- Portfolio Left -->\r\n        <div class=\"col-lg-4 col-md-6 col-12\">\r\n          <div class=\"work-left work-details\" data-aos=\"fade-up\">\r\n            <div class=\"portfolio-main-info\">\r\n              <h2 class=\"title\">Premium Organic Rice</h2>\r\n              <!-- Start Details List -->\r\n              <div class=\"work-details-list mt-40\">\r\n                <div class=\"details-list\">\r\n                  <label>Farm Location</label>\r\n                  <span>Java and Kalimantan island</span>\r\n                </div>\r\n\r\n                <div class=\"details-list\">\r\n                  <label>Categories</label>\r\n                  <span>\r\n                    <NuxtLink to=\"\">Organic Rice</NuxtLink>\r\n                  </span>\r\n                </div>\r\n\r\n                <div class=\"details-list\">\r\n                  <label>Production Capacity</label>\r\n                  <span>500 Tons per month</span>\r\n                </div>\r\n              </div>\r\n              <!-- End Details List -->\r\n              <!-- Start Work Share -->\r\n            </div>\r\n          </div>\r\n        </div>\r\n\r\n        <!-- Work Right -->\r\n        <div class=\"col-lg-7 col-md-6 offset-lg-1 col-12\">\r\n          <div class=\"work-left work-details mt-30\">\r\n            <div class=\"work-main-info\">\r\n              <div class=\"work-content\">\r\n                <h6 class=\"title\" data-aos=\"fade-up\">Product Summary</h6>\r\n\r\n                <div class=\"desc mt-40\">\r\n                  <div class=\"content mb-20\" data-aos=\"fade-up\">\r\n                    <p>\r\n                      We believe organic rice is the answer for our staple food. The food without any additive and healthy.\r\n                    </p>\r\n                  </div>\r\n                  <div class=\"content mb-20\" data-aos=\"fade-up\">\r\n                    <table class=\"styled-table\">\r\n                      <thead>\r\n                        <tr style=\"border: 1px solid black\">\r\n                          <td>Item</td>\r\n                          <td>Market (%)</td>\r\n                        </tr>\r\n                      </thead>\r\n                      <tbody style=\"border: 1px solid black\">\r\n                        <tr>\r\n                          <td>Organic Red Rice</td>\r\n                          <td>70%</td>\r\n                        </tr>\r\n                        <tr>\r\n                          <td>Organic Melik Black Rice </td>\r\n                          <td>4%</td>\r\n                        </tr>\r\n                        <tr>\r\n                          <td>Organic Origin Black Rice</td>\r\n                          <td>4%</td>\r\n                        </tr>\r\n                        <tr>\r\n                          <td>Organic White Rice</td>\r\n                          <td>8%</td>\r\n                        </tr>\r\n                        <tr>\r\n                          <td>Organic Brown Rice </td>\r\n                          <td>8%</td>\r\n                        </tr>\r\n                        <tr>\r\n                          <td>Organic Germination Red Rice </td>\r\n                          <td>4%</td>\r\n                        </tr>\r\n                        \r\n                      </tbody>\r\n                    </table>\r\n                  </div>\r\n                  <div class=\"content mb-40\" data-aos=\"fade-up\">\r\n                    <p>\r\n                        Our farm and mill.\r\n\r\n                    </p>\r\n\r\n\r\n                    <table class=\"styled-table\">\r\n                      <thead>\r\n                        <tr style=\"border: 1px solid black\">\r\n                          <td>Location</td>\r\n                          <td>Production (%)</td>\r\n                        </tr>\r\n                      </thead>\r\n                      <tbody style=\"border: 1px solid black\">\r\n                        <tr>\r\n                          <td>Banyuwangi, East Java</td>\r\n                          <td>50%</td>\r\n                        </tr>\r\n                        <tr>\r\n                          <td>Jember, East Java </td>\r\n                          <td>20%</td>\r\n                        </tr>\r\n                        <tr>\r\n                          <td>Solo, Central Java</td>\r\n                          <td>10%</td>\r\n                        </tr>\r\n                        <tr>\r\n                          <td>Kalimantan island</td>\r\n                          <td>20%</td>\r\n                        </tr>\r\n                        \r\n                      </tbody>\r\n                    </table>\r\n                  </div>\r\n                </div>\r\n              </div>\r\n            </div>\r\n          </div>\r\n        </div>\r\n      </div>\r\n    </div>\r\n  </div>\r\n\r\n<hr/>\r\n\r\n  <div class=\"section-padding-top section-padding-bottom-180 overflow-hidden\">\r\n    <div class=\"container\">\r\n      <div class=\"row\">\r\n        <div class=\"col-xl-5 col-lg-6 col-12\" data-aos=\"fade-up\">\r\n          <div class=\"about-image-area\">\r\n            <div class=\"js-tilt\">\r\n              <img\r\n                src=\"/images/products/premium-rice-organic-rice-red.png\"\r\n                alt=\"organic red rice\"\r\n              />\r\n            </div>\r\n\r\n            <!-- Animation Shape Start -->\r\n            <!-- <ShapeWithAnimation addClassName=\"shape-1\" data-depth=\"1\" imgSrc=\"/images/shape-animation/about-shape-1.png\" /> -->\r\n          </div>\r\n        </div>\r\n        <div class=\"col-xl-5 col-lg-6 col-12\" data-aos=\"fade-up\">\r\n          <div class=\"about-content-area about-four\">\r\n            <div class=\"section-title-two\">\r\n              <span class=\"sub-title\">Premium Rice</span>\r\n              <h3 class=\"title\">Organic Red Rice</h3>\r\n            </div>\r\n            <p>\r\n              Red rice has been known since 2800 BC The physicians then believed\r\n              that red rice had medical values that could restore calm and peace\r\n              With the help of modern science science there are 6 main\r\n              substances in the Red rice that are beneficial to human health The\r\n              organic red rice produced by sirtanio comes from special seeds\r\n              from the village of Segobang Banyuwangi, Indonesia Sirtanio's\r\n              organic rice seeds are certified and can only be planted in\r\n              Banyuwangi Rice that has been cooked from sirtanio rice has a\r\n              distinctive texture, fragrant, soft and of course certified\r\n              organic Sirtanio organic Red rice has a glycemic index of 56 with\r\n              folic acid content of 208 8 mcg/ 100 g\r\n            </p>\r\n          </div>\r\n        </div>\r\n      </div>\r\n    </div>\r\n  </div>\r\n\r\n\r\n  <div class=\"section-padding-top section-padding-bottom-180 overflow-hidden\">\r\n    <div class=\"container\">\r\n      <div class=\"row\">\r\n        <div class=\"col-xl-5 col-lg-6 col-12\" data-aos=\"fade-up\">\r\n          <div class=\"about-image-area\">\r\n            <div class=\"js-tilt\">\r\n              <img\r\n                src=\"/images/products/premium-rice-organic-rice-black.png\"\r\n                alt=\"Organic Melik Black Rice\"\r\n              />\r\n            </div>\r\n\r\n            <!-- Animation Shape Start -->\r\n            <!-- <ShapeWithAnimation addClassName=\"shape-1\" data-depth=\"1\" imgSrc=\"/images/shape-animation/about-shape-1.png\" /> -->\r\n          </div>\r\n        </div>\r\n        <div class=\"col-xl-5 col-lg-6 col-12\" data-aos=\"fade-up\">\r\n          <div class=\"about-content-area about-four\">\r\n            <div class=\"section-title-two\">\r\n              <span class=\"sub-title\">Premium Rice</span>\r\n              <h3 class=\"title\">Organic Brown Rice</h3>\r\n            </div>\r\n            <p>\r\n              Black rice is known to be expensive because it is consumed by the\r\n              royal family not even just any farmer can plant black rice melik\r\n              (until in Banyuwangi until now there are still farmers who want to\r\n              plant black rice, fear of being hit by curse) when the myth is\r\n              only to protect black rice products so as not to Consumed by the\r\n              general public Because Black Melik Rice is only consumed by Kings\r\n              Black rice melting planting place is very hidden, now the place is\r\n              called hamlet Melik ds Parijatah paddy quota for King Black melik\r\n              rice has a distinctive color which in 1 grain of rice has a black\r\n              color that is degraded with brown In the production process,\r\n              Organic Melik black rice is produced over a longer period of 160\r\n              days This is what causes the black rice melik is a rare and high\r\n              quality organic rice products\r\n            </p>\r\n          </div>\r\n        </div>\r\n      </div>\r\n    </div>\r\n  </div>\r\n\r\n\r\n  <div class=\"section-padding-top section-padding-bottom-180 overflow-hidden\">\r\n    <div class=\"container\">\r\n      <div class=\"row\">\r\n        <div class=\"col-xl-5 col-lg-6 col-12\" data-aos=\"fade-up\">\r\n          <div class=\"about-image-area\">\r\n            <div class=\"js-tilt\">\r\n              <img\r\n                src=\"/images/products/premium-rice-organic-rice-brown.png\"\r\n                alt=\"Organic Melik Black Rice\"\r\n              />\r\n            </div>\r\n\r\n            <!-- Animation Shape Start -->\r\n            <!-- <ShapeWithAnimation addClassName=\"shape-1\" data-depth=\"1\" imgSrc=\"/images/shape-animation/about-shape-1.png\" /> -->\r\n          </div>\r\n        </div>\r\n        <div class=\"col-xl-5 col-lg-6 col-12\" data-aos=\"fade-up\">\r\n          <div class=\"about-content-area about-four\">\r\n            <div class=\"section-title-two\">\r\n              <span class=\"sub-title\">Premium Rice</span>\r\n              <h3 class=\"title\">Organic Brown Rice</h3>\r\n            </div>\r\n            <p>\r\n              Brown rice is whole grain rice, with the inedible outer hull\r\n              removed white rice is the same grain with the hull, bran layer and\r\n              cereal germ removed Brown Rice From Sirtanio produced by unique\r\n              varieties namely Berlian This Varieties is only plant in\r\n              Banyuwangi and already have a patent in order to Banyuwangi Local\r\n              Varieties Brown Rice have the low Index Glicemic 64 so its a good\r\n              for people with Diabetic and high colesterol\r\n            </p>\r\n          </div>\r\n        </div>\r\n      </div>\r\n    </div>\r\n  </div>\r\n\r\n\r\n  <div class=\"section-padding-top section-padding-bottom-180 overflow-hidden\">\r\n    <div class=\"container\">\r\n      <div class=\"row\">\r\n        <div class=\"col-xl-5 col-lg-6 col-12\" data-aos=\"fade-up\">\r\n          <div class=\"about-image-area\">\r\n            <div class=\"js-tilt\">\r\n              <img\r\n                src=\"/images/products/premium-rice-organic-rice-white.png\"\r\n                alt=\"Organic White Rice\"\r\n              />\r\n            </div>\r\n\r\n            <!-- Animation Shape Start -->\r\n            <!-- <ShapeWithAnimation addClassName=\"shape-1\" data-depth=\"1\" imgSrc=\"/images/shape-animation/about-shape-1.png\" /> -->\r\n          </div>\r\n        </div>\r\n        <div class=\"col-xl-5 col-lg-6 col-12\" data-aos=\"fade-up\">\r\n          <div class=\"about-content-area about-four\">\r\n            <div class=\"section-title-two\">\r\n              <span class=\"sub-title\">Premium Rice</span>\r\n              <h3 class=\"title\">Organic White Rice</h3>\r\n            </div>\r\n            <p>\r\n              This rice is derived from selected varieties, planted in certain\r\n              locations by using special cultivation techniques and processed\r\n              with a high degree of accuracy, making the original rice soil\r\n              “Earth Blambangan” has a sensation of luxurious taste, soft\r\n              texture and color that inspire the taste and more healthy so that\r\n              Safe to be a healthy family choice We do this because we believe\r\n              that “Health and luxury are the flavor of every human being” This\r\n              “ white rice market target is almost identical to the above white\r\n              brown rice, except for the 3rd consumer type whose price factor is\r\n              still the main consideration\r\n            </p>\r\n          </div>\r\n        </div>\r\n      </div>\r\n    </div>\r\n  </div>\r\n</template>\r\n",
+      "start": 1715842295679,
+      "end": 1715842295764,
       "sourcemaps": null
     },
     {
       "name": "nuxt:layer-aliasing",
-      "start": 1715822274622,
-      "end": 1715822274622,
+      "start": 1715842295764,
+      "end": 1715842295764,
       "order": "pre"
     },
     {
       "name": "nuxt:server-devonly:transform",
-      "start": 1715822274622,
-      "end": 1715822274622,
+      "start": 1715842295764,
+      "end": 1715842295764,
       "order": "pre"
     },
     {
       "name": "nuxt:client-fallback-auto-id",
-      "start": 1715822274622,
-      "end": 1715822274622,
+      "start": 1715842295764,
+      "end": 1715842295764,
       "order": "pre"
     },
     {
       "name": "vite:css",
-      "start": 1715822274622,
-      "end": 1715822274622,
+      "start": 1715842295764,
+      "end": 1715842295764,
       "order": "normal"
     },
     {
       "name": "vite:esbuild",
-      "start": 1715822274622,
-      "end": 1715822274622,
+      "start": 1715842295764,
+      "end": 1715842295764,
       "order": "normal"
     },
     {
       "name": "vite:json",
-      "start": 1715822274622,
-      "end": 1715822274622,
+      "start": 1715842295764,
+      "end": 1715842295764,
       "order": "normal"
     },
     {
       "name": "vite:worker",
-      "start": 1715822274622,
-      "end": 1715822274622,
+      "start": 1715842295764,
+      "end": 1715842295764,
       "order": "normal"
     },
     {
       "name": "vite:vue",
-      "result": "const _sfc_main = {}\n\nfunction _sfc_render(_ctx, _cache) {\n  return null\n}\n\n\nimport _export_sfc from '\u0000plugin-vue:export-helper'\nexport default /*#__PURE__*/_export_sfc(_sfc_main, [['render',_sfc_render]])",
-      "start": 1715822274622,
-      "end": 1715822274622,
+      "result": "const _sfc_main = {}\nimport { createElementVNode as _createElementVNode, createTextVNode as _createTextVNode, resolveComponent as _resolveComponent, withCtx as _withCtx, createVNode as _createVNode, createStaticVNode as _createStaticVNode, Fragment as _Fragment, openBlock as _openBlock, createElementBlock as _createElementBlock } from \"vue\"\nimport _imports_0 from '/images/products/premium-rice-organic-rice-red.png'\nimport _imports_1 from '/images/products/premium-rice-organic-rice-black.png'\nimport _imports_2 from '/images/products/premium-rice-organic-rice-brown.png'\nimport _imports_3 from '/images/products/premium-rice-organic-rice-white.png'\n\n\nconst _hoisted_1 = { class: \"section-padding\" }\nconst _hoisted_2 = { class: \"container\" }\nconst _hoisted_3 = { class: \"row\" }\nconst _hoisted_4 = { class: \"col-lg-4 col-md-6 col-12\" }\nconst _hoisted_5 = {\n  class: \"work-left work-details\",\n  \"data-aos\": \"fade-up\"\n}\nconst _hoisted_6 = { class: \"portfolio-main-info\" }\nconst _hoisted_7 = /*#__PURE__*/_createElementVNode(\"h2\", { class: \"title\" }, \"Premium Organic Rice\", -1)\nconst _hoisted_8 = { class: \"work-details-list mt-40\" }\nconst _hoisted_9 = /*#__PURE__*/_createElementVNode(\"div\", { class: \"details-list\" }, [\n  /*#__PURE__*/_createElementVNode(\"label\", null, \"Farm Location\"),\n  /*#__PURE__*/_createElementVNode(\"span\", null, \"Java and Kalimantan island\")\n], -1)\nconst _hoisted_10 = { class: \"details-list\" }\nconst _hoisted_11 = /*#__PURE__*/_createElementVNode(\"label\", null, \"Categories\", -1)\nconst _hoisted_12 = /*#__PURE__*/_createElementVNode(\"div\", { class: \"details-list\" }, [\n  /*#__PURE__*/_createElementVNode(\"label\", null, \"Production Capacity\"),\n  /*#__PURE__*/_createElementVNode(\"span\", null, \"500 Tons per month\")\n], -1)\nconst _hoisted_13 = /*#__PURE__*/_createStaticVNode(\"<div class=\\\"col-lg-7 col-md-6 offset-lg-1 col-12\\\"><div class=\\\"work-left work-details mt-30\\\"><div class=\\\"work-main-info\\\"><div class=\\\"work-content\\\"><h6 class=\\\"title\\\" data-aos=\\\"fade-up\\\">Product Summary</h6><div class=\\\"desc mt-40\\\"><div class=\\\"content mb-20\\\" data-aos=\\\"fade-up\\\"><p> We believe organic rice is the answer for our staple food. The food without any additive and healthy. </p></div><div class=\\\"content mb-20\\\" data-aos=\\\"fade-up\\\"><table class=\\\"styled-table\\\"><thead><tr style=\\\"border:1px solid black;\\\"><td>Item</td><td>Market (%)</td></tr></thead><tbody style=\\\"border:1px solid black;\\\"><tr><td>Organic Red Rice</td><td>70%</td></tr><tr><td>Organic Melik Black Rice </td><td>4%</td></tr><tr><td>Organic Origin Black Rice</td><td>4%</td></tr><tr><td>Organic White Rice</td><td>8%</td></tr><tr><td>Organic Brown Rice </td><td>8%</td></tr><tr><td>Organic Germination Red Rice </td><td>4%</td></tr></tbody></table></div><div class=\\\"content mb-40\\\" data-aos=\\\"fade-up\\\"><p> Our farm and mill. </p><table class=\\\"styled-table\\\"><thead><tr style=\\\"border:1px solid black;\\\"><td>Location</td><td>Production (%)</td></tr></thead><tbody style=\\\"border:1px solid black;\\\"><tr><td>Banyuwangi, East Java</td><td>50%</td></tr><tr><td>Jember, East Java </td><td>20%</td></tr><tr><td>Solo, Central Java</td><td>10%</td></tr><tr><td>Kalimantan island</td><td>20%</td></tr></tbody></table></div></div></div></div></div></div>\", 1)\nconst _hoisted_14 = /*#__PURE__*/_createStaticVNode(\"<hr><div class=\\\"section-padding-top section-padding-bottom-180 overflow-hidden\\\"><div class=\\\"container\\\"><div class=\\\"row\\\"><div class=\\\"col-xl-5 col-lg-6 col-12\\\" data-aos=\\\"fade-up\\\"><div class=\\\"about-image-area\\\"><div class=\\\"js-tilt\\\"><img src=\\\"\" + _imports_0 + \"\\\" alt=\\\"organic red rice\\\"></div></div></div><div class=\\\"col-xl-5 col-lg-6 col-12\\\" data-aos=\\\"fade-up\\\"><div class=\\\"about-content-area about-four\\\"><div class=\\\"section-title-two\\\"><span class=\\\"sub-title\\\">Premium Rice</span><h3 class=\\\"title\\\">Organic Red Rice</h3></div><p> Red rice has been known since 2800 BC The physicians then believed that red rice had medical values that could restore calm and peace With the help of modern science science there are 6 main substances in the Red rice that are beneficial to human health The organic red rice produced by sirtanio comes from special seeds from the village of Segobang Banyuwangi, Indonesia Sirtanio&#39;s organic rice seeds are certified and can only be planted in Banyuwangi Rice that has been cooked from sirtanio rice has a distinctive texture, fragrant, soft and of course certified organic Sirtanio organic Red rice has a glycemic index of 56 with folic acid content of 208 8 mcg/ 100 g </p></div></div></div></div></div><div class=\\\"section-padding-top section-padding-bottom-180 overflow-hidden\\\"><div class=\\\"container\\\"><div class=\\\"row\\\"><div class=\\\"col-xl-5 col-lg-6 col-12\\\" data-aos=\\\"fade-up\\\"><div class=\\\"about-image-area\\\"><div class=\\\"js-tilt\\\"><img src=\\\"\" + _imports_1 + \"\\\" alt=\\\"Organic Melik Black Rice\\\"></div></div></div><div class=\\\"col-xl-5 col-lg-6 col-12\\\" data-aos=\\\"fade-up\\\"><div class=\\\"about-content-area about-four\\\"><div class=\\\"section-title-two\\\"><span class=\\\"sub-title\\\">Premium Rice</span><h3 class=\\\"title\\\">Organic Brown Rice</h3></div><p> Black rice is known to be expensive because it is consumed by the royal family not even just any farmer can plant black rice melik (until in Banyuwangi until now there are still farmers who want to plant black rice, fear of being hit by curse) when the myth is only to protect black rice products so as not to Consumed by the general public Because Black Melik Rice is only consumed by Kings Black rice melting planting place is very hidden, now the place is called hamlet Melik ds Parijatah paddy quota for King Black melik rice has a distinctive color which in 1 grain of rice has a black color that is degraded with brown In the production process, Organic Melik black rice is produced over a longer period of 160 days This is what causes the black rice melik is a rare and high quality organic rice products </p></div></div></div></div></div><div class=\\\"section-padding-top section-padding-bottom-180 overflow-hidden\\\"><div class=\\\"container\\\"><div class=\\\"row\\\"><div class=\\\"col-xl-5 col-lg-6 col-12\\\" data-aos=\\\"fade-up\\\"><div class=\\\"about-image-area\\\"><div class=\\\"js-tilt\\\"><img src=\\\"\" + _imports_2 + \"\\\" alt=\\\"Organic Melik Black Rice\\\"></div></div></div><div class=\\\"col-xl-5 col-lg-6 col-12\\\" data-aos=\\\"fade-up\\\"><div class=\\\"about-content-area about-four\\\"><div class=\\\"section-title-two\\\"><span class=\\\"sub-title\\\">Premium Rice</span><h3 class=\\\"title\\\">Organic Brown Rice</h3></div><p> Brown rice is whole grain rice, with the inedible outer hull removed white rice is the same grain with the hull, bran layer and cereal germ removed Brown Rice From Sirtanio produced by unique varieties namely Berlian This Varieties is only plant in Banyuwangi and already have a patent in order to Banyuwangi Local Varieties Brown Rice have the low Index Glicemic 64 so its a good for people with Diabetic and high colesterol </p></div></div></div></div></div><div class=\\\"section-padding-top section-padding-bottom-180 overflow-hidden\\\"><div class=\\\"container\\\"><div class=\\\"row\\\"><div class=\\\"col-xl-5 col-lg-6 col-12\\\" data-aos=\\\"fade-up\\\"><div class=\\\"about-image-area\\\"><div class=\\\"js-tilt\\\"><img src=\\\"\" + _imports_3 + \"\\\" alt=\\\"Organic White Rice\\\"></div></div></div><div class=\\\"col-xl-5 col-lg-6 col-12\\\" data-aos=\\\"fade-up\\\"><div class=\\\"about-content-area about-four\\\"><div class=\\\"section-title-two\\\"><span class=\\\"sub-title\\\">Premium Rice</span><h3 class=\\\"title\\\">Organic White Rice</h3></div><p> This rice is derived from selected varieties, planted in certain locations by using special cultivation techniques and processed with a high degree of accuracy, making the original rice soil “Earth Blambangan” has a sensation of luxurious taste, soft texture and color that inspire the taste and more healthy so that Safe to be a healthy family choice We do this because we believe that “Health and luxury are the flavor of every human being” This “ white rice market target is almost identical to the above white brown rice, except for the 3rd consumer type whose price factor is still the main consideration </p></div></div></div></div></div>\", 5)\n\nfunction _sfc_render(_ctx, _cache) {\n  const _component_NuxtLink = _resolveComponent(\"NuxtLink\")\n\n  return (_openBlock(), _createElementBlock(_Fragment, null, [\n    _createElementVNode(\"div\", _hoisted_1, [\n      _createElementVNode(\"div\", _hoisted_2, [\n        _createElementVNode(\"div\", _hoisted_3, [\n          _createElementVNode(\"div\", _hoisted_4, [\n            _createElementVNode(\"div\", _hoisted_5, [\n              _createElementVNode(\"div\", _hoisted_6, [\n                _hoisted_7,\n                _createElementVNode(\"div\", _hoisted_8, [\n                  _hoisted_9,\n                  _createElementVNode(\"div\", _hoisted_10, [\n                    _hoisted_11,\n                    _createElementVNode(\"span\", null, [\n                      _createVNode(_component_NuxtLink, { to: \"\" }, {\n                        default: _withCtx(() => [\n                          _createTextVNode(\"Organic Rice\")\n                        ]),\n                        _: 1\n                      })\n                    ])\n                  ]),\n                  _hoisted_12\n                ])\n              ])\n            ])\n          ]),\n          _hoisted_13\n        ])\n      ])\n    ]),\n    _hoisted_14\n  ], 64))\n}\n\n\nimport _export_sfc from '\u0000plugin-vue:export-helper'\nexport default /*#__PURE__*/_export_sfc(_sfc_main, [['render',_sfc_render]])",
+      "start": 1715842295764,
+      "end": 1715842295766,
       "order": "normal",
       "sourcemaps": {
         "mappings": ""
@@ -62,152 +62,153 @@
     },
     {
       "name": "vite:vue-jsx",
-      "start": 1715822274622,
-      "end": 1715822274623,
+      "start": 1715842295766,
+      "end": 1715842295766,
       "order": "normal"
     },
     {
       "name": "replace",
-      "start": 1715822274623,
-      "end": 1715822274623,
+      "start": 1715842295766,
+      "end": 1715842295766,
       "order": "normal"
     },
     {
       "name": "nuxt:remove-plugin-metadata",
-      "start": 1715822274623,
-      "end": 1715822274623,
+      "start": 1715842295766,
+      "end": 1715842295766,
       "order": "normal"
     },
     {
       "name": "nuxt:chunk-error",
-      "start": 1715822274623,
-      "end": 1715822274623,
+      "start": 1715842295766,
+      "end": 1715842295766,
       "order": "normal"
     },
     {
       "name": "nuxt:components:imports",
-      "start": 1715822274623,
-      "end": 1715822274623,
+      "start": 1715842295766,
+      "end": 1715842295766,
       "order": "normal"
     },
     {
       "name": "replace",
-      "start": 1715822274623,
-      "end": 1715822274623,
+      "start": 1715842295767,
+      "end": 1715842295767,
       "order": "normal"
     },
     {
       "name": "ssr-styles",
-      "start": 1715822274623,
-      "end": 1715822274623,
+      "start": 1715842295767,
+      "end": 1715842295767,
       "order": "normal"
     },
     {
       "name": "vite:define",
-      "start": 1715822274623,
-      "end": 1715822274623,
+      "start": 1715842295767,
+      "end": 1715842295767,
       "order": "normal"
     },
     {
       "name": "vite:css-post",
-      "start": 1715822274623,
-      "end": 1715822274623,
+      "start": 1715842295767,
+      "end": 1715842295767,
       "order": "normal"
     },
     {
       "name": "vite:build-html",
-      "start": 1715822274623,
-      "end": 1715822274623,
+      "start": 1715842295767,
+      "end": 1715842295767,
       "order": "normal"
     },
     {
       "name": "vite:worker-import-meta-url",
-      "start": 1715822274623,
-      "end": 1715822274623,
+      "start": 1715842295767,
+      "end": 1715842295767,
       "order": "normal"
     },
     {
       "name": "vite:asset-import-meta-url",
-      "start": 1715822274623,
-      "end": 1715822274623,
+      "start": 1715842295767,
+      "end": 1715842295767,
       "order": "normal"
     },
     {
       "name": "commonjs",
-      "start": 1715822274623,
-      "end": 1715822274623,
+      "start": 1715842295767,
+      "end": 1715842295767,
       "order": "normal"
     },
     {
       "name": "vite:dynamic-import-vars",
-      "start": 1715822274623,
-      "end": 1715822274623,
+      "start": 1715842295767,
+      "end": 1715842295767,
       "order": "normal"
     },
     {
       "name": "vite:import-glob",
-      "start": 1715822274623,
-      "end": 1715822274623,
+      "start": 1715842295767,
+      "end": 1715842295767,
       "order": "normal"
     },
     {
       "name": "nuxt:composable-keys",
-      "start": 1715822274623,
-      "end": 1715822274623,
+      "start": 1715842295767,
+      "end": 1715842295767,
       "order": "post"
     },
     {
       "name": "nuxt:imports-transform",
-      "start": 1715822274623,
-      "end": 1715822274623,
+      "start": 1715842295767,
+      "end": 1715842295767,
       "order": "post"
     },
     {
       "name": "unctx:transform",
-      "start": 1715822274623,
-      "end": 1715822274623,
+      "start": 1715842295767,
+      "end": 1715842295767,
       "order": "post"
     },
     {
       "name": "nuxt:pages-macros-transform",
-      "start": 1715822274623,
-      "end": 1715822274623,
+      "start": 1715842295767,
+      "end": 1715842295767,
       "order": "post"
     },
     {
       "name": "nuxt:runtime-paths-dep",
-      "start": 1715822274623,
-      "end": 1715822274623,
+      "start": 1715842295767,
+      "end": 1715842295767,
       "order": "post"
     },
     {
       "name": "nuxt:route-injection-plugin",
-      "start": 1715822274623,
-      "end": 1715822274623,
+      "start": 1715842295767,
+      "end": 1715842295767,
       "order": "post"
     },
     {
       "name": "nuxt:components-loader",
-      "start": 1715822274623,
-      "end": 1715822274623,
+      "result": "import { default as __nuxt_component_0 } from \"E:/Projects/JavaRayaInternational/website/node_modules/nuxt/dist/app/components/nuxt-link\";\nconst _sfc_main = {}\nimport { createElementVNode as _createElementVNode, createTextVNode as _createTextVNode, resolveComponent as _resolveComponent, withCtx as _withCtx, createVNode as _createVNode, createStaticVNode as _createStaticVNode, Fragment as _Fragment, openBlock as _openBlock, createElementBlock as _createElementBlock } from \"vue\"\nimport _imports_0 from '/images/products/premium-rice-organic-rice-red.png'\nimport _imports_1 from '/images/products/premium-rice-organic-rice-black.png'\nimport _imports_2 from '/images/products/premium-rice-organic-rice-brown.png'\nimport _imports_3 from '/images/products/premium-rice-organic-rice-white.png'\n\n\nconst _hoisted_1 = { class: \"section-padding\" }\nconst _hoisted_2 = { class: \"container\" }\nconst _hoisted_3 = { class: \"row\" }\nconst _hoisted_4 = { class: \"col-lg-4 col-md-6 col-12\" }\nconst _hoisted_5 = {\n  class: \"work-left work-details\",\n  \"data-aos\": \"fade-up\"\n}\nconst _hoisted_6 = { class: \"portfolio-main-info\" }\nconst _hoisted_7 = /*#__PURE__*/_createElementVNode(\"h2\", { class: \"title\" }, \"Premium Organic Rice\", -1)\nconst _hoisted_8 = { class: \"work-details-list mt-40\" }\nconst _hoisted_9 = /*#__PURE__*/_createElementVNode(\"div\", { class: \"details-list\" }, [\n  /*#__PURE__*/_createElementVNode(\"label\", null, \"Farm Location\"),\n  /*#__PURE__*/_createElementVNode(\"span\", null, \"Java and Kalimantan island\")\n], -1)\nconst _hoisted_10 = { class: \"details-list\" }\nconst _hoisted_11 = /*#__PURE__*/_createElementVNode(\"label\", null, \"Categories\", -1)\nconst _hoisted_12 = /*#__PURE__*/_createElementVNode(\"div\", { class: \"details-list\" }, [\n  /*#__PURE__*/_createElementVNode(\"label\", null, \"Production Capacity\"),\n  /*#__PURE__*/_createElementVNode(\"span\", null, \"500 Tons per month\")\n], -1)\nconst _hoisted_13 = /*#__PURE__*/_createStaticVNode(\"<div class=\\\"col-lg-7 col-md-6 offset-lg-1 col-12\\\"><div class=\\\"work-left work-details mt-30\\\"><div class=\\\"work-main-info\\\"><div class=\\\"work-content\\\"><h6 class=\\\"title\\\" data-aos=\\\"fade-up\\\">Product Summary</h6><div class=\\\"desc mt-40\\\"><div class=\\\"content mb-20\\\" data-aos=\\\"fade-up\\\"><p> We believe organic rice is the answer for our staple food. The food without any additive and healthy. </p></div><div class=\\\"content mb-20\\\" data-aos=\\\"fade-up\\\"><table class=\\\"styled-table\\\"><thead><tr style=\\\"border:1px solid black;\\\"><td>Item</td><td>Market (%)</td></tr></thead><tbody style=\\\"border:1px solid black;\\\"><tr><td>Organic Red Rice</td><td>70%</td></tr><tr><td>Organic Melik Black Rice </td><td>4%</td></tr><tr><td>Organic Origin Black Rice</td><td>4%</td></tr><tr><td>Organic White Rice</td><td>8%</td></tr><tr><td>Organic Brown Rice </td><td>8%</td></tr><tr><td>Organic Germination Red Rice </td><td>4%</td></tr></tbody></table></div><div class=\\\"content mb-40\\\" data-aos=\\\"fade-up\\\"><p> Our farm and mill. </p><table class=\\\"styled-table\\\"><thead><tr style=\\\"border:1px solid black;\\\"><td>Location</td><td>Production (%)</td></tr></thead><tbody style=\\\"border:1px solid black;\\\"><tr><td>Banyuwangi, East Java</td><td>50%</td></tr><tr><td>Jember, East Java </td><td>20%</td></tr><tr><td>Solo, Central Java</td><td>10%</td></tr><tr><td>Kalimantan island</td><td>20%</td></tr></tbody></table></div></div></div></div></div></div>\", 1)\nconst _hoisted_14 = /*#__PURE__*/_createStaticVNode(\"<hr><div class=\\\"section-padding-top section-padding-bottom-180 overflow-hidden\\\"><div class=\\\"container\\\"><div class=\\\"row\\\"><div class=\\\"col-xl-5 col-lg-6 col-12\\\" data-aos=\\\"fade-up\\\"><div class=\\\"about-image-area\\\"><div class=\\\"js-tilt\\\"><img src=\\\"\" + _imports_0 + \"\\\" alt=\\\"organic red rice\\\"></div></div></div><div class=\\\"col-xl-5 col-lg-6 col-12\\\" data-aos=\\\"fade-up\\\"><div class=\\\"about-content-area about-four\\\"><div class=\\\"section-title-two\\\"><span class=\\\"sub-title\\\">Premium Rice</span><h3 class=\\\"title\\\">Organic Red Rice</h3></div><p> Red rice has been known since 2800 BC The physicians then believed that red rice had medical values that could restore calm and peace With the help of modern science science there are 6 main substances in the Red rice that are beneficial to human health The organic red rice produced by sirtanio comes from special seeds from the village of Segobang Banyuwangi, Indonesia Sirtanio&#39;s organic rice seeds are certified and can only be planted in Banyuwangi Rice that has been cooked from sirtanio rice has a distinctive texture, fragrant, soft and of course certified organic Sirtanio organic Red rice has a glycemic index of 56 with folic acid content of 208 8 mcg/ 100 g </p></div></div></div></div></div><div class=\\\"section-padding-top section-padding-bottom-180 overflow-hidden\\\"><div class=\\\"container\\\"><div class=\\\"row\\\"><div class=\\\"col-xl-5 col-lg-6 col-12\\\" data-aos=\\\"fade-up\\\"><div class=\\\"about-image-area\\\"><div class=\\\"js-tilt\\\"><img src=\\\"\" + _imports_1 + \"\\\" alt=\\\"Organic Melik Black Rice\\\"></div></div></div><div class=\\\"col-xl-5 col-lg-6 col-12\\\" data-aos=\\\"fade-up\\\"><div class=\\\"about-content-area about-four\\\"><div class=\\\"section-title-two\\\"><span class=\\\"sub-title\\\">Premium Rice</span><h3 class=\\\"title\\\">Organic Brown Rice</h3></div><p> Black rice is known to be expensive because it is consumed by the royal family not even just any farmer can plant black rice melik (until in Banyuwangi until now there are still farmers who want to plant black rice, fear of being hit by curse) when the myth is only to protect black rice products so as not to Consumed by the general public Because Black Melik Rice is only consumed by Kings Black rice melting planting place is very hidden, now the place is called hamlet Melik ds Parijatah paddy quota for King Black melik rice has a distinctive color which in 1 grain of rice has a black color that is degraded with brown In the production process, Organic Melik black rice is produced over a longer period of 160 days This is what causes the black rice melik is a rare and high quality organic rice products </p></div></div></div></div></div><div class=\\\"section-padding-top section-padding-bottom-180 overflow-hidden\\\"><div class=\\\"container\\\"><div class=\\\"row\\\"><div class=\\\"col-xl-5 col-lg-6 col-12\\\" data-aos=\\\"fade-up\\\"><div class=\\\"about-image-area\\\"><div class=\\\"js-tilt\\\"><img src=\\\"\" + _imports_2 + \"\\\" alt=\\\"Organic Melik Black Rice\\\"></div></div></div><div class=\\\"col-xl-5 col-lg-6 col-12\\\" data-aos=\\\"fade-up\\\"><div class=\\\"about-content-area about-four\\\"><div class=\\\"section-title-two\\\"><span class=\\\"sub-title\\\">Premium Rice</span><h3 class=\\\"title\\\">Organic Brown Rice</h3></div><p> Brown rice is whole grain rice, with the inedible outer hull removed white rice is the same grain with the hull, bran layer and cereal germ removed Brown Rice From Sirtanio produced by unique varieties namely Berlian This Varieties is only plant in Banyuwangi and already have a patent in order to Banyuwangi Local Varieties Brown Rice have the low Index Glicemic 64 so its a good for people with Diabetic and high colesterol </p></div></div></div></div></div><div class=\\\"section-padding-top section-padding-bottom-180 overflow-hidden\\\"><div class=\\\"container\\\"><div class=\\\"row\\\"><div class=\\\"col-xl-5 col-lg-6 col-12\\\" data-aos=\\\"fade-up\\\"><div class=\\\"about-image-area\\\"><div class=\\\"js-tilt\\\"><img src=\\\"\" + _imports_3 + \"\\\" alt=\\\"Organic White Rice\\\"></div></div></div><div class=\\\"col-xl-5 col-lg-6 col-12\\\" data-aos=\\\"fade-up\\\"><div class=\\\"about-content-area about-four\\\"><div class=\\\"section-title-two\\\"><span class=\\\"sub-title\\\">Premium Rice</span><h3 class=\\\"title\\\">Organic White Rice</h3></div><p> This rice is derived from selected varieties, planted in certain locations by using special cultivation techniques and processed with a high degree of accuracy, making the original rice soil “Earth Blambangan” has a sensation of luxurious taste, soft texture and color that inspire the taste and more healthy so that Safe to be a healthy family choice We do this because we believe that “Health and luxury are the flavor of every human being” This “ white rice market target is almost identical to the above white brown rice, except for the 3rd consumer type whose price factor is still the main consideration </p></div></div></div></div></div>\", 5)\n\nfunction _sfc_render(_ctx, _cache) {\n  const _component_NuxtLink = __nuxt_component_0\n\n  return (_openBlock(), _createElementBlock(_Fragment, null, [\n    _createElementVNode(\"div\", _hoisted_1, [\n      _createElementVNode(\"div\", _hoisted_2, [\n        _createElementVNode(\"div\", _hoisted_3, [\n          _createElementVNode(\"div\", _hoisted_4, [\n            _createElementVNode(\"div\", _hoisted_5, [\n              _createElementVNode(\"div\", _hoisted_6, [\n                _hoisted_7,\n                _createElementVNode(\"div\", _hoisted_8, [\n                  _hoisted_9,\n                  _createElementVNode(\"div\", _hoisted_10, [\n                    _hoisted_11,\n                    _createElementVNode(\"span\", null, [\n                      _createVNode(_component_NuxtLink, { to: \"\" }, {\n                        default: _withCtx(() => [\n                          _createTextVNode(\"Organic Rice\")\n                        ]),\n                        _: 1\n                      })\n                    ])\n                  ]),\n                  _hoisted_12\n                ])\n              ])\n            ])\n          ]),\n          _hoisted_13\n        ])\n      ])\n    ]),\n    _hoisted_14\n  ], 64))\n}\n\n\nimport _export_sfc from '\u0000plugin-vue:export-helper'\nexport default /*#__PURE__*/_export_sfc(_sfc_main, [['render',_sfc_render]])",
+      "start": 1715842295767,
+      "end": 1715842295768,
       "order": "post"
     },
     {
       "name": "nuxt:tree-shake-composables:transform",
-      "start": 1715822274623,
-      "end": 1715822274623,
+      "start": 1715842295768,
+      "end": 1715842295768,
       "order": "post"
     },
     {
       "name": "vite:build-import-analysis",
-      "start": 1715822274623,
-      "end": 1715822274623,
+      "start": 1715842295768,
+      "end": 1715842295768,
       "order": "normal"
     },
     {
       "name": "vite:reporter",
-      "start": 1715822274623,
-      "end": 1715822274623,
+      "start": 1715842295768,
+      "end": 1715842295768,
       "order": "normal"
     }
   ]

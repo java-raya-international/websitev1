@@ -4,75 +4,75 @@
     {
       "name": "vite:load-fallback",
       "result": "<template>\r\n    <div class=\"testimonial-section section-padding-t90 section-padding-bottom\">\r\n        <div class=\"container-fluid\">\r\n            <!-- Section Title Start -->\r\n            <div class=\"section-title text-center\" data-aos=\"fade-up\">\r\n                <h2 class=\"title fz-32\">What our customers are saying about our services</h2>\r\n                <p class=\"sub-title\">Get your company heading in the right direction with our digital marketing strategist</p>\r\n            </div>\r\n            <!-- Section Title End -->\r\n\r\n            <!--Testimonial Slider Start -->\r\n            <div class=\"testimonial-slider\" data-aos=\"fade-up\">\r\n                <swiper\r\n                    :slides-per-view=\"3\"\r\n                    :space-between=\"30\"\r\n                    :speed=\"1000\"\r\n                    :loop=\"true\"\r\n                    :centered-slides=\"true\"\r\n                    :pagination=\"swiperOptions.pagination\"\r\n                >\r\n                    <swiper-slide v-for=\"(testimonial, index) in testimonialData\" :key=\"index\">\r\n                        <TestimonialItem :testimonial=\"testimonial\" />\r\n                    </swiper-slide>\r\n                </swiper>\r\n                <div class=\"swiper-pagination text-center\"></div>\r\n            </div>\r\n            <!--Testimonial Slider End -->\r\n        </div>\r\n    </div>\r\n</template>\r\n\r\n<script>\r\n    import SwiperCore, { Pagination } from 'swiper/core'\r\n    import { Swiper, SwiperSlide } from 'swiper/vue'\r\n    SwiperCore.use([Pagination])\r\n\r\n    import \"swiper/css\"\r\n\r\n    export default {\r\n        components: {\r\n            Swiper,\r\n            SwiperSlide,\r\n            TestimonialItem: () => import('@/components/TestimonialItem'),\r\n        },\r\n\r\n        data() {\r\n            return {\r\n                swiperOptions: {\r\n                    pagination: {\r\n                        el: '.swiper-pagination',\r\n                        type: 'bullets',\r\n                        clickable: true\r\n                    }\r\n                },\r\n\r\n                testimonialData: [\r\n                    {\r\n                        id: 1,\r\n                        text: \"We are completely satisfied with the quality of service that we get. Workers were respectful, efficient, accommodating, cleaned up thoroughly.\",\r\n                        imgSrc: \"/images/testimonial/author-1.png\",\r\n                        name: \"Uzzal Hossain\",\r\n                        position: \"Frontend Developer\"\r\n                    },\r\n                    {\r\n                        id: 2,\r\n                        text: \"We are completely satisfied with the quality of service that we get. Workers were respectful, efficient, accommodating, cleaned up thoroughly.\",\r\n                        imgSrc: \"/images/testimonial/author-2.png\",\r\n                        name: \"Tasnim Akter\",\r\n                        position: \"Marketing Manager\"\r\n                    },\r\n                    {\r\n                        id: 3,\r\n                        text: \"We are completely satisfied with the quality of service that we get. Workers were respectful, efficient, accommodating, cleaned up thoroughly.\",\r\n                        imgSrc: \"/images/testimonial/author-3.png\",\r\n                        name: \"Yeasin Hossain\",\r\n                        position: \"Team Leader\"\r\n                    }\r\n                ]\r\n            }\r\n        },\r\n    };\r\n</script>",
-      "start": 1715822279053,
-      "end": 1715822279670,
+      "start": 1715842300635,
+      "end": 1715842300711,
       "sourcemaps": null
     },
     {
       "name": "nuxt:layer-aliasing",
-      "start": 1715822279670,
-      "end": 1715822279670,
+      "start": 1715842300711,
+      "end": 1715842300711,
       "order": "pre"
     },
     {
       "name": "nuxt:layer-aliasing",
-      "start": 1715822279670,
-      "end": 1715822279670,
+      "start": 1715842300711,
+      "end": 1715842300711,
       "order": "pre"
     },
     {
       "name": "nuxt:server-devonly:transform",
-      "start": 1715822279670,
-      "end": 1715822279670,
+      "start": 1715842300711,
+      "end": 1715842300711,
       "order": "pre"
     },
     {
       "name": "nuxt:server-devonly:transform",
-      "start": 1715822279670,
-      "end": 1715822279670,
+      "start": 1715842300711,
+      "end": 1715842300711,
       "order": "pre"
     },
     {
       "name": "nuxt:client-fallback-auto-id",
-      "start": 1715822279670,
-      "end": 1715822279670,
+      "start": 1715842300711,
+      "end": 1715842300711,
       "order": "pre"
     },
     {
       "name": "server-only-component-transform",
-      "start": 1715822279670,
-      "end": 1715822279670,
+      "start": 1715842300711,
+      "end": 1715842300711,
       "order": "pre"
     },
     {
       "name": "vite:css",
-      "start": 1715822279670,
-      "end": 1715822279670,
+      "start": 1715842300711,
+      "end": 1715842300711,
       "order": "normal"
     },
     {
       "name": "vite:esbuild",
-      "start": 1715822279670,
-      "end": 1715822279670,
+      "start": 1715842300711,
+      "end": 1715842300711,
       "order": "normal"
     },
     {
       "name": "vite:json",
-      "start": 1715822279670,
-      "end": 1715822279670,
+      "start": 1715842300711,
+      "end": 1715842300711,
       "order": "normal"
     },
     {
       "name": "vite:worker",
-      "start": 1715822279670,
-      "end": 1715822279670,
+      "start": 1715842300711,
+      "end": 1715842300711,
       "order": "normal"
     },
     {
       "name": "vite:vue",
       "result": "\r\n    import SwiperCore, { Pagination } from 'swiper/core'\r\n    import { Swiper, SwiperSlide } from 'swiper/vue'\r\n    SwiperCore.use([Pagination])\r\n\r\n    import \"swiper/css\"\r\n\r\n    const _sfc_main = {\r\n        components: {\r\n            Swiper,\r\n            SwiperSlide,\r\n            TestimonialItem: () => import('@/components/TestimonialItem'),\r\n        },\r\n\r\n        data() {\r\n            return {\r\n                swiperOptions: {\r\n                    pagination: {\r\n                        el: '.swiper-pagination',\r\n                        type: 'bullets',\r\n                        clickable: true\r\n                    }\r\n                },\r\n\r\n                testimonialData: [\r\n                    {\r\n                        id: 1,\r\n                        text: \"We are completely satisfied with the quality of service that we get. Workers were respectful, efficient, accommodating, cleaned up thoroughly.\",\r\n                        imgSrc: \"/images/testimonial/author-1.png\",\r\n                        name: \"Uzzal Hossain\",\r\n                        position: \"Frontend Developer\"\r\n                    },\r\n                    {\r\n                        id: 2,\r\n                        text: \"We are completely satisfied with the quality of service that we get. Workers were respectful, efficient, accommodating, cleaned up thoroughly.\",\r\n                        imgSrc: \"/images/testimonial/author-2.png\",\r\n                        name: \"Tasnim Akter\",\r\n                        position: \"Marketing Manager\"\r\n                    },\r\n                    {\r\n                        id: 3,\r\n                        text: \"We are completely satisfied with the quality of service that we get. Workers were respectful, efficient, accommodating, cleaned up thoroughly.\",\r\n                        imgSrc: \"/images/testimonial/author-3.png\",\r\n                        name: \"Yeasin Hossain\",\r\n                        position: \"Team Leader\"\r\n                    }\r\n                ]\r\n            }\r\n        },\r\n    };\r\n\nimport { resolveComponent as _resolveComponent, withCtx as _withCtx, createVNode as _createVNode, renderList as _renderList, Fragment as _Fragment, openBlock as _openBlock, createBlock as _createBlock, mergeProps as _mergeProps } from \"vue\"\nimport { ssrRenderComponent as _ssrRenderComponent, ssrRenderAttrs as _ssrRenderAttrs, ssrRenderList as _ssrRenderList } from \"vue/server-renderer\"\n\nfunction _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $options) {\n  const _component_swiper = _resolveComponent(\"swiper\")\n  const _component_swiper_slide = _resolveComponent(\"swiper-slide\")\n  const _component_TestimonialItem = _resolveComponent(\"TestimonialItem\")\n\n  _push(`<div${_ssrRenderAttrs(_mergeProps({ class: \"testimonial-section section-padding-t90 section-padding-bottom\" }, _attrs))}><div class=\"container-fluid\"><div class=\"section-title text-center\" data-aos=\"fade-up\"><h2 class=\"title fz-32\">What our customers are saying about our services</h2><p class=\"sub-title\">Get your company heading in the right direction with our digital marketing strategist</p></div><div class=\"testimonial-slider\" data-aos=\"fade-up\">`)\n  _push(_ssrRenderComponent(_component_swiper, {\n    \"slides-per-view\": 3,\n    \"space-between\": 30,\n    speed: 1000,\n    loop: true,\n    \"centered-slides\": true,\n    pagination: $data.swiperOptions.pagination\n  }, {\n    default: _withCtx((_, _push, _parent, _scopeId) => {\n      if (_push) {\n        _push(`<!--[-->`)\n        _ssrRenderList($data.testimonialData, (testimonial, index) => {\n          _push(_ssrRenderComponent(_component_swiper_slide, { key: index }, {\n            default: _withCtx((_, _push, _parent, _scopeId) => {\n              if (_push) {\n                _push(_ssrRenderComponent(_component_TestimonialItem, { testimonial: testimonial }, null, _parent, _scopeId))\n              } else {\n                return [\n                  _createVNode(_component_TestimonialItem, { testimonial: testimonial }, null, 8, [\"testimonial\"])\n                ]\n              }\n            }),\n            _: 2\n          }, _parent, _scopeId))\n        })\n        _push(`<!--]-->`)\n      } else {\n        return [\n          (_openBlock(true), _createBlock(_Fragment, null, _renderList($data.testimonialData, (testimonial, index) => {\n            return (_openBlock(), _createBlock(_component_swiper_slide, { key: index }, {\n              default: _withCtx(() => [\n                _createVNode(_component_TestimonialItem, { testimonial: testimonial }, null, 8, [\"testimonial\"])\n              ]),\n              _: 2\n            }, 1024))\n          }), 128))\n        ]\n      }\n    }),\n    _: 1\n  }, _parent))\n  _push(`<div class=\"swiper-pagination text-center\"></div></div></div></div>`)\n}\n\n\nimport { useSSRContext as __vite_useSSRContext } from 'vue'\nconst _sfc_setup = _sfc_main.setup\n_sfc_main.setup = (props, ctx) => {\n  const ssrContext = __vite_useSSRContext()\n  ;(ssrContext.modules || (ssrContext.modules = new Set())).add(\"components/TestimonialSectionOne.vue\")\n  return _sfc_setup ? _sfc_setup(props, ctx) : undefined\n}\nimport _export_sfc from '\u0000plugin-vue:export-helper'\nexport default /*#__PURE__*/_export_sfc(_sfc_main, [['ssrRender',_sfc_ssrRender]])",
-      "start": 1715822279670,
-      "end": 1715822279672,
+      "start": 1715842300711,
+      "end": 1715842300713,
       "order": "normal",
       "sourcemaps": {
         "version": 3,
@@ -89,159 +89,159 @@
     },
     {
       "name": "vite:vue-jsx",
-      "start": 1715822279672,
-      "end": 1715822279672,
+      "start": 1715842300713,
+      "end": 1715842300713,
       "order": "normal"
     },
     {
       "name": "replace",
-      "start": 1715822279672,
-      "end": 1715822279672,
+      "start": 1715842300713,
+      "end": 1715842300713,
       "order": "normal"
     },
     {
       "name": "replace",
-      "start": 1715822279672,
-      "end": 1715822279672,
+      "start": 1715842300713,
+      "end": 1715842300713,
       "order": "normal"
     },
     {
       "name": "nuxt:remove-plugin-metadata",
-      "start": 1715822279672,
-      "end": 1715822279672,
+      "start": 1715842300713,
+      "end": 1715842300713,
       "order": "normal"
     },
     {
       "name": "nuxt:remove-plugin-metadata",
-      "start": 1715822279672,
-      "end": 1715822279672,
+      "start": 1715842300713,
+      "end": 1715842300713,
       "order": "normal"
     },
     {
       "name": "nuxt:components:imports",
-      "start": 1715822279672,
-      "end": 1715822279672,
+      "start": 1715842300713,
+      "end": 1715842300713,
       "order": "normal"
     },
     {
       "name": "replace",
-      "start": 1715822279672,
-      "end": 1715822279672,
+      "start": 1715842300713,
+      "end": 1715842300713,
       "order": "normal"
     },
     {
       "name": "ssr-styles",
-      "start": 1715822279672,
-      "end": 1715822279672,
+      "start": 1715842300713,
+      "end": 1715842300713,
       "order": "normal"
     },
     {
       "name": "vite:define",
-      "start": 1715822279672,
-      "end": 1715822279672,
+      "start": 1715842300713,
+      "end": 1715842300713,
       "order": "normal"
     },
     {
       "name": "vite:css-post",
-      "start": 1715822279672,
-      "end": 1715822279672,
+      "start": 1715842300713,
+      "end": 1715842300713,
       "order": "normal"
     },
     {
       "name": "vite:build-html",
-      "start": 1715822279672,
-      "end": 1715822279672,
+      "start": 1715842300713,
+      "end": 1715842300713,
       "order": "normal"
     },
     {
       "name": "vite:worker-import-meta-url",
-      "start": 1715822279672,
-      "end": 1715822279672,
+      "start": 1715842300713,
+      "end": 1715842300713,
       "order": "normal"
     },
     {
       "name": "vite:asset-import-meta-url",
-      "start": 1715822279672,
-      "end": 1715822279672,
+      "start": 1715842300713,
+      "end": 1715842300713,
       "order": "normal"
     },
     {
       "name": "commonjs",
-      "start": 1715822279672,
-      "end": 1715822279672,
+      "start": 1715842300713,
+      "end": 1715842300713,
       "order": "normal"
     },
     {
       "name": "vite:dynamic-import-vars",
-      "start": 1715822279672,
-      "end": 1715822279672,
+      "start": 1715842300713,
+      "end": 1715842300713,
       "order": "normal"
     },
     {
       "name": "vite:import-glob",
-      "start": 1715822279672,
-      "end": 1715822279672,
+      "start": 1715842300713,
+      "end": 1715842300713,
       "order": "normal"
     },
     {
       "name": "nuxt:composable-keys",
-      "start": 1715822279672,
-      "end": 1715822279672,
+      "start": 1715842300713,
+      "end": 1715842300714,
       "order": "post"
     },
     {
       "name": "nuxt:composable-keys",
-      "start": 1715822279672,
-      "end": 1715822279672,
+      "start": 1715842300713,
+      "end": 1715842300714,
       "order": "post"
     },
     {
       "name": "nuxt:imports-transform",
-      "start": 1715822279672,
-      "end": 1715822279673,
+      "start": 1715842300714,
+      "end": 1715842300714,
       "order": "post"
     },
     {
       "name": "nuxt:imports-transform",
-      "start": 1715822279672,
-      "end": 1715822279673,
+      "start": 1715842300714,
+      "end": 1715842300714,
       "order": "post"
     },
     {
       "name": "unctx:transform",
-      "start": 1715822279673,
-      "end": 1715822279673,
+      "start": 1715842300714,
+      "end": 1715842300714,
       "order": "post"
     },
     {
       "name": "unctx:transform",
-      "start": 1715822279673,
-      "end": 1715822279673,
+      "start": 1715842300714,
+      "end": 1715842300714,
       "order": "post"
     },
     {
       "name": "nuxt:pages-macros-transform",
-      "start": 1715822279673,
-      "end": 1715822279673,
+      "start": 1715842300714,
+      "end": 1715842300714,
       "order": "post"
     },
     {
       "name": "nuxt:pages-macros-transform",
-      "start": 1715822279673,
-      "end": 1715822279673,
+      "start": 1715842300714,
+      "end": 1715842300714,
       "order": "post"
     },
     {
       "name": "nuxt:tree-shake-template",
-      "start": 1715822279673,
-      "end": 1715822279673,
+      "start": 1715842300714,
+      "end": 1715842300714,
       "order": "post"
     },
     {
       "name": "nuxt:components-loader",
       "result": "import { default as __nuxt_component_0 } from \"E:/Projects/JavaRayaInternational/website/components/TestimonialItem.vue\";\n\r\n    import SwiperCore, { Pagination } from 'swiper/core'\r\n    import { Swiper, SwiperSlide } from 'swiper/vue'\r\n    SwiperCore.use([Pagination])\r\n\r\n    import \"swiper/css\"\r\n\r\n    const _sfc_main = {\r\n        components: {\r\n            Swiper,\r\n            SwiperSlide,\r\n            TestimonialItem: () => import('@/components/TestimonialItem'),\r\n        },\r\n\r\n        data() {\r\n            return {\r\n                swiperOptions: {\r\n                    pagination: {\r\n                        el: '.swiper-pagination',\r\n                        type: 'bullets',\r\n                        clickable: true\r\n                    }\r\n                },\r\n\r\n                testimonialData: [\r\n                    {\r\n                        id: 1,\r\n                        text: \"We are completely satisfied with the quality of service that we get. Workers were respectful, efficient, accommodating, cleaned up thoroughly.\",\r\n                        imgSrc: \"/images/testimonial/author-1.png\",\r\n                        name: \"Uzzal Hossain\",\r\n                        position: \"Frontend Developer\"\r\n                    },\r\n                    {\r\n                        id: 2,\r\n                        text: \"We are completely satisfied with the quality of service that we get. Workers were respectful, efficient, accommodating, cleaned up thoroughly.\",\r\n                        imgSrc: \"/images/testimonial/author-2.png\",\r\n                        name: \"Tasnim Akter\",\r\n                        position: \"Marketing Manager\"\r\n                    },\r\n                    {\r\n                        id: 3,\r\n                        text: \"We are completely satisfied with the quality of service that we get. Workers were respectful, efficient, accommodating, cleaned up thoroughly.\",\r\n                        imgSrc: \"/images/testimonial/author-3.png\",\r\n                        name: \"Yeasin Hossain\",\r\n                        position: \"Team Leader\"\r\n                    }\r\n                ]\r\n            }\r\n        },\r\n    };\r\n\nimport { resolveComponent as _resolveComponent, withCtx as _withCtx, createVNode as _createVNode, renderList as _renderList, Fragment as _Fragment, openBlock as _openBlock, createBlock as _createBlock, mergeProps as _mergeProps } from \"vue\"\nimport { ssrRenderComponent as _ssrRenderComponent, ssrRenderAttrs as _ssrRenderAttrs, ssrRenderList as _ssrRenderList } from \"vue/server-renderer\"\n\nfunction _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $options) {\n  const _component_swiper = _resolveComponent(\"swiper\")\n  const _component_swiper_slide = _resolveComponent(\"swiper-slide\")\n  const _component_TestimonialItem = __nuxt_component_0\n\n  _push(`<div${_ssrRenderAttrs(_mergeProps({ class: \"testimonial-section section-padding-t90 section-padding-bottom\" }, _attrs))}><div class=\"container-fluid\"><div class=\"section-title text-center\" data-aos=\"fade-up\"><h2 class=\"title fz-32\">What our customers are saying about our services</h2><p class=\"sub-title\">Get your company heading in the right direction with our digital marketing strategist</p></div><div class=\"testimonial-slider\" data-aos=\"fade-up\">`)\n  _push(_ssrRenderComponent(_component_swiper, {\n    \"slides-per-view\": 3,\n    \"space-between\": 30,\n    speed: 1000,\n    loop: true,\n    \"centered-slides\": true,\n    pagination: $data.swiperOptions.pagination\n  }, {\n    default: _withCtx((_, _push, _parent, _scopeId) => {\n      if (_push) {\n        _push(`<!--[-->`)\n        _ssrRenderList($data.testimonialData, (testimonial, index) => {\n          _push(_ssrRenderComponent(_component_swiper_slide, { key: index }, {\n            default: _withCtx((_, _push, _parent, _scopeId) => {\n              if (_push) {\n                _push(_ssrRenderComponent(_component_TestimonialItem, { testimonial: testimonial }, null, _parent, _scopeId))\n              } else {\n                return [\n                  _createVNode(_component_TestimonialItem, { testimonial: testimonial }, null, 8, [\"testimonial\"])\n                ]\n              }\n            }),\n            _: 2\n          }, _parent, _scopeId))\n        })\n        _push(`<!--]-->`)\n      } else {\n        return [\n          (_openBlock(true), _createBlock(_Fragment, null, _renderList($data.testimonialData, (testimonial, index) => {\n            return (_openBlock(), _createBlock(_component_swiper_slide, { key: index }, {\n              default: _withCtx(() => [\n                _createVNode(_component_TestimonialItem, { testimonial: testimonial }, null, 8, [\"testimonial\"])\n              ]),\n              _: 2\n            }, 1024))\n          }), 128))\n        ]\n      }\n    }),\n    _: 1\n  }, _parent))\n  _push(`<div class=\"swiper-pagination text-center\"></div></div></div></div>`)\n}\n\n\nimport { useSSRContext as __vite_useSSRContext } from 'vue'\nconst _sfc_setup = _sfc_main.setup\n_sfc_main.setup = (props, ctx) => {\n  const ssrContext = __vite_useSSRContext()\n  ;(ssrContext.modules || (ssrContext.modules = new Set())).add(\"components/TestimonialSectionOne.vue\")\n  return _sfc_setup ? _sfc_setup(props, ctx) : undefined\n}\nimport _export_sfc from '\u0000plugin-vue:export-helper'\nexport default /*#__PURE__*/_export_sfc(_sfc_main, [['ssrRender',_sfc_ssrRender]])",
-      "start": 1715822279673,
-      "end": 1715822279674,
+      "start": 1715842300714,
+      "end": 1715842300715,
       "order": "post",
       "sourcemaps": {
         "version": 3,
@@ -254,20 +254,20 @@
     },
     {
       "name": "nuxt:tree-shake-composables:transform",
-      "start": 1715822279674,
-      "end": 1715822279674,
+      "start": 1715842300715,
+      "end": 1715842300715,
       "order": "post"
     },
     {
       "name": "vite:build-import-analysis",
-      "start": 1715822279674,
-      "end": 1715822279674,
+      "start": 1715842300715,
+      "end": 1715842300715,
       "order": "normal"
     },
     {
       "name": "vite:reporter",
-      "start": 1715822279674,
-      "end": 1715822279674,
+      "start": 1715842300715,
+      "end": 1715842300715,
       "order": "normal"
     }
   ]

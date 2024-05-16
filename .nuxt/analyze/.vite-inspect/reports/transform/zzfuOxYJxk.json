@@ -4,57 +4,57 @@
     {
       "name": "vite:load-fallback",
       "result": "<template>\r\n    <div class=\"brand-section section-padding\">\r\n        <div class=\"container\">\r\n            <div class=\"row\">\r\n                <div class=\"col-lg-12\">\r\n                    <div class=\"brand-wrapper\">\r\n                        <div class=\"brand-list\">\r\n                            <swiper\r\n                                    :space-between=\"30\"\r\n                                    :speed=\"1000\"\r\n                                    :loop=\"false\"\r\n                                    :autoplay=\"{'delay': 3000}\"\r\n                                    :breakpoints=\"swiperOptions.breakpoints\"\r\n                                >\r\n                                <swiper-slide class=\"brand\" v-for=\"(brand, index) in brandData\" :key=\"index\">\r\n                                    <NuxtLink to=\"\">\r\n                                        <img :src=\"brand.logo\" alt=\"brand.alt\">\r\n                                    </NuxtLink>\r\n                                </swiper-slide>\r\n                            </swiper>\r\n                        </div>\r\n                    </div>\r\n                </div>\r\n            </div>\r\n        </div>\r\n    </div>\r\n</template>\r\n\r\n<script>\r\n    import { Swiper, SwiperSlide } from 'swiper/vue'\r\n    import SwiperCore, { Autoplay} from 'swiper/core';\r\n    SwiperCore.use([Autoplay]);\r\n\r\n    import brandData from '~/data/brand-logo.json'\r\n\r\n    export default {\r\n        components: {\r\n            Swiper,\r\n            SwiperSlide\r\n        },\r\n\r\n        data() {\r\n            return {\r\n                brandData,\r\n\r\n                swiperOptions: {\r\n                    breakpoints: {\r\n                        992:{\r\n                            slidesPerView : 6\r\n                        },\r\n                        768:{\r\n                            slidesPerView : 4\r\n                        },\r\n                        576:{\r\n                            slidesPerView : 3\r\n                        },\r\n                        320:{\r\n                            slidesPerView : 2\r\n                        }\r\n                    }\r\n                },\r\n            }\r\n        },\r\n    };\r\n</script>",
-      "start": 1715822274542,
-      "end": 1715822274612,
+      "start": 1715842295664,
+      "end": 1715842295774,
       "sourcemaps": null
     },
     {
       "name": "nuxt:layer-aliasing",
-      "start": 1715822274612,
-      "end": 1715822274612,
+      "start": 1715842295774,
+      "end": 1715842295774,
       "order": "pre"
     },
     {
       "name": "nuxt:server-devonly:transform",
-      "start": 1715822274612,
-      "end": 1715822274612,
+      "start": 1715842295774,
+      "end": 1715842295774,
       "order": "pre"
     },
     {
       "name": "nuxt:client-fallback-auto-id",
-      "start": 1715822274612,
-      "end": 1715822274612,
+      "start": 1715842295774,
+      "end": 1715842295774,
       "order": "pre"
     },
     {
       "name": "vite:css",
-      "start": 1715822274612,
-      "end": 1715822274612,
+      "start": 1715842295774,
+      "end": 1715842295774,
       "order": "normal"
     },
     {
       "name": "vite:esbuild",
-      "start": 1715822274612,
-      "end": 1715822274612,
+      "start": 1715842295774,
+      "end": 1715842295774,
       "order": "normal"
     },
     {
       "name": "vite:json",
-      "start": 1715822274612,
-      "end": 1715822274612,
+      "start": 1715842295774,
+      "end": 1715842295774,
       "order": "normal"
     },
     {
       "name": "vite:worker",
-      "start": 1715822274612,
-      "end": 1715822274612,
+      "start": 1715842295774,
+      "end": 1715842295774,
       "order": "normal"
     },
     {
       "name": "vite:vue",
       "result": "\r\n    import { Swiper, SwiperSlide } from 'swiper/vue'\r\n    import SwiperCore, { Autoplay} from 'swiper/core';\r\n    SwiperCore.use([Autoplay]);\r\n\r\n    import brandData from '~/data/brand-logo.json'\r\n\r\n    const _sfc_main = {\r\n        components: {\r\n            Swiper,\r\n            SwiperSlide\r\n        },\r\n\r\n        data() {\r\n            return {\r\n                brandData,\r\n\r\n                swiperOptions: {\r\n                    breakpoints: {\r\n                        992:{\r\n                            slidesPerView : 6\r\n                        },\r\n                        768:{\r\n                            slidesPerView : 4\r\n                        },\r\n                        576:{\r\n                            slidesPerView : 3\r\n                        },\r\n                        320:{\r\n                            slidesPerView : 2\r\n                        }\r\n                    }\r\n                },\r\n            }\r\n        },\r\n    };\r\n\nimport { renderList as _renderList, Fragment as _Fragment, openBlock as _openBlock, createElementBlock as _createElementBlock, createElementVNode as _createElementVNode, resolveComponent as _resolveComponent, withCtx as _withCtx, createVNode as _createVNode, createBlock as _createBlock } from \"vue\"\n\nconst _hoisted_1 = { class: \"brand-section section-padding\" }\nconst _hoisted_2 = { class: \"container\" }\nconst _hoisted_3 = { class: \"row\" }\nconst _hoisted_4 = { class: \"col-lg-12\" }\nconst _hoisted_5 = { class: \"brand-wrapper\" }\nconst _hoisted_6 = { class: \"brand-list\" }\nconst _hoisted_7 = [\"src\"]\n\nfunction _sfc_render(_ctx, _cache, $props, $setup, $data, $options) {\n  const _component_NuxtLink = _resolveComponent(\"NuxtLink\")\n  const _component_swiper_slide = _resolveComponent(\"swiper-slide\")\n  const _component_swiper = _resolveComponent(\"swiper\")\n\n  return (_openBlock(), _createElementBlock(\"div\", _hoisted_1, [\n    _createElementVNode(\"div\", _hoisted_2, [\n      _createElementVNode(\"div\", _hoisted_3, [\n        _createElementVNode(\"div\", _hoisted_4, [\n          _createElementVNode(\"div\", _hoisted_5, [\n            _createElementVNode(\"div\", _hoisted_6, [\n              _createVNode(_component_swiper, {\n                \"space-between\": 30,\n                speed: 1000,\n                loop: false,\n                autoplay: {'delay': 3000},\n                breakpoints: $data.swiperOptions.breakpoints\n              }, {\n                default: _withCtx(() => [\n                  (_openBlock(true), _createElementBlock(_Fragment, null, _renderList($data.brandData, (brand, index) => {\n                    return (_openBlock(), _createBlock(_component_swiper_slide, {\n                      class: \"brand\",\n                      key: index\n                    }, {\n                      default: _withCtx(() => [\n                        _createVNode(_component_NuxtLink, { to: \"\" }, {\n                          default: _withCtx(() => [\n                            _createElementVNode(\"img\", {\n                              src: brand.logo,\n                              alt: \"brand.alt\"\n                            }, null, 8, _hoisted_7)\n                          ]),\n                          _: 2\n                        }, 1024)\n                      ]),\n                      _: 2\n                    }, 1024))\n                  }), 128))\n                ]),\n                _: 1\n              }, 8, [\"breakpoints\"])\n            ])\n          ])\n        ])\n      ])\n    ])\n  ]))\n}\n\n\nimport _export_sfc from '\u0000plugin-vue:export-helper'\nexport default /*#__PURE__*/_export_sfc(_sfc_main, [['render',_sfc_render]])",
-      "start": 1715822274612,
-      "end": 1715822274613,
+      "start": 1715842295774,
+      "end": 1715842295775,
       "order": "normal",
       "sourcemaps": {
         "mappings": ""
@@ -62,153 +62,153 @@
     },
     {
       "name": "vite:vue-jsx",
-      "start": 1715822274613,
-      "end": 1715822274613,
+      "start": 1715842295775,
+      "end": 1715842295775,
       "order": "normal"
     },
     {
       "name": "replace",
-      "start": 1715822274613,
-      "end": 1715822274613,
+      "start": 1715842295775,
+      "end": 1715842295775,
       "order": "normal"
     },
     {
       "name": "nuxt:remove-plugin-metadata",
-      "start": 1715822274613,
-      "end": 1715822274613,
+      "start": 1715842295775,
+      "end": 1715842295775,
       "order": "normal"
     },
     {
       "name": "nuxt:chunk-error",
-      "start": 1715822274613,
-      "end": 1715822274613,
+      "start": 1715842295775,
+      "end": 1715842295775,
       "order": "normal"
     },
     {
       "name": "nuxt:components:imports",
-      "start": 1715822274613,
-      "end": 1715822274613,
+      "start": 1715842295775,
+      "end": 1715842295775,
       "order": "normal"
     },
     {
       "name": "replace",
-      "start": 1715822274613,
-      "end": 1715822274613,
+      "start": 1715842295775,
+      "end": 1715842295775,
       "order": "normal"
     },
     {
       "name": "ssr-styles",
-      "start": 1715822274613,
-      "end": 1715822274613,
+      "start": 1715842295775,
+      "end": 1715842295775,
       "order": "normal"
     },
     {
       "name": "vite:define",
-      "start": 1715822274613,
-      "end": 1715822274613,
+      "start": 1715842295775,
+      "end": 1715842295775,
       "order": "normal"
     },
     {
       "name": "vite:css-post",
-      "start": 1715822274613,
-      "end": 1715822274613,
+      "start": 1715842295775,
+      "end": 1715842295775,
       "order": "normal"
     },
     {
       "name": "vite:build-html",
-      "start": 1715822274613,
-      "end": 1715822274613,
+      "start": 1715842295775,
+      "end": 1715842295775,
       "order": "normal"
     },
     {
       "name": "vite:worker-import-meta-url",
-      "start": 1715822274613,
-      "end": 1715822274613,
+      "start": 1715842295775,
+      "end": 1715842295775,
       "order": "normal"
     },
     {
       "name": "vite:asset-import-meta-url",
-      "start": 1715822274613,
-      "end": 1715822274613,
+      "start": 1715842295775,
+      "end": 1715842295775,
       "order": "normal"
     },
     {
       "name": "commonjs",
-      "start": 1715822274613,
-      "end": 1715822274613,
+      "start": 1715842295775,
+      "end": 1715842295775,
       "order": "normal"
     },
     {
       "name": "vite:dynamic-import-vars",
-      "start": 1715822274613,
-      "end": 1715822274613,
+      "start": 1715842295775,
+      "end": 1715842295775,
       "order": "normal"
     },
     {
       "name": "vite:import-glob",
-      "start": 1715822274613,
-      "end": 1715822274613,
+      "start": 1715842295775,
+      "end": 1715842295775,
       "order": "normal"
     },
     {
       "name": "nuxt:composable-keys",
-      "start": 1715822274613,
-      "end": 1715822274613,
+      "start": 1715842295775,
+      "end": 1715842295775,
       "order": "post"
     },
     {
       "name": "nuxt:imports-transform",
-      "start": 1715822274613,
-      "end": 1715822274614,
+      "start": 1715842295775,
+      "end": 1715842295776,
       "order": "post"
     },
     {
       "name": "unctx:transform",
-      "start": 1715822274614,
-      "end": 1715822274614,
+      "start": 1715842295776,
+      "end": 1715842295776,
       "order": "post"
     },
     {
       "name": "nuxt:pages-macros-transform",
-      "start": 1715822274614,
-      "end": 1715822274614,
+      "start": 1715842295776,
+      "end": 1715842295776,
       "order": "post"
     },
     {
       "name": "nuxt:runtime-paths-dep",
-      "start": 1715822274614,
-      "end": 1715822274614,
+      "start": 1715842295776,
+      "end": 1715842295776,
       "order": "post"
     },
     {
       "name": "nuxt:route-injection-plugin",
-      "start": 1715822274614,
-      "end": 1715822274614,
+      "start": 1715842295776,
+      "end": 1715842295776,
       "order": "post"
     },
     {
       "name": "nuxt:components-loader",
       "result": "import { default as __nuxt_component_0 } from \"E:/Projects/JavaRayaInternational/website/node_modules/nuxt/dist/app/components/nuxt-link\";\n\r\n    import { Swiper, SwiperSlide } from 'swiper/vue'\r\n    import SwiperCore, { Autoplay} from 'swiper/core';\r\n    SwiperCore.use([Autoplay]);\r\n\r\n    import brandData from '~/data/brand-logo.json'\r\n\r\n    const _sfc_main = {\r\n        components: {\r\n            Swiper,\r\n            SwiperSlide\r\n        },\r\n\r\n        data() {\r\n            return {\r\n                brandData,\r\n\r\n                swiperOptions: {\r\n                    breakpoints: {\r\n                        992:{\r\n                            slidesPerView : 6\r\n                        },\r\n                        768:{\r\n                            slidesPerView : 4\r\n                        },\r\n                        576:{\r\n                            slidesPerView : 3\r\n                        },\r\n                        320:{\r\n                            slidesPerView : 2\r\n                        }\r\n                    }\r\n                },\r\n            }\r\n        },\r\n    };\r\n\nimport { renderList as _renderList, Fragment as _Fragment, openBlock as _openBlock, createElementBlock as _createElementBlock, createElementVNode as _createElementVNode, resolveComponent as _resolveComponent, withCtx as _withCtx, createVNode as _createVNode, createBlock as _createBlock } from \"vue\"\n\nconst _hoisted_1 = { class: \"brand-section section-padding\" }\nconst _hoisted_2 = { class: \"container\" }\nconst _hoisted_3 = { class: \"row\" }\nconst _hoisted_4 = { class: \"col-lg-12\" }\nconst _hoisted_5 = { class: \"brand-wrapper\" }\nconst _hoisted_6 = { class: \"brand-list\" }\nconst _hoisted_7 = [\"src\"]\n\nfunction _sfc_render(_ctx, _cache, $props, $setup, $data, $options) {\n  const _component_NuxtLink = __nuxt_component_0\n  const _component_swiper_slide = _resolveComponent(\"swiper-slide\")\n  const _component_swiper = _resolveComponent(\"swiper\")\n\n  return (_openBlock(), _createElementBlock(\"div\", _hoisted_1, [\n    _createElementVNode(\"div\", _hoisted_2, [\n      _createElementVNode(\"div\", _hoisted_3, [\n        _createElementVNode(\"div\", _hoisted_4, [\n          _createElementVNode(\"div\", _hoisted_5, [\n            _createElementVNode(\"div\", _hoisted_6, [\n              _createVNode(_component_swiper, {\n                \"space-between\": 30,\n                speed: 1000,\n                loop: false,\n                autoplay: {'delay': 3000},\n                breakpoints: $data.swiperOptions.breakpoints\n              }, {\n                default: _withCtx(() => [\n                  (_openBlock(true), _createElementBlock(_Fragment, null, _renderList($data.brandData, (brand, index) => {\n                    return (_openBlock(), _createBlock(_component_swiper_slide, {\n                      class: \"brand\",\n                      key: index\n                    }, {\n                      default: _withCtx(() => [\n                        _createVNode(_component_NuxtLink, { to: \"\" }, {\n                          default: _withCtx(() => [\n                            _createElementVNode(\"img\", {\n                              src: brand.logo,\n                              alt: \"brand.alt\"\n                            }, null, 8, _hoisted_7)\n                          ]),\n                          _: 2\n                        }, 1024)\n                      ]),\n                      _: 2\n                    }, 1024))\n                  }), 128))\n                ]),\n                _: 1\n              }, 8, [\"breakpoints\"])\n            ])\n          ])\n        ])\n      ])\n    ])\n  ]))\n}\n\n\nimport _export_sfc from '\u0000plugin-vue:export-helper'\nexport default /*#__PURE__*/_export_sfc(_sfc_main, [['render',_sfc_render]])",
-      "start": 1715822274614,
-      "end": 1715822274614,
+      "start": 1715842295776,
+      "end": 1715842295776,
       "order": "post"
     },
     {
       "name": "nuxt:tree-shake-composables:transform",
-      "start": 1715822274614,
-      "end": 1715822274614,
+      "start": 1715842295776,
+      "end": 1715842295776,
       "order": "post"
     },
     {
       "name": "vite:build-import-analysis",
-      "start": 1715822274614,
-      "end": 1715822274614,
+      "start": 1715842295776,
+      "end": 1715842295776,
       "order": "normal"
     },
     {
       "name": "vite:reporter",
-      "start": 1715822274614,
-      "end": 1715822274614,
+      "start": 1715842295776,
+      "end": 1715842295776,
       "order": "normal"
     }
   ]

@@ -4,57 +4,57 @@
     {
       "name": "vite:load-fallback",
       "result": "<template>\r\n    <div class=\"error404\">\r\n        <div class=\"container\">\r\n            <div class=\"row\">\r\n                <div class=\"col-md-12 text-center\">\r\n                    <div class=\"error-image\">\r\n                        <img class=\"img-fluid\" src=\"/images/others/page-404-image.png\" alt=\"Not Found Image\">\r\n                    </div>\r\n                    <h1 class=\"error-404-title text-white\" v-if=\"error.statusCode === 404\">Oops! Page not found!</h1>\r\n                    <h1 class=\"error-404-title text-white\" v-else>An error occurred</h1>\r\n                    <div class=\"error-buttons\">\r\n                        <button class=\"btn btn-primary btn-hover-secondary\" @click=\"$router.go(-1)\">\r\n                            <span class=\"button-text\">Go back previous page</span>\r\n                        </button>\r\n                    </div>\r\n                </div>\r\n            </div>\r\n        </div>\r\n    </div>\r\n</template>\r\n\r\n<script>\r\n    export default {\r\n        props: ['error']\r\n    }\r\n</script>\r\n\r\n<style lang=\"scss\" scoped>\r\n    .error404 {\r\n        display: flex;\r\n        height: 100vh;\r\n        align-items: center;\r\n        justify-content: center;\r\n        background-color: #111111;\r\n    }\r\n    .error-404-title {\r\n        font-weight: 500;\r\n        padding-top: 40px;\r\n        margin-bottom: 30px;\r\n        //res\r\n        @media #{$extra-small-mobile} {\r\n            font-size: 30px;\r\n        }\r\n    }\r\n</style>",
-      "start": 1715822273316,
-      "end": 1715822274000,
+      "start": 1715842294435,
+      "end": 1715842295117,
       "sourcemaps": null
     },
     {
       "name": "nuxt:layer-aliasing",
-      "start": 1715822274000,
-      "end": 1715822274000,
+      "start": 1715842295117,
+      "end": 1715842295117,
       "order": "pre"
     },
     {
       "name": "nuxt:server-devonly:transform",
-      "start": 1715822274000,
-      "end": 1715822274000,
+      "start": 1715842295117,
+      "end": 1715842295117,
       "order": "pre"
     },
     {
       "name": "nuxt:client-fallback-auto-id",
-      "start": 1715822274000,
-      "end": 1715822274000,
+      "start": 1715842295117,
+      "end": 1715842295117,
       "order": "pre"
     },
     {
       "name": "vite:css",
-      "start": 1715822274000,
-      "end": 1715822274000,
+      "start": 1715842295117,
+      "end": 1715842295117,
       "order": "normal"
     },
     {
       "name": "vite:esbuild",
-      "start": 1715822274000,
-      "end": 1715822274000,
+      "start": 1715842295117,
+      "end": 1715842295117,
       "order": "normal"
     },
     {
       "name": "vite:json",
-      "start": 1715822274000,
-      "end": 1715822274000,
+      "start": 1715842295117,
+      "end": 1715842295117,
       "order": "normal"
     },
     {
       "name": "vite:worker",
-      "start": 1715822274001,
-      "end": 1715822274001,
+      "start": 1715842295117,
+      "end": 1715842295117,
       "order": "normal"
     },
     {
       "name": "vite:vue",
       "result": "\r\n    const _sfc_main = {\r\n        props: ['error']\r\n    }\r\n\nimport { createElementVNode as _createElementVNode, openBlock as _openBlock, createElementBlock as _createElementBlock, createCommentVNode as _createCommentVNode, pushScopeId as _pushScopeId, popScopeId as _popScopeId } from \"vue\"\nimport _imports_0 from '/images/others/page-404-image.png'\n\n\nconst _withScopeId = n => (_pushScopeId(\"data-v-aec0da7f\"),n=n(),_popScopeId(),n)\nconst _hoisted_1 = { class: \"error404\" }\nconst _hoisted_2 = { class: \"container\" }\nconst _hoisted_3 = { class: \"row\" }\nconst _hoisted_4 = { class: \"col-md-12 text-center\" }\nconst _hoisted_5 = /*#__PURE__*/ _withScopeId(() => /*#__PURE__*/_createElementVNode(\"div\", { class: \"error-image\" }, [\n  /*#__PURE__*/_createElementVNode(\"img\", {\n    class: \"img-fluid\",\n    src: _imports_0,\n    alt: \"Not Found Image\"\n  })\n], -1))\nconst _hoisted_6 = {\n  key: 0,\n  class: \"error-404-title text-white\"\n}\nconst _hoisted_7 = {\n  key: 1,\n  class: \"error-404-title text-white\"\n}\nconst _hoisted_8 = { class: \"error-buttons\" }\nconst _hoisted_9 = /*#__PURE__*/ _withScopeId(() => /*#__PURE__*/_createElementVNode(\"span\", { class: \"button-text\" }, \"Go back previous page\", -1))\nconst _hoisted_10 = [\n  _hoisted_9\n]\n\nfunction _sfc_render(_ctx, _cache, $props, $setup, $data, $options) {\n  return (_openBlock(), _createElementBlock(\"div\", _hoisted_1, [\n    _createElementVNode(\"div\", _hoisted_2, [\n      _createElementVNode(\"div\", _hoisted_3, [\n        _createElementVNode(\"div\", _hoisted_4, [\n          _hoisted_5,\n          ($props.error.statusCode === 404)\n            ? (_openBlock(), _createElementBlock(\"h1\", _hoisted_6, \"Oops! Page not found!\"))\n            : (_openBlock(), _createElementBlock(\"h1\", _hoisted_7, \"An error occurred\")),\n          _createElementVNode(\"div\", _hoisted_8, [\n            _createElementVNode(\"button\", {\n              class: \"btn btn-primary btn-hover-secondary\",\n              onClick: _cache[0] || (_cache[0] = $event => (_ctx.$router.go(-1)))\n            }, _hoisted_10)\n          ])\n        ])\n      ])\n    ])\n  ]))\n}\n\nimport \"E:/Projects/JavaRayaInternational/website/layouts/error.vue?vue&type=style&index=0&scoped=aec0da7f&lang.scss\"\n\nimport _export_sfc from '\u0000plugin-vue:export-helper'\nexport default /*#__PURE__*/_export_sfc(_sfc_main, [['render',_sfc_render],['__scopeId',\"data-v-aec0da7f\"]])",
-      "start": 1715822274001,
-      "end": 1715822274010,
+      "start": 1715842295117,
+      "end": 1715842295127,
       "order": "normal",
       "sourcemaps": {
         "mappings": ""
@@ -62,152 +62,152 @@
     },
     {
       "name": "vite:vue-jsx",
-      "start": 1715822274010,
-      "end": 1715822274010,
+      "start": 1715842295127,
+      "end": 1715842295127,
       "order": "normal"
     },
     {
       "name": "replace",
-      "start": 1715822274010,
-      "end": 1715822274010,
+      "start": 1715842295127,
+      "end": 1715842295127,
       "order": "normal"
     },
     {
       "name": "nuxt:remove-plugin-metadata",
-      "start": 1715822274010,
-      "end": 1715822274010,
+      "start": 1715842295127,
+      "end": 1715842295127,
       "order": "normal"
     },
     {
       "name": "nuxt:chunk-error",
-      "start": 1715822274010,
-      "end": 1715822274010,
+      "start": 1715842295127,
+      "end": 1715842295127,
       "order": "normal"
     },
     {
       "name": "nuxt:components:imports",
-      "start": 1715822274010,
-      "end": 1715822274010,
+      "start": 1715842295127,
+      "end": 1715842295127,
       "order": "normal"
     },
     {
       "name": "replace",
-      "start": 1715822274010,
-      "end": 1715822274010,
+      "start": 1715842295127,
+      "end": 1715842295127,
       "order": "normal"
     },
     {
       "name": "ssr-styles",
-      "start": 1715822274010,
-      "end": 1715822274010,
+      "start": 1715842295127,
+      "end": 1715842295127,
       "order": "normal"
     },
     {
       "name": "vite:define",
-      "start": 1715822274010,
-      "end": 1715822274010,
+      "start": 1715842295127,
+      "end": 1715842295127,
       "order": "normal"
     },
     {
       "name": "vite:css-post",
-      "start": 1715822274010,
-      "end": 1715822274010,
+      "start": 1715842295127,
+      "end": 1715842295127,
       "order": "normal"
     },
     {
       "name": "vite:build-html",
-      "start": 1715822274010,
-      "end": 1715822274010,
+      "start": 1715842295127,
+      "end": 1715842295127,
       "order": "normal"
     },
     {
       "name": "vite:worker-import-meta-url",
-      "start": 1715822274010,
-      "end": 1715822274010,
+      "start": 1715842295127,
+      "end": 1715842295127,
       "order": "normal"
     },
     {
       "name": "vite:asset-import-meta-url",
-      "start": 1715822274010,
-      "end": 1715822274010,
+      "start": 1715842295127,
+      "end": 1715842295127,
       "order": "normal"
     },
     {
       "name": "commonjs",
-      "start": 1715822274010,
-      "end": 1715822274010,
+      "start": 1715842295127,
+      "end": 1715842295127,
       "order": "normal"
     },
     {
       "name": "vite:dynamic-import-vars",
-      "start": 1715822274010,
-      "end": 1715822274011,
+      "start": 1715842295127,
+      "end": 1715842295127,
       "order": "normal"
     },
     {
       "name": "vite:import-glob",
-      "start": 1715822274011,
-      "end": 1715822274011,
+      "start": 1715842295127,
+      "end": 1715842295127,
       "order": "normal"
     },
     {
       "name": "nuxt:composable-keys",
-      "start": 1715822274011,
-      "end": 1715822274011,
+      "start": 1715842295127,
+      "end": 1715842295127,
       "order": "post"
     },
     {
       "name": "nuxt:imports-transform",
-      "start": 1715822274011,
-      "end": 1715822274012,
+      "start": 1715842295127,
+      "end": 1715842295128,
       "order": "post"
     },
     {
       "name": "unctx:transform",
-      "start": 1715822274012,
-      "end": 1715822274012,
+      "start": 1715842295128,
+      "end": 1715842295128,
       "order": "post"
     },
     {
       "name": "nuxt:pages-macros-transform",
-      "start": 1715822274012,
-      "end": 1715822274012,
+      "start": 1715842295128,
+      "end": 1715842295128,
       "order": "post"
     },
     {
       "name": "nuxt:runtime-paths-dep",
-      "start": 1715822274012,
-      "end": 1715822274012,
+      "start": 1715842295128,
+      "end": 1715842295128,
       "order": "post"
     },
     {
       "name": "nuxt:route-injection-plugin",
-      "start": 1715822274012,
-      "end": 1715822274012,
+      "start": 1715842295128,
+      "end": 1715842295128,
       "order": "post"
     },
     {
       "name": "nuxt:components-loader",
-      "start": 1715822274012,
-      "end": 1715822274012,
+      "start": 1715842295128,
+      "end": 1715842295128,
       "order": "post"
     },
     {
       "name": "nuxt:tree-shake-composables:transform",
-      "start": 1715822274012,
-      "end": 1715822274012,
+      "start": 1715842295128,
+      "end": 1715842295128,
       "order": "post"
     },
     {
       "name": "vite:build-import-analysis",
-      "start": 1715822274012,
-      "end": 1715822274012,
+      "start": 1715842295128,
+      "end": 1715842295128,
       "order": "normal"
     },
     {
       "name": "vite:reporter",
-      "start": 1715822274012,
-      "end": 1715822274012,
+      "start": 1715842295129,
+      "end": 1715842295129,
       "order": "normal"
     }
   ]

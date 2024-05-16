@@ -4,75 +4,75 @@
     {
       "name": "vite:load-fallback",
       "result": "<template>\r\n    <div class=\"section-padding-top success-section-padding-bottom-180 overflow-hidden\">\r\n        <div class=\"container\">\r\n            <div class=\"row\">\r\n                <!-- Success Image Start -->\r\n                <div class=\"col-lg-6\">\r\n                    <div class=\"about-image-area right-0 skill-image-area\">\r\n                        <div class=\"about-image js-tilt\">\r\n                            <img src=\"/images/skill/skill-1.jpg\" alt=\"image\">\r\n                        </div>\r\n                        <div class=\"about-image js-tilt\">\r\n                            <img src=\"/images/skill/skill-2.jpg\" alt=\"image\">\r\n                        </div>\r\n                        <!-- Animation Shape Start -->\r\n                        \r\n                        <ShapeWithAnimation addClassName=\"shape-1\" dataDepth=\"1\" imgSrc=\"/images/shape-animation/video-shape-1.png\" />\r\n                        <!-- Animation Shape End -->\r\n                    </div>\r\n                </div>\r\n                <!-- Success Image End -->\r\n\r\n                <!-- Success Content Start -->\r\n                <div class=\"offset-lg-1 col-lg-5\" data-aos=\"fade-up\">\r\n                    <div class=\"success-content\">\r\n                        <!-- Section Title Two Start -->\r\n                        <div class=\"section-title-two\">\r\n                            <span class=\"sub-title\">Your success is our success</span>\r\n                            <h3 class=\"title\">Web design, marketing & SEO solutions that get results</h3>\r\n                        </div>\r\n                        <!-- Section Title Two End -->\r\n\r\n                        <div class=\"progress-bar--one\">\r\n                            <!-- Start Single Progress Charts -->\r\n                            <div class=\"progress-charts\">\r\n                                <h6 class=\"heading \">UX Design</h6>\r\n                                <div class=\"progress\">\r\n                                    <div class=\"progress-bar gradient-1\" role=\"progressbar\" style=\"width: 81%; visibility: visible;\"  aria-valuenow=\"85\" aria-valuemin=\"0\" aria-valuemax=\"100\">\r\n                                        <span class=\"percent-label\">81%</span>\r\n                                    </div>\r\n                                </div>\r\n                            </div>\r\n                            <!-- End Single Progress Charts -->\r\n\r\n                            <!-- Start Single Progress Charts -->\r\n                            <div class=\"progress-charts \">\r\n                                <h6 class=\"heading \">Marketing</h6>\r\n                                <div class=\"progress\">\r\n                                    <div class=\"progress-bar gradient-2\" role=\"progressbar\" style=\"width: 72%; visibility: visible;\"    aria-valuenow=\"85\" aria-valuemin=\"0\" aria-valuemax=\"100\">\r\n                                        <span class=\"percent-label\">72%</span>\r\n                                    </div>\r\n                                </div>\r\n                            </div>\r\n                            <!-- End Single Progress Charts -->\r\n\r\n                            <!-- Start Single Progress Charts -->\r\n                            <div class=\"progress-charts \">\r\n                                <h6 class=\"heading \">Web Design</h6>\r\n                                <div class=\"progress\">\r\n                                    <div class=\"progress-bar gradient-3\" role=\"progressbar\" style=\"width: 80%; visibility: visible;\"    aria-valuenow=\"80\" aria-valuemin=\"0\" aria-valuemax=\"100\">\r\n                                        <span class=\"percent-label\">80%</span>\r\n                                    </div>\r\n                                </div>\r\n                            </div>\r\n                            <!-- End Single Progress Charts -->\r\n\r\n                            <!-- Start Single Progress Charts -->\r\n                            <div class=\"progress-charts \">\r\n                                <h6 class=\"heading \">Development</h6>\r\n                                <div class=\"progress\">\r\n                                    <div class=\"progress-bar gradient-4\" role=\"progressbar\" style=\"width: 57%; visibility: visible;\"    aria-valuenow=\"90\" aria-valuemin=\"0\" aria-valuemax=\"100\">\r\n                                        <span class=\"percent-label\">57%</span>\r\n                                    </div>\r\n                                </div>\r\n                            </div>\r\n                            <!-- End Single Progress Charts -->\r\n                        </div>\r\n                    </div>\r\n                </div>\r\n                <!-- Success Content End -->\r\n            </div>\r\n        </div>\r\n    </div>\r\n</template>\r\n\r\n<script>\r\n    export default {\r\n        components: {\r\n            ShapeWithAnimation: () => import('@/components/ShapeWithAnimation') ,\r\n        },\r\n    };\r\n</script>\r\n\r\n",
-      "start": 1715822279738,
-      "end": 1715822279833,
+      "start": 1715842300808,
+      "end": 1715842300896,
       "sourcemaps": null
     },
     {
       "name": "nuxt:layer-aliasing",
-      "start": 1715822279833,
-      "end": 1715822279833,
+      "start": 1715842300896,
+      "end": 1715842300896,
       "order": "pre"
     },
     {
       "name": "nuxt:layer-aliasing",
-      "start": 1715822279833,
-      "end": 1715822279833,
+      "start": 1715842300896,
+      "end": 1715842300896,
       "order": "pre"
     },
     {
       "name": "nuxt:server-devonly:transform",
-      "start": 1715822279833,
-      "end": 1715822279833,
+      "start": 1715842300896,
+      "end": 1715842300896,
       "order": "pre"
     },
     {
       "name": "nuxt:server-devonly:transform",
-      "start": 1715822279833,
-      "end": 1715822279833,
+      "start": 1715842300896,
+      "end": 1715842300896,
       "order": "pre"
     },
     {
       "name": "nuxt:client-fallback-auto-id",
-      "start": 1715822279833,
-      "end": 1715822279833,
+      "start": 1715842300896,
+      "end": 1715842300896,
       "order": "pre"
     },
     {
       "name": "server-only-component-transform",
-      "start": 1715822279833,
-      "end": 1715822279833,
+      "start": 1715842300896,
+      "end": 1715842300896,
       "order": "pre"
     },
     {
       "name": "vite:css",
-      "start": 1715822279833,
-      "end": 1715822279833,
+      "start": 1715842300896,
+      "end": 1715842300896,
       "order": "normal"
     },
     {
       "name": "vite:esbuild",
-      "start": 1715822279833,
-      "end": 1715822279833,
+      "start": 1715842300896,
+      "end": 1715842300896,
       "order": "normal"
     },
     {
       "name": "vite:json",
-      "start": 1715822279833,
-      "end": 1715822279833,
+      "start": 1715842300896,
+      "end": 1715842300896,
       "order": "normal"
     },
     {
       "name": "vite:worker",
-      "start": 1715822279833,
-      "end": 1715822279833,
+      "start": 1715842300896,
+      "end": 1715842300896,
       "order": "normal"
     },
     {
       "name": "vite:vue",
       "result": "\r\n    const _sfc_main = {\r\n        components: {\r\n            ShapeWithAnimation: () => import('@/components/ShapeWithAnimation') ,\r\n        },\r\n    };\r\n\nimport { resolveComponent as _resolveComponent, mergeProps as _mergeProps } from \"vue\"\nimport { ssrRenderAttr as _ssrRenderAttr, ssrRenderComponent as _ssrRenderComponent, ssrRenderStyle as _ssrRenderStyle, ssrRenderAttrs as _ssrRenderAttrs } from \"vue/server-renderer\"\nimport _imports_0 from '/images/skill/skill-1.jpg'\nimport _imports_1 from '/images/skill/skill-2.jpg'\n\n\nfunction _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $options) {\n  const _component_ShapeWithAnimation = _resolveComponent(\"ShapeWithAnimation\")\n\n  _push(`<div${\n    _ssrRenderAttrs(_mergeProps({ class: \"section-padding-top success-section-padding-bottom-180 overflow-hidden\" }, _attrs))\n  }><div class=\"container\"><div class=\"row\"><div class=\"col-lg-6\"><div class=\"about-image-area right-0 skill-image-area\"><div class=\"about-image js-tilt\"><img${\n    _ssrRenderAttr(\"src\", _imports_0)\n  } alt=\"image\"></div><div class=\"about-image js-tilt\"><img${\n    _ssrRenderAttr(\"src\", _imports_1)\n  } alt=\"image\"></div>`)\n  _push(_ssrRenderComponent(_component_ShapeWithAnimation, {\n    addClassName: \"shape-1\",\n    dataDepth: \"1\",\n    imgSrc: \"/images/shape-animation/video-shape-1.png\"\n  }, null, _parent))\n  _push(`</div></div><div class=\"offset-lg-1 col-lg-5\" data-aos=\"fade-up\"><div class=\"success-content\"><div class=\"section-title-two\"><span class=\"sub-title\">Your success is our success</span><h3 class=\"title\">Web design, marketing &amp; SEO solutions that get results</h3></div><div class=\"progress-bar--one\"><div class=\"progress-charts\"><h6 class=\"heading\">UX Design</h6><div class=\"progress\"><div class=\"progress-bar gradient-1\" role=\"progressbar\" style=\"${\n    _ssrRenderStyle({\"width\":\"81%\",\"visibility\":\"visible\"})\n  }\" aria-valuenow=\"85\" aria-valuemin=\"0\" aria-valuemax=\"100\"><span class=\"percent-label\">81%</span></div></div></div><div class=\"progress-charts\"><h6 class=\"heading\">Marketing</h6><div class=\"progress\"><div class=\"progress-bar gradient-2\" role=\"progressbar\" style=\"${\n    _ssrRenderStyle({\"width\":\"72%\",\"visibility\":\"visible\"})\n  }\" aria-valuenow=\"85\" aria-valuemin=\"0\" aria-valuemax=\"100\"><span class=\"percent-label\">72%</span></div></div></div><div class=\"progress-charts\"><h6 class=\"heading\">Web Design</h6><div class=\"progress\"><div class=\"progress-bar gradient-3\" role=\"progressbar\" style=\"${\n    _ssrRenderStyle({\"width\":\"80%\",\"visibility\":\"visible\"})\n  }\" aria-valuenow=\"80\" aria-valuemin=\"0\" aria-valuemax=\"100\"><span class=\"percent-label\">80%</span></div></div></div><div class=\"progress-charts\"><h6 class=\"heading\">Development</h6><div class=\"progress\"><div class=\"progress-bar gradient-4\" role=\"progressbar\" style=\"${\n    _ssrRenderStyle({\"width\":\"57%\",\"visibility\":\"visible\"})\n  }\" aria-valuenow=\"90\" aria-valuemin=\"0\" aria-valuemax=\"100\"><span class=\"percent-label\">57%</span></div></div></div></div></div></div></div></div></div>`)\n}\n\n\nimport { useSSRContext as __vite_useSSRContext } from 'vue'\nconst _sfc_setup = _sfc_main.setup\n_sfc_main.setup = (props, ctx) => {\n  const ssrContext = __vite_useSSRContext()\n  ;(ssrContext.modules || (ssrContext.modules = new Set())).add(\"components/SuccessStory.vue\")\n  return _sfc_setup ? _sfc_setup(props, ctx) : undefined\n}\nimport _export_sfc from '\u0000plugin-vue:export-helper'\nexport default /*#__PURE__*/_export_sfc(_sfc_main, [['ssrRender',_sfc_ssrRender]])",
-      "start": 1715822279833,
-      "end": 1715822279834,
+      "start": 1715842300896,
+      "end": 1715842300898,
       "order": "normal",
       "sourcemaps": {
         "version": 3,
@@ -89,159 +89,159 @@
     },
     {
       "name": "vite:vue-jsx",
-      "start": 1715822279834,
-      "end": 1715822279834,
+      "start": 1715842300898,
+      "end": 1715842300898,
       "order": "normal"
     },
     {
       "name": "replace",
-      "start": 1715822279834,
-      "end": 1715822279834,
+      "start": 1715842300898,
+      "end": 1715842300898,
       "order": "normal"
     },
     {
       "name": "replace",
-      "start": 1715822279834,
-      "end": 1715822279834,
+      "start": 1715842300898,
+      "end": 1715842300898,
       "order": "normal"
     },
     {
       "name": "nuxt:remove-plugin-metadata",
-      "start": 1715822279834,
-      "end": 1715822279834,
+      "start": 1715842300898,
+      "end": 1715842300898,
       "order": "normal"
     },
     {
       "name": "nuxt:remove-plugin-metadata",
-      "start": 1715822279834,
-      "end": 1715822279834,
+      "start": 1715842300898,
+      "end": 1715842300898,
       "order": "normal"
     },
     {
       "name": "nuxt:components:imports",
-      "start": 1715822279834,
-      "end": 1715822279835,
+      "start": 1715842300898,
+      "end": 1715842300898,
       "order": "normal"
     },
     {
       "name": "replace",
-      "start": 1715822279835,
-      "end": 1715822279835,
+      "start": 1715842300898,
+      "end": 1715842300898,
       "order": "normal"
     },
     {
       "name": "ssr-styles",
-      "start": 1715822279835,
-      "end": 1715822279835,
+      "start": 1715842300898,
+      "end": 1715842300898,
       "order": "normal"
     },
     {
       "name": "vite:define",
-      "start": 1715822279835,
-      "end": 1715822279835,
+      "start": 1715842300898,
+      "end": 1715842300898,
       "order": "normal"
     },
     {
       "name": "vite:css-post",
-      "start": 1715822279835,
-      "end": 1715822279835,
+      "start": 1715842300898,
+      "end": 1715842300898,
       "order": "normal"
     },
     {
       "name": "vite:build-html",
-      "start": 1715822279835,
-      "end": 1715822279835,
+      "start": 1715842300898,
+      "end": 1715842300898,
       "order": "normal"
     },
     {
       "name": "vite:worker-import-meta-url",
-      "start": 1715822279835,
-      "end": 1715822279835,
+      "start": 1715842300898,
+      "end": 1715842300898,
       "order": "normal"
     },
     {
       "name": "vite:asset-import-meta-url",
-      "start": 1715822279835,
-      "end": 1715822279835,
+      "start": 1715842300898,
+      "end": 1715842300898,
       "order": "normal"
     },
     {
       "name": "commonjs",
-      "start": 1715822279835,
-      "end": 1715822279835,
+      "start": 1715842300898,
+      "end": 1715842300898,
       "order": "normal"
     },
     {
       "name": "vite:dynamic-import-vars",
-      "start": 1715822279835,
-      "end": 1715822279835,
+      "start": 1715842300898,
+      "end": 1715842300898,
       "order": "normal"
     },
     {
       "name": "vite:import-glob",
-      "start": 1715822279835,
-      "end": 1715822279835,
+      "start": 1715842300898,
+      "end": 1715842300898,
       "order": "normal"
     },
     {
       "name": "nuxt:composable-keys",
-      "start": 1715822279835,
-      "end": 1715822279835,
+      "start": 1715842300898,
+      "end": 1715842300898,
       "order": "post"
     },
     {
       "name": "nuxt:composable-keys",
-      "start": 1715822279835,
-      "end": 1715822279835,
+      "start": 1715842300898,
+      "end": 1715842300898,
       "order": "post"
     },
     {
       "name": "nuxt:imports-transform",
-      "start": 1715822279835,
-      "end": 1715822279835,
+      "start": 1715842300898,
+      "end": 1715842300898,
       "order": "post"
     },
     {
       "name": "nuxt:imports-transform",
-      "start": 1715822279835,
-      "end": 1715822279835,
+      "start": 1715842300898,
+      "end": 1715842300898,
       "order": "post"
     },
     {
       "name": "unctx:transform",
-      "start": 1715822279835,
-      "end": 1715822279835,
+      "start": 1715842300898,
+      "end": 1715842300898,
       "order": "post"
     },
     {
       "name": "unctx:transform",
-      "start": 1715822279835,
-      "end": 1715822279835,
+      "start": 1715842300898,
+      "end": 1715842300898,
       "order": "post"
     },
     {
       "name": "nuxt:pages-macros-transform",
-      "start": 1715822279835,
-      "end": 1715822279835,
+      "start": 1715842300898,
+      "end": 1715842300898,
       "order": "post"
     },
     {
       "name": "nuxt:pages-macros-transform",
-      "start": 1715822279835,
-      "end": 1715822279835,
+      "start": 1715842300898,
+      "end": 1715842300898,
       "order": "post"
     },
     {
       "name": "nuxt:tree-shake-template",
-      "start": 1715822279835,
-      "end": 1715822279835,
+      "start": 1715842300898,
+      "end": 1715842300898,
       "order": "post"
     },
     {
       "name": "nuxt:components-loader",
       "result": "import { default as __nuxt_component_0 } from \"E:/Projects/JavaRayaInternational/website/components/ShapeWithAnimation.vue\";\n\r\n    const _sfc_main = {\r\n        components: {\r\n            ShapeWithAnimation: () => import('@/components/ShapeWithAnimation') ,\r\n        },\r\n    };\r\n\nimport { resolveComponent as _resolveComponent, mergeProps as _mergeProps } from \"vue\"\nimport { ssrRenderAttr as _ssrRenderAttr, ssrRenderComponent as _ssrRenderComponent, ssrRenderStyle as _ssrRenderStyle, ssrRenderAttrs as _ssrRenderAttrs } from \"vue/server-renderer\"\nimport _imports_0 from '/images/skill/skill-1.jpg'\nimport _imports_1 from '/images/skill/skill-2.jpg'\n\n\nfunction _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $options) {\n  const _component_ShapeWithAnimation = __nuxt_component_0\n\n  _push(`<div${\n    _ssrRenderAttrs(_mergeProps({ class: \"section-padding-top success-section-padding-bottom-180 overflow-hidden\" }, _attrs))\n  }><div class=\"container\"><div class=\"row\"><div class=\"col-lg-6\"><div class=\"about-image-area right-0 skill-image-area\"><div class=\"about-image js-tilt\"><img${\n    _ssrRenderAttr(\"src\", _imports_0)\n  } alt=\"image\"></div><div class=\"about-image js-tilt\"><img${\n    _ssrRenderAttr(\"src\", _imports_1)\n  } alt=\"image\"></div>`)\n  _push(_ssrRenderComponent(_component_ShapeWithAnimation, {\n    addClassName: \"shape-1\",\n    dataDepth: \"1\",\n    imgSrc: \"/images/shape-animation/video-shape-1.png\"\n  }, null, _parent))\n  _push(`</div></div><div class=\"offset-lg-1 col-lg-5\" data-aos=\"fade-up\"><div class=\"success-content\"><div class=\"section-title-two\"><span class=\"sub-title\">Your success is our success</span><h3 class=\"title\">Web design, marketing &amp; SEO solutions that get results</h3></div><div class=\"progress-bar--one\"><div class=\"progress-charts\"><h6 class=\"heading\">UX Design</h6><div class=\"progress\"><div class=\"progress-bar gradient-1\" role=\"progressbar\" style=\"${\n    _ssrRenderStyle({\"width\":\"81%\",\"visibility\":\"visible\"})\n  }\" aria-valuenow=\"85\" aria-valuemin=\"0\" aria-valuemax=\"100\"><span class=\"percent-label\">81%</span></div></div></div><div class=\"progress-charts\"><h6 class=\"heading\">Marketing</h6><div class=\"progress\"><div class=\"progress-bar gradient-2\" role=\"progressbar\" style=\"${\n    _ssrRenderStyle({\"width\":\"72%\",\"visibility\":\"visible\"})\n  }\" aria-valuenow=\"85\" aria-valuemin=\"0\" aria-valuemax=\"100\"><span class=\"percent-label\">72%</span></div></div></div><div class=\"progress-charts\"><h6 class=\"heading\">Web Design</h6><div class=\"progress\"><div class=\"progress-bar gradient-3\" role=\"progressbar\" style=\"${\n    _ssrRenderStyle({\"width\":\"80%\",\"visibility\":\"visible\"})\n  }\" aria-valuenow=\"80\" aria-valuemin=\"0\" aria-valuemax=\"100\"><span class=\"percent-label\">80%</span></div></div></div><div class=\"progress-charts\"><h6 class=\"heading\">Development</h6><div class=\"progress\"><div class=\"progress-bar gradient-4\" role=\"progressbar\" style=\"${\n    _ssrRenderStyle({\"width\":\"57%\",\"visibility\":\"visible\"})\n  }\" aria-valuenow=\"90\" aria-valuemin=\"0\" aria-valuemax=\"100\"><span class=\"percent-label\">57%</span></div></div></div></div></div></div></div></div></div>`)\n}\n\n\nimport { useSSRContext as __vite_useSSRContext } from 'vue'\nconst _sfc_setup = _sfc_main.setup\n_sfc_main.setup = (props, ctx) => {\n  const ssrContext = __vite_useSSRContext()\n  ;(ssrContext.modules || (ssrContext.modules = new Set())).add(\"components/SuccessStory.vue\")\n  return _sfc_setup ? _sfc_setup(props, ctx) : undefined\n}\nimport _export_sfc from '\u0000plugin-vue:export-helper'\nexport default /*#__PURE__*/_export_sfc(_sfc_main, [['ssrRender',_sfc_ssrRender]])",
-      "start": 1715822279835,
-      "end": 1715822279835,
+      "start": 1715842300898,
+      "end": 1715842300899,
       "order": "post",
       "sourcemaps": {
         "version": 3,
@@ -254,20 +254,20 @@
     },
     {
       "name": "nuxt:tree-shake-composables:transform",
-      "start": 1715822279835,
-      "end": 1715822279835,
+      "start": 1715842300899,
+      "end": 1715842300899,
       "order": "post"
     },
     {
       "name": "vite:build-import-analysis",
-      "start": 1715822279835,
-      "end": 1715822279835,
+      "start": 1715842300899,
+      "end": 1715842300899,
       "order": "normal"
     },
     {
       "name": "vite:reporter",
-      "start": 1715822279835,
-      "end": 1715822279835,
+      "start": 1715842300899,
+      "end": 1715842300899,
       "order": "normal"
     }
   ]

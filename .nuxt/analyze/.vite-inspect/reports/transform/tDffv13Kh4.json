@@ -3,58 +3,58 @@
   "transforms": [
     {
       "name": "vite:load-fallback",
-      "result": "<template>\r\n    <div class=\"main-container\">\r\n        <div>\r\n            <h1>Our APP development timeline</h1>\r\n            <p>Our MVP app will deploy in mobile phone with AI based recommendation and automation</p>\r\n            <p>Below is our plan for app development until 2025 (2 year action plan)</p>\r\n        </div>\r\n        <div class=\"intro-section overlay bg-cover\" :style=\"{\r\n            backgroundImage: `url('/images/bg/javaraya-app-timeline.png')`,\r\n        }\"></div>\r\n    </div>\r\n    <div>dfdfd</div>\r\n</template>\r\n",
-      "start": 1715822274422,
-      "end": 1715822274509,
+      "result": "<template>\r\n    <div class=\"main-container\">\r\n        <div>\r\n            <h1>We will use and develop our own marketplace</h1>\r\n            <p>We will develop e-commerce for our selling products in the web application and mobile application</p>\r\n            <p>Our priorrity is B2B customer with bulk buyer.</p>\r\n            <p>Below is our plan for app development until 2025 (2 year action plan)</p>\r\n            <p>We will split the stores from B2B customers and B2C customers</p>\r\n        </div>\r\n        <div class=\"intro-section overlay bg-cover\" :style=\"{\r\n            backgroundImage: `url('/images/bg/javaraya-app-timeline.png')`,\r\n        }\"></div>\r\n    </div>\r\n    <div>dfdfd</div>\r\n</template>\r\n",
+      "start": 1715842295557,
+      "end": 1715842295629,
       "sourcemaps": null
     },
     {
       "name": "nuxt:layer-aliasing",
-      "start": 1715822274509,
-      "end": 1715822274509,
+      "start": 1715842295629,
+      "end": 1715842295629,
       "order": "pre"
     },
     {
       "name": "nuxt:server-devonly:transform",
-      "start": 1715822274509,
-      "end": 1715822274509,
+      "start": 1715842295629,
+      "end": 1715842295629,
       "order": "pre"
     },
     {
       "name": "nuxt:client-fallback-auto-id",
-      "start": 1715822274509,
-      "end": 1715822274509,
+      "start": 1715842295629,
+      "end": 1715842295629,
       "order": "pre"
     },
     {
       "name": "vite:css",
-      "start": 1715822274509,
-      "end": 1715822274509,
+      "start": 1715842295629,
+      "end": 1715842295629,
       "order": "normal"
     },
     {
       "name": "vite:esbuild",
-      "start": 1715822274509,
-      "end": 1715822274509,
+      "start": 1715842295629,
+      "end": 1715842295629,
       "order": "normal"
     },
     {
       "name": "vite:json",
-      "start": 1715822274509,
-      "end": 1715822274509,
+      "start": 1715842295629,
+      "end": 1715842295629,
       "order": "normal"
     },
     {
       "name": "vite:worker",
-      "start": 1715822274509,
-      "end": 1715822274509,
+      "start": 1715842295629,
+      "end": 1715842295629,
       "order": "normal"
     },
     {
       "name": "vite:vue",
-      "result": "const _sfc_main = {}\nimport { createElementVNode as _createElementVNode, normalizeStyle as _normalizeStyle, Fragment as _Fragment, openBlock as _openBlock, createElementBlock as _createElementBlock } from \"vue\"\n\nconst _hoisted_1 = { class: \"main-container\" }\nconst _hoisted_2 = /*#__PURE__*/_createElementVNode(\"div\", null, [\n  /*#__PURE__*/_createElementVNode(\"h1\", null, \"Our APP development timeline\"),\n  /*#__PURE__*/_createElementVNode(\"p\", null, \"Our MVP app will deploy in mobile phone with AI based recommendation and automation\"),\n  /*#__PURE__*/_createElementVNode(\"p\", null, \"Below is our plan for app development until 2025 (2 year action plan)\")\n], -1)\nconst _hoisted_3 = /*#__PURE__*/_createElementVNode(\"div\", null, \"dfdfd\", -1)\n\nfunction _sfc_render(_ctx, _cache) {\n  return (_openBlock(), _createElementBlock(_Fragment, null, [\n    _createElementVNode(\"div\", _hoisted_1, [\n      _hoisted_2,\n      _createElementVNode(\"div\", {\n        class: \"intro-section overlay bg-cover\",\n        style: _normalizeStyle({\r\n            backgroundImage: `url('/images/bg/javaraya-app-timeline.png')`,\r\n        })\n      }, null, 4)\n    ]),\n    _hoisted_3\n  ], 64))\n}\n\n\nimport _export_sfc from '\u0000plugin-vue:export-helper'\nexport default /*#__PURE__*/_export_sfc(_sfc_main, [['render',_sfc_render]])",
-      "start": 1715822274509,
-      "end": 1715822274510,
+      "result": "const _sfc_main = {}\nimport { createElementVNode as _createElementVNode, normalizeStyle as _normalizeStyle, Fragment as _Fragment, openBlock as _openBlock, createElementBlock as _createElementBlock } from \"vue\"\n\nconst _hoisted_1 = { class: \"main-container\" }\nconst _hoisted_2 = /*#__PURE__*/_createElementVNode(\"div\", null, [\n  /*#__PURE__*/_createElementVNode(\"h1\", null, \"We will use and develop our own marketplace\"),\n  /*#__PURE__*/_createElementVNode(\"p\", null, \"We will develop e-commerce for our selling products in the web application and mobile application\"),\n  /*#__PURE__*/_createElementVNode(\"p\", null, \"Our priorrity is B2B customer with bulk buyer.\"),\n  /*#__PURE__*/_createElementVNode(\"p\", null, \"Below is our plan for app development until 2025 (2 year action plan)\"),\n  /*#__PURE__*/_createElementVNode(\"p\", null, \"We will split the stores from B2B customers and B2C customers\")\n], -1)\nconst _hoisted_3 = /*#__PURE__*/_createElementVNode(\"div\", null, \"dfdfd\", -1)\n\nfunction _sfc_render(_ctx, _cache) {\n  return (_openBlock(), _createElementBlock(_Fragment, null, [\n    _createElementVNode(\"div\", _hoisted_1, [\n      _hoisted_2,\n      _createElementVNode(\"div\", {\n        class: \"intro-section overlay bg-cover\",\n        style: _normalizeStyle({\r\n            backgroundImage: `url('/images/bg/javaraya-app-timeline.png')`,\r\n        })\n      }, null, 4)\n    ]),\n    _hoisted_3\n  ], 64))\n}\n\n\nimport _export_sfc from '\u0000plugin-vue:export-helper'\nexport default /*#__PURE__*/_export_sfc(_sfc_main, [['render',_sfc_render]])",
+      "start": 1715842295629,
+      "end": 1715842295630,
       "order": "normal",
       "sourcemaps": {
         "mappings": ""
@@ -62,152 +62,152 @@
     },
     {
       "name": "vite:vue-jsx",
-      "start": 1715822274510,
-      "end": 1715822274510,
+      "start": 1715842295630,
+      "end": 1715842295630,
       "order": "normal"
     },
     {
       "name": "replace",
-      "start": 1715822274510,
-      "end": 1715822274510,
+      "start": 1715842295630,
+      "end": 1715842295630,
       "order": "normal"
     },
     {
       "name": "nuxt:remove-plugin-metadata",
-      "start": 1715822274510,
-      "end": 1715822274510,
+      "start": 1715842295630,
+      "end": 1715842295630,
       "order": "normal"
     },
     {
       "name": "nuxt:chunk-error",
-      "start": 1715822274510,
-      "end": 1715822274510,
+      "start": 1715842295630,
+      "end": 1715842295630,
       "order": "normal"
     },
     {
       "name": "nuxt:components:imports",
-      "start": 1715822274510,
-      "end": 1715822274510,
+      "start": 1715842295630,
+      "end": 1715842295630,
       "order": "normal"
     },
     {
       "name": "replace",
-      "start": 1715822274510,
-      "end": 1715822274510,
+      "start": 1715842295630,
+      "end": 1715842295630,
       "order": "normal"
     },
     {
       "name": "ssr-styles",
-      "start": 1715822274510,
-      "end": 1715822274510,
+      "start": 1715842295630,
+      "end": 1715842295630,
       "order": "normal"
     },
     {
       "name": "vite:define",
-      "start": 1715822274510,
-      "end": 1715822274510,
+      "start": 1715842295630,
+      "end": 1715842295630,
       "order": "normal"
     },
     {
       "name": "vite:css-post",
-      "start": 1715822274510,
-      "end": 1715822274510,
+      "start": 1715842295630,
+      "end": 1715842295630,
       "order": "normal"
     },
     {
       "name": "vite:build-html",
-      "start": 1715822274510,
-      "end": 1715822274510,
+      "start": 1715842295630,
+      "end": 1715842295630,
       "order": "normal"
     },
     {
       "name": "vite:worker-import-meta-url",
-      "start": 1715822274510,
-      "end": 1715822274510,
+      "start": 1715842295630,
+      "end": 1715842295630,
       "order": "normal"
     },
     {
       "name": "vite:asset-import-meta-url",
-      "start": 1715822274510,
-      "end": 1715822274510,
+      "start": 1715842295630,
+      "end": 1715842295630,
       "order": "normal"
     },
     {
       "name": "commonjs",
-      "start": 1715822274510,
-      "end": 1715822274510,
+      "start": 1715842295630,
+      "end": 1715842295630,
       "order": "normal"
     },
     {
       "name": "vite:dynamic-import-vars",
-      "start": 1715822274510,
-      "end": 1715822274510,
+      "start": 1715842295630,
+      "end": 1715842295630,
       "order": "normal"
     },
     {
       "name": "vite:import-glob",
-      "start": 1715822274510,
-      "end": 1715822274510,
+      "start": 1715842295630,
+      "end": 1715842295630,
       "order": "normal"
     },
     {
       "name": "nuxt:composable-keys",
-      "start": 1715822274510,
-      "end": 1715822274510,
+      "start": 1715842295630,
+      "end": 1715842295630,
       "order": "post"
     },
     {
       "name": "nuxt:imports-transform",
-      "start": 1715822274510,
-      "end": 1715822274510,
+      "start": 1715842295630,
+      "end": 1715842295631,
       "order": "post"
     },
     {
       "name": "unctx:transform",
-      "start": 1715822274510,
-      "end": 1715822274510,
+      "start": 1715842295631,
+      "end": 1715842295631,
       "order": "post"
     },
     {
       "name": "nuxt:pages-macros-transform",
-      "start": 1715822274510,
-      "end": 1715822274510,
+      "start": 1715842295631,
+      "end": 1715842295631,
       "order": "post"
     },
     {
       "name": "nuxt:runtime-paths-dep",
-      "start": 1715822274510,
-      "end": 1715822274510,
+      "start": 1715842295631,
+      "end": 1715842295631,
       "order": "post"
     },
     {
       "name": "nuxt:route-injection-plugin",
-      "start": 1715822274510,
-      "end": 1715822274510,
+      "start": 1715842295631,
+      "end": 1715842295631,
       "order": "post"
     },
     {
       "name": "nuxt:components-loader",
-      "start": 1715822274510,
-      "end": 1715822274510,
+      "start": 1715842295631,
+      "end": 1715842295631,
       "order": "post"
     },
     {
       "name": "nuxt:tree-shake-composables:transform",
-      "start": 1715822274510,
-      "end": 1715822274510,
+      "start": 1715842295631,
+      "end": 1715842295631,
       "order": "post"
     },
     {
       "name": "vite:build-import-analysis",
-      "start": 1715822274510,
-      "end": 1715822274510,
+      "start": 1715842295631,
+      "end": 1715842295631,
       "order": "normal"
     },
     {
       "name": "vite:reporter",
-      "start": 1715822274510,
-      "end": 1715822274510,
+      "start": 1715842295631,
+      "end": 1715842295631,
       "order": "normal"
     }
   ]

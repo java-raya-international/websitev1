@@ -3,58 +3,58 @@
   "transforms": [
     {
       "name": "vite:load-fallback",
-      "result": "<template>\r\n    <TheHeader />\r\n    <OffCanvasMobileMenu />\r\n    <SearchPopup />\r\n    <BreadcrumbOne activePageName=\"Term and Condition\" title=\"Term and Condition\" backgroundUrl= \"/images/bg/breadcrumb-bg-darkgray.png\" />\r\n   \r\n\r\n\r\n    <TheFooter />\r\n</template>",
-      "start": 1715822274133,
-      "end": 1715822274216,
+      "result": "<template>\r\n    <TheHeader />\r\n    <OffCanvasMobileMenu />\r\n    <SearchPopup />\r\n    <BreadcrumbOne activePageName=\"Term and Condition\" title=\"Term and Condition\" backgroundUrl= \"/images/bg/breadcrumb-bg-darkgray.png\" />\r\n   \r\n    <h1>Terms and Conditions</h1>\r\n    <p>Welcome to our website. If you continue to browse and use this website, you are agreeing to comply with and be bound by the following terms and conditions of use, which together with our privacy policy govern our relationship with you in relation to this website. If you disagree with any part of these terms and conditions, please do not use our website.</p>\r\n    \r\n    <h2>1. Use of Website</h2>\r\n    <p>The use of this website is subject to the following terms of use:</p>\r\n    <ul>\r\n        <li>The content of the pages of this website is for your general information and use only. It is subject to change without notice.</li>\r\n        <li>Your use of any information or materials on this website is entirely at your own risk, for which we shall not be liable. It shall be your own responsibility to ensure that any products, services or information available through this website meet your specific requirements.</li>\r\n        <li>This website contains material which is owned by or licensed to us. This material includes, but is not limited to, the design, layout, look, appearance and graphics. Reproduction is prohibited other than in accordance with the copyright notice, which forms part of these terms and conditions.</li>\r\n        <li>All trademarks reproduced in this website, which are not the property of, or licensed to the operator, are acknowledged on the website.</li>\r\n    </ul>\r\n    \r\n    <h2>2. Limitation of Liability</h2>\r\n    <p>In no event will we be liable for any loss or damage including without limitation, indirect or consequential loss or damage, or any loss or damage whatsoever arising from loss of data or profits arising out of, or in connection with, the use of this website.</p>\r\n    \r\n    <h2>3. Links to Other Websites</h2>\r\n    <p>Our website may contain links to other websites of interest. However, once you have used these links to leave our site, you should note that we do not have any control over that other website. Therefore, we cannot be responsible for the protection and privacy of any information which you provide whilst visiting such sites and such sites are not governed by this privacy statement. You should exercise caution and look at the privacy statement applicable to the website in question.</p>\r\n    \r\n    <h2>4. Changes to Terms</h2>\r\n    <p>We reserve the right to modify these terms and conditions at any time. You should check this page regularly to ensure that you are aware of any changes.</p>\r\n    \r\n    <h2>5. Contact Us</h2>\r\n    <p>If you have any questions regarding these terms and conditions, please contact us.</p>\r\n    \r\n\r\n\r\n    <TheFooter />\r\n</template>",
+      "start": 1715842295275,
+      "end": 1715842295374,
       "sourcemaps": null
     },
     {
       "name": "nuxt:layer-aliasing",
-      "start": 1715822274216,
-      "end": 1715822274216,
+      "start": 1715842295374,
+      "end": 1715842295374,
       "order": "pre"
     },
     {
       "name": "nuxt:server-devonly:transform",
-      "start": 1715822274216,
-      "end": 1715822274216,
+      "start": 1715842295374,
+      "end": 1715842295374,
       "order": "pre"
     },
     {
       "name": "nuxt:client-fallback-auto-id",
-      "start": 1715822274216,
-      "end": 1715822274216,
+      "start": 1715842295374,
+      "end": 1715842295374,
       "order": "pre"
     },
     {
       "name": "vite:css",
-      "start": 1715822274216,
-      "end": 1715822274216,
+      "start": 1715842295374,
+      "end": 1715842295374,
       "order": "normal"
     },
     {
       "name": "vite:esbuild",
-      "start": 1715822274216,
-      "end": 1715822274216,
+      "start": 1715842295374,
+      "end": 1715842295374,
       "order": "normal"
     },
     {
       "name": "vite:json",
-      "start": 1715822274216,
-      "end": 1715822274217,
+      "start": 1715842295374,
+      "end": 1715842295374,
       "order": "normal"
     },
     {
       "name": "vite:worker",
-      "start": 1715822274217,
-      "end": 1715822274217,
+      "start": 1715842295374,
+      "end": 1715842295374,
       "order": "normal"
     },
     {
       "name": "vite:vue",
-      "result": "const _sfc_main = {}\nimport { resolveComponent as _resolveComponent, createVNode as _createVNode, Fragment as _Fragment, openBlock as _openBlock, createElementBlock as _createElementBlock } from \"vue\"\n\nfunction _sfc_render(_ctx, _cache) {\n  const _component_TheHeader = _resolveComponent(\"TheHeader\")\n  const _component_OffCanvasMobileMenu = _resolveComponent(\"OffCanvasMobileMenu\")\n  const _component_SearchPopup = _resolveComponent(\"SearchPopup\")\n  const _component_BreadcrumbOne = _resolveComponent(\"BreadcrumbOne\")\n  const _component_TheFooter = _resolveComponent(\"TheFooter\")\n\n  return (_openBlock(), _createElementBlock(_Fragment, null, [\n    _createVNode(_component_TheHeader),\n    _createVNode(_component_OffCanvasMobileMenu),\n    _createVNode(_component_SearchPopup),\n    _createVNode(_component_BreadcrumbOne, {\n      activePageName: \"Term and Condition\",\n      title: \"Term and Condition\",\n      backgroundUrl: \"/images/bg/breadcrumb-bg-darkgray.png\"\n    }),\n    _createVNode(_component_TheFooter)\n  ], 64))\n}\n\n\nimport _export_sfc from '\u0000plugin-vue:export-helper'\nexport default /*#__PURE__*/_export_sfc(_sfc_main, [['render',_sfc_render]])",
-      "start": 1715822274217,
-      "end": 1715822274217,
+      "result": "const _sfc_main = {}\nimport { resolveComponent as _resolveComponent, createVNode as _createVNode, createElementVNode as _createElementVNode, createStaticVNode as _createStaticVNode, Fragment as _Fragment, openBlock as _openBlock, createElementBlock as _createElementBlock } from \"vue\"\n\nconst _hoisted_1 = /*#__PURE__*/_createStaticVNode(\"<h1>Terms and Conditions</h1><p>Welcome to our website. If you continue to browse and use this website, you are agreeing to comply with and be bound by the following terms and conditions of use, which together with our privacy policy govern our relationship with you in relation to this website. If you disagree with any part of these terms and conditions, please do not use our website.</p><h2>1. Use of Website</h2><p>The use of this website is subject to the following terms of use:</p><ul><li>The content of the pages of this website is for your general information and use only. It is subject to change without notice.</li><li>Your use of any information or materials on this website is entirely at your own risk, for which we shall not be liable. It shall be your own responsibility to ensure that any products, services or information available through this website meet your specific requirements.</li><li>This website contains material which is owned by or licensed to us. This material includes, but is not limited to, the design, layout, look, appearance and graphics. Reproduction is prohibited other than in accordance with the copyright notice, which forms part of these terms and conditions.</li><li>All trademarks reproduced in this website, which are not the property of, or licensed to the operator, are acknowledged on the website.</li></ul><h2>2. Limitation of Liability</h2><p>In no event will we be liable for any loss or damage including without limitation, indirect or consequential loss or damage, or any loss or damage whatsoever arising from loss of data or profits arising out of, or in connection with, the use of this website.</p><h2>3. Links to Other Websites</h2><p>Our website may contain links to other websites of interest. However, once you have used these links to leave our site, you should note that we do not have any control over that other website. Therefore, we cannot be responsible for the protection and privacy of any information which you provide whilst visiting such sites and such sites are not governed by this privacy statement. You should exercise caution and look at the privacy statement applicable to the website in question.</p><h2>4. Changes to Terms</h2><p>We reserve the right to modify these terms and conditions at any time. You should check this page regularly to ensure that you are aware of any changes.</p><h2>5. Contact Us</h2><p>If you have any questions regarding these terms and conditions, please contact us.</p>\", 13)\n\nfunction _sfc_render(_ctx, _cache) {\n  const _component_TheHeader = _resolveComponent(\"TheHeader\")\n  const _component_OffCanvasMobileMenu = _resolveComponent(\"OffCanvasMobileMenu\")\n  const _component_SearchPopup = _resolveComponent(\"SearchPopup\")\n  const _component_BreadcrumbOne = _resolveComponent(\"BreadcrumbOne\")\n  const _component_TheFooter = _resolveComponent(\"TheFooter\")\n\n  return (_openBlock(), _createElementBlock(_Fragment, null, [\n    _createVNode(_component_TheHeader),\n    _createVNode(_component_OffCanvasMobileMenu),\n    _createVNode(_component_SearchPopup),\n    _createVNode(_component_BreadcrumbOne, {\n      activePageName: \"Term and Condition\",\n      title: \"Term and Condition\",\n      backgroundUrl: \"/images/bg/breadcrumb-bg-darkgray.png\"\n    }),\n    _hoisted_1,\n    _createVNode(_component_TheFooter)\n  ], 64))\n}\n\n\nimport _export_sfc from '\u0000plugin-vue:export-helper'\nexport default /*#__PURE__*/_export_sfc(_sfc_main, [['render',_sfc_render]])",
+      "start": 1715842295374,
+      "end": 1715842295375,
       "order": "normal",
       "sourcemaps": {
         "mappings": ""
@@ -62,153 +62,153 @@
     },
     {
       "name": "vite:vue-jsx",
-      "start": 1715822274217,
-      "end": 1715822274217,
+      "start": 1715842295375,
+      "end": 1715842295375,
       "order": "normal"
     },
     {
       "name": "replace",
-      "start": 1715822274217,
-      "end": 1715822274217,
+      "start": 1715842295375,
+      "end": 1715842295375,
       "order": "normal"
     },
     {
       "name": "nuxt:remove-plugin-metadata",
-      "start": 1715822274217,
-      "end": 1715822274217,
+      "start": 1715842295375,
+      "end": 1715842295375,
       "order": "normal"
     },
     {
       "name": "nuxt:chunk-error",
-      "start": 1715822274217,
-      "end": 1715822274217,
+      "start": 1715842295375,
+      "end": 1715842295375,
       "order": "normal"
     },
     {
       "name": "nuxt:components:imports",
-      "start": 1715822274217,
-      "end": 1715822274217,
+      "start": 1715842295375,
+      "end": 1715842295375,
       "order": "normal"
     },
     {
       "name": "replace",
-      "start": 1715822274217,
-      "end": 1715822274217,
+      "start": 1715842295375,
+      "end": 1715842295375,
       "order": "normal"
     },
     {
       "name": "ssr-styles",
-      "start": 1715822274217,
-      "end": 1715822274217,
+      "start": 1715842295375,
+      "end": 1715842295375,
       "order": "normal"
     },
     {
       "name": "vite:define",
-      "start": 1715822274217,
-      "end": 1715822274217,
+      "start": 1715842295375,
+      "end": 1715842295375,
       "order": "normal"
     },
     {
       "name": "vite:css-post",
-      "start": 1715822274217,
-      "end": 1715822274217,
+      "start": 1715842295375,
+      "end": 1715842295375,
       "order": "normal"
     },
     {
       "name": "vite:build-html",
-      "start": 1715822274217,
-      "end": 1715822274217,
+      "start": 1715842295375,
+      "end": 1715842295375,
       "order": "normal"
     },
     {
       "name": "vite:worker-import-meta-url",
-      "start": 1715822274217,
-      "end": 1715822274217,
+      "start": 1715842295375,
+      "end": 1715842295375,
       "order": "normal"
     },
     {
       "name": "vite:asset-import-meta-url",
-      "start": 1715822274217,
-      "end": 1715822274217,
+      "start": 1715842295375,
+      "end": 1715842295375,
       "order": "normal"
     },
     {
       "name": "commonjs",
-      "start": 1715822274217,
-      "end": 1715822274217,
+      "start": 1715842295375,
+      "end": 1715842295375,
       "order": "normal"
     },
     {
       "name": "vite:dynamic-import-vars",
-      "start": 1715822274217,
-      "end": 1715822274217,
+      "start": 1715842295375,
+      "end": 1715842295375,
       "order": "normal"
     },
     {
       "name": "vite:import-glob",
-      "start": 1715822274217,
-      "end": 1715822274217,
+      "start": 1715842295375,
+      "end": 1715842295375,
       "order": "normal"
     },
     {
       "name": "nuxt:composable-keys",
-      "start": 1715822274217,
-      "end": 1715822274217,
+      "start": 1715842295375,
+      "end": 1715842295375,
       "order": "post"
     },
     {
       "name": "nuxt:imports-transform",
-      "start": 1715822274217,
-      "end": 1715822274217,
+      "start": 1715842295375,
+      "end": 1715842295375,
       "order": "post"
     },
     {
       "name": "unctx:transform",
-      "start": 1715822274217,
-      "end": 1715822274218,
+      "start": 1715842295375,
+      "end": 1715842295375,
       "order": "post"
     },
     {
       "name": "nuxt:pages-macros-transform",
-      "start": 1715822274218,
-      "end": 1715822274218,
+      "start": 1715842295375,
+      "end": 1715842295375,
       "order": "post"
     },
     {
       "name": "nuxt:runtime-paths-dep",
-      "start": 1715822274218,
-      "end": 1715822274218,
+      "start": 1715842295375,
+      "end": 1715842295375,
       "order": "post"
     },
     {
       "name": "nuxt:route-injection-plugin",
-      "start": 1715822274218,
-      "end": 1715822274218,
+      "start": 1715842295375,
+      "end": 1715842295375,
       "order": "post"
     },
     {
       "name": "nuxt:components-loader",
-      "result": "import { default as __nuxt_component_0 } from \"E:/Projects/JavaRayaInternational/website/components/TheHeader.vue\";\nimport { default as __nuxt_component_1 } from \"E:/Projects/JavaRayaInternational/website/components/OffCanvasMobileMenu.vue\";\nimport { default as __nuxt_component_2 } from \"E:/Projects/JavaRayaInternational/website/components/SearchPopup.vue\";\nimport { default as __nuxt_component_3 } from \"E:/Projects/JavaRayaInternational/website/components/BreadcrumbOne.vue\";\nimport { default as __nuxt_component_4 } from \"E:/Projects/JavaRayaInternational/website/components/TheFooter.vue\";\nconst _sfc_main = {}\nimport { resolveComponent as _resolveComponent, createVNode as _createVNode, Fragment as _Fragment, openBlock as _openBlock, createElementBlock as _createElementBlock } from \"vue\"\n\nfunction _sfc_render(_ctx, _cache) {\n  const _component_TheHeader = __nuxt_component_0\n  const _component_OffCanvasMobileMenu = __nuxt_component_1\n  const _component_SearchPopup = __nuxt_component_2\n  const _component_BreadcrumbOne = __nuxt_component_3\n  const _component_TheFooter = __nuxt_component_4\n\n  return (_openBlock(), _createElementBlock(_Fragment, null, [\n    _createVNode(_component_TheHeader),\n    _createVNode(_component_OffCanvasMobileMenu),\n    _createVNode(_component_SearchPopup),\n    _createVNode(_component_BreadcrumbOne, {\n      activePageName: \"Term and Condition\",\n      title: \"Term and Condition\",\n      backgroundUrl: \"/images/bg/breadcrumb-bg-darkgray.png\"\n    }),\n    _createVNode(_component_TheFooter)\n  ], 64))\n}\n\n\nimport _export_sfc from '\u0000plugin-vue:export-helper'\nexport default /*#__PURE__*/_export_sfc(_sfc_main, [['render',_sfc_render]])",
-      "start": 1715822274218,
-      "end": 1715822274218,
+      "result": "import { default as __nuxt_component_0 } from \"E:/Projects/JavaRayaInternational/website/components/TheHeader.vue\";\nimport { default as __nuxt_component_1 } from \"E:/Projects/JavaRayaInternational/website/components/OffCanvasMobileMenu.vue\";\nimport { default as __nuxt_component_2 } from \"E:/Projects/JavaRayaInternational/website/components/SearchPopup.vue\";\nimport { default as __nuxt_component_3 } from \"E:/Projects/JavaRayaInternational/website/components/BreadcrumbOne.vue\";\nimport { default as __nuxt_component_4 } from \"E:/Projects/JavaRayaInternational/website/components/TheFooter.vue\";\nconst _sfc_main = {}\nimport { resolveComponent as _resolveComponent, createVNode as _createVNode, createElementVNode as _createElementVNode, createStaticVNode as _createStaticVNode, Fragment as _Fragment, openBlock as _openBlock, createElementBlock as _createElementBlock } from \"vue\"\n\nconst _hoisted_1 = /*#__PURE__*/_createStaticVNode(\"<h1>Terms and Conditions</h1><p>Welcome to our website. If you continue to browse and use this website, you are agreeing to comply with and be bound by the following terms and conditions of use, which together with our privacy policy govern our relationship with you in relation to this website. If you disagree with any part of these terms and conditions, please do not use our website.</p><h2>1. Use of Website</h2><p>The use of this website is subject to the following terms of use:</p><ul><li>The content of the pages of this website is for your general information and use only. It is subject to change without notice.</li><li>Your use of any information or materials on this website is entirely at your own risk, for which we shall not be liable. It shall be your own responsibility to ensure that any products, services or information available through this website meet your specific requirements.</li><li>This website contains material which is owned by or licensed to us. This material includes, but is not limited to, the design, layout, look, appearance and graphics. Reproduction is prohibited other than in accordance with the copyright notice, which forms part of these terms and conditions.</li><li>All trademarks reproduced in this website, which are not the property of, or licensed to the operator, are acknowledged on the website.</li></ul><h2>2. Limitation of Liability</h2><p>In no event will we be liable for any loss or damage including without limitation, indirect or consequential loss or damage, or any loss or damage whatsoever arising from loss of data or profits arising out of, or in connection with, the use of this website.</p><h2>3. Links to Other Websites</h2><p>Our website may contain links to other websites of interest. However, once you have used these links to leave our site, you should note that we do not have any control over that other website. Therefore, we cannot be responsible for the protection and privacy of any information which you provide whilst visiting such sites and such sites are not governed by this privacy statement. You should exercise caution and look at the privacy statement applicable to the website in question.</p><h2>4. Changes to Terms</h2><p>We reserve the right to modify these terms and conditions at any time. You should check this page regularly to ensure that you are aware of any changes.</p><h2>5. Contact Us</h2><p>If you have any questions regarding these terms and conditions, please contact us.</p>\", 13)\n\nfunction _sfc_render(_ctx, _cache) {\n  const _component_TheHeader = __nuxt_component_0\n  const _component_OffCanvasMobileMenu = __nuxt_component_1\n  const _component_SearchPopup = __nuxt_component_2\n  const _component_BreadcrumbOne = __nuxt_component_3\n  const _component_TheFooter = __nuxt_component_4\n\n  return (_openBlock(), _createElementBlock(_Fragment, null, [\n    _createVNode(_component_TheHeader),\n    _createVNode(_component_OffCanvasMobileMenu),\n    _createVNode(_component_SearchPopup),\n    _createVNode(_component_BreadcrumbOne, {\n      activePageName: \"Term and Condition\",\n      title: \"Term and Condition\",\n      backgroundUrl: \"/images/bg/breadcrumb-bg-darkgray.png\"\n    }),\n    _hoisted_1,\n    _createVNode(_component_TheFooter)\n  ], 64))\n}\n\n\nimport _export_sfc from '\u0000plugin-vue:export-helper'\nexport default /*#__PURE__*/_export_sfc(_sfc_main, [['render',_sfc_render]])",
+      "start": 1715842295375,
+      "end": 1715842295375,
       "order": "post"
     },
     {
       "name": "nuxt:tree-shake-composables:transform",
-      "start": 1715822274218,
-      "end": 1715822274218,
+      "start": 1715842295375,
+      "end": 1715842295375,
       "order": "post"
     },
     {
       "name": "vite:build-import-analysis",
-      "start": 1715822274218,
-      "end": 1715822274218,
+      "start": 1715842295375,
+      "end": 1715842295375,
       "order": "normal"
     },
     {
       "name": "vite:reporter",
-      "start": 1715822274218,
-      "end": 1715822274218,
+      "start": 1715842295375,
+      "end": 1715842295375,
       "order": "normal"
     }
   ]

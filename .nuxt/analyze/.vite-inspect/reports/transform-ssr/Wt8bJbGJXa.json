@@ -4,75 +4,75 @@
     {
       "name": "vite:load-fallback",
       "result": "<template>\r\n    <div class=\"header-section header-transparent\" :class=\"{'is-sticky': isSticky}\">\r\n        <div class=\"header-inner\">\r\n            <div class=\"container position-relative\">\r\n                <div class=\"row justify-content-between align-items-center\">\r\n\r\n                    <!-- Header Logo Start -->\r\n                    <div class=\"col-xl-2 col-auto order-0\">\r\n                        <div class=\"header-logo\">\r\n                            <NuxtLink to=\"/\">\r\n                                <img style=\"opacity: 0.5;\" class=\"dark-logo\" src=\"/images/logo/logo.png\" alt=\"Agency Logo\">\r\n                                <img style=\"opacity: 0.5;\" class=\"light-logo\" src=\"/images/logo/logo.png\" alt=\"Agency Logo\">\r\n                            </NuxtLink>\r\n                        </div>\r\n                    </div>\r\n                    <!-- Header Logo End -->\r\n\r\n                    <!-- Header Main Menu Start -->\r\n                    <div class=\"col-auto col-xl d-flex align-items-center justify-content-xl-center justify-content-end order-2 order-xl-1\">\r\n                        <div class=\"menu-column-area d-none d-xl-block position-static\">\r\n                            <Navigation />\r\n                        </div>\r\n                        <!-- Header Search Start -->\r\n                        <div class=\"header-search-area\">\r\n                            <!-- Header Login Start -->\r\n                            <!-- <div class=\"header-search\">\r\n                                <button class=\"header-search-toggle\" @click=\"toggleClass('addClass', 'search-popup-open')\">\r\n                                    <i class=\"fa fa-search\"></i>\r\n                                </button>\r\n                            </div> -->\r\n                            <!-- Header Login End -->\r\n                        </div>\r\n                        <!-- Header Search End -->\r\n\r\n                        <!-- Header Mobile Menu Toggle Start -->\r\n                        <div class=\"header-mobile-menu-toggle d-xl-none ml-sm-2\">\r\n                            <button class=\"toggle\" @click=\"mobiletoggleClass('addClass', 'show-mobile-menu')\">\r\n                                <i class=\"icon-top\"></i>\r\n                                <i class=\"icon-middle\"></i>\r\n                                <i class=\"icon-bottom\"></i>\r\n                            </button>\r\n                        </div>\r\n                        <!-- Header Mobile Menu Toggle End -->\r\n                    </div>\r\n                    <!-- Header Main Menu End -->\r\n\r\n                    <!-- Header Right Start -->\r\n                    <div class=\"col-xl-2 col d-none d-sm-flex justify-content-end order-1 order-xl-2\">\r\n                        <a href=\"https://shop.javaraya.co.uk\" class=\"btn btn-light btn-hover-primary\" target=\"_blank\">Shop Now</a>\r\n                    </div>\r\n\r\n                    <div class=\"col-xl-2 col d-none d-sm-flex justify-content-end order-1 order-xl-2\">\r\n                       <NuxtLink to=\"/download\" class=\"btn btn-light btn-hover-primary\">Download App</NuxtLink>\r\n                    </div>\r\n\r\n                    <!-- Header Right End -->\r\n\r\n                </div>\r\n            </div>\r\n        </div>\r\n    </div>\r\n</template>\r\n\r\n<script>\r\n    export default {\r\n        components: {\r\n            Navigation: () => import(\"@/components/Navigation\"),\r\n        },\r\n\r\n        data() {\r\n            return {\r\n                isSticky: false,\r\n            }\r\n        },\r\n\r\n        mounted(){\r\n            window.addEventListener('scroll', () => {\r\n                let scrollPos = window.scrollY\r\n                if(scrollPos >= 200){\r\n                    this.isSticky = true\r\n                } else {\r\n                    this.isSticky = false\r\n                }\r\n            })\r\n        },\r\n\r\n        methods: {\r\n            // offcanvas mobile menu\r\n            mobiletoggleClass(addRemoveClass, className) {\r\n                const el = document.querySelector('#offcanvas-menu');\r\n                if (addRemoveClass === 'addClass') {\r\n                    el.classList.add(className);\r\n                } else {\r\n                    el.classList.remove(className);\r\n                }\r\n            },\r\n\r\n            //offcanvas search \r\n            toggleClass(addRemoveClass, className) {\r\n                const el = document.querySelector('#search-popup');\r\n                if (addRemoveClass === 'addClass') {\r\n                    el.classList.add(className);\r\n                } else {\r\n                    el.classList.remove(className);\r\n                }\r\n            },\r\n        },\r\n    };\r\n</script>",
-      "start": 1715822279035,
-      "end": 1715822279644,
+      "start": 1715842300078,
+      "end": 1715842300688,
       "sourcemaps": null
     },
     {
       "name": "nuxt:layer-aliasing",
-      "start": 1715822279644,
-      "end": 1715822279644,
+      "start": 1715842300688,
+      "end": 1715842300688,
       "order": "pre"
     },
     {
       "name": "nuxt:layer-aliasing",
-      "start": 1715822279644,
-      "end": 1715822279644,
+      "start": 1715842300688,
+      "end": 1715842300688,
       "order": "pre"
     },
     {
       "name": "nuxt:server-devonly:transform",
-      "start": 1715822279644,
-      "end": 1715822279644,
+      "start": 1715842300688,
+      "end": 1715842300688,
       "order": "pre"
     },
     {
       "name": "nuxt:server-devonly:transform",
-      "start": 1715822279644,
-      "end": 1715822279644,
+      "start": 1715842300688,
+      "end": 1715842300688,
       "order": "pre"
     },
     {
       "name": "nuxt:client-fallback-auto-id",
-      "start": 1715822279644,
-      "end": 1715822279644,
+      "start": 1715842300688,
+      "end": 1715842300688,
       "order": "pre"
     },
     {
       "name": "server-only-component-transform",
-      "start": 1715822279644,
-      "end": 1715822279644,
+      "start": 1715842300688,
+      "end": 1715842300688,
       "order": "pre"
     },
     {
       "name": "vite:css",
-      "start": 1715822279644,
-      "end": 1715822279644,
+      "start": 1715842300688,
+      "end": 1715842300688,
       "order": "normal"
     },
     {
       "name": "vite:esbuild",
-      "start": 1715822279644,
-      "end": 1715822279644,
+      "start": 1715842300688,
+      "end": 1715842300688,
       "order": "normal"
     },
     {
       "name": "vite:json",
-      "start": 1715822279644,
-      "end": 1715822279644,
+      "start": 1715842300688,
+      "end": 1715842300688,
       "order": "normal"
     },
     {
       "name": "vite:worker",
-      "start": 1715822279644,
-      "end": 1715822279644,
+      "start": 1715842300688,
+      "end": 1715842300688,
       "order": "normal"
     },
     {
       "name": "vite:vue",
       "result": "\r\n    const _sfc_main = {\r\n        components: {\r\n            Navigation: () => import(\"@/components/Navigation\"),\r\n        },\r\n\r\n        data() {\r\n            return {\r\n                isSticky: false,\r\n            }\r\n        },\r\n\r\n        mounted(){\r\n            window.addEventListener('scroll', () => {\r\n                let scrollPos = window.scrollY\r\n                if(scrollPos >= 200){\r\n                    this.isSticky = true\r\n                } else {\r\n                    this.isSticky = false\r\n                }\r\n            })\r\n        },\r\n\r\n        methods: {\r\n            // offcanvas mobile menu\r\n            mobiletoggleClass(addRemoveClass, className) {\r\n                const el = document.querySelector('#offcanvas-menu');\r\n                if (addRemoveClass === 'addClass') {\r\n                    el.classList.add(className);\r\n                } else {\r\n                    el.classList.remove(className);\r\n                }\r\n            },\r\n\r\n            //offcanvas search \r\n            toggleClass(addRemoveClass, className) {\r\n                const el = document.querySelector('#search-popup');\r\n                if (addRemoveClass === 'addClass') {\r\n                    el.classList.add(className);\r\n                } else {\r\n                    el.classList.remove(className);\r\n                }\r\n            },\r\n        },\r\n    };\r\n\nimport { resolveComponent as _resolveComponent, withCtx as _withCtx, createVNode as _createVNode, createTextVNode as _createTextVNode, mergeProps as _mergeProps } from \"vue\"\nimport { ssrRenderStyle as _ssrRenderStyle, ssrRenderAttr as _ssrRenderAttr, ssrRenderComponent as _ssrRenderComponent, ssrRenderAttrs as _ssrRenderAttrs } from \"vue/server-renderer\"\nimport _imports_0 from '/images/logo/logo.png'\n\n\nfunction _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $options) {\n  const _component_NuxtLink = _resolveComponent(\"NuxtLink\")\n  const _component_Navigation = _resolveComponent(\"Navigation\")\n\n  _push(`<div${_ssrRenderAttrs(_mergeProps({\n    class: [\"header-section header-transparent\", {'is-sticky': $data.isSticky}]\n  }, _attrs))}><div class=\"header-inner\"><div class=\"container position-relative\"><div class=\"row justify-content-between align-items-center\"><div class=\"col-xl-2 col-auto order-0\"><div class=\"header-logo\">`)\n  _push(_ssrRenderComponent(_component_NuxtLink, { to: \"/\" }, {\n    default: _withCtx((_, _push, _parent, _scopeId) => {\n      if (_push) {\n        _push(`<img style=\"${\n          _ssrRenderStyle({\"opacity\":\"0.5\"})\n        }\" class=\"dark-logo\"${\n          _ssrRenderAttr(\"src\", _imports_0)\n        } alt=\"Agency Logo\"${\n          _scopeId\n        }><img style=\"${\n          _ssrRenderStyle({\"opacity\":\"0.5\"})\n        }\" class=\"light-logo\"${\n          _ssrRenderAttr(\"src\", _imports_0)\n        } alt=\"Agency Logo\"${\n          _scopeId\n        }>`)\n      } else {\n        return [\n          _createVNode(\"img\", {\n            style: {\"opacity\":\"0.5\"},\n            class: \"dark-logo\",\n            src: _imports_0,\n            alt: \"Agency Logo\"\n          }),\n          _createVNode(\"img\", {\n            style: {\"opacity\":\"0.5\"},\n            class: \"light-logo\",\n            src: _imports_0,\n            alt: \"Agency Logo\"\n          })\n        ]\n      }\n    }),\n    _: 1\n  }, _parent))\n  _push(`</div></div><div class=\"col-auto col-xl d-flex align-items-center justify-content-xl-center justify-content-end order-2 order-xl-1\"><div class=\"menu-column-area d-none d-xl-block position-static\">`)\n  _push(_ssrRenderComponent(_component_Navigation, null, null, _parent))\n  _push(`</div><div class=\"header-search-area\"></div><div class=\"header-mobile-menu-toggle d-xl-none ml-sm-2\"><button class=\"toggle\"><i class=\"icon-top\"></i><i class=\"icon-middle\"></i><i class=\"icon-bottom\"></i></button></div></div><div class=\"col-xl-2 col d-none d-sm-flex justify-content-end order-1 order-xl-2\"><a href=\"https://shop.javaraya.co.uk\" class=\"btn btn-light btn-hover-primary\" target=\"_blank\">Shop Now</a></div><div class=\"col-xl-2 col d-none d-sm-flex justify-content-end order-1 order-xl-2\">`)\n  _push(_ssrRenderComponent(_component_NuxtLink, {\n    to: \"/download\",\n    class: \"btn btn-light btn-hover-primary\"\n  }, {\n    default: _withCtx((_, _push, _parent, _scopeId) => {\n      if (_push) {\n        _push(`Download App`)\n      } else {\n        return [\n          _createTextVNode(\"Download App\")\n        ]\n      }\n    }),\n    _: 1\n  }, _parent))\n  _push(`</div></div></div></div></div>`)\n}\n\n\nimport { useSSRContext as __vite_useSSRContext } from 'vue'\nconst _sfc_setup = _sfc_main.setup\n_sfc_main.setup = (props, ctx) => {\n  const ssrContext = __vite_useSSRContext()\n  ;(ssrContext.modules || (ssrContext.modules = new Set())).add(\"components/TheHeader.vue\")\n  return _sfc_setup ? _sfc_setup(props, ctx) : undefined\n}\nimport _export_sfc from '\u0000plugin-vue:export-helper'\nexport default /*#__PURE__*/_export_sfc(_sfc_main, [['ssrRender',_sfc_ssrRender]])",
-      "start": 1715822279644,
-      "end": 1715822279647,
+      "start": 1715842300688,
+      "end": 1715842300690,
       "order": "normal",
       "sourcemaps": {
         "version": 3,
@@ -89,161 +89,161 @@
     },
     {
       "name": "vite:vue-jsx",
-      "start": 1715822279647,
-      "end": 1715822279647,
+      "start": 1715842300690,
+      "end": 1715842300690,
       "order": "normal"
     },
     {
       "name": "replace",
-      "start": 1715822279647,
-      "end": 1715822279647,
+      "start": 1715842300690,
+      "end": 1715842300690,
       "order": "normal"
     },
     {
       "name": "replace",
-      "start": 1715822279647,
-      "end": 1715822279647,
+      "start": 1715842300690,
+      "end": 1715842300690,
       "order": "normal"
     },
     {
       "name": "nuxt:remove-plugin-metadata",
-      "start": 1715822279647,
-      "end": 1715822279647,
+      "start": 1715842300690,
+      "end": 1715842300690,
       "order": "normal"
     },
     {
       "name": "nuxt:remove-plugin-metadata",
-      "start": 1715822279647,
-      "end": 1715822279647,
+      "start": 1715842300690,
+      "end": 1715842300690,
       "order": "normal"
     },
     {
       "name": "nuxt:components:imports",
-      "start": 1715822279647,
-      "end": 1715822279647,
+      "start": 1715842300690,
+      "end": 1715842300690,
       "order": "normal"
     },
     {
       "name": "replace",
-      "start": 1715822279647,
-      "end": 1715822279647,
+      "start": 1715842300690,
+      "end": 1715842300690,
       "order": "normal"
     },
     {
       "name": "ssr-styles",
-      "start": 1715822279647,
-      "end": 1715822279647,
+      "start": 1715842300690,
+      "end": 1715842300690,
       "order": "normal"
     },
     {
       "name": "vite:define",
       "result": "const _sfc_main = {\n  components: {\n    Navigation: () => import(\"@/components/Navigation\")\n  },\n  data() {\n    return {\n      isSticky: false\n    };\n  },\n  mounted() {\n    (void 0).addEventListener(\"scroll\", () => {\n      let scrollPos = (void 0).scrollY;\n      if (scrollPos >= 200) {\n        this.isSticky = true;\n      } else {\n        this.isSticky = false;\n      }\n    });\n  },\n  methods: {\n    // offcanvas mobile menu\n    mobiletoggleClass(addRemoveClass, className) {\n      const el = (void 0).querySelector(\"#offcanvas-menu\");\n      if (addRemoveClass === \"addClass\") {\n        el.classList.add(className);\n      } else {\n        el.classList.remove(className);\n      }\n    },\n    //offcanvas search \n    toggleClass(addRemoveClass, className) {\n      const el = (void 0).querySelector(\"#search-popup\");\n      if (addRemoveClass === \"addClass\") {\n        el.classList.add(className);\n      } else {\n        el.classList.remove(className);\n      }\n    }\n  }\n};\nimport { resolveComponent as _resolveComponent, withCtx as _withCtx, createVNode as _createVNode, createTextVNode as _createTextVNode, mergeProps as _mergeProps } from \"vue\";\nimport { ssrRenderStyle as _ssrRenderStyle, ssrRenderAttr as _ssrRenderAttr, ssrRenderComponent as _ssrRenderComponent, ssrRenderAttrs as _ssrRenderAttrs } from \"vue/server-renderer\";\nimport _imports_0 from \"/images/logo/logo.png\";\nfunction _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $options) {\n  const _component_NuxtLink = _resolveComponent(\"NuxtLink\");\n  const _component_Navigation = _resolveComponent(\"Navigation\");\n  _push(`<div${_ssrRenderAttrs(_mergeProps({\n    class: [\"header-section header-transparent\", { \"is-sticky\": $data.isSticky }]\n  }, _attrs))}><div class=\"header-inner\"><div class=\"container position-relative\"><div class=\"row justify-content-between align-items-center\"><div class=\"col-xl-2 col-auto order-0\"><div class=\"header-logo\">`);\n  _push(_ssrRenderComponent(_component_NuxtLink, { to: \"/\" }, {\n    default: _withCtx((_, _push2, _parent2, _scopeId) => {\n      if (_push2) {\n        _push2(`<img style=\"${_ssrRenderStyle({ \"opacity\": \"0.5\" })}\" class=\"dark-logo\"${_ssrRenderAttr(\"src\", _imports_0)} alt=\"Agency Logo\"${_scopeId}><img style=\"${_ssrRenderStyle({ \"opacity\": \"0.5\" })}\" class=\"light-logo\"${_ssrRenderAttr(\"src\", _imports_0)} alt=\"Agency Logo\"${_scopeId}>`);\n      } else {\n        return [\n          _createVNode(\"img\", {\n            style: { \"opacity\": \"0.5\" },\n            class: \"dark-logo\",\n            src: _imports_0,\n            alt: \"Agency Logo\"\n          }),\n          _createVNode(\"img\", {\n            style: { \"opacity\": \"0.5\" },\n            class: \"light-logo\",\n            src: _imports_0,\n            alt: \"Agency Logo\"\n          })\n        ];\n      }\n    }),\n    _: 1\n  }, _parent));\n  _push(`</div></div><div class=\"col-auto col-xl d-flex align-items-center justify-content-xl-center justify-content-end order-2 order-xl-1\"><div class=\"menu-column-area d-none d-xl-block position-static\">`);\n  _push(_ssrRenderComponent(_component_Navigation, null, null, _parent));\n  _push(`</div><div class=\"header-search-area\"></div><div class=\"header-mobile-menu-toggle d-xl-none ml-sm-2\"><button class=\"toggle\"><i class=\"icon-top\"></i><i class=\"icon-middle\"></i><i class=\"icon-bottom\"></i></button></div></div><div class=\"col-xl-2 col d-none d-sm-flex justify-content-end order-1 order-xl-2\"><a href=\"https://shop.javaraya.co.uk\" class=\"btn btn-light btn-hover-primary\" target=\"_blank\">Shop Now</a></div><div class=\"col-xl-2 col d-none d-sm-flex justify-content-end order-1 order-xl-2\">`);\n  _push(_ssrRenderComponent(_component_NuxtLink, {\n    to: \"/download\",\n    class: \"btn btn-light btn-hover-primary\"\n  }, {\n    default: _withCtx((_, _push2, _parent2, _scopeId) => {\n      if (_push2) {\n        _push2(`Download App`);\n      } else {\n        return [\n          _createTextVNode(\"Download App\")\n        ];\n      }\n    }),\n    _: 1\n  }, _parent));\n  _push(`</div></div></div></div></div>`);\n}\nimport { useSSRContext as __vite_useSSRContext } from \"vue\";\nconst _sfc_setup = _sfc_main.setup;\n_sfc_main.setup = (props, ctx) => {\n  const ssrContext = __vite_useSSRContext();\n  (ssrContext.modules || (ssrContext.modules = /* @__PURE__ */ new Set())).add(\"components/TheHeader.vue\");\n  return _sfc_setup ? _sfc_setup(props, ctx) : void 0;\n};\nimport _export_sfc from \"\\0plugin-vue:export-helper\";\nexport default /* @__PURE__ */ _export_sfc(_sfc_main, [[\"ssrRender\", _sfc_ssrRender]]);\n",
-      "start": 1715822279647,
-      "end": 1715822279714,
+      "start": 1715842300690,
+      "end": 1715842300737,
       "order": "normal",
       "sourcemaps": "{\n  \"version\": 3,\n  \"sources\": [\"E:/Projects/JavaRayaInternational/website/components/TheHeader.vue\"],\n  \"sourcesContent\": [\"\\r\\n    const _sfc_main = {\\r\\n        components: {\\r\\n            Navigation: () => import(\\\"@/components/Navigation\\\"),\\r\\n        },\\r\\n\\r\\n        data() {\\r\\n            return {\\r\\n                isSticky: false,\\r\\n            }\\r\\n        },\\r\\n\\r\\n        mounted(){\\r\\n            window.addEventListener('scroll', () => {\\r\\n                let scrollPos = window.scrollY\\r\\n                if(scrollPos >= 200){\\r\\n                    this.isSticky = true\\r\\n                } else {\\r\\n                    this.isSticky = false\\r\\n                }\\r\\n            })\\r\\n        },\\r\\n\\r\\n        methods: {\\r\\n            // offcanvas mobile menu\\r\\n            mobiletoggleClass(addRemoveClass, className) {\\r\\n                const el = document.querySelector('#offcanvas-menu');\\r\\n                if (addRemoveClass === 'addClass') {\\r\\n                    el.classList.add(className);\\r\\n                } else {\\r\\n                    el.classList.remove(className);\\r\\n                }\\r\\n            },\\r\\n\\r\\n            //offcanvas search \\r\\n            toggleClass(addRemoveClass, className) {\\r\\n                const el = document.querySelector('#search-popup');\\r\\n                if (addRemoveClass === 'addClass') {\\r\\n                    el.classList.add(className);\\r\\n                } else {\\r\\n                    el.classList.remove(className);\\r\\n                }\\r\\n            },\\r\\n        },\\r\\n    };\\r\\n\\nimport { resolveComponent as _resolveComponent, withCtx as _withCtx, createVNode as _createVNode, createTextVNode as _createTextVNode, mergeProps as _mergeProps } from \\\"vue\\\"\\nimport { ssrRenderStyle as _ssrRenderStyle, ssrRenderAttr as _ssrRenderAttr, ssrRenderComponent as _ssrRenderComponent, ssrRenderAttrs as _ssrRenderAttrs } from \\\"vue/server-renderer\\\"\\nimport _imports_0 from '/images/logo/logo.png'\\n\\n\\nfunction _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $options) {\\n  const _component_NuxtLink = _resolveComponent(\\\"NuxtLink\\\")\\n  const _component_Navigation = _resolveComponent(\\\"Navigation\\\")\\n\\n  _push(`<div${_ssrRenderAttrs(_mergeProps({\\n    class: [\\\"header-section header-transparent\\\", {'is-sticky': $data.isSticky}]\\n  }, _attrs))}><div class=\\\"header-inner\\\"><div class=\\\"container position-relative\\\"><div class=\\\"row justify-content-between align-items-center\\\"><div class=\\\"col-xl-2 col-auto order-0\\\"><div class=\\\"header-logo\\\">`)\\n  _push(_ssrRenderComponent(_component_NuxtLink, { to: \\\"/\\\" }, {\\n    default: _withCtx((_, _push, _parent, _scopeId) => {\\n      if (_push) {\\n        _push(`<img style=\\\"${\\n          _ssrRenderStyle({\\\"opacity\\\":\\\"0.5\\\"})\\n        }\\\" class=\\\"dark-logo\\\"${\\n          _ssrRenderAttr(\\\"src\\\", _imports_0)\\n        } alt=\\\"Agency Logo\\\"${\\n          _scopeId\\n        }><img style=\\\"${\\n          _ssrRenderStyle({\\\"opacity\\\":\\\"0.5\\\"})\\n        }\\\" class=\\\"light-logo\\\"${\\n          _ssrRenderAttr(\\\"src\\\", _imports_0)\\n        } alt=\\\"Agency Logo\\\"${\\n          _scopeId\\n        }>`)\\n      } else {\\n        return [\\n          _createVNode(\\\"img\\\", {\\n            style: {\\\"opacity\\\":\\\"0.5\\\"},\\n            class: \\\"dark-logo\\\",\\n            src: _imports_0,\\n            alt: \\\"Agency Logo\\\"\\n          }),\\n          _createVNode(\\\"img\\\", {\\n            style: {\\\"opacity\\\":\\\"0.5\\\"},\\n            class: \\\"light-logo\\\",\\n            src: _imports_0,\\n            alt: \\\"Agency Logo\\\"\\n          })\\n        ]\\n      }\\n    }),\\n    _: 1\\n  }, _parent))\\n  _push(`</div></div><div class=\\\"col-auto col-xl d-flex align-items-center justify-content-xl-center justify-content-end order-2 order-xl-1\\\"><div class=\\\"menu-column-area d-none d-xl-block position-static\\\">`)\\n  _push(_ssrRenderComponent(_component_Navigation, null, null, _parent))\\n  _push(`</div><div class=\\\"header-search-area\\\"></div><div class=\\\"header-mobile-menu-toggle d-xl-none ml-sm-2\\\"><button class=\\\"toggle\\\"><i class=\\\"icon-top\\\"></i><i class=\\\"icon-middle\\\"></i><i class=\\\"icon-bottom\\\"></i></button></div></div><div class=\\\"col-xl-2 col d-none d-sm-flex justify-content-end order-1 order-xl-2\\\"><a href=\\\"https://shop.javaraya.co.uk\\\" class=\\\"btn btn-light btn-hover-primary\\\" target=\\\"_blank\\\">Shop Now</a></div><div class=\\\"col-xl-2 col d-none d-sm-flex justify-content-end order-1 order-xl-2\\\">`)\\n  _push(_ssrRenderComponent(_component_NuxtLink, {\\n    to: \\\"/download\\\",\\n    class: \\\"btn btn-light btn-hover-primary\\\"\\n  }, {\\n    default: _withCtx((_, _push, _parent, _scopeId) => {\\n      if (_push) {\\n        _push(`Download App`)\\n      } else {\\n        return [\\n          _createTextVNode(\\\"Download App\\\")\\n        ]\\n      }\\n    }),\\n    _: 1\\n  }, _parent))\\n  _push(`</div></div></div></div></div>`)\\n}\\n\\n\\nimport { useSSRContext as __vite_useSSRContext } from 'vue'\\nconst _sfc_setup = _sfc_main.setup\\n_sfc_main.setup = (props, ctx) => {\\n  const ssrContext = __vite_useSSRContext()\\n  ;(ssrContext.modules || (ssrContext.modules = new Set())).add(\\\"components/TheHeader.vue\\\")\\n  return _sfc_setup ? _sfc_setup(props, ctx) : undefined\\n}\\nimport _export_sfc from '\\u0000plugin-vue:export-helper'\\nexport default /*#__PURE__*/_export_sfc(_sfc_main, [['ssrRender',_sfc_ssrRender]])\"],\n  \"mappings\": \"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\",\n  \"names\": [\"_push\", \"_parent\"]\n}\n"
     },
     {
       "name": "vite:css-post",
-      "start": 1715822279714,
-      "end": 1715822279714,
+      "start": 1715842300737,
+      "end": 1715842300737,
       "order": "normal"
     },
     {
       "name": "vite:build-html",
-      "start": 1715822279714,
-      "end": 1715822279714,
+      "start": 1715842300737,
+      "end": 1715842300737,
       "order": "normal"
     },
     {
       "name": "vite:worker-import-meta-url",
-      "start": 1715822279714,
-      "end": 1715822279714,
+      "start": 1715842300737,
+      "end": 1715842300737,
       "order": "normal"
     },
     {
       "name": "vite:asset-import-meta-url",
-      "start": 1715822279714,
-      "end": 1715822279714,
+      "start": 1715842300737,
+      "end": 1715842300737,
       "order": "normal"
     },
     {
       "name": "commonjs",
-      "start": 1715822279714,
-      "end": 1715822279715,
+      "start": 1715842300737,
+      "end": 1715842300737,
       "order": "normal"
     },
     {
       "name": "vite:dynamic-import-vars",
-      "start": 1715822279715,
-      "end": 1715822279715,
+      "start": 1715842300737,
+      "end": 1715842300737,
       "order": "normal"
     },
     {
       "name": "vite:import-glob",
-      "start": 1715822279715,
-      "end": 1715822279715,
+      "start": 1715842300737,
+      "end": 1715842300737,
       "order": "normal"
     },
     {
       "name": "nuxt:composable-keys",
-      "start": 1715822279715,
-      "end": 1715822279715,
+      "start": 1715842300737,
+      "end": 1715842300737,
       "order": "post"
     },
     {
       "name": "nuxt:composable-keys",
-      "start": 1715822279715,
-      "end": 1715822279715,
+      "start": 1715842300737,
+      "end": 1715842300737,
       "order": "post"
     },
     {
       "name": "nuxt:imports-transform",
-      "start": 1715822279715,
-      "end": 1715822279717,
+      "start": 1715842300737,
+      "end": 1715842300738,
       "order": "post"
     },
     {
       "name": "nuxt:imports-transform",
-      "start": 1715822279715,
-      "end": 1715822279717,
+      "start": 1715842300737,
+      "end": 1715842300738,
       "order": "post"
     },
     {
       "name": "unctx:transform",
-      "start": 1715822279717,
-      "end": 1715822279717,
+      "start": 1715842300738,
+      "end": 1715842300738,
       "order": "post"
     },
     {
       "name": "unctx:transform",
-      "start": 1715822279717,
-      "end": 1715822279717,
+      "start": 1715842300738,
+      "end": 1715842300738,
       "order": "post"
     },
     {
       "name": "nuxt:pages-macros-transform",
-      "start": 1715822279717,
-      "end": 1715822279717,
+      "start": 1715842300738,
+      "end": 1715842300738,
       "order": "post"
     },
     {
       "name": "nuxt:pages-macros-transform",
-      "start": 1715822279717,
-      "end": 1715822279717,
+      "start": 1715842300738,
+      "end": 1715842300738,
       "order": "post"
     },
     {
       "name": "nuxt:tree-shake-template",
-      "start": 1715822279717,
-      "end": 1715822279717,
+      "start": 1715842300738,
+      "end": 1715842300738,
       "order": "post"
     },
     {
       "name": "nuxt:components-loader",
       "result": "import { default as __nuxt_component_0 } from \"E:/Projects/JavaRayaInternational/website/node_modules/nuxt/dist/app/components/nuxt-link\";\nimport { default as __nuxt_component_1 } from \"E:/Projects/JavaRayaInternational/website/components/Navigation.vue\";\nconst _sfc_main = {\n  components: {\n    Navigation: () => import(\"@/components/Navigation\")\n  },\n  data() {\n    return {\n      isSticky: false\n    };\n  },\n  mounted() {\n    (void 0).addEventListener(\"scroll\", () => {\n      let scrollPos = (void 0).scrollY;\n      if (scrollPos >= 200) {\n        this.isSticky = true;\n      } else {\n        this.isSticky = false;\n      }\n    });\n  },\n  methods: {\n    // offcanvas mobile menu\n    mobiletoggleClass(addRemoveClass, className) {\n      const el = (void 0).querySelector(\"#offcanvas-menu\");\n      if (addRemoveClass === \"addClass\") {\n        el.classList.add(className);\n      } else {\n        el.classList.remove(className);\n      }\n    },\n    //offcanvas search \n    toggleClass(addRemoveClass, className) {\n      const el = (void 0).querySelector(\"#search-popup\");\n      if (addRemoveClass === \"addClass\") {\n        el.classList.add(className);\n      } else {\n        el.classList.remove(className);\n      }\n    }\n  }\n};\nimport { resolveComponent as _resolveComponent, withCtx as _withCtx, createVNode as _createVNode, createTextVNode as _createTextVNode, mergeProps as _mergeProps } from \"vue\";\nimport { ssrRenderStyle as _ssrRenderStyle, ssrRenderAttr as _ssrRenderAttr, ssrRenderComponent as _ssrRenderComponent, ssrRenderAttrs as _ssrRenderAttrs } from \"vue/server-renderer\";\nimport _imports_0 from \"/images/logo/logo.png\";\nfunction _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $options) {\n  const _component_NuxtLink = __nuxt_component_0;\n  const _component_Navigation = __nuxt_component_1;\n  _push(`<div${_ssrRenderAttrs(_mergeProps({\n    class: [\"header-section header-transparent\", { \"is-sticky\": $data.isSticky }]\n  }, _attrs))}><div class=\"header-inner\"><div class=\"container position-relative\"><div class=\"row justify-content-between align-items-center\"><div class=\"col-xl-2 col-auto order-0\"><div class=\"header-logo\">`);\n  _push(_ssrRenderComponent(_component_NuxtLink, { to: \"/\" }, {\n    default: _withCtx((_, _push2, _parent2, _scopeId) => {\n      if (_push2) {\n        _push2(`<img style=\"${_ssrRenderStyle({ \"opacity\": \"0.5\" })}\" class=\"dark-logo\"${_ssrRenderAttr(\"src\", _imports_0)} alt=\"Agency Logo\"${_scopeId}><img style=\"${_ssrRenderStyle({ \"opacity\": \"0.5\" })}\" class=\"light-logo\"${_ssrRenderAttr(\"src\", _imports_0)} alt=\"Agency Logo\"${_scopeId}>`);\n      } else {\n        return [\n          _createVNode(\"img\", {\n            style: { \"opacity\": \"0.5\" },\n            class: \"dark-logo\",\n            src: _imports_0,\n            alt: \"Agency Logo\"\n          }),\n          _createVNode(\"img\", {\n            style: { \"opacity\": \"0.5\" },\n            class: \"light-logo\",\n            src: _imports_0,\n            alt: \"Agency Logo\"\n          })\n        ];\n      }\n    }),\n    _: 1\n  }, _parent));\n  _push(`</div></div><div class=\"col-auto col-xl d-flex align-items-center justify-content-xl-center justify-content-end order-2 order-xl-1\"><div class=\"menu-column-area d-none d-xl-block position-static\">`);\n  _push(_ssrRenderComponent(_component_Navigation, null, null, _parent));\n  _push(`</div><div class=\"header-search-area\"></div><div class=\"header-mobile-menu-toggle d-xl-none ml-sm-2\"><button class=\"toggle\"><i class=\"icon-top\"></i><i class=\"icon-middle\"></i><i class=\"icon-bottom\"></i></button></div></div><div class=\"col-xl-2 col d-none d-sm-flex justify-content-end order-1 order-xl-2\"><a href=\"https://shop.javaraya.co.uk\" class=\"btn btn-light btn-hover-primary\" target=\"_blank\">Shop Now</a></div><div class=\"col-xl-2 col d-none d-sm-flex justify-content-end order-1 order-xl-2\">`);\n  _push(_ssrRenderComponent(_component_NuxtLink, {\n    to: \"/download\",\n    class: \"btn btn-light btn-hover-primary\"\n  }, {\n    default: _withCtx((_, _push2, _parent2, _scopeId) => {\n      if (_push2) {\n        _push2(`Download App`);\n      } else {\n        return [\n          _createTextVNode(\"Download App\")\n        ];\n      }\n    }),\n    _: 1\n  }, _parent));\n  _push(`</div></div></div></div></div>`);\n}\nimport { useSSRContext as __vite_useSSRContext } from \"vue\";\nconst _sfc_setup = _sfc_main.setup;\n_sfc_main.setup = (props, ctx) => {\n  const ssrContext = __vite_useSSRContext();\n  (ssrContext.modules || (ssrContext.modules = /* @__PURE__ */ new Set())).add(\"components/TheHeader.vue\");\n  return _sfc_setup ? _sfc_setup(props, ctx) : void 0;\n};\nimport _export_sfc from \"\\0plugin-vue:export-helper\";\nexport default /* @__PURE__ */ _export_sfc(_sfc_main, [[\"ssrRender\", _sfc_ssrRender]]);\n",
-      "start": 1715822279721,
-      "end": 1715822279721,
+      "start": 1715842300738,
+      "end": 1715842300738,
       "order": "post",
       "sourcemaps": {
         "version": 3,
@@ -256,20 +256,20 @@
     },
     {
       "name": "nuxt:tree-shake-composables:transform",
-      "start": 1715822279722,
-      "end": 1715822279722,
+      "start": 1715842300738,
+      "end": 1715842300739,
       "order": "post"
     },
     {
       "name": "vite:build-import-analysis",
-      "start": 1715822279722,
-      "end": 1715822279722,
+      "start": 1715842300739,
+      "end": 1715842300739,
       "order": "normal"
     },
     {
       "name": "vite:reporter",
-      "start": 1715822279724,
-      "end": 1715822279724,
+      "start": 1715842300739,
+      "end": 1715842300739,
       "order": "normal"
     }
   ]

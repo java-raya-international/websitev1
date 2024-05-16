@@ -4,75 +4,75 @@
     {
       "name": "vite:load-fallback",
       "result": "<template>\r\n  <div class=\"main-container\">\r\n    <!-- Start Work Details -->\r\n    <div class=\"section-padding\">\r\n      <div class=\"container\">\r\n        <div class=\"row\">\r\n          <!-- Portfolio Left -->\r\n          <div class=\"col-lg-4 col-md-6 col-12\">\r\n            <div class=\"work-left work-details\" data-aos=\"fade-up\">\r\n              <div class=\"portfolio-main-info\">\r\n                <h2 class=\"title\">Granulated Activated Carbon</h2>\r\n                <!-- Start Details List -->\r\n                <div class=\"work-details-list mt-40\">\r\n                  <div class=\"details-list\">\r\n                    <label>Supplier Location</label>\r\n                    <span>Surabaya, East Java</span>\r\n                  </div>\r\n\r\n                  <div class=\"details-list\">\r\n                    <label>Categories</label>\r\n                    <span>\r\n                      <NuxtLink to=\"\">Activated Carbon</NuxtLink>\r\n                    </span>\r\n                  </div>\r\n\r\n                  <div class=\"details-list\">\r\n                    <label>US Mesh Size</label>\r\n                    <span>Mesh 5 and Mesh 10</span>\r\n                  </div>\r\n                </div>\r\n                <!-- End Details List -->\r\n                <!-- Start Work Share -->\r\n              </div>\r\n            </div>\r\n          </div>\r\n\r\n          <!-- Work Right -->\r\n          <div class=\"col-lg-7 col-md-6 offset-lg-1 col-12\">\r\n            <div class=\"work-left work-details mt-30\">\r\n              <div class=\"work-main-info\">\r\n                <div class=\"work-content\">\r\n                  <h6 class=\"title\" data-aos=\"fade-up\">Specification</h6>\r\n\r\n                  <div class=\"desc mt-40\">\r\n                    <div class=\"content mb-20\" data-aos=\"fade-up\">\r\n                      <p>\r\n                        Our granulated activated carbon use coconut shell with\r\n                        our patent to process from coconut shell to carbon with\r\n                        green technology\r\n                      </p>\r\n                    </div>\r\n                    <div class=\"content mb-20\" data-aos=\"fade-up\">\r\n                      <table class=\"styled-table\">\r\n                        <thead>\r\n                          <tr style=\"border: 1px solid black\">\r\n                            <td>Parameter</td>\r\n                            <td>Description</td>\r\n                            <td>Notes</td>\r\n                          </tr>\r\n                        </thead>\r\n                        <tbody style=\"border: 1px solid black\">\r\n                          <tr>\r\n                            <td>Source</td>\r\n                            <td>Coconut Shell</td>\r\n                            <td>N/A</td>\r\n                          </tr>\r\n\r\n                          <tr>\r\n                            <td>Type</td>\r\n                            <td>GAC</td>\r\n                            <td>N/A</td>\r\n                          </tr>\r\n\r\n                          <tr>\r\n                            <td>IoN, mg/g</td>\r\n                            <td>650– 950</td>\r\n                            <td>N/A</td>\r\n                          </tr>\r\n\r\n                          <tr>\r\n                            <td>Water</td>\r\n                            <td>2%-50%</td>\r\n                            <td>N/A</td>\r\n                          </tr>\r\n\r\n                          <tr>\r\n                            <td>Ash</td>\r\n                            <td>8%-10%</td>\r\n                            <td>N/A</td>\r\n                          </tr>\r\n\r\n                          <tr>\r\n                            <td>Abrasion</td>\r\n                            <td>70</td>\r\n                            <td>N/A</td>\r\n                          </tr>\r\n\r\n                          <tr>\r\n                            <td>pH</td>\r\n                            <td>5-11</td>\r\n                            <td>N/A</td>\r\n                          </tr>\r\n                        </tbody>\r\n                      </table>\r\n                    </div>\r\n                    <div class=\"content mb-40\" data-aos=\"fade-up\">\r\n                      <p>Granulated activated carbon</p>\r\n                    </div>\r\n                  </div>\r\n                </div>\r\n              </div>\r\n            </div>\r\n          </div>\r\n        </div>\r\n\r\n        <div class=\"row\">\r\n          <!-- Portfolio Left -->\r\n          <div class=\"col-lg-4 col-md-6 col-12\">\r\n            <div class=\"work-left work-details\" data-aos=\"fade-up\">\r\n              <div class=\"portfolio-main-info\">\r\n                <h2 class=\"title\">Powdered Activated Carbon</h2>\r\n                <!-- Start Details List -->\r\n                <div class=\"work-details-list mt-40\">\r\n                  <div class=\"details-list\">\r\n                    <label>Supplier Location</label>\r\n                    <span>Surabaya, East Java</span>\r\n                  </div>\r\n\r\n                  <div class=\"details-list\">\r\n                    <label>Categories</label>\r\n                    <span>\r\n                      <NuxtLink to=\"\">Activated Carbon</NuxtLink>\r\n                    </span>\r\n                  </div>\r\n\r\n                  <div class=\"details-list\">\r\n                    <label>US Mesh Size</label>\r\n                    <span>30, 40 and 50</span>\r\n                  </div>\r\n                </div>\r\n                <!-- End Details List -->\r\n                <!-- Start Work Share -->\r\n              </div>\r\n            </div>\r\n          </div>\r\n\r\n          <!-- Work Right -->\r\n          <div class=\"col-lg-7 col-md-6 offset-lg-1 col-12\">\r\n            <div class=\"work-left work-details mt-30\">\r\n              <div class=\"work-main-info\">\r\n                <div class=\"work-content\">\r\n                  <h6 class=\"title\" data-aos=\"fade-up\">Specification</h6>\r\n\r\n                  <div class=\"desc mt-40\">\r\n                    <div class=\"content mb-20\" data-aos=\"fade-up\">\r\n                      <p>\r\n                        Our powdered activated carbon use coconut shell with our\r\n                        patent to process from coconut shell to carbon with\r\n                        green technology\r\n                      </p>\r\n                    </div>\r\n                    <div class=\"content mb-20\" data-aos=\"fade-up\">\r\n                      <table class=\"styled-table\">\r\n                        <thead>\r\n                          <tr style=\"border: 1px solid black\">\r\n                            <td>Parameter</td>\r\n                            <td>Description</td>\r\n                            <td>Notes</td>\r\n                          </tr>\r\n                        </thead>\r\n                        <tbody style=\"border: 1px solid black\">\r\n                          <tr>\r\n                            <td>Source</td>\r\n                            <td>Coconut Shell</td>\r\n                            <td>N/A</td>\r\n                          </tr>\r\n\r\n                          <tr>\r\n                            <td>Type</td>\r\n                            <td>GAC</td>\r\n                            <td>N/A</td>\r\n                          </tr>\r\n\r\n                          <tr>\r\n                            <td>IoN, mg/g</td>\r\n                            <td>650– 950</td>\r\n                            <td>N/A</td>\r\n                          </tr>\r\n\r\n                          <tr>\r\n                            <td>Water</td>\r\n                            <td>2%-50%</td>\r\n                            <td>N/A</td>\r\n                          </tr>\r\n\r\n                          <tr>\r\n                            <td>Ash</td>\r\n                            <td>8%-10%</td>\r\n                            <td>N/A</td>\r\n                          </tr>\r\n\r\n                          <tr>\r\n                            <td>Abrasion</td>\r\n                            <td>70</td>\r\n                            <td>N/A</td>\r\n                          </tr>\r\n\r\n                          <tr>\r\n                            <td>pH</td>\r\n                            <td>5-11</td>\r\n                            <td>N/A</td>\r\n                          </tr>\r\n                        </tbody>\r\n                      </table>\r\n                    </div>\r\n                    <div class=\"content mb-40\" data-aos=\"fade-up\">\r\n                      <p>Powdered activate carbon</p>\r\n                    </div>\r\n                  </div>\r\n                </div>\r\n              </div>\r\n            </div>\r\n          </div>\r\n        </div>\r\n\r\n        <div class=\"custom-layout-gallery mt-60\" style=\"margin:60px;\">\r\n            \r\n            <div class=\"row mtn-30\">\r\n              <div class=\"col-lg-6 col-md-6 col-12 mt-30\">\r\n                <div class=\"thumbnail\" data-aos=\"fade-up\">\r\n                  <img\r\n                    class=\"w-100\"\r\n                    src=\"/images/products/activated-carbon-granulated.png\"\r\n                    alt=\"Metal Ingots\"\r\n                  />\r\n                </div>\r\n              </div>\r\n              <div class=\"col-lg-6 col-md-6 col-12 mt-30\">\r\n                <div class=\"thumbnail\" data-aos=\"fade-up\">\r\n                  <img\r\n                    class=\"w-100\"\r\n                    src=\"/images/products/activated-carbon-powdered.png\"\r\n                    alt=\"Metal Ingots\"\r\n                  />\r\n                </div>\r\n              </div>\r\n              \r\n            </div>\r\n          </div>\r\n\r\n\r\n\r\n        <hr />\r\n\r\n        <div class=\"row mt-60\" style=\"margin-bottom: 60px;\">\r\n          <div class=\"col-lg-4 col-md-12 col-12\">\r\n            <div class=\"digital-marketing\" data-aos=\"fade-up\">\r\n              <h3 class=\"heading heading-h3\">Industrial Solution</h3>\r\n            </div>\r\n          </div>\r\n          <div class=\"col-lg-7 col-md-12 col-12 offset-lg-1\">\r\n            <div class=\"digital-marketing\" data-aos=\"fade-up\">\r\n              <div class=\"inner\">\r\n                <p>\r\n                  We are ready for each brass and bronze ingot with 100 MT per\r\n                  month for EU an UK market. For more ingots informations and\r\n                  stock, please ask us for quotation.\r\n                </p>\r\n              </div>\r\n            </div>\r\n          </div>\r\n        </div>\r\n\r\n        <div class=\"row row-cols-lg-3 row-cols-md-2 row-cols-1 mtn-30\">\r\n          <div class=\"col mt-30\">\r\n            <div class=\"work\">\r\n              <div class=\"thumbnail\">\r\n                <img\r\n                  src=\"/images/solutions/activated-carbon-water-treatment.png\"\r\n                />\r\n              </div>\r\n              <div class=\"info\">\r\n                <h3 class=\"title\">Water Treatment</h3>\r\n                <p class=\"desc\">\r\n                  Controlling VOC, and removing organic compounds for industrial\r\n                  usage\r\n                </p>\r\n              </div>\r\n            </div>\r\n          </div>\r\n\r\n          <div class=\"col mt-30\">\r\n            <div class=\"work\">\r\n              <div class=\"thumbnail\">\r\n                <img src=\"/images/solutions/activated-carbon-mining.jpg\" />\r\n              </div>\r\n              <div class=\"info\">\r\n                <h3 class=\"title\">Mining</h3>\r\n                <p class=\"desc\">\r\n                  Extraction and recovery of metal complexes, including gold.\r\n                </p>\r\n              </div>\r\n            </div>\r\n          </div>\r\n\r\n          <div class=\"col mt-30\">\r\n            <div class=\"work\">\r\n              <div class=\"thumbnail\">\r\n                <img src=\"/images/solutions/activated-carbon-air-treatment.jpg\" />\r\n              </div>\r\n              <div class=\"info\">\r\n                <h3 class=\"title\">Air Treatment</h3>\r\n                <p class=\"desc\">\r\n                  Purification from VOC and dangerous compound\r\n                </p>\r\n              </div>\r\n            </div>\r\n          </div>\r\n\r\n        </div>\r\n\r\n        <!-- <div class=\"row mt-60\">\r\n          <div class=\"col-lg-4 col-md-12 col-12\">\r\n            <div class=\"digital-marketing\" data-aos=\"fade-up\">\r\n              <h3 class=\"heading heading-h3\">Industrial Solution</h3>\r\n            </div>\r\n          </div>\r\n          <div class=\"col-lg-7 col-md-12 col-12 offset-lg-1\">\r\n            <div class=\"digital-marketing\" data-aos=\"fade-up\">\r\n              <div class=\"inner\">\r\n                <p>\r\n                  We are ready for each brass and bronze ingot with 100 MT per\r\n                  month for EU an UK market. For more ingots informations and\r\n                  stock, please ask us for quotation.\r\n                </p>\r\n              </div>\r\n            </div>\r\n          </div>\r\n        </div> -->\r\n\r\n        <!-- Start Thumbnail -->\r\n        <!-- <div class=\"row\">\r\n          <div class=\"col-lg-12\">\r\n            <div class=\"custom-column-thumbnail mt-60\" data-aos=\"fade-up\">\r\n              <img\r\n                class=\"w-100\"\r\n                src=\"/images/products/metal-01.jpg\"\r\n                alt=\"Metal ingots\"\r\n              />\r\n            </div>\r\n          </div>\r\n        </div> -->\r\n\r\n        <!-- Start Digital Marketing Area -->\r\n        <!-- <div class=\"row mt-60\">\r\n          <div class=\"col-lg-4 col-md-12 col-12\">\r\n            <div class=\"digital-marketing\" data-aos=\"fade-up\">\r\n              <h3 class=\"heading heading-h3\">Digital Marketing.</h3>\r\n            </div>\r\n          </div>\r\n          <div class=\"col-lg-7 col-md-12 col-12 offset-lg-1\">\r\n            <div class=\"digital-marketing\" data-aos=\"fade-up\">\r\n              <div class=\"inner\">\r\n                <p>\r\n                  We \r\n                </p>\r\n              </div>\r\n            </div>\r\n          </div>\r\n        </div> -->\r\n        <!-- End Digital Marketing Area -->\r\n\r\n        <!-- Start Gallery Area -->\r\n\r\n        <!-- End Gallery Area -->\r\n      </div>\r\n    </div>\r\n    <!-- Start Work Details -->\r\n  </div>\r\n</template>\r\n\r\n<style>\r\n.styled-table {\r\n  border-collapse: collapse;\r\n  margin: 25px 0;\r\n  font-size: 0.9em;\r\n  font-family: sans-serif;\r\n  min-width: 400px;\r\n  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);\r\n}\r\n\r\n.styled-table thead tr {\r\n  background-color: #026fae;\r\n  color: #ffffff;\r\n  text-align: left;\r\n}\r\n\r\n.styled-table th,\r\n.styled-table td {\r\n  padding: 12px 15px;\r\n}\r\n\r\n.styled-table tbody tr {\r\n  border-bottom: 1px solid #dddddd;\r\n}\r\n\r\n.styled-table tbody tr:nth-of-type(even) {\r\n  background-color: #f3f3f3;\r\n}\r\n\r\n.styled-table tbody tr:last-of-type {\r\n  border-bottom: 2px solid #009879;\r\n}\r\n\r\n.styled-table tbody tr.active-row {\r\n  font-weight: bold;\r\n  color: #009879;\r\n}\r\n</style>\r\n",
-      "start": 1715822279686,
-      "end": 1715822279789,
+      "start": 1715842300741,
+      "end": 1715842300845,
       "sourcemaps": null
     },
     {
       "name": "nuxt:layer-aliasing",
-      "start": 1715822279789,
-      "end": 1715822279789,
+      "start": 1715842300845,
+      "end": 1715842300845,
       "order": "pre"
     },
     {
       "name": "nuxt:layer-aliasing",
-      "start": 1715822279789,
-      "end": 1715822279789,
+      "start": 1715842300845,
+      "end": 1715842300845,
       "order": "pre"
     },
     {
       "name": "nuxt:server-devonly:transform",
-      "start": 1715822279789,
-      "end": 1715822279789,
+      "start": 1715842300845,
+      "end": 1715842300845,
       "order": "pre"
     },
     {
       "name": "nuxt:server-devonly:transform",
-      "start": 1715822279789,
-      "end": 1715822279789,
+      "start": 1715842300845,
+      "end": 1715842300845,
       "order": "pre"
     },
     {
       "name": "nuxt:client-fallback-auto-id",
-      "start": 1715822279789,
-      "end": 1715822279789,
+      "start": 1715842300845,
+      "end": 1715842300845,
       "order": "pre"
     },
     {
       "name": "server-only-component-transform",
-      "start": 1715822279789,
-      "end": 1715822279789,
+      "start": 1715842300845,
+      "end": 1715842300845,
       "order": "pre"
     },
     {
       "name": "vite:css",
-      "start": 1715822279789,
-      "end": 1715822279789,
+      "start": 1715842300845,
+      "end": 1715842300845,
       "order": "normal"
     },
     {
       "name": "vite:esbuild",
-      "start": 1715822279789,
-      "end": 1715822279789,
+      "start": 1715842300845,
+      "end": 1715842300845,
       "order": "normal"
     },
     {
       "name": "vite:json",
-      "start": 1715822279789,
-      "end": 1715822279789,
+      "start": 1715842300845,
+      "end": 1715842300845,
       "order": "normal"
     },
     {
       "name": "vite:worker",
-      "start": 1715822279789,
-      "end": 1715822279789,
+      "start": 1715842300845,
+      "end": 1715842300845,
       "order": "normal"
     },
     {
       "name": "vite:vue",
       "result": "const _sfc_main = {}\nimport { resolveComponent as _resolveComponent, withCtx as _withCtx, createTextVNode as _createTextVNode, mergeProps as _mergeProps } from \"vue\"\nimport { ssrRenderComponent as _ssrRenderComponent, ssrRenderStyle as _ssrRenderStyle, ssrRenderAttr as _ssrRenderAttr, ssrRenderAttrs as _ssrRenderAttrs } from \"vue/server-renderer\"\nimport _imports_0 from '/images/products/activated-carbon-granulated.png'\nimport _imports_1 from '/images/products/activated-carbon-powdered.png'\nimport _imports_2 from '/images/solutions/activated-carbon-water-treatment.png'\nimport _imports_3 from '/images/solutions/activated-carbon-mining.jpg'\nimport _imports_4 from '/images/solutions/activated-carbon-air-treatment.jpg'\n\n\nfunction _sfc_ssrRender(_ctx, _push, _parent, _attrs) {\n  const _component_NuxtLink = _resolveComponent(\"NuxtLink\")\n\n  _push(`<div${_ssrRenderAttrs(_mergeProps({ class: \"main-container\" }, _attrs))}><div class=\"section-padding\"><div class=\"container\"><div class=\"row\"><div class=\"col-lg-4 col-md-6 col-12\"><div class=\"work-left work-details\" data-aos=\"fade-up\"><div class=\"portfolio-main-info\"><h2 class=\"title\">Granulated Activated Carbon</h2><div class=\"work-details-list mt-40\"><div class=\"details-list\"><label>Supplier Location</label><span>Surabaya, East Java</span></div><div class=\"details-list\"><label>Categories</label><span>`)\n  _push(_ssrRenderComponent(_component_NuxtLink, { to: \"\" }, {\n    default: _withCtx((_, _push, _parent, _scopeId) => {\n      if (_push) {\n        _push(`Activated Carbon`)\n      } else {\n        return [\n          _createTextVNode(\"Activated Carbon\")\n        ]\n      }\n    }),\n    _: 1\n  }, _parent))\n  _push(`</span></div><div class=\"details-list\"><label>US Mesh Size</label><span>Mesh 5 and Mesh 10</span></div></div></div></div></div><div class=\"col-lg-7 col-md-6 offset-lg-1 col-12\"><div class=\"work-left work-details mt-30\"><div class=\"work-main-info\"><div class=\"work-content\"><h6 class=\"title\" data-aos=\"fade-up\">Specification</h6><div class=\"desc mt-40\"><div class=\"content mb-20\" data-aos=\"fade-up\"><p> Our granulated activated carbon use coconut shell with our patent to process from coconut shell to carbon with green technology </p></div><div class=\"content mb-20\" data-aos=\"fade-up\"><table class=\"styled-table\"><thead><tr style=\"${\n    _ssrRenderStyle({\"border\":\"1px solid black\"})\n  }\"><td>Parameter</td><td>Description</td><td>Notes</td></tr></thead><tbody style=\"${\n    _ssrRenderStyle({\"border\":\"1px solid black\"})\n  }\"><tr><td>Source</td><td>Coconut Shell</td><td>N/A</td></tr><tr><td>Type</td><td>GAC</td><td>N/A</td></tr><tr><td>IoN, mg/g</td><td>650– 950</td><td>N/A</td></tr><tr><td>Water</td><td>2%-50%</td><td>N/A</td></tr><tr><td>Ash</td><td>8%-10%</td><td>N/A</td></tr><tr><td>Abrasion</td><td>70</td><td>N/A</td></tr><tr><td>pH</td><td>5-11</td><td>N/A</td></tr></tbody></table></div><div class=\"content mb-40\" data-aos=\"fade-up\"><p>Granulated activated carbon</p></div></div></div></div></div></div></div><div class=\"row\"><div class=\"col-lg-4 col-md-6 col-12\"><div class=\"work-left work-details\" data-aos=\"fade-up\"><div class=\"portfolio-main-info\"><h2 class=\"title\">Powdered Activated Carbon</h2><div class=\"work-details-list mt-40\"><div class=\"details-list\"><label>Supplier Location</label><span>Surabaya, East Java</span></div><div class=\"details-list\"><label>Categories</label><span>`)\n  _push(_ssrRenderComponent(_component_NuxtLink, { to: \"\" }, {\n    default: _withCtx((_, _push, _parent, _scopeId) => {\n      if (_push) {\n        _push(`Activated Carbon`)\n      } else {\n        return [\n          _createTextVNode(\"Activated Carbon\")\n        ]\n      }\n    }),\n    _: 1\n  }, _parent))\n  _push(`</span></div><div class=\"details-list\"><label>US Mesh Size</label><span>30, 40 and 50</span></div></div></div></div></div><div class=\"col-lg-7 col-md-6 offset-lg-1 col-12\"><div class=\"work-left work-details mt-30\"><div class=\"work-main-info\"><div class=\"work-content\"><h6 class=\"title\" data-aos=\"fade-up\">Specification</h6><div class=\"desc mt-40\"><div class=\"content mb-20\" data-aos=\"fade-up\"><p> Our powdered activated carbon use coconut shell with our patent to process from coconut shell to carbon with green technology </p></div><div class=\"content mb-20\" data-aos=\"fade-up\"><table class=\"styled-table\"><thead><tr style=\"${\n    _ssrRenderStyle({\"border\":\"1px solid black\"})\n  }\"><td>Parameter</td><td>Description</td><td>Notes</td></tr></thead><tbody style=\"${\n    _ssrRenderStyle({\"border\":\"1px solid black\"})\n  }\"><tr><td>Source</td><td>Coconut Shell</td><td>N/A</td></tr><tr><td>Type</td><td>GAC</td><td>N/A</td></tr><tr><td>IoN, mg/g</td><td>650– 950</td><td>N/A</td></tr><tr><td>Water</td><td>2%-50%</td><td>N/A</td></tr><tr><td>Ash</td><td>8%-10%</td><td>N/A</td></tr><tr><td>Abrasion</td><td>70</td><td>N/A</td></tr><tr><td>pH</td><td>5-11</td><td>N/A</td></tr></tbody></table></div><div class=\"content mb-40\" data-aos=\"fade-up\"><p>Powdered activate carbon</p></div></div></div></div></div></div></div><div class=\"custom-layout-gallery mt-60\" style=\"${\n    _ssrRenderStyle({\"margin\":\"60px\"})\n  }\"><div class=\"row mtn-30\"><div class=\"col-lg-6 col-md-6 col-12 mt-30\"><div class=\"thumbnail\" data-aos=\"fade-up\"><img class=\"w-100\"${\n    _ssrRenderAttr(\"src\", _imports_0)\n  } alt=\"Metal Ingots\"></div></div><div class=\"col-lg-6 col-md-6 col-12 mt-30\"><div class=\"thumbnail\" data-aos=\"fade-up\"><img class=\"w-100\"${\n    _ssrRenderAttr(\"src\", _imports_1)\n  } alt=\"Metal Ingots\"></div></div></div></div><hr><div class=\"row mt-60\" style=\"${\n    _ssrRenderStyle({\"margin-bottom\":\"60px\"})\n  }\"><div class=\"col-lg-4 col-md-12 col-12\"><div class=\"digital-marketing\" data-aos=\"fade-up\"><h3 class=\"heading heading-h3\">Industrial Solution</h3></div></div><div class=\"col-lg-7 col-md-12 col-12 offset-lg-1\"><div class=\"digital-marketing\" data-aos=\"fade-up\"><div class=\"inner\"><p> We are ready for each brass and bronze ingot with 100 MT per month for EU an UK market. For more ingots informations and stock, please ask us for quotation. </p></div></div></div></div><div class=\"row row-cols-lg-3 row-cols-md-2 row-cols-1 mtn-30\"><div class=\"col mt-30\"><div class=\"work\"><div class=\"thumbnail\"><img${\n    _ssrRenderAttr(\"src\", _imports_2)\n  }></div><div class=\"info\"><h3 class=\"title\">Water Treatment</h3><p class=\"desc\"> Controlling VOC, and removing organic compounds for industrial usage </p></div></div></div><div class=\"col mt-30\"><div class=\"work\"><div class=\"thumbnail\"><img${\n    _ssrRenderAttr(\"src\", _imports_3)\n  }></div><div class=\"info\"><h3 class=\"title\">Mining</h3><p class=\"desc\"> Extraction and recovery of metal complexes, including gold. </p></div></div></div><div class=\"col mt-30\"><div class=\"work\"><div class=\"thumbnail\"><img${\n    _ssrRenderAttr(\"src\", _imports_4)\n  }></div><div class=\"info\"><h3 class=\"title\">Air Treatment</h3><p class=\"desc\"> Purification from VOC and dangerous compound </p></div></div></div></div></div></div></div>`)\n}\n\nimport \"E:/Projects/JavaRayaInternational/website/components/ProductMaterialCarbonActivated.vue?vue&type=style&index=0&lang.css\"\n\nimport { useSSRContext as __vite_useSSRContext } from 'vue'\nconst _sfc_setup = _sfc_main.setup\n_sfc_main.setup = (props, ctx) => {\n  const ssrContext = __vite_useSSRContext()\n  ;(ssrContext.modules || (ssrContext.modules = new Set())).add(\"components/ProductMaterialCarbonActivated.vue\")\n  return _sfc_setup ? _sfc_setup(props, ctx) : undefined\n}\nimport _export_sfc from '\u0000plugin-vue:export-helper'\nexport default /*#__PURE__*/_export_sfc(_sfc_main, [['ssrRender',_sfc_ssrRender]])",
-      "start": 1715822279789,
-      "end": 1715822279792,
+      "start": 1715842300845,
+      "end": 1715842300848,
       "order": "normal",
       "sourcemaps": {
         "version": 3,
@@ -88,159 +88,159 @@
     },
     {
       "name": "vite:vue-jsx",
-      "start": 1715822279792,
-      "end": 1715822279792,
+      "start": 1715842300848,
+      "end": 1715842300848,
       "order": "normal"
     },
     {
       "name": "replace",
-      "start": 1715822279792,
-      "end": 1715822279792,
+      "start": 1715842300848,
+      "end": 1715842300848,
       "order": "normal"
     },
     {
       "name": "replace",
-      "start": 1715822279792,
-      "end": 1715822279792,
+      "start": 1715842300848,
+      "end": 1715842300848,
       "order": "normal"
     },
     {
       "name": "nuxt:remove-plugin-metadata",
-      "start": 1715822279792,
-      "end": 1715822279792,
+      "start": 1715842300848,
+      "end": 1715842300848,
       "order": "normal"
     },
     {
       "name": "nuxt:remove-plugin-metadata",
-      "start": 1715822279792,
-      "end": 1715822279792,
+      "start": 1715842300848,
+      "end": 1715842300848,
       "order": "normal"
     },
     {
       "name": "nuxt:components:imports",
-      "start": 1715822279792,
-      "end": 1715822279792,
+      "start": 1715842300848,
+      "end": 1715842300848,
       "order": "normal"
     },
     {
       "name": "replace",
-      "start": 1715822279792,
-      "end": 1715822279792,
+      "start": 1715842300848,
+      "end": 1715842300848,
       "order": "normal"
     },
     {
       "name": "ssr-styles",
-      "start": 1715822279792,
-      "end": 1715822279793,
+      "start": 1715842300848,
+      "end": 1715842300849,
       "order": "normal"
     },
     {
       "name": "vite:define",
-      "start": 1715822279793,
-      "end": 1715822279793,
+      "start": 1715842300849,
+      "end": 1715842300849,
       "order": "normal"
     },
     {
       "name": "vite:css-post",
-      "start": 1715822279793,
-      "end": 1715822279793,
+      "start": 1715842300849,
+      "end": 1715842300849,
       "order": "normal"
     },
     {
       "name": "vite:build-html",
-      "start": 1715822279793,
-      "end": 1715822279793,
+      "start": 1715842300849,
+      "end": 1715842300849,
       "order": "normal"
     },
     {
       "name": "vite:worker-import-meta-url",
-      "start": 1715822279794,
-      "end": 1715822279794,
+      "start": 1715842300849,
+      "end": 1715842300849,
       "order": "normal"
     },
     {
       "name": "vite:asset-import-meta-url",
-      "start": 1715822279794,
-      "end": 1715822279794,
+      "start": 1715842300849,
+      "end": 1715842300849,
       "order": "normal"
     },
     {
       "name": "commonjs",
-      "start": 1715822279794,
-      "end": 1715822279794,
+      "start": 1715842300849,
+      "end": 1715842300849,
       "order": "normal"
     },
     {
       "name": "vite:dynamic-import-vars",
-      "start": 1715822279794,
-      "end": 1715822279794,
+      "start": 1715842300849,
+      "end": 1715842300849,
       "order": "normal"
     },
     {
       "name": "vite:import-glob",
-      "start": 1715822279794,
-      "end": 1715822279794,
+      "start": 1715842300849,
+      "end": 1715842300849,
       "order": "normal"
     },
     {
       "name": "nuxt:composable-keys",
-      "start": 1715822279794,
-      "end": 1715822279794,
+      "start": 1715842300849,
+      "end": 1715842300849,
       "order": "post"
     },
     {
       "name": "nuxt:composable-keys",
-      "start": 1715822279794,
-      "end": 1715822279794,
+      "start": 1715842300849,
+      "end": 1715842300849,
       "order": "post"
     },
     {
       "name": "nuxt:imports-transform",
-      "start": 1715822279794,
-      "end": 1715822279795,
+      "start": 1715842300849,
+      "end": 1715842300850,
       "order": "post"
     },
     {
       "name": "nuxt:imports-transform",
-      "start": 1715822279794,
-      "end": 1715822279795,
+      "start": 1715842300849,
+      "end": 1715842300850,
       "order": "post"
     },
     {
       "name": "unctx:transform",
-      "start": 1715822279795,
-      "end": 1715822279795,
+      "start": 1715842300850,
+      "end": 1715842300850,
       "order": "post"
     },
     {
       "name": "unctx:transform",
-      "start": 1715822279795,
-      "end": 1715822279795,
+      "start": 1715842300850,
+      "end": 1715842300850,
       "order": "post"
     },
     {
       "name": "nuxt:pages-macros-transform",
-      "start": 1715822279795,
-      "end": 1715822279795,
+      "start": 1715842300850,
+      "end": 1715842300850,
       "order": "post"
     },
     {
       "name": "nuxt:pages-macros-transform",
-      "start": 1715822279795,
-      "end": 1715822279795,
+      "start": 1715842300850,
+      "end": 1715842300850,
       "order": "post"
     },
     {
       "name": "nuxt:tree-shake-template",
-      "start": 1715822279795,
-      "end": 1715822279795,
+      "start": 1715842300850,
+      "end": 1715842300850,
       "order": "post"
     },
     {
       "name": "nuxt:components-loader",
       "result": "import { default as __nuxt_component_0 } from \"E:/Projects/JavaRayaInternational/website/node_modules/nuxt/dist/app/components/nuxt-link\";\nconst _sfc_main = {}\nimport { resolveComponent as _resolveComponent, withCtx as _withCtx, createTextVNode as _createTextVNode, mergeProps as _mergeProps } from \"vue\"\nimport { ssrRenderComponent as _ssrRenderComponent, ssrRenderStyle as _ssrRenderStyle, ssrRenderAttr as _ssrRenderAttr, ssrRenderAttrs as _ssrRenderAttrs } from \"vue/server-renderer\"\nimport _imports_0 from '/images/products/activated-carbon-granulated.png'\nimport _imports_1 from '/images/products/activated-carbon-powdered.png'\nimport _imports_2 from '/images/solutions/activated-carbon-water-treatment.png'\nimport _imports_3 from '/images/solutions/activated-carbon-mining.jpg'\nimport _imports_4 from '/images/solutions/activated-carbon-air-treatment.jpg'\n\n\nfunction _sfc_ssrRender(_ctx, _push, _parent, _attrs) {\n  const _component_NuxtLink = __nuxt_component_0\n\n  _push(`<div${_ssrRenderAttrs(_mergeProps({ class: \"main-container\" }, _attrs))}><div class=\"section-padding\"><div class=\"container\"><div class=\"row\"><div class=\"col-lg-4 col-md-6 col-12\"><div class=\"work-left work-details\" data-aos=\"fade-up\"><div class=\"portfolio-main-info\"><h2 class=\"title\">Granulated Activated Carbon</h2><div class=\"work-details-list mt-40\"><div class=\"details-list\"><label>Supplier Location</label><span>Surabaya, East Java</span></div><div class=\"details-list\"><label>Categories</label><span>`)\n  _push(_ssrRenderComponent(_component_NuxtLink, { to: \"\" }, {\n    default: _withCtx((_, _push, _parent, _scopeId) => {\n      if (_push) {\n        _push(`Activated Carbon`)\n      } else {\n        return [\n          _createTextVNode(\"Activated Carbon\")\n        ]\n      }\n    }),\n    _: 1\n  }, _parent))\n  _push(`</span></div><div class=\"details-list\"><label>US Mesh Size</label><span>Mesh 5 and Mesh 10</span></div></div></div></div></div><div class=\"col-lg-7 col-md-6 offset-lg-1 col-12\"><div class=\"work-left work-details mt-30\"><div class=\"work-main-info\"><div class=\"work-content\"><h6 class=\"title\" data-aos=\"fade-up\">Specification</h6><div class=\"desc mt-40\"><div class=\"content mb-20\" data-aos=\"fade-up\"><p> Our granulated activated carbon use coconut shell with our patent to process from coconut shell to carbon with green technology </p></div><div class=\"content mb-20\" data-aos=\"fade-up\"><table class=\"styled-table\"><thead><tr style=\"${\n    _ssrRenderStyle({\"border\":\"1px solid black\"})\n  }\"><td>Parameter</td><td>Description</td><td>Notes</td></tr></thead><tbody style=\"${\n    _ssrRenderStyle({\"border\":\"1px solid black\"})\n  }\"><tr><td>Source</td><td>Coconut Shell</td><td>N/A</td></tr><tr><td>Type</td><td>GAC</td><td>N/A</td></tr><tr><td>IoN, mg/g</td><td>650– 950</td><td>N/A</td></tr><tr><td>Water</td><td>2%-50%</td><td>N/A</td></tr><tr><td>Ash</td><td>8%-10%</td><td>N/A</td></tr><tr><td>Abrasion</td><td>70</td><td>N/A</td></tr><tr><td>pH</td><td>5-11</td><td>N/A</td></tr></tbody></table></div><div class=\"content mb-40\" data-aos=\"fade-up\"><p>Granulated activated carbon</p></div></div></div></div></div></div></div><div class=\"row\"><div class=\"col-lg-4 col-md-6 col-12\"><div class=\"work-left work-details\" data-aos=\"fade-up\"><div class=\"portfolio-main-info\"><h2 class=\"title\">Powdered Activated Carbon</h2><div class=\"work-details-list mt-40\"><div class=\"details-list\"><label>Supplier Location</label><span>Surabaya, East Java</span></div><div class=\"details-list\"><label>Categories</label><span>`)\n  _push(_ssrRenderComponent(_component_NuxtLink, { to: \"\" }, {\n    default: _withCtx((_, _push, _parent, _scopeId) => {\n      if (_push) {\n        _push(`Activated Carbon`)\n      } else {\n        return [\n          _createTextVNode(\"Activated Carbon\")\n        ]\n      }\n    }),\n    _: 1\n  }, _parent))\n  _push(`</span></div><div class=\"details-list\"><label>US Mesh Size</label><span>30, 40 and 50</span></div></div></div></div></div><div class=\"col-lg-7 col-md-6 offset-lg-1 col-12\"><div class=\"work-left work-details mt-30\"><div class=\"work-main-info\"><div class=\"work-content\"><h6 class=\"title\" data-aos=\"fade-up\">Specification</h6><div class=\"desc mt-40\"><div class=\"content mb-20\" data-aos=\"fade-up\"><p> Our powdered activated carbon use coconut shell with our patent to process from coconut shell to carbon with green technology </p></div><div class=\"content mb-20\" data-aos=\"fade-up\"><table class=\"styled-table\"><thead><tr style=\"${\n    _ssrRenderStyle({\"border\":\"1px solid black\"})\n  }\"><td>Parameter</td><td>Description</td><td>Notes</td></tr></thead><tbody style=\"${\n    _ssrRenderStyle({\"border\":\"1px solid black\"})\n  }\"><tr><td>Source</td><td>Coconut Shell</td><td>N/A</td></tr><tr><td>Type</td><td>GAC</td><td>N/A</td></tr><tr><td>IoN, mg/g</td><td>650– 950</td><td>N/A</td></tr><tr><td>Water</td><td>2%-50%</td><td>N/A</td></tr><tr><td>Ash</td><td>8%-10%</td><td>N/A</td></tr><tr><td>Abrasion</td><td>70</td><td>N/A</td></tr><tr><td>pH</td><td>5-11</td><td>N/A</td></tr></tbody></table></div><div class=\"content mb-40\" data-aos=\"fade-up\"><p>Powdered activate carbon</p></div></div></div></div></div></div></div><div class=\"custom-layout-gallery mt-60\" style=\"${\n    _ssrRenderStyle({\"margin\":\"60px\"})\n  }\"><div class=\"row mtn-30\"><div class=\"col-lg-6 col-md-6 col-12 mt-30\"><div class=\"thumbnail\" data-aos=\"fade-up\"><img class=\"w-100\"${\n    _ssrRenderAttr(\"src\", _imports_0)\n  } alt=\"Metal Ingots\"></div></div><div class=\"col-lg-6 col-md-6 col-12 mt-30\"><div class=\"thumbnail\" data-aos=\"fade-up\"><img class=\"w-100\"${\n    _ssrRenderAttr(\"src\", _imports_1)\n  } alt=\"Metal Ingots\"></div></div></div></div><hr><div class=\"row mt-60\" style=\"${\n    _ssrRenderStyle({\"margin-bottom\":\"60px\"})\n  }\"><div class=\"col-lg-4 col-md-12 col-12\"><div class=\"digital-marketing\" data-aos=\"fade-up\"><h3 class=\"heading heading-h3\">Industrial Solution</h3></div></div><div class=\"col-lg-7 col-md-12 col-12 offset-lg-1\"><div class=\"digital-marketing\" data-aos=\"fade-up\"><div class=\"inner\"><p> We are ready for each brass and bronze ingot with 100 MT per month for EU an UK market. For more ingots informations and stock, please ask us for quotation. </p></div></div></div></div><div class=\"row row-cols-lg-3 row-cols-md-2 row-cols-1 mtn-30\"><div class=\"col mt-30\"><div class=\"work\"><div class=\"thumbnail\"><img${\n    _ssrRenderAttr(\"src\", _imports_2)\n  }></div><div class=\"info\"><h3 class=\"title\">Water Treatment</h3><p class=\"desc\"> Controlling VOC, and removing organic compounds for industrial usage </p></div></div></div><div class=\"col mt-30\"><div class=\"work\"><div class=\"thumbnail\"><img${\n    _ssrRenderAttr(\"src\", _imports_3)\n  }></div><div class=\"info\"><h3 class=\"title\">Mining</h3><p class=\"desc\"> Extraction and recovery of metal complexes, including gold. </p></div></div></div><div class=\"col mt-30\"><div class=\"work\"><div class=\"thumbnail\"><img${\n    _ssrRenderAttr(\"src\", _imports_4)\n  }></div><div class=\"info\"><h3 class=\"title\">Air Treatment</h3><p class=\"desc\"> Purification from VOC and dangerous compound </p></div></div></div></div></div></div></div>`)\n}\n\nimport \"E:/Projects/JavaRayaInternational/website/components/ProductMaterialCarbonActivated.vue?vue&type=style&index=0&lang.css\"\n\nimport { useSSRContext as __vite_useSSRContext } from 'vue'\nconst _sfc_setup = _sfc_main.setup\n_sfc_main.setup = (props, ctx) => {\n  const ssrContext = __vite_useSSRContext()\n  ;(ssrContext.modules || (ssrContext.modules = new Set())).add(\"components/ProductMaterialCarbonActivated.vue\")\n  return _sfc_setup ? _sfc_setup(props, ctx) : undefined\n}\nimport _export_sfc from '\u0000plugin-vue:export-helper'\nexport default /*#__PURE__*/_export_sfc(_sfc_main, [['ssrRender',_sfc_ssrRender]])",
-      "start": 1715822279795,
-      "end": 1715822279795,
+      "start": 1715842300850,
+      "end": 1715842300850,
       "order": "post",
       "sourcemaps": {
         "version": 3,
@@ -253,20 +253,20 @@
     },
     {
       "name": "nuxt:tree-shake-composables:transform",
-      "start": 1715822279795,
-      "end": 1715822279795,
+      "start": 1715842300850,
+      "end": 1715842300850,
       "order": "post"
     },
     {
       "name": "vite:build-import-analysis",
-      "start": 1715822279795,
-      "end": 1715822279795,
+      "start": 1715842300850,
+      "end": 1715842300851,
       "order": "normal"
     },
     {
       "name": "vite:reporter",
-      "start": 1715822279795,
-      "end": 1715822279795,
+      "start": 1715842300851,
+      "end": 1715842300851,
       "order": "normal"
     }
   ]
