@@ -4,75 +4,75 @@
     {
       "name": "vite:load-fallback",
       "result": "<template>\r\n    <div class=\"main-container\">\r\n      \r\n        <!-- service section start -->\r\n        <section class=\"service-details-wrapper section-padding pb-125\">\r\n            <div class=\"container\">\r\n                <div class=\"row\">\r\n                    <div class=\"col-lg-4 mtn-40 order-2 order-lg-1\">\r\n                        <div class=\"service-details-widget\">\r\n                            <div class=\"service-single-widget mt-40\" :style=\"{backgroundColor: '#f8faff'}\">\r\n                                <h4 class=\"service-widget-title\">Technology Stack</h4>\r\n                                <ul class=\"service-list\">\r\n                                    <li><a href=\"#\">N/A</a></li>\r\n                                   \r\n                                </ul>\r\n                            </div>\r\n                            <div class=\"service-single-widget mt-40\" :style=\"{backgroundColor: '#f8faff'}\">\r\n                                <h4 class=\"service-widget-title\">Download Docs</h4>\r\n                                <ul class=\"service-list\">\r\n                                    <li>No release yet on github</li>\r\n                                </ul>\r\n                            </div>\r\n                        </div>\r\n                    </div>\r\n                    <div class=\"col-lg-8 order-1 order-lg-2\">\r\n                        <div class=\"service-details\">\r\n                            <div class=\"service-details-thumb\">\r\n                            </div>\r\n                            <h3 class=\"mt-4 mb-3\">Product</h3>\r\n                            <p>TBW</p>\r\n                            <p class=\"mb-0\">Below is our plan the use of Product in our APP</p>\r\n                            <div class=\"row\">\r\n                                <div class=\"col-sm-6\">\r\n                                    <div class=\"service-details-content mt-30\">\r\n                                        <h4>Selected Product</h4>\r\n                                        <p>We are selecting product from manufacturer especially green products.</p>\r\n                                    </div>\r\n                                </div>\r\n                                <div class=\"col-sm-6\">\r\n                                    <div class=\"service-details-content mt-30\">\r\n                                        <h4>Sourcing</h4>\r\n                                        <p>We will start with South East Asian countries especially from Indonesia</p>\r\n                                    </div>\r\n                                </div>\r\n                                <div class=\"col-sm-6\">\r\n                                    <div class=\"service-details-content mt-30\">\r\n                                        <h4>Small Medium Exclusive Products </h4>\r\n                                        <p>We provide small medium products such as hand bags, arts, fashion clothes.</p>\r\n                                    </div>\r\n                                </div>\r\n                                <div class=\"col-sm-6\">\r\n                                    <div class=\"service-details-content mt-30\">\r\n                                        <h4>Metals</h4>\r\n                                        <p>We provides metals for your business. The ingots are directly from manufacturer in South East Asian</p>\r\n                                    </div>\r\n                                </div>\r\n                               \r\n                            </div>\r\n                        </div>\r\n                    </div>\r\n                </div>\r\n            </div>\r\n        </section>\r\n        <!-- service section end -->\r\n\r\n    </div>\r\n</template>\r\n\r\n<script>\r\n    \r\n</script>\r\n\r\n\r\n",
-      "start": 1716878818359,
-      "end": 1716878818535,
+      "start": 1716890893204,
+      "end": 1716890893314,
       "sourcemaps": null
     },
     {
       "name": "nuxt:layer-aliasing",
-      "start": 1716878818535,
-      "end": 1716878818535,
+      "start": 1716890893314,
+      "end": 1716890893314,
       "order": "pre"
     },
     {
       "name": "nuxt:layer-aliasing",
-      "start": 1716878818535,
-      "end": 1716878818535,
+      "start": 1716890893314,
+      "end": 1716890893314,
       "order": "pre"
     },
     {
       "name": "nuxt:server-devonly:transform",
-      "start": 1716878818535,
-      "end": 1716878818535,
+      "start": 1716890893314,
+      "end": 1716890893314,
       "order": "pre"
     },
     {
       "name": "nuxt:server-devonly:transform",
-      "start": 1716878818535,
-      "end": 1716878818535,
+      "start": 1716890893314,
+      "end": 1716890893314,
       "order": "pre"
     },
     {
       "name": "nuxt:client-fallback-auto-id",
-      "start": 1716878818535,
-      "end": 1716878818535,
+      "start": 1716890893314,
+      "end": 1716890893314,
       "order": "pre"
     },
     {
       "name": "server-only-component-transform",
-      "start": 1716878818535,
-      "end": 1716878818535,
+      "start": 1716890893314,
+      "end": 1716890893314,
       "order": "pre"
     },
     {
       "name": "vite:css",
-      "start": 1716878818535,
-      "end": 1716878818535,
+      "start": 1716890893314,
+      "end": 1716890893314,
       "order": "normal"
     },
     {
       "name": "vite:esbuild",
-      "start": 1716878818535,
-      "end": 1716878818535,
+      "start": 1716890893314,
+      "end": 1716890893314,
       "order": "normal"
     },
     {
       "name": "vite:json",
-      "start": 1716878818535,
-      "end": 1716878818535,
+      "start": 1716890893314,
+      "end": 1716890893314,
       "order": "normal"
     },
     {
       "name": "vite:worker",
-      "start": 1716878818535,
-      "end": 1716878818535,
+      "start": 1716890893314,
+      "end": 1716890893314,
       "order": "normal"
     },
     {
       "name": "vite:vue",
       "result": "const _sfc_main = {}\nimport { mergeProps as _mergeProps } from \"vue\"\nimport { ssrRenderStyle as _ssrRenderStyle, ssrRenderAttrs as _ssrRenderAttrs } from \"vue/server-renderer\"\n\nfunction _sfc_ssrRender(_ctx, _push, _parent, _attrs) {\n  _push(`<div${\n    _ssrRenderAttrs(_mergeProps({ class: \"main-container\" }, _attrs))\n  }><section class=\"service-details-wrapper section-padding pb-125\"><div class=\"container\"><div class=\"row\"><div class=\"col-lg-4 mtn-40 order-2 order-lg-1\"><div class=\"service-details-widget\"><div class=\"service-single-widget mt-40\" style=\"${\n    _ssrRenderStyle({backgroundColor: '#f8faff'})\n  }\"><h4 class=\"service-widget-title\">Technology Stack</h4><ul class=\"service-list\"><li><a href=\"#\">N/A</a></li></ul></div><div class=\"service-single-widget mt-40\" style=\"${\n    _ssrRenderStyle({backgroundColor: '#f8faff'})\n  }\"><h4 class=\"service-widget-title\">Download Docs</h4><ul class=\"service-list\"><li>No release yet on github</li></ul></div></div></div><div class=\"col-lg-8 order-1 order-lg-2\"><div class=\"service-details\"><div class=\"service-details-thumb\"></div><h3 class=\"mt-4 mb-3\">Product</h3><p>TBW</p><p class=\"mb-0\">Below is our plan the use of Product in our APP</p><div class=\"row\"><div class=\"col-sm-6\"><div class=\"service-details-content mt-30\"><h4>Selected Product</h4><p>We are selecting product from manufacturer especially green products.</p></div></div><div class=\"col-sm-6\"><div class=\"service-details-content mt-30\"><h4>Sourcing</h4><p>We will start with South East Asian countries especially from Indonesia</p></div></div><div class=\"col-sm-6\"><div class=\"service-details-content mt-30\"><h4>Small Medium Exclusive Products </h4><p>We provide small medium products such as hand bags, arts, fashion clothes.</p></div></div><div class=\"col-sm-6\"><div class=\"service-details-content mt-30\"><h4>Metals</h4><p>We provides metals for your business. The ingots are directly from manufacturer in South East Asian</p></div></div></div></div></div></div></div></section></div>`)\n}\n\n\nimport { useSSRContext as __vite_useSSRContext } from 'vue'\nconst _sfc_setup = _sfc_main.setup\n_sfc_main.setup = (props, ctx) => {\n  const ssrContext = __vite_useSSRContext()\n  ;(ssrContext.modules || (ssrContext.modules = new Set())).add(\"components/FeatureDetailSelectProduct.vue\")\n  return _sfc_setup ? _sfc_setup(props, ctx) : undefined\n}\nimport _export_sfc from '\u0000plugin-vue:export-helper'\nexport default /*#__PURE__*/_export_sfc(_sfc_main, [['ssrRender',_sfc_ssrRender]])",
-      "start": 1716878818535,
-      "end": 1716878818536,
+      "start": 1716890893314,
+      "end": 1716890893316,
       "order": "normal",
       "sourcemaps": {
         "version": 3,
@@ -88,176 +88,176 @@
     },
     {
       "name": "vite:vue-jsx",
-      "start": 1716878818536,
-      "end": 1716878818536,
+      "start": 1716890893316,
+      "end": 1716890893316,
       "order": "normal"
     },
     {
       "name": "replace",
-      "start": 1716878818536,
-      "end": 1716878818536,
+      "start": 1716890893316,
+      "end": 1716890893316,
       "order": "normal"
     },
     {
       "name": "replace",
-      "start": 1716878818536,
-      "end": 1716878818536,
+      "start": 1716890893316,
+      "end": 1716890893316,
       "order": "normal"
     },
     {
       "name": "nuxt:remove-plugin-metadata",
-      "start": 1716878818536,
-      "end": 1716878818536,
+      "start": 1716890893316,
+      "end": 1716890893318,
       "order": "normal"
     },
     {
       "name": "nuxt:remove-plugin-metadata",
-      "start": 1716878818536,
-      "end": 1716878818536,
+      "start": 1716890893316,
+      "end": 1716890893318,
       "order": "normal"
     },
     {
       "name": "nuxt:components:imports",
-      "start": 1716878818536,
-      "end": 1716878818536,
+      "start": 1716890893319,
+      "end": 1716890893319,
       "order": "normal"
     },
     {
       "name": "replace",
-      "start": 1716878818536,
-      "end": 1716878818536,
+      "start": 1716890893319,
+      "end": 1716890893319,
       "order": "normal"
     },
     {
       "name": "ssr-styles",
-      "start": 1716878818536,
-      "end": 1716878818536,
+      "start": 1716890893320,
+      "end": 1716890893320,
       "order": "normal"
     },
     {
       "name": "vite:define",
-      "start": 1716878818536,
-      "end": 1716878818536,
+      "start": 1716890893321,
+      "end": 1716890893321,
       "order": "normal"
     },
     {
       "name": "vite:css-post",
-      "start": 1716878818536,
-      "end": 1716878818536,
+      "start": 1716890893321,
+      "end": 1716890893321,
       "order": "normal"
     },
     {
       "name": "vite:build-html",
-      "start": 1716878818536,
-      "end": 1716878818536,
+      "start": 1716890893321,
+      "end": 1716890893321,
       "order": "normal"
     },
     {
       "name": "vite:worker-import-meta-url",
-      "start": 1716878818536,
-      "end": 1716878818536,
+      "start": 1716890893321,
+      "end": 1716890893321,
       "order": "normal"
     },
     {
       "name": "vite:asset-import-meta-url",
-      "start": 1716878818536,
-      "end": 1716878818536,
+      "start": 1716890893323,
+      "end": 1716890893323,
       "order": "normal"
     },
     {
       "name": "commonjs",
-      "start": 1716878818536,
-      "end": 1716878818536,
+      "start": 1716890893325,
+      "end": 1716890893325,
       "order": "normal"
     },
     {
       "name": "vite:dynamic-import-vars",
-      "start": 1716878818536,
-      "end": 1716878818536,
+      "start": 1716890893326,
+      "end": 1716890893326,
       "order": "normal"
     },
     {
       "name": "vite:import-glob",
-      "start": 1716878818536,
-      "end": 1716878818536,
+      "start": 1716890893329,
+      "end": 1716890893330,
       "order": "normal"
     },
     {
       "name": "nuxt:composable-keys",
-      "start": 1716878818536,
-      "end": 1716878818536,
+      "start": 1716890893330,
+      "end": 1716890893330,
       "order": "post"
     },
     {
       "name": "nuxt:composable-keys",
-      "start": 1716878818536,
-      "end": 1716878818536,
+      "start": 1716890893330,
+      "end": 1716890893330,
       "order": "post"
     },
     {
       "name": "nuxt:imports-transform",
-      "start": 1716878818536,
-      "end": 1716878818536,
+      "start": 1716890893330,
+      "end": 1716890893332,
       "order": "post"
     },
     {
       "name": "nuxt:imports-transform",
-      "start": 1716878818536,
-      "end": 1716878818536,
+      "start": 1716890893330,
+      "end": 1716890893332,
       "order": "post"
     },
     {
       "name": "unctx:transform",
-      "start": 1716878818536,
-      "end": 1716878818536,
+      "start": 1716890893333,
+      "end": 1716890893333,
       "order": "post"
     },
     {
       "name": "unctx:transform",
-      "start": 1716878818536,
-      "end": 1716878818536,
+      "start": 1716890893333,
+      "end": 1716890893335,
       "order": "post"
     },
     {
       "name": "nuxt:pages-macros-transform",
-      "start": 1716878818536,
-      "end": 1716878818536,
+      "start": 1716890893335,
+      "end": 1716890893335,
       "order": "post"
     },
     {
       "name": "nuxt:pages-macros-transform",
-      "start": 1716878818536,
-      "end": 1716878818536,
+      "start": 1716890893335,
+      "end": 1716890893335,
       "order": "post"
     },
     {
       "name": "nuxt:tree-shake-template",
-      "start": 1716878818536,
-      "end": 1716878818536,
+      "start": 1716890893336,
+      "end": 1716890893336,
       "order": "post"
     },
     {
       "name": "nuxt:components-loader",
-      "start": 1716878818536,
-      "end": 1716878818536,
+      "start": 1716890893337,
+      "end": 1716890893337,
       "order": "post"
     },
     {
       "name": "nuxt:tree-shake-composables:transform",
-      "start": 1716878818536,
-      "end": 1716878818536,
+      "start": 1716890893337,
+      "end": 1716890893337,
       "order": "post"
     },
     {
       "name": "vite:build-import-analysis",
-      "start": 1716878818536,
-      "end": 1716878818536,
+      "start": 1716890893337,
+      "end": 1716890893337,
       "order": "normal"
     },
     {
       "name": "vite:reporter",
-      "start": 1716878818536,
-      "end": 1716878818536,
+      "start": 1716890893338,
+      "end": 1716890893338,
       "order": "normal"
     }
   ]

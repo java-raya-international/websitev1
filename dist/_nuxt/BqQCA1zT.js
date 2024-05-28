@@ -1,7 +1,0 @@
-function __vite__mapDeps(indexes) {
-  if (!__vite__mapDeps.viteFileDeps) {
-    __vite__mapDeps.viteFileDeps = ["./8moc05k_.js","./Cy8W4Ju4.js"]
-  }
-  return indexes.map((i) => __vite__mapDeps.viteFileDeps[i])
-}
-import{_ as d,u as m,o as e,c as o,a as t,b as c,F as p,y as u,z as h,t as a,w as x,d as v}from"./Cy8W4Ju4.js";import f from"./8moc05k_.js";import{_ as g}from"./BLuOCcAJ.js";import{f as w}from"./7Idw7wuS.js";const b={props:["addClassName"],components:{SectionTitle:()=>m(()=>import("./8moc05k_.js"),__vite__mapDeps([0,1]),import.meta.url)},data(){return{featureData:w}}},k={class:"section-padding-t90-b100"},N={class:"container"},y={class:"row row-cols-lg-3 row-cols-md-2 row-cols-sm-2 row-cols-1 mtn-30"},D={class:"icon"},S=["src","alt"],V={class:"content"},C={class:"title"},P={class:"desc"};function T($,B,n,E,i,L){const _=f,l=g;return e(),o("div",k,[t("div",N,[c(_,{title:"Unique Marketplace APP","sub-title":"Shopping with better experiences","add-class-name":"mb-60"}),t("div",y,[(e(!0),o(p,null,u(i.featureData.slice(0,6),(s,r)=>(e(),o("div",{class:"col mt-30","data-aos":"fade-up",key:r},[t("div",{class:h(["icon-box text-center",n.addClassName]),style:{height:"400px"}},[t("div",D,[t("img",{src:s.iconSrc,alt:s.title,style:{height:"50px"}},null,8,S)]),t("div",V,[t("h3",C,a(s.title),1),t("div",P,[t("p",null,a(s.text),1)]),c(l,{to:`/products/${s.slug}`,class:"link"},{default:x(()=>[v("View Details")]),_:2},1032,["to"])])],2)]))),128))])])])}const I=d(b,[["render",T]]);export{I as _};

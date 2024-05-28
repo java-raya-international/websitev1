@@ -4,75 +4,75 @@
     {
       "name": "vite:load-fallback",
       "result": "<template>\r\n  <div class=\"main-container\">\r\n    <div>\r\n      <p>Our priority is B2B customer with bulk quantity or B2C customers with bulk quantity</p>\r\n      <p>We will split the stores from B2B customers and B2C customers</p>\r\n      <p>We will add more products such as metals, chemicals or agriculture periodically</p>\r\n      <p>Our supplier with provide details documentations, lab test and certifications upon request.</p>\r\n\r\n    </div>\r\n    <!-- <div\r\n      class=\"intro-section overlay bg-cover\"\r\n      :style=\"{\r\n        backgroundImage: `url('/images/bg/javaraya-app-timeline.png')`,\r\n      }\"\r\n    ></div> -->\r\n  </div>\r\n  <div></div>\r\n</template>\r\n",
-      "start": 1716878817993,
-      "end": 1716878818390,
+      "start": 1716890893124,
+      "end": 1716890893226,
       "sourcemaps": null
     },
     {
       "name": "nuxt:layer-aliasing",
-      "start": 1716878818390,
-      "end": 1716878818390,
+      "start": 1716890893226,
+      "end": 1716890893226,
       "order": "pre"
     },
     {
       "name": "nuxt:layer-aliasing",
-      "start": 1716878818390,
-      "end": 1716878818390,
+      "start": 1716890893226,
+      "end": 1716890893226,
       "order": "pre"
     },
     {
       "name": "nuxt:server-devonly:transform",
-      "start": 1716878818390,
-      "end": 1716878818390,
+      "start": 1716890893226,
+      "end": 1716890893226,
       "order": "pre"
     },
     {
       "name": "nuxt:server-devonly:transform",
-      "start": 1716878818390,
-      "end": 1716878818390,
+      "start": 1716890893226,
+      "end": 1716890893226,
       "order": "pre"
     },
     {
       "name": "nuxt:client-fallback-auto-id",
-      "start": 1716878818390,
-      "end": 1716878818390,
+      "start": 1716890893226,
+      "end": 1716890893226,
       "order": "pre"
     },
     {
       "name": "server-only-component-transform",
-      "start": 1716878818390,
-      "end": 1716878818390,
+      "start": 1716890893226,
+      "end": 1716890893226,
       "order": "pre"
     },
     {
       "name": "vite:css",
-      "start": 1716878818390,
-      "end": 1716878818390,
+      "start": 1716890893226,
+      "end": 1716890893226,
       "order": "normal"
     },
     {
       "name": "vite:esbuild",
-      "start": 1716878818390,
-      "end": 1716878818390,
+      "start": 1716890893226,
+      "end": 1716890893226,
       "order": "normal"
     },
     {
       "name": "vite:json",
-      "start": 1716878818390,
-      "end": 1716878818390,
+      "start": 1716890893226,
+      "end": 1716890893226,
       "order": "normal"
     },
     {
       "name": "vite:worker",
-      "start": 1716878818390,
-      "end": 1716878818390,
+      "start": 1716890893226,
+      "end": 1716890893226,
       "order": "normal"
     },
     {
       "name": "vite:vue",
       "result": "const _sfc_main = {}\n\nfunction _sfc_ssrRender(_ctx, _push, _parent, _attrs) {\n  _push(`<!--[--><div class=\"main-container\"><div><p>Our priority is B2B customer with bulk quantity or B2C customers with bulk quantity</p><p>We will split the stores from B2B customers and B2C customers</p><p>We will add more products such as metals, chemicals or agriculture periodically</p><p>Our supplier with provide details documentations, lab test and certifications upon request.</p></div></div><div></div><!--]-->`)\n}\n\n\nimport { useSSRContext as __vite_useSSRContext } from 'vue'\nconst _sfc_setup = _sfc_main.setup\n_sfc_main.setup = (props, ctx) => {\n  const ssrContext = __vite_useSSRContext()\n  ;(ssrContext.modules || (ssrContext.modules = new Set())).add(\"components/TimelineDevelopment.vue\")\n  return _sfc_setup ? _sfc_setup(props, ctx) : undefined\n}\nimport _export_sfc from '\u0000plugin-vue:export-helper'\nexport default /*#__PURE__*/_export_sfc(_sfc_main, [['ssrRender',_sfc_ssrRender]])",
-      "start": 1716878818390,
-      "end": 1716878818391,
+      "start": 1716890893226,
+      "end": 1716890893226,
       "order": "normal",
       "sourcemaps": {
         "version": 3,
@@ -88,178 +88,178 @@
     },
     {
       "name": "vite:vue-jsx",
-      "start": 1716878818391,
-      "end": 1716878818391,
+      "start": 1716890893226,
+      "end": 1716890893226,
       "order": "normal"
     },
     {
       "name": "replace",
-      "start": 1716878818391,
-      "end": 1716878818391,
+      "start": 1716890893226,
+      "end": 1716890893226,
       "order": "normal"
     },
     {
       "name": "replace",
-      "start": 1716878818391,
-      "end": 1716878818391,
+      "start": 1716890893226,
+      "end": 1716890893226,
       "order": "normal"
     },
     {
       "name": "nuxt:remove-plugin-metadata",
-      "start": 1716878818391,
-      "end": 1716878818391,
+      "start": 1716890893226,
+      "end": 1716890893226,
       "order": "normal"
     },
     {
       "name": "nuxt:remove-plugin-metadata",
-      "start": 1716878818391,
-      "end": 1716878818391,
+      "start": 1716890893226,
+      "end": 1716890893226,
       "order": "normal"
     },
     {
       "name": "nuxt:components:imports",
-      "start": 1716878818391,
-      "end": 1716878818391,
+      "start": 1716890893226,
+      "end": 1716890893226,
       "order": "normal"
     },
     {
       "name": "replace",
-      "start": 1716878818391,
-      "end": 1716878818391,
+      "start": 1716890893226,
+      "end": 1716890893226,
       "order": "normal"
     },
     {
       "name": "ssr-styles",
-      "start": 1716878818391,
-      "end": 1716878818391,
+      "start": 1716890893226,
+      "end": 1716890893226,
       "order": "normal"
     },
     {
       "name": "vite:define",
       "result": "const _sfc_main = {};\nfunction _sfc_ssrRender(_ctx, _push, _parent, _attrs) {\n  _push(`<!--[--><div class=\"main-container\"><div><p>Our priority is B2B customer with bulk quantity or B2C customers with bulk quantity</p><p>We will split the stores from B2B customers and B2C customers</p><p>We will add more products such as metals, chemicals or agriculture periodically</p><p>Our supplier with provide details documentations, lab test and certifications upon request.</p></div></div><div></div><!--]-->`);\n}\nimport { useSSRContext as __vite_useSSRContext } from \"vue\";\nconst _sfc_setup = _sfc_main.setup;\n_sfc_main.setup = (props, ctx) => {\n  const ssrContext = __vite_useSSRContext();\n  (ssrContext.modules || (ssrContext.modules = /* @__PURE__ */ new Set())).add(\"components/TimelineDevelopment.vue\");\n  return _sfc_setup ? _sfc_setup(props, ctx) : void 0;\n};\nimport _export_sfc from \"\\0plugin-vue:export-helper\";\nexport default /* @__PURE__ */ _export_sfc(_sfc_main, [[\"ssrRender\", _sfc_ssrRender]]);\n",
-      "start": 1716878818391,
-      "end": 1716878818434,
+      "start": 1716890893226,
+      "end": 1716890893255,
       "order": "normal",
       "sourcemaps": "{\n  \"version\": 3,\n  \"sources\": [\"E:/Projects/JavaRayaInternational/website/components/TimelineDevelopment.vue\"],\n  \"sourcesContent\": [\"const _sfc_main = {}\\n\\nfunction _sfc_ssrRender(_ctx, _push, _parent, _attrs) {\\n  _push(`<!--[--><div class=\\\"main-container\\\"><div><p>Our priority is B2B customer with bulk quantity or B2C customers with bulk quantity</p><p>We will split the stores from B2B customers and B2C customers</p><p>We will add more products such as metals, chemicals or agriculture periodically</p><p>Our supplier with provide details documentations, lab test and certifications upon request.</p></div></div><div></div><!--]-->`)\\n}\\n\\n\\nimport { useSSRContext as __vite_useSSRContext } from 'vue'\\nconst _sfc_setup = _sfc_main.setup\\n_sfc_main.setup = (props, ctx) => {\\n  const ssrContext = __vite_useSSRContext()\\n  ;(ssrContext.modules || (ssrContext.modules = new Set())).add(\\\"components/TimelineDevelopment.vue\\\")\\n  return _sfc_setup ? _sfc_setup(props, ctx) : undefined\\n}\\nimport _export_sfc from '\\u0000plugin-vue:export-helper'\\nexport default /*#__PURE__*/_export_sfc(_sfc_main, [['ssrRender',_sfc_ssrRender]])\"],\n  \"mappings\": \"AAAA,MAAM,YAAY,CAAC;AAEnB,SAAS,eAAe,MAAM,OAAO,SAAS,QAAQ;AACpD,QAAM,gaAAga;AACxa;AAGA,SAAS,iBAAiB,4BAA4B;AACtD,MAAM,aAAa,UAAU;AAC7B,UAAU,QAAQ,CAAC,OAAO,QAAQ;AAChC,QAAM,aAAa,qBAAqB;AACvC,GAAC,WAAW,YAAY,WAAW,UAAU,oBAAI,IAAI,IAAI,IAAI,oCAAoC;AAClG,SAAO,aAAa,WAAW,OAAO,GAAG,IAAI;AAC/C;AACA,OAAO,iBAAiB;AACxB,eAA4B,4BAAY,WAAW,CAAC,CAAC,aAAY,cAAc,CAAC,CAAC;\",\n  \"names\": []\n}\n"
     },
     {
       "name": "vite:css-post",
-      "start": 1716878818434,
-      "end": 1716878818434,
+      "start": 1716890893255,
+      "end": 1716890893255,
       "order": "normal"
     },
     {
       "name": "vite:build-html",
-      "start": 1716878818434,
-      "end": 1716878818434,
+      "start": 1716890893255,
+      "end": 1716890893255,
       "order": "normal"
     },
     {
       "name": "vite:worker-import-meta-url",
-      "start": 1716878818434,
-      "end": 1716878818434,
+      "start": 1716890893255,
+      "end": 1716890893255,
       "order": "normal"
     },
     {
       "name": "vite:asset-import-meta-url",
-      "start": 1716878818434,
-      "end": 1716878818434,
+      "start": 1716890893255,
+      "end": 1716890893255,
       "order": "normal"
     },
     {
       "name": "commonjs",
-      "start": 1716878818434,
-      "end": 1716878818435,
+      "start": 1716890893255,
+      "end": 1716890893255,
       "order": "normal"
     },
     {
       "name": "vite:dynamic-import-vars",
-      "start": 1716878818435,
-      "end": 1716878818435,
+      "start": 1716890893255,
+      "end": 1716890893255,
       "order": "normal"
     },
     {
       "name": "vite:import-glob",
-      "start": 1716878818435,
-      "end": 1716878818435,
+      "start": 1716890893255,
+      "end": 1716890893255,
       "order": "normal"
     },
     {
       "name": "nuxt:composable-keys",
-      "start": 1716878818435,
-      "end": 1716878818435,
+      "start": 1716890893255,
+      "end": 1716890893255,
       "order": "post"
     },
     {
       "name": "nuxt:composable-keys",
-      "start": 1716878818435,
-      "end": 1716878818435,
+      "start": 1716890893255,
+      "end": 1716890893255,
       "order": "post"
     },
     {
       "name": "nuxt:imports-transform",
-      "start": 1716878818435,
-      "end": 1716878818436,
+      "start": 1716890893255,
+      "end": 1716890893257,
       "order": "post"
     },
     {
       "name": "nuxt:imports-transform",
-      "start": 1716878818435,
-      "end": 1716878818436,
+      "start": 1716890893255,
+      "end": 1716890893257,
       "order": "post"
     },
     {
       "name": "unctx:transform",
-      "start": 1716878818436,
-      "end": 1716878818436,
+      "start": 1716890893257,
+      "end": 1716890893257,
       "order": "post"
     },
     {
       "name": "unctx:transform",
-      "start": 1716878818436,
-      "end": 1716878818437,
+      "start": 1716890893257,
+      "end": 1716890893257,
       "order": "post"
     },
     {
       "name": "nuxt:pages-macros-transform",
-      "start": 1716878818437,
-      "end": 1716878818437,
+      "start": 1716890893257,
+      "end": 1716890893257,
       "order": "post"
     },
     {
       "name": "nuxt:pages-macros-transform",
-      "start": 1716878818437,
-      "end": 1716878818437,
+      "start": 1716890893257,
+      "end": 1716890893257,
       "order": "post"
     },
     {
       "name": "nuxt:tree-shake-template",
-      "start": 1716878818437,
-      "end": 1716878818437,
+      "start": 1716890893257,
+      "end": 1716890893257,
       "order": "post"
     },
     {
       "name": "nuxt:components-loader",
-      "start": 1716878818439,
-      "end": 1716878818439,
+      "start": 1716890893257,
+      "end": 1716890893257,
       "order": "post"
     },
     {
       "name": "nuxt:tree-shake-composables:transform",
-      "start": 1716878818439,
-      "end": 1716878818439,
+      "start": 1716890893257,
+      "end": 1716890893257,
       "order": "post"
     },
     {
       "name": "vite:build-import-analysis",
-      "start": 1716878818439,
-      "end": 1716878818439,
+      "start": 1716890893257,
+      "end": 1716890893257,
       "order": "normal"
     },
     {
       "name": "vite:reporter",
-      "start": 1716878818444,
-      "end": 1716878818444,
+      "start": 1716890893257,
+      "end": 1716890893257,
       "order": "normal"
     }
   ]

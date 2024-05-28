@@ -4,57 +4,57 @@
     {
       "name": "vite:load-fallback",
       "result": "<template>\r\n    <div class=\"section-padding\">\r\n        <div class=\"container\">\r\n            <div class=\"row\">\r\n                <div class=\"col-lg-12 mx-auto\">\r\n                    <div class=\"row row-cols-lg-4 row-cols-sm-2 row-cols-1 mtn-30\">\r\n                        <div class=\"col mt-30\" data-aos=\"fade-up\" v-for=\"(item, i) in funFacts\" :key=\"i\">\r\n                            <div class=\"funfact\">\r\n                                <div class=\"number\">\r\n                                    <span class=\"counter\">\r\n                                        {{item.count}}\r\n                                    </span>\r\n                                </div>\r\n                                <h6 class=\"text\">{{ item.text }}</h6>\r\n                            </div>\r\n                        </div>\r\n                    </div>\r\n                </div>\r\n            </div>\r\n        </div>\r\n    </div>\r\n</template>\r\n\r\n<script>\r\n    import funFacts from \"~/data/funfacts.json\"\r\n    export default {\r\n        data () {\r\n            return {\r\n                funFacts\r\n            }\r\n        }\r\n    };\r\n</script>",
-      "start": 1716878812965,
-      "end": 1716878813115,
+      "start": 1716890888119,
+      "end": 1716890888247,
       "sourcemaps": null
     },
     {
       "name": "nuxt:layer-aliasing",
-      "start": 1716878813115,
-      "end": 1716878813115,
+      "start": 1716890888247,
+      "end": 1716890888247,
       "order": "pre"
     },
     {
       "name": "nuxt:server-devonly:transform",
-      "start": 1716878813115,
-      "end": 1716878813115,
+      "start": 1716890888247,
+      "end": 1716890888247,
       "order": "pre"
     },
     {
       "name": "nuxt:client-fallback-auto-id",
-      "start": 1716878813115,
-      "end": 1716878813115,
+      "start": 1716890888247,
+      "end": 1716890888247,
       "order": "pre"
     },
     {
       "name": "vite:css",
-      "start": 1716878813115,
-      "end": 1716878813115,
+      "start": 1716890888247,
+      "end": 1716890888247,
       "order": "normal"
     },
     {
       "name": "vite:esbuild",
-      "start": 1716878813115,
-      "end": 1716878813115,
+      "start": 1716890888247,
+      "end": 1716890888247,
       "order": "normal"
     },
     {
       "name": "vite:json",
-      "start": 1716878813115,
-      "end": 1716878813115,
+      "start": 1716890888247,
+      "end": 1716890888247,
       "order": "normal"
     },
     {
       "name": "vite:worker",
-      "start": 1716878813115,
-      "end": 1716878813115,
+      "start": 1716890888247,
+      "end": 1716890888247,
       "order": "normal"
     },
     {
       "name": "vite:vue",
       "result": "\r\n    import funFacts from \"~/data/funfacts.json\"\r\n    const _sfc_main = {\r\n        data () {\r\n            return {\r\n                funFacts\r\n            }\r\n        }\r\n    };\r\n\nimport { renderList as _renderList, Fragment as _Fragment, openBlock as _openBlock, createElementBlock as _createElementBlock, toDisplayString as _toDisplayString, createElementVNode as _createElementVNode } from \"vue\"\n\nconst _hoisted_1 = { class: \"section-padding\" }\nconst _hoisted_2 = { class: \"container\" }\nconst _hoisted_3 = { class: \"row\" }\nconst _hoisted_4 = { class: \"col-lg-12 mx-auto\" }\nconst _hoisted_5 = { class: \"row row-cols-lg-4 row-cols-sm-2 row-cols-1 mtn-30\" }\nconst _hoisted_6 = { class: \"funfact\" }\nconst _hoisted_7 = { class: \"number\" }\nconst _hoisted_8 = { class: \"counter\" }\nconst _hoisted_9 = { class: \"text\" }\n\nfunction _sfc_render(_ctx, _cache, $props, $setup, $data, $options) {\n  return (_openBlock(), _createElementBlock(\"div\", _hoisted_1, [\n    _createElementVNode(\"div\", _hoisted_2, [\n      _createElementVNode(\"div\", _hoisted_3, [\n        _createElementVNode(\"div\", _hoisted_4, [\n          _createElementVNode(\"div\", _hoisted_5, [\n            (_openBlock(true), _createElementBlock(_Fragment, null, _renderList($data.funFacts, (item, i) => {\n              return (_openBlock(), _createElementBlock(\"div\", {\n                class: \"col mt-30\",\n                \"data-aos\": \"fade-up\",\n                key: i\n              }, [\n                _createElementVNode(\"div\", _hoisted_6, [\n                  _createElementVNode(\"div\", _hoisted_7, [\n                    _createElementVNode(\"span\", _hoisted_8, _toDisplayString(item.count), 1)\n                  ]),\n                  _createElementVNode(\"h6\", _hoisted_9, _toDisplayString(item.text), 1)\n                ])\n              ]))\n            }), 128))\n          ])\n        ])\n      ])\n    ])\n  ]))\n}\n\n\nimport _export_sfc from '\u0000plugin-vue:export-helper'\nexport default /*#__PURE__*/_export_sfc(_sfc_main, [['render',_sfc_render]])",
-      "start": 1716878813116,
-      "end": 1716878813117,
+      "start": 1716890888247,
+      "end": 1716890888248,
       "order": "normal",
       "sourcemaps": {
         "mappings": ""
@@ -62,152 +62,152 @@
     },
     {
       "name": "vite:vue-jsx",
-      "start": 1716878813117,
-      "end": 1716878813117,
+      "start": 1716890888248,
+      "end": 1716890888248,
       "order": "normal"
     },
     {
       "name": "replace",
-      "start": 1716878813117,
-      "end": 1716878813117,
+      "start": 1716890888248,
+      "end": 1716890888248,
       "order": "normal"
     },
     {
       "name": "nuxt:remove-plugin-metadata",
-      "start": 1716878813117,
-      "end": 1716878813117,
+      "start": 1716890888248,
+      "end": 1716890888248,
       "order": "normal"
     },
     {
       "name": "nuxt:chunk-error",
-      "start": 1716878813117,
-      "end": 1716878813117,
+      "start": 1716890888248,
+      "end": 1716890888248,
       "order": "normal"
     },
     {
       "name": "nuxt:components:imports",
-      "start": 1716878813117,
-      "end": 1716878813117,
+      "start": 1716890888248,
+      "end": 1716890888248,
       "order": "normal"
     },
     {
       "name": "replace",
-      "start": 1716878813117,
-      "end": 1716878813117,
+      "start": 1716890888248,
+      "end": 1716890888248,
       "order": "normal"
     },
     {
       "name": "ssr-styles",
-      "start": 1716878813117,
-      "end": 1716878813117,
+      "start": 1716890888248,
+      "end": 1716890888248,
       "order": "normal"
     },
     {
       "name": "vite:define",
-      "start": 1716878813117,
-      "end": 1716878813117,
+      "start": 1716890888248,
+      "end": 1716890888248,
       "order": "normal"
     },
     {
       "name": "vite:css-post",
-      "start": 1716878813117,
-      "end": 1716878813117,
+      "start": 1716890888248,
+      "end": 1716890888248,
       "order": "normal"
     },
     {
       "name": "vite:build-html",
-      "start": 1716878813117,
-      "end": 1716878813117,
+      "start": 1716890888248,
+      "end": 1716890888248,
       "order": "normal"
     },
     {
       "name": "vite:worker-import-meta-url",
-      "start": 1716878813117,
-      "end": 1716878813117,
+      "start": 1716890888248,
+      "end": 1716890888248,
       "order": "normal"
     },
     {
       "name": "vite:asset-import-meta-url",
-      "start": 1716878813117,
-      "end": 1716878813117,
+      "start": 1716890888248,
+      "end": 1716890888248,
       "order": "normal"
     },
     {
       "name": "commonjs",
-      "start": 1716878813117,
-      "end": 1716878813117,
+      "start": 1716890888248,
+      "end": 1716890888248,
       "order": "normal"
     },
     {
       "name": "vite:dynamic-import-vars",
-      "start": 1716878813117,
-      "end": 1716878813117,
+      "start": 1716890888248,
+      "end": 1716890888248,
       "order": "normal"
     },
     {
       "name": "vite:import-glob",
-      "start": 1716878813117,
-      "end": 1716878813117,
+      "start": 1716890888248,
+      "end": 1716890888248,
       "order": "normal"
     },
     {
       "name": "nuxt:composable-keys",
-      "start": 1716878813117,
-      "end": 1716878813117,
+      "start": 1716890888248,
+      "end": 1716890888248,
       "order": "post"
     },
     {
       "name": "nuxt:imports-transform",
-      "start": 1716878813117,
-      "end": 1716878813117,
+      "start": 1716890888248,
+      "end": 1716890888249,
       "order": "post"
     },
     {
       "name": "unctx:transform",
-      "start": 1716878813117,
-      "end": 1716878813117,
+      "start": 1716890888249,
+      "end": 1716890888249,
       "order": "post"
     },
     {
       "name": "nuxt:pages-macros-transform",
-      "start": 1716878813117,
-      "end": 1716878813117,
+      "start": 1716890888249,
+      "end": 1716890888249,
       "order": "post"
     },
     {
       "name": "nuxt:runtime-paths-dep",
-      "start": 1716878813117,
-      "end": 1716878813117,
+      "start": 1716890888249,
+      "end": 1716890888249,
       "order": "post"
     },
     {
       "name": "nuxt:route-injection-plugin",
-      "start": 1716878813117,
-      "end": 1716878813117,
+      "start": 1716890888249,
+      "end": 1716890888249,
       "order": "post"
     },
     {
       "name": "nuxt:components-loader",
-      "start": 1716878813117,
-      "end": 1716878813117,
+      "start": 1716890888249,
+      "end": 1716890888249,
       "order": "post"
     },
     {
       "name": "nuxt:tree-shake-composables:transform",
-      "start": 1716878813117,
-      "end": 1716878813117,
+      "start": 1716890888249,
+      "end": 1716890888249,
       "order": "post"
     },
     {
       "name": "vite:build-import-analysis",
-      "start": 1716878813117,
-      "end": 1716878813117,
+      "start": 1716890888249,
+      "end": 1716890888249,
       "order": "normal"
     },
     {
       "name": "vite:reporter",
-      "start": 1716878813117,
-      "end": 1716878813118,
+      "start": 1716890888249,
+      "end": 1716890888249,
       "order": "normal"
     }
   ]

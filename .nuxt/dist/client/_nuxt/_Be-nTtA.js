@@ -1,0 +1,1 @@
+import{_ as t,c as n,b as s,Y as c,v as r,o as a}from"./DWMtP2Ht.js";const l={};function _(e,d){const o=r("Nuxt");return a(),n("div",null,[s(o),c(e.$slots,"default")])}const u=t(l,[["render",_]]);export{u as default};
