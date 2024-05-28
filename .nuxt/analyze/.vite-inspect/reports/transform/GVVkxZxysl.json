@@ -4,57 +4,57 @@
     {
       "name": "vite:load-fallback",
       "result": "<template>\r\n    <div class=\"main-container\">\r\n        <TheHeader />\r\n        <OffCanvasMobileMenu />\r\n        <SearchPopup />\r\n        <BreadcrumbOne activePageName=\"Blog Classic\" title=\"Find all our latest news, insights, and events\" backgroundUrl= \"/images/bg/breadcrumb-bg-four.jpg\" />\r\n\r\n        <!-- Blog Section Start -->\r\n        <div class=\"section-padding fix\">\r\n            <div class=\"container\">\r\n                <div class=\"row  mtn-50\">\r\n                    <div class=\"col-lg-8 col-12 order-lg-1 mt-50\">\r\n                        <div class=\"row row-cols-1 no-gutters\">\r\n                            <div class=\"blog-3 col\" data-aos=\"fade-up\" v-for=\"(blog, index) in blogData.slice(0, 3)\" :key=\"index\">\r\n                                <div class=\"thumbnail\">\r\n                                    <NuxtLink :to=\"`/blog/${blog.slug}`\" class=\"image\">\r\n                                        <img :src=\"blog.imgSrc\" :alt=\"blog.title\">\r\n                                    </NuxtLink>\r\n                                </div>\r\n                                <div class=\"info\">\r\n                                    <ul class=\"meta\">\r\n                                        <li>\r\n                                            <i class=\"fal fa-pencil-alt\"></i>\r\n                                            Written by Admin, 10 Oct 2020\r\n                                        </li>\r\n                                        <li>\r\n                                            <i class=\"fas fa-tags\"></i>\r\n                                            Marketing, UX Design\r\n                                        </li>\r\n                                        <li>\r\n                                            <i class=\"fas fa-comments\"></i>\r\n                                            {{ blog.comment }} Comments\r\n                                        </li>\r\n                                    </ul>\r\n                                    <h3 class=\"title\">\r\n                                        <NuxtLink :to=\"`/blog/${blog.slug}`\">\r\n                                            {{ blog.title }}\r\n                                        </NuxtLink>\r\n                                    </h3>\r\n                                    <div class=\"desc mb-30\">\r\n                                        <p>We've always known the power of digital, and we've mastered the strategy, tactics, and technology to harness it. Now, other departments have had to embrace the digital transformation that businesses have been talking about for so long.</p>\r\n                                    </div>\r\n                                    <NuxtLink :to=\"`/blog/${blog.slug}`\" class=\"btn btn-primary btn-hover-secondary\">Read More</NuxtLink>\r\n                                </div>\r\n                            </div>\r\n                        </div>\r\n\r\n                        <div class=\"row\">\r\n                            <div class=\"col\">\r\n                                <ul class=\"pagination center\">\r\n                                    <li class=\"page-item\">\r\n                                        <a href=\"#\"><i class=\"fa fa-angle-left\"></i></a>\r\n                                    </li>\r\n                                    <li class=\"page-item active\">\r\n                                        <a href=\"#\">1</a>\r\n                                    </li>\r\n                                    <li class=\"page-item\">\r\n                                        <a href=\"#\">2</a>\r\n                                    </li>\r\n                                    <li class=\"page-item\">\r\n                                        <a href=\"#\">3</a>\r\n                                    </li>\r\n                                    <li class=\"page-item\">\r\n                                        <a href=\"#\"><i class=\"fa fa-angle-right\"></i></a>\r\n                                    </li>\r\n                                </ul>\r\n                            </div>\r\n                        </div>\r\n                    </div>\r\n\r\n                    <div class=\"col-lg-4 col-12 order-lg-2 mt-50\">\r\n                        <BlogSidebar />\r\n                    </div>\r\n                </div>\r\n            </div>\r\n        </div>\r\n        <!-- Blog Section End -->\r\n\r\n        <CallToActionTwo />\r\n        <TheFooter />\r\n    </div>\r\n</template>\r\n\r\n<script>\r\n    import blogData from \"~/data/blog.json\";\r\n\r\n    export default {\r\n        data() {\r\n            return {\r\n                blogData\r\n            }\r\n        },\r\n    };\r\n</script>\r\n\r\n\r\n",
-      "start": 1715843835879,
-      "end": 1715843835978,
+      "start": 1716878812696,
+      "end": 1716878812774,
       "sourcemaps": null
     },
     {
       "name": "nuxt:layer-aliasing",
-      "start": 1715843835978,
-      "end": 1715843835978,
+      "start": 1716878812774,
+      "end": 1716878812774,
       "order": "pre"
     },
     {
       "name": "nuxt:server-devonly:transform",
-      "start": 1715843835978,
-      "end": 1715843835978,
+      "start": 1716878812774,
+      "end": 1716878812774,
       "order": "pre"
     },
     {
       "name": "nuxt:client-fallback-auto-id",
-      "start": 1715843835978,
-      "end": 1715843835978,
+      "start": 1716878812774,
+      "end": 1716878812774,
       "order": "pre"
     },
     {
       "name": "vite:css",
-      "start": 1715843835978,
-      "end": 1715843835978,
+      "start": 1716878812774,
+      "end": 1716878812774,
       "order": "normal"
     },
     {
       "name": "vite:esbuild",
-      "start": 1715843835978,
-      "end": 1715843835978,
+      "start": 1716878812774,
+      "end": 1716878812774,
       "order": "normal"
     },
     {
       "name": "vite:json",
-      "start": 1715843835978,
-      "end": 1715843835978,
+      "start": 1716878812774,
+      "end": 1716878812774,
       "order": "normal"
     },
     {
       "name": "vite:worker",
-      "start": 1715843835978,
-      "end": 1715843835978,
+      "start": 1716878812778,
+      "end": 1716878812778,
       "order": "normal"
     },
     {
       "name": "vite:vue",
       "result": "\r\n    import blogData from \"~/data/blog.json\";\r\n\r\n    const _sfc_main = {\r\n        data() {\r\n            return {\r\n                blogData\r\n            }\r\n        },\r\n    };\r\n\nimport { resolveComponent as _resolveComponent, createVNode as _createVNode, renderList as _renderList, Fragment as _Fragment, openBlock as _openBlock, createElementBlock as _createElementBlock, createElementVNode as _createElementVNode, withCtx as _withCtx, createTextVNode as _createTextVNode, toDisplayString as _toDisplayString, createStaticVNode as _createStaticVNode } from \"vue\"\n\nconst _hoisted_1 = { class: \"main-container\" }\nconst _hoisted_2 = { class: \"section-padding fix\" }\nconst _hoisted_3 = { class: \"container\" }\nconst _hoisted_4 = { class: \"row mtn-50\" }\nconst _hoisted_5 = { class: \"col-lg-8 col-12 order-lg-1 mt-50\" }\nconst _hoisted_6 = { class: \"row row-cols-1 no-gutters\" }\nconst _hoisted_7 = { class: \"thumbnail\" }\nconst _hoisted_8 = [\"src\", \"alt\"]\nconst _hoisted_9 = { class: \"info\" }\nconst _hoisted_10 = { class: \"meta\" }\nconst _hoisted_11 = /*#__PURE__*/_createElementVNode(\"li\", null, [\n  /*#__PURE__*/_createElementVNode(\"i\", { class: \"fal fa-pencil-alt\" }),\n  /*#__PURE__*/_createTextVNode(\" Written by Admin, 10 Oct 2020 \")\n], -1)\nconst _hoisted_12 = /*#__PURE__*/_createElementVNode(\"li\", null, [\n  /*#__PURE__*/_createElementVNode(\"i\", { class: \"fas fa-tags\" }),\n  /*#__PURE__*/_createTextVNode(\" Marketing, UX Design \")\n], -1)\nconst _hoisted_13 = /*#__PURE__*/_createElementVNode(\"i\", { class: \"fas fa-comments\" }, null, -1)\nconst _hoisted_14 = { class: \"title\" }\nconst _hoisted_15 = /*#__PURE__*/_createElementVNode(\"div\", { class: \"desc mb-30\" }, [\n  /*#__PURE__*/_createElementVNode(\"p\", null, \"We've always known the power of digital, and we've mastered the strategy, tactics, and technology to harness it. Now, other departments have had to embrace the digital transformation that businesses have been talking about for so long.\")\n], -1)\nconst _hoisted_16 = /*#__PURE__*/_createStaticVNode(\"<div class=\\\"row\\\"><div class=\\\"col\\\"><ul class=\\\"pagination center\\\"><li class=\\\"page-item\\\"><a href=\\\"#\\\"><i class=\\\"fa fa-angle-left\\\"></i></a></li><li class=\\\"page-item active\\\"><a href=\\\"#\\\">1</a></li><li class=\\\"page-item\\\"><a href=\\\"#\\\">2</a></li><li class=\\\"page-item\\\"><a href=\\\"#\\\">3</a></li><li class=\\\"page-item\\\"><a href=\\\"#\\\"><i class=\\\"fa fa-angle-right\\\"></i></a></li></ul></div></div>\", 1)\nconst _hoisted_17 = { class: \"col-lg-4 col-12 order-lg-2 mt-50\" }\n\nfunction _sfc_render(_ctx, _cache, $props, $setup, $data, $options) {\n  const _component_TheHeader = _resolveComponent(\"TheHeader\")\n  const _component_OffCanvasMobileMenu = _resolveComponent(\"OffCanvasMobileMenu\")\n  const _component_SearchPopup = _resolveComponent(\"SearchPopup\")\n  const _component_BreadcrumbOne = _resolveComponent(\"BreadcrumbOne\")\n  const _component_NuxtLink = _resolveComponent(\"NuxtLink\")\n  const _component_BlogSidebar = _resolveComponent(\"BlogSidebar\")\n  const _component_CallToActionTwo = _resolveComponent(\"CallToActionTwo\")\n  const _component_TheFooter = _resolveComponent(\"TheFooter\")\n\n  return (_openBlock(), _createElementBlock(\"div\", _hoisted_1, [\n    _createVNode(_component_TheHeader),\n    _createVNode(_component_OffCanvasMobileMenu),\n    _createVNode(_component_SearchPopup),\n    _createVNode(_component_BreadcrumbOne, {\n      activePageName: \"Blog Classic\",\n      title: \"Find all our latest news, insights, and events\",\n      backgroundUrl: \"/images/bg/breadcrumb-bg-four.jpg\"\n    }),\n    _createElementVNode(\"div\", _hoisted_2, [\n      _createElementVNode(\"div\", _hoisted_3, [\n        _createElementVNode(\"div\", _hoisted_4, [\n          _createElementVNode(\"div\", _hoisted_5, [\n            _createElementVNode(\"div\", _hoisted_6, [\n              (_openBlock(true), _createElementBlock(_Fragment, null, _renderList($data.blogData.slice(0, 3), (blog, index) => {\n                return (_openBlock(), _createElementBlock(\"div\", {\n                  class: \"blog-3 col\",\n                  \"data-aos\": \"fade-up\",\n                  key: index\n                }, [\n                  _createElementVNode(\"div\", _hoisted_7, [\n                    _createVNode(_component_NuxtLink, {\n                      to: `/blog/${blog.slug}`,\n                      class: \"image\"\n                    }, {\n                      default: _withCtx(() => [\n                        _createElementVNode(\"img\", {\n                          src: blog.imgSrc,\n                          alt: blog.title\n                        }, null, 8, _hoisted_8)\n                      ]),\n                      _: 2\n                    }, 1032, [\"to\"])\n                  ]),\n                  _createElementVNode(\"div\", _hoisted_9, [\n                    _createElementVNode(\"ul\", _hoisted_10, [\n                      _hoisted_11,\n                      _hoisted_12,\n                      _createElementVNode(\"li\", null, [\n                        _hoisted_13,\n                        _createTextVNode(\" \" + _toDisplayString(blog.comment) + \" Comments \", 1)\n                      ])\n                    ]),\n                    _createElementVNode(\"h3\", _hoisted_14, [\n                      _createVNode(_component_NuxtLink, {\n                        to: `/blog/${blog.slug}`\n                      }, {\n                        default: _withCtx(() => [\n                          _createTextVNode(_toDisplayString(blog.title), 1)\n                        ]),\n                        _: 2\n                      }, 1032, [\"to\"])\n                    ]),\n                    _hoisted_15,\n                    _createVNode(_component_NuxtLink, {\n                      to: `/blog/${blog.slug}`,\n                      class: \"btn btn-primary btn-hover-secondary\"\n                    }, {\n                      default: _withCtx(() => [\n                        _createTextVNode(\"Read More\")\n                      ]),\n                      _: 2\n                    }, 1032, [\"to\"])\n                  ])\n                ]))\n              }), 128))\n            ]),\n            _hoisted_16\n          ]),\n          _createElementVNode(\"div\", _hoisted_17, [\n            _createVNode(_component_BlogSidebar)\n          ])\n        ])\n      ])\n    ]),\n    _createVNode(_component_CallToActionTwo),\n    _createVNode(_component_TheFooter)\n  ]))\n}\n\n\nimport _export_sfc from '\u0000plugin-vue:export-helper'\nexport default /*#__PURE__*/_export_sfc(_sfc_main, [['render',_sfc_render]])",
-      "start": 1715843835978,
-      "end": 1715843835981,
+      "start": 1716878812778,
+      "end": 1716878812780,
       "order": "normal",
       "sourcemaps": {
         "mappings": ""
@@ -62,153 +62,153 @@
     },
     {
       "name": "vite:vue-jsx",
-      "start": 1715843835981,
-      "end": 1715843835981,
+      "start": 1716878812780,
+      "end": 1716878812780,
       "order": "normal"
     },
     {
       "name": "replace",
-      "start": 1715843835981,
-      "end": 1715843835981,
+      "start": 1716878812780,
+      "end": 1716878812780,
       "order": "normal"
     },
     {
       "name": "nuxt:remove-plugin-metadata",
-      "start": 1715843835981,
-      "end": 1715843835981,
+      "start": 1716878812780,
+      "end": 1716878812780,
       "order": "normal"
     },
     {
       "name": "nuxt:chunk-error",
-      "start": 1715843835981,
-      "end": 1715843835981,
+      "start": 1716878812780,
+      "end": 1716878812780,
       "order": "normal"
     },
     {
       "name": "nuxt:components:imports",
-      "start": 1715843835981,
-      "end": 1715843835981,
+      "start": 1716878812780,
+      "end": 1716878812780,
       "order": "normal"
     },
     {
       "name": "replace",
-      "start": 1715843835981,
-      "end": 1715843835981,
+      "start": 1716878812780,
+      "end": 1716878812780,
       "order": "normal"
     },
     {
       "name": "ssr-styles",
-      "start": 1715843835981,
-      "end": 1715843835981,
+      "start": 1716878812780,
+      "end": 1716878812780,
       "order": "normal"
     },
     {
       "name": "vite:define",
-      "start": 1715843835981,
-      "end": 1715843835981,
+      "start": 1716878812780,
+      "end": 1716878812780,
       "order": "normal"
     },
     {
       "name": "vite:css-post",
-      "start": 1715843835981,
-      "end": 1715843835981,
+      "start": 1716878812780,
+      "end": 1716878812780,
       "order": "normal"
     },
     {
       "name": "vite:build-html",
-      "start": 1715843835981,
-      "end": 1715843835981,
+      "start": 1716878812780,
+      "end": 1716878812780,
       "order": "normal"
     },
     {
       "name": "vite:worker-import-meta-url",
-      "start": 1715843835981,
-      "end": 1715843835981,
+      "start": 1716878812780,
+      "end": 1716878812780,
       "order": "normal"
     },
     {
       "name": "vite:asset-import-meta-url",
-      "start": 1715843835981,
-      "end": 1715843835981,
+      "start": 1716878812780,
+      "end": 1716878812780,
       "order": "normal"
     },
     {
       "name": "commonjs",
-      "start": 1715843835981,
-      "end": 1715843835981,
+      "start": 1716878812780,
+      "end": 1716878812780,
       "order": "normal"
     },
     {
       "name": "vite:dynamic-import-vars",
-      "start": 1715843835981,
-      "end": 1715843835981,
+      "start": 1716878812780,
+      "end": 1716878812780,
       "order": "normal"
     },
     {
       "name": "vite:import-glob",
-      "start": 1715843835981,
-      "end": 1715843835981,
+      "start": 1716878812780,
+      "end": 1716878812780,
       "order": "normal"
     },
     {
       "name": "nuxt:composable-keys",
-      "start": 1715843835981,
-      "end": 1715843835981,
+      "start": 1716878812780,
+      "end": 1716878812780,
       "order": "post"
     },
     {
       "name": "nuxt:imports-transform",
-      "start": 1715843835981,
-      "end": 1715843835983,
+      "start": 1716878812780,
+      "end": 1716878812781,
       "order": "post"
     },
     {
       "name": "unctx:transform",
-      "start": 1715843835983,
-      "end": 1715843835983,
+      "start": 1716878812781,
+      "end": 1716878812781,
       "order": "post"
     },
     {
       "name": "nuxt:pages-macros-transform",
-      "start": 1715843835983,
-      "end": 1715843835983,
+      "start": 1716878812781,
+      "end": 1716878812781,
       "order": "post"
     },
     {
       "name": "nuxt:runtime-paths-dep",
-      "start": 1715843835983,
-      "end": 1715843835983,
+      "start": 1716878812781,
+      "end": 1716878812781,
       "order": "post"
     },
     {
       "name": "nuxt:route-injection-plugin",
-      "start": 1715843835983,
-      "end": 1715843835983,
+      "start": 1716878812781,
+      "end": 1716878812781,
       "order": "post"
     },
     {
       "name": "nuxt:components-loader",
       "result": "import { default as __nuxt_component_0 } from \"E:/Projects/JavaRayaInternational/website/components/TheHeader.vue\";\nimport { default as __nuxt_component_1 } from \"E:/Projects/JavaRayaInternational/website/components/OffCanvasMobileMenu.vue\";\nimport { default as __nuxt_component_2 } from \"E:/Projects/JavaRayaInternational/website/components/SearchPopup.vue\";\nimport { default as __nuxt_component_3 } from \"E:/Projects/JavaRayaInternational/website/components/BreadcrumbOne.vue\";\nimport { default as __nuxt_component_4 } from \"E:/Projects/JavaRayaInternational/website/node_modules/nuxt/dist/app/components/nuxt-link\";\nimport { default as __nuxt_component_5 } from \"E:/Projects/JavaRayaInternational/website/components/BlogSidebar.vue\";\nimport { default as __nuxt_component_6 } from \"E:/Projects/JavaRayaInternational/website/components/CallToActionTwo.vue\";\nimport { default as __nuxt_component_7 } from \"E:/Projects/JavaRayaInternational/website/components/TheFooter.vue\";\n\r\n    import blogData from \"~/data/blog.json\";\r\n\r\n    const _sfc_main = {\r\n        data() {\r\n            return {\r\n                blogData\r\n            }\r\n        },\r\n    };\r\n\nimport { resolveComponent as _resolveComponent, createVNode as _createVNode, renderList as _renderList, Fragment as _Fragment, openBlock as _openBlock, createElementBlock as _createElementBlock, createElementVNode as _createElementVNode, withCtx as _withCtx, createTextVNode as _createTextVNode, toDisplayString as _toDisplayString, createStaticVNode as _createStaticVNode } from \"vue\"\n\nconst _hoisted_1 = { class: \"main-container\" }\nconst _hoisted_2 = { class: \"section-padding fix\" }\nconst _hoisted_3 = { class: \"container\" }\nconst _hoisted_4 = { class: \"row mtn-50\" }\nconst _hoisted_5 = { class: \"col-lg-8 col-12 order-lg-1 mt-50\" }\nconst _hoisted_6 = { class: \"row row-cols-1 no-gutters\" }\nconst _hoisted_7 = { class: \"thumbnail\" }\nconst _hoisted_8 = [\"src\", \"alt\"]\nconst _hoisted_9 = { class: \"info\" }\nconst _hoisted_10 = { class: \"meta\" }\nconst _hoisted_11 = /*#__PURE__*/_createElementVNode(\"li\", null, [\n  /*#__PURE__*/_createElementVNode(\"i\", { class: \"fal fa-pencil-alt\" }),\n  /*#__PURE__*/_createTextVNode(\" Written by Admin, 10 Oct 2020 \")\n], -1)\nconst _hoisted_12 = /*#__PURE__*/_createElementVNode(\"li\", null, [\n  /*#__PURE__*/_createElementVNode(\"i\", { class: \"fas fa-tags\" }),\n  /*#__PURE__*/_createTextVNode(\" Marketing, UX Design \")\n], -1)\nconst _hoisted_13 = /*#__PURE__*/_createElementVNode(\"i\", { class: \"fas fa-comments\" }, null, -1)\nconst _hoisted_14 = { class: \"title\" }\nconst _hoisted_15 = /*#__PURE__*/_createElementVNode(\"div\", { class: \"desc mb-30\" }, [\n  /*#__PURE__*/_createElementVNode(\"p\", null, \"We've always known the power of digital, and we've mastered the strategy, tactics, and technology to harness it. Now, other departments have had to embrace the digital transformation that businesses have been talking about for so long.\")\n], -1)\nconst _hoisted_16 = /*#__PURE__*/_createStaticVNode(\"<div class=\\\"row\\\"><div class=\\\"col\\\"><ul class=\\\"pagination center\\\"><li class=\\\"page-item\\\"><a href=\\\"#\\\"><i class=\\\"fa fa-angle-left\\\"></i></a></li><li class=\\\"page-item active\\\"><a href=\\\"#\\\">1</a></li><li class=\\\"page-item\\\"><a href=\\\"#\\\">2</a></li><li class=\\\"page-item\\\"><a href=\\\"#\\\">3</a></li><li class=\\\"page-item\\\"><a href=\\\"#\\\"><i class=\\\"fa fa-angle-right\\\"></i></a></li></ul></div></div>\", 1)\nconst _hoisted_17 = { class: \"col-lg-4 col-12 order-lg-2 mt-50\" }\n\nfunction _sfc_render(_ctx, _cache, $props, $setup, $data, $options) {\n  const _component_TheHeader = __nuxt_component_0\n  const _component_OffCanvasMobileMenu = __nuxt_component_1\n  const _component_SearchPopup = __nuxt_component_2\n  const _component_BreadcrumbOne = __nuxt_component_3\n  const _component_NuxtLink = __nuxt_component_4\n  const _component_BlogSidebar = __nuxt_component_5\n  const _component_CallToActionTwo = __nuxt_component_6\n  const _component_TheFooter = __nuxt_component_7\n\n  return (_openBlock(), _createElementBlock(\"div\", _hoisted_1, [\n    _createVNode(_component_TheHeader),\n    _createVNode(_component_OffCanvasMobileMenu),\n    _createVNode(_component_SearchPopup),\n    _createVNode(_component_BreadcrumbOne, {\n      activePageName: \"Blog Classic\",\n      title: \"Find all our latest news, insights, and events\",\n      backgroundUrl: \"/images/bg/breadcrumb-bg-four.jpg\"\n    }),\n    _createElementVNode(\"div\", _hoisted_2, [\n      _createElementVNode(\"div\", _hoisted_3, [\n        _createElementVNode(\"div\", _hoisted_4, [\n          _createElementVNode(\"div\", _hoisted_5, [\n            _createElementVNode(\"div\", _hoisted_6, [\n              (_openBlock(true), _createElementBlock(_Fragment, null, _renderList($data.blogData.slice(0, 3), (blog, index) => {\n                return (_openBlock(), _createElementBlock(\"div\", {\n                  class: \"blog-3 col\",\n                  \"data-aos\": \"fade-up\",\n                  key: index\n                }, [\n                  _createElementVNode(\"div\", _hoisted_7, [\n                    _createVNode(_component_NuxtLink, {\n                      to: `/blog/${blog.slug}`,\n                      class: \"image\"\n                    }, {\n                      default: _withCtx(() => [\n                        _createElementVNode(\"img\", {\n                          src: blog.imgSrc,\n                          alt: blog.title\n                        }, null, 8, _hoisted_8)\n                      ]),\n                      _: 2\n                    }, 1032, [\"to\"])\n                  ]),\n                  _createElementVNode(\"div\", _hoisted_9, [\n                    _createElementVNode(\"ul\", _hoisted_10, [\n                      _hoisted_11,\n                      _hoisted_12,\n                      _createElementVNode(\"li\", null, [\n                        _hoisted_13,\n                        _createTextVNode(\" \" + _toDisplayString(blog.comment) + \" Comments \", 1)\n                      ])\n                    ]),\n                    _createElementVNode(\"h3\", _hoisted_14, [\n                      _createVNode(_component_NuxtLink, {\n                        to: `/blog/${blog.slug}`\n                      }, {\n                        default: _withCtx(() => [\n                          _createTextVNode(_toDisplayString(blog.title), 1)\n                        ]),\n                        _: 2\n                      }, 1032, [\"to\"])\n                    ]),\n                    _hoisted_15,\n                    _createVNode(_component_NuxtLink, {\n                      to: `/blog/${blog.slug}`,\n                      class: \"btn btn-primary btn-hover-secondary\"\n                    }, {\n                      default: _withCtx(() => [\n                        _createTextVNode(\"Read More\")\n                      ]),\n                      _: 2\n                    }, 1032, [\"to\"])\n                  ])\n                ]))\n              }), 128))\n            ]),\n            _hoisted_16\n          ]),\n          _createElementVNode(\"div\", _hoisted_17, [\n            _createVNode(_component_BlogSidebar)\n          ])\n        ])\n      ])\n    ]),\n    _createVNode(_component_CallToActionTwo),\n    _createVNode(_component_TheFooter)\n  ]))\n}\n\n\nimport _export_sfc from '\u0000plugin-vue:export-helper'\nexport default /*#__PURE__*/_export_sfc(_sfc_main, [['render',_sfc_render]])",
-      "start": 1715843835983,
-      "end": 1715843835983,
+      "start": 1716878812781,
+      "end": 1716878812781,
       "order": "post"
     },
     {
       "name": "nuxt:tree-shake-composables:transform",
-      "start": 1715843835983,
-      "end": 1715843835983,
+      "start": 1716878812781,
+      "end": 1716878812781,
       "order": "post"
     },
     {
       "name": "vite:build-import-analysis",
-      "start": 1715843835983,
-      "end": 1715843835983,
+      "start": 1716878812781,
+      "end": 1716878812782,
       "order": "normal"
     },
     {
       "name": "vite:reporter",
-      "start": 1715843835983,
-      "end": 1715843835983,
+      "start": 1716878812782,
+      "end": 1716878812782,
       "order": "normal"
     }
   ]

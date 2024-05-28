@@ -8,8 +8,8 @@
                     <div class="col-xl-2 col-auto order-0">
                         <div class="header-logo">
                             <NuxtLink to="/">
-                                <img style="opacity: 0.5;" class="dark-logo" src="/images/logo/logo.png" alt="Javaraya Logo">
-                                <img style="opacity: 0.5;" class="light-logo" src="/images/logo/logo.png" alt="Javaraya Logo">
+                                <img class="dark-logo" src="/images/logo/javaraya-logo-black-bg-transparent.png" alt="Javaraya Logo">
+                                <!-- <img style="opacity: 0.5;" class="light-logo" src="/images/logo/javaraya-logo-white-bg.png" alt="Javaraya Logo"> -->
                             </NuxtLink>
                         </div>
                     </div>

@@ -4,57 +4,57 @@
     {
       "name": "vite:load-fallback",
       "result": "<template>\r\n    <div class=\"main-container\">\r\n        <TheHeader />\r\n        <OffCanvasMobileMenu />\r\n        <SearchPopup />\r\n        <BreadcrumbOne activePageName=\"All Project\" title=\"We work with bold brands that we believe in\" backgroundUrl= \"/images/bg/breadcrumb-bg-two.jpg\" />\r\n        <ProjectWrapper />\r\n        <CallToActionTwo />\r\n        <AboutFour />\r\n        <BrandLogoCarousel class=\"pt-0\" />\r\n        <FaqOne />\r\n        <TheFooter />\r\n    </div>\r\n</template>\r\n\r\n",
-      "start": 1715843836003,
-      "end": 1715843836073,
+      "start": 1716878812794,
+      "end": 1716878812858,
       "sourcemaps": null
     },
     {
       "name": "nuxt:layer-aliasing",
-      "start": 1715843836073,
-      "end": 1715843836073,
+      "start": 1716878812858,
+      "end": 1716878812858,
       "order": "pre"
     },
     {
       "name": "nuxt:server-devonly:transform",
-      "start": 1715843836073,
-      "end": 1715843836073,
+      "start": 1716878812858,
+      "end": 1716878812858,
       "order": "pre"
     },
     {
       "name": "nuxt:client-fallback-auto-id",
-      "start": 1715843836073,
-      "end": 1715843836073,
+      "start": 1716878812858,
+      "end": 1716878812858,
       "order": "pre"
     },
     {
       "name": "vite:css",
-      "start": 1715843836073,
-      "end": 1715843836073,
+      "start": 1716878812858,
+      "end": 1716878812858,
       "order": "normal"
     },
     {
       "name": "vite:esbuild",
-      "start": 1715843836073,
-      "end": 1715843836073,
+      "start": 1716878812858,
+      "end": 1716878812858,
       "order": "normal"
     },
     {
       "name": "vite:json",
-      "start": 1715843836073,
-      "end": 1715843836074,
+      "start": 1716878812858,
+      "end": 1716878812858,
       "order": "normal"
     },
     {
       "name": "vite:worker",
-      "start": 1715843836074,
-      "end": 1715843836074,
+      "start": 1716878812858,
+      "end": 1716878812858,
       "order": "normal"
     },
     {
       "name": "vite:vue",
       "result": "const _sfc_main = {}\nimport { resolveComponent as _resolveComponent, createVNode as _createVNode, openBlock as _openBlock, createElementBlock as _createElementBlock } from \"vue\"\n\nconst _hoisted_1 = { class: \"main-container\" }\n\nfunction _sfc_render(_ctx, _cache) {\n  const _component_TheHeader = _resolveComponent(\"TheHeader\")\n  const _component_OffCanvasMobileMenu = _resolveComponent(\"OffCanvasMobileMenu\")\n  const _component_SearchPopup = _resolveComponent(\"SearchPopup\")\n  const _component_BreadcrumbOne = _resolveComponent(\"BreadcrumbOne\")\n  const _component_ProjectWrapper = _resolveComponent(\"ProjectWrapper\")\n  const _component_CallToActionTwo = _resolveComponent(\"CallToActionTwo\")\n  const _component_AboutFour = _resolveComponent(\"AboutFour\")\n  const _component_BrandLogoCarousel = _resolveComponent(\"BrandLogoCarousel\")\n  const _component_FaqOne = _resolveComponent(\"FaqOne\")\n  const _component_TheFooter = _resolveComponent(\"TheFooter\")\n\n  return (_openBlock(), _createElementBlock(\"div\", _hoisted_1, [\n    _createVNode(_component_TheHeader),\n    _createVNode(_component_OffCanvasMobileMenu),\n    _createVNode(_component_SearchPopup),\n    _createVNode(_component_BreadcrumbOne, {\n      activePageName: \"All Project\",\n      title: \"We work with bold brands that we believe in\",\n      backgroundUrl: \"/images/bg/breadcrumb-bg-two.jpg\"\n    }),\n    _createVNode(_component_ProjectWrapper),\n    _createVNode(_component_CallToActionTwo),\n    _createVNode(_component_AboutFour),\n    _createVNode(_component_BrandLogoCarousel, { class: \"pt-0\" }),\n    _createVNode(_component_FaqOne),\n    _createVNode(_component_TheFooter)\n  ]))\n}\n\n\nimport _export_sfc from '\u0000plugin-vue:export-helper'\nexport default /*#__PURE__*/_export_sfc(_sfc_main, [['render',_sfc_render]])",
-      "start": 1715843836074,
-      "end": 1715843836074,
+      "start": 1716878812858,
+      "end": 1716878812859,
       "order": "normal",
       "sourcemaps": {
         "mappings": ""
@@ -62,153 +62,153 @@
     },
     {
       "name": "vite:vue-jsx",
-      "start": 1715843836074,
-      "end": 1715843836074,
+      "start": 1716878812859,
+      "end": 1716878812859,
       "order": "normal"
     },
     {
       "name": "replace",
-      "start": 1715843836074,
-      "end": 1715843836074,
+      "start": 1716878812859,
+      "end": 1716878812859,
       "order": "normal"
     },
     {
       "name": "nuxt:remove-plugin-metadata",
-      "start": 1715843836074,
-      "end": 1715843836074,
+      "start": 1716878812859,
+      "end": 1716878812859,
       "order": "normal"
     },
     {
       "name": "nuxt:chunk-error",
-      "start": 1715843836074,
-      "end": 1715843836074,
+      "start": 1716878812859,
+      "end": 1716878812859,
       "order": "normal"
     },
     {
       "name": "nuxt:components:imports",
-      "start": 1715843836074,
-      "end": 1715843836074,
+      "start": 1716878812859,
+      "end": 1716878812859,
       "order": "normal"
     },
     {
       "name": "replace",
-      "start": 1715843836074,
-      "end": 1715843836074,
+      "start": 1716878812859,
+      "end": 1716878812859,
       "order": "normal"
     },
     {
       "name": "ssr-styles",
-      "start": 1715843836074,
-      "end": 1715843836074,
+      "start": 1716878812859,
+      "end": 1716878812859,
       "order": "normal"
     },
     {
       "name": "vite:define",
-      "start": 1715843836074,
-      "end": 1715843836074,
+      "start": 1716878812859,
+      "end": 1716878812859,
       "order": "normal"
     },
     {
       "name": "vite:css-post",
-      "start": 1715843836074,
-      "end": 1715843836074,
+      "start": 1716878812859,
+      "end": 1716878812859,
       "order": "normal"
     },
     {
       "name": "vite:build-html",
-      "start": 1715843836074,
-      "end": 1715843836074,
+      "start": 1716878812859,
+      "end": 1716878812859,
       "order": "normal"
     },
     {
       "name": "vite:worker-import-meta-url",
-      "start": 1715843836074,
-      "end": 1715843836074,
+      "start": 1716878812859,
+      "end": 1716878812859,
       "order": "normal"
     },
     {
       "name": "vite:asset-import-meta-url",
-      "start": 1715843836074,
-      "end": 1715843836074,
+      "start": 1716878812859,
+      "end": 1716878812859,
       "order": "normal"
     },
     {
       "name": "commonjs",
-      "start": 1715843836074,
-      "end": 1715843836074,
+      "start": 1716878812859,
+      "end": 1716878812859,
       "order": "normal"
     },
     {
       "name": "vite:dynamic-import-vars",
-      "start": 1715843836074,
-      "end": 1715843836074,
+      "start": 1716878812859,
+      "end": 1716878812859,
       "order": "normal"
     },
     {
       "name": "vite:import-glob",
-      "start": 1715843836074,
-      "end": 1715843836074,
+      "start": 1716878812859,
+      "end": 1716878812859,
       "order": "normal"
     },
     {
       "name": "nuxt:composable-keys",
-      "start": 1715843836074,
-      "end": 1715843836074,
+      "start": 1716878812859,
+      "end": 1716878812859,
       "order": "post"
     },
     {
       "name": "nuxt:imports-transform",
-      "start": 1715843836074,
-      "end": 1715843836075,
+      "start": 1716878812859,
+      "end": 1716878812859,
       "order": "post"
     },
     {
       "name": "unctx:transform",
-      "start": 1715843836075,
-      "end": 1715843836075,
+      "start": 1716878812859,
+      "end": 1716878812859,
       "order": "post"
     },
     {
       "name": "nuxt:pages-macros-transform",
-      "start": 1715843836075,
-      "end": 1715843836075,
+      "start": 1716878812859,
+      "end": 1716878812859,
       "order": "post"
     },
     {
       "name": "nuxt:runtime-paths-dep",
-      "start": 1715843836075,
-      "end": 1715843836075,
+      "start": 1716878812859,
+      "end": 1716878812859,
       "order": "post"
     },
     {
       "name": "nuxt:route-injection-plugin",
-      "start": 1715843836075,
-      "end": 1715843836075,
+      "start": 1716878812859,
+      "end": 1716878812859,
       "order": "post"
     },
     {
       "name": "nuxt:components-loader",
       "result": "import { default as __nuxt_component_0 } from \"E:/Projects/JavaRayaInternational/website/components/TheHeader.vue\";\nimport { default as __nuxt_component_1 } from \"E:/Projects/JavaRayaInternational/website/components/OffCanvasMobileMenu.vue\";\nimport { default as __nuxt_component_2 } from \"E:/Projects/JavaRayaInternational/website/components/SearchPopup.vue\";\nimport { default as __nuxt_component_3 } from \"E:/Projects/JavaRayaInternational/website/components/BreadcrumbOne.vue\";\nimport { default as __nuxt_component_4 } from \"E:/Projects/JavaRayaInternational/website/components/ProjectWrapper.vue\";\nimport { default as __nuxt_component_5 } from \"E:/Projects/JavaRayaInternational/website/components/CallToActionTwo.vue\";\nimport { default as __nuxt_component_6 } from \"E:/Projects/JavaRayaInternational/website/components/BrandLogoCarousel.vue\";\nimport { default as __nuxt_component_7 } from \"E:/Projects/JavaRayaInternational/website/components/FaqOne.vue\";\nimport { default as __nuxt_component_8 } from \"E:/Projects/JavaRayaInternational/website/components/TheFooter.vue\";\nconst _sfc_main = {}\nimport { resolveComponent as _resolveComponent, createVNode as _createVNode, openBlock as _openBlock, createElementBlock as _createElementBlock } from \"vue\"\n\nconst _hoisted_1 = { class: \"main-container\" }\n\nfunction _sfc_render(_ctx, _cache) {\n  const _component_TheHeader = __nuxt_component_0\n  const _component_OffCanvasMobileMenu = __nuxt_component_1\n  const _component_SearchPopup = __nuxt_component_2\n  const _component_BreadcrumbOne = __nuxt_component_3\n  const _component_ProjectWrapper = __nuxt_component_4\n  const _component_CallToActionTwo = __nuxt_component_5\n  const _component_AboutFour = _resolveComponent(\"AboutFour\")\n  const _component_BrandLogoCarousel = __nuxt_component_6\n  const _component_FaqOne = __nuxt_component_7\n  const _component_TheFooter = __nuxt_component_8\n\n  return (_openBlock(), _createElementBlock(\"div\", _hoisted_1, [\n    _createVNode(_component_TheHeader),\n    _createVNode(_component_OffCanvasMobileMenu),\n    _createVNode(_component_SearchPopup),\n    _createVNode(_component_BreadcrumbOne, {\n      activePageName: \"All Project\",\n      title: \"We work with bold brands that we believe in\",\n      backgroundUrl: \"/images/bg/breadcrumb-bg-two.jpg\"\n    }),\n    _createVNode(_component_ProjectWrapper),\n    _createVNode(_component_CallToActionTwo),\n    _createVNode(_component_AboutFour),\n    _createVNode(_component_BrandLogoCarousel, { class: \"pt-0\" }),\n    _createVNode(_component_FaqOne),\n    _createVNode(_component_TheFooter)\n  ]))\n}\n\n\nimport _export_sfc from '\u0000plugin-vue:export-helper'\nexport default /*#__PURE__*/_export_sfc(_sfc_main, [['render',_sfc_render]])",
-      "start": 1715843836075,
-      "end": 1715843836075,
+      "start": 1716878812859,
+      "end": 1716878812859,
       "order": "post"
     },
     {
       "name": "nuxt:tree-shake-composables:transform",
-      "start": 1715843836075,
-      "end": 1715843836075,
+      "start": 1716878812859,
+      "end": 1716878812859,
       "order": "post"
     },
     {
       "name": "vite:build-import-analysis",
-      "start": 1715843836075,
-      "end": 1715843836075,
+      "start": 1716878812859,
+      "end": 1716878812859,
       "order": "normal"
     },
     {
       "name": "vite:reporter",
-      "start": 1715843836075,
-      "end": 1715843836075,
+      "start": 1716878812859,
+      "end": 1716878812859,
       "order": "normal"
     }
   ]

@@ -42,7 +42,8 @@
                 <div class="desc mt-40">
                   <div class="content mb-20" data-aos="fade-up">
                     <p>
-                      We believe organic rice is the answer for our staple food. The food without any additive and healthy.
+                      We believe organic rice is the answer for our staple food.
+                      The food without any additive and healthy.
                     </p>
                   </div>
                   <div class="content mb-20" data-aos="fade-up">
@@ -59,7 +60,7 @@
                           <td>70%</td>
                         </tr>
                         <tr>
-                          <td>Organic Melik Black Rice </td>
+                          <td>Organic Melik Black Rice</td>
                           <td>4%</td>
                         </tr>
                         <tr>
@@ -71,23 +72,18 @@
                           <td>8%</td>
                         </tr>
                         <tr>
-                          <td>Organic Brown Rice </td>
+                          <td>Organic Brown Rice</td>
                           <td>8%</td>
                         </tr>
                         <tr>
-                          <td>Organic Germination Red Rice </td>
+                          <td>Organic Germination Red Rice</td>
                           <td>4%</td>
                         </tr>
-                        
                       </tbody>
                     </table>
                   </div>
                   <div class="content mb-40" data-aos="fade-up">
-                    <p>
-                        Our farm and mill.
-
-                    </p>
-
+                    <p>Our farm and mill.</p>
 
                     <table class="styled-table">
                       <thead>
@@ -102,7 +98,7 @@
                           <td>50%</td>
                         </tr>
                         <tr>
-                          <td>Jember, East Java </td>
+                          <td>Jember, East Java</td>
                           <td>20%</td>
                         </tr>
                         <tr>
@@ -113,7 +109,6 @@
                           <td>Kalimantan island</td>
                           <td>20%</td>
                         </tr>
-                        
                       </tbody>
                     </table>
                   </div>
@@ -126,7 +121,7 @@
     </div>
   </div>
 
-<hr/>
+  <hr />
 
   <div class="section-padding-top section-padding-bottom-180 overflow-hidden">
     <div class="container">
@@ -168,7 +163,6 @@
       </div>
     </div>
   </div>
-
 
   <div class="section-padding-top section-padding-bottom-180 overflow-hidden">
     <div class="container">
@@ -213,7 +207,6 @@
     </div>
   </div>
 
-
   <div class="section-padding-top section-padding-bottom-180 overflow-hidden">
     <div class="container">
       <div class="row">
@@ -250,7 +243,6 @@
       </div>
     </div>
   </div>
-
 
   <div class="section-padding-top section-padding-bottom-180 overflow-hidden">
     <div class="container">

@@ -4,75 +4,75 @@
     {
       "name": "vite:load-fallback",
       "result": "<template>\r\n    <TheHeader />\r\n    <OffCanvasMobileMenu />\r\n    <SearchPopup />\r\n    <BreadcrumbOne activePageName=\"Retail\" title=\"Retail Business\" backgroundUrl= \"/images/bg/breadcrumb-bg-darkgray.png\" />\r\n\r\n\r\n    <TheFooter />\r\n</template>",
-      "start": 1715843840668,
-      "end": 1715843840732,
+      "start": 1716878817529,
+      "end": 1716878817611,
       "sourcemaps": null
     },
     {
       "name": "nuxt:layer-aliasing",
-      "start": 1715843840732,
-      "end": 1715843840732,
+      "start": 1716878817611,
+      "end": 1716878817611,
       "order": "pre"
     },
     {
       "name": "nuxt:layer-aliasing",
-      "start": 1715843840732,
-      "end": 1715843840732,
+      "start": 1716878817611,
+      "end": 1716878817611,
       "order": "pre"
     },
     {
       "name": "nuxt:server-devonly:transform",
-      "start": 1715843840732,
-      "end": 1715843840732,
+      "start": 1716878817611,
+      "end": 1716878817611,
       "order": "pre"
     },
     {
       "name": "nuxt:server-devonly:transform",
-      "start": 1715843840732,
-      "end": 1715843840732,
+      "start": 1716878817611,
+      "end": 1716878817611,
       "order": "pre"
     },
     {
       "name": "nuxt:client-fallback-auto-id",
-      "start": 1715843840732,
-      "end": 1715843840732,
+      "start": 1716878817611,
+      "end": 1716878817611,
       "order": "pre"
     },
     {
       "name": "server-only-component-transform",
-      "start": 1715843840732,
-      "end": 1715843840732,
+      "start": 1716878817611,
+      "end": 1716878817611,
       "order": "pre"
     },
     {
       "name": "vite:css",
-      "start": 1715843840732,
-      "end": 1715843840732,
+      "start": 1716878817611,
+      "end": 1716878817611,
       "order": "normal"
     },
     {
       "name": "vite:esbuild",
-      "start": 1715843840732,
-      "end": 1715843840732,
+      "start": 1716878817611,
+      "end": 1716878817611,
       "order": "normal"
     },
     {
       "name": "vite:json",
-      "start": 1715843840732,
-      "end": 1715843840732,
+      "start": 1716878817611,
+      "end": 1716878817611,
       "order": "normal"
     },
     {
       "name": "vite:worker",
-      "start": 1715843840732,
-      "end": 1715843840732,
+      "start": 1716878817611,
+      "end": 1716878817611,
       "order": "normal"
     },
     {
       "name": "vite:vue",
       "result": "const _sfc_main = {}\nimport { resolveComponent as _resolveComponent } from \"vue\"\nimport { ssrRenderComponent as _ssrRenderComponent } from \"vue/server-renderer\"\n\nfunction _sfc_ssrRender(_ctx, _push, _parent, _attrs) {\n  const _component_TheHeader = _resolveComponent(\"TheHeader\")\n  const _component_OffCanvasMobileMenu = _resolveComponent(\"OffCanvasMobileMenu\")\n  const _component_SearchPopup = _resolveComponent(\"SearchPopup\")\n  const _component_BreadcrumbOne = _resolveComponent(\"BreadcrumbOne\")\n  const _component_TheFooter = _resolveComponent(\"TheFooter\")\n\n  _push(`<!--[-->`)\n  _push(_ssrRenderComponent(_component_TheHeader, null, null, _parent))\n  _push(_ssrRenderComponent(_component_OffCanvasMobileMenu, null, null, _parent))\n  _push(_ssrRenderComponent(_component_SearchPopup, null, null, _parent))\n  _push(_ssrRenderComponent(_component_BreadcrumbOne, {\n    activePageName: \"Retail\",\n    title: \"Retail Business\",\n    backgroundUrl: \"/images/bg/breadcrumb-bg-darkgray.png\"\n  }, null, _parent))\n  _push(_ssrRenderComponent(_component_TheFooter, null, null, _parent))\n  _push(`<!--]-->`)\n}\n\n\nimport { useSSRContext as __vite_useSSRContext } from 'vue'\nconst _sfc_setup = _sfc_main.setup\n_sfc_main.setup = (props, ctx) => {\n  const ssrContext = __vite_useSSRContext()\n  ;(ssrContext.modules || (ssrContext.modules = new Set())).add(\"pages/business/retail.vue\")\n  return _sfc_setup ? _sfc_setup(props, ctx) : undefined\n}\nimport _export_sfc from '\u0000plugin-vue:export-helper'\nexport default /*#__PURE__*/_export_sfc(_sfc_main, [['ssrRender',_sfc_ssrRender]])",
-      "start": 1715843840732,
-      "end": 1715843840733,
+      "start": 1716878817611,
+      "end": 1716878817611,
       "order": "normal",
       "sourcemaps": {
         "version": 3,
@@ -88,159 +88,159 @@
     },
     {
       "name": "vite:vue-jsx",
-      "start": 1715843840733,
-      "end": 1715843840733,
+      "start": 1716878817611,
+      "end": 1716878817611,
       "order": "normal"
     },
     {
       "name": "replace",
-      "start": 1715843840733,
-      "end": 1715843840733,
+      "start": 1716878817611,
+      "end": 1716878817611,
       "order": "normal"
     },
     {
       "name": "replace",
-      "start": 1715843840733,
-      "end": 1715843840733,
+      "start": 1716878817611,
+      "end": 1716878817611,
       "order": "normal"
     },
     {
       "name": "nuxt:remove-plugin-metadata",
-      "start": 1715843840733,
-      "end": 1715843840733,
+      "start": 1716878817611,
+      "end": 1716878817611,
       "order": "normal"
     },
     {
       "name": "nuxt:remove-plugin-metadata",
-      "start": 1715843840733,
-      "end": 1715843840733,
+      "start": 1716878817611,
+      "end": 1716878817611,
       "order": "normal"
     },
     {
       "name": "nuxt:components:imports",
-      "start": 1715843840733,
-      "end": 1715843840733,
+      "start": 1716878817611,
+      "end": 1716878817611,
       "order": "normal"
     },
     {
       "name": "replace",
-      "start": 1715843840733,
-      "end": 1715843840733,
+      "start": 1716878817611,
+      "end": 1716878817611,
       "order": "normal"
     },
     {
       "name": "ssr-styles",
-      "start": 1715843840733,
-      "end": 1715843840733,
+      "start": 1716878817611,
+      "end": 1716878817612,
       "order": "normal"
     },
     {
       "name": "vite:define",
-      "start": 1715843840733,
-      "end": 1715843840733,
+      "start": 1716878817612,
+      "end": 1716878817612,
       "order": "normal"
     },
     {
       "name": "vite:css-post",
-      "start": 1715843840733,
-      "end": 1715843840733,
+      "start": 1716878817612,
+      "end": 1716878817612,
       "order": "normal"
     },
     {
       "name": "vite:build-html",
-      "start": 1715843840733,
-      "end": 1715843840733,
+      "start": 1716878817612,
+      "end": 1716878817612,
       "order": "normal"
     },
     {
       "name": "vite:worker-import-meta-url",
-      "start": 1715843840733,
-      "end": 1715843840733,
+      "start": 1716878817612,
+      "end": 1716878817612,
       "order": "normal"
     },
     {
       "name": "vite:asset-import-meta-url",
-      "start": 1715843840733,
-      "end": 1715843840733,
+      "start": 1716878817612,
+      "end": 1716878817612,
       "order": "normal"
     },
     {
       "name": "commonjs",
-      "start": 1715843840733,
-      "end": 1715843840733,
+      "start": 1716878817612,
+      "end": 1716878817612,
       "order": "normal"
     },
     {
       "name": "vite:dynamic-import-vars",
-      "start": 1715843840733,
-      "end": 1715843840733,
+      "start": 1716878817612,
+      "end": 1716878817612,
       "order": "normal"
     },
     {
       "name": "vite:import-glob",
-      "start": 1715843840733,
-      "end": 1715843840733,
+      "start": 1716878817612,
+      "end": 1716878817612,
       "order": "normal"
     },
     {
       "name": "nuxt:composable-keys",
-      "start": 1715843840733,
-      "end": 1715843840733,
+      "start": 1716878817612,
+      "end": 1716878817612,
       "order": "post"
     },
     {
       "name": "nuxt:composable-keys",
-      "start": 1715843840733,
-      "end": 1715843840733,
+      "start": 1716878817612,
+      "end": 1716878817612,
       "order": "post"
     },
     {
       "name": "nuxt:imports-transform",
-      "start": 1715843840733,
-      "end": 1715843840733,
+      "start": 1716878817612,
+      "end": 1716878817612,
       "order": "post"
     },
     {
       "name": "nuxt:imports-transform",
-      "start": 1715843840733,
-      "end": 1715843840733,
+      "start": 1716878817612,
+      "end": 1716878817612,
       "order": "post"
     },
     {
       "name": "unctx:transform",
-      "start": 1715843840733,
-      "end": 1715843840733,
+      "start": 1716878817612,
+      "end": 1716878817612,
       "order": "post"
     },
     {
       "name": "unctx:transform",
-      "start": 1715843840733,
-      "end": 1715843840733,
+      "start": 1716878817612,
+      "end": 1716878817612,
       "order": "post"
     },
     {
       "name": "nuxt:pages-macros-transform",
-      "start": 1715843840733,
-      "end": 1715843840733,
+      "start": 1716878817612,
+      "end": 1716878817612,
       "order": "post"
     },
     {
       "name": "nuxt:pages-macros-transform",
-      "start": 1715843840733,
-      "end": 1715843840733,
+      "start": 1716878817612,
+      "end": 1716878817612,
       "order": "post"
     },
     {
       "name": "nuxt:tree-shake-template",
-      "start": 1715843840733,
-      "end": 1715843840733,
+      "start": 1716878817612,
+      "end": 1716878817612,
       "order": "post"
     },
     {
       "name": "nuxt:components-loader",
       "result": "import { default as __nuxt_component_0 } from \"E:/Projects/JavaRayaInternational/website/components/TheHeader.vue\";\nimport { default as __nuxt_component_1 } from \"E:/Projects/JavaRayaInternational/website/components/OffCanvasMobileMenu.vue\";\nimport { default as __nuxt_component_2 } from \"E:/Projects/JavaRayaInternational/website/components/SearchPopup.vue\";\nimport { default as __nuxt_component_3 } from \"E:/Projects/JavaRayaInternational/website/components/BreadcrumbOne.vue\";\nimport { default as __nuxt_component_4 } from \"E:/Projects/JavaRayaInternational/website/components/TheFooter.vue\";\nconst _sfc_main = {}\nimport { resolveComponent as _resolveComponent } from \"vue\"\nimport { ssrRenderComponent as _ssrRenderComponent } from \"vue/server-renderer\"\n\nfunction _sfc_ssrRender(_ctx, _push, _parent, _attrs) {\n  const _component_TheHeader = __nuxt_component_0\n  const _component_OffCanvasMobileMenu = __nuxt_component_1\n  const _component_SearchPopup = __nuxt_component_2\n  const _component_BreadcrumbOne = __nuxt_component_3\n  const _component_TheFooter = __nuxt_component_4\n\n  _push(`<!--[-->`)\n  _push(_ssrRenderComponent(_component_TheHeader, null, null, _parent))\n  _push(_ssrRenderComponent(_component_OffCanvasMobileMenu, null, null, _parent))\n  _push(_ssrRenderComponent(_component_SearchPopup, null, null, _parent))\n  _push(_ssrRenderComponent(_component_BreadcrumbOne, {\n    activePageName: \"Retail\",\n    title: \"Retail Business\",\n    backgroundUrl: \"/images/bg/breadcrumb-bg-darkgray.png\"\n  }, null, _parent))\n  _push(_ssrRenderComponent(_component_TheFooter, null, null, _parent))\n  _push(`<!--]-->`)\n}\n\n\nimport { useSSRContext as __vite_useSSRContext } from 'vue'\nconst _sfc_setup = _sfc_main.setup\n_sfc_main.setup = (props, ctx) => {\n  const ssrContext = __vite_useSSRContext()\n  ;(ssrContext.modules || (ssrContext.modules = new Set())).add(\"pages/business/retail.vue\")\n  return _sfc_setup ? _sfc_setup(props, ctx) : undefined\n}\nimport _export_sfc from '\u0000plugin-vue:export-helper'\nexport default /*#__PURE__*/_export_sfc(_sfc_main, [['ssrRender',_sfc_ssrRender]])",
-      "start": 1715843840733,
-      "end": 1715843840734,
+      "start": 1716878817612,
+      "end": 1716878817612,
       "order": "post",
       "sourcemaps": {
         "version": 3,
@@ -253,20 +253,20 @@
     },
     {
       "name": "nuxt:tree-shake-composables:transform",
-      "start": 1715843840734,
-      "end": 1715843840734,
+      "start": 1716878817612,
+      "end": 1716878817612,
       "order": "post"
     },
     {
       "name": "vite:build-import-analysis",
-      "start": 1715843840734,
-      "end": 1715843840734,
+      "start": 1716878817612,
+      "end": 1716878817612,
       "order": "normal"
     },
     {
       "name": "vite:reporter",
-      "start": 1715843840734,
-      "end": 1715843840734,
+      "start": 1716878817612,
+      "end": 1716878817612,
       "order": "normal"
     }
   ]

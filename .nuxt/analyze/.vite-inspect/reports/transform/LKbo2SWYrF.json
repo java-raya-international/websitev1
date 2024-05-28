@@ -4,57 +4,57 @@
     {
       "name": "vite:load-fallback",
       "result": "<template>\r\n    <div class=\"contact-form-section section-padding-t90-b100\" :style=\"{backgroundColor: '#f8faff'}\">\r\n        <div class=\"container\">\r\n            <div class=\"row\">\r\n                <div class=\"offset-lg-2 col-lg-8\">\r\n                    <!-- Section Title Start -->\r\n                    <div class=\"section-title text-center\" data-aos=\"fade-up\">\r\n                        <h2 class=\"title fz-32\">Let’s talk about your project</h2>\r\n                        <p class=\"sub-title\">We have made it easy for clients to reach us and get their solutions weaved</p>\r\n                    </div>\r\n                    <!-- Section Title End -->\r\n                    <div class=\"contact-form\">\r\n                        <form>\r\n                            <div class=\"row mtn-30\">\r\n                                <div class=\"col-md-6 col-12 mt-30\">\r\n                                    <input type=\"text\" placeholder=\"Your Name *\" name=\"name\">\r\n                                </div>\r\n                                <div class=\"col-md-6 col-12 mt-30\">\r\n                                    <input type=\"email\" placeholder=\"Email *\" name=\"email\">\r\n                                </div>\r\n                                <div class=\"col-md-12 col-12 mt-30\">\r\n                                    <input type=\"text\" placeholder=\"Subject *\" name=\"subject\">\r\n                                </div>\r\n                                <div class=\"col-12 mt-30\">\r\n                                    <textarea name=\"message\" placeholder=\"Message\"></textarea>\r\n                                </div>\r\n                                <div class=\"col-12 text-center mt-30\">\r\n                                    <button class=\"btn btn-primary btn-hover-secondary\">Submit</button>\r\n                                </div>\r\n                            </div>\r\n                        </form>\r\n                    </div>\r\n                </div>\r\n            </div>\r\n        </div>\r\n    </div>\r\n</template>",
-      "start": 1715843836179,
-      "end": 1715843836295,
+      "start": 1716878812924,
+      "end": 1716878813036,
       "sourcemaps": null
     },
     {
       "name": "nuxt:layer-aliasing",
-      "start": 1715843836295,
-      "end": 1715843836295,
+      "start": 1716878813036,
+      "end": 1716878813036,
       "order": "pre"
     },
     {
       "name": "nuxt:server-devonly:transform",
-      "start": 1715843836295,
-      "end": 1715843836295,
+      "start": 1716878813036,
+      "end": 1716878813036,
       "order": "pre"
     },
     {
       "name": "nuxt:client-fallback-auto-id",
-      "start": 1715843836295,
-      "end": 1715843836295,
+      "start": 1716878813036,
+      "end": 1716878813036,
       "order": "pre"
     },
     {
       "name": "vite:css",
-      "start": 1715843836295,
-      "end": 1715843836295,
+      "start": 1716878813036,
+      "end": 1716878813036,
       "order": "normal"
     },
     {
       "name": "vite:esbuild",
-      "start": 1715843836295,
-      "end": 1715843836295,
+      "start": 1716878813036,
+      "end": 1716878813036,
       "order": "normal"
     },
     {
       "name": "vite:json",
-      "start": 1715843836295,
-      "end": 1715843836295,
+      "start": 1716878813036,
+      "end": 1716878813036,
       "order": "normal"
     },
     {
       "name": "vite:worker",
-      "start": 1715843836295,
-      "end": 1715843836295,
+      "start": 1716878813036,
+      "end": 1716878813036,
       "order": "normal"
     },
     {
       "name": "vite:vue",
       "result": "const _sfc_main = {}\nimport { createElementVNode as _createElementVNode, createStaticVNode as _createStaticVNode, openBlock as _openBlock, createElementBlock as _createElementBlock } from \"vue\"\n\nconst _hoisted_1 = {\n  class: \"contact-form-section section-padding-t90-b100\",\n  style: {backgroundColor: '#f8faff'}\n}\nconst _hoisted_2 = /*#__PURE__*/_createStaticVNode(\"<div class=\\\"container\\\"><div class=\\\"row\\\"><div class=\\\"offset-lg-2 col-lg-8\\\"><div class=\\\"section-title text-center\\\" data-aos=\\\"fade-up\\\"><h2 class=\\\"title fz-32\\\">Let’s talk about your project</h2><p class=\\\"sub-title\\\">We have made it easy for clients to reach us and get their solutions weaved</p></div><div class=\\\"contact-form\\\"><form><div class=\\\"row mtn-30\\\"><div class=\\\"col-md-6 col-12 mt-30\\\"><input type=\\\"text\\\" placeholder=\\\"Your Name *\\\" name=\\\"name\\\"></div><div class=\\\"col-md-6 col-12 mt-30\\\"><input type=\\\"email\\\" placeholder=\\\"Email *\\\" name=\\\"email\\\"></div><div class=\\\"col-md-12 col-12 mt-30\\\"><input type=\\\"text\\\" placeholder=\\\"Subject *\\\" name=\\\"subject\\\"></div><div class=\\\"col-12 mt-30\\\"><textarea name=\\\"message\\\" placeholder=\\\"Message\\\"></textarea></div><div class=\\\"col-12 text-center mt-30\\\"><button class=\\\"btn btn-primary btn-hover-secondary\\\">Submit</button></div></div></form></div></div></div></div>\", 1)\nconst _hoisted_3 = [\n  _hoisted_2\n]\n\nfunction _sfc_render(_ctx, _cache) {\n  return (_openBlock(), _createElementBlock(\"div\", _hoisted_1, _hoisted_3))\n}\n\n\nimport _export_sfc from '\u0000plugin-vue:export-helper'\nexport default /*#__PURE__*/_export_sfc(_sfc_main, [['render',_sfc_render]])",
-      "start": 1715843836295,
-      "end": 1715843836296,
+      "start": 1716878813036,
+      "end": 1716878813037,
       "order": "normal",
       "sourcemaps": {
         "mappings": ""
@@ -62,152 +62,152 @@
     },
     {
       "name": "vite:vue-jsx",
-      "start": 1715843836296,
-      "end": 1715843836296,
+      "start": 1716878813037,
+      "end": 1716878813037,
       "order": "normal"
     },
     {
       "name": "replace",
-      "start": 1715843836296,
-      "end": 1715843836296,
+      "start": 1716878813037,
+      "end": 1716878813037,
       "order": "normal"
     },
     {
       "name": "nuxt:remove-plugin-metadata",
-      "start": 1715843836296,
-      "end": 1715843836296,
+      "start": 1716878813037,
+      "end": 1716878813037,
       "order": "normal"
     },
     {
       "name": "nuxt:chunk-error",
-      "start": 1715843836296,
-      "end": 1715843836296,
+      "start": 1716878813037,
+      "end": 1716878813037,
       "order": "normal"
     },
     {
       "name": "nuxt:components:imports",
-      "start": 1715843836296,
-      "end": 1715843836296,
+      "start": 1716878813037,
+      "end": 1716878813037,
       "order": "normal"
     },
     {
       "name": "replace",
-      "start": 1715843836296,
-      "end": 1715843836296,
+      "start": 1716878813037,
+      "end": 1716878813037,
       "order": "normal"
     },
     {
       "name": "ssr-styles",
-      "start": 1715843836296,
-      "end": 1715843836296,
+      "start": 1716878813037,
+      "end": 1716878813037,
       "order": "normal"
     },
     {
       "name": "vite:define",
-      "start": 1715843836296,
-      "end": 1715843836296,
+      "start": 1716878813037,
+      "end": 1716878813037,
       "order": "normal"
     },
     {
       "name": "vite:css-post",
-      "start": 1715843836296,
-      "end": 1715843836296,
+      "start": 1716878813037,
+      "end": 1716878813037,
       "order": "normal"
     },
     {
       "name": "vite:build-html",
-      "start": 1715843836296,
-      "end": 1715843836296,
+      "start": 1716878813037,
+      "end": 1716878813037,
       "order": "normal"
     },
     {
       "name": "vite:worker-import-meta-url",
-      "start": 1715843836297,
-      "end": 1715843836297,
+      "start": 1716878813037,
+      "end": 1716878813037,
       "order": "normal"
     },
     {
       "name": "vite:asset-import-meta-url",
-      "start": 1715843836297,
-      "end": 1715843836297,
+      "start": 1716878813037,
+      "end": 1716878813037,
       "order": "normal"
     },
     {
       "name": "commonjs",
-      "start": 1715843836297,
-      "end": 1715843836297,
+      "start": 1716878813037,
+      "end": 1716878813037,
       "order": "normal"
     },
     {
       "name": "vite:dynamic-import-vars",
-      "start": 1715843836297,
-      "end": 1715843836297,
+      "start": 1716878813037,
+      "end": 1716878813037,
       "order": "normal"
     },
     {
       "name": "vite:import-glob",
-      "start": 1715843836297,
-      "end": 1715843836297,
+      "start": 1716878813037,
+      "end": 1716878813037,
       "order": "normal"
     },
     {
       "name": "nuxt:composable-keys",
-      "start": 1715843836297,
-      "end": 1715843836297,
+      "start": 1716878813037,
+      "end": 1716878813037,
       "order": "post"
     },
     {
       "name": "nuxt:imports-transform",
-      "start": 1715843836297,
-      "end": 1715843836297,
+      "start": 1716878813037,
+      "end": 1716878813038,
       "order": "post"
     },
     {
       "name": "unctx:transform",
-      "start": 1715843836297,
-      "end": 1715843836297,
+      "start": 1716878813038,
+      "end": 1716878813038,
       "order": "post"
     },
     {
       "name": "nuxt:pages-macros-transform",
-      "start": 1715843836297,
-      "end": 1715843836297,
+      "start": 1716878813038,
+      "end": 1716878813038,
       "order": "post"
     },
     {
       "name": "nuxt:runtime-paths-dep",
-      "start": 1715843836297,
-      "end": 1715843836297,
+      "start": 1716878813038,
+      "end": 1716878813038,
       "order": "post"
     },
     {
       "name": "nuxt:route-injection-plugin",
-      "start": 1715843836297,
-      "end": 1715843836297,
+      "start": 1716878813038,
+      "end": 1716878813038,
       "order": "post"
     },
     {
       "name": "nuxt:components-loader",
-      "start": 1715843836297,
-      "end": 1715843836297,
+      "start": 1716878813038,
+      "end": 1716878813038,
       "order": "post"
     },
     {
       "name": "nuxt:tree-shake-composables:transform",
-      "start": 1715843836297,
-      "end": 1715843836297,
+      "start": 1716878813038,
+      "end": 1716878813038,
       "order": "post"
     },
     {
       "name": "vite:build-import-analysis",
-      "start": 1715843836297,
-      "end": 1715843836297,
+      "start": 1716878813038,
+      "end": 1716878813038,
       "order": "normal"
     },
     {
       "name": "vite:reporter",
-      "start": 1715843836297,
-      "end": 1715843836297,
+      "start": 1716878813038,
+      "end": 1716878813038,
       "order": "normal"
     }
   ]

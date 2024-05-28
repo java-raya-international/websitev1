@@ -4,75 +4,75 @@
     {
       "name": "vite:load-fallback",
       "result": "<template>\r\n    <div class=\"main-container\">\r\n      \r\n        <!-- service section start -->\r\n        <section class=\"service-details-wrapper section-padding pb-125\">\r\n            <div class=\"container\">\r\n                <div class=\"row\">\r\n                    <div class=\"col-lg-4 mtn-40 order-2 order-lg-1\">\r\n                        <div class=\"service-details-widget\">\r\n                            <div class=\"service-single-widget mt-40\" :style=\"{backgroundColor: '#f8faff'}\">\r\n                                <h4 class=\"service-widget-title\">Technology Stack</h4>\r\n                                <ul class=\"service-list\">\r\n                                    <li><a href=\"#\">LLM based on LLAMA2 </a></li>\r\n                                    <li><a href=\"#\">Dotnet 8.0 (LTS) and latest version (STS and LTS)</a></li>\r\n                                    <li><a href=\"#\">NodeJS 21 and latest</a></li>\r\n                                    <li><a href=\"#\">Golang 1.22</a></li>\r\n                                    <li><a href=\"#\">Linux Centos 9 </a></li>\r\n                                    <li><a href=\"#\">Container</a></li>\r\n                                    <li><a href=\"#\">Cloud or Bare metal VM with GPU </a></li>\r\n                                    <li><a href=\"#\">MySQL</a></li>\r\n                                    <li><a href=\"#\">PosgresSQL</a></li>\r\n                                    <li><a href=\"#\">LanceDB</a></li>\r\n                                </ul>\r\n                            </div>\r\n                            <div class=\"service-single-widget mt-40\" :style=\"{backgroundColor: '#f8faff'}\">\r\n                                <h4 class=\"service-widget-title\">Download Docs</h4>\r\n                                <ul class=\"service-list\">\r\n                                    <li>No release yet on github</li>\r\n                                </ul>\r\n                            </div>\r\n                        </div>\r\n                    </div>\r\n                    <div class=\"col-lg-8 order-1 order-lg-2\">\r\n                        <div class=\"service-details\">\r\n                            <div class=\"service-details-thumb\">\r\n                                <!-- <img :src=\"service.imgSrc\" :alt=\"service.title\"> -->\r\n                            </div>\r\n                            <h3 class=\"mt-4 mb-3\">Artificial Intelligence</h3>\r\n                            <p>Unlock the power of artificial intelligence in your cross-border marketplace with AI Borderless Commerce. Our innovative AI-driven features streamline operations, enhance user experience, and maximize profitability for businesses operating across borders. Explore our cutting-edge solutions tailored to meet the unique challenges of international e-commerce.</p>\r\n                            <p class=\"mb-0\">Below is our plan the use of AI in our APP</p>\r\n                            <div class=\"row\">\r\n                                <div class=\"col-sm-6\">\r\n                                    <div class=\"service-details-content mt-30\">\r\n                                        <h4>Personalized Recommendation</h4>\r\n                                        <p>Enhance user engagement and drive conversions with personalized product recommendations tailored to each customer's preferences</p>\r\n                                    </div>\r\n                                </div>\r\n                                <div class=\"col-sm-6\">\r\n                                    <div class=\"service-details-content mt-30\">\r\n                                        <h4>Logistic Optimization</h4>\r\n                                        <p>Streamline international shipping and logistics operations with AI-driven optimization tools. From route planning to inventory management, our solution minimizes costs, reduces delivery times, and ensures seamless supply chain management across borders.</p>\r\n                                    </div>\r\n                                </div>\r\n                                <div class=\"col-sm-6\">\r\n                                    <div class=\"service-details-content mt-30\">\r\n                                        <h4>Step by Step Personalization</h4>\r\n                                        <p>Our AI based chat will go step by step so you make sure you can get what you want</p>\r\n                                    </div>\r\n                                </div>\r\n                                <div class=\"col-sm-6\">\r\n                                    <div class=\"service-details-content mt-30\">\r\n                                        <h4>AI Fraud Detection</h4>\r\n                                        <p>Protect your business and customers from fraudulent activities with our intelligent fraud detection system. Powered by machine learning algorithms, our solution identifies suspicious transactions and mitigates risks proactively, safeguarding the integrity of your marketplace.</p>\r\n                                    </div>\r\n                                </div>\r\n                                <div class=\"col-sm-6\">\r\n                                    <div class=\"service-details-content mt-30\">\r\n                                        <h4>AI Scoring</h4>\r\n                                        <p>Our AI will give score on vendors and customers and provide better services and optimizing dynamic pricing</p>\r\n                                    </div>\r\n                                </div>\r\n                                <div class=\"col-sm-6\">\r\n                                    <div class=\"service-details-content mt-30\">\r\n                                        <h4>Market Analyze and Trends</h4>\r\n                                        <p>Our system will consume TB of data from ours and competitors, provide trends and personalized recommendation for our customers</p>\r\n                                    </div>\r\n                                </div>\r\n                            </div>\r\n                        </div>\r\n                    </div>\r\n                </div>\r\n            </div>\r\n        </section>\r\n        <!-- service section end -->\r\n\r\n    </div>\r\n</template>\r\n\r\n<script>\r\n    \r\n</script>\r\n\r\n\r\n",
-      "start": 1715843841405,
-      "end": 1715843841511,
+      "start": 1716878818344,
+      "end": 1716878818483,
       "sourcemaps": null
     },
     {
       "name": "nuxt:layer-aliasing",
-      "start": 1715843841511,
-      "end": 1715843841511,
+      "start": 1716878818483,
+      "end": 1716878818483,
       "order": "pre"
     },
     {
       "name": "nuxt:layer-aliasing",
-      "start": 1715843841511,
-      "end": 1715843841511,
+      "start": 1716878818483,
+      "end": 1716878818483,
       "order": "pre"
     },
     {
       "name": "nuxt:server-devonly:transform",
-      "start": 1715843841511,
-      "end": 1715843841511,
+      "start": 1716878818483,
+      "end": 1716878818483,
       "order": "pre"
     },
     {
       "name": "nuxt:server-devonly:transform",
-      "start": 1715843841511,
-      "end": 1715843841511,
+      "start": 1716878818483,
+      "end": 1716878818483,
       "order": "pre"
     },
     {
       "name": "nuxt:client-fallback-auto-id",
-      "start": 1715843841511,
-      "end": 1715843841511,
+      "start": 1716878818483,
+      "end": 1716878818483,
       "order": "pre"
     },
     {
       "name": "server-only-component-transform",
-      "start": 1715843841511,
-      "end": 1715843841511,
+      "start": 1716878818483,
+      "end": 1716878818483,
       "order": "pre"
     },
     {
       "name": "vite:css",
-      "start": 1715843841511,
-      "end": 1715843841511,
+      "start": 1716878818483,
+      "end": 1716878818483,
       "order": "normal"
     },
     {
       "name": "vite:esbuild",
-      "start": 1715843841511,
-      "end": 1715843841511,
+      "start": 1716878818483,
+      "end": 1716878818483,
       "order": "normal"
     },
     {
       "name": "vite:json",
-      "start": 1715843841511,
-      "end": 1715843841511,
+      "start": 1716878818483,
+      "end": 1716878818483,
       "order": "normal"
     },
     {
       "name": "vite:worker",
-      "start": 1715843841511,
-      "end": 1715843841511,
+      "start": 1716878818483,
+      "end": 1716878818483,
       "order": "normal"
     },
     {
       "name": "vite:vue",
       "result": "const _sfc_main = {}\nimport { mergeProps as _mergeProps } from \"vue\"\nimport { ssrRenderStyle as _ssrRenderStyle, ssrRenderAttrs as _ssrRenderAttrs } from \"vue/server-renderer\"\n\nfunction _sfc_ssrRender(_ctx, _push, _parent, _attrs) {\n  _push(`<div${\n    _ssrRenderAttrs(_mergeProps({ class: \"main-container\" }, _attrs))\n  }><section class=\"service-details-wrapper section-padding pb-125\"><div class=\"container\"><div class=\"row\"><div class=\"col-lg-4 mtn-40 order-2 order-lg-1\"><div class=\"service-details-widget\"><div class=\"service-single-widget mt-40\" style=\"${\n    _ssrRenderStyle({backgroundColor: '#f8faff'})\n  }\"><h4 class=\"service-widget-title\">Technology Stack</h4><ul class=\"service-list\"><li><a href=\"#\">LLM based on LLAMA2 </a></li><li><a href=\"#\">Dotnet 8.0 (LTS) and latest version (STS and LTS)</a></li><li><a href=\"#\">NodeJS 21 and latest</a></li><li><a href=\"#\">Golang 1.22</a></li><li><a href=\"#\">Linux Centos 9 </a></li><li><a href=\"#\">Container</a></li><li><a href=\"#\">Cloud or Bare metal VM with GPU </a></li><li><a href=\"#\">MySQL</a></li><li><a href=\"#\">PosgresSQL</a></li><li><a href=\"#\">LanceDB</a></li></ul></div><div class=\"service-single-widget mt-40\" style=\"${\n    _ssrRenderStyle({backgroundColor: '#f8faff'})\n  }\"><h4 class=\"service-widget-title\">Download Docs</h4><ul class=\"service-list\"><li>No release yet on github</li></ul></div></div></div><div class=\"col-lg-8 order-1 order-lg-2\"><div class=\"service-details\"><div class=\"service-details-thumb\"></div><h3 class=\"mt-4 mb-3\">Artificial Intelligence</h3><p>Unlock the power of artificial intelligence in your cross-border marketplace with AI Borderless Commerce. Our innovative AI-driven features streamline operations, enhance user experience, and maximize profitability for businesses operating across borders. Explore our cutting-edge solutions tailored to meet the unique challenges of international e-commerce.</p><p class=\"mb-0\">Below is our plan the use of AI in our APP</p><div class=\"row\"><div class=\"col-sm-6\"><div class=\"service-details-content mt-30\"><h4>Personalized Recommendation</h4><p>Enhance user engagement and drive conversions with personalized product recommendations tailored to each customer&#39;s preferences</p></div></div><div class=\"col-sm-6\"><div class=\"service-details-content mt-30\"><h4>Logistic Optimization</h4><p>Streamline international shipping and logistics operations with AI-driven optimization tools. From route planning to inventory management, our solution minimizes costs, reduces delivery times, and ensures seamless supply chain management across borders.</p></div></div><div class=\"col-sm-6\"><div class=\"service-details-content mt-30\"><h4>Step by Step Personalization</h4><p>Our AI based chat will go step by step so you make sure you can get what you want</p></div></div><div class=\"col-sm-6\"><div class=\"service-details-content mt-30\"><h4>AI Fraud Detection</h4><p>Protect your business and customers from fraudulent activities with our intelligent fraud detection system. Powered by machine learning algorithms, our solution identifies suspicious transactions and mitigates risks proactively, safeguarding the integrity of your marketplace.</p></div></div><div class=\"col-sm-6\"><div class=\"service-details-content mt-30\"><h4>AI Scoring</h4><p>Our AI will give score on vendors and customers and provide better services and optimizing dynamic pricing</p></div></div><div class=\"col-sm-6\"><div class=\"service-details-content mt-30\"><h4>Market Analyze and Trends</h4><p>Our system will consume TB of data from ours and competitors, provide trends and personalized recommendation for our customers</p></div></div></div></div></div></div></div></section></div>`)\n}\n\n\nimport { useSSRContext as __vite_useSSRContext } from 'vue'\nconst _sfc_setup = _sfc_main.setup\n_sfc_main.setup = (props, ctx) => {\n  const ssrContext = __vite_useSSRContext()\n  ;(ssrContext.modules || (ssrContext.modules = new Set())).add(\"components/FeatureDetailAI.vue\")\n  return _sfc_setup ? _sfc_setup(props, ctx) : undefined\n}\nimport _export_sfc from '\u0000plugin-vue:export-helper'\nexport default /*#__PURE__*/_export_sfc(_sfc_main, [['ssrRender',_sfc_ssrRender]])",
-      "start": 1715843841511,
-      "end": 1715843841512,
+      "start": 1716878818483,
+      "end": 1716878818485,
       "order": "normal",
       "sourcemaps": {
         "version": 3,
@@ -88,176 +88,176 @@
     },
     {
       "name": "vite:vue-jsx",
-      "start": 1715843841512,
-      "end": 1715843841512,
+      "start": 1716878818485,
+      "end": 1716878818485,
       "order": "normal"
     },
     {
       "name": "replace",
-      "start": 1715843841512,
-      "end": 1715843841512,
+      "start": 1716878818485,
+      "end": 1716878818485,
       "order": "normal"
     },
     {
       "name": "replace",
-      "start": 1715843841512,
-      "end": 1715843841512,
+      "start": 1716878818485,
+      "end": 1716878818485,
       "order": "normal"
     },
     {
       "name": "nuxt:remove-plugin-metadata",
-      "start": 1715843841512,
-      "end": 1715843841512,
+      "start": 1716878818485,
+      "end": 1716878818485,
       "order": "normal"
     },
     {
       "name": "nuxt:remove-plugin-metadata",
-      "start": 1715843841512,
-      "end": 1715843841512,
+      "start": 1716878818485,
+      "end": 1716878818485,
       "order": "normal"
     },
     {
       "name": "nuxt:components:imports",
-      "start": 1715843841512,
-      "end": 1715843841512,
+      "start": 1716878818485,
+      "end": 1716878818485,
       "order": "normal"
     },
     {
       "name": "replace",
-      "start": 1715843841512,
-      "end": 1715843841512,
+      "start": 1716878818485,
+      "end": 1716878818485,
       "order": "normal"
     },
     {
       "name": "ssr-styles",
-      "start": 1715843841512,
-      "end": 1715843841513,
+      "start": 1716878818485,
+      "end": 1716878818485,
       "order": "normal"
     },
     {
       "name": "vite:define",
-      "start": 1715843841513,
-      "end": 1715843841513,
+      "start": 1716878818485,
+      "end": 1716878818485,
       "order": "normal"
     },
     {
       "name": "vite:css-post",
-      "start": 1715843841513,
-      "end": 1715843841513,
+      "start": 1716878818485,
+      "end": 1716878818485,
       "order": "normal"
     },
     {
       "name": "vite:build-html",
-      "start": 1715843841513,
-      "end": 1715843841513,
+      "start": 1716878818485,
+      "end": 1716878818485,
       "order": "normal"
     },
     {
       "name": "vite:worker-import-meta-url",
-      "start": 1715843841513,
-      "end": 1715843841513,
+      "start": 1716878818485,
+      "end": 1716878818485,
       "order": "normal"
     },
     {
       "name": "vite:asset-import-meta-url",
-      "start": 1715843841513,
-      "end": 1715843841513,
+      "start": 1716878818485,
+      "end": 1716878818485,
       "order": "normal"
     },
     {
       "name": "commonjs",
-      "start": 1715843841513,
-      "end": 1715843841513,
+      "start": 1716878818485,
+      "end": 1716878818485,
       "order": "normal"
     },
     {
       "name": "vite:dynamic-import-vars",
-      "start": 1715843841513,
-      "end": 1715843841513,
+      "start": 1716878818485,
+      "end": 1716878818485,
       "order": "normal"
     },
     {
       "name": "vite:import-glob",
-      "start": 1715843841513,
-      "end": 1715843841513,
+      "start": 1716878818485,
+      "end": 1716878818485,
       "order": "normal"
     },
     {
       "name": "nuxt:composable-keys",
-      "start": 1715843841513,
-      "end": 1715843841513,
+      "start": 1716878818485,
+      "end": 1716878818485,
       "order": "post"
     },
     {
       "name": "nuxt:composable-keys",
-      "start": 1715843841513,
-      "end": 1715843841513,
+      "start": 1716878818485,
+      "end": 1716878818485,
       "order": "post"
     },
     {
       "name": "nuxt:imports-transform",
-      "start": 1715843841513,
-      "end": 1715843841513,
+      "start": 1716878818485,
+      "end": 1716878818486,
       "order": "post"
     },
     {
       "name": "nuxt:imports-transform",
-      "start": 1715843841513,
-      "end": 1715843841513,
+      "start": 1716878818485,
+      "end": 1716878818486,
       "order": "post"
     },
     {
       "name": "unctx:transform",
-      "start": 1715843841513,
-      "end": 1715843841513,
+      "start": 1716878818486,
+      "end": 1716878818486,
       "order": "post"
     },
     {
       "name": "unctx:transform",
-      "start": 1715843841513,
-      "end": 1715843841513,
+      "start": 1716878818486,
+      "end": 1716878818486,
       "order": "post"
     },
     {
       "name": "nuxt:pages-macros-transform",
-      "start": 1715843841513,
-      "end": 1715843841513,
+      "start": 1716878818486,
+      "end": 1716878818486,
       "order": "post"
     },
     {
       "name": "nuxt:pages-macros-transform",
-      "start": 1715843841513,
-      "end": 1715843841513,
+      "start": 1716878818486,
+      "end": 1716878818486,
       "order": "post"
     },
     {
       "name": "nuxt:tree-shake-template",
-      "start": 1715843841513,
-      "end": 1715843841513,
+      "start": 1716878818486,
+      "end": 1716878818486,
       "order": "post"
     },
     {
       "name": "nuxt:components-loader",
-      "start": 1715843841513,
-      "end": 1715843841513,
+      "start": 1716878818486,
+      "end": 1716878818486,
       "order": "post"
     },
     {
       "name": "nuxt:tree-shake-composables:transform",
-      "start": 1715843841513,
-      "end": 1715843841513,
+      "start": 1716878818486,
+      "end": 1716878818486,
       "order": "post"
     },
     {
       "name": "vite:build-import-analysis",
-      "start": 1715843841513,
-      "end": 1715843841513,
+      "start": 1716878818486,
+      "end": 1716878818486,
       "order": "normal"
     },
     {
       "name": "vite:reporter",
-      "start": 1715843841513,
-      "end": 1715843841513,
+      "start": 1716878818486,
+      "end": 1716878818486,
       "order": "normal"
     }
   ]

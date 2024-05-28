@@ -4,75 +4,75 @@
     {
       "name": "vite:load-fallback",
       "result": "<template>\r\n    <div class=\"main-container\">\r\n      \r\n        <!-- service section start -->\r\n        <section class=\"service-details-wrapper section-padding pb-125\">\r\n            <div class=\"container\">\r\n                <div class=\"row\">\r\n                    <div class=\"col-lg-4 mtn-40 order-2 order-lg-1\">\r\n                        <div class=\"service-details-widget\">\r\n                            <div class=\"service-single-widget mt-40\" :style=\"{backgroundColor: '#f8faff'}\">\r\n                                <h4 class=\"service-widget-title\">Technology Stack</h4>\r\n                                <ul class=\"service-list\">\r\n                                    <li><a href=\"#\">Dotnet 8 (LTS) or latest</a></li>\r\n                                   \r\n                                </ul>\r\n                            </div>\r\n                            <div class=\"service-single-widget mt-40\" :style=\"{backgroundColor: '#f8faff'}\">\r\n                                <h4 class=\"service-widget-title\">Download Docs</h4>\r\n                                <ul class=\"service-list\">\r\n                                    <li>No release yet on github</li>\r\n                                </ul>\r\n                            </div>\r\n                        </div>\r\n                    </div>\r\n                    <div class=\"col-lg-8 order-1 order-lg-2\">\r\n                        <div class=\"service-details\">\r\n                            <div class=\"service-details-thumb\">\r\n                            </div>\r\n                            <h3 class=\"mt-4 mb-3\">Business</h3>\r\n                            <p>In today's interconnected world, businesses of all sizes have unprecedented opportunities to tap into global markets. However, navigating the complexities of cross-border trade can be daunting, especially for SMBs with limited resources. This website aims to provide valuable insights and practical solutions tailored specifically to SMBs looking to expand their reach across borders.</p>\r\n                            <p class=\"mb-0\">Below is our plan the use of SMB in our APP</p>\r\n                            <div class=\"row\">\r\n                                <div class=\"col-sm-6\">\r\n                                    <div class=\"service-details-content mt-30\">\r\n                                        <h4>International Logistic</h4>\r\n                                        <p>App will integrate back to back </p>\r\n                                    </div>\r\n                                </div>\r\n                                <div class=\"col-sm-6\">\r\n                                    <div class=\"service-details-content mt-30\">\r\n                                        <h4>International Payment</h4>\r\n                                        <p>We will conduct KYC and KYB for our selected customer and supplier.</p>\r\n                                    </div>\r\n                                </div>\r\n                                <div class=\"col-sm-6\">\r\n                                    <div class=\"service-details-content mt-30\">\r\n                                        <h4>Real time multi currency support</h4>\r\n                                        <p>Our app will get real time currency from UK and EU central bank directly. </p>\r\n                                    </div>\r\n                                </div>\r\n                                <div class=\"col-sm-6\">\r\n                                    <div class=\"service-details-content mt-30\">\r\n                                        <h4>Cloud based cross border compliance</h4>\r\n                                        <p>Our app will use cloud based SAAS compliance to optimize cost and deliverables  </p>\r\n                                    </div>\r\n                                </div>\r\n                               \r\n                            </div>\r\n                        </div>\r\n                    </div>\r\n                </div>\r\n            </div>\r\n        </section>\r\n        <!-- service section end -->\r\n\r\n    </div>\r\n</template>\r\n\r\n<script>\r\n    \r\n</script>\r\n\r\n\r\n",
-      "start": 1715843841410,
-      "end": 1715843841517,
+      "start": 1716878818356,
+      "end": 1716878818492,
       "sourcemaps": null
     },
     {
       "name": "nuxt:layer-aliasing",
-      "start": 1715843841517,
-      "end": 1715843841517,
+      "start": 1716878818492,
+      "end": 1716878818492,
       "order": "pre"
     },
     {
       "name": "nuxt:layer-aliasing",
-      "start": 1715843841517,
-      "end": 1715843841517,
+      "start": 1716878818492,
+      "end": 1716878818492,
       "order": "pre"
     },
     {
       "name": "nuxt:server-devonly:transform",
-      "start": 1715843841517,
-      "end": 1715843841517,
+      "start": 1716878818492,
+      "end": 1716878818492,
       "order": "pre"
     },
     {
       "name": "nuxt:server-devonly:transform",
-      "start": 1715843841517,
-      "end": 1715843841517,
+      "start": 1716878818492,
+      "end": 1716878818492,
       "order": "pre"
     },
     {
       "name": "nuxt:client-fallback-auto-id",
-      "start": 1715843841517,
-      "end": 1715843841517,
+      "start": 1716878818492,
+      "end": 1716878818492,
       "order": "pre"
     },
     {
       "name": "server-only-component-transform",
-      "start": 1715843841517,
-      "end": 1715843841517,
+      "start": 1716878818492,
+      "end": 1716878818492,
       "order": "pre"
     },
     {
       "name": "vite:css",
-      "start": 1715843841517,
-      "end": 1715843841517,
+      "start": 1716878818492,
+      "end": 1716878818492,
       "order": "normal"
     },
     {
       "name": "vite:esbuild",
-      "start": 1715843841517,
-      "end": 1715843841517,
+      "start": 1716878818492,
+      "end": 1716878818492,
       "order": "normal"
     },
     {
       "name": "vite:json",
-      "start": 1715843841517,
-      "end": 1715843841517,
+      "start": 1716878818492,
+      "end": 1716878818492,
       "order": "normal"
     },
     {
       "name": "vite:worker",
-      "start": 1715843841517,
-      "end": 1715843841517,
+      "start": 1716878818492,
+      "end": 1716878818492,
       "order": "normal"
     },
     {
       "name": "vite:vue",
       "result": "const _sfc_main = {}\nimport { mergeProps as _mergeProps } from \"vue\"\nimport { ssrRenderStyle as _ssrRenderStyle, ssrRenderAttrs as _ssrRenderAttrs } from \"vue/server-renderer\"\n\nfunction _sfc_ssrRender(_ctx, _push, _parent, _attrs) {\n  _push(`<div${\n    _ssrRenderAttrs(_mergeProps({ class: \"main-container\" }, _attrs))\n  }><section class=\"service-details-wrapper section-padding pb-125\"><div class=\"container\"><div class=\"row\"><div class=\"col-lg-4 mtn-40 order-2 order-lg-1\"><div class=\"service-details-widget\"><div class=\"service-single-widget mt-40\" style=\"${\n    _ssrRenderStyle({backgroundColor: '#f8faff'})\n  }\"><h4 class=\"service-widget-title\">Technology Stack</h4><ul class=\"service-list\"><li><a href=\"#\">Dotnet 8 (LTS) or latest</a></li></ul></div><div class=\"service-single-widget mt-40\" style=\"${\n    _ssrRenderStyle({backgroundColor: '#f8faff'})\n  }\"><h4 class=\"service-widget-title\">Download Docs</h4><ul class=\"service-list\"><li>No release yet on github</li></ul></div></div></div><div class=\"col-lg-8 order-1 order-lg-2\"><div class=\"service-details\"><div class=\"service-details-thumb\"></div><h3 class=\"mt-4 mb-3\">Business</h3><p>In today&#39;s interconnected world, businesses of all sizes have unprecedented opportunities to tap into global markets. However, navigating the complexities of cross-border trade can be daunting, especially for SMBs with limited resources. This website aims to provide valuable insights and practical solutions tailored specifically to SMBs looking to expand their reach across borders.</p><p class=\"mb-0\">Below is our plan the use of SMB in our APP</p><div class=\"row\"><div class=\"col-sm-6\"><div class=\"service-details-content mt-30\"><h4>International Logistic</h4><p>App will integrate back to back </p></div></div><div class=\"col-sm-6\"><div class=\"service-details-content mt-30\"><h4>International Payment</h4><p>We will conduct KYC and KYB for our selected customer and supplier.</p></div></div><div class=\"col-sm-6\"><div class=\"service-details-content mt-30\"><h4>Real time multi currency support</h4><p>Our app will get real time currency from UK and EU central bank directly. </p></div></div><div class=\"col-sm-6\"><div class=\"service-details-content mt-30\"><h4>Cloud based cross border compliance</h4><p>Our app will use cloud based SAAS compliance to optimize cost and deliverables </p></div></div></div></div></div></div></div></section></div>`)\n}\n\n\nimport { useSSRContext as __vite_useSSRContext } from 'vue'\nconst _sfc_setup = _sfc_main.setup\n_sfc_main.setup = (props, ctx) => {\n  const ssrContext = __vite_useSSRContext()\n  ;(ssrContext.modules || (ssrContext.modules = new Set())).add(\"components/FeatureDetailSmallMedium.vue\")\n  return _sfc_setup ? _sfc_setup(props, ctx) : undefined\n}\nimport _export_sfc from '\u0000plugin-vue:export-helper'\nexport default /*#__PURE__*/_export_sfc(_sfc_main, [['ssrRender',_sfc_ssrRender]])",
-      "start": 1715843841517,
-      "end": 1715843841518,
+      "start": 1716878818492,
+      "end": 1716878818498,
       "order": "normal",
       "sourcemaps": {
         "version": 3,
@@ -88,176 +88,176 @@
     },
     {
       "name": "vite:vue-jsx",
-      "start": 1715843841518,
-      "end": 1715843841518,
+      "start": 1716878818498,
+      "end": 1716878818498,
       "order": "normal"
     },
     {
       "name": "replace",
-      "start": 1715843841518,
-      "end": 1715843841518,
+      "start": 1716878818498,
+      "end": 1716878818498,
       "order": "normal"
     },
     {
       "name": "replace",
-      "start": 1715843841518,
-      "end": 1715843841518,
+      "start": 1716878818498,
+      "end": 1716878818498,
       "order": "normal"
     },
     {
       "name": "nuxt:remove-plugin-metadata",
-      "start": 1715843841518,
-      "end": 1715843841520,
+      "start": 1716878818498,
+      "end": 1716878818499,
       "order": "normal"
     },
     {
       "name": "nuxt:remove-plugin-metadata",
-      "start": 1715843841518,
-      "end": 1715843841521,
+      "start": 1716878818498,
+      "end": 1716878818500,
       "order": "normal"
     },
     {
       "name": "nuxt:components:imports",
-      "start": 1715843841521,
-      "end": 1715843841521,
+      "start": 1716878818501,
+      "end": 1716878818501,
       "order": "normal"
     },
     {
       "name": "replace",
-      "start": 1715843841522,
-      "end": 1715843841522,
+      "start": 1716878818501,
+      "end": 1716878818502,
       "order": "normal"
     },
     {
       "name": "ssr-styles",
-      "start": 1715843841525,
-      "end": 1715843841525,
+      "start": 1716878818503,
+      "end": 1716878818503,
       "order": "normal"
     },
     {
       "name": "vite:define",
-      "start": 1715843841526,
-      "end": 1715843841526,
+      "start": 1716878818504,
+      "end": 1716878818504,
       "order": "normal"
     },
     {
       "name": "vite:css-post",
-      "start": 1715843841526,
-      "end": 1715843841526,
+      "start": 1716878818504,
+      "end": 1716878818504,
       "order": "normal"
     },
     {
       "name": "vite:build-html",
-      "start": 1715843841526,
-      "end": 1715843841526,
+      "start": 1716878818504,
+      "end": 1716878818504,
       "order": "normal"
     },
     {
       "name": "vite:worker-import-meta-url",
-      "start": 1715843841527,
-      "end": 1715843841527,
+      "start": 1716878818504,
+      "end": 1716878818504,
       "order": "normal"
     },
     {
       "name": "vite:asset-import-meta-url",
-      "start": 1715843841528,
-      "end": 1715843841528,
+      "start": 1716878818506,
+      "end": 1716878818506,
       "order": "normal"
     },
     {
       "name": "commonjs",
-      "start": 1715843841532,
-      "end": 1715843841532,
+      "start": 1716878818508,
+      "end": 1716878818509,
       "order": "normal"
     },
     {
       "name": "vite:dynamic-import-vars",
-      "start": 1715843841532,
-      "end": 1715843841532,
+      "start": 1716878818509,
+      "end": 1716878818509,
       "order": "normal"
     },
     {
       "name": "vite:import-glob",
-      "start": 1715843841533,
-      "end": 1715843841533,
+      "start": 1716878818510,
+      "end": 1716878818510,
       "order": "normal"
     },
     {
       "name": "nuxt:composable-keys",
-      "start": 1715843841533,
-      "end": 1715843841533,
+      "start": 1716878818510,
+      "end": 1716878818510,
       "order": "post"
     },
     {
       "name": "nuxt:composable-keys",
-      "start": 1715843841533,
-      "end": 1715843841533,
+      "start": 1716878818510,
+      "end": 1716878818510,
       "order": "post"
     },
     {
       "name": "nuxt:imports-transform",
-      "start": 1715843841533,
-      "end": 1715843841535,
+      "start": 1716878818510,
+      "end": 1716878818510,
       "order": "post"
     },
     {
       "name": "nuxt:imports-transform",
-      "start": 1715843841533,
-      "end": 1715843841535,
+      "start": 1716878818510,
+      "end": 1716878818510,
       "order": "post"
     },
     {
       "name": "unctx:transform",
-      "start": 1715843841535,
-      "end": 1715843841535,
+      "start": 1716878818510,
+      "end": 1716878818510,
       "order": "post"
     },
     {
       "name": "unctx:transform",
-      "start": 1715843841535,
-      "end": 1715843841537,
+      "start": 1716878818510,
+      "end": 1716878818511,
       "order": "post"
     },
     {
       "name": "nuxt:pages-macros-transform",
-      "start": 1715843841537,
-      "end": 1715843841537,
+      "start": 1716878818512,
+      "end": 1716878818512,
       "order": "post"
     },
     {
       "name": "nuxt:pages-macros-transform",
-      "start": 1715843841537,
-      "end": 1715843841537,
+      "start": 1716878818512,
+      "end": 1716878818512,
       "order": "post"
     },
     {
       "name": "nuxt:tree-shake-template",
-      "start": 1715843841538,
-      "end": 1715843841538,
+      "start": 1716878818512,
+      "end": 1716878818512,
       "order": "post"
     },
     {
       "name": "nuxt:components-loader",
-      "start": 1715843841538,
-      "end": 1715843841539,
+      "start": 1716878818512,
+      "end": 1716878818512,
       "order": "post"
     },
     {
       "name": "nuxt:tree-shake-composables:transform",
-      "start": 1715843841539,
-      "end": 1715843841539,
+      "start": 1716878818512,
+      "end": 1716878818512,
       "order": "post"
     },
     {
       "name": "vite:build-import-analysis",
-      "start": 1715843841539,
-      "end": 1715843841539,
+      "start": 1716878818512,
+      "end": 1716878818512,
       "order": "normal"
     },
     {
       "name": "vite:reporter",
-      "start": 1715843841540,
-      "end": 1715843841540,
+      "start": 1716878818512,
+      "end": 1716878818512,
       "order": "normal"
     }
   ]

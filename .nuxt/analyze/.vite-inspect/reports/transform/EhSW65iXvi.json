@@ -4,57 +4,57 @@
     {
       "name": "vite:load-fallback",
       "result": "<template>\r\n    <div class=\"main-search-active\" id=\"search-popup\">\r\n        <div class=\"sidebar-search-icon\">\r\n            <button class=\"search-close\" @click=\"toggleClass('removeClass', 'search-popup-open')\">\r\n                <i class=\"fa fa-times\"></i>\r\n            </button>\r\n        </div>\r\n        <div class=\"sidebar-search-input\">\r\n            <form>\r\n                <div class=\"form-search\">\r\n                    <input id=\"search\" class=\"input-text\" value=\"\" placeholder=\"\" type=\"search\">\r\n                    <button>\r\n                        <i class=\"fa fa-search\"></i>\r\n                    </button>\r\n                </div>\r\n            </form>\r\n            <p class=\"form-description\">Hit enter to search</p>\r\n        </div>\r\n    </div>\r\n</template>\r\n\r\n<script>\r\n    export default {\r\n        methods: {\r\n            // offcanvas search close\r\n            toggleClass(addRemoveClass, className) {\r\n                const el = document.querySelector('#search-popup');\r\n                if (addRemoveClass === 'addClass') {\r\n                    el.classList.add(className);\r\n                } else {\r\n                    el.classList.remove(className);\r\n                }\r\n            }\r\n        }\r\n    };\r\n</script>",
-      "start": 1715843836121,
-      "end": 1715843836202,
+      "start": 1716878812901,
+      "end": 1716878812950,
       "sourcemaps": null
     },
     {
       "name": "nuxt:layer-aliasing",
-      "start": 1715843836202,
-      "end": 1715843836202,
+      "start": 1716878812950,
+      "end": 1716878812950,
       "order": "pre"
     },
     {
       "name": "nuxt:server-devonly:transform",
-      "start": 1715843836202,
-      "end": 1715843836202,
+      "start": 1716878812950,
+      "end": 1716878812950,
       "order": "pre"
     },
     {
       "name": "nuxt:client-fallback-auto-id",
-      "start": 1715843836202,
-      "end": 1715843836202,
+      "start": 1716878812950,
+      "end": 1716878812950,
       "order": "pre"
     },
     {
       "name": "vite:css",
-      "start": 1715843836202,
-      "end": 1715843836202,
+      "start": 1716878812950,
+      "end": 1716878812950,
       "order": "normal"
     },
     {
       "name": "vite:esbuild",
-      "start": 1715843836202,
-      "end": 1715843836202,
+      "start": 1716878812950,
+      "end": 1716878812950,
       "order": "normal"
     },
     {
       "name": "vite:json",
-      "start": 1715843836202,
-      "end": 1715843836202,
+      "start": 1716878812950,
+      "end": 1716878812950,
       "order": "normal"
     },
     {
       "name": "vite:worker",
-      "start": 1715843836202,
-      "end": 1715843836202,
+      "start": 1716878812950,
+      "end": 1716878812950,
       "order": "normal"
     },
     {
       "name": "vite:vue",
       "result": "\r\n    const _sfc_main = {\r\n        methods: {\r\n            // offcanvas search close\r\n            toggleClass(addRemoveClass, className) {\r\n                const el = document.querySelector('#search-popup');\r\n                if (addRemoveClass === 'addClass') {\r\n                    el.classList.add(className);\r\n                } else {\r\n                    el.classList.remove(className);\r\n                }\r\n            }\r\n        }\r\n    };\r\n\nimport { createElementVNode as _createElementVNode, createStaticVNode as _createStaticVNode, openBlock as _openBlock, createElementBlock as _createElementBlock } from \"vue\"\n\nconst _hoisted_1 = {\n  class: \"main-search-active\",\n  id: \"search-popup\"\n}\nconst _hoisted_2 = { class: \"sidebar-search-icon\" }\nconst _hoisted_3 = /*#__PURE__*/_createElementVNode(\"i\", { class: \"fa fa-times\" }, null, -1)\nconst _hoisted_4 = [\n  _hoisted_3\n]\nconst _hoisted_5 = /*#__PURE__*/_createStaticVNode(\"<div class=\\\"sidebar-search-input\\\"><form><div class=\\\"form-search\\\"><input id=\\\"search\\\" class=\\\"input-text\\\" value=\\\"\\\" placeholder=\\\"\\\" type=\\\"search\\\"><button><i class=\\\"fa fa-search\\\"></i></button></div></form><p class=\\\"form-description\\\">Hit enter to search</p></div>\", 1)\n\nfunction _sfc_render(_ctx, _cache, $props, $setup, $data, $options) {\n  return (_openBlock(), _createElementBlock(\"div\", _hoisted_1, [\n    _createElementVNode(\"div\", _hoisted_2, [\n      _createElementVNode(\"button\", {\n        class: \"search-close\",\n        onClick: _cache[0] || (_cache[0] = $event => ($options.toggleClass('removeClass', 'search-popup-open')))\n      }, _hoisted_4)\n    ]),\n    _hoisted_5\n  ]))\n}\n\n\nimport _export_sfc from '\u0000plugin-vue:export-helper'\nexport default /*#__PURE__*/_export_sfc(_sfc_main, [['render',_sfc_render]])",
-      "start": 1715843836202,
-      "end": 1715843836204,
+      "start": 1716878812950,
+      "end": 1716878812951,
       "order": "normal",
       "sourcemaps": {
         "mappings": ""
@@ -62,152 +62,152 @@
     },
     {
       "name": "vite:vue-jsx",
-      "start": 1715843836204,
-      "end": 1715843836204,
+      "start": 1716878812951,
+      "end": 1716878812951,
       "order": "normal"
     },
     {
       "name": "replace",
-      "start": 1715843836204,
-      "end": 1715843836204,
+      "start": 1716878812951,
+      "end": 1716878812951,
       "order": "normal"
     },
     {
       "name": "nuxt:remove-plugin-metadata",
-      "start": 1715843836204,
-      "end": 1715843836204,
+      "start": 1716878812951,
+      "end": 1716878812951,
       "order": "normal"
     },
     {
       "name": "nuxt:chunk-error",
-      "start": 1715843836204,
-      "end": 1715843836204,
+      "start": 1716878812951,
+      "end": 1716878812951,
       "order": "normal"
     },
     {
       "name": "nuxt:components:imports",
-      "start": 1715843836204,
-      "end": 1715843836204,
+      "start": 1716878812951,
+      "end": 1716878812951,
       "order": "normal"
     },
     {
       "name": "replace",
-      "start": 1715843836204,
-      "end": 1715843836204,
+      "start": 1716878812951,
+      "end": 1716878812951,
       "order": "normal"
     },
     {
       "name": "ssr-styles",
-      "start": 1715843836204,
-      "end": 1715843836204,
+      "start": 1716878812951,
+      "end": 1716878812951,
       "order": "normal"
     },
     {
       "name": "vite:define",
-      "start": 1715843836204,
-      "end": 1715843836204,
+      "start": 1716878812951,
+      "end": 1716878812951,
       "order": "normal"
     },
     {
       "name": "vite:css-post",
-      "start": 1715843836204,
-      "end": 1715843836204,
+      "start": 1716878812951,
+      "end": 1716878812951,
       "order": "normal"
     },
     {
       "name": "vite:build-html",
-      "start": 1715843836204,
-      "end": 1715843836204,
+      "start": 1716878812951,
+      "end": 1716878812951,
       "order": "normal"
     },
     {
       "name": "vite:worker-import-meta-url",
-      "start": 1715843836204,
-      "end": 1715843836204,
+      "start": 1716878812951,
+      "end": 1716878812951,
       "order": "normal"
     },
     {
       "name": "vite:asset-import-meta-url",
-      "start": 1715843836204,
-      "end": 1715843836204,
+      "start": 1716878812951,
+      "end": 1716878812951,
       "order": "normal"
     },
     {
       "name": "commonjs",
-      "start": 1715843836204,
-      "end": 1715843836204,
+      "start": 1716878812951,
+      "end": 1716878812951,
       "order": "normal"
     },
     {
       "name": "vite:dynamic-import-vars",
-      "start": 1715843836204,
-      "end": 1715843836204,
+      "start": 1716878812951,
+      "end": 1716878812951,
       "order": "normal"
     },
     {
       "name": "vite:import-glob",
-      "start": 1715843836204,
-      "end": 1715843836204,
+      "start": 1716878812951,
+      "end": 1716878812951,
       "order": "normal"
     },
     {
       "name": "nuxt:composable-keys",
-      "start": 1715843836204,
-      "end": 1715843836204,
+      "start": 1716878812951,
+      "end": 1716878812951,
       "order": "post"
     },
     {
       "name": "nuxt:imports-transform",
-      "start": 1715843836204,
-      "end": 1715843836204,
+      "start": 1716878812951,
+      "end": 1716878812952,
       "order": "post"
     },
     {
       "name": "unctx:transform",
-      "start": 1715843836204,
-      "end": 1715843836204,
+      "start": 1716878812952,
+      "end": 1716878812952,
       "order": "post"
     },
     {
       "name": "nuxt:pages-macros-transform",
-      "start": 1715843836204,
-      "end": 1715843836204,
+      "start": 1716878812952,
+      "end": 1716878812952,
       "order": "post"
     },
     {
       "name": "nuxt:runtime-paths-dep",
-      "start": 1715843836204,
-      "end": 1715843836204,
+      "start": 1716878812952,
+      "end": 1716878812952,
       "order": "post"
     },
     {
       "name": "nuxt:route-injection-plugin",
-      "start": 1715843836204,
-      "end": 1715843836204,
+      "start": 1716878812952,
+      "end": 1716878812952,
       "order": "post"
     },
     {
       "name": "nuxt:components-loader",
-      "start": 1715843836204,
-      "end": 1715843836204,
+      "start": 1716878812952,
+      "end": 1716878812952,
       "order": "post"
     },
     {
       "name": "nuxt:tree-shake-composables:transform",
-      "start": 1715843836205,
-      "end": 1715843836205,
+      "start": 1716878812952,
+      "end": 1716878812952,
       "order": "post"
     },
     {
       "name": "vite:build-import-analysis",
-      "start": 1715843836205,
-      "end": 1715843836205,
+      "start": 1716878812952,
+      "end": 1716878812952,
       "order": "normal"
     },
     {
       "name": "vite:reporter",
-      "start": 1715843836205,
-      "end": 1715843836205,
+      "start": 1716878812952,
+      "end": 1716878812952,
       "order": "normal"
     }
   ]

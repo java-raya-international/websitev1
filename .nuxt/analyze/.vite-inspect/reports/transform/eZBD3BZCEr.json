@@ -4,57 +4,57 @@
     {
       "name": "vite:load-fallback",
       "result": "<template>\r\n    <nav class=\"site-main-menu\">\r\n        <ul>\r\n            <li>\r\n                <NuxtLink to=\"/\">Home</NuxtLink>\r\n                <!-- <ul class=\"sub-menu\">\r\n                    <li>\r\n                        <NuxtLink to=\"/\">Home One</NuxtLink>\r\n                    </li>\r\n                    <li>\r\n                        <NuxtLink to=\"/home-two\">Home Two</NuxtLink>\r\n                    </li>\r\n                    <li>\r\n                        <NuxtLink to=\"/home-three\">Home Three</NuxtLink>\r\n                    </li>\r\n                </ul> -->\r\n            </li>\r\n            <li class=\"has-children\">\r\n                <NuxtLink to=\"#\">Products</NuxtLink>\r\n                <ul class=\"sub-menu\"  >\r\n                    <template v-for=\"(product, index) in productData.slice(0, 6)\" :key=\"index\">\r\n\r\n                        <li>\r\n                            <!-- <a href=\"{{ feature.slug }}\">A</a>     -->\r\n\r\n                            <!-- <NuxtLink to=\"/features/{features.slug}\"> A </NuxtLink> -->\r\n\r\n\r\n                            <NuxtLink :to=\"`/products/${product.slug}`\" class=\"link\">{{product.title}}</NuxtLink>\r\n                        </li>\r\n                    </template>\r\n\r\n                    <!-- <li>\r\n                        <NuxtLink :to=\"`/features/ai`\">Artificial Intelligence</NuxtLink>\r\n                    </li>\r\n                    <li>\r\n                        <NuxtLink :to=\"`/features/blockchain`\">Blockchain</NuxtLink>\r\n                    </li>\r\n                    <li>\r\n                        <NuxtLink :to=\"`/features/decentralized`\">Decentralized ID</NuxtLink>\r\n                    </li>\r\n                    <li>\r\n                        <NuxtLink :to=\"`/features/greenproduct`\">Product</NuxtLink>\r\n                    </li>\r\n                    <li>\r\n                        <NuxtLink :to=\"`/features/multidevice`\">Any Device</NuxtLink>\r\n                    </li>\r\n                    <li>\r\n                        <NuxtLink :to=\"`/features/msmb`\">Business</NuxtLink>\r\n                    </li> -->\r\n                </ul>\r\n            </li>\r\n            <li>\r\n                <NuxtLink to=\"/about/company\">About</NuxtLink>\r\n            </li>\r\n            <!-- <li class=\"has-children\">\r\n                <NuxtLink to=\"/service\">Service</NuxtLink>\r\n                <ul class=\"sub-menu\">\r\n                    <li>\r\n                        <NuxtLink to=\"/service\">Service</NuxtLink>\r\n                    </li>\r\n                    <li>\r\n                        <NuxtLink to=\"/service/branding\">Service Details</NuxtLink>\r\n                    </li>\r\n                </ul>\r\n            </li> -->\r\n            <!-- <li class=\"has-children\">\r\n                <NuxtLink to=\"/project\">Project</NuxtLink>\r\n                <ul class=\"sub-menu\">\r\n                    <li>\r\n                        <NuxtLink to=\"/project\">Project</NuxtLink>\r\n                    </li>\r\n                    <li>\r\n                        <NuxtLink to=\"/project/project-details\">Project Details</NuxtLink>\r\n                    </li>\r\n                </ul>\r\n            </li> -->\r\n            <!-- <li class=\"has-children\">\r\n                <NuxtLink to=\"/blog\">Blog</NuxtLink>\r\n                <ul class=\"sub-menu\">\r\n                    <li>\r\n                        <NuxtLink to=\"/blog\">Blog Grid</NuxtLink>\r\n                    </li>\r\n                    <li>\r\n                        <NuxtLink to=\"/blog/blog-classic\">Blog Classic</NuxtLink>\r\n                    </li>\r\n                    <li>\r\n                        <NuxtLink to=\"/blog/blog-details\">Blog Details</NuxtLink>\r\n                    </li>\r\n                </ul>\r\n            </li> -->\r\n            <!-- <li>\r\n                <NuxtLink to=\"/contact-us\">Contact Us</NuxtLink>\r\n            </li> -->\r\n        </ul>\r\n    </nav>\r\n</template>\r\n\r\n<script>\r\n    import productData from '~/data/products.json'\r\n    export default {\r\n        props: [\"addClassName\"],\r\n\r\n        components: {\r\n            SectionTitle: () => import(\"@/components/SectionTitle\"),\r\n        },\r\n\r\n        data() {\r\n            return {\r\n                productData\r\n            }\r\n        },\r\n    };\r\n</script>",
-      "start": 1715843836446,
-      "end": 1715843836862,
+      "start": 1716878813527,
+      "end": 1716878813578,
       "sourcemaps": null
     },
     {
       "name": "nuxt:layer-aliasing",
-      "start": 1715843836862,
-      "end": 1715843836862,
+      "start": 1716878813578,
+      "end": 1716878813578,
       "order": "pre"
     },
     {
       "name": "nuxt:server-devonly:transform",
-      "start": 1715843836862,
-      "end": 1715843836862,
+      "start": 1716878813578,
+      "end": 1716878813578,
       "order": "pre"
     },
     {
       "name": "nuxt:client-fallback-auto-id",
-      "start": 1715843836862,
-      "end": 1715843836862,
+      "start": 1716878813578,
+      "end": 1716878813578,
       "order": "pre"
     },
     {
       "name": "vite:css",
-      "start": 1715843836862,
-      "end": 1715843836862,
+      "start": 1716878813578,
+      "end": 1716878813578,
       "order": "normal"
     },
     {
       "name": "vite:esbuild",
-      "start": 1715843836862,
-      "end": 1715843836862,
+      "start": 1716878813578,
+      "end": 1716878813578,
       "order": "normal"
     },
     {
       "name": "vite:json",
-      "start": 1715843836862,
-      "end": 1715843836862,
+      "start": 1716878813578,
+      "end": 1716878813578,
       "order": "normal"
     },
     {
       "name": "vite:worker",
-      "start": 1715843836862,
-      "end": 1715843836862,
+      "start": 1716878813578,
+      "end": 1716878813578,
       "order": "normal"
     },
     {
       "name": "vite:vue",
       "result": "\r\n    import productData from '~/data/products.json'\r\n    const _sfc_main = {\r\n        props: [\"addClassName\"],\r\n\r\n        components: {\r\n            SectionTitle: () => import(\"@/components/SectionTitle\"),\r\n        },\r\n\r\n        data() {\r\n            return {\r\n                productData\r\n            }\r\n        },\r\n    };\r\n\nimport { createTextVNode as _createTextVNode, resolveComponent as _resolveComponent, withCtx as _withCtx, createVNode as _createVNode, createElementVNode as _createElementVNode, renderList as _renderList, Fragment as _Fragment, openBlock as _openBlock, createElementBlock as _createElementBlock, toDisplayString as _toDisplayString } from \"vue\"\n\nconst _hoisted_1 = { class: \"site-main-menu\" }\nconst _hoisted_2 = { class: \"has-children\" }\nconst _hoisted_3 = { class: \"sub-menu\" }\n\nfunction _sfc_render(_ctx, _cache, $props, $setup, $data, $options) {\n  const _component_NuxtLink = _resolveComponent(\"NuxtLink\")\n\n  return (_openBlock(), _createElementBlock(\"nav\", _hoisted_1, [\n    _createElementVNode(\"ul\", null, [\n      _createElementVNode(\"li\", null, [\n        _createVNode(_component_NuxtLink, { to: \"/\" }, {\n          default: _withCtx(() => [\n            _createTextVNode(\"Home\")\n          ]),\n          _: 1\n        })\n      ]),\n      _createElementVNode(\"li\", _hoisted_2, [\n        _createVNode(_component_NuxtLink, { to: \"#\" }, {\n          default: _withCtx(() => [\n            _createTextVNode(\"Products\")\n          ]),\n          _: 1\n        }),\n        _createElementVNode(\"ul\", _hoisted_3, [\n          (_openBlock(true), _createElementBlock(_Fragment, null, _renderList($data.productData.slice(0, 6), (product, index) => {\n            return (_openBlock(), _createElementBlock(\"li\", { key: index }, [\n              _createVNode(_component_NuxtLink, {\n                to: `/products/${product.slug}`,\n                class: \"link\"\n              }, {\n                default: _withCtx(() => [\n                  _createTextVNode(_toDisplayString(product.title), 1)\n                ]),\n                _: 2\n              }, 1032, [\"to\"])\n            ]))\n          }), 128))\n        ])\n      ]),\n      _createElementVNode(\"li\", null, [\n        _createVNode(_component_NuxtLink, { to: \"/about/company\" }, {\n          default: _withCtx(() => [\n            _createTextVNode(\"About\")\n          ]),\n          _: 1\n        })\n      ])\n    ])\n  ]))\n}\n\n\nimport _export_sfc from '\u0000plugin-vue:export-helper'\nexport default /*#__PURE__*/_export_sfc(_sfc_main, [['render',_sfc_render]])",
-      "start": 1715843836862,
-      "end": 1715843836864,
+      "start": 1716878813578,
+      "end": 1716878813579,
       "order": "normal",
       "sourcemaps": {
         "mappings": ""
@@ -62,155 +62,155 @@
     },
     {
       "name": "vite:vue-jsx",
-      "start": 1715843836864,
-      "end": 1715843836864,
+      "start": 1716878813579,
+      "end": 1716878813579,
       "order": "normal"
     },
     {
       "name": "replace",
-      "start": 1715843836864,
-      "end": 1715843836864,
+      "start": 1716878813579,
+      "end": 1716878813579,
       "order": "normal"
     },
     {
       "name": "nuxt:remove-plugin-metadata",
-      "start": 1715843836864,
-      "end": 1715843836864,
+      "start": 1716878813579,
+      "end": 1716878813579,
       "order": "normal"
     },
     {
       "name": "nuxt:chunk-error",
-      "start": 1715843836864,
-      "end": 1715843836864,
+      "start": 1716878813579,
+      "end": 1716878813579,
       "order": "normal"
     },
     {
       "name": "nuxt:components:imports",
-      "start": 1715843836864,
-      "end": 1715843836864,
+      "start": 1716878813579,
+      "end": 1716878813580,
       "order": "normal"
     },
     {
       "name": "replace",
-      "start": 1715843836864,
-      "end": 1715843836864,
+      "start": 1716878813580,
+      "end": 1716878813580,
       "order": "normal"
     },
     {
       "name": "ssr-styles",
-      "start": 1715843836864,
-      "end": 1715843836864,
+      "start": 1716878813580,
+      "end": 1716878813580,
       "order": "normal"
     },
     {
       "name": "vite:define",
-      "start": 1715843836864,
-      "end": 1715843836864,
+      "start": 1716878813580,
+      "end": 1716878813580,
       "order": "normal"
     },
     {
       "name": "vite:css-post",
-      "start": 1715843836864,
-      "end": 1715843836864,
+      "start": 1716878813580,
+      "end": 1716878813580,
       "order": "normal"
     },
     {
       "name": "vite:build-html",
-      "start": 1715843836864,
-      "end": 1715843836864,
+      "start": 1716878813580,
+      "end": 1716878813580,
       "order": "normal"
     },
     {
       "name": "vite:worker-import-meta-url",
-      "start": 1715843836864,
-      "end": 1715843836864,
+      "start": 1716878813580,
+      "end": 1716878813580,
       "order": "normal"
     },
     {
       "name": "vite:asset-import-meta-url",
-      "start": 1715843836864,
-      "end": 1715843836864,
+      "start": 1716878813580,
+      "end": 1716878813580,
       "order": "normal"
     },
     {
       "name": "commonjs",
-      "start": 1715843836864,
-      "end": 1715843836864,
+      "start": 1716878813580,
+      "end": 1716878813580,
       "order": "normal"
     },
     {
       "name": "vite:dynamic-import-vars",
-      "start": 1715843836864,
-      "end": 1715843836864,
+      "start": 1716878813580,
+      "end": 1716878813580,
       "order": "normal"
     },
     {
       "name": "vite:import-glob",
-      "start": 1715843836864,
-      "end": 1715843836864,
+      "start": 1716878813580,
+      "end": 1716878813580,
       "order": "normal"
     },
     {
       "name": "nuxt:composable-keys",
-      "start": 1715843836864,
-      "end": 1715843836864,
+      "start": 1716878813580,
+      "end": 1716878813580,
       "order": "post"
     },
     {
       "name": "nuxt:imports-transform",
-      "start": 1715843836864,
-      "end": 1715843836865,
+      "start": 1716878813580,
+      "end": 1716878813580,
       "order": "post"
     },
     {
       "name": "unctx:transform",
-      "start": 1715843836865,
-      "end": 1715843836865,
+      "start": 1716878813580,
+      "end": 1716878813580,
       "order": "post"
     },
     {
       "name": "nuxt:pages-macros-transform",
-      "start": 1715843836865,
-      "end": 1715843836865,
+      "start": 1716878813580,
+      "end": 1716878813580,
       "order": "post"
     },
     {
       "name": "nuxt:runtime-paths-dep",
-      "start": 1715843836865,
-      "end": 1715843836865,
+      "start": 1716878813580,
+      "end": 1716878813580,
       "order": "post"
     },
     {
       "name": "nuxt:route-injection-plugin",
-      "start": 1715843836865,
-      "end": 1715843836865,
+      "start": 1716878813580,
+      "end": 1716878813580,
       "order": "post"
     },
     {
       "name": "nuxt:components-loader",
       "result": "import { default as __nuxt_component_0 } from \"E:/Projects/JavaRayaInternational/website/node_modules/nuxt/dist/app/components/nuxt-link\";\n\r\n    import productData from '~/data/products.json'\r\n    const _sfc_main = {\r\n        props: [\"addClassName\"],\r\n\r\n        components: {\r\n            SectionTitle: () => import(\"@/components/SectionTitle\"),\r\n        },\r\n\r\n        data() {\r\n            return {\r\n                productData\r\n            }\r\n        },\r\n    };\r\n\nimport { createTextVNode as _createTextVNode, resolveComponent as _resolveComponent, withCtx as _withCtx, createVNode as _createVNode, createElementVNode as _createElementVNode, renderList as _renderList, Fragment as _Fragment, openBlock as _openBlock, createElementBlock as _createElementBlock, toDisplayString as _toDisplayString } from \"vue\"\n\nconst _hoisted_1 = { class: \"site-main-menu\" }\nconst _hoisted_2 = { class: \"has-children\" }\nconst _hoisted_3 = { class: \"sub-menu\" }\n\nfunction _sfc_render(_ctx, _cache, $props, $setup, $data, $options) {\n  const _component_NuxtLink = __nuxt_component_0\n\n  return (_openBlock(), _createElementBlock(\"nav\", _hoisted_1, [\n    _createElementVNode(\"ul\", null, [\n      _createElementVNode(\"li\", null, [\n        _createVNode(_component_NuxtLink, { to: \"/\" }, {\n          default: _withCtx(() => [\n            _createTextVNode(\"Home\")\n          ]),\n          _: 1\n        })\n      ]),\n      _createElementVNode(\"li\", _hoisted_2, [\n        _createVNode(_component_NuxtLink, { to: \"#\" }, {\n          default: _withCtx(() => [\n            _createTextVNode(\"Products\")\n          ]),\n          _: 1\n        }),\n        _createElementVNode(\"ul\", _hoisted_3, [\n          (_openBlock(true), _createElementBlock(_Fragment, null, _renderList($data.productData.slice(0, 6), (product, index) => {\n            return (_openBlock(), _createElementBlock(\"li\", { key: index }, [\n              _createVNode(_component_NuxtLink, {\n                to: `/products/${product.slug}`,\n                class: \"link\"\n              }, {\n                default: _withCtx(() => [\n                  _createTextVNode(_toDisplayString(product.title), 1)\n                ]),\n                _: 2\n              }, 1032, [\"to\"])\n            ]))\n          }), 128))\n        ])\n      ]),\n      _createElementVNode(\"li\", null, [\n        _createVNode(_component_NuxtLink, { to: \"/about/company\" }, {\n          default: _withCtx(() => [\n            _createTextVNode(\"About\")\n          ]),\n          _: 1\n        })\n      ])\n    ])\n  ]))\n}\n\n\nimport _export_sfc from '\u0000plugin-vue:export-helper'\nexport default /*#__PURE__*/_export_sfc(_sfc_main, [['render',_sfc_render]])",
-      "start": 1715843836865,
-      "end": 1715843836865,
+      "start": 1716878813580,
+      "end": 1716878813580,
       "order": "post"
     },
     {
       "name": "nuxt:tree-shake-composables:transform",
-      "start": 1715843836865,
-      "end": 1715843836865,
+      "start": 1716878813580,
+      "end": 1716878813580,
       "order": "post"
     },
     {
       "name": "vite:build-import-analysis",
       "result": "import { __vitePreload } from \"\u0000vite/preload-helper.js\";import { default as __nuxt_component_0 } from \"E:/Projects/JavaRayaInternational/website/node_modules/nuxt/dist/app/components/nuxt-link\";\n\r\n    import productData from '~/data/products.json'\r\n    const _sfc_main = {\r\n        props: [\"addClassName\"],\r\n\r\n        components: {\r\n            SectionTitle: () => __vitePreload(() => import(\"@/components/SectionTitle\"),__VITE_IS_MODERN__?\"__VITE_PRELOAD__\":void 0,import.meta.url),\r\n        },\r\n\r\n        data() {\r\n            return {\r\n                productData\r\n            }\r\n        },\r\n    };\r\n\nimport { createTextVNode as _createTextVNode, resolveComponent as _resolveComponent, withCtx as _withCtx, createVNode as _createVNode, createElementVNode as _createElementVNode, renderList as _renderList, Fragment as _Fragment, openBlock as _openBlock, createElementBlock as _createElementBlock, toDisplayString as _toDisplayString } from \"vue\"\n\nconst _hoisted_1 = { class: \"site-main-menu\" }\nconst _hoisted_2 = { class: \"has-children\" }\nconst _hoisted_3 = { class: \"sub-menu\" }\n\nfunction _sfc_render(_ctx, _cache, $props, $setup, $data, $options) {\n  const _component_NuxtLink = __nuxt_component_0\n\n  return (_openBlock(), _createElementBlock(\"nav\", _hoisted_1, [\n    _createElementVNode(\"ul\", null, [\n      _createElementVNode(\"li\", null, [\n        _createVNode(_component_NuxtLink, { to: \"/\" }, {\n          default: _withCtx(() => [\n            _createTextVNode(\"Home\")\n          ]),\n          _: 1\n        })\n      ]),\n      _createElementVNode(\"li\", _hoisted_2, [\n        _createVNode(_component_NuxtLink, { to: \"#\" }, {\n          default: _withCtx(() => [\n            _createTextVNode(\"Products\")\n          ]),\n          _: 1\n        }),\n        _createElementVNode(\"ul\", _hoisted_3, [\n          (_openBlock(true), _createElementBlock(_Fragment, null, _renderList($data.productData.slice(0, 6), (product, index) => {\n            return (_openBlock(), _createElementBlock(\"li\", { key: index }, [\n              _createVNode(_component_NuxtLink, {\n                to: `/products/${product.slug}`,\n                class: \"link\"\n              }, {\n                default: _withCtx(() => [\n                  _createTextVNode(_toDisplayString(product.title), 1)\n                ]),\n                _: 2\n              }, 1032, [\"to\"])\n            ]))\n          }), 128))\n        ])\n      ]),\n      _createElementVNode(\"li\", null, [\n        _createVNode(_component_NuxtLink, { to: \"/about/company\" }, {\n          default: _withCtx(() => [\n            _createTextVNode(\"About\")\n          ]),\n          _: 1\n        })\n      ])\n    ])\n  ]))\n}\n\n\nimport _export_sfc from '\u0000plugin-vue:export-helper'\nexport default /*#__PURE__*/_export_sfc(_sfc_main, [['render',_sfc_render]])",
-      "start": 1715843836865,
-      "end": 1715843836865,
+      "start": 1716878813580,
+      "end": 1716878813581,
       "order": "normal",
       "sourcemaps": null
     },
     {
       "name": "vite:reporter",
-      "start": 1715843836865,
-      "end": 1715843836865,
+      "start": 1716878813581,
+      "end": 1716878813581,
       "order": "normal"
     }
   ]

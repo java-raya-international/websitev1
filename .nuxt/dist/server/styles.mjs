@@ -10,9 +10,9 @@ export default {
   "components/ProductMaterialMetal.vue": () => import('./_nuxt/ProductMaterialMetal-styles.D4Gtkx4T.mjs').then(interopDefault),
   "components/ProductMaterialCarbonActivated.vue?vue&type=style&index=0&lang.css": () => import('./_nuxt/ProductMaterialCarbonActivated-styles.KgVGKGto.mjs').then(interopDefault),
   "components/ProductMaterialMetal.vue?vue&type=style&index=0&lang.css": () => import('./_nuxt/ProductMaterialMetal-styles.D4Gtkx4T.mjs').then(interopDefault),
-  "components/PortfolioGalleryTwo.vue?vue&type=style&index=0&lang.scss": () => import('./_nuxt/PortfolioGalleryTwo-styles.CHgc_P-7.mjs').then(interopDefault),
   "components/MobileNavigation.vue": () => import('./_nuxt/MobileNavigation-styles.Px847-FG.mjs').then(interopDefault),
-  "layouts/error.vue": () => import('./_nuxt/error-styles.C9EW7IWd.mjs').then(interopDefault),
+  "components/PortfolioGalleryTwo.vue?vue&type=style&index=0&lang.scss": () => import('./_nuxt/PortfolioGalleryTwo-styles.CHgc_P-7.mjs').then(interopDefault),
   "components/MobileNavigation.vue?vue&type=style&index=0&lang.scss": () => import('./_nuxt/MobileNavigation-styles.Px847-FG.mjs').then(interopDefault),
+  "layouts/error.vue": () => import('./_nuxt/error-styles.C9EW7IWd.mjs').then(interopDefault),
   "layouts/error.vue?vue&type=style&index=0&scoped=aec0da7f&lang.scss": () => import('./_nuxt/error-styles.C9EW7IWd.mjs').then(interopDefault)
 }
